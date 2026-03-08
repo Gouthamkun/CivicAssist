@@ -1,0 +1,9 @@
+Employees Provident Fund withdrawal process:
+
+1. Login to EPFO UAN portal
+2. Go to Online Services
+3. Select Claim (Form-31, Form-19 or Form-10C)
+4. Verify Aadhaar OTP
+5. Submit the request
+
+Processing usually takes 5-10 working days.

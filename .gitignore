@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector DB
+vector_db/
+
+# IDEs
+.vscode/
+.idea/

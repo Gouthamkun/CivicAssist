@@ -1,0 +1,11 @@
+File your ITR: Ensure your Income Tax Return is filed and e-verified via the e-Filing portal.
+
+Login to Dashboard: Access your account at the Income Tax Department portal using your PAN/Aadhaar.
+
+Check Status: Go to 'e-File' > 'Income Tax Returns' > 'View Filed Returns'.
+
+Verify Bank Account: Ensure your bank account is 'Validated' and 'e-Refund Enabled' for direct credit.
+
+Monitor Processing: Wait for the 143(1) Intimation notice via email confirming the refund amount.
+
+Processing usually takes 2-8 weeks after successful e-verification, depending on the complexity of the return.
