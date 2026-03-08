@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CivicAssist | Login</title>
+    <!-- Modern Typography fitting the official look -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Abstract background layer for depth */
+        .bg-shapes {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            overflow: hidden;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .bg-shapes::before, .bg-shapes::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(228,49,55,0.15) 0%, rgba(28,40,61,0) 70%);
+        }
+        .bg-shapes::before {
+            width: 800px; height: 800px;
+            top: -200px; left: -200px;
+        }
+        .bg-shapes::after {
+            width: 600px; height: 600px;
+            bottom: -150px; right: -100px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(28,40,61,0) 70%);
+        }
+
+        .auth-container {
+            position: relative;
+            z-index: 10;
+            background: var(--white);
+            width: 100%;
+            max-width: 420px;
+            border-radius: 8px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            padding: 40px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .auth-logo {
+            margin-bottom: 20px;
+        }
+        
+        .auth-logo i {
+            font-size: 3rem;
+            color: var(--primary-red);
+        }
+
+        .auth-logo h2 {
+            font-size: 1.8rem;
+            color: var(--primary-blue);
+            margin-top: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .form-toggle {
+            display: flex;
+            background: #f1f5f9;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            padding: 4px;
+            position: relative;
+        }
+
+        .toggle-btn {
+            flex: 1;
+            padding: 10px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            border-radius: 4px;
+            z-index: 2;
+            transition: color 0.3s;
+        }
+
+        .toggle-btn.active {
+            color: var(--primary-blue);
+        }
+
+        .toggle-slider {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: calc(50% - 4px);
+            height: calc(100% - 8px);
+            background: var(--white);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            z-index: 1;
+        }
+
+        .auth-form {
+            display: none;
+            flex-direction: column;
+            gap: 15px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .auth-form.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .input-group {
+            position: relative;
+            text-align: left;
+        }
+
+        .input-group i {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px 12px 40px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+            color: var(--text-dark);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .input-group input:focus {
+            border-color: var(--primary-blue);
+        }
+
+        .btn-auth {
+            background-color: var(--primary-red);
+            color: var(--white);
+            padding: 14px;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-auth:hover {
+            background-color: #b91d21;
+        }
+
+        .auth-footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .auth-footer a {
+            color: var(--primary-blue);
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="bg-shapes"></div>
+
+    <div class="auth-container">
+        <div class="auth-logo">
+            <i class="fa-solid fa-landmark-dome"></i>
+            <h2>CivicAssist</h2>
+        </div>
+
+        <div class="form-toggle">
+            <div class="toggle-slider" id="slider"></div>
+            <button class="toggle-btn active" onclick="switchTab('login')">Login</button>
+            <button class="toggle-btn" onclick="switchTab('register')">Register</button>
+        </div>
+
+        <!-- Login Form -->
+        <form id="login-form" class="auth-form active">
+            <div class="input-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="login-email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="login-password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn-auth">Access Portal</button>
+        </form>
+
+        <!-- Register Form -->
+        <form id="register-form" class="auth-form">
+            <div class="input-group">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="reg-name" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="reg-email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="reg-phone" placeholder="Mobile Number" required>
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="reg-password" placeholder="Create Password" minlength="6" required>
+            </div>
+            <button type="submit" class="btn-auth">Create Account</button>
+        </form>
+
+        <div class="auth-footer">
+            Secure National Authentication Gateway
+        </div>
+    </div>
+
+    <script>
+        // Optional: Redirect if already logged in
+        if (localStorage.getItem('civic_logged_in') === 'true') {
+            window.location.href = 'index.html';
+        }
+
+        function switchTab(tab) {
+            const loginForm = document.getElementById('login-form');
+            const registerForm = document.getElementById('register-form');
+            const slider = document.getElementById('slider');
+            const buttons = document.querySelectorAll('.toggle-btn');
+
+            // Clear messages
+            document.querySelectorAll('.auth-msg').forEach(el => el.remove());
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            if (tab === 'login') {
+                loginForm.classList.add('active');
+                registerForm.classList.remove('active');
+                slider.style.transform = 'translateX(0)';
+                buttons[0].classList.add('active');
+            } else {
+                loginForm.classList.remove('active');
+                registerForm.classList.add('active');
+                slider.style.transform = 'translateX(100%)';
+                buttons[1].classList.add('active');
+            }
+        }
+
+        function showMessage(form, msg, isError) {
+            document.querySelectorAll('.auth-msg').forEach(el => el.remove());
+            const msgDiv = document.createElement('div');
+            msgDiv.className = 'auth-msg';
+            msgDiv.style.color = isError ? 'var(--primary-red)' : '#00b074';
+            msgDiv.style.fontSize = '0.9rem';
+            msgDiv.style.marginBottom = '15px';
+            msgDiv.style.fontWeight = '500';
+            msgDiv.innerText = msg;
+            
+            const btn = form.querySelector('button[type="submit"]');
+            form.insertBefore(msgDiv, btn);
+        }
+
+        // Registration Logic
+        document.getElementById('register-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const email = document.getElementById('reg-email').value.trim().toLowerCase();
+            const password = document.getElementById('reg-password').value;
+            const name = document.getElementById('reg-name').value;
+            const phone = document.getElementById('reg-phone').value;
+
+            let users = JSON.parse(localStorage.getItem('civic_users') || '{}');
+
+            if (users[email]) {
+                showMessage(form, "An account with this email already exists.", true);
+                return;
+            }
+
+            users[email] = { name, password, phone };
+            localStorage.setItem('civic_users', JSON.stringify(users));
+
+            showMessage(form, "Registration successful! Redirecting to login...", false);
+            
+            setTimeout(() => {
+                form.reset();
+                switchTab('login');
+                document.getElementById('login-email').value = email;
+            }, 1000);
+        });
+
+        // Login Logic
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const email = document.getElementById('login-email').value.trim().toLowerCase();
+            const password = document.getElementById('login-password').value;
+
+            let users = JSON.parse(localStorage.getItem('civic_users') || '{}');
+
+            if (!users[email]) {
+                showMessage(form, "Account not found. Please register first.", true);
+                return;
+            }
+
+            if (users[email].password !== password) {
+                showMessage(form, "Incorrect password. Please try again.", true);
+                return;
+            }
+
+            // Success
+            const btn = form.querySelector('button');
+            const originalText = btn.innerText;
+            btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Authenticating...';
+            
+            localStorage.setItem('civic_logged_in', 'true');
+            // Store email along with the rest of the profile data
+            const currentUser = users[email];
+            currentUser.email = email;
+            localStorage.setItem('civic_current_user', JSON.stringify(currentUser));
+
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 800);
+        });
+    </script>
+</body>
+</html>
