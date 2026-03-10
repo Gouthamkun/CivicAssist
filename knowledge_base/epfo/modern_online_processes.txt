@@ -1,0 +1,62 @@
+---
+SOURCE: official_modern_guide
+DOMAIN: epfo
+CATEGORY: guide
+LAST_UPDATED: 2026-03-10
+---
+
+[Modern Online PF Transfer Process]
+
+[CONTENT]
+To transfer your PF (Provident Fund) online to a new employer, follow these modern steps:
+1. Login to the UAN Member Portal (https://unifiedportal-mem.epfindia.gov.in/memberinterface/) using your UAN and password.
+2. Go to the 'Online Services' tab in the top menu.
+3. Click on 'One Member - One EPF Account (Transfer Request)'.
+4. Verify your personal information and present employer's PF account details.
+5. Click on 'Get Details' to retrieve your previous employment details.
+6. Choose either your previous employer or current employer for attesting the claim form.
+7. Enter your UAN or Member ID and click 'Get OTP'. An OTP will be sent to your Aadhaar-linked mobile number.
+8. Submit the OTP to authenticate and complete the transfer request.
+9. Your selected employer will verify and approve the transfer request online.
+
+[FORMS_REFERENCED]
+If the user still needs the offline physical form for PF Transfer, you must provide them with this exact action:
+Action Label: Download Form 13 (PF Transfer)
+Action URL: forms/PF Transfer.pdf
+
+---
+
+[Modern Online PF Withdrawal Process (Form 19 & 31)]
+
+[CONTENT]
+To withdraw your PF (Provident Fund) or take an advance online, follow these modern steps:
+1. Login to the UAN Member Portal using your UAN and Password.
+2. Ensure your KYC (Aadhaar, PAN, and Bank Account details) is completely verified. A verified Bank Account is mandatory.
+3. Go to the 'Online Services' tab and select 'Claim (Form-31, 19, 10C & 10D)'.
+4. Verify your user details on the screen and enter your Bank Account Number to verify.
+5. Click on 'Proceed for Online Claim'.
+6. Under 'I Want To Apply For', select 'PF Advance (Form 31)' for partial withdrawal, or 'Only PF Withdrawal (Form 19)' for final settlement if you have left the job for more than 2 months.
+7. Fill in the required details, amount, and upload a scanned copy of your cheque or bank passbook.
+8. Click 'Get Aadhaar OTP', enter it, and submit the claim request.
+
+[FORMS_REFERENCED]
+If the user still needs the offline physical form for PF Withdrawal / Final Settlement, you must provide them with this exact action:
+Action Label: Download Form 19 (PF Withdrawal)
+Action URL: forms/PF Final Settlement.pdf
+
+---
+
+[Modern Pension Claim Process (Form 10D)]
+
+[CONTENT]
+To claim your EPS Pension (Form 10D), follow these modern steps:
+1. Login to the UAN Member Portal with your UAN and password.
+2. Go to the 'Online Services' tab and select 'Claim (Form-31, 19, 10C & 10D)'.
+3. Verify your KYC and bank details.
+4. From the dropdown, select 'Monthly Pension (Form 10D)'.
+5. Submit the required details online to process the pension claim.
+
+[FORMS_REFERENCED]
+If the user still needs the offline physical form for Pension Claims, you must provide them with this exact action:
+Action Label: Download Form 10D (Pension Claim)
+Action URL: forms/Pension Claim.pdf

@@ -1,0 +1,32 @@
+---
+SOURCE: https://incometaxindia.gov.in/simulation/income_tax_faq
+DOMAIN: income_tax
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Income Tax FAQs]
+
+[CONTENT]
+Official guidelines regarding Income Tax FAQs.
+
+Official guidelines regarding Income Tax FAQs.
+
+Official guidelines regarding Income Tax FAQs.
+
+Official guidelines regarding Income Tax FAQs.
+
+Official guidelines regarding Income Tax FAQs.
+
+1. Login to the e-filing portal.
+2. Go to e-File menu.
+3. Follow the instructions displayed on the screen.
+Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

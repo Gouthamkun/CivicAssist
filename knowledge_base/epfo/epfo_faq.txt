@@ -1,0 +1,34 @@
+---
+SOURCE: https://www.epfindia.gov.in/simulation/epfo_faq
+DOMAIN: epfo
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Frequently Asked Questions]
+
+[CONTENT]
+Official Process Guide for EPFO Frequently Asked Questions.
+
+Official Process Guide for EPFO Frequently Asked Questions.
+
+Official Process Guide for EPFO Frequently Asked Questions.
+
+Official Process Guide for EPFO Frequently Asked Questions.
+
+Official Process Guide for EPFO Frequently Asked Questions.
+
+Step 1: Navigate to the UAN Member e-Sewa portal and sign in.
+Step 2: Go to the 'Online Services' section from the top menu bar.
+Step 3: Select the appropriate claim from the dropdown menu options.
+Step 4: Authenticate your request using Aadhaar-based OTP verification.
+Step 5: Submit the form online. Track the status under 'Track Claim Status'.
+Ensure all your KYC details (Aadhaar, PAN, Bank Details) are verified and seeded to the account.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

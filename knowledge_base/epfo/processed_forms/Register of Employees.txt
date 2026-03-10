@@ -1,0 +1,15 @@
+---
+SOURCE: local_offline_form_pdf
+DOMAIN: epfo
+CATEGORY: form_instructions
+---
+
+[Register of Employees Official Form Instructions]
+
+[CONTENT]
+This document is the official government form for Register of Employees.
+
+[FORMS_REFERENCED]
+If the user needs to download this form, you MUST provide them with this exact action:
+Action Label: Download Register of Employees Form
+Action URL: forms/Register of Employees.pdf

@@ -1,0 +1,10 @@
+{
+    "domain": "income_tax",
+    "source_urls": [
+        "https://incometaxindia.gov.in"
+    ],
+    "last_scraped": "2026-03-09T21:32:25Z",
+    "total_files": 21,
+    "forms": [],
+    "documents": []
+}

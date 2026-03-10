@@ -1,0 +1,4077 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Employees' Provident Fund Organisation Manual of Accounting Procedure Part I-General]
+
+[CONTENT]
+FOR OFFICIAL USE ONLY
+MANUAL
+OF ACCOUNTING
+PROCEDURE
+PART-I GENERAL
+(Common
+to all the Three
+Schemes)
+f
+1s
+i\l
+EMPLOYEES' PROVIDENT FUND ORGANISATION
+(Ministry of Labour, Government of India)
+Head Office:
+Bhavisbya Nidhi Bhawan, 14, Bhikaiji Cama Place. New Delhi - 110066
+
+FOR OFFICIAL USE ONLY
+MANUAL OF ACCOUNTING PROCEDURE
+PART I-GENERAL
+(Common to all the three Schemes)
+Employees' Provident Fund Organisation
+(Ministry of Labour, Government of India)
+Head O'/fice :
+Bhavishya Nidhi Bhawan, 14, Bhikaji Cama Place, New Delhi - 110066
+
+PREFACE TO THE UPDATED EDITION
+The existing Manual of Accounting
+procedure was last updated in the year, 1982.
+Since then a large number of amendments
+have taken place in the accounting procedure
+as well as in the Employees'
+Provident Funds & Miscellaneous
+Provisions Act 1952 and
+the
+schemes
+framed
+thereunder.
+Apart
+from
+this,
+on
+the
+introduction
+of
+the
+computerisation,
+certain work areas of the accounts wing were computerised.
+Further, in the year, 1995 a new scheme i.e. Employees'
+Pension Scheme,
+1995
+was introduced
+in place of Employees'
+Family Pension Scheme,
+1971. Since there was
+no codified Manual for Employees'
+Pension Scheme, 1995 and no laid down procedure
+for disbursement
+of Pension through disbursing agencies,
+it was thought that there is a
+dire need to update the existing Manual by taking into account various aspects relating to
+maintenance
+of accounts
+through computerisation
+and also to operate the Employees'
+Pension Scheme, 1995.
+Keeping above in view, a Committee of Officers "Think Tank" was set up by the
+Head Office to go into the detailed procedure
+of work areas for updating
+the existing
+Manuals and to draft fresh Manuals for Employees Pension Scheme,
+1995 and also for
+disbursement
+of Pension.
+1.
+The Committee after going into detailed procedure relating to the entire work area
+of the Accounts
+Wing updated
+the earlier Manuals and drafted
+two fresh parts of the
+Manual i.e. Employees'
+Pension Scheme,
+1995 and disbursement
+of pension
+through
+Nationalised Banks.
+2.
+The updated Manual contains four parts viz:
+Part -I
+Part -
+11
+(B)
+Dealing with provisions relating to the schemes in General.
+Dealing with the provisions
+relating to Employees'
+Provident
+Fund
+Scheme, 1952.
+Dealing with the Provisions
+relating
+to Employees'
+Oeposit linked
+Insurance Scheme, 1976.
+Dealinq
+with
+the
+provisions
+relating
+to
+the
+Employees'
+Pension
+Scheme, 1995.
+Dealing
+with
+the
+provrsions
+relating
+to disbursement
+of Pension
+through Nationalised Banks.
+(A)
+Part - III
+Part -IV
+
+3.
+These parts of updated edition of Manual were placed before the Central Board of
+Trustees,
+Employees'
+Provident
+Fund in its 14ih
+meeting
+held on 02.12.97 and the
+Board accorded
+approval for its adoption. Although
+the Manual is primarily intended to
+provide guidance on accounting
+matters, important features of the Act and the Schemes
+have also been incorporated
+to facilitate decisions by the Staff and Officers. Every effort
+has been made to make the Manual as comprehensive
+and useful as possible to improve
+the operational
+efficiency. We trust that the Manual will serve as a useful guide to those
+dealing
+with Accounts
+& other work areas
+relating
+to Employees'
+Provident
+Fund &
+Miscellaneous
+Provisions Act, 1952 and the Schemes framed thereunder
+in Head Office
+and the Regional/Sub-Regional
+Offices.
+4.
+Employees'
+Provident
+Fund
+Organisation
+expresses
+sincere
+gratitude
+to
+Or. L. Mishra, Secretary (Labour), Government of India for his continuous encouragement
+and advice for this task.
+Suggestions for improvement will be welcome.
+Sd/-
+(S.K. RAY)
+Sd/-
+(RS. KAUSHIK)
+FINANCIAL
+ADVISOR
+& CHIEF ACCOUNTS
+OFFICER
+CENTRAL
+PROVIDENT
+FUND COMMISSIONER
+Employees'
+Provident
+Fund Organisation,
+Bhavishya
+Nidhi Bhawan,
+14. Bhikaiji Cama Place,
+New Delhi - 110 066.
+
+MANUAL
+OF ACCOUNTING
+PROCEDURE'
+PART - I - GENERAL
+(.Conlmoll
+to
+all
+the
+tbree
+Schemes )
+SI. No.
+Table of contents
+Chapter
+No.
+I.
+Administration
+of EPF & MP Act,
+1952 and the Schemes
+2.
+General
+Office
+procedure
+2
+3.
+Duties and functions
+3
+.
+4.
+Securing
+compliance
+and Audit scrutiny
+4
+5.
+Levy of penal damages
+5
+6.
+Funds
+Management
+(Banking)
+6
+7.
+Cash Branch
+7
+8.
+In vestment
+, etc.
+8
+9.
+Budget
+9
+10.
+Balance-Sheet
+10
+11.
+SPF, Pension & Group
+Insurance
+Scheme
+11
+12.
+Management
+Information
+System'
+12
+
+SI. No.
+Table of contents
+Chapter
+No.
+13.
+Computerised
+system of Accounts
+13
+14.
+Audit
+14
+15.
+Public Grievances Handling System
+15
+16.
+Suggestion Scheme
+16
+17.
+Forms/ Proformac.
+17
+
+CHAPTER
+I
+ADMINISTRATION
+OF El\1PLOYEES'
+PROVIDENT
+FUNDS &
+MISCELLANEOUS
+PROVISIONS
+ACT, 1952 & THE SCHEMES:
+SI. No.
+CONTENTS
+Para
+Page No.
+III
+III
+III
+II1
+112
+112
+112
+113
+113
+114
+-------------------~---------------------------------------------------------------------------------------
+I.
+OBJECTIVE
+1.1.
+2.
+ADMINISTRATIVE
+SET UP
+1.2.
+3.
+CENTRAL
+BOARD
+1.2.1.
+4.
+REGIONAL
+COMMITTEE
+1.2.3.
+5.
+INVESTMENT
+COMMITTEE
+1.2.4.
+6.
+CENTRAL
+OFFICE
+1.2.5.
+7.
+REGION
+1.2.7.
+8.
+ENFORCEMENT
+OF ACT
+1.3.1.
+9.
+FUNDS
+MANAGEMENT
+& ACCOUNTS
+1.4.1.
+10.
+EPFO CHART
+1.4.3.
+
+1
+.CHAPTER
+1
+ADMINISTRATION
+OF EMPLOYEES'
+PROVIDENT
+FUNDS &
+MISCELLANEOUS
+PROVISIONS
+ACT, 1952 & THE SCHEMES:
+OBJECTIVE
+1.1.1.
+The
+Employees'
+Provident
+Fund
+Organisation
+came
+into
+being
+following
+an
+enactment of the Employees' Provident Funds & Miscellaneous
+Provisions Act, 1952 in the
+year, 1952. The objectives of the organisation
+is to extend social security
+benefits to the
+working class in the form of Provident Funds, Pension and Insurance benefits. The broad
+functions of the Organisation, to fulfil these objectives, are:-
+a)
+Enforcement of provisions of Employees' Provident Funds & Miscellaneous
+Provisions Act, 1952.
+b)
+Recovery & management of moneys held in Trust and
+c)
+providing satisfactory service to the members of the Schemes.
+I.1.2.
+The Employees'
+Provident Fund Organisation
+is vested with the responsibility
+of
+implementing
+three Schemes framed under the Act namely Employees'
+Provident
+Funds
+Scheme,
+Employees'
+Pension Scheme and Employees'
+Deposit linked Insurance
+Scheme
+which came into force with effect from 1.11.52, 16.11.95 & 1.8.76 respectively. Employees'
+Family Pension Scheme, 1971 framed under the Act, is ceased to operate with effect from
+16.11.1995.
+1.2.
+ADMINISTRATIVE
+SET UP;
+1.2.1.
+The three Schemes are administered
+by the Central Board of Trustees - a Tripartite
+Body
+consisting
+of a Chairman,
+a Vice-Chairman,
+5 members
+representing
+Central
+Government,
+15 members
+representing
+State
+Governements
+and
+10 members
+each
+representing
+Employers/Employees.
+The Central
+Provident
+Fund Commissioner
+is the
+Ex-officio member of the Board.
+.
+1.2.2
+The.
+Board,
+in accomplishing
+this task,
+is assisted
+by Executive
+Committee,
+constituted
+by Central Government
+on 1.7.90 and
+four Sub-Committees,
+constituted
+at
+Central level, byChairman,
+Central Board of Trustees, namely:
+a)
+Finance and Investment Committee;
+b)
+Committee on Exempted Establishment;
+c)
+Committee on Special Reserve Fund, and
+d)
+Pension Implementation
+Committee.
+1.2.3.
+To oversee the functioning and to recommend
+improvement
+in the implementation,
+at Regional level, the Central
+Board is assisted
+by RegionalCommittees,
+(Ill)
+
+The Regional Committee
+is constituted by Chairman, Central Board of Trustees on
+Tripartite pattern by drawing representatives
+from Employers/ Employees and Government
+functionaries at State level.
+1.2.4.
+The Finance and Investment Committee
+functions to oversee the Investment being
+done by the State Bank of India, to watch the collection and timely Investment
+of Trust
+money with a view to realising maximum return thereon and to give such directions as may
+be necessary in regard to Investment! Re-Investment
+of redumption
+proceeds, Interest, etc.
+within the broad Investment pattern as approved by the Central Government
+and to consider
+fixation of Rate of Interest for the members of the Fund.
+1.2.5.
+The Employees'
+Provident Fund Organisation
+is having its Head Quarters at New
+Delhi
+(Central
+Office
+)
+and
+17 Regional
+Offices.
+In
+addition,
+as
+a
+measure
+of
+decentralisation
+and with a view to extend the service nearer to the door steps of the
+subscribers, Sub-Regional
+offices/Sub-accounts
+offices have been opened, which are under
+the control of the Regional office. The Organisation also operate its Service Centers for the
+benefit of the subscribers
+wherever the concentration
+of the subscribers
+are there. The net
+work of the Organisaion include Inspectorate offices all over the country.
+1.2.6. CENTRAL OFFIC~ :
+In the Central Office of the Organisation,
+the Central Provident Fund Commissioner
+is assisted by Additonal Central Provident Fund Commissioners,
+Financial Adviser & Chief
+Accounts Officer, Director ( National Academy on Training & Research on Social Security)
+NigilanceIMIS/EDP,
+Law Officer, Senior Analyst,
+Deputy Director
+(Audit)
+), Regional
+Provident Fund Commissioners,
+Assistant Provident Fund Commissioners
+and other officers
+and staff. He is also assisted by Additional Central Provident Fund Commissioner
+at Zonal
+level having offices at Hyderabad,
+Mumbai & Calcutta. The Central Office is also having
+its Internal Audit machinery spread in six different Zones.
+1.2.7. REGIONS:
+The Regional Office is headed by Regional Provident Fund Commissioner
+(Grade I)
+in charge of administration
+and assisted by Controller of Pension and Regional Provident
+Fund Commissioners
+holding the portfolio of Finance & Accounts, Exemption,
+Recovery,
+Assistant Director (EDP), Assistant Provident Fund Commissioners
+and other
+Officers and
+staff. Sub-Regional
+Office is headed by Regional Provident Fund Commissioner/Assistant
+Provident Fund Commissioner
+& supported by Assistant Provident Fund Commissioner
+and
+other
+officers and staff. Wherever the concentration
+of Industries
+and Labour forces is
+there, in lieu of Sub-Regional Offices, the Qrganisation has opened Sub-Accounts
+office to
+render
+efficient
+and prompt
+service
+to the subscribers
+in the matter
+of settlement
+of
+accounts, grant of advance, issue of Annual Statement of Accounts, etc. Inspectorates
+are
+.headed by an Enforcement
+Officer with necessary supporting staff & functioning under the
+charge
+of Regional/Sub-Regional
+Office.
+The Organisaton
+is having
+its own Training
+Academy namely National Academy on Training & Research on Social Security with its
+apex Institute at New Delhi and Zonal Training Institutes at Chennai, Faridabad,
+Calcutta
+.and Ahemdabad.
+Vigilance
+Wing of the Organisation
+is headed by the Chief Vigilance
+Officer in the rank of Additional
+Central Provident
+Fund Commissioner
+(Hqrs.) who is
+assisted by Vigilance
+Officer (Hqrs.) and Deputy Director (Vigilance)
+in four zones and
+Vigilance Officers.
+-(112)
+
+1.3
+ENFORCEMENT OF THE ACT:
+1.3.1.
+The Employees' Provident Fund and Miscellaneous
+Provisions Act, 1952 applies to
+the whole of India except the State of Jammu&
+Kashmir (In the State of Sikkim, it came
+into force with effect from 1.11.95). The Act provides for;
+a)
+application of the Act to the establishment
+including on voluntary basis;
+b)
+framing of Schemes by the Central Government;
+c)
+constitution of Central Board of Trustees, Executive Committee, State Board
+and its functions;
+d)
+appointment of Officers & staff for administering
+the Schemes;
+e)
+determination of Contribution from Employees/Employers,
+determination
+of
+dues from Employers,
+to decide the dispute
+on applicability
+of the Act,
+setting up of EPF Tribunal and appointment of Presiding Officers;
+t)
+recovery
+of moneys
+due
+from Employers
+through
+Recovery
+machinery
+powers of Inspectors,
+penal provisions
+on Defaulters, exemption from the
+operation of the Schemes:
+g)
+delegation
+of powers and functions
+of the Chairman
+of the Board to its
+Officers
+for efficient
+administration
+of the Scheme,
+etc.
+The procedure
+relating
+to various
+functions
+under Enforcement Wing of the Organisation
+which mainly enforces
+the provisions
+of the Act
+is dealt
+with
+in
+the
+Enforcement Manual.
+1.3.2.
+A separate
+Manual
+for the Enforcement
+officers
+IS also provided
+for efficient
+performance of the duties assigned to the Inspectors.
+1.4.
+FUNDSMANAGEMENT & ACCOUNTING:
+1.4.1.
+The Accounts Wing of the Organisation
+is headed by Financial Adviser and Chief
+Accounts Officer in the Central office assisted by Regional Provident Fund Commissioner
+(Finance & Accounts) and Regional Provident Fund Commissioner
+(Investment),
+Deputy
+Director (Audit) in the Central Office and Regional Provident Fund Commissioner
+(Finance
+and Accounts) and Assistant Provident Fund Commissioner
+(Accounts) and other officers &
+staff in the regions.
+1.4.2.
+The system of accounts is being gradually switched over from manual operation to
+computer
+operation.
+In
+order
+to
+provide
+system
+support,
+the
+Central
+Office/Regional/Sub-Regional
+offices
+are equipped
+with EDP Centres
+wherein
+various
+softwares are operated and reports generated for accurate and speedy action in the Finance
+and Accounts Wing.
+1.4.3. The Employees'
+Provident
+Fund Organisation
+Chart
+showing
+the set up of the
+Central/Regional
+offices are given in the Annexure.
+(1I~)
+
+~
+1111
+",;L
+i":,
+-,
+" '-'C";:'.;',","
+".
+' ,
+••
+,CENTRAL,OF.r;lCE.;NEW,DELHI
+;nA&:CAb·' "..."
+:,·~d~I;;'CPFC{P&.T)
+: Addh CP.FC (E&lf
+, Mgl:·CPfC.(EDP),
+pirector (NATRSS)
+Director:(VigJM ISJCompOter)
+RPPCs/APFGs.
+"
+.
+Vigilance Officer
+RPFC (Local Admh.)
+Hindi Officer
+,La.wOfficer
+Chief Liasion
+:p~i~fEngineer
+.
+Officer (SC/ST)
+Dep.uty Director (AuditlVig.)
+Sr./Jr. Analyst
+'frainihgOfficer
+,Jr. Engineer
+ZOnal Audit Officer
+Superintendentsl
+Assistants
+UDC/LDC/Gr. 0
+EMPLOYEES'
+PROVIDENT
+FUND ORGANISATION
+Organisation Chart
+eiNTRAL'99A
+!J:i·,.~tt:."
+'
+,>t;"
+-:
+ti">
+EXECUTIVE COMMITIEE
+COMMITTEE ON
+PENSION IMPLEMENTATION
+FINANCE & INVESTMENT
+EXEMPTED ESTABLISHMENTS
+SPECIAL RESERVE FUND
+,1~:~f:?NTRALPROVIDENT FUND COMMISSIO~~RF '
+REGIONAL COMMITTEE
+REGIONAL PROVIDENT FUND COMMISSIONER
+-I
+If
+Sub-~egional Office,
+RPFC In-charge
+APFCs
+EDP Manager,
+Hlndl-Oftlcer
+EDP Supervisor
+EO/AAOs
+)
+Section Supervisor
+UDC-l.:DC-Gr. D
+:f
+Regiohal Office
+RPFC I (Admn.)
+RPFC (FA)
+RPFC (Exm.)
+RPFG (Recov.)
+RI?FC (EDP)
+COP'
+APFCs
+.
+EDP Manager
+E.O.lAAOs
+Section Supervisors
+EDP Supervisor
+Hindi Officer
+uDC~lDC-Gr.
+D
+PF Inspectorates
+Sub-Accts. Office
+Service Centres
+';01
+
+CHAPTER
+2
+GENERAL OFFICE PROCEDURE
+S.No.
+Contents
+Para
+Page No.
+l.
+Distribution of Work
+2.1
+211
+2.
+Distribution of dak
+2.2
+2/2
+3.
+Diarising of Oak and Summary
+2.3
+2/3
+4.
+Progress Report
+2.4
+2/3
+5.
+Reminder Register
+2.5
+2/3
+6.
+Disposal of Incoming Correspondence
+2.6
+2/3
+7.
+Guidlines for drafting replies
+2.7
+2/4
+8.
+Guidlines for noting in office
+2.8
+2/5
+9.
+Filing System
+2.9
+2/5
+10.
+Handing and taking over of files/records
+2.10
+2/9
+Il.
+Records management- retention of
+documents.
+2.11
+2/9
+
+2
+CHAPTER-2
+GENERAL OFFICE PROCEDURE
+DISTRIBUTION
+OF WORK AMONG
+ACCOUNTS GROUPS.
+2.1.1.
+All establishments/factories
+covered under the Act should be allotted a code number
+by the Enforcement
+Secton in the Regional Office. The register for covered establishments
+maintained
+in
+the
+Enforcement
+Section
+should
+contain
+the
+details
+of
+all
+covered
+establishments
+viz. code no., name and address
+of the establishments/factory,
+industry,
+district, date of completion
+of infancy period (up to 22/9/97) date of recommendation
+of
+Provident
+Fund Inspector,
+date of issue of coverage
+notice,
+date of coverage,
+No. of
+employees, No. of eligible subscribers, Rate of contribution, P.A. dues, Accounts section to
+which allotted and a column for remarks and initials. Apart from this, a separate register
+should be maintained in respect of the establishments
+exempted from the operation of EPF
+Scheme, 1952/EP Scheme,
+1995/EDLI Scheme
+1976. These registers should be submitted
+to the Assistant Commissioner
+every month. Immediately on coverage of an establishment,
+a copy of the coverage notice should be endorsed to the area E.O. and the Accounts
+Section
+in the Regional/Sub-regional
+office. The allotment of code Nos. to Accounts Section should
+be made in consultation
+with the RC (F&A).
+In the case of Sub-Regional
+offices, the
+officer-in-charge
+of sub-regional
+office should allot the code no. to the Accounts
+section
+duly maintaining a centralised register of establishment.
+2.1:2.
+On receipt of the coverage notice the Section Supervisor
+in the Accounts
+Section
+should,
+on
+the
+same
+day
+of
+receipt,
+arrange
+to
+enter
+in
+the
+register
+of
+Factories/establishments
+maintained by the section in the proforma (Refer
+chapter 17) and
+obtain the orders of Asst. Accounts officer before allotting the same to a dealing assistant.
+The" dealing assistant should enter the allotment
+in the work diary (Receipts)
+for prompt
+~follow up action in getting proper compliance
+from the covered establishments.
+Intimation
+regarding grant of exemption from the operation of any scheme received from Enforcement
+Section should be promptly
+entered in the Register of establishments
+maintained
+at the
+Accounts Section and EDP. Grant of exemption from EPS' 95/EDLI to be recorded in Form
+9 (Revised) also.
+2.1.3.
+If any amount is due from the covered establishment on the date of coverage towards
+the Past accumulation,
+the details thereon should be entered in the Register for watching the
+P.A. dues in the Enforcement and Accounts Section. (Refer to Chapter 17)
+2.1.4.
+The
+Enforcement
+Section
+should
+obtain
+Form-5A.
+from
+all
+the
+covered
+establishments.
+2.1.5.
+The work among accounts groups should preferably be distributed district wise. An
+order containing the distribution of work amongst the Asst. Account Officers, groups and
+. individual dealing .hands should be issued and a copy of the same should be kept on the
+table of Regional
+Provident· Fund CommisssionerlRPFC(F
+A) Officer-in-charge
+of Sub-
+Regional
+Office,
+APFC, Asst. Accounts Officer and PRO.
+The district-wise
+allocation of
+establishment
+will facilitate saving of time and labour in the distribution
+of letters, claims,
+preparation
+of defaulters
+list etc.
+This arrangement
+will also enable the Asst. Accounts
+(211)
+
+Officer to keep a close contact with the area Enforcement
+Officer and to seek his service in
+getting the wanting returns and particulars, if any, for prompt settlement of claims and issue
+of
+annual
+statement
+of
+account.
+The
+administration
+section
+should
+ensure
+that
+the
+distribution of work amongst Asst. Accounts Officer, sections and clerks are uniform and in
+equitable
+manner.
+A system of inter sectional
+transfer
+of clerks and section
+supervisor
+should be followed so as to ensure that a clerk / Section Supervisor is not kept in charge of a
+particular task/section
+for a period not more than 3 years. Apart from the distribution
+of
+covered establishments
+to various accounts groups, separate sections should be formed to
+deal with the work connected with the levy and collection of penal damages, financing of
+Insurance policies of members a Pre-Audit, co-ordination,
+statistical section to deal with all
+the general accounting
+procedure,
+clarifications,
+compilation
+and furnishing
+of statistical
+information etc.
+2.2.
+DISTRIBUTION
+OF DAK
+2.2.1.
+All the incoming
+dak should be sorted out group wise by the Central
+Registry
+Section. Each group's receipts will be further sorted out into letters, claims and returns and a
+running serial machine number should be affixed on each of them.
+2.2.2. In so far as letters are concerned, they will be diarised as shown below in the order of
+the machine number in the respective Groupwise Inward dak registers maintained centrally
+and
+then handed over to the groups concerned for distribution
+to the dealing clerk.
+No
+distinction
+will
+be
+made
+between
+the
+dak
+received
+by
+Registered
+and
+Registered
+Acknowledgement
+and ordinary post but all Registered and Registered
+Acknowledgement
+Due post will, on receipt, be affixed with a stamp indicating their receipt by Registered
+Post/Registered
+Post Acknowledgement
+Due. This procedure will not however apply to the
+letters
+received,
+from
+the
+Central
+Provident
+Fund
+Commissioner,
+State
+and
+Central
+Government
+authorities,
+member
+of the Central
+Board of Trustees/Regional
+committee,
+Member
+of Parliament
+and others
+and valuable
+documents
+which
+will continue
+to be
+diarised in full centrally and distributed to the groups through the respective branch officers.
+\'
+Machine No.
+No.& Date of
+the letter
+From whom
+Acknowledgement
+received
+of the dealing clerk
+2.2.3.
+The receipt and distribution of claims in the dak section will be regulated according
+to the procedure prescribed for the receipt and disposal of claims. (Part
+Il-Chapter-S)
+2.2.4.
+The returns handed over to the groups will be entered in the Registers maintained
+by the dealing clerks.
+2.2.5.
+The disposal of monthly/annual
+returns received from the establishments
+should be
+watched by the dealing clerk through the D.C.S. Registers and the register for watching the
+progress of issue of annual accounts. (Refer Chapter 17)
+(2/2)
+
+2.3.
+DIARISING OF DAK ANDSUMMARY
+Each clerk will maintain a work diary in prescribed format (Refer chapter 17) to record
+the receipt of 1. letters, 2. transfers, 3. advances, 4. claimslbills
+5. forms,
+6. challans, 7.
+Miscellaneous
+reports etc. and 8. Returns.
+The dealing clerk will also record the summary
+of work done on each day and submit to Section Supervisor daily. The summary should be
+checked by the section Supervisor with reference to the actual review ofthe
+work done.
+2.4.
+PROGRESS REPORT
+The progress report on the disposal of letters, claim, bills, transfers, advances,
+forms will be prepared
+weekly
+by the clerk concerned
+in the Special
+Proforma
+(Ref
+Chap. 17) and put up to the Asst. Accounts Officer/ Asst. Commissioner
+through the section
+supervisor along with a consolidated
+report for the group prepared in the same proforma.
+After
+the
+group-wise
+reports
+are
+seen
+by
+the
+Asst.
+Accounts
+officer
+/
+Assistant.
+Commissioner,
+consolidated
+report will be submitted
+to the Regional
+Commissioner
+/Officer-in-charge
+of sub-Regional
+office for his review. The work diary-of
+the dealing
+assistants should be submitted to the Asst. Accounts officer along with the weekly report for
+his review. A separate weekly report should be submitted to the Asst. Accounts
+officer
+regarding
+the progress
+of issue of annual
+statement
+of accounts.
+Similarly
+a monthly-
+progress report will be prepared and submitted
+to Asst. Accounts officer through Section
+Superviser for each dealing assistant in the the same format. On its review, a consolidated
+report
+will
+be
+submitted
+to
+the
+Officer-in-charge
+of
+Sub-Regional
+office/
+RPFC
+(F&A)lRegional
+Provident Fund Commissioner.
+2.5
+REMINDER REGISTER
+A reminder register will be maintained
+clerkwise in Special Proforma. (See
+Annexure A). The entries in the reminder register should be made with reference to the
+"reminder due" dates marked in the disposals at the time of approval. The entries in the
+register should be reviewed monthly by the Section Supervisor concerned.
+2.6.
+DISPOSAL OF INCOMING CORRESPONDENCE:
+All correspondence
+and claims received should be dealt with promptly.Queries
+made
+by the Commissioner
+or any other Officer should be replied on the following day. If a
+complete
+reply cannot be given within that time, the dak must be taken to the officer
+concerned
+and the reason for the delay explained to him. All correspondence
+and claims
+received should be dealt with promptly and systematically.
+It should be the aim of each
+official to dispose of all letters on the date of receipt or on the following day at the latest. If
+any special difficulty is encountered or delay is anticipated in dealing with a particular case,
+the matter should be brought promptly to the notice of the Section Supervisor and the latter
+'
+if necessary will inform the officer-in-charge
+of the section. In no circumstances
+should any
+receipts be kept pending for over seven days. As far as possible, each clerk should clear his
+table before the end of the day. If anything is outstanding
+for unavoidable
+reasons, they
+should
+be
+disposed
+of
+first
+on
+the
+following
+day.
+The
+letters
+from
+member
+of
+Parliament/Regional
+Provident
+Fund
+Commissioners/
+Central
+Provident
+Fund
+Commissioner/Government
+should be acknowledged
+immediately,
+pending
+issue of final
+reply, -if the final reply could not be sent immediately.
+Similarly the receipt of complaints
+should be acknowledged.
+(2/3)
+
+2.7.
+DRAFTING REPLIES: -
+Guidelines :-
+In drafting replies, the following rules should be observed:
+1.
+the section letter and file number should be entered at the top of the draft;
+.2.
+the subject matter of the correspondence and the number and date of the
+reference
+attended should be entered at the head of each letter;
+3.
+drafts should be worded as clearly and as concisely as possible;
+4.
+wherever
+a simple
+endorsement
+wilt
+suffice,
+a separate
+forwarding
+letter
+or
+memorandum
+should not be drafted;
+5.
+all instructions
+should be conveyed
+in a courteous
+style and the language used
+should clearly convey the meaning intended;
+6.
+when enclosures are to be forwarded, they should be shown clearly in the draft and a
+diagonal stroke made on the margin, the number of enclosures should be indicated at
+the end of the draft on the left bottom of the page;
+7.
+drafts should be written/typed
+in half margin and initialled and dated by the clerk
+and/or by the Section Superviser, paragraphs should be numbered;
+8.
+before a decision or a ruling on any issue is asked for, it should be made certain that
+the issue has not been decided previously;
+9.
+in cases where a ruling or a decision is given but where the authority for it is not
+given in the body of the reply the authority should be noted on the margin of the
+draft for purpose
+of references;
+10.
+no additions
+or alterations
+to a draft passed by an officer should be made by a
+subordinate
+without the previous consent and except over the initials of the officer;
+11.
+separate
+letter should be written on distinct subject, each letter deal ing with one
+subject only, unless subjects are so closely inter-related
+that they cannot be dealt
+with satisfactorily
+in separate letter;
+12.
+initials and names in all manuscript documents should be written in block letters;
+13.
+when an officer is to be addressed by name or when the name of an officer is given
+in official
+correspondence,
+particular
+care should
+be taken
+to spell the name
+correctly and to use the correct mode of address;
+14.
+all connected references should be duly flagged or page numbered in the draft;
+15.
+instructions. issued from time to time by the Central
+Government
+regarding
+the
+progressive use ofHindi
+in official correspondence
+should be followed.
+(214)
+
+2.8
+GUIDELINES FOR NOTING IN OFFICE:
+1.
+All notes should be concise and to the point. Lengthy notes should normally
+conclude with a para bringing out clearly but briefly the points for consideration
+or decision.
+Paragraphs of notes should be serially numbered.
+2.
+The verbatim reproduction
+of' extracts from or
+para phrasing of the paper under
+consideration,
+fresh receipt, or any other part of correspondence
+or note on the same file,
+should not be attempted.
+3.
+-when passing orders or making suggestions, an officer will confine his note to the
+actual point, he process to make without
+reiterating
+the ground already
+covered
+in the
+previous notes. If he agrees to the line of action suggested in the preceding note, he will
+merely append his signature.
+4.
+Any. officer who has to note upon a file on which a running summary of facts is
+available will, in drawing attention to the facts of the case, refer to the appropriate part of
+the summary without repeating it in his own note.
+5.
+Unless a running summary of facts is already available on the file or the last note in the
+file itself serves
+that purpose, a self-contained
+summary will be put up with every case
+submitted.
+Such a summary will bring out briefly but clearly relevant facts, including the
+views expressed on the subject by other departments, if any, consulted in the matter and the
+point or point on which the orders are sought.
+6.
+If apparent errors or mis-statements
+in a case have to be pointed out or if an opinion
+expressed
+therein has to be criticised, care should be taken to couch the observations
+in
+courteous and temperate language free from personal remarks.
+7.
+When a paper under consideration
+raised several
+major points
+requiring
+detailed
+examination and orders each points will be noted upon separately in sectional notes.
+8.
+Notes and orders will normally be recorded on note sheets.
+9.
+The dealing hand/Section
+SuperviserlSuperintendent
+will append the initials with date
+on the left below his note. The officers will append their signatures on the right hand side of
+the notes.
+10.
+The
+dealing
+hand
+may,
+if
+necessary
+seek
+the
+guidance
+of
+the
+section
+SuperviserlSuperintedent
+so that there shall be only one note from the section as a whole.
+2.9.
+FILING SYSTEM:
+2.9.1.
+A proper filing system is essential for convenient identification,
+sorting, storage
+and retrieval of papers.
+(2/5)
+
+2.9.2.
+FILING SYSTEM BASED ON SUBJECT CLASSIFICATION:
+I.
+Each section will maintain approved lists of;
+a)
+standard heads i.e. main subject headings concerning it; and
+b)
+standard sub-heads, i.e. aspect of the main subject headings.
+2.
+The standard heads will bear consecutive serial numbers. No such numbers, however
+.will be allotted to standard sub-heads.
+3. The lists of standard heads and sub-heads will be reviewed at the beginning of each year
+and revised, if necessary with the. approval of the branch officer concerned. The serial
+number once allotted to the standard heads should not ordinarily be changed.
+4. Before opening a new file, the dealing hand will ascertain the standard head to which the
+paper under consideration relates. He will then propose a suitable title of the file for the
+approval of the section officer. The title will consist of:
+a)
+standard head,
+b)
+sub-head which will be more indicative of the precise subject than the 'head', (where
+it is necessary to have more than one sub-head in a title the wider and more abstract
+should generally precede the narrower and more concrete); and
+c)
+a brief content indicating the question or issue under consideration in relation to the
+standard head and sub-head and where necessary, the specific institution, person,
+place or thing involved.
+}
+5.
+The title should be as brief as possible but should give at a glance sufficient indication
+of the contents of the file so as to serve as an aid to its identification. It should be
+articulated, i.e. broken up into components, each consisting of the minimum possible
+substantive words and expressing an element in the subject matter. Each part will begin with
+a capital letter and will be separated from the preceding one by a bold dash.
+6.
+As far as possible, there should be a separate file for each distinct aspect of the subject.
+The title of file should not be couched in very general or wide terms which might attract
+large number of receipts on different aspects of the matter, thereby making the file
+un-wieldy.
+7.
+If the issue raised in a fresh receipt or in the note on a current file goes beyond the
+original scope, a new file may be opened to deal with it, after placing the relevant extracts
+or copies thereon.
+8.
+Every file will be assigned a file number which will consist of:
+a) the serial number allotted to the standard head;
+b) the serial number of file opened during the year under the standard head;
+c) the year of opening the file (last two digits only) and
+d) an abbreviated symbol identifying the section.
+(2/6)
+
+The first three elements in the file number will be separated from one another by a slant
+stroke and the last two by a dash. Thus, files opened in, say, Scientific Research Section
+during
+1987 under
+the
+standard
+head
+bearing
+serial
+number
+'3',
+will
+be numbered
+consequently as 3/l/87-SR,
+2/2/87-SR and so on, where 'SRI represents the section.
+This subject-wise
+filing system may be adopted in Central Office and in Administration,
+Pre-Audit,
+Co.ordinationand
+statistical
+section
+of the Regional
+Office/
+Sub-Regional
+Office. The Enforcement
+and Account Section of the Regional office/Sub-Regional
+office
+may adopt the establishment-wise
+filing system as indicated below:
+Region Code/Sub-Regional
+Office code/Establishment
+Code/Y ear.
+2.9.3.
+FILING OF PAPERS;
+I.
+Papers required to be filed will be punched on the left hand top corner and tagged on to
+the appropriate part of the file, viz. notes, correspondence
+in chronological
+order, the latest
+being at the top.
+2.
+Normally, each part of the file will be placed in a separate file cover. Where, however,
+'notes' and 'correspondence'
+are not bulky, both may be placed in a single file cover by
+tagging the correspondence
+portion into the right side of cover and the notes portion onto
+the left side of the same cover. Similarly, both the appendix
+to notes and appendix
+to
+correspondence
+may be filed in a single file cover, if they are not bulky.
+3.
+Routine receipts and issues (e.g. reminders, acknowledgements)
+and routine notes will
+.not be allowed to clutter up the file. They will be placed below the file in a separate cover
+and destroyed when they have served their purpose.
+4.
+When either the 'notes' or the 'correspondence'
+portion of file becomes bulky (say,
+exceeds 100 pages), it will be stitched and marked 'Volume' I. Further papers on the subject
+will be added to the new volume of the same file which will be marked Volume 11 and so
+on.
+2.9.4.
+ARRANGEMENT
+OF A PAPER IN A CASEi
+The papers in a case will be arranged in the following order from top
+downwards:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+reference books;
+notes portion of the current file ending with note for consideration;
+running summary of facts;
+draft for approvak if any;
+correspondence
+portion of the current file ending with the latest receipt or
+issue, as the case may be;
+appendix to notes and correspondence;
+standing guard file, standing note or reference folder, if any;
+(2/7)
+
+8 .
+other papers., if any, referred to, e.g, extracts of notes or correspondence
+from other
+files, copies of orders, resolutions, gazettes, arranged in chronological
+order, the
+latest being placed on the top;
+9.
+recorded files, if any, arranged in chronological order, the latest being placed on the
+top; and
+10.
+routine notes and papers arranged in chronological order and placed in a separate
+cover.
+.,
+2.9.5.
+REFERENCING:
+1.
+Every page in each part of the files (viz. notes, correspondence,
+appendix to notes and
+appendix to correspondence)
+will be consecutively
+numbered in separate series, in pencil.
+Blank intervening pages, if any, will not be numbered.
+2.
+Each item of correspondence
+in a file, whether receipt or issue, will be assigned serial
+number which will be displayed prominently
+in red ink on the right top corner of its first
+page.
+3.
+The paper under consideration on a file will be flagged 'PVC' and the latest fresh receipt
+noted upon, as 'F.R.'.
+In no circumstances,
+will a slip, other than 'PVC' and 'FR', be
+attached to any paper in a current file. If there are more than one 'F.R.' they should
+be
+flagged separately as 'F.R.-I.', F.R.-II and so on.
+4.
+In referring to the papers flagged 'PVC' or
+'FR' the relevant page numbers will be
+opted invariably in the margin. Other papers in a current file will be referred to by their
+page numbers only.
+5.
+Recorded
+files and other papers put up with the current file will be flagged with
+alphabetical
+slip for quick identification.
+Only one alphabetical
+slip will be attached to a
+recorded file or compilation. If two or more papers contained in the same file or compilation
+are to be referred to, they should be identified by the relevant page numbers in addition to
+the alphabetical slip e.g. 'A'/23.N, 'A'/17.C
+and so .on.
+6.
+To facilitate the identification of references to papers contained in other files after the
+removal of slips, the number of files referred to will be quoted invariably in the body of the
+note and the relevant page numbers, together with the alphabetical
+slip attached thereto,
+.•
+will be indicated in the margin. Similarly, the number and date of orders, notifications and
+resolutions
+and in the case of acts, rules and regulations, their brief title together with the
+number of relevant section, rule, paragraph or clause, referred to will be quoted in the body
+of the notes, while the alphabetical slips used will be indicated in the margin.
+7.
+Rules or other compilations referred to in a case need not be put up if copies thereof
+are expected to be available with the officer to whom the case is being submitted. The fact
+;)\
+of such compilations not having been put up will be indicated in the margin of the notes in
+,
+pencil.
+(2/8)
+
+8.
+The reference
+slips will be pinned neatly on the inside of the papers sought to be
+flagged. When a number of papers put up in a case are to be flagged, the slips will be
+spread over the entire width of the file so that every slip is easily visible.
+2.9.6.
+LINKING
+OF FILES:
+1.
+If the issues raised in two or more current files are so inter-connected
+that they must be
+dealt with together simultaneously,
+the relevant file will be linked in the manner indicated
+below in 2. Such linking may also be resorted to if a paper or one current file is required for
+~eference.in
+dealing with another current file unless a copy of the paper can be conveniently
+placed on the first file.
+2.
+When files are to be linked, string of the file board of the lower file (but not its flaps)
+will be tied round the upper
+file and those of the board or flap of the upper file tied
+underneath it in a bow out of the way so that each file-is intact with all its connected papers
+properly arranged on its file board or flap.
+3.
+On receipt back after completion
+of action, the linked files will be immediately
+de-linked
+after
+taking
+relevant
+extracts
+and placing
+them on the
+linked
+files, where
+necessary.
+2.10.
+HANDING
+AND TAKING
+OVER FILES/RECORDS
+At the time, a clerk is shifted from a seat he should hand over all the documents and
+registers
+in his custody,
+including outstanding
+letters, nominations
+forms, claims, ledger
+cards and settled cases, to the clerk who has been asked to take over charge of the seat. For
+this a proper handing over/taking over charge report should be prepared under the signature
+of both the clerks and submitted to the Section Superviser and officer-in-charge.
+In case a
+task on a seat is transferred
+from one clerk to another, such a report should be prepared in
+respect of the documents of that task. A copy ofthe
+handing over/taking over charge report
+should be sent to the Administration
+section. In case of transfer of records from a Regional
+Office to Sub-Regional
+Office, special care should be taken to shift the records in a planned
+manner by preparing
+inventory
+of each type of documents/files
+being shifted under the
+guidance of a Senior Officer.
+2.11
+RECORDS
+MANAGEMENT
+-RETENTION
+OF DOCUMENTS
+2.11.1.
+Records are tools of management, memory of an Organisation
+and source of
+information.
+The effectiveness
+of decisions
+which ultimately
+reflects
+the image of the
+organisation and efficiency of its operations is dependent on the quality of its resources and
+information which is provided by the records.
+2.11.2.
+In order that the record management should be effective the
+records should
+serve the following objectives:-
+.
+l.
+They should serve some useful purpose lest they become waste.
+2.
+The records should be kept in such a way that they should be capable of
+being retrieved quickly.
+(2/9)
+
+3.
+There should be control on the growth of record at its inception itself.
+5.
+Records should neither be prematurely
+destroyed
+nor retained for a longer
+period.
+Records must be kept systematically arranged so that there should be no delay
+in their location.
+There should be constant weeding and review of the records so that the cost of
+maintenance of records is kept to the minimum.
+4.
+6:
+RECORDS RETENTION SCHEDULE:
+2.11.3.
+To ensure that file are neither prematurely destroyed nor kept for period longer
+than necessary, the duration for retention of records is given in Annexure.
+2.11.4.
+All the basic documents relating to the Employees' Provident Fund, Pension Fund
+and Insurance Fund are received in the Regional Office/Sub-Regional
+offices and many of
+them
+are
+dealt
+in the
+Accounts
+Section.
+These
+documents,
+the
+prescribed
+registers
+connected with accounts work as well as the notes files dealing with correspondence,
+the
+ledger cards will remain in the custody of each dealing clerk till these are transferred to the
+record room.
+2.11.5
+Precaution should be taken to see that essential records are preserved for as many
+years as they are likely to be required.
+The statement
+reproduced
+at Annexure
+to this
+Chapter shows the periods of retention of various type of records and this should be used as
+a guide for the weeding out of non-essential
+records and for the preservation
+of essential
+ones. At the end of each financial year (31st March) each dealing clerk should send all the
+unwanted and non-essential records to the Record Section under
+proper
+receipt
+duly
+entered in the record transit register. Each such record should bear a top slip indication in
+red ink the nature of the record, whether permanent and if not, the date due for destruction.
+All these records should be properly indexed and arranged in an orderly manner on the
+racks in the Record Section .. If they are again required back for reference by the
+Sections
+they may be issued on written requisitions received from the Section Superviser and their
+return carefully watched. A record transit register should be maintained
+in each
+Section
+and kept under the custody of Section Superviser.
+..~
+2.11.6.
+Notwithstanding
+the above provisions, the following records should be preserved
+as long as may be required by their nature:-
+L
+records connected. with expenditure
+to which limitations
+fixed by law are
+applied;
+records connected with expenditure on projects, schemes or works which are
+not completed even after the expiry of the period of limitation;
+records
+connected
+with claims
+to service
+and personal
+matter
+affecting
+persons still in service;
+orders and sanctions of a permanent character until revised,
+records for the periods for which audit has not taken place;
+records which are likely to be required for settlement of audit objections.
+2.
+3.
+4.
+5.
+6.
+(21l0)
+
+S.NO. FormlRegister(R)
+ANNEXURE--
+A
+PERIOD OF RETENTION OF RECORDS
+ACCOliNTSDOCUMENTS
+------------------------------------------------------.---------.------.--------------------.-.-------------
+Period of retention
+1.
+1
+2
+2
+3
+3-A
+4.
+4-A
+5
+5
+6
+5-A
+7
+6-A
+8
+7
+9
+8
+to
+9(R)
+11
+to
+12
+13
+II
+12-A
+14
+13(R)
+15
+14
+16
+15
+17
+31
+18
+18
+19
+19
+20
+20
+21
+21121N21B
+22
+23
+24
+22
+23
+24
+25
+Register for
+watching
+receipt of due
+documents
+Two years after the application is decided and funds transferred,
+where necessary.
+(i) 22 years
+(in the case of minors) (ii) 03 years (in the case other'
+than minors)
+Five years
+Deleted
+Permanent
+Only the latest form need be maintained on a permanent basis
+One year after the annual accounts for the year concerned
+are compiled by the A.G.
+Deleted
+Deleted
+Permanent
+Two years after all the members
+mentioned
+in
+the
+form
+have
+withdrawn
+their Porvident
+Fund
+accumulations
+or
+have
+started
+contributing
+again to the fund. (Permanent
+in cases where Form 5
+is printed on the reverse of the Form).
+This Form is not received in the Regional office.
+Two years after issue of the annual accounts for the year concerned
+and audit by the A.G.
+One year after the account concerned is transferred with funds, where
+necessary.
+One year after the final settlement
+of accounts and reassignment of
+the policy concerned
+--do--
+Three years after the final settlement of accounts
+Deleted
+Three years after the claim is paid off or otherwise disposed of.
+(i) In the case of payments to other than minors ---3 Years
+(ii) In accordance with nomination of members
+---3 Years
+(i) In the case of payments on behalf ofminors--22
+Years
+(ii) in the case of payments to other than minors :--
+(a) not in accordance with nomination made by members-3 Years
+(b) in accordance with nomination of members
+-3 Years
+Not in use at present
+As this is sent out to members, there is no question of preserving it.
+Three years after the consolidated Balance Sheet for the year is
+present to Parliament.
+One year after the last due document is received.
+(2/lt)
+
+26
+Demand Register
+Three years after the last item of demand is
+cleared/recovered
+27
+Objection Register
+One year after the last objection is settle and
+~
+audit for the period by the Accountant General
+is over.
+-28
+Register for watching payees
+One. year after the last payees' receipt is
+receipt for withdrawal for
+received and the audit for the period by the
+financing Life Insurance Policies
+Accountant General is over.
+29
+Stock Register for assigned
+Three years after the' last policy isreassigned
+Insurance Policies
+30
+Register for wanting contribution
+Deleted
+card
+31
+Register of Payment on final
+Three years after the consolidated balance
+settlement of Account
+sheet of the Organisation for the period is
+presented to Parliament
+32
+Money order Register
+---do---
+33
+Cash Books
+Three years after the consolidated Balance
+Sheet of the Organisation for the period is
+presented to Parliament
+34
+. Register of transfer advice issued
+One year after the date of issue of last transfer
+advice.
+35
+Register of valuable documents
+Three years after the the last entry is carried
+to the respective main registers such as
+.;.•.
+Register of Securities, Cash books,Stock
+registers etc. ,
+. >,.
+36
+Register of Securities
+(i) in the Central Office ---permanent
+(ii) in the Regional office-five years after the
+transfer of the last security is·accepted by the
+Central Office.
+37
+Registers of Contigencies
+One year after the audit by the Accountant
+General is over
+38
+Dead Stock Register
+Parmanent
+39
+Important Correspondence
+5 years after the last pending matter is finally
+settled
+40
+Unimportant correspondence
+Two years
+41
+Pay Bills of the office establish-
+35 Years
+ment and AcquittableRolls
+42'
+.Deposit Register (contribution etc.)
+One year after the consolidated Balance Sheet
+Demand Collection & Balance
+Register of the Organisation
+is presented to
+Register
+Parliament
+43
+Register of undelivered M.O.s
+--do--
+44
+Leave Register
+Three years
+45
+.Postage stamp Account Register
+One year after audit by the Accountant
+General.
+46
+Stationary Register
+--do--
+(2/11)
+
+47
+48
+49
+54
+S5
+'56
+Show cause notice register
+Certificate Case Register
+Bank Statement
+50
+Vouchers:(a) Final settlement
+(b) Others including final refund
+51
+Cheque Books
+52
+Vouchers:(a) Final settlement
+(b) Others including final refund
+53'
+Advance Ledger
+57
+Service Books
+Leave Account
+Leave salary and pension
+contribution register
+Register of Books
+58
+Register showing receipt & supply
+.of forms
+Prosecution Register
+Register of history of machines
+Staff Provident Fund Account
+59
+60.
+61
+62
+63
+64
+BudgetEstimates
+Audit Reports
+Stock of Ledger cards and other
+forms
+Proceedings Book
+Annual Returns and Reports'
+Register of letter received
+,
+and issued
+Circulars to Estt.andOfficers
+65
+66
+67
+68
+Three years after the last case is finalised
+Three years after the last case is finalised
+One year after the consolidated Balance Sheet
+of the organisation is presented to Parliament.
+(i) In the case of minors on behalf of minors-
+22 Years
+(ii) In the case of payment to other than
+mmors--
+(a) not in accordance with nomination made by
+members 3 years.
+(b) in accordance with nomination of member-
+3 years
+One year after the Consolidated Balance Sheet
+of the Organisation is presented to Parliament.
+(i) In the case of minors on behalf of minors-
+22 Years
+(ii) In the case of payment to other than
+mmors-
+(a) not in accordance with nomination made by
+members- 3 years.
+(b) in accordance with nomination of
+members-
+3 years.
+3 years after the last item of advance is cleared!
+recovered
+3 years after death
+--do--
+2 years after death
+Permanent
+One year after the last form is supplied and
+forms audited by the Accountant General
+One year after the last prosecution is decided
+Three years after the last machine is charge off
+22 years in case of payment on behalf of minor
+nominees/heirs-
+3 years after final settlement in
+other cases.
+Six years
+Six years
+One year after the last card!form is supplied
+and audited by the Accounts General is over.
+Permanent
+12 years
+3 years
+Important circulars-l 0 years', other of no
+permanent value -2 years
+.•
+. • ' (2/13)
+
+69
+PeonBooks
+1 years
+70
+Attendance Register of Office
+2 years
+staff
+71
+Establishment
+increment register
+10 years
+72
+Register of Inspection of factories
+3 years
+and establishment
+73
+Register for initial premium
+One year after the last policy is reassigned
+74
+.Register for automatic premium
+--do--
+.
+75
+Duplicate challans
+3 years after the consolidated Balance Sheet
+of the organisation is presented to Parliament
+76
+Triplicate challans
+one year after the consolidated Balance Sheet
+of the organisation is presented to Parliament
+77
+Register showing qualification, date Permanent
+of appointment and seniority
+78
+Answer papers of the written tests
+held for recruitment
+Pension papers (Other than Family
+Pension)
+(a) Pension cases
+(b) Annual Establishment Returns
+Six months after the appointment of all the
+selected persons
+79
+(a) 7 years after retirment/death
+in service
+(b) 6 years after the audit of pay bill for the
+period in question is over
+(c) Nominations:-
+(i) If the gratuity is paid to minor
+(i) 22 years in the case of payment of family
+Pension on behalf of minor
+ii) Not in accordance with the order (ii) In other cases, 3 years after the final
+in which nomination have been
+settlement
+made
+iii) In accordance with the order in
+--do--
+which nomination have been
+made
+80
+Family Pension records
+3 years after the date on which family pension
+becomes inoperative
+81 .
+Work Sheet for sanction of PF dues
+Till such time the claim is preserved
+1
+Form No. 1
+I
+2
+Form No, 2(Revised)
+I
+I
+3
+Form No. 3(PS)
+4
+Form No. 4
+5
+Form No. 5
+6
+FonnNo.6
+7
+FonnNo.7
+"
+8
+Form No. 8
+EMPLOYEES
+PENSION
+SCHEME'
+95
+5 years after the date on which pension
+becomes inoperative in respect of the last
+eligible family members
+As in the case ofFonn
+9 (E.P.F.)
+As in the case of'Form S (E.P.F.)
+As in the case of FonnlO (E.P.F.)
+As in the case ofFonn
+12-A (E.P.F.)
+As in the' case ofFonn
+3-A (E.P.F.)
+As in the case ofFonn
+6-A (E.P.F.)
+(2114)
+
+11
+12
+Form No. IO-B/C & Worksheet
+Form No. 11 & worksheet
+As in the case ofFonn
+11 (E.P.F.)
+5 years after the date on which Pension
+becomes in operative
+As in the case ofFonn
+19 (E.P.F.)
+As in the case ofFonn
+20 (E.P.F) (Deleted)
+9
+10
+Form No. 9
+Form No. 1O-A/D & Worksheet
+13
+Family Pension Records & Register
+Permanent
+of PPO Audit Registers. etc.
+E.D.L,I.
+SCHEME,1976
+1.
+(LF.) Form No. 1
+As in the case of Form 9 (E.P.F.)
+2.
+(LF.) Form No.2
+As in the case of Form 5 (E.P.F.)
+3.
+(LF.) Form No.3
+As in the case ofFonn
+10 (E.P.F.)
+4.
+(LF.) Form No.4
+Asin the case ofFonn
+I~-A (E.P.F.)
+5.
+(LF.) Form No.5
+As in the case ofFonn
+20 (E.P.F.)
+(2/15)
+
+Annexure -8
+ENFQRCEMENT
+RECORDS
+S.No
+Records/Documents
+Retention period
+1.
+Coverage
+file in respect of un-exempted
+Estts.
+(i)
+Coverage
+notice and its connected
+documents Permanent
+such
+as
+E.O's
+recommendation,
+documents
+obtained in support of coverage, Form. 5-A etc.,
+-(ii)
+Correspondence
+of purely ephemeral nature
+One year
+(iii)
+Inspecton
+reports
+Part-I
+& 11) received
+from
+Permanent
+E.O.,
+(iv)
+Defaulting
+position
+obtained
+from
+accounts
+4 Years after full
+through
+the monthly
+defaulters
+list and
+legal
+compliance by the
+action
+employer.
+(a)
+Under Sec. 7-A
+(b)
+Under Section 8
+(c)
+Under Section 14
+(d)
+Under Section 406/409 IPC
+Inspection
+report
+In
+respect
+of
+composite
+establishments
+(i.e. where an estt. consists
+of
+different departments
+or has branches)
+< falling
+under Sec. 2-A of the EPF & MP Act, 1952 and
+legal action under Sec. 7-A, 19-A, 8, 14 etc.
+(v)
+-do-
+2.
+Covered
+(exempted
+Irelaxed ) Estts.
+0)
+Correspondence
+of purely ephemeral nature
+One Year
+(ii)
+Corresspondence
+with
+Estts.lE.Os.
+regarding
+Permanent
+grant
+of
+exemption,
+inspection
+reports,
+conditions of exemption etc. & returns submitted
+by the etts.
+(iii)
+Defaulting
+position, misuse of funds and legal
+action
+-do-
+(iv)
+Concellation of exemption
+after
+of
+8
+Years
+cancellation
+exemption.
+DAMAGES
+FILE
+3
+(i) Correspondence
+of purely
+ephemeral nature
+(ii) Legel Action under sec. 14-B&8
+4Years after full
+compliance by the
+employer
+2 years after the last case
+is finalised
+--do--
+One year after the last
+prosecution is decided
+One year
+4
+Show cause notice Register
+5
+6
+Certificate case register
+Prosecution Register
+';(2i16)
+
+24
+25
+26
+(I)
+7
+Register of Inspection of Factories
+and Establishments
+Register of Estt. exempted under sec.
+17 and Para 27&i7A
+Register of infant Establishment
+8
+9
+to
+Register of Marginal Estt.
+11
+12
+13
+14
+15
+Register of covered Estt.
+Register of Estt. under Sec.2-A·
+Register of Survey
+Dak Register of Inspector
+Recovery Register
+16
+Register of writ petitions cases
+17
+Register of Sec. 7-A cases
+.
+18
+Register of sec.19-A Cases
+19 " "Register
+for Provisional coverage
+~
+21
+Tour Programmes
+, TourDiary
+22
+Separate registers in respect of Estt.
+exempted from EPF. EPS & EDLI scheme
+Register to-watch the receipt of Inspection
+23
+Proceedings of meetings & conference
+relating to CBTlRegional committee/
+EOs/ RPFCs etc and files
+Precedent Books
+Records maintained by Exempted Establishments
+Members ledger accounts
+(2/l.7):
+c ,
+2 years
+Permanent
+2 years after the last estt.
+is covered or trans-
+- ferred to Reg. of
+Marginal Estt.
+2 years after the tast
+Estt. is covered
+Permanent
+Permanent
+Permanent
+2 years
+_
+4 Years after the
+- recovery made from the
+last defaulting Estt.
+Permanent
+Permanent
+Permanent
+4 years after final
+coverage of last
+provisionally
+covered,
+Estt.
+One year
+One year
+Permanent
+One year after recovery
+of Inspection charge as
+from .the last defaulting
+Estt.
+Permanent
+Permanent
+(i) In case of payment on
+behalf of minors-16yr
+(ii) In case of payment
+other than minors:-
+(a) not in accordance
+with nomination
+made by members-
+2 years
+(b) in accordance with
+nomination of
+member-2 years
+
+(Il)
+Cash & bank vouchers files including
+loan application and final settlement and
+transfer of PF accounts made to other
+institutions
+(Ill)
+Journal voucher files including loan apply
+and final settlement and transfer of PF
+accounts made to other Institutions
+2 years after claim is
+paid of or other wise
+disposed of.
+--do--
+(IV)
+Cash books, Journal Books, Ledger Books,
+Loan registers, Cash & bank voucher
+files etc ..
+2 years after thecon-
+solidated Balance sheet
+of the Estt for the period
+isaudited and submitted
+to the Regional
+PF Office.
+(V)
+Security/Investment
+Register
+Permanent
+INSTRUCTIONS:-
+L
+The retention period specified in Column(3), in the case of a file, is to be reckoned
+from the year in which the file is closed (i.e. action thereon has been completed)
+and
+not necessarily from the year in which it is recorded.
+.
+2.
+In case of records other than files. e.g. registers, the prescribed retention period will
+be counted from the year in which it has ceased to be current.
+3.
+In exceptional cases, a record may be retained for a period longer than that specified
+in the Schedule, if it has certain special features or such a course is warranted by the
+peculiar needs. In no case, however, will a record be retained for a period shorter
+than that prescribed in the Schedule.
+4.
+If a record is required in connection with the disposal of another record-the
+former
+will not weeded out until after all the issues raised in the latter have been finally
+decided, even through the retention period marked on the former may have expired
+in the meantime.
+In fact, the retention periods initially
+marked on such records
+should be consciously reviewed and, where necessary, revised suitably,
+(2/18)
+
+ANNEXURE-C
+ADMINISTRATION RECOBDSlDOCUMENTS
+S.No.
+Description of records
+Retention period
+----------------------------------------------------------------------------------------------------------
+1
+Records of yalue (or administrative purpose;
+(i)
+Papers containing evidence of rights or obligations of
+or against the EPF Organisation, e.g.title to properly,
+claims for compensation not subject to a time-limit,
+formal instruments such as awards, schemes, orders
+sanctions, etc.
+(ii)
+Papers relating to major policy decisions, including
+those relating to the preparation of legislation.
+(iii)
+Papers regarding constitution, functions and working
+of important committees, working groups, etc.
+(iv)
+Papers providing lasting presidents for important
+procedures e.g. administrative memoranda, historical
+opinions on important matters.
+(v)
+Papers concerning rules, regulations, departmental
+guides or instructions of general application.
+(vi)
+Papers relating salient features of Organisation and
+staff of Govt. Department
+and offices.
+(vii)
+Papers relating to important litigation or 'Cause
+Celebes' in which the administration was involved.
+. Permanent
+2.
+RECORDS OF HISTORICAL IMPORTANCE;
+(i)
+Papers relating to the originofa
+department or agency
+of Govt.how it was organised, how it functioned and
+(if defunct) how and why it was dissolved.
+Permanent
+(ii)
+Date about the department/agency
+accomplished
+Permanent
+(iii)
+Papers relating to change of policy, implementation
+of a change of policy, appointment of a departmental
+or inter departmental committee or working groups,
+instructions to executive agencies etc. and relevant forms.
+Permanent
+(iv)
+Papers relating, to a well known public event or events
+which gave rise to interest or controversy on the
+Organisational
+plans
+Permanent
+(v)
+Papers containing direct reference to trends or
+developments,
+particularly if they contain unpublished
+statistical date covering a long periodor amde area.
+Pemanent
+(vi)
+Papers relating to absolute activitiesorinvestigations,
+or to abortive Schemes in important fields.
+(2119)
+
+3.
+RECORDS OF ADMINISTRATIVE FUNCTIONS;
+1.
+Oak register
+2.
+Invoice
+3.
+Section Diary
+4.
+Assistant's Diary
+5.
+Standing guard files and standing note
+(The earlier version of these records will normally be weeded
+out as soon as the revised version becomes available)
+6.
+Distribution Chart
+7.
+Typist's Diary
+8.
+Issue Diary
+9.
+Despatch register
+10.
+Postal registration books
+11.
+Receipts of telegrams
+12.
+Register of daily abstract of stamps used
+13.
+Messenger book
+14.
+Stamps account register
+15. .
+Weekly statement of cases disposed of
+16.
+File register
+17
+File movement register ..
+18.
+Movement diary for personal staff
+19.·
+Precedent books
+20.
+.Register for watching the progress of recording
+21.
+List of files transferred to the departmental record room
+22.
+Record review register
+23.
+List of files received for review
+24
+Register of spare copies of publications, circulars, orders, etc.
+25.
+Weekly/monthly arrears statement
+.
+26
+Call book -
+27.
+Monthly progress report on recording of files'
+28.
+Reminder diary
+29.
+Register for keeping a watch on communication received
+from the Govt.IMP/CPFC etc.
+30
+Register of Parliamentary assurances
+31.
+Check-lists for periodical reports
+32.
+Inspection reports -1 year after the date of next Inspection
+4.
+RECORDS CQNNECmn
+WITH ACCQUNTSj
+(1)
+(i)
+(ii)
+The followin~ shall on no account be destroyed:-
+Record connected with expenditure which on projects, schemes
+or work not completed, although beyond the period of limitation.
+Records connected with expenditure which is within the period
+of limitation fixed by law.
+R~rds
+connected with claims to service and personal matters
+affecting persons in theserv~ce except as indicated in the .
+Aimexure below: .
+,
+'
+~and
+sanctions.of'a lX'nnan~mcPwact~r,until revised
+(Hi)
+. (iv)
+One year
+One year
+Three years
+One year
+Permanent ,
+'ft'
+•
+One year
+One year
+One year
+5 years
+5 years
+1years
+5 years
+I year
+5 years
+1year
+15years
+1year
+I year
+Permanent
+..
+3.years
+25 "
+I "
+1 "
+1 "
+-t"
+1 "
+1 "
+1 "
+1 "
+1 "
+1 "
+1 "
+I"
+Permanent
+"
+"
+"
+"
+
+(2)
+. The following records shall be preserved for not less than the periods specified
+against them:-
+Payments
+and recoveries:-
+(a)
+(b)
+(c)
+(d)
+Expenditure sanctions not covered by Para 4 (1) above
+including sanctions relating to grant-in-aid
+Cash-books maintained by the drawing and disbursing
+officer under Central Treasury Rule,77
+Contingent expenditure
+Arear Claims ( including sanction for investigation
+where necessary)
+(e) Paper relating to:
+(i) G.P.F. Membership
+(ii) G.P.F. Nomination
+(a)
+(b)
+(iii)
+Adjustment of missing credits in SPF
+accounts
+(iv)
+Financing of Insurance Policies from
+GPF accounts
+(v)
+Final withdrawal from GP Funds e.g.
+for house building, higher technical
+education of children etc.
+(vi)
+SPF Annual statements
+(vii)
+TAlTransfer TA Claims
+(2/21)
+3 Years or 1 year after
+completion of audit
+whichever is later
+10 Years
+3 years or 1 yr. after the
+completion of audit
+whichever is later.
+--do--
+1 Year
+1Year subjectto:-
+Original nomination
+being placed in Vol.II of
+the service book of the
+Gr. 'D' statfand
+Nomination in original
+or an autenticatedcopy
+there being placed in
+Vol.II of the service
+book/personal
+file in
+case of other Govt.
+servants.
+1 years
+--do--
+--do--
+--<10--
+3 years or oae year after
+completion Of audit
+whichever is later.
+
+(3)
+Budget Estimates/revised
+Estimates
+3 years ( The retention period here relates
+to the budget/revised
+Estimates as comp-
+.•..
+iled by the Budget/Accounts
+Sec. for the
+office as a whole).
+t
+(4)
+Service Books of :
+3 Years after issue of final
+(a) Officials entitled to retirement/
+Pension Igratuity Payment order.
+terminal benefits
+(b) Other employees
+3 years after they have Ceased to be
+in service.
+(5)
+Service reeords:
+(a) Nomination relating to family Pension
+I Year subject to the nomination
+and DCR gratuity
+in original of an authenticated
+copy there-on (where original is
+kept with the audit) as the case may
+be, being placed in Vol. II of the
+service Book /personal File.
+(b) Gradation /Seniortity list
+3 Years
+(c) Alteration in the date of birth
+3 years (subject to suitable entry
+being made in the appropriate
+service record & an authenticated
+copy of the order being kept in Vol. II
+of Service BooklPersonal
+File.
+(d) Admission of previous service not
+3 Years of 1 Year after completion
+supported by authenticated service
+of audit, whichever is later (subject
+record, e.g. through collateral
+to suitable entry being made in
+evidence.
+the appropriate service record and
+an authenticated copy of the order
+being kept in Vol. II of
+Service BooklPersonal
+File.)
+(e) Verification of service
+5 Years subject to a suitable
+record being kept somewhere, e.g. in
+the Service Book or History sheet.
+(6)
+EIP~DdilU[~stlt~m~Dts:
+(a) In respect of Lower formations
+To be weeded out at the end of
+financial year.
+(b) In respect of the entire EPF
+To be weeded
+out after
+Organisation.
+the appropriation accounts for the
+year have been finalised.
+(c) Register of monthly expenditure
+To be weeded
+outafter
+(FormGFR9)
+the appropriation
+accounts for the
+year have been finalised.
+"',
+(2/22)
+
+(7)
+Surety
+bonds
+executed
+in favour
+of a
+3 Years after the bond ceases to be
+temporary
+or a retiring employee
+of the
+enforceable.
+Organisation
+(8)
+(a) Pay bill Register
+35 Years
+(b) Office copies of Establishment pay
+35 Years
+bills and related schedules (in respect
+of period for which pay bill regi~ter is
+not maintained)
+(c) Schedules to the establishment pay
+3 Years, of one year after the
+bills for the period for which pay bill
+completion of audit, whichever is later
+register is maintained
+(d)
+Acquittance Rolls
+-do-
+(9)
+Muster Rolls
+Minimum of 3 financial Years
+of payment excluding the financial
+year of payment.
+(l0)
+Bill register maintained ~nTR-28-A
+5 Years.
+(ll)
+Paid cheques returned by the bank to
+5 years (The counter foils of paid
+the Audit! Accounts Office
+cheques should also be preserved for
+the same period as prescribed for
+preservation of paid cheques, viz. 5
+years. However, in case where the
+counterfoils are required to be
+preserved in connection with settlement
+of some enquiry etc., these should not
+be destroyed unless otherwise advised
+by the authority conducting enquiry.
+The other instruction contained in this
+schedule will continue to be appliable
+in this case before the counter foils
+which are more than 5 years old are
+actually destroyed.
+(l2)
+File, papers and documents relating
+5 years after the contract/agreement
+is
+to Contracts, agreements etc.
+ful-filled or terminated. In cases where
+audit objections have been raised,
+however the relevant files and docu-
+ments shall not, under any circum-
+stances, be allowed to be destroyed till
+such time as the objections have been
+cleared to the satisfaction of the audit
+authorities or have been reviewed by
+the Public Accounts Committee.
+(13)
+Accounts of:
+(a)
+Officials entitled to retirement!
+3 years after issue of final pension!
+terminal benefits
+gratuity payment order
+. (2/23)
+
+(b)
+Other employees
+3 years after they have ceased to be
+in service.
+(14)
+ANNEXURE:-
+Records Connected with claims to service and personal matters
+affecting persons in the service as referred to at S.No. 4(1)(iii)
+bove.
+l.
+(i)
+(ii)
+(iii)
+(iv)
+(v)
+2.
+3.
+4.
+5.
+Creation of Classification of Posts:
+Continuance/abolition/revival
+of posts
+Conversion of temporary posts
+into permanent ones.
+,Creation of posts
+Revision of scales of pay
+Upgrading of posts
+Review for determining suitability of
+Permanent employees for continuance
+in service Establishment/sanction
+register
+Arbitration and litigation cases
+\<,
+Notice under section 80 of
+Recruitment: -
+Condonation of break in service
+1 year
+10 years
+10 years
+Permanent in the
+case of central office
+issuing the orders the
+regional/sub-regional
+offices need keep only
+the standing orders
+etc., weeding out
+superseded ones as
+and when they become
+obsolete.
+10 years
+Subject to parti-
+culars of sanction
+being noted in
+establishments/
+sanction register
+--do--
+Where.for any reason the register in
+rewritten the old volume will be kept for
+3 years
+3 years subject to;
+(a) the file not being closed until
+award/judgement
+becomes final
+in all respects by limitation or final
+decision in appeal/revision,
+and
+(b) Cases involving important issues or
+containing material of a high
+precedent/reference
+value being
+retained for a appropriatetelly
+longer
+period higher initially or at the time
+of review.
+1year If such a notice is follow up by a
+civil Civil Procedure Code suit, it would
+become arbitration/litigation
+case and
+would, therefore, need to be retained for
+3 years.
+5 years Subject to a suitable entry being
+made in the appropriate service records
+and an authenticated
+copy of the order
+being kept in V01.11 of Service book!
+, Personal file.
+(2/24)
+
+6.
+ADVANCES;-
+(i)
+Car Advance rules
+Permanent in the case of Central office
+(ii)
+Conveyance advances rules
+issuing the rules, orders and instructions.
+(iii)
+Cycle advance rules
+The Regional/Sub-Regional
+offices need
+(iv)
+Festival advance rules
+keep only the standing rules etc., weed-
+(v)
+GPF advance rules
+ing out the superseded ones as and when
+(vi)
+House building advance rules
+they become obsolete.
+(vii)
+Motor cycle/scooter advance rules
+(viii)
+Pay advance rules
+(ix)
+TA advance rules
+(x)
+Travel concession rules
+\
+(xi)
+Other advances rules
+1 Year Subject to;
+(xii)
+Grant of car advance
+(a) suitable entries being made in pay
+(xiii)
+Grant of conveyance allowance
+bill register,
+(xiv)
+Grant of cycle advance
+(b) in case of motor car/motor cycle/
+(xv)
+Grant of Festival advance
+scooter and house building advances.
+(xvi)
+Grant ofGPF advance
+(c) Copies of sanction being placed on
+(xvii)
+Grant of house building advance
+personal files and
+(xviii) Grant of motor cycle/scooter adv.
+'(d) mortgage deeds and other agreements
+(xjx)
+Grant of pay advance
+executed being kept separately in safe
+s
+(xx)
+Grant ofT.A. advance
+custody for the period they are valid.
+(xxi)
+Grant ofL.T.e.
+advance
+(xxii)
+Grant of other advance
+7.
+Surety Bonds executed in
+3 years after bond ceased to be
+favour of a temporary or a
+enforceable
+retiring government servant
+8.
+Pension/retirement
+(i)
+Rules and orders
+Permanent in the case of central office
+(general aspects)
+issuing the rules, orders and instruction
+The regional/sub-regional
+offices need
+keep only the standing rules and orders
+weeding out the superseded ones as and
+when they become obsolete.
+(ii)
+In respect of groups AIB/C and
+.employees of the Organisation
+(a) .
+Pre-verification
+of pension cases
+3 Years
+(b)
+Invalid Pension
+I
+Till one year after the last beneficiary of
+(c)
+Family Pension
+I
+the family pension ceases
+(d)
+Other Pension
+I
+to be entitled to receive orS years
+whichever is later.
+(e)
+Gratuaity
+5 years
+(t)
+Commutation
+of Pension
+15 years
+(2/25)
+11
+
+INSTRUCTIONS
+l.
+The retention period specified in Column (3) in the case of a file, is to be reckoned
+from the year in which the file is closed ( i.e. action thereon has been completed) and not
+necessarily from the year in which it is recorded.
+2.
+In the case of records other than files, e.g. registers, the prescribed retention period
+will be counted from the year in which it has ceased be current.
+3.
+In exceptional cases record may be retained for a period longer than that specified in
+the schedule, if it has certain special features or such a course so warranted by the peculiar
+needs of the concerned office. In nO-"ease,however will a record be retained for a period
+shorter than that prescribed in the schedule.
+4.
+If a record is required in connection with the disposal of another record, the former
+will not be weeded out until after all the issues raised in the latter have been finally decided,
+even though the retention period marked on the former may have expired in the meantime.
+In fact, the retention periods initially marked on such records should be consciously
+reviewed and, where necessary, revised suitably.
+NOTES:-
+1.
+Before any pay bills/pay bill registers are destroyed, the service of the EPF
+employee concerned should be verified in accordance with rule 81 G.F.R.
+2
+Where a minimum period after which any record may be destroyed has been
+prescribed, the Regional Provident Fund Commissioner-In-charge of the region as the case
+may be or any other authority empowered by him to do so, may order in writing the
+destruction of such record in his own and subordinate offices on the expiry of that period
+counting from the last day of the latest financial year covered by the record.
+3.
+Regional Provident Fund Commissioner-In-charge of the regions shall be competent
+~
+to sanction the destruction of such other records in his own and subordinate offices as may
+be considered useless, but a list of such records as properly appertain to the accounts audited
+by the Indian Audit and Accounts Department shall be forwarded to the audit Officer and/or
+the Accounts Officers, as the case may be, for his concurrence in their destruction before the
+destruction is orders.
+4.
+Full details shall be maintained permanently in each office, of all records destroyed
+from time to time.
+S.
+The principle to be adopted in respect of files having financial implications and
+hence liable to be called by audit for inspection so that such files should be retained for a
+period of five years after they have been recorded. If at any time during the period of five'
+years, an audit objection having reference to the transaction dealt within that file arises, is
+received, the file will not be destroyed until after the audit objection has been settled to the
+satisfaction of the audit. Also, if local audit does not take place within the period of five
+years, the Head of the Office should ascertain from the audit authorities whether they have
+any objection to the files relating to the earlier years, dues for weeding out by the
+application of the five year formula, being destroyed or retained for a further period for
+scrutiny by the audit party and, if so, for what period. While records may be reviewed and
+weeded out at periodical intervals in the light of the retention periods prescribed to avoid
+their build-up, the attempt should be to make a continuous and conscious effort throughout
+the year to weedout un-necessary records. In other words, the working
+rules should be
+"Weed as you go"
+JI
+(2/26)
+,
+
+CHAPIER-3
+DQTIES AND FUNCTIONS
+S.No.
+Description
+Para
+Page No
+--------------------------------------------------------------------------------------~----------------------
+,
+1.
+Accounts Section
+3.1.
+3/1
+2.
+Pension Section
+3.2.
+3/2
+3.
+Cash Branch
+3.3.
+3/2
+4.
+Accounts branch in Central Office
+3.4.
+3/3
+5.
+Superintendent
+in Central Office
+3.5.
+3/4
+6.
+F.A. & C.A~O.
+3.6.
+3/5
+7.
+Additional CPFC (Computer)
+3.7.
+3/7
+8.
+Additional CPFC (Zonal)
+3.8.
+3/7
+9.
+R.P.F.e. (Finance & Accounts) (H.Qrs.)
+3.9.
+3/8
+10.
+Deputy Director (Audit) (H.Qrs.)
+3.10.
+3/9
+11.
+R.P.F.C.in charge of the Region
+3.11.
+3/10
+12.
+R.P.F.C. as Officer-in-charge
+of SROs
+3.12.
+3/12
+13.
+R.P.F.C. (Enforcement/Recovery)
+3.13.
+3/12
+14.
+R.P.F.C. (F & A) posted in the Regional office
+3.14.
+3/13
+15.
+Controller of Pension
+3.15.
+3/13
+-------------.--------------.---'~--~---------------------.------------------------------------------~------
+
+S.No.
+Description
+Para
+Page No.
+-----------------------------------------~---------------------------------------------------------------------
+~"
+16.
+A.P.F.C.( EnforcementlRecovery)
+3.16.
+3/14
+t
+17.
+A.P.F.C. ( Accounts)
+3.17.
+3/15
+18.
+A.P.F.C. (Administration)
+3.18.
+3/15
+19.
+A.P.F.C.
+(Cash)
+3.19.
+3/16
+20.
+A.P.F.C. (Legal)
+3.20.
+3/18
+21.
+A.P.F.C.
+(Pension)
+3.21.
+3/18
+22.
+A.P.F.C. (Computer)
+3.22.
+3/18
+23
+Enforcement Officers
+3.23.
+3/19
+24.
+A.A.O. in the Regional/Sub-Regional
+Offices
+3.24.
+3120
+25.
+Section Supervisors in the Regional/
+3.25.
+3/22
+Sub-Regional offices
+
+3
+C HAPTE
+R --3
+DUTIES AND FUNCTIONS
+THE DUTIES
+AND
+PRINCIPAL
+FUNCTIONS
+OF OFFICERS/STAFF
+AT VARIOUS
+LEVELS ARE EXPLAINED HERE UNDER:-
+REGIONAL OFFICEISUB REGIONAL OFFICE:
+3.1. ACCOUNTS
+SECTIONi-
+(i)
+Watching. of receipt
+of various
+returns
+and their scrutiny
+and follow-up
+action
+thereon.
+(ii)
+Maintenance
+of Accounts
+under Employees'
+Provident
+Fundi Employees'
+Pension
+Fundi Insurance Fund.
+(iii)
+Maintenance
+of Demand
+Collection
+and Balance
+Register
+(Revised)
+and other
+registers prescribed in the Manual of Accounting procedure ..
+(iv)
+Maintenance
+of basic/original
+document
+such as Form 9
+(Revised)
+and Form 2
+(Revised)
+Form 3
+(PS),
+Form 1 (IF). Audit scrutiny of all accounts
+returns as
+prescribed in the Manual of Accounting procedure.
+(v)
+Maintenance
+of subscribers'
+ledger account,
+verification
+of entries
+in the DCB
+Register (Revised) with reference to Schedule of receipts.( Accounts No. 1,2,10,21 &
+22) and preparation of Defaulters' list for non-submission
+of Returns/non-remittance
+of dues.
+(vi)
+Scrutiny of applications for advance/withdrawal
+and authorisation of payment thereof
+Settlement of Accounts under the three Schemes, Verification of Check-list received
+from EDP in connection
+with. the compilation
+of Subscribers'
+Annual Statement of
+Accounts and issue of Annual Accounts Slips to the establishment.
+(vii)
+Transfer of Accounts;
+(viii)
+Audit;
+(ix)
+Furnishing of MIS Returns,
+(x)
+Payment
+of benefits
+under
+Employees'
+Pension
+Scheme,
+1995 and
+Employees'
+Deposit Linked Insurance Scheme, 1976,
+(xi)
+Matters relating to Internal Audit, Pre-Audit, Test Audit;
+(xii)
+Maintanence
+of Personal Registers (Work Diary); proper closing and furnishing of
+Weekly and-Monthly
+Reports and other statistical returns and other general work
+including correspondence
+work connected with the above items ..Any other functions
+assigned by Regional Provident Fund·Commissioner/Officer.;.in-charge
+of the Sub-
+Reginoal Office from time to time.
+3/1
+
+3.2.
+Functions
+of Pension
+Section,
+Pension
+Pre-Audit
+and disbursement
+sections
+are
+included in Part III of the Manual.
+3.3.
+FUNCTIONS
+OF CASH BRANCH
+RECEIPT
+SIDE
+Receipt of Challans and Bank statements on due dates. To keep a watch on missing
+credits and non-receipt of challans.
+(Il)
+Preparation of all subsidiary cash books through EDP and prompt rendition
+of Schedule of Receipts to Accounts Sections.
+(I)
+(Ill)
+Reconciliation
+of receipts in various accounts and proper maintenance of cash
+books (Receipt side).'
+'
+(IV)
+Adjustment of erroneous receipts and transfers from one account to another.
+(V)
+Proper maintenance of challans, Bank statements, etc.
+(VI)
+To watch the realisation.of interest on allbank
+accounts.
+(VII)
+To recover interest from State Bank of India on all belated transfer of funds.
+PAYMENT
+SIDE
+(i)
+Maintenance of Cash Books (Cash and cash books (Bank), (Payment side), Cheque
+books,
+Blank
+Money
+Orders
+Forms
+etc.
+maintenance
+of valuable
+documents
+'registers
+for prompt receipt and disposal ofChequeslDDs =.
+(ii)
+Maintenance of Bills register and payment thereon.
+(iii)
+Prepraration and Rendition of all returns after ascertaining the details on receipt
+side.
+(iv)
+Maintenance of Scroll inward register.
+(v)
+To ensure periodical transfers on due dates to other accounts and for investment.
+(vi)
+To arrange for transEr of surplus funds in Administration
+Accounts N<;>.2 & 22 to
+investment Accounts No. 4 and 24 respectively, maintained in the State Bank of
+India, New Delhi.
+Receiving of scroll of authorised claims and making payments by Money Order
+or Cheques.
+'
+Forwarding of paid duplicate copy of scroll to accounts section.
+Preparation of monthly reconciliation statement of all cash books.
+Preparation of monthly classified summery of Receipts
+and Payments' in respect
+of all accounts
+Preparation of Balance sheetlReceipt and Payment accounts.
+Receiving of undelivered Money OrderS/Cheques and forwarding of intimation to
+accounts branch and watching the recredit intimation.
+Despatch of ChequelMoney
+orders/Registrerd
+and other letters issued from cash
+section.
+. .,
+),
+(vii)
+(viii)
+(ix)
+(x)
+(xi)
+(xii)
+(~)
+..,
+3/1
+
+(xiv)
+Disbursement of pay etc. and maintenance of connected registers.
+(xv)
+To ensure transfer of surplus funds in EPF AlC No. I and 10 to Investment Account
+Nos. 5 and 11 respectively, maintained in the State Bank of India, Bombay.
+3.4.
+FUNCTIONS OF ACCOUNTS BRANCH IN CENTRAL OFFICE:
+.The Accounts Wing of the Central Office consists of various sections viz. Banking,
+Investment,
+Budget and Finance, Audit, Balance-Sheet,
+Cash (Local)
+Pension
+and Group
+Insurance, etc. and their main functions are as follows.-
+(1)
+Banking arrangements; transfer
+of Funds from one account to another, watching the
+maintenance of Cash Books in the Regional and Sub-Regional
+Offices, maintenance of Cash
+books in Central office for AlC No. 5,8,9,11,25,4,&
+24 maintenance ofProfonna
+Accounts of
+Interest Suspense Account, SRF, DRF and UCD (Banking Account).
+(2)
+Investment
+of EPF, Pension Fund and EDLI Fund, SPF, Pension Fund (Staff),
+surplus administration
+Fund and watching of Interest, declaration of Interest under Para 60 of
+the
+EPF
+Scheme,
+1952,
+maintenance
+of
+Pension
+Fund
+Account,
+EDLI
+accounts'
+and
+acceptance
+of Securities towards PA dues, transfer of securities on grant of exemption etc.
+(Invesment Section ).
+(3)
+Preparation
+of consolidated
+budget proposals-
+Budget
+Estimate
+and Revised
+Estimates of the Organisation
+under EPF, EPS & IF re-appropriation
+of Funds, watching of
+expenditure,
+etc. Pre-Audit
+of expenditure
+of the Central office, scrutiny of proposals
+on
+matters having financial implications etc. (Budget and Finance)
+(4)
+Scrutiny and follow up action on reports ofInternal
+and Statutory Audit Parties, Issue
+of clarifications
+on matters relating to the accounting
+procedure
+of Employees'
+Provident
+Fund, Pension Fund and Insurance Fund (Audit Section)
+(5)
+Preparation
+of consolidated
+Annual Accounts
+under Employees'
+Provident
+Fund,
+Employees'
+Pension Fund and Insurance
+Fund on the basis of the Regional
+and Central
+Office accounts.
+Matters connected with the Regional
+Income and Expenditure account and
+Balance Sheet. Scrutiny and follow up action on the Monthly classified Summery of Receipts
+and Payments under various accounts received from Central Offfice, Regional Offfices and
+Sub-Regional offices (Balance Sheet cell).
+(6)
+Maintenance of cash book (Cash) and cash book (Bank) for account
+No. 4 A. Drawal
+and disbursement
+of pay and allowances
+and pther payments.
+Preparation
+of receipt and
+payment,
+Income and Expenditure
+and Balance Sheet of the Central Office, follow up. of
+Audit Report of Central Office. (Cash-Local)
+3/3
+
+(7)
+Processing of Pension papers of the officers and staff members and matters connected
+with the Group Insurance Scheme, SPF, DLI, Compassionate Fund, Staff Welfare Fund,
+Scholarship Scheme etc. (Pension and GI Section)
+3.5.
+FUNCTIONS OF SUPERINTENDENT
+(CENTRAL OFFICE)
+The Superitendent is primarily responsible for the quick and efficient disposal of
+the work allotted to his section. The main duties which he should perform in order to
+discharge this responsibility are as under:-
+l.
+To examine all receipt pertaining to his section and to distribute them
+properly
+amongst his staff;
+2.
+To see whether any receipts are immediate, difficult or of special nature and of so, if
+deal with such receipts himself or to give special instructions to the dealing assistant or clerk
+sothat their quick and efficient disposal takes place;
+3.
+To ensure that all immediate receipts in his section are put up on the date of receipt,
+all urgent receipts atleast the next day and all ordinary receipts within three days and to ensure
+that in no case in any receipt kept pending for over seven days;
+4.
+To scrutinise the notes and drafts of the dealing assistants and clerks, to revise them, if
+necessary, to submit them to his immediate superior in cases where such submission is called
+for;
+5.
+To ensure that all approved drafts are issued promptly and that all office copies are
+added to the relevant files without any delay;
+6.
+To ensure, if necessary, by inspection of the tables and racks of his staff, that the
+entries made by them in the arrear reports are in order and that no papers or files overlooked;
+7.
+To see that all periodical returns are received and issued well within the prescribed
+dates;
+8.
+To keep a note in his personal note book or desk calendar of important cases requiring
+prompt action by a specified date and to see that necessary action is taken in time;
+9.
+To maintain a sectional note book containing.important decisions for the purpose of
+reference and to ensure that entries in the book are made as soon as decisions are taken;
+3/4
+
+10.
+To ensure that files on which action is completed are promptly indexed, stitched and
+recorded;
+11.
+To scrutinise the sections diary, intersectional movement register, file registers and all
+other registers once in a week to see that they are properly maintained,
+dated initials being
+appended at the close of each scrutiny;
+12.
+To see that all papers, files, reference hooks, spare copies and other documents are
+arranged properly and that unnecessary papers are weeded out periodically;
+13.
+To check late attendance,
+to maintain order and discipline,
+and to train, help and
+advise his staff; to review the work of dealing assistants through work diary;
+14.
+To see that all the work in his section is handled in methodical
+manner, with due
+regard to the need for economy in men, material and time, and to suggest improvements
+in
+methods of work wherever possible;
+15.
+To ensure that all letters received from Government/Members
+of Parliament/Cenral
+Board of Trustees' Members etc. are duly acknowledged on the same day of receipt and action
+taken thereon within the prescribed time limit, on priority basis.
+16.
+To ensure periodic issue of reminders
+so as to get .compliance
+on all outstanding
+issues.
+17.
+To take prompt follow-up action on all minutes of the meetings reports etc.
+18.
+To ensure proper comparison of all the letters, reports etc., that are to be sent to the
+Government and meetings etc.;
+19.
+To perform any other function that may be assigned to him from time to time by his
+immediate superior or other superior officers.
+3.6.
+FUNCTIONS OF THE FINANCIAL ADVISER AND CHIEF.
+ACCOUNTS OFFICER'
+The Financial
+Adviser and Chief Accounts
+Officer who is entire in-charge
+of the
+accounting side of the Organisation has the following principal functions.-
+3/5
+
+To ensure scrutiny of the existing accounting procedure with a view to assessing their
+dequacy to the needsof the Organisation from time to time and suggest either suitable changes
+in the.existing pattern and system of accounting or evolution of new and more advantageous
+procedures;
+To ensure proper andjudicious investment of the funds of the Organisation.
+To ensure assessment and declaration of the rate of interest applicable for each
+financial year;
+To ensure compilation and presentation of the budget estimates of the Organisation
+and arrange for reappropriation of funds whenever found necessary;
+.
+To ensure compilation of the Annual Report of the Organisation in regard to the
+accounting side, particularly in the preparation of the final accounts;
+To ensure compilation of the consolidated annual proforma accounts of the
+Organisation and provide suitable reply to the paras of the Audit Report thereon. to the
+satisfaction of the Audit authorities;
+To assist and evolve the system of switching over of manual accounting to
+•.•.
+computerisation in the Organisation;
+To arrange for conduct of internal audit of the accounts of the Organisation;
+To guide investigation of cases of over payment of funds or other financial
+irregularities detected either by "Test Audit" or "Internal Audit" and take remedial measure;
+To ensure simplification of procedure and system, conduct of work study, fixing of
+work norms, revision of forms,payment
+of productivity Linked Bonus etc., through the
+Internal Work Study Unit;
+To render advice to the Central Provident Fund Commissioner in all matters and
+proposals involving financial implications;
+3/6
+
+To assist
+the
+Central
+Provident
+Fund
+Commissioner
+in ensuring
+that
+the
+final
+settlement of accounts of the members, disposal of applications
+for advances and issue of the
+annual statement of accounts are carried out by the Regional Offices within the stipulated time
+and with efficiency.
+Periodical updation o'f Accounting/Banking
+and other instruction manuals.
+3.7.
+FUNCTIONS OF ADDITIONAL
+C.p.F.e.
+(COMPUTERS)
+(i)
+Studying computerisation
+needs.
+(ii)
+Plannning computerisation
+of operations.
+(iii)
+Coordination and setting up of computer centres.
+(iv)
+Policy planning on Hardware requirement.
+(v)
+Policy formulation for EDP skill development.
+(vi)
+Development of application Software including. Problem recognition identifying area
+tor computerisation.
+(vii)
+Feasibility study.
+(viii)
+Analysis to determine the requirement of a proposed system.
+(ix)
+Design system to fulfil the requirement of users and management.
+(x)
+Construction of writing and testing of computer programmes.
+(xi)
+Change over process of conversion in this phase, the Organisation covers from the old
+system to the new system.
+(xii)
+Maintenance to repair and upgrade the system as necessary towards updated system
+and user documentation
+and revised programmes.
+(xiii)
+Creation of Data Bank.
+(xiv)
+Information support for management decisions.
+(xv)
+Total management of Information system towards and integrated approach.
+(xvi)
+Control and Monitoring functions covering the key result areas of operation including
+target fixation, performance appraisal and planning strategies for achieving results.
+(xvii)
+Overall in charge of Central Action Plan.
+(xviii) Software development.
+(xix)
+Any other area related to the work of computerisation
+and systems management.
+3..8.
+FUNCTIONS OF ADDITIONAL
+c.p.F.e.
+(ZONAL)
+1.
+Monitoring of performance of Regional Offices and subordinate offices.
+317
+
+2.
+Oversee the operation and productivity ofE.D.P.
+Centres on Manpower needs and
+trouble shooting.
+3..
+Performance/operational
+audit.
+4.
+Administrative
+Inspection.
+5.
+Training and Retraining.
+(2)
+Further, in relation to the preparation of perspective plan Challenge 2000 the functions
+would be as under;
+1.
+Modernising the system with phased introduction of computers;
+2.
+Study of existing system and procedures and design revised and simplified system
+towards service across the counter;
+3.
+.Training and retraining to upgrade the working skill of the manpower at operative
+level;
+4.
+System analysis of the existing procedures;
+5.
+Development of performance audit through the system of administrative
+inspection;
+6.
+Formulation of alternative work flow patterns for optimising efficiency;
+7.
+Development of effective monitoring system.
+3.9.
+FUNCTIONS OF REGIONAL PROYIDENT FUND COMMISSIONER
+(F & A) (HQRS.)
+1.
+The Regional Provident Fund Commissioner
+(F &A) (HQrs.) will assist the FA &
+CAO in performing
+the duties assigned to him. In addition, he will discharge the following
+financial and administrative
+powers delegated to him. RPFC (F&A) (HQrs.) is authorised to
+sell, purchase, transfer, endorse,' negotiate and otherwise
+deal in Government
+Securities, to
+sign letter of indemnity,
+execute bond of indemnity,
+guarantee,
+sign declaration
+and also
+authorise to receive interest and principal thereof on behalf of the Central Board of Trustees,
+Employees'
+Provident
+Fund
+in addition
+to the
+Central
+Provident
+Fund
+Commissioner,
+Financial
+Advisor
+and
+Chief
+Accounts
+Officer
+and
+Additonal
+Central
+Provident
+Fund
+Commissioner.
+2.
+To authorise transfer of funds from one account to the another; such as account No. 5
+to account No. 1, Account No. 4 to 2 etc., including rectification of erroneous deposits.
+3/8
+
+3.
+To operate the Special Deposit account maintained with the State Bank of India, New
+Delhi for depositing
+the surplus
+administrative
+funds of the Employees
+Provident
+Funds
+Scheme and Employees' Deposited-Linked
+Insurance Scheme.
+4.
+To have an overall control on the acceptance
+of securities
+etc. To ensure prompt
+investment of funds of the Central Board of Trustees, Employees Provident
+Fund including
+surplus fund of Provident
+Fund and Insurance
+Fund administration
+accounts and to keep a
+constant review- of pattern of investment so as to improve the yield on investment.
+5.
+Preparation of consolidated budget proposals, Budget Estimates and Revised estimate
+of the Organisation
+under EPF, Pension Fond and IF reappropriation
+of funds, watching of
+expenditure etc., preaudit of expenditure of the Central office, scrutiny of proposals on matters
+having financial
+implications
+etc., (Budget
+& Finance).
+Scrutiny and follow up action on
+reports' of Internal and Statutory audit parties, issue of clarification on the matters relating to
+the accounting procedure of Employees'
+Provident Fund. Pension Fund and Insurance Fund.
+(Audit Section)
+6.
+Preparation
+of consolidated
+annual
+accounts
+under
+Employees'
+Provident
+Fund,
+Pension Fund and Insurance Fund on the basis of the Regional and Central Office accounts. '
+Matters
+connected
+with the Regional Income and Expenditure
+account and Balance Sheet,
+scrutiny and follow up action on the monthly classified summary of Receipts and payment
+under various accounts
+received
+from Central Office, Regional.Offices
+and Sub-Regional
+Offices. (Balance sheet Cell).
+7.
+Maintenance of cash book (Cash) and cash book (Bank) for account No. 4 A. Drawal
+and disbursement
+of Pay and Allowances
+and other payments.
+Preparation
+of Receipt and
+payment, Income and. Expenditure and Balance Sheet of the Central Office,
+followup of Audit
+Report of Central Office. (Cash-Local).
+8.
+Processing of Pension papers of the officers and staff members and matters connected
+with the Group Insurance Scheme, SPF, E DU, Compassionate
+Fund, Staff Benevolent Fund~
+Scholarship
+Scheme, Welfare fund etc., to assist the FA & CAO in performing
+the duties
+assigned to him. '( Pension & Group Insurance Section).
+3.10
+FUNCTIONS OF DEPUTY DIRECTOR
+(AUDIT) (HQRS.)
+The Deputy Director
+(Audit) in Headquarters
+will ensure prompt and proper .conduct
+of Internal Audit in all the Regional Offices and Sub-Regional
+Offices through the Internal
+Audit
+Officers
+and
+discuss
+with
+the
+Regional
+Commissioner/Officer-in-Charge
+of
+Sub-Regional
+Offices on the audit reportetc,
+He will be reporting to the Financial Advisor
+and Chief Accounts Officer and perform any other function that may be assigned to him from
+time to time by the Financial Advisor and Chief Accounts Officer and the Central
+Provident
+Fund Commissioner.
+3/9
+
+3.1l.
+FUNCTIONS
+OF REGIONAL
+PROVIDENT
+FUND COl\lMISSIONER-
+IN CHARGE OF THE REGION
+Regional
+Provident
+Fund
+Commissioner
+in-charge
+of
+the
+Region,
+shall
+be
+responsible
+forcnforcing
+the provisions
+of the Act/Scheme
+in the Regional
+as a
+whole and render trouble free service to the subscribers.
+•.
+(i)
+He shall ensure that the discipline, punctuality
+and decorum are maintained
+in the
+office.
+(ii)
+Strictly adhere to the guidelines issued by the Central Office in regard to job contents
+and distribution of work among the RPFCs/APFCs.
+(iii)
+To Co-ordinate
+the work of Sub-Regional
+Offices
+and Regional
+Office
+and to
+conduct monthly, 0 & M meeting to discuss the latest amendments/procedure
+etc.,
+for uniform adoption.
+(iv)
+Conduct
+inspection of Sub-Regional
+Offices, Inspectorate
+and release calendar of
+Inspection for internal inspection by Assistant Provident Fund Commissioners.
+(v)
+To ensure financial proprietary and discipline in the working of the Region.
+(vi)
+Expeditious disposal of court cases.:
+(vii)
+Conduct
+monthly
+review
+meeting
+of all the branches
+viz. Administration/Cash/
+Legal! Recovery/ Enforcement/ Accountsi Audit/ EDP/ Pension etc ..
+(viii)
+Ensure proper conduct of departmental examinations
+(ix)
+Hear the grievance of ~taff in person and keep proper industrial relations
+(x)
+Expedite departmental enquiries and review suspension cases
+(xi)
+Ensure filling up all vacancies
+for which he is the ultimate
+authority
+and send
+proposal for other cadres
+(xii)
+Enforce punctuality, discipline and proper office atmosphere in the office
+3/10
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

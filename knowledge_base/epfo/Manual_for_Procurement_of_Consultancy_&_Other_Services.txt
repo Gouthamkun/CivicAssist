@@ -1,0 +1,2391 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Manual for Procurement of Consultancy & Other Services (Updated June, 2022)]
+
+[CONTENT]
+i 
+Manual for Procurement 
+of 
+Consultancy & Other 
+Services 
+(Updated June, 2022) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Government of India 
+Ministry of Finance 
+Department of Expenditure 
+  
+ 
+
+ 
+ii 
+      
+  
+
+
+ 
+ 
+ 
+iv 
+ 
+ 
+
+FOREWORD
+1.	
+Government organizations procure a wide variety of goods and services and undertake 
+execution of works in pursuance of their duties and responsibilities. With a view to 
+improving transparency in decision making in public procurement and reducing the 
+scope for subjectivity, Department of Expenditure in 2006 had prepared a set of three 
+Manuals on Policies and Procedures for Procurement of Goods, Works and hiring of 
+Consultants, in conformity with the General Financial Rules (GFR), 2005. Over the years, 
+these Manuals have served as a guide book for procurement. 
+2.	
+In the last few years, the Government of India has issued new instructions in the domain 
+of public procurement. Some of these important changes include introduction of Central 
+Public Procurement Portal (CPPP), Government e-Marketplace (GeM), preferential market 
+access for micro and small enterprises, inclusion of integrity pact, etc. The GFR has been 
+revised comprehensively in March 2017 covering inter-alia these set of new instructions. 
+Consequently the Manual of Procurement too has been revised after a decade and 
+within a month of the release of GFR 2017.
+3.	
+The new Manual on Procurement of Consultancy & other Services has been extensively 
+revised in keeping with GFR 2017 and in consonance with the fundamental principles 
+of transparency, fairness, competition, economy, efficiency and accountability. Efforts 
+have been made to cover all major aspects of procurement in this Manual in a user-
+friendly manner. The manual is the outcome of extensive consultations in two stages with 
+Ministries/Departments/PSUs and other organizations over a period of six months.
+4.	
+Manuals issued by this Department are to be taken as generic guidelines, which have 
+to be necessarily broad in nature. Ministries/Departments are advised to supplement 
+this manual to suit their local/specialized needs, by issuing their own detailed manuals 
+(including customized formats); Standard Bidding Documents and Schedule of Procurement 
+Powers to serve as detailed instructions for their own procuring officers.
+5.	
+I would like to acknowledge the lead taken by Dr. Vivek Joshi, Joint Secretary, DoE and 
+dedicated efforts of Shri Sanjay Aggarwal, Director (PPD), Shri Vinayak T. Likhar, Under 
+Secretary (PPD) and Shri Girish Bhatnagar, Consultant (Public Procurement) in revision of 
+this Manual. I would also like to thank Ministries, Departments, other organisations and 
+individuals who reviewed the drafts of the Manual and provided their valuable inputs.  
+6.	
+I hope that this Manual would be useful to procuring officials working in various Ministries/
+Departments as operating instructions and will bring about greater transparency and 
+predictability in Government procedures and help in improving the ease of doing 
+Business with Government.
+(Ashok Lavasa)
+Date : 18.04.2017	
+Finance Secretary
+v
+
+ 
+ 
+ 
+vi 
+
+ 
+ vii 
+Disclaimer 
+While every care has been taken to ensure that the contents of this Manual are accurate 
+and up to date till June 2022, the procuring entities are advised to check the precise 
+current provisions of extant law and other applicable instructions from the original 
+sources. In case of any conflict between the provisions stipulated in this Manual and in 
+the original source such as GFR or the prevailing laws, the provisions contained in the 
+extant law and the original instructions shall prevail.  
+ 
+ 
+
+ 
+ 
+ 
+viii 
+ 
+ 
+
+ 
+ 
+  
+Table of Contents 
+FOREWORD ........................................................................................................................... iii 
+Disclaimer ................................................................................................................................ v 
+Abbreviations and Acronyms ................................................................................................. xiii 
+Procurement Glossary ........................................................................................................... xv 
+Chapter 1: Introduction to Procurement of Consultancy/ Other Services ................................ 1 
+1.1 
+Procurement Rules and Regulations; and this Manual ............................................. 1 
+1.2 
+Clarification, Amendments and Revision of this Manual ........................................... 2 
+1.3 
+Applicability of this Manual ........................................................................................ 2 
+1.4 
+Authorities competent to procure Consultancy and other services and their 
+Purchase Powers ................................................................................................................. 4 
+1.5 
+Basic Aims of Procurement – Five R’s of Procurement ............................................ 4 
+1.6 
+Principles of Public Procurement .............................................................................. 5 
+1.7 
+Standards (Canons) of Financial Propriety ............................................................... 5 
+1.8 
+Public Procurement Infrastructure at the Centre ....................................................... 6 
+1.9 
+Preferential/Mandatory Purchase from certain sources ............................................ 6 
+1.10 
+When is Procurement of Services justified .......................................................... 16 
+1.11 
+Principles for Public Procurement of Services ..................................................... 17 
+1.12 
+The Law of Agency – applicable to Procurement of Consultancy and other 
+Services 17 
+1.13 
+Proactive Information Disclosures ....................................................................... 18 
+1.14 
+Public Procurement Cycle ................................................................................... 18 
+1.15 
+Procurement Proposal (Concept Paper) for Consultancy and other services ..... 19 
+Chapter 2: Consultants, service providers and Governance Issues ..................................... 21 
+2.1 
+Types of consultants/ service providers .................................................................. 21 
+2.2 
+Code of Integrity for Public Procurement (CIPP) .................................................... 22 
+2.3 
+Integrity Pact (IP) .................................................................................................... 27 
+2.4 
+Debarment of Suppliers/ contractors/ consultants/ service providers ..................... 29 
+Chapter 3: 
+Types of Contracts and Systems of Selection of consultants/ service 
+providers 
+34 
+3.1 
+Types of Contracts .................................................................................................. 34 
+3.2 
+Lump Sum (Firm Fixed Price) Contract ................................................................... 34 
+3.3 
+Time-Based (Retainer-ship) Contract ..................................................................... 35 
+3.4 
+Percentage (Success/ contingency Fee) Contract .................................................. 36 
+3.5 
+Retainer and Success (Contingency) Fee Contract ................................................ 37 
+3.6 
+Indefinite Delivery Contract (Price Agreement) ....................................................... 37 
+3.7 
+Systems of Selection of service providers .............................................................. 38 
+3.8 
+Price based System - Least Cost Selection (LCS) .................................................. 40 
+3.9 
+Quality and Cost Based Selection (QCBS) ............................................................. 41 
+3.10 
+Direct Selection: Single Source Selection (SSS) ................................................. 43 
+3.11 
+Fixed Budget – based Selection (FBS) for consultancy services : ...................... 44 
+Chapter 4: Preparing for Procurement of Consultancy Services ........................................... 45 
+4.1 
+Preparation of Terms of Reference (ToR) ............................................................... 45 
+4.2 
+Estimating Costs, Setting the Budget, and Seeking Approval ................................ 47 
+
+ 
+ 
+ 
+x 
+4.3 
+Finalizing and Approval of the ToR ......................................................................... 48 
+4.4 
+Developing a Procurement Plan ............................................................................. 49 
+4.5 
+e-Procurement ........................................................................................................ 49 
+Chapter 5: Shortlisting Stage in Procurement of Consultancy Services ............................... 50 
+5.1 
+Shortlisting of qualified consultants – Expression of Interest (EoI) ......................... 50 
+5.2 
+Short List of consultants .......................................................................................... 55 
+5.3 
+Shortlisting – Risks and Mitigation .......................................................................... 57 
+Chapter 6: Selection of consultants by Competitive Process ................................................ 58 
+6.1  
+The evaluation process ........................................................................................... 58 
+6.2 
+Preparation and Issuance of the Request for Proposals (RfP) ............................... 58 
+6.3 
+Pre-proposal Meeting .............................................................................................. 67 
+6.4 
+Receipt of Proposal ................................................................................................. 67 
+6.5 
+Consultancy Evaluation Committee (CEC) ............................................................. 67 
+6.6 
+First Stage of Evaluation: Consideration of Responsiveness ................................. 71 
+6.7 
+Evaluation of the Quality – Technical Proposals ..................................................... 71 
+6.8 
+Evaluation of Cost ................................................................................................... 73 
+6.9 
+Selection of the winning consultant ......................................................................... 74 
+6.10 
+Negotiations and Award of Contract .................................................................... 77 
+6.11 
+Rejection of All Proposals, and Re-invitation ....................................................... 77 
+6.12 
+Confidentiality ...................................................................................................... 77 
+6.13 
+RfP, Evaluation and Award Stage – Risks and Mitigation ................................... 78 
+Chapter 7: Special Types of Engagements ........................................................................... 79 
+7.1 
+Single Source Selection (SSS) ............................................................................... 79 
+7.2 
+Selection of Individual consultants/ service providers ............................................. 79 
+7.3 
+Selection of Specialized Agencies/ Institutions ....................................................... 80 
+7.4 
+Selection of Nongovernmental Organizations (NGO) ............................................. 81 
+7.5 
+Procurement Agents ............................................................................................... 81 
+7.6 
+Inspection Agents .................................................................................................... 81 
+7.7 
+Financial Advisors ................................................................................................... 82 
+7.8 
+Auditors ................................................................................................................... 82 
+7.9 
+Public competition for Design of symbols/logos ...................................................... 83 
+Chapter 8: Monitoring Consultancy/ Other services Contract ............................................... 84 
+8.1 
+Monitoring of the Contract ....................................................................................... 84 
+8.2 
+Contract Monitoring Committee – (CMC) ................................................................ 84 
+8.3 
+Issuing Notice to Proceed - consultant/ service provider’s Mobilisation .................. 85 
+8.4 
+Consultancy Services - Review of Inception Phase: ............................................... 85 
+8.5 
+Reporting of Progress ............................................................................................. 85 
+8.6 
+Monitoring a Time-based Contract .......................................................................... 86 
+8.7 
+Monitoring a Lump-sum Contract ............................................................................ 86 
+8.8 
+Unsatisfactory Performance .................................................................................... 86 
+8.9 
+Delays ..................................................................................................................... 86 
+8.10 
+Issuing Contract Variations .................................................................................. 87 
+8.11 
+Substitution of Named Key Personnel ................................................................. 87 
+8.12 
+Billing and Payments ........................................................................................... 88 
+8.13 
+Disputes and Conflicts ......................................................................................... 88 
+8.14 
+Force Majeure ..................................................................................................... 90 
+
+ 
+ xi 
+8.15 
+Terminating Services Prior to End of Contract .................................................... 91 
+8.16 
+Concluding the Assignment ................................................................................. 91 
+8.17 
+Monitoring of Consultancy Contracts – Risks and Mitigation .............................. 92 
+Chapter 9: Procurement (Outsourcing) of Other (Non-consultancy) services ....................... 93 
+9.1 
+Applicability of this Chapter to Procurement (Outsourcing) of Other (Non-
+consultancy) Services ........................................................................................................ 93 
+9.2 
+Authorities competent to procure Consultancy and other services and their 
+Purchase Powers ............................................................................................................... 94 
+9.3 
+When is Procurement/ Outsourcing of Other (Non-consultancy) Services justified 94 
+9.4 
+Principles for Public Procurement of other (non-consultancy) services: ................. 94 
+9.5 
+Types of Contracts in Other (Non-consultancy) Services ....................................... 95 
+9.6 
+System of Selection in Other (Non-consultancy) Services ...................................... 96 
+9.7 
+One Stop Government e-Marketplace (GeM) ......................................................... 96 
+9.8 
+Procurement Proposal (Concept Paper) for other (non-consultancy) Services .... 109 
+9.9 
+Obtaining Final Administrative and Budgetary Approvals ..................................... 109 
+9.10 
+Procedure for Single Source Selection (SSS) ................................................... 111 
+9.11 
+Procedure for Small Value and emergency Procurements of Other (Non-
+consultancy) Services ...................................................................................................... 111 
+9.12 
+Procedure for Procurements below Rs 10 (Rupees Ten) Lakhs ....................... 112 
+9.13 
+Procedure for higher Value of Procurements .................................................... 112 
+9.14 
+Preparation of the Request for Proposals (RfP) ................................................ 112 
+9.15 
+Important Provisions of ITB ............................................................................... 113 
+9.16 
+Standard Formats for Technical and Financial Proposals ................................. 118 
+9.17 
+Receipt of Bids, Evaluation and Award of Contract ........................................... 118 
+9.18 
+Service Level Agreement (SLA) ........................................................................ 122 
+9.19 
+Monitoring the Contract ..................................................................................... 123 
+Annexures ........................................................................................................................... 124 
+Annexure 1: Procurement Guidelines .................................................................................. 125 
+Annexure 2A: Delegation of Financial Powers – Indents, Contracts and Purchases for public 
+service ................................................................................................................................. 126 
+Annexure 2B: Suggested Structure of Schedule of Procurement Powers (SoPP) .............. 127 
+Annexure 2C: Model Clause/ Certificate to be inserted in tenders etc. w.r.t Order (Public 
+Procurement No.1) .............................................................................................................. 130 
+Annexure 2D: Format for seeking the approval of the Competent Authority for inviting Global 
+Tender Enquiry for procurements less than Rs. 200 crores ................................................ 133 
+Annexure 2E: List of Medical Devices and IVDs, where local manufacturers are not 
+available, as on 17.12.2021 (as verified with the Medical Devices Manufacturing 
+Associations) ....................................................................................................................... 135 
+Annexure 2F: Example of Formula for Price Variation Clause ............................................ 138 
+Annexure 3: Format of Procurement Proposal .................................................................... 140 
+Annexure 4: Terms of Reference (ToR) Format .................................................................. 142 
+Annexure 5: Bid Opening Attendance Sheet cum Report ................................................... 143 
+Annexure 6: CEC Committee Minutes Format for Consultancy Services ........................... 144 
+Annexure 6A: 
+Format for evaluation of Responsiveness .............................................. 147 
+Annexure 6B: 
+Format for Simplified evaluation of quality (LCS/ EoI) ............................ 148 
+Annexure 6C: 
+Format for Detailed Technical evaluation - Summary Sheet .................. 149 
+Annexure 6D 
+Evaluation of Consultancy Firm’s Experience ........................................ 150 
+Annexure 6E 
+Evaluation of Methodology & Work Schedule ......................................... 151 
+
+ 
+ 
+ 
+xii 
+Annexure 6F 
+Evaluation of the Key Professionals ....................................................... 152 
+Annexure 7: Activity and Other Schedule for Other (Non-consultancy) Services ............... 153 
+Annexure 8: Certificate for Procurement of other services without Quotation ..................... 154 
+Annexure 9: Purchase Committee Certificate for Procurement of other services ............... 155 
+Annexure 10: Tender Committee Minutes Format for Other (Non-consultancy) Services .. 156 
+Appendix .............................................................................................................................. 158 
+Appendix 1: Basic Aims and Fundamental Principles of Public Procurement ..................... 159 
+1.1 
+Basic Aims of Procurement – the Five Rs of Procurement ................................... 159 
+1.2 
+Refined Concepts of Cost and Value – Value for Money ...................................... 160 
+1.3 
+Fundamental Principles of Public Procurement .................................................... 162 
+Appendix– 2: Legal Aspects of Public Procurement ............................................................ 172 
+1.0 
+Relevant Provisions of the Constitution of India .................................................... 172 
+2.0 
+Salient Features of the Indian Contract Act .......................................................... 173 
+3.0 
+Salient Features of the Indian Arbitration & Conciliation Act 1996 ....................... 179 
+4.0 
+Salient Features of Competition Act, 2002 relating to Anti-competitive Practices 183 
+5.0 
+Salient Features of the Whistle Blowers Protection Act, 2011 and the Whistle 
+Blowers Protection (Amendment) Act, 2015 .................................................................... 186 
+Appendix 3: Electronic Procurement (e-Procurement) ........................................................ 189 
+1.0 
+Electronic procurement (e-procurement) .............................................................. 189 
+2.0 
+Service Provider .................................................................................................... 189 
+A service provider is engaged to provide an e-procurement system ............................... 189 
+3.0 
+The e-Procurement Process ................................................................................. 189 
+
+ 
+ 
+xiii 
+Abbreviations and Acronyms 
+AAEC Appreciable Adverse Effect on 
+Competition 
+BC (selling) 
+Bill for Collection Selling 
+(Foreign Exchange) Rate 
+BDS 
+Bid Data Sheet 
+C&AG Comptroller and Auditor General 
+(of India) 
+C (F) A Competent (Financial) Authority 
+CAPEX 
+Capital Expenditure (model 
+of acquisition/ procurement) 
+CBI 
+Central Bureau of Investigation 
+CCI 
+Competition Commission of India 
+CEC 
+Consultancy Evaluation Committee 
+CIPP Code of Integrity for Public 
+Procurement 
+CMC Contract Management Committee 
+CPO 
+Central Purchasing Organizations 
+CPPP Central Public Procurement Portal 
+CRAC Consignee Receipt and 
+Acceptance Certificate 
+CV 
+Curriculum Vitae 
+CVC 
+Central Vigilance Commission 
+CVO 
+Chief Vigilance Officer 
+DFPR Delegation of Financial Power 
+DG 
+Director General 
+DGS&D 
+Directorate General of 
+Supplies and Disposals 
+DPIIT Department for Promotion of 
+Industry and Internal Trade 
+DSC 
+Digital Signature Certificate 
+EC 
+Evaluated Cost 
+ECS 
+Electronic Clearing System 
+EMD Earnest Money Deposit 
+EoI 
+Expression of Interest (Tender) 
+EPF 
+Employee Provident Fund 
+ESI 
+Employee State Insurance 
+FA (&CAO) 
+Financial Adviser (and 
+Chief Accounts Officer) 
+FEMA Foreign Exchange Management 
+Act 
+FM 
+Force Majeure 
+FTP 
+Full Technical Proposal 
+GCC General Conditions of Contract 
+GeM 
+Government Electronic Market 
+GeMAR&PTS GeM Availability Report 
+and Past Transaction Summary 
+GFR 
+General and Financial Rules, 2017 
+GoI 
+Government of India 
+GTE 
+Global Tender Enquiry 
+HOD Head of the Department 
+HUF 
+Hindu Undivided Family 
+ICT 
+Information & Communications 
+Technology 
+IEM 
+Independent External Monitor 
+IP 
+Integrity Pact 
+ISO 
+International Organization for 
+Standardization 
+IT 
+Information Technology 
+ITB 
+Instructions to Bidders (may in 
+some instance be called 
+Instructions to Tenderers - ITT) 
+ITC 
+Instructions to consultants 
+JV 
+Joint Venture (Consortium) 
+L-1 
+Lowest Bidder 
+LCC 
+Life Cycle Costing 
+LCS 
+Least Cost System 
+LD 
+Liquidated Damages 
+LEC 
+Lowest Evaluated Cost 
+
+Abbreviations 
+ 
+ 
+ 
+ 
+xiv 
+LoI 
+Letter of Invitation 
+LTE 
+Limited Tender Enquiry 
+MSME (Ministry of) Micro Small and 
+Medium Enterprises 
+MSMED 
+Micro, Small and Medium 
+Enterprises Development Act, 2006 
+NGO Non Government Organisation 
+NIC 
+National Informatics Centre 
+NIT 
+Notice Inviting Tender 
+OPEX Operating Expense (model of 
+acquisition/ procurement)  
+PA 
+Procurement Agent(s) 
+PAN 
+Personal Account Number 
+PPD 
+Procurement Policy Division 
+PPP-MII 
+Public Procurement 
+(Preference to Make in India), 
+Order 
+PQB 
+Prequalification Bidding 
+PSARA 
+Private Security Agencies 
+Regulation Act, 2005 
+(C)PSU/ PSE (Central) Public Sector 
+Undertaking/ Enterprise 
+QCBS Quality and Cost Based Selection 
+ (S)RfP 
+(Standard) Request for 
+Proposals (Document) 
+REoI Request for Expression of Interest 
+RTI 
+Right to Information (Act) 
+SBD 
+Standard Bidding Document 
+SCC 
+Special Conditions of Contract 
+SHG 
+Self Help Group 
+SLA 
+Service Level Agreement 
+SoPP Schedule of Procurement Powers  
+SoR 
+Schedule of Rates 
+SSS/ STE 
+Single Source Selection/ 
+Single Tender Enquiry 
+STP 
+Simplified Technical proposal 
+TC 
+Tender Committee also called 
+Tender Purchase or Evaluation 
+Committee (TPC/ TEC) 
+TCO 
+Total Cost of Ownership 
+ToR 
+Terms of Reference 
+UAM Udyam Aadhaar Memorandum 
+URC 
+Udyan Registration Certificate 
+VfM 
+(Best) Value for Money 
+WOL Whole of Life (Cost) or Total Cost 
+of Ownership TCO 
+ 
+
+ 
+ xv 
+Procurement Glossary 
+In this Manual and in the ‘Procurement Guidelines’, unless the context otherwise requires1: 
+i) 
+"Bid" (including the term ‘tender’, ‘offer’, ‘quotation’ or ‘proposal’ in certain 
+contexts) means an offer to supply goods, services or execution of works made in 
+accordance with the terms and conditions set out in a document inviting such 
+offers; 
+ii) 
+"Bidder" (including the term ‘tenderer’, ‘consultant’ or ‘service provider’ in certain 
+contexts) means any eligible person or firm or company, including a consortium 
+(that is an association of several persons, or firms or companies), participating in 
+a procurement process with a Procuring Entity; 
+iii) 
+"(Standard) Bid(ding) documents" (including the term ‘tender (enquiry) 
+documents’ or ‘Request for Proposal Documents’ – RfP documents in certain 
+contexts) means a document issued by the Procuring Entity, including any 
+amendment thereto, that sets out the terms and conditions of the given 
+procurement and includes the invitation to bid. A Standard (Model) Bidding 
+Document is the standardised template to be used for preparing Bidding 
+Documents after making suitable changes for specific procurement; 
+iv) 
+"Bidder registration document" means a document issued by a Procuring Entity, 
+including any amendment thereto, that sets out the terms and conditions of 
+registration proceedings and includes the invitation to register; 
+v) 
+"Bid security" (including the term ‘Earnest Money Deposit’(EMD), in certain 
+contexts) means a security from a bidder securing obligations resulting from a 
+prospective contract award with the intention to avoid: the withdrawal or 
+modification of an offer within the validity of the bid, after the deadline for 
+submission of such documents; failure to sign the contract or failure to provide 
+the required security for the performance of the contract after an offer has been 
+accepted; or failure to comply with any other condition precedent to signing the 
+contract specified in the solicitation documents.; 
+vi) 
+“Central Public sector enterprise” means a body incorporated under the 
+Companies Act or established under any other Act and in which the Central 
+Government or a Central enterprise owns more than 50 (fifty) per cent of the 
+issued share capital;  
+vii) 
+"Central Purchase Organisation" means a Procuring Entity which is authorised by 
+the Government of India by an order, made in this behalf, to make procurement 
+for one or more procuring entities; 
+viii) 
+“Class-I local supplier” means a supplier or service provider, whose goods, 
+services or works offered for procurement, meets the minimum local content as 
+prescribed for ‘Class-I local supplier’ under the Public Procurement (Preference 
+to Make in India), Order 20172; 
+ 
+1 The main preferred term is within the inverted commas. Alternative equivalent terms used in certain contexts, 
+if any, are listed in the brackets. Text within brackets is not considered for sort-order of terms. 
+2 Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+ 
+xvi 
+ix) 
+“Class-II local supplier” means a supplier or service provider, whose goods, 
+services or works offered for procurement, meets the minimum local content as 
+prescribed for ‘Class-II local supplier’ but less than that prescribed for ‘Class-I 
+local supplier’ under the Public Procurement (Preference to Make in India), Order 
+20173; 
+x) 
+ “Competent authority” means the officer(s) who finally approves the decision. 
+xi) 
+“Consultancy services” covers a range of services that are of an advisory or 
+professional nature and are provided by consultants. These Services typically 
+involve providing expert or strategic advice e.g., management consultants, policy 
+consultants or communications consultants. Advisory and project related 
+Consultancy Services which include, for example: feasibility studies, project 
+management, engineering services, Architectural Services, finance accounting 
+and taxation services, training and development. It may include small works or 
+supply of goods or other services which are incidental or consequential to such 
+services; 
+xii) 
+ “e-Procurement” means the use of information and communication technology 
+(specially the internet) by the Procuring Entity in conducting its procurement 
+processes with bidders for the acquisition of goods (supplies), works and services 
+with the aim of open, non-discriminatory and efficient procurement through 
+transparent procedures;  
+xiii) 
+"Goods" includes all articles, material, commodity, livestock, medicines, furniture, 
+fixtures, raw material, consumables, spare parts, instruments, machinery, 
+equipment, industrial plant, vehicles, aircrafts, ships, railway rolling stock 
+assemblies, sub-assemblies, accessories, a group of machines comprising an 
+integrated production process or such other categories of goods or intangible, 
+products like technology transfer, licenses, patents or other intellectual properties 
+(but excludes books, publications, periodicals, etc., for a library), procured or 
+otherwise acquired by a Procuring Entity. Procurement of goods may include 
+certain  small work or some services, which are incidental or consequential to the 
+supply of such goods, such as transportation, insurance, installation, 
+commissioning, training and maintenance; 
+xiv) 
+“Indenter” ( or the term ‘User (Department)’ in certain contexts) means the entity 
+and its officials initiating a procurement indent, that is, a request to the Procuring 
+Entity to procure goods, works or services specified therein; 
+xv) 
+“Inventory” means any material, component or product that is held for use at a 
+later time; 
+xvi) 
+"Invitation to (pre-)qualify" means a document including any amendment thereto 
+published by the Procuring Entity inviting offers for pre-qualification from 
+prospective bidders; 
+xvii) 
+"Invitation to register" means a document including any amendment thereto 
+published by the Procuring Entity inviting offers for bidder registration from 
+prospective bidders; 
+ 
+3 Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+xvii 
+xviii) 
+“Local Content” means the amount of value added in India which shall, unless 
+otherwise prescribed by the Nodal Ministry, be the total value of the item 
+procured (excluding net domestic indirect taxes) minus the value of imported 
+content in the item (including all customs duties) as a proportion of the total 
+value, in percent. 
+xix) 
+“Non-Local supplier” means a supplier or service provider, whose goods, services 
+or works offered for procurement, has local content less than that prescribed for 
+‘Class-II local supplier’ under the Public Procurement (Preference to Make in 
+India), Order 20174; 
+xx) 
+“Non-Local supplier” means a supplier or service provider, whose goods, services 
+or works offered for procurement, has local content less than that prescribed for 
+‘Class-II local supplier’ under the Public Procurement (Preference to Make in 
+India), Order 20175; 
+xxi) 
+"Notice inviting tenders" (including the term ‘Invitation to bid’ or ‘request for 
+proposals’ in certain contexts) means a document and any amendment thereto 
+published or notified by the Procuring Entity, which informs the potential bidders 
+that it intends to procure goods, services and/or works.; 
+xxii) 
+“Other services” (including the term ‘Non-consultancy services’ in certain 
+contexts) are defined by exclusion as services that cannot be classified as 
+Consultancy Services. Other services involve routine repetitive physical or 
+procedural non-intellectual outcomes for which quantum and performance 
+standards can be tangibly identified and consistently applied and are bid and 
+contracted on such basis. It may include small works, supply of goods or 
+consultancy service, which are incidental or consequential to such services. other 
+services may include transport services; logistics; clearing and Forwarding; 
+courier services; upkeep and maintenance of office/ buildings/ Estates (other than 
+Civil & Electrical Works etc.); drilling, aerial photography, satellite imagery, 
+mapping and similar operations etc; 
+xxiii) 
+“Outsourcing of Services” means deployment of outside agencies on a sustained 
+long-term (for one year or more) for performance of other services which were 
+traditionally being done in-house by the employees of Ministries/ departments 
+(e.g. Security Services, Horticultural Services, Janitor/ Cooking/ Catering/ 
+Management Services for Hostels and Guest Houses, Cleaning/ Housekeeping 
+Services, .Errand/ Messenger Services, and so forth). Besides outsourcing, other 
+services also include procurement of short-term stand-alone services. 
+xxiv) 
+"Pre-qualification (bidding) procedure" means the procedure set out to identify, 
+prior to inviting bids, the bidders that are qualified to participate in the 
+procurement; 
+xxv) 
+"Pre-qualification document" means the document including any amendment 
+thereto issued by a Procuring Entity, which sets out the terms and conditions of 
+the pre- qualification bidding and includes the invitation to pre-qualify; 
+ 
+4 Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+5Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+ 
+xviii 
+xxvi) 
+"Procurement" or "public procurement" (or ‘Purchase’, or ‘Government 
+Procurement/ Purchase’ in certain contacts) means acquisition by way of 
+purchase, lease, license or otherwise, either using public funds or any other 
+source of funds (e.g. grant, loans, gifts, private investment etc.) of goods, works 
+or services or any combination thereof, including award of Public Private 
+Partnership projects, by a Procuring Entity, whether directly or through an agency 
+with which a contract for procurement services is entered into, but does not 
+include any acquisition of goods, works or services without consideration, and the 
+term "procure" or "procured" shall be construed accordingly; 
+xxvii) "Procurement contract" (including the terms ‘Purchase Order’ or ‘Supply Order’ or 
+‘Withdrawal Order’ or ‘Work Order’ or ‘Consultancy Contract’ or ‘Contract for 
+other services’ under certain contexts), means a formal legal agreement in writing 
+relating to the subject matter of procurement, entered into between the Procuring 
+Entity and the supplier, service provider or contractor on mutually acceptable 
+terms and conditions and which are in compliance with all the relevant provisions 
+of the laws of the country. The term “contract” will also include “rate contract’ and 
+“framework contract”; 
+xxviii) “(Public) Procurement Guidelines” means guidelines applicable to Public 
+Procurement, consisting of under relevant context a set of – i) Statutory 
+Provisions (The Constitution of India; Indian Contract Act, 1872; Sales of Goods 
+Act, 1930; and other laws as relevant to the context); ii) Rules & Regulations 
+(General Financial Rules, 2017; Delegation of Financial Power Rules and any 
+other regulation so declared by the Government); iii) Manuals of Policies and 
+Procedures for Procurement (of Goods; Works; Consultancy/ other services or 
+any for other category) promulgated by the Ministry of Finance and iv) Procuring 
+Entity’s Documents relevant to the context (Codes, Manuals and Standard/ Model 
+Bidding Documents);  
+xxix) 
+"Procurement process" means the process of procurement extending from the 
+assessment of need; issue of invitation to pre-qualify or to register or to bid, as 
+the case may be; the award of the procurement contract; execution of contract till 
+closure of the contract; 
+xxx) 
+“Procuring authority” means any Ministry or Department of the Central 
+Government or a unit thereof or its attached or subordinate office to which 
+powers of procurement have been delegated; 
+xxxi) 
+"Procuring Entity" (including the term Procuring Entity and including Associated/ 
+integrated Finance, technical departments, besides any other) means all the 
+entities involved in one way or another, in various stages of the process, starting 
+from need assessment to the closure of contract;  
+xxxii) "Prospective bidder" means anyone likely or desirous to be a bidder; 
+xxxiii) "Public Private Partnership" means an arrangement between the central, a 
+statutory entity or any other government-owned entity, on one side, and a private 
+sector entity, on the other, for the provision of public assets or public services or 
+both, or a combination thereof, through investments being made or management 
+being undertaken by the private sector entity, for a specified period of time, where 
+there is predefined allocation of risk between the private sector and the public 
+entity and the private entity receives performance-linked payments that conform 
+
+ 
+ 
+xix 
+(or are benchmarked) to specified and predetermined performance standards, 
+deliverables or Service Level agreements measurable by the public entity or its 
+representative; 
+xxxiv) "Rate contract " ( or the term ‘framework agreement’ in certain contexts) means 
+an agreement between a Central Purchase Organisation or Procuring Entity with 
+one or more bidders, valid for a specified period of time, which sets out terms and 
+conditions under which specific procurements can be made during the term of the 
+agreement and may include an agreement on prices which may be either 
+predetermined or be determined at the stage of actual procurement through 
+competition or a predefined process allowing their revision without further 
+competition; 
+xxxv)  “Registering authority” means an authority which registers bidders for different 
+categories of procurement.  
+xxxvi) "Registered Supplier" means any supplier who is on a list of registered suppliers 
+of the Procuring Entity or a Central Purchase Organisation; 
+xxxvii) "Reverse auction" (or the term ‘Electronic reverse auction’ in certain contexts) 
+means an online real-time purchasing technique utilised by the Procuring Entity 
+to select the successful bid, which involves presentation by bidders of 
+successively more favourable bids during a scheduled period of time and 
+automatic evaluation of bids; 
+xxxviii) "service" is defined by exception as any subject matter of procurement other than 
+goods or works, except those incidental or consequential to the service, and 
+includes physical, maintenance, professional, intellectual, training, consultancy 
+and advisory services or any other service classified or declared as such by a 
+Procuring Entity but does not include appointment of an individual made under 
+any law, rules, regulations or order issued in this behalf. It includes ‘Consultancy 
+Services’ and ‘Other (Non-consultancy) Services’; 
+xxxix) "Subject matter of procurement" means any item of procurement whether in the 
+form of goods, services or works or a combination thereof; 
+xl) 
+"Works" refer to any activity, sufficient in itself to fulfil an economic or technical 
+function, involving construction, fabrication, repair, overhaul, renovation, 
+decoration, installation, erection, excavation, dredging, and so on, which make 
+use of a combination of one or more of engineering design, architectural design, 
+material and technology, labour, machinery and equipment. Supply of some 
+materials or certain services may be incidental or consequential to and part of 
+such works. The term “Works” includes (i) civil works for the purposes of roads, 
+railway, airports, shipping-ports, bridges, buildings, irrigation systems, water 
+supply, sewerage facilities, dams, tunnels and earthworks; and so on, and (ii) 
+mechanical and electrical works involving fabrication, installation, erection, repair 
+and maintenance of a mechanical or electrical nature relating to machinery and 
+plants. 
+ 
+
+
+ 
+1 
+ 
+Chapter 1: Introduction to Procurement of Consultancy/ Other 
+Services 
+1.1 
+Procurement Rules and Regulations; and this Manual  
+Various ministries, departments, attached and subordinate offices, local urban bodies, public 
+sector enterprises and other government (including autonomous) bodies (hereinafter 
+referred as ‘Procuring Entities’) spend a sizeable amount of their budget on procurement of 
+goods, works and services to discharge the duties and responsibilities assigned to them. 
+The Ministries / Departments have been delegated full powers to make their own 
+arrangements for procurement of goods and services, that are not available6 on Government 
+e-Marketplace (GeM). These powers have to be exercised which have to be exercised as 
+per the Delegation of Financial Power Rules and in conformity with the ‘Procurement 
+Guidelines’ described below. Common use Goods and Services available on GeM are 
+required to be procured mandatorily through GeM as per Rule 149 of GFR, 2017 
+To ensure that these procurements are made by following a uniform, systematic, efficient 
+and cost-effective procedure and also to ensure fair and equitable treatment of service 
+providers, there are statutory provisions; rules; financial, vigilance, security, safety, counter- 
+trade and other regulations; orders and guidelines of the Government on the subject of 
+public procurement (hereinafter referred as ‘Procurement Guidelines’) which provide 
+framework for the public procurement system. 
+At the apex of the Statutory framework governing public procurement is Article 299 of the 
+Constitution of India, which stipulates that contracts legally binding on the Government have 
+to be executed in writing by officers specifically authorized to do so. The Constitution also 
+enshrines Fundamental Rights (In particular Article 19 (1) (g) – Right to carry on a 
+Profession) which have implications for Public Procurement. Further, the Indian Contract 
+Act, 1872, Arbitration and Conciliation Act, 1996; Competition Act, 2002; Information 
+Technology Act, 2000 etc (and amendments thereto) are major legislations governing 
+contracts for procurement (both private and public) in general. There is no law exclusively 
+governing public procurement. 
+However, comprehensive Rules and Regulations in this regard are available in the General 
+Financial Rules (GFR), 2017, especially chapter 6; Delegation of Financial Powers Rules 
+(DFPR); Government orders regarding purchase preference like Public Procurement 
+(Preference to Make in India), Order 2017 or other facilities to Micro and Small Enterprises 
+etc. and the guidelines issued by the Central Vigilance Commission to increase transparency 
+and objectivity in public procurement.  
+Without purporting to be a comprehensive compendium of all such ‘Procurement 
+Guidelines’, this Manual is intended to serve as a portal to enter this vast area and draw 
+attention to basic norms and practices governing public procurement. 
+ 
+6 Rule 147 of GFR, 2017 amended vide OM No. F.1/26/2018-PPD dated 02.04.2019 
+
+ 
+ 
+ 
+2 
+1.2 
+Clarification, Amendments and Revision of this Manual 
+For revision, interpretation, clarification and issues relating to this manual, the Procurement 
+Policy Division, Department of Expenditure, Ministry of Finance would be the nodal authority. 
+1.3 
+Applicability of this Manual 
+1.3.1 This manual is applicable to procurement of all "Services" defined by exception as 
+any subject matter of procurement other than goods or works, except those incidental or 
+consequential to the service, and includes physical, maintenance, professional, intellectual, 
+training, consultancy and advisory services or any other service classified or declared as 
+such by a Procuring Entity but does not include appointment of an individual made under 
+any law, rules, regulations or order issued in this behalf. It includes ‘Consultancy Services’ 
+and ‘Other (Non-consultancy) Services’. If the generic word “Services’ is used in this manual, 
+it implies both Consultancy and other services taken together. 
+These guidelines would not be applicable to projects funded by World Bank and other 
+International Funding Agencies, as, such external aid/ loans etc. received are covered under 
+the applicable policies/ legal agreements executed as permitted under Rules 264 of GFR 
+2017. 
+1.3.2 “Consultancy services” (Rule 177 of GFR 2017) means any subject matter of 
+procurement (which as distinguished from ‘Non- Consultancy Services’ involves primarily 
+non-physical 
+project-specific, 
+intellectual 
+and 
+procedural 
+processes 
+where 
+outcomes/deliverables would vary from one consultant to another), other than goods or 
+works, except those incidental or consequential to the service, and includes professional, 
+intellectual, training and advisory services or any other service classified or declared as such 
+by a Procuring Entity but does not include direct engagement of a retired Government 
+servant. These Services typically involve providing expert or strategic advice e.g., 
+management consultants, policy consultants, communications consultants, Advisory and 
+project related Consulting Services which include, feasibility studies, project management, 
+engineering services, finance, accounting and taxation services, training and development 
+etc.  
+Procurement of IT Projects should normally be carried out as Procurement of Consultancy 
+services, as the outcomes/deliverables vary from one service provider to another. The IT 
+Projects may include: 
+i) 
+bespoke software development; 
+ii)  
+cloud based services and 
+iii)  
+composite IT system integration services involving design, development, deployment, 
+commissioning of IT system including supply of hardware, development of software, 
+bandwidth and operation/maintenance of the system for a define period after go-live 
+etc. 
+1.3.3 “Other services” (including the term ‘Non-consultancy services’ in certain contexts) 
+are defined by exclusion as services that cannot be classified as Consultancy Services. 
+Other services involve routine repetitive physical or procedural non-intellectual outcomes for 
+which quantum and performance standards can be tangibly identified and consistently 
+applied and are bid and contracted on such basis. It may include small works, supply of 
+goods or consultancy service, which are incidental or consequential to such services. Other 
+
+ 
+ 3 
+services may include transport services; logistics; clearing and Forwarding; courier services; 
+upkeep and maintenance of office/ buildings/ Estates (other than Civil & Electrical Works 
+etc.); drilling, aerial photography, satellite imagery, mapping and similar operations etc. 
+1.3.4 The term ‘Outsourcing of Services’ implies deployment of outside agencies on a 
+sustained long-term (for one year or more) for performance of other services which were 
+traditionally being done in-house by the employees of Ministries/ departments (Security 
+Services, Horticultural Services, Janitor/ Cooking/ Catering/ Management Services for 
+Hostels and Guest Houses, Cleaning/ Housekeeping Services, Errand/ Messenger Services, 
+and so forth). There may be Human Resources and administrative issues involved in 
+‘outsourcing’ which are beyond the scope of this manual, but nevertheless need to be 
+addressed. Besides outsourcing, other services also include procurement of short-term 
+stand-alone services. 
+1.3.5 If the other services involve construction, fabrication, repair, maintenance, overhaul, 
+renovation, decoration, installation, erection, excavation, dredging, and so on, of Civil assets, 
+then it should be handled as procurement of Works. In case of fabrication, repair, 
+maintenance, overhaul, renovation, decoration, installation, erection and so on, of 
+mechanical, electrical or ICT assets – e.g. Annual Maintenance Contracts or installation/ 
+commissioning of Machinery and Plant and so on, it may be handled as Procurement of 
+Goods rather than procurement of services. 
+1.3.6 It is possible that, depending on the nature and complexity of the assignment, a task 
+could be dealt with either as a consultancy or non-consultancy service. In essence, if the 
+intellectual and advisory part of services dominates (and the physical part is incidental), the 
+selection needs to be dealt with in Consultancy mode. For example, if the task is looking at 
+the condition of a dam (for dam safety) by physically inspecting a dam through underwater 
+observation, this task is collection of data using technologies and photography, but the 
+actual analysis is an intellectual and advisory task and is the crux of the assignment. 
+Therefore, the entire task needs to be dealt with as selection of a consultant. 
+1.3.7 For sake of simplicity, this Manual for Procurement of Consultancy and Other 
+Services is written from the point of view of procurement of Consultancy Services. A 
+separate Chapter at the end covers the Outsourcing/ Procurement of Other (non-
+consultancy) Services, and points out areas where policies and procedures are different for 
+such outsourcing/ procurements. However generic word ‘Service(s)’ wherever used implies 
+both Consultancy and other services taken together. 
+1.3.8 The ‘Procurement Entities’ who can benefit from this manual include ministries, 
+departments, or a unit thereof, or an attached or subordinate offices/units; Central Public 
+Sector Enterprises (CPSEs) or undertakings; any other body (including autonomous bodies) 
+substantially owned or controlled by or receiving substantial financial assistance from the 
+Central Government. These procurement guidelines would continue to apply if these 
+procurement entities outsource the procurement process or bundle the procurement process 
+with other contractual arrangements or utilise the services of procurement support agency or 
+procurement agents to carry out the procurement on their behalf. But these procurement 
+guidelines would not apply to procurements by these procuring entities for their own use (but 
+not for purpose of trading/ sale) from their subsidiary companies including Joint Ventures in 
+which they have controlling share. 
+
+ 
+ 
+ 
+4 
+1.3.9 However, by a general or special notification, the government may permit certain 
+‘Procuring Entities’ mentioned in sub-para above, considering unique conditions under which 
+they operate, for all or certain categories of procurements, to adopt detailed approved 
+guidelines for procurement, which may deviate in some aspects but conform with all other 
+essential aspects of ‘Procurement Guidelines’. 
+1.3.10 This Manual is to be taken as generic guidelines, which have to be necessarily broad 
+in nature. Subject to the observance of these generic guidelines, the initiation, authorization, 
+procurement and execution of Services Contracts undertaken by a particular Ministry or 
+Department shall be regulated by detailed rules and orders contained in the respective 
+departmental regulations and by other special orders applicable to them. Ministries/ 
+Departments are advised to supplement these manuals to suit local/specialized needs, by 
+issuing their own detailed Manuals (including customized formats); Standard Bidding 
+Documents; Schedule of Procurement Powers and Checklists to serve as practical 
+instructions for their officers and to ensure completeness of examination of cases. Major 
+Consultancy/ Services procuring Ministries/Departments may be having their own detailed 
+guidelines tailored to unique individual requirements, e.g. Manuals or Procedure Orders. 
+Many other Ministries/ Departments as well as CPSEs also have their own Procurement 
+Manuals. For these Procuring Entities, this Manual would serve as a generic reference. 
+1.3.11 For procurements financed by Loans/Grants extended by International 
+Agencies: The Articles of Agreement with the International Agencies like the World Bank, 
+Asian Development Bank etc. stipulate specific procurement procedures to be followed by 
+the borrower. The procurement procedures, as finalized and incorporated in the Agreements 
+after consideration and approval of the Ministry of Finance are to be followed accordingly. 
+1.4 
+Authorities competent to procure Consultancy and other services and 
+their Purchase Powers  
+An authority which is competent to incur expenditure may sanction the procurement of 
+Consultancy and other services required for use in public service in accordance with the 
+Delegation of Financial Rules, (DFPR – extracted in Annexure 2A) by following the 
+‘Procurement Guidelines’ described in this Manual. No separate sanction would be required 
+for such services which are distinctly and explicitly named and included in a sanctioned and 
+approved work/ project. Each ‘Procuring Entity’ may issue a Schedule of Procurement 
+Powers (SoPP) adding further details to the broad delegations in the DFPR, based on the 
+assessment of risks involved in different decisions/ approvals at various stages of 
+Procurement Cycle. A suggested structure of such SoPP is enclosed as Annexure 2B. (Rule 
+145 of GFR 2017) 
+1.5 
+Basic Aims of Procurement – Five R’s of Procurement 
+In every procurement, public or private, the basic aim is to achieve just the right balance 
+between costs and requirements concerning five parameters called the five Rs of 
+procurement. The entire process of procurement (from the time that need for an item, facility 
+or services is identified till the need is satisfied) is designed to achieve following basic aims. 
+Although couched in jargon of procurement of Goods, it’s equally applicable to procurement 
+of Consultancy and other services. The term ‘Right’ is used here in the sense of being 
+optimal: 
+
+ 
+ 5 
+i) Right quality; 
+ii) Right quantity; 
+iii) Right price; 
+iv) Right time and place; and 
+v) Right source. 
+(For more details on basic aims of procurement, please refer to Chapter 1 of the Manual for 
+Procurement of Goods – reproduced in Appendix 1). 
+1.6 
+Principles of Public Procurement  
+Over and above the basic aims of procurement, the obligations of procuring authorities can 
+be grouped into following five fundamental principles of public procurement, which all 
+procuring authorities must abide by and be accountable for: 
+i) Transparency principle; 
+ii) Professionalism principle; 
+iii) Broader obligations principle; 
+iv) Extrinsic legal principle; and 
+v) Public accountability principle. 
+(For more details on basic aims of procurement, please refer to Chapter 1 of the Manual for 
+Procurement of Goods relevant portions extracted in Appendix 1. Please refer to Broader 
+obligation principle under Appendix 1 for instructions related to registration of bidders 
+belonging to countries sharing land border with India and Annexure-). 
+1.7 
+Standards (Canons) of Financial Propriety 
+Public Procurement like any other expenditure in Government must conform to the 
+Standards (also called Canons) of Financial Propriety. It may be useful to refer to the 
+relevant provisions in the General Financial Rules, 2017 
+Rule 21. Standards of financial propriety: Every officer incurring or authorizing 
+expenditure from public moneys should be guided by high standards of financial 
+propriety. Every officer should also enforce financial order and strict economy and see 
+that all relevant financial rules and regulations are observed, by his own office and by 
+subordinate disbursing officers. Among the principles on which emphasis is generally 
+laid are the following:- 
+i) Every officer is expected to exercise the same vigilance in respect of 
+expenditure incurred from public moneys as a person of ordinary prudence 
+would exercise in respect of expenditure of his own money. 
+ii) The expenditure should not be prima facie more than the occasion demands. 
+iii) No authority should exercise its powers of sanctioning expenditure to pass an 
+order which will be directly or indirectly to its own advantage. 
+iv) Expenditure from public moneys should not be incurred for the benefit of a 
+particular person or a section of the people, unless - 
+a) a claim for the amount could be enforced in a Court of Law, or 
+b) the expenditure is in pursuance of a recognized policy or custom. 
+v) The amount of allowances granted to meet expenditure of a particular type should 
+be so regulated that the allowances are not on the whole a source of profit to the 
+recipients. 
+
+ 
+ 
+ 
+6 
+vi) While discharging the duties of financial concurrence of any public expenditure, 
+such authorities subsequent to such decision, shall not be involved in any future 
+financial/audit/payment responsibilities which may create conflict of interest. 
+1.8 
+Public Procurement Infrastructure at the Centre 
+1.8.1 Procurement Policy Division 
+Procurement Policy Division (PPD) in Department of Expenditure; Ministry of Finance has 
+been created to encourage uniformity and harmonisation in public procurement processes 
+by dissemination of best practices, provision of guidance, oversight and capacity building 
+and issuing of procurement manuals. However Centralisation of procurement or involvement 
+in procurement processes is not the intended purpose of creation of PPD.  
+1.8.2 Central Public Procurement Portal 
+Central Public Procurement Portal (CPPP) has been designed, developed and hosted by 
+National Informatics Centre (NIC, Ministry of Electronics & Information Technology) in 
+association with Dept. of Expenditure to ensure transparency in the public procurement 
+process. The primary objective of the Central Public Procurement portal is to provide a 
+single point access to the information on procurements made across various Ministries and 
+the Departments. The CPPP has e-publishing and e-procurement modules. It is mandatory 
+for all Ministries/ Departments of the Central Government, Central Public Sector Enterprises 
+(CPSEs) and Autonomous and Statutory Bodies to publish on the CPPP all their tender 
+enquiries and information about the resulting contracts. CPPP provides access to 
+information such as documents relating to pre-qualification, Bidders’ registration, Bidding 
+documents; details of bidders, their pre-qualification, registration, exclusions/ debarments; 
+decisions taken regarding prequalification and selection of successful bid (Rule 159 of GFR 
+2017). It is also now mandatory to implement end-to-end e-Procurement for all procurements 
+either through CPPP portal or any other suitable portal. 
+1.9 
+Preferential/Mandatory Purchase from certain sources 
+The Central Government may, by notification, provide for mandatory procurement of any 
+goods or services from any category of bidders, or provide for preference to bidders on the 
+grounds of promotion of locally manufactured goods or locally provided services. 
+Note: Before considering any Purchase Preference mentioned below, the Procuring Entity 
+should check the latest directives in this regard for necessary action. Purchase Preference 
+provision shall invariably be part of the Notice Inviting Tender (NIT) and Instructions to 
+Bidders (ITB). 
+1.9.1 Public Procurement Policy for Micro and Small Enterprises (MSEs)-Rule 153 (ii) 
+of GFR 2017 
+i) 
+From time to time, the Government of India (Procuring Entity) lays down procurement 
+policies to help inclusive national economic growth by providing long-term support to 
+small and medium enterprises and disadvantaged sections of society and to address 
+environmental concerns. The Procurement Policy for Micro and Small Enterprises, 
+2012 [amended 2018 and 2021] has been notified by the Government in exercise of 
+the powers conferred in Section 11 of the Micro, Small and Medium Enterprises 
+
+ 
+ 7 
+Development (MSMED) Act, 2006. Details of the policy along with the amendments 
+issued in 2018 and 2021 are available on the MSME website7.  
+ii) 
+Micro and Small Enterprises (MSEs) registered under Udyam Registration are 
+eligible to avail the benefits under the policy. 
+iii) 
+The Policy is applicable to all the Central Government Ministries / Departments / 
+CPSUs, irrespective of the volume and nature of procurement. However, the policy is 
+not applicable to State Government Ministries/ Departments/ PSUs. 
+iv) 
+To reduce transaction cost of doing business, MSEs are facilitated  
+by 
+providing them tender documents free of cost, exempting from payment of earnest 
+money deposit, adopting e-procurement to bring transparency in tendering process. 
+However, exemption from paying Performance Bank Guarantee is not covered under 
+the policy. MSEs may also be given relaxation in prior turnover and prior experience 
+criteria during the tender process, subject to meeting of quality and technical 
+specifications. However, there may be circumstances (like procurement of items 
+related to public safety, health, critical security operations and equipment, etc.) where 
+procuring entity may prefer the vendor to have prior experience rather than giving 
+orders to new entities8. 
+ 
+v) 
+Chapter V of the MSMED Act, 2006 also has provision for ensuring timely payments 
+to the MSE suppliers. The period agreed upon for payment must not exceed forty-five 
+days after the supplies. For delays in payment the buyer shall be liable to pay 
+compound interest to the supplier on the delayed amount at three times of the bank 
+rate notified by the Reserve Bank. For arbitration and conciliation regarding recovery 
+of such payments and interests, Micro and Small Enterprises Facilitation Council has 
+been setup in states. 
+vi) 
+In tender, participating Micro and Small Enterprises (MSE) quoting price within price 
+band of L1+15 (fifteen) per cent shall also be allowed to supply a portion of 
+requirement by bringing down their price to L1 price in a situation where L1 price is 
+from someone other than a MSE and such MSE shall be allowed to supply up to 25 
+(twenty five) per cent of total tendered value. The 25 (twenty five) per cent quantity is 
+to be distributed proportionately among these bidders, in case there are more than 
+one MSMEs within such price band. 
+vii) 
+Within this 25% (Twenty Five Percent) quantity, a purchase preference of four (4) per 
+cent [that is, 16 (sixteen) per cent out of 25 (twenty five) per cent] is reserved for 
+MSEs owned by Scheduled Caste (SC)/ Scheduled Tribe (ST) entrepreneurs (if they 
+participate in the tender process and match the L1 price).However, in event of failure 
+of such MSEs to participate in tender process or meet tender requirements and L1 
+price, four percent sub-target for procurement earmarked for MSEs owned by SC/ST 
+entrepreneurs and three percent earmarked to women entrepreneur will be met from 
+other MSEs.. MSEs would be treated as owned by SC/ ST entrepreneurs:  
+a) In case of proprietary MSE, proprietor(s) shall be SC/ ST; 
+b) In case of partnership MSE, the SC/ ST partners shall be holding at least 51% 
+(fifty-one percent) shares in the unit; 
+ 
+7 http://dcmsme.gov.in/pppm.htm.aspx 
+8 Notified vide OM No.F.20/2/2014-PPD(Pt.) issued by Department of Expenditure dated 29.09.2016. 
+
+ 
+ 
+ 
+8 
+c) In case of Private Limited Companies, at least 51% (fifty-one percent) share 
+shall be held by SC/ ST promoters.  
+viii) In case of tender item cannot be split or divided, etc. the MSE quoting a price within the 
+band L1+15% may be awarded for full/ complete supply of total tendered value to MSE, 
+considering the spirit of the Policy for enhancing Govt. Procurement from MSEs 
+ix) To develop MSE vendors so as to achieve their targets for MSEs procurement, Central 
+Government Ministries /Departments /PSUs shall take necessary steps to develop 
+appropriate vendors by organizing Vendor Development Programmes (VDPs) or Buyer-
+Seller Meets focused on developing MSEs for procurement through the Government e-
+Marketplace (GeM) portal. In order to develop vendors belonging to MSEs for Public 
+Procurement Policy, the Ministry of MSME is regularly organizing State Level VDPs and 
+National Level VDPs under the Procurement and Marketing Support Scheme. For 
+enhancing participation of MSEs owned by SCs /STs/ Women in Government 
+procurement, Central Government Ministries/ Departments/ CPSUs have to take the 
+following steps: 
+a) 
+Special Vendor Development Programmes/ Buyer-Seller Meets would be 
+conducted by Departments/ CPSUs for SC/STs and Women. 
+b) 
+Outreach programmes will be conducted by National Small Industries 
+Corporation (NSIC) to cover more and more MSEs from SC/STs under its 
+schemes of consortia formation; and 
+c) 
+NSIC would open a special window for SCs/ STs under its Single Point 
+Registration Scheme (SPRS). 
+d) 
+A National SC/ST hub scheme was launched in October, 2016, for providing 
+handholding support to SC/ST entrepreneur which is being coordinated / 
+implemented by the NSIC under this Ministry.  
+x) 
+The condition of prior turnover and prior experience may be relaxed for Startups 
+(Rule 173 (i) of GFR 2017) (as defined by Department of Industrial Policy and 
+Promotion) subject to meeting of quality & technical specifications and making 
+suitable provisions in the bidding document. The quality and technical parameters 
+are not to be diluted. As defined by Department of Policy & Promotion (DIPP) an 
+entity shall be considered as a 'start-up'- 
+a) Up to ten years from the date of its incorporation/ registration. 
+b) If its turnover for any of the financial years has not exceeded Rs 100 (Rupees 
+Hundred ) crore 
+c) It is working towards innovation, development or improvement of products or 
+processes or services, or if it is a scalable business model with a high 
+potential of employment generation or wealth creation 
+d) Provided further that in order to obtain benefits a Startup so identified under 
+the above definition shall be required to be recognized as Startup by DPIIT9. 
+As per Department of Expenditure’s OM No.F.20/2/2014-PPD dated 20.09.2016, 
+relaxation regarding the prior turnover and prior experience is applicable only to all 
+startups recognized by Department of Industry & Internal Trade (DPIIT) subject to 
+ 
+9 Notified vide OM No. F.1/7/2021-PPD-2 issued by Department of Expenditure dated 02.08.2021 
+
+ 
+ 9 
+meeting of quality and technical specifications. Startups may be MSMEs or 
+otherwise. 
+xi) 
+Where any Aggregator has been appointed by the Ministry of MSME, themselves 
+quote on behalf of some MSE units, such offers will be considered as offers from 
+MSE units and all such facilities would be extended to these also. 
+xii) 
+This Policy is meant for procurement of only goods produced and services  rendered 
+by MSEs. However, traders/ distributors/ sole agent/ Works Contract are excluded 
+from the purview of the policy.  
+xiii) 
+Exemptions from the policy: Given their unique nature, defence armament imports 
+shall not be included in computing 20 (twenty) per cent goal for Ministry of Defence. 
+In addition, defence equipments like weapon systems, missiles, etc. shall remain out 
+of purview of such Policy of reservation. Monitoring of goals set under the policy will 
+be done, in so far as they related to Defense sector, by Ministry of Defense itself in 
+accordance with suitable procedures to be established by them. 
+xiv) 
+A Review Committee has been constituted under the Chairmanship of Secretary, 
+Ministry of MSME for monitoring and reviewing of Public Procurement Policy for 
+MSEs. M/O MSME will review and/or modify the composition of the Committee as 
+and when required. This Committee will, inter alia, review the list of 358 items 
+reserved for exclusive purchase from MSEs on a continuous basis, consider requests 
+from Central Government Departments, CPSUs for exemption from 25 (twenty five) 
+percent target on a case to case basis and monitor achievements under the Policy. 
+xv) 
+To monitor the progress of procurement by Central Government Ministries/ 
+Departments and CPSUs from MSEs, Ministry of MSME has launched the MSME 
+‘Sambandh’10 Portal on 8th December, 2017 for uploading procurement details by all 
+CPSUs on a monthly and an annual basis which is regularly monitored by the 
+Ministry. 
+xvi) 
+To redress the grievances of MSEs related to non-compliance of the Policy a 
+Grievance cell named “CHAMPION Portal” has been set up in the Ministry of MSME.  
+1.9.2 Procurement Preference to Make in India-Rule 153 (iii) of GFR, 2017 
+To encourage ‘Make in India’ and promote manufacturing and production of goods and 
+services in India with a view to enhancing income and employment, Department of 
+Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, 
+Government of India, issued Public Procurement (Preference to Make in India), Order 
+201711. The order is issued pursuant to Rule 153 (iii) of GFR, 2017. The Order is applicable 
+on the procurement of Goods, Works and Services. For the purpose of this Order:- 
+a) ‘L1’ means the lowest tender or lowest bid or the lowest quotation received in a 
+tender, bidding process or other procurement solicitation as adjudged in the 
+evaluation process as per the tender or other procurement solicitation. 
+ 
+10 https://sambandh.msme.gov.in/PPP_Index.aspx 
+11 Latest revision to the Order notified vide OM No. P-45021/2/2017-PP (BE-II) issued by DPIIT, dated 
+16.09.2020 
+
+ 
+ 
+ 
+10 
+b) ‘Margin of purchase preference’ means the maximum extent to which the price 
+quoted by a “Class-I local supplier” may be above the L1 for the purpose of purchase 
+preference. It has been fixed as 20 (twenty) percent. 
+c) ‘Nodal Ministry’ means the Ministry or Department identified pursuant to this order in 
+respect of a particular item of goods or services or works. 
+d) ‘Procuring entity’ means a Ministry or department or attached or subordinate office of, 
+or autonomous body controlled by, the Government of India and includes 
+Government companies as defined in the Companies Act. 
+e) ‘Works’ means all works as per Rule 130 of GFR- 2017, and will also include ‘turnkey 
+works’. 
+i) Eligibility of ‘Class-I local supplier’/ ‘Class-II local supplier’/ ‘Non-local suppliers’ 
+for different types of procurement 
+a)  In procurement of all goods, services or works in respect of which the Nodal Ministry 
+/ Department has communicated that there is sufficient local capacity and local 
+competition, only ‘Class-I local supplier’, shall be eligible to bid irrespective of 
+purchase value. 
+b)  Only ‘Class-I local supplier’ and ‘Class-II local supplier’, shall be eligible to bid in 
+procurements undertaken by procuring entities, except when Global tender enquiry 
+has been issued. In global tender enquiries, ‘Non-local suppliers’ shall also be eligible 
+to bid along with ‘Class-I local suppliers’ and ‘Class-II local suppliers’. In procurement 
+of all goods, services or works, not covered by sub-para (i)(a) above, and with 
+estimated value of purchases less than Rs. 200 Crore, in accordance with Rule 
+161(iv) of GFR, 2017, Global tender enquiry shall not be issued except with the 
+approval of competent authority as designated by Department of Expenditure. 
+c)  For the purpose of this Order, works includes Engineering, Procurement and 
+Construction (EPC) contracts and services include System Integrator (SI) contracts.  
+ii) 
+Purchase Preference 
+a) Subject to the provisions of the Order and to any specific instructions issued by the 
+Nodal Ministry or in pursuance of the Order, purchase preference shall be given to 
+‘Class-I local supplier’ in procurements undertaken by procuring entities in the 
+manner specified here under. 
+b) In the procurements of goods or works, which are covered by para (i)(b) above and 
+which are divisible in nature, the ‘Class-I local supplier’ shall get purchase preference 
+over ‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following 
+procedure:  
+1. 
+Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract for full quantity will be awarded to L1.  
+2. 
+If L1 bid is not a ‘Class-I local supplier’, 50 (fifty) percent of the order quantity 
+shall be awarded to L1. Thereafter, the lowest bidder among the ‘Class-I local 
+supplier’ will be invited to match the L1 price for the remaining 50 (fifty) 
+percent quantity subject to the Class-I local supplier’s  quoted price falling 
+
+ 
+ 
+11 
+within the margin of purchase preference, and contract for that quantity shall 
+be awarded to such ‘Class-I local supplier’ subject to matching the L1 price. In 
+case such lowest eligible ‘Class-I local supplier’ fails to match the L1 price or 
+accepts less than the offered quantity, the next higher ‘Class-I local supplier’ 
+within the margin of purchase preference shall be invited to match the L1 
+price for remaining quantity and so on, and contract shall be awarded 
+accordingly. In case some quantity is still left uncovered on Class-I local 
+suppliers, then such balance quantity may also be ordered on the L1 bidder. 
+c) In the procurements of goods or works, which are covered by para (i)(b) above and 
+which are not divisible in nature, and in procurement of services where the bid is 
+evaluated on price alone, the ‘Class-I local supplier’ shall get purchase preference 
+over ‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following 
+procedure: 
+1. Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract will be awarded to L1. 
+2. If L1 is not ‘Class-I local supplier’, the lowest bidder among the ‘Class-I local 
+supplier’, will be invited to match the L1 price subject to Class-I local 
+supplier’s quoted price falling within the margin of purchase preference, and 
+the contract shall be awarded to such ‘Class-I local supplier’ subject to 
+matching the L1 price. 
+3. In case such lowest eligible ‘Class-I local supplier’ fails to match the L1 price, 
+the ‘Class-I local supplier’ with the next higher bid within the margin of 
+purchase preference shall be invited to match the L1 price and so on and 
+contract shall be awarded accordingly. In case none of the ‘Class-I local 
+supplier’ within the margin of purchase preference matches the L1 price, the 
+contract may be awarded to the L1 bidder. 
+4. “Class-II local supplier” will not get purchase preference in any procurement, 
+undertaken by procuring entities.  
+iii) 
+Applicability in tenders where contract is to be awarded to multiple bidders  
+In tenders where contract is awarded to multiple bidders subject to matching of L1 rates or 
+otherwise, the ‘Class-I local supplier’ shall get purchase preference over ‘Class-II local 
+supplier’ as well as ‘Non-local supplier’, as per following procedure:  
+a) In case there is sufficient local capacity and competition for the item to be procured, 
+as notified by the nodal Ministry, only Class I local suppliers shall be eligible to bid. 
+As such, the multiple suppliers, who would be awarded the contract, should be all 
+and only ‘Class I Local suppliers’. 
+b) In other cases, ‘Class II local suppliers’ and ‘Non local suppliers’ may also 
+participate in the bidding process along with ‘Class I Local suppliers’ as per 
+provisions of the Order.  
+c) If ‘Class I Local suppliers’ qualify for award of contract for at least 50 (fifty) percent of 
+the tendered quantity in any tender, the contract may be awarded to all the qualified 
+bidders as per award criteria stipulated in the bid documents. However, in case 
+‘Class I Local suppliers’ do not qualify for award of contract for at least 50 (fifty) 
+percent of the tendered quantity, purchase preference should be given to the ‘Class 
+I local supplier’ over ‘Class II local suppliers’/ ‘Non local suppliers’ provided that their 
+
+ 
+ 
+ 
+12 
+quoted rate falls within 20 (twenty) percent margin of purchase preference of the 
+highest quoted bidder considered for award of contract so as to ensure that the 
+‘Class I Local suppliers’ taken in totality are considered for award of contract for at 
+least 50 (fifty) percent of the tendered quantity. 
+d) First purchase preference has to be given to the lowest quoting ‘Class-I local 
+supplier’, whose quoted rates fall within 20 (twenty) percent margin of purchase 
+preference, subject to its meeting the prescribed criteria for award of contract as 
+also the constraint of maximum quantity that can be sourced from any single 
+supplier. If the lowest quoting ‘Class-I local supplier’, does not qualify for purchase 
+preference because of aforesaid constraints or does not accept the offered quantity, 
+an opportunity may be given to next higher ‘Class-I local supplier’, falling within 20 
+(twenty) percent margin of purchase preference, and so on.  
+e) To avoid any ambiguity during bid evaluation process, the procuring entities may 
+stipulate its own tender specific criteria for award of contract amongst different 
+bidders including the procedure for purchase preference to ‘Class-I local supplier’ 
+within the broad policy guidelines stipulated in sub-paras above. 
+iv) 
+Exemption of small purchases: Notwithstanding anything contained in paragraph 
+(i), procurements where the estimated value to be procured is less than Rs. 5 lakhs shall be 
+exempt from the Order. However, it shall be ensured by procuring entities that procurement 
+is not split for the purpose of avoiding the provisions of this Order. 
+v) 
+Minimum local content: The ‘local content’ requirement to categorize a supplier as 
+‘Class-I local supplier’ is minimum 50 (fifty) percent. For ‘Class-II local supplier’, the ‘local 
+content’ requirement is minimum 20 (twenty) percent. Nodal Ministry/ Department may 
+prescribe only a higher percentage of minimum local content requirement to categorize a 
+supplier as ‘Class-I local supplier’/ ‘Class-II local supplier’. For the items, for which Nodal 
+Ministry/ Department has not prescribed higher minimum local content notification under the 
+Order, it shall be 50 (fifty) percent and 20 (twenty) percent for ‘Class-I local supplier’/ ‘Class-
+II local supplier’ respectively. 
+vi) 
+Requirement for specification in advance: The minimum local content, the margin 
+of purchase preference and the procedure for preference to Make in India shall be specified 
+in the notice inviting tenders or other form of procurement solicitation and shall not be varied 
+during a particular procurement transaction. 
+vii) 
+Government E-marketplace: In respect of procurement through the Government E-
+marketplace (GeM) shall, as far as possible, specifically mark the items which meet the 
+minimum local content while registering the item for display, and shall, wherever feasible, 
+make provision for automated comparison with purchase preference and without purchase 
+preference and for obtaining consent of the local supplier in those cases where purchase 
+preference is to be exercised.  
+viii) 
+Verification of local content:  
+a) The ‘Class-I local supplier’/ ‘Class-II local supplier’ at the time of tender, bidding or 
+solicitation shall be required to indicate percentage of local content and provide self-
+certification that the item offered meets the local content requirement for ‘Class-I 
+local supplier’/ ‘Class-II local supplier’, as the case may be. They shall also give 
+details of the location(s) at which the local value addition is made. 
+b) In cases of procurement for a value in excess of Rs. 10 crores, the ‘Class-I local 
+supplier’/ ‘Class-II local supplier’ shall be required to provide a certificate from the 
+
+ 
+ 
+13 
+statutory auditor or cost auditor of the company (in the case of companies) or from 
+a practicing cost accountant or practicing chartered accountant (in respect of 
+suppliers other than companies) giving the percentage of local content. 
+c) Decisions on complaints relating to implementation of this Order shall be taken by 
+the competent authority which is empowered to look into procurement-related 
+complaints relating to the procuring entity. 
+d) Nodal Ministries may constitute committees with internal and external experts for 
+independent verification of self-declarations and auditor’s/ accountant’s certificates 
+on random basis and in the case of complaints. 
+e) Nodal Ministries and procuring entities may prescribe fees for such complaints. 
+f) False declarations will be in breach of the Code of Integrity under Rule 175(1)(i)(h) 
+of the General Financial Rules for which a bidder or its successors can be debarred 
+for up to two years as per Rule 151 (iii) of the General Financial Rules along with 
+such other actions as may be permissible under law. 
+g) A supplier who has been debarred by any procuring entity for violation of the Order 
+shall not be eligible for preference under the Order for procurement by any other 
+procuring entity for the duration of the debarment. The debarment for such other 
+procuring entities shall take effect prospectively from the date on which it comes to 
+the notice of other procurement entities, in the manner prescribed under paragraph 
+(h) below. 
+h) The Department of Expenditure shall issue suitable instructions for the effective and 
+smooth operation of this process, so that: 
+1. The fact and duration of debarment for violation of the Order by any procuring 
+entity are promptly brought to the notice of the Member-Convenor of the 
+Standing Committee and the Department of Expenditure through the concerned 
+Ministry /Department or in some other manner;  
+2. on a periodical basis such cases are consolidated and a centralized list or 
+decentralized lists of such suppliers with the period of debarment is maintained 
+and displayed on website(s); 
+3. in respect of procuring entities other than the one which has carried out the 
+debarment, the debarment takes effect prospectively from the date of uploading 
+on the website(s) in the such a manner that ongoing procurements are not 
+disrupted. 
+ix) 
+Specifications in Tenders and other procurement solicitations:  
+a) Every procuring entity shall ensure that the eligibility conditions in respect of previous 
+experience fixed in any tender or solicitation do not require proof of supply in other 
+countries or proof of exports. 
+b) Procuring entities shall endeavour to see that eligibility conditions, including on 
+matters like turnover, production capability and financial strength do not result in 
+unreasonable exclusion of ‘Class-I local supplier’/ ‘Class-II local supplier’ who would 
+otherwise be eligible, beyond what is essential for ensuring quality or 
+creditworthiness of the supplier. 
+c) Procuring entities shall review all existing eligibility norms and conditions with 
+reference to sub-paragraphs (viii) (a) and (b) above.    
+d) Reciprocity Clause 
+
+ 
+ 
+ 
+14 
+1. When a Nodal Ministry/Department identifies that Indian suppliers of an item 
+are not allowed to participate and/ or compete in procurement by any foreign 
+government, due to restrictive tender conditions which have direct or indirect 
+effect of barring Indian companies such as registration in the procuring 
+country, execution of projects of specific value in the procuring country etc., it 
+shall provide such details to all its procuring entities including  CMDs/CEOs of 
+PSEs/PSUs, State Governments and other procurement agencies under their 
+administrative control and GeM for appropriate reciprocal action.  
+2. Entities 
+of 
+countries 
+which 
+have 
+been 
+identified 
+by 
+the 
+nodal 
+Ministry/Department as not allowing Indian companies to participate in their 
+Government procurement for any item related to that nodal Ministry shall not 
+be allowed to participate in Government procurement in India for all items 
+related to that nodal Ministry/ Department, except for the list of items 
+published by the Ministry/ Department permitting their participation.  
+3. The stipulation in (2) above shall be part of all tenders invited by the Central 
+Government procuring entities stated in (1) above. All purchases on GeM 
+shall also necessarily have the above provisions for items identified by nodal 
+Ministry/ Department.  
+4. State Governments should be encouraged to incorporate similar provisions in 
+their respective tenders.  
+5. The term 'entity' of a country shall have the same meaning as under the FDI 
+Policy of DPIIT as amended from time to time. 
+e) Specifying foreign certifications/ unreasonable technical specifications/ brands/ 
+models in the bid document is restrictive and discriminatory practice against local 
+suppliers. If foreign certification is required to be stipulated because of non-
+availability of Indian Standards and/or for any other reason, the same shall be done 
+only after written approval of Secretary of the Department concerned or any other 
+Authority having been designated such power by the Secretary of the Department 
+concerned.  
+f) “All administrative Ministries/Departments whose procurement exceeds Rs. 1000 
+Crore per annum shall notify/ update their procurement projections every year, 
+including those of the PSEs/PSUs, for the next 5 years on their respective website.” 
+x) 
+Action for non-compliance of the Provisions of the Order: In case restrictive or 
+discriminatory conditions against domestic suppliers are included in bid documents, an 
+inquiry shall be conducted by the Administrative Department undertaking the 
+procurement (including procurement by any entity under its administrative control) to fix 
+responsibility for the same. Thereafter, appropriate action, administrative or otherwise, 
+shall be taken against erring officials of procurement entities under relevant provisions. 
+Intimation on all such actions shall be sent to the Standing Committee. 
+xi) Assessment of supply base by Nodal Ministries: The Nodal Ministry shall keep in 
+view the domestic manufacturing / supply base and assess the available capacity and 
+the extent of local competition while identifying items and prescribing the higher 
+minimum local content or the manner of its calculation, with a view to avoiding cost 
+increase from the operation of this Order. 
+
+ 
+ 
+15 
+xii) Increase in minimum local content: The Nodal Ministry may annually review the local 
+content requirements with a view to increasing them, subject to availability of sufficient 
+local competition with adequate quality. 
+xiii) Manufacture under license/ technology collaboration agreements with phased 
+indigenization 
+a) While notifying the minimum local content, Nodal Ministries may make special 
+provisions for exempting suppliers from meeting the stipulated local content if the 
+product is being manufactured in India under a license from a foreign  manufacturer 
+who holds intellectual property rights and where there is a technology collaboration 
+agreement / transfer of technology agreement for indigenous manufacture of a 
+product developed abroad with clear phasing of increase in local content. 
+b) In procurement of all goods, services or works in respect of which there is substantial 
+quantity of public procurement and for which the nodal ministry has not notified that 
+there is sufficient local capacity and local competition, the concerned nodal ministry 
+shall notify an upper threshold value of procurement beyond which foreign 
+companies shall enter into a joint venture with an Indian company to participate in the 
+tender. Procuring entities, while procuring such items beyond the notified threshold 
+value, shall prescribe in their respective tenders that foreign companies may enter 
+into a joint venture with an Indian company to participate in the tender. The procuring 
+Ministries/Departments shall also make special provisions for exempting such joint 
+ventures from meeting the stipulated minimum local content requirement, which shall 
+be increased in a phased manner. 
+xiv) 
+Powers to grant exemption and to reduce minimum local content:  The 
+administrative Department undertaking the procurement (including procurement by any 
+entity under its administrative control), with the approval of their Minister-in-charge, may by 
+written order, for reasons to be recorded in writing, 
+a) reduce the minimum local content below the prescribed level; or 
+b) reduce the margin of purchase preference below 20 (twenty) percent; or 
+c) exempt any particular item or supplying entities from the operation of this 
+Order or any part of the Order. 
+A copy of every such order shall be provided to the Standing Committee and concerned 
+Nodal Ministry / Department. The Nodal Ministry / Department concerned will continue to 
+have the power to vary its notification on Minimum Local Content. 
+xv) 
+Directions to Government companies: In respect of Government companies and 
+other procuring entities not governed by the General Financial Rules, the administrative 
+Ministry or Department shall issue policy directions requiring compliance with this Order. 
+xvi) 
+Standing Committee. A standing committee is hereby constituted with the following 
+membership: 
+ 
+Secretary, Department for Promotion of Industry and Internal Trade-Chairman 
+ 
+Secretary, Commerce-Member 
+ 
+Secretary, Ministry of Electronics and Information Technology-Member 
+ 
+Joint Secretary (Public Procurement), Department of Expenditure-Member 
+ 
+Joint Secretary (DPIIT)-Member-Convenor 
+The Secretary of the Department concerned with a particular item shall be a member in 
+respect of issues relating to such item. The Chairman of the Committee may co-opt technical 
+experts as relevant to any issue or class of issues under its consideration. 
+
+ 
+ 
+ 
+16 
+xvii) 
+Removal of difficulties: Ministries /Departments and the Boards of Directors of 
+Government companies may issue such clarifications and instructions as may be necessary 
+for the removal of any difficulties arising in the implementation of the Order.  
+xviii) 
+Ministries having existing policies: Where any Ministry or Department has its own 
+policy for preference to local content approved by the Cabinet after 1st January 2015, such 
+policies will prevail over the provisions of the Order. All other existing orders on preference 
+to local content shall be reviewed by the Nodal Ministries and revised as needed to conform 
+to this Order, within two months of the issue of this Order. 
+xix) 
+Transitional provision: The Order shall not apply to any tender or procurement for 
+which notice inviting tender or other form of procurement solicitation has been issued before 
+the issue of this Order. 
+1.10 When is Procurement of Services justified 
+1.10.1 Consultancy Services: Rule 178 & 180 of GFR 2017, permits Ministries/ 
+Departments to hire external professionals, consultancy firms or consultants (referred to as 
+consultant hereinafter) for a specific job, which is well defined in terms of content and time 
+frame for its completion. Engagement of consultants may be resorted to in situations 
+requiring high quality services for which the Procuring Entity does not have requisite 
+expertise. Approval of the competent authority should be obtained before engaging 
+consultant(s). We may justify need for Procurement of Consultancy Services on 
+consideration of:-  
+i) The inadequacy of Capability or Capacity of required expertise in-house;  
+ii) The need to have qualified consultant for providing a specialized high quality service; 
+iii) Need for impartial advice from a consultant (acting independently from any affiliation, 
+economic or otherwise) to avoid conflicts of interest; 
+iv) The need in some cases for Transfer of Knowledge/ Training/ Capacity and capability 
+building as a by-product of such engagement;  
+v) Need to acquire information about/ identifying and implementing new methods and 
+systems; 
+vi) Need for planning and implementing organizational change 
+vii) There may be internal capacity/ capability to do the job but there are considerations 
+of economy, speed and efficiency in relation to additional requirement/ commitment/ 
+usage of;  
+a) Staff/ Management/ Organization;  
+b) Technological and Material Resources; 
+c) Money, and 
+d) Time/ Speed of execution. 
+1.10.2 Other (Non-consultancy) Services: In the interest of economy, efficiency and to 
+provide more effective delivery of public services, GFR, 2017 permits Ministries/ 
+Departments to procure/ outsource auxiliary and support services. Approval of the 
+competent authority should be obtained before engaging service providers. We may justify 
+need for Procurement of other services on consideration of:-  
+i) 
+Economy, speed and efficiency and more effective delivery of public services relating 
+to additional requirement/ commitment/ usage of:  
+
+ 
+ 
+17 
+a) Staff/ Management/ Organization;  
+b) Technological and Material Resources; 
+c) Money, and 
+d) Time/ Speed of execution. 
+ii) 
+An administrative policy decided by the Ministry/ Department to outsource specific 
+(class of) services; 
+1.11 Principles for Public Procurement of Services  
+1.11.1 Other principles of Public Procurement as mentioned in 1.6 above are also equally 
+applicable to Procurement of consultancy/ other services. To ensure value for money during 
+procurement of consultancy and other services, the following additional principles shall be 
+considered: 
+i) Services to be procured should be justifiable in accordance with Para 1.10 above; 
+ii) In case of Consultancy Services - well-defined scope of work/ Terms of Reference 
+(ToR – description of services) and the time frame, for which services are to be 
+availed of, should be determined consistent with the overall objectives of Procuring 
+Entity. In other (non-consultancy services) Activity Schedule (a document covering 
+well-defined scope of work/ description of services and the time frame for which 
+services are to be availed of) should be consistent with the overall objectives of 
+Procuring Entity; 
+iii) Equal opportunity to all qualified service providers/ consultants to compete should be 
+ensured;  
+iv) Engagements should be economical and efficient. (Rule 182 of GFR 2017); 
+v) Transparency and integrity in the selection process (that is, proposed, awarded, 
+administered, and executed according to highest ethical standards) and;  
+vi) Additionally, in procurement of consultancy services, consultants should be of high 
+quality, in line with justification as per para 1.10.1 above  
+1.11.2 In Procurement of Consultancy, these considerations can be best addressed through 
+unrestricted competition among qualified shortlisted firms or individuals in which selection is 
+based on the quality of the proposal and, where appropriate, on the cost of services to be 
+provided. Hence Procurement of Consultancy needs to be done in a two stage process. 
+However procurement of other services is done by a simpler process akin to those of 
+procurement of Goods and Works. These are detailed in Chapter 9. 
+(Rule 179 of GFR 2017) 
+1.12 The Law of Agency – applicable to Procurement of Consultancy and 
+other Services 
+Laws which are applicable to Public Procurement of goods equally apply to Procurement of 
+Consultancy and other services. These are detailed in Appendix 2. Legally speaking 
+consultants/ service provider would be an Agent of the Principal/ Client/ Procuring Entity – 
+Procuring Entity, to carry out the service/ assignment on its behalf. Such a relationship is 
+covered by The Law of Agency (Section 182 to section 238, of the Indian Contract Act, 
+1872) and hence there exists a Principal/ Procuring Entity and Agent relationship between 
+Procuring Entity and such consultant/ service provider. As per this law, the Procuring Entity 
+is vicariously legally and financially liable for actions of its Agents. For example, a violation of 
+
+ 
+ 
+ 
+18 
+certain labour laws in deputing staff for Procuring Entity’s contract by the agents may render 
+the Procuring Entity legally and financially answerable for such violations, under certain 
+circumstances. There is a need to be aware of such eventualities. Standard Bidding 
+Documents should take care of this aspect. 
+1.13 Proactive Information Disclosures 
+Section 4(1) (b) of the RTI Act lays down the information to be disclosed by public authorities 
+on a suo motu or proactive basis and Section 4(2) and Section 4(3) prescribe the method of 
+its dissemination to enhance transparency and also to reduce the need for filing individual 
+RTI applications. The Department of Personnel & Training, Ministry of Personnel, Public 
+Grievances & Pensions, Government of India, has issued “Guidelines on suo motu 
+disclosure under Section 4 of the RTI Act” vide their OM No.1/6/2011-IR dated April 15, 
+2013.12. The relevant guidelines relating to information disclosure relating to procurement 
+are reproduced below: 
+“Information relating to procurement made by public authorities including publication of 
+notice/tender enquiries, corrigenda thereon, and details of bid awards detailing the name of 
+the Vendor/ Contractor of goods/services being procured or the works contracts entered or 
+any such combination of these and the rate and total amount at which such procurement or 
+works contract is to be done should be disclosed. All information disclosable as per Ministry 
+of Finance, Department of Expenditure’s O.M. No 10/1/2011-PPC dated 30th November, 
+2011 13 (and 05th March 2012 14) on Mandatory Publication of Tender Enquiries on the 
+Central Public Procurement Portal and O.M. No. 10/3/2012- PPC dated 09th January 2014 
+on implementation of comprehensive end-to-end e-procurement should be disclosed under 
+Section 4 of the Right to Information Act.  
+1.14 Public Procurement Cycle 
+The entire process of procurement and implementation of Consultancy and other services 
+shall include the following steps: 
+i) Preparation of Concept Paper/ Procurement Proposal and obtaining in principle 
+approvals; 
+ii) Preparation of the ToR (in case of consultancy services)/ Activity Schedule(in case of 
+other/ non-consultancy services), cost estimate and seeking administrative and 
+budgetary approval;  
+iii) In case of Procurement of Consultancy Services - Short list of consultants - EoI 
+formulation, publication, receipt of proposals and evaluation; 
+iv) Preparation and issuance of the RfP; Receipt of proposals; Evaluation of technical 
+proposals: consideration of quality; Evaluation of financial proposals; Selection of 
+winning proposal; Negotiations and award of the contract to the selected firm; and 
+v) Monitoring of Assignments. 
+ 
+12 http://cic.gov.in/GuidelinesOnProActive.pdf 
+13 http://finmin.nic.in/the_ministry/dept_expenditure/gfrs/pub_tender_enq_cppportal.pdf 
+14http://eprocure.gov.in/cppp/sites/default/files/instruction_contents/INST_DOC_NO_7/OM_DoE_5thMarch2012.pdf 
+
+ 
+ 
+19 
+Details and procedures of various stages of the procurement cycle would be described in 
+following Chapters of the manuals. 
+1.15 Procurement Proposal (Concept Paper) for Consultancy and other 
+services  
+1.15.1 A critical part of the procurement of Services process is preparing an appropriately 
+staffed and budgeted Procurement Proposal/ Concept Paper (which serve the role that an 
+Indent serves in procurement of Goods). 
+1.15.2 Preparing Procurement Proposal/ Concept Paper 
+As a first step towards procurement of services, a formal written brief Proposal and 
+Justification for the Services should be prepared (Please see a suggested format in 
+Annexure 3: Format of Procurement Proposal). It is akin to the Indent for Materials/ Material 
+Requisition in case of Procurement of Goods. The User should prepare in simple and 
+concise language the requirement, purpose/ objectives and the scope/ outcomes of the 
+assignment and justify the assignment based on analysis of in-house available capacity/ 
+capability. The eligibility and pre-qualification criteria to be met by the consultants/ service 
+providers should also be clearly identified at this stage. Justifications for procurement of 
+Consultancies/ Services as given in Para 1.10 may be kept in view. It is the basic document 
+for initiating procurement of services. It is also the document from which the subsequent 
+detailing of Terms of Reference (in case of consultancy services)/ Activity Schedule (in case 
+of other/ non-consultancy services) is drawn up. A procurement proposal should contain: 
+i) Purpose/ Objective Statement of Services 
+"Purpose/ Objective Statement of Services" should be prepared by the user. One of the 
+important content of this statement is description of service to describe the subject 
+matter of procurement which would be used in all subsequent documents. Bringing out 
+the background and context, this should justify how the proposed procurement of 
+services would fit in with short-term and strategic goals of Procuring Entity. Making such 
+a statement is important to put the need for services in clear perspective. It may seem 
+elementary or academic, but is a necessary and critical first step in properly designing a 
+procurement proposal.  
+ii) 
+Service Outcome Statement 
+Once the "Purpose/ Objective of Services" has been clearly defined, the next step is 
+to formulate a 'Service Outcome Statement'. This should list out qualitatively and 
+quantitatively the outcomes expected from the Procurement of Services, as well as 
+the expected Time-frame and a rough estimate of cost of Procurement of services 
+(including related costs to be incurred by the organization). At this stage, it is not 
+necessary go into details of all the activities required to achieve the service 
+outcomes, but it should list at least the broad activities, would help in putting a rough 
+estimate to the cost of the assignment. A 'Service Outcome Statement' should 
+provide a concrete basis for subsequently defining the type and amount of work that 
+needs to be done by service provider and the time-frame within which the output 
+needs to be received by the user. The estimated cost is needed to ascertain the level 
+of approval necessary as per SoPP. 
+iii) 
+Justification for the procurement of Services 
+
+ 
+ 
+ 
+20 
+The Concept Paper/ Procurement proposal should analyse the capabilities/ 
+capacities required to carry out the assignment. It should also analyse the available 
+in-house capabilities/ capacities and compare these with the ones required for the 
+assignment. Based on this assessment the Procurement should be justified in the 
+light of para 1.10.1. 
+1.15.3 In-principle Approval for initiating procurement of Services 
+Based on the justification contained in the Procurement Proposal, in-principle administrative 
+approval and budgetary sanction for initiating procurement of such services should be 
+accorded by the Competent Authority (CA) as laid down in SoPP. Further stages may be 
+proceeded with, only after such approvals. (Rule 181 of GFR 2017) 
+ 
+
+ 
+21 
+ 
+Chapter 2: Consultants, service providers and Governance Issues 
+2.1 
+Types of consultants/ service providers  
+The term consultants/ service providers includes a wide variety of private and public entities, 
+including Consultancy firms, engineering firms, Architectural Firms/ consultants, construction 
+management firms, management firms, procurement agents, inspection agents, auditors, 
+investment and merchant bankers, universities/ educational institutions, research institutions, 
+government agencies, nongovernmental organizations (NGOs) and individuals/experts or 
+their joint ventures.  These can be grouped as: 
+2.1.1 Consortium of consultants/ service providers 
+In large and complex assignments consultants/ service providers may associate with each 
+other to form a consortium to complement their respective areas of expertise, to increase the 
+technical responsiveness of their proposal, and make larger pools of experts available or for 
+other reasons. Such an association may be for the long term (independent of any particular 
+assignment) or for a specific assignment. The consortium may take the form of a Joint 
+Venture (JV) or a sub consultancy. In case of a JV, all members of the JV shall sign the 
+contract and shall be jointly and severally liable for the entire assignment. After the short list 
+is finalised, and the Request for Proposal (RfP) is issued, any association in the form of a JV 
+or sub consultancy among the short-listed firms shall be permissible in accordance with 
+provisions stated in the RfP. Under such circumstance, one of the shortlisted consultants/ 
+service providers must become the lead member of the consortium. The Procuring Entity 
+only deals with the lead member of consortiums for all the purposes. Bid documents should 
+clearly specify whether JVs are allowed to bid (in case of complex and large assignments, 
+say above certain values (say - Rs. 5 (Rupees five) crore). Maximum number of partners in 
+JV shall be limited (say – three). In case JVs are permitted to bid, it should be clarified what 
+qualifications are to be collectively (clubbed together) met by the JV partners (say 
+experience of particular consultancy, Financial Turnover etc) and what each partner has to 
+individually and separately meet (financial soundness). In this case it should also be 
+specified that each partner should meet at least 25% (and the lead partner at least 50%) out 
+of the qualifying limit in case of experience of particular consultancy and financial turnover, if 
+any. 
+Conflicting Association: A firm shall submit only one proposal, either individually or as a 
+JV partner in another proposal. If a firm, including a JV partner, submits or participates in 
+more than one proposal, all such proposals shall be disqualified. This does not, however, 
+preclude a firm from participating as a sub-consultant or an individual consultant to 
+participate as a team member in more than one proposal when circumstances justify but 
+only if permitted by the RfP document. 
+2.1.2 Consultancy or Service Providing Firms 
+The main source of consultants and service providers is Consultancy or Service providing 
+firms of diverse specializations that provide teams to Clients. These firms provide project 
+preparation services, project implementation supervision services, training, advisory 
+services, and policy guidance. Such firms are normally classified as either international – 
+firms that have international experience and are capable of undertaking work at international 
+
+ 
+ 
+ 
+22 
+level at international rates; or national – firms that may not have international exposure and 
+normally undertake assignments only within that country, usually at significantly lower rates. 
+2.1.3 Individual consultants/ service providers 
+Individual consultants or service providers are recruited for similar activities as Consultancy/ 
+Service providing firms when a full team is not considered necessary. They may be 
+independent experts not permanently associated with any particular firm, or they may be 
+employees of a firm recruited on an individual basis. They may also be employees of an 
+agency, institution, or university. They are normally recruited for project implementation 
+supervision, training, provision of specific expert advice on a highly technical subject, policy 
+guidance, special studies, compliance supervision, or implementation monitoring. Individual 
+consultants/ service providers are not normally recruited for project preparation unless the 
+proposed project is simple and, generally, a repeat of an already established and successful 
+project. If more than three experts are required, then the assignment should normally be 
+undertaken by a team from a firm. As with firms, individual consultants/ service providers are 
+classed as either international or national, depending on their level of expertise and their 
+international experience and exposure. 
+2.1.4 Specialized Agencies and Institutions 
+Specialized agencies or institutions (including Government/ Semi-Government agencies, 
+universities and professional institutions) may also from time to time be recruited to provide 
+Consultancy/ other services. These services may be provided by individuals (as discussed 
+above) or by teams. Nonetheless, there are at times distinct advantages to using such 
+agencies. Experts and teams from such agencies and institutions may undertake a variety of 
+roles across the whole field of possible Consultancy and other services. These may range 
+from project preparation through project supervision and policy advice to project benefit 
+monitoring and evaluation. 
+2.1.5 Non-governmental Organizations (NGO) 
+There may be distinct advantage in use of Nongovernmental organizations (NGOs) in 
+Projects which emphasize experience in community participation and in-depth local 
+knowledge – for example, Projects related to Corporate Social Responsibility (CSR).  
+2.1.6 Retired Government Servant 
+Rule 177 of GFR, 2017, says that the consulting services do not include direct engagement 
+of retired Government servants.  They should not be engaged against regular vacant posts 
+as consultant under this rule. Retired Government servants can be engaged only for the 
+specific task and for specific duration as consultant. They should be assigned clear output 
+related goals. 
+2.2 
+Code of Integrity for Public Procurement (CIPP) 
+2.2.1 Public procurement is perceived to be prone to corruption and ethical risks. To 
+mitigate this, the officials of Procuring Entities and the bidders/ suppliers/ contractors/ 
+consultants/ service providers involved in procurement process must abide by the following 
+Code of Integrity for Public Procurement (CIPP). All Procuring officials may be asked to sign 
+declarations to this effect periodically and in various Procurement decisions (including Need 
+Assessment). The bidders/ suppliers/ contractors/ consultants/ service providers should be 
+
+ 
+ 
+23 
+asked to sign a declaration for abiding by a Code of Integrity for Public Procurement in 
+registration applications and in bid documents, with a warning that, in case of any 
+transgression of this code, its name is not only liable to be removed from the list of 
+registered suppliers/ contractors/ consultants/ service providers, but it would be liable for 
+other punitive actions such as cancellation of contracts, banning and blacklisting or action in 
+Competition Commission of India, and so on. 
+2.2.2 Code of Integrity for Public Procurement: Procuring authorities as well as bidders, 
+suppliers, contractors and consultants/ service providers should observe the highest 
+standard of ethics and should not indulge in the following prohibited practices, either directly 
+or indirectly, at any stage during the procurement process or during execution of resultant 
+contracts: 
+i) “Corrupt practice”: making offers, solicitation or acceptance of bribe, rewards or gifts or 
+any material benefit, in exchange for an unfair advantage in the procurement process or 
+to otherwise influence the procurement process or contract execution; 
+ii) “Fraudulent practice”: any omission or misrepresentation that may mislead or attempt 
+to mislead so that financial or other benefits may be obtained or an obligation avoided. 
+This includes making false declaration or providing false information for participation in a 
+tender process or to secure a contract or in execution of the contract; 
+iii) “Anti-competitive practice”: any collusion, bid rigging or anti-competitive arrangement, 
+or any other practice coming under the purview of The Competition Act, 2002, between 
+two or more bidders, with or without the knowledge of the Procuring Entity, that may 
+impair the transparency, fairness and the progress of the procurement process or to 
+establish bid prices at artificial, non-competitive levels; 
+iv) “Coercive practice”: harming or threatening to harm, persons or their property to 
+influence their participation in the procurement process or affect the execution of a 
+contract; 
+v) “Conflict of interest”: participation by a bidding firm or any of its affiliates that are either 
+involved in the consultancy contract to which this procurement is linked; or if they are 
+part of more than one bid in the procurement; or if the bidding firm or their personnel 
+have relationships or financial or business transactions with any official of Procuring 
+Entity who are directly or indirectly related to tender or execution process of contract; or 
+improper use of information obtained by the (prospective) bidder from the Procuring 
+Entity with an intent to gain unfair advantage in the procurement process or for personal 
+gain; and 
+vi) “Obstructive practice”: materially impede the Procuring Entity’s investigation into 
+allegations of one or more of the above mentioned prohibited practices either by 
+deliberately destroying, falsifying, altering; or by concealing of evidence material to the 
+investigation; or by making false statements to investigators and/or by threatening, 
+harassing or intimidating any party to prevent it from disclosing its knowledge of matters 
+relevant to the investigation or from pursuing the investigation; or by impeding the 
+Procuring Entity’s rights of audit or access to information; 
+2.2.3 Conflict of Interest in case of consultants 
+i) The consultant is required to provide professional, objective, and impartial advice, at 
+all times holding the Procuring Entity’s interests paramount, strictly avoiding conflicts 
+
+ 
+ 
+ 
+24 
+with other assignments or his/its own corporate interests, and acting without any 
+consideration for future work. 
+ii) The consultant has an obligation to disclose to the Procuring Entity any situation of 
+actual or potential conflict that impacts its/his capacity to serve the best interest of its 
+client/Procuring Entity. Failure to disclose such situations may lead to the 
+disqualification of the consultant or termination of its/his contract during execution of 
+the assignment. 
+iii) Without limitation on the generality of the foregoing, and unless stated otherwise in 
+the data sheet for the RfP document, the consultant shall not be hired under the 
+circumstances set forth below: 
+a) Conflicting activities: a firm that has been engaged by the client to provide 
+goods, works, or non-consultancy services for a project, or any of its affiliates, 
+shall be disqualified from providing Consultancy service resulting from or 
+directly related to those goods, works, or non-Consultancy services. 
+Conversely, a firm hired to provide consultancy services for the preparation or 
+implementation of a project, or any of its affiliates, shall be disqualified from 
+subsequently providing goods or works or no consultancy services resulting 
+from or directly related to the consultancy services for such preparation or 
+implementation; 
+b) Conflicting assignments: Consultants (including its experts and sub--
+consultants) or any of their affiliates shall not be hired for any assignment 
+that, by its nature, may be in conflict with another assignment of the 
+consultant for the same or for another Procuring Entity; and 
+c) Conflicting relationships: A consultant (including its/his experts and sub-
+consultants) that has a close business or family relationship with a 
+professional staff of the Procuring Entity who are directly or indirectly involved 
+in any part of: (i) the preparation of ToR for the assignment; (ii) selection 
+process for the contract; or (iii) supervision of the contract, may not be 
+awarded a contract, unless the conflict stemming from this relationship has 
+been resolved in a manner acceptable to the client throughout the selection 
+process and execution of the contract. 
+2.2.4 Unfair Competitive Advantage in case of consultants 
+Fairness and transparency in the selection process require that the consultants or their 
+affiliates competing for a specific assignment do not derive an unfair competitive advantage 
+from having provided consultancy services related to the assignment in question. Such 
+unfair competitive advantage is best avoided by full transparency and by providing equal 
+opportunity so that all firms or individuals interested or involved have full information about a 
+service assignment and its nature, scope, and background information. To that end, the 
+request for proposals and all information would be made available to all short listed 
+consultants simultaneously. 
+2.2.5 Obligations for Proactive Disclosures 
+i) Procuring authorities as well as bidders, suppliers, contractors and consultants/ service 
+providers, are obliged under Code of Integrity for Public Procurement to suo-moto 
+proactively declare any conflicts of interest (coming under the definition mentioned above 
+
+ 
+ 
+25 
+– pre-existing or as and as soon as these arise at any stage) in any procurement 
+process or execution of contract. Failure to do so would amount to violation of this code 
+of integrity; and 
+ii) Any bidder must declare, whether asked or not in a bid document, any previous 
+transgressions of such a code of integrity with any entity in any country during the last 
+three years or of being debarred by any other Procuring Entity. Failure to do so would 
+amount to violation of this code of integrity; 
+iii) To encourage voluntary disclosures, such declarations would not mean automatic 
+disqualification for the bidder making such declarations. The declared conflict of interest 
+may be evaluated and mitigation steps, if possible, may be taken by the Procuring Entity. 
+Similarly, voluntary reporting of previous transgressions of Code of Integrity elsewhere 
+may be evaluated and barring cases of various grades of debarment, an alert watch may 
+be kept on the bidders’ actions in the tender and subsequent contract. 
+2.2.6 Punitive Provisions: Without prejudice to and in addition to the rights of the 
+Procuring Entity to other penal provisions as per the bid documents or contract, if the 
+Procuring Entity comes to a conclusion that a (prospective) bidder/contractor/ Supplier/ 
+consultant/ service provider, directly or through an agent, has violated this code of integrity in 
+competing for the contract or in executing a contract, the Procuring Entity may take 
+appropriate measures including one or more of the following: 
+i) if his bids are under consideration in any procurement  
+a) Forfeiture or encashment of bid security 
+b) calling off of any pre-contract negotiations, and; 
+c) rejection and exclusion of the bidder from the procurement process  
+ii) 
+if a contract has already been awarded  
+a) Cancellation of the relevant contract and recovery of compensation for loss 
+incurred by the Procuring Entity,; 
+b) Forfeiture or encashment of any other security or bond relating to the 
+procurement; 
+c) Recovery of payments made by the Procuring Entity along with interest 
+thereon at the prevailing rate; 
+iii) 
+Provisions in addition to above: 
+a) Removal from the list of registered suppliers and banning/debarment of the 
+bidder from participation in future procurements of the Procuring Entity for a 
+period not less than one year;  
+b) In case of anti-competitive practices, information for further processing may 
+be filed under a signature of the Joint Secretary level officer, with the 
+Competition Commission of India; 
+c) Initiation of suitable disciplinary or criminal proceedings against any individual 
+or staff found responsible. 
+2.2.7  Conduct of Public Servants in Public Procurement - Risks and 
+ 
+Mitigations 
+Risk 
+Mitigation 
+Hospitality: 
+Hospitality 
+(including Hospitality must never be solicited, directly or 
+
+ 
+ 
+ 
+26 
+facilitation of travel, lodging, boarding and 
+entertainment during official or unofficial 
+programs) from suppliers/ contractors/ 
+consultants/ service providers may tend to 
+cross the limits of ethical/ occasional/ 
+routine/ modest/ normal business practice. 
+Officials sent to firm’s premises for 
+inspections/ meetings may mistakenly 
+presume entitlement to hospitality from 
+the firm, even if other arrangements are 
+available at the location. 
+indirectly. The frequency, scale and number of 
+officials availing hospitality should not be 
+allowed to identify the recipient in a public way 
+with 
+any 
+particular 
+supplier/ 
+contractor/ 
+consultant/ service provider or raise doubts 
+about its neutrality. It should not involve 
+significant travel, overnight accommodation or 
+trips abroad. Particular care should be taken in 
+relation to offers of hospitality from firms (say 
+participating in current or imminent tenders or 
+its execution) who stand to derive a personal or 
+commercial benefit from their relationship with 
+the recipient.  
+Gifts: Gifts from suppliers/ contractors/ 
+consultants/ service providers may tend to 
+cross the limits of ethical/ occasional/ 
+routine/ modest/ normal business practice, 
+especially on festive season. Since the 
+value of the gift may not be known to the 
+recipient, 
+it 
+may 
+cause 
+inadvertent 
+violation of Conduct rules. 
+Gifts must never be solicited, directly or 
+indirectly. An official should not accept and 
+retain gifts more valuable than the limit as laid 
+down in the conduct rules. Particular care 
+should be taken in relation to gifts from firms 
+(say participating in current or imminent tenders 
+or its execution) who stand to derive a personal 
+or commercial benefit from their relationship 
+with the recipient. Cash, gift cheques or any 
+vouchers that may be exchanged for cash may 
+not be accepted regardless of the amount. Any 
+gift received inadvertently in violation of above, 
+must immediately either be returned or else 
+reported 
+and 
+deposited 
+in 
+Toshakhana/ 
+Treasury. 
+Private Purchases from Official Suppliers/ 
+contractors/ 
+consultants/ 
+service 
+providers: 
+Procuring 
+Officials 
+may 
+mistakenly consider it innocuous to seek 
+discounts in private procurements from 
+suppliers/ 
+contractors/ 
+consultants/ 
+service providers having official dealings 
+or its associates (especially against Rate 
+Contracts). 
+Public purchasers must not seek or accept 
+special facilities or discounts on private 
+purchases (particularly same items which are 
+being ordered officially) from contractors, 
+suppliers/ contractors/ consultants/ service 
+providers (including Rate Contract holders) with 
+whom they have official dealings. 
+Sponsorship of Events: Procuring Officials 
+may mistakenly consider it innocuous to 
+seek 
+financial 
+favours 
+(donations, 
+advertisements 
+for 
+souvenirs, 
+and 
+contributions in cash or kind) in relation to 
+sponsoring of cultural, social, charitable, 
+religious, or sporting events, in the false 
+belief that since he/ she is personally not 
+Public purchasers must never get involved in 
+any non-official pecuniary transaction with the 
+contractors, suppliers/ contractors/ consultants/ 
+service 
+providers 
+including 
+soliciting 
+of 
+sponsorship for unofficial and private cultural, 
+social, sporting, religious, charitable or similar 
+organisations or events from. 
+
+ 
+ 
+27 
+benefitted, it would not be a violation of 
+CIPP. 
+2.3 
+Integrity Pact (IP) 
+2.3.1 The Pre-bid Integrity Pact is a tool to help governments, businesses and civil society 
+to fight corruption in public contracting. It binds both buyers and sellers to ethical conduct 
+and transparency in all activities from pre-selection of bidders, bidding and contracting, 
+implementation, completion and operation related to the contract. This removes insecurity of 
+Bidders, that while they themselves may abjure Bribery, but their competitors may resort to it 
+and win contract by unfair means.  
+2.3.2 Ministry of Finance, Department of Expenditure have mandated 15  Ministries/ 
+Departments and their attached/ subordinate offices (including autonomous bodies) to 
+incorporate Integrity Pact by, depending on the nature of procurements/ contracts above a 
+threshold value. The nature of procurement and threshold of value is to be decided by the 
+Ministries/ Departments with approval of the Minister in charge. As guidance, the threshold 
+should be such as to cover bulk (80-90%) of its procurement expenditure. 
+2.3.3 “The pact essentially envisages an agreement between the prospective 
+vendors/bidders and the buyer, committing the persons/officials of both sides, not to resort to 
+any corrupt practices in any aspect/stage of the contract. Only those vendors/bidders, who 
+commit themselves to such a Pact with the buyer, would be considered competent to 
+participate in the bidding process. In other words, entering into this Pact would be a 
+preliminary qualification. The essential ingredients of the Pact include:  
+i) Promise on the part of the Procuring Entity to treat all bidders with equity and reason and 
+not to seek or accept any benefit, which is not legally available;  
+ii) Promise on the part of bidders not to offer any benefit to the employees of the Procuring 
+Entity not available legally and also not to commit any offence under Prevention of 
+Corruption Act, 1988 or Indian Penal Code 1860; 
+iii) Promise on the part of Bidders not to enter into any undisclosed agreement or 
+understanding with other bidders with respect to prices, specifications, certifications, 
+subsidiary contracts, etc. 
+iv) Undertaking (as part of Fall Clause) by the Bidders that they have not and will not sell 
+the same material/ equipment at prices lower than the bid price; 
+v) Foreign bidders to disclose the name and address of agents and representatives in India 
+and Indian Bidders to disclose their foreign principals or associates; 
+vi) Bidders to disclose the payments to be made by them to agents/ brokers or any other 
+intermediary; 
+vii) Bidders to disclose any past transgressions committed over the specified period with any 
+other company in India or abroad that may impinge on the anti-corruption principle; 
+viii) Integrity Pact lays down the punitive actions for any violation;  
+ix) IP would be implemented through a panel of Independent External Monitors (IEMs), 
+appointed by the organization in consultation with Central Vigilance Commission. The 
+IEM would review independently and objectively, whether and to what extent parties 
+ 
+15 OM No.14(12)/ 2008- E-ll(A) dated 19th July 2011 
+
+ 
+ 
+ 
+28 
+have complied with their obligations under the Pact. Government of India organizations 
+and Public Sector Undertakings desirous of implementing Integrity Pact are required to 
+select at most three persons (below the age of 70 (seventy) years) of high integrity and 
+reputation as Independent External Monitors (IEM) after due diligence and forward to the 
+CVC for its approval. Only those officers of Government of India departments or Public 
+Sector Undertakings, who have retired from top management positions, would be 
+considered for appointment as IEM, provided they are neither serving or retired from the 
+same organization. Eminent persons, retired judges of High/ Supreme Courts, 
+executives of private sector of considerable eminence could also be considered for 
+functioning as Independent External Monitors. The appointment of Independent External 
+Monitors would be for an initial period of three years and could be extended for another 
+term of two years (maximum tenure of five years). Names and contact details of the 
+Independent External Monitor(s) should be listed in Notice Inviting Tender (NIT); 
+x) In tenders meeting the criteria of threshold value/ nature of procurement - Integrity Pact 
+clause and format should be included in the Bid Documents. Each page of such Integrity 
+pact proforma would be duly signed by Purchaser’s competent signatory. All pages of 
+the Integrity Pact are to be returned by the bidder (along with the technical bid) duly 
+signed by the same signatory who signed the bid, i.e. who is duly authorized to sign the 
+bid and to make binding commitments on behalf of his company. Any bid not 
+accompanied by Integrity Pact duly signed by the bidder shall be considered to be a non-
+responsive bid and shall be rejected straightway; 
+xi) Role/ Functions of IEMs: The Monitors would not be subject to instructions by the 
+representatives of the parties and should perform their functions neutrally and 
+independently. They would review independently and objectively, whether and to what 
+extent parties have complied with their obligations under the Integrity Pact. For this 
+purpose, they would have access to all contract documents/ books of accounts of the 
+bidders in case of any allegation of violation of any provisions of the Integrity Pact or 
+payment of commission, whenever required. The IEMs will have the option to participate 
+in such meetings among the parties related to the project provided such meetings could 
+have an impact on the contractual relations between the parties. Ideally all IEMs of an 
+organization should meet once every two months to take stock of ongoing tendering 
+process. The IEMs would examine all complaints received by them and give their 
+recommendations/ views to the designated officer of the Procuring Entity, at the earliest. 
+The Monitors would also inform the Procuring Entity, if they notice or have reason to 
+believe, a violation of the Integrity Pact. They may also send their report directly to the 
+Central Vigilance Commission, in case of suspicion of serious irregularities requiring 
+legal/ administrative action. At least one IEM would be invariably cited in the NIT. 
+However for ensuring the desired transparency and objectivity in dealing with the 
+complaints arising out of any tendering process, the matter should be examined by the 
+full panel of IEMs, who would look into the records, conduct an investigation, and submit 
+their joint recommendations. The recommendations of IEMs would be in the nature of 
+advice and would not be legally binding. IEMs may not be equated with consultants in 
+the Procuring Entity. Their role is independent in nature and the advice once tendered 
+would not be subject to review. The role of the Chief Vigilance Officer (CVO) of Procuring 
+Entity shall remain unaffected by the presence of IEMs. A matter being examined by the 
+IEMs can be separately investigated by the CVO, if a complaint is received by him or 
+
+ 
+ 
+29 
+directed to him by the CVC. As per para 5.13 of CVC OM No. 05/01/22 issued vide letter 
+No. 015/VGL/091 dated 25.01.2022, in the event of any dispute between the 
+management and the contractor relating to those contracts where Integrity Pact is 
+applicable, in case, both the parties are agreeable, they may try to settle dispute through 
+mediation before the panel of IEMs in a time bound manner. If required, the 
+organizations may adopt any mediation rules for this purpose. In case, the dispute 
+remains unresolved even after mediation by the panel of IEMs, the organization may 
+take further action as per the terms & conditions of the contract. 
+2.4 
+Debarment of Suppliers/ contractors/ consultants/ service providers  
+2.4.1 Registration of suppliers/ contractors/ consultants/ service providers and their 
+eligibility to participate in Procurement Entity’s procurements is subject to compliance with 
+Code of Integrity for Public Procurement and good performance in contracts. Rule 151 of 
+General Financial Rules (GFR), 2017 states the following regarding the ‘Debarment from 
+Bidding’:- 
+i. 
+A bidder shall be debarred if he has been convicted of an offence- 
+( a )  under the Prevention of Corruption Act, 1988; or 
+( b )  the Indian Penal Code or any other law for the time being in force, for causing 
+any loss of life or property or causing a threat to public health as part of 
+execution of a public procurement contract. 
+ii. 
+A bidder debarred under sub-section (i) or any successor of the bidder shall not be 
+eligible to participate in a procurement process of any procuring entity for a period 
+not exceeding three years commencing from the date of debarment. Department of 
+Commerce (DGS&D) will maintain such list which will also be displayed on the 
+website of DGS&D as well as Central Public Procurement Portal. 
+iii. 
+A procuring entity may debar a bidder or any of its successors, from participating in 
+any procurement process undertaken by it, for a period not exceeding two years, if it 
+determines 
+that 
+the 
+bidder 
+has 
+breached 
+the 
+code 
+of 
+integrity. 
+The 
+Ministry/Department will maintain such list which will also be displayed on their 
+website. 
+iv. 
+The bidder shall not be debarred unless such bidder has been given a reasonable 
+opportunity to represent against such debarment 
+2.4.2 Since, DGS&D had been wind up on 31.10.2017, PPD, DoE did consultations on the 
+issue of Debarment with major procuring Ministries/ Departments and issued the following 
+‘Debarment Guidelines’ in suppression to all earlier instructions on this subject16.  
+2.4.3 Guidelines on Debarment of firms from Bidding 
+1. 
+The guidelines are classified under following two types:- 
+i. 
+In cases where debarment is proposed to be limited to a single Ministry, the 
+appropriate Orders can be issued by that Ministry itself, thereby banning all its 
+business dealing with the debarred firm. 
+ 
+16 Notified vide OM No. F.1/20/2018-PPD issued by Department of Expenditure dated 02.11.2021
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

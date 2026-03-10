@@ -1,0 +1,44 @@
+---
+SOURCE: https://www.epfindia.gov.in/site_en/FAQ.php
+DOMAIN: epfo
+CATEGORY: faq
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Dynamic FAQs - Pension Scheme]
+
+[CONTENT]
+Q: Whether an employee who has not opted for the earlier Family Pension Scheme, 1971 can join the EPS-1995?
+A: Yes.
+
+Q: What is the formula for calculating the Pension amount?
+A: Pension amount = {Pensionable salary X Pensionable service} / 70.
+
+Q: What is the quantum of pension a member can get on his superannuation?
+A: A member who joins at 23, superannuates at 58, contributing to wage ceiling of Rs. 15,000/- with 35 years service may get about Rs. 7,500/- as pension. Formula: (15000x35)/70 = 7500.
+
+Q: How the average salary is determined for granting pension?
+A: Average of 60 months' pensionable salary preceding the date of exit from the membership.
+
+Q: What are the advantages of taking a Scheme Certificate?
+A: 1) It facilitates transfer of Pension Accounts when the employment is changed. 2) If the Holder of Scheme Certificate dies, the family will get family pension.
+
+Q: In case of death of a member, who was an Ex-serviceman whether family pension is payable or not?
+A: Yes, family pension is payable.
+
+Q: Can a member seek exemption from the Pension Scheme?
+A: Yes, an establishment can seek exemption from the Pension Scheme.
+
+Q: At what age a member is eligible for pension?
+A: A member is eligible for pension on superannuation at the age of 58 years. If a member leaves employment between 50 and 57 years, he can avail the early (reduced) pension.
+
+Q: What is the service required for giving pension in case of death of the member?
+A: In case of death of a member, the family pension and children pension is payable even after receiving one month’s contribution (including part of the month) for Pension Fund.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

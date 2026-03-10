@@ -1,0 +1,15 @@
+---
+SOURCE: local_offline_form_pdf
+DOMAIN: epfo
+CATEGORY: form_instructions
+---
+
+[LIC Policy Payment from PF Official Form Instructions]
+
+[CONTENT]
+This document is the official government form for LIC Policy Payment from PF.
+
+[FORMS_REFERENCED]
+If the user needs to download this form, you MUST provide them with this exact action:
+Action Label: Download LIC Policy Payment from PF Form
+Action URL: forms/LIC Policy Payment from PF.pdf

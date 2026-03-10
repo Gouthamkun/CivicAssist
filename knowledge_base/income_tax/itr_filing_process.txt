@@ -1,0 +1,32 @@
+---
+SOURCE: https://incometaxindia.gov.in/simulation/itr_filing_process
+DOMAIN: income_tax
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Step-by-step ITR Filing Process]
+
+[CONTENT]
+Official guidelines regarding Step-by-step ITR Filing Process.
+
+Official guidelines regarding Step-by-step ITR Filing Process.
+
+Official guidelines regarding Step-by-step ITR Filing Process.
+
+Official guidelines regarding Step-by-step ITR Filing Process.
+
+Official guidelines regarding Step-by-step ITR Filing Process.
+
+1. Login to the e-filing portal.
+2. Go to e-File menu.
+3. Follow the instructions displayed on the screen.
+Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

@@ -1,0 +1,32 @@
+---
+SOURCE: https://incometaxindia.gov.in/simulation/tax_notice_143_explanation
+DOMAIN: income_tax
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Explanation of Section 143(1) Notice]
+
+[CONTENT]
+Official guidelines regarding Explanation of Section 143(1) Notice.
+
+Official guidelines regarding Explanation of Section 143(1) Notice.
+
+Official guidelines regarding Explanation of Section 143(1) Notice.
+
+Official guidelines regarding Explanation of Section 143(1) Notice.
+
+Official guidelines regarding Explanation of Section 143(1) Notice.
+
+1. Login to the e-filing portal.
+2. Go to e-File menu.
+3. Follow the instructions displayed on the screen.
+Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---
