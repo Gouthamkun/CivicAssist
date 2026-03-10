@@ -6,3 +6,12 @@ sentence-transformers
 pymupdf
 ollama
 python-dotenv
+requests
+beautifulsoup4
+tqdm
+markdownify
+langdetect
+langchain-community
+langchain-chroma
+langchain-text-splitters
+langchain-huggingface
