@@ -1,8 +1,8 @@
 import os
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OllamaEmbeddings
+from langchain_community.document_loaders import TextLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 
 documents = []
 
@@ -10,7 +10,7 @@ documents = []
 for root, dirs, files in os.walk("knowledge_base"):
     for file in files:
         if file.endswith(".txt"):
-            loader = TextLoader(os.path.join(root, file))
+            loader = TextLoader(os.path.join(root, file), encoding="utf-8")
             documents.extend(loader.load())
 
 print(f"Loaded {len(documents)} documents")
@@ -26,7 +26,7 @@ chunks = text_splitter.split_documents(documents)
 print(f"Created {len(chunks)} chunks")
 
 # Create embeddings
-embeddings = OllamaEmbeddings(model="nomic-embed-text")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Store in vector database
 vector_db = Chroma.from_documents(
@@ -35,6 +35,5 @@ vector_db = Chroma.from_documents(
     persist_directory="vector_db"
 )
 
-vector_db.persist()
 
 print("Knowledge ingestion completed successfully.")
