@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Assistance | CivicAssist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .tax-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .tax-header {
+            background-color: var(--primary-blue, #1c283d);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .tax-header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .tax-header p {
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+            overflow-x: auto;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            background: none;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .tab:hover {
+            color: var(--primary-red, #e43137);
+            background: #f1f3f5;
+        }
+
+        .tab.active {
+            color: var(--primary-red, #e43137);
+            border-bottom: 3px solid var(--primary-red, #e43137);
+            background: white;
+        }
+
+        /* Tab Panels */
+        .tab-panel {
+            display: none;
+            padding: 40px;
+            min-height: 400px;
+        }
+
+        .tab-panel.active {
+            display: block;
+        }
+
+        /* AI Chat Box */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus,
+        select:focus {
+            border-color: var(--primary-blue, #1c283d);
+        }
+
+        .action-btn {
+            background-color: var(--primary-red, #e43137);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        .action-btn:hover {
+            background-color: #c92a2a;
+        }
+
+        /* Suggestions & Buttons */
+        .suggestions,
+        .form_buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .suggestion,
+        .guide_btn,
+        .form_btn {
+            background: #f1f3f5;
+            border: 1px solid #ced4da;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #495057;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .suggestion:hover,
+        .guide_btn:hover,
+        .form_btn:hover {
+            background: #dee2e6;
+            color: black;
+        }
+
+        .guide_btn {
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        /* Upload Area */
+        .upload-area {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 50px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            background: #f8f9fa;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .upload-area:hover {
+            background: #e9ecef;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        /* AI Response Rendering */
+        .response-box {
+            margin-top: 30px;
+            background: #fdfdfd;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            display: none;
+            /* hidden until response */
+        }
+
+        .loading-state {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+            display: none;
+        }
+
+        /* Response formatting */
+        .response-box h4 {
+            color: var(--primary-blue, #1c283d);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .response-box p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .response-box ol,
+        .response-box ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .response-box li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .urgency {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .urgency.normal {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .urgency.attention {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .urgency.urgent {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .deadline-box {
+            background: #e2e3e5;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        .source {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #dee2e6;
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        .disclaimer {
+            margin-top: 15px;
+            font-size: 0.8rem;
+            color: #adb5bd;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f5f6f8;">
+
+    <div class="top-bar" style="position: relative; background: var(--primary-blue);">
+        <div class="container top-bar-inner">
+            <div class="tb-left">
+                <a href="index.html" style="text-decoration: none; color: white;"><i class="fa-solid fa-arrow-left"></i>
+                    Back to CivicAssist Home</a>
+            </div>
+            <div class="tb-right">
+                <div class="flag-icon"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="tax-container">
+
+            <div class="tax-header">
+                <h1><i class="fa-solid fa-file-invoice-dollar"></i> Income Tax Assistance</h1>
+                <p>Official CBDT guidance powered by CivicAssist RAG AI</p>
+            </div>
+
+            <!-- Tab Navigation -->
+            <div class="tabs">
+                <button class="tab active" data-tab="ask"><i class="fa-solid fa-comment-dots"></i> Ask AI</button>
+                <button class="tab" data-tab="notice"><i class="fa-solid fa-magnifying-glass-chart"></i> Upload
+                    Notice</button>
+                <button class="tab" data-tab="guide"><i class="fa-solid fa-shoe-prints"></i> Filing Guide</button>
+                <button class="tab" data-tab="forms"><i class="fa-solid fa-file-signature"></i> Forms & Docs</button>
+                <button class="tab" data-tab="refund"><i class="fa-solid fa-money-bill-transfer"></i> Refund
+                    Help</button>
+            </div>
+
+            <!-- Panel 1: Ask AI -->
+            <div class="tab-panel active" id="ask">
+                <div class="form-group">
+                    <input type="text" id="question"
+                        placeholder="Ask any income tax question (e.g. What is Section 143(1)?)">
+                </div>
+                <div class="suggestions">
+                    <button class="suggestion"
+                        onclick="fillInput('question', 'What is Section 139(9) Defective Return?')">What is Section
+                        139(9)?</button>
+                    <button class="suggestion" onclick="fillInput('question', 'How do I verify my ITR?')">How do I
+                        verify my ITR?</button>
+                    <button class="suggestion" onclick="fillInput('question', 'Who is required to file ITR?')">Who must
+                        file ITR?</button>
+                </div>
+                <button class="action-btn" id="ask_btn" onclick="submitAskAi()">Get Guidance</button>
+
+                <div class="loading-state" id="ask_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                    <p>Consulting Official Rulebook...</p>
+                </div>
+                <div id="ask_response" class="response-box"></div>
+            </div>
+
+            <!-- Panel 2: Upload Notice -->
+            <div class="tab-panel" id="notice">
+                <input type="file" id="file-input" accept="application/pdf,image/*">
+                <div class="upload-area" id="upload-zone" onclick="document.getElementById('file-input').click()">
+                    <i class="fa-solid fa-cloud-arrow-up"
+                        style="font-size: 3rem; color: var(--primary-red); margin-bottom: 15px;"></i><br>
+                    <span id="file-name-display">Drag & drop your notice PDF / Image here or click to browse</span>
+                </div>
+                <button class="action-btn" id="upload_btn" onclick="submitNotice()">Upload & Explain Notice</button>
+
+                <div class="loading-state" id="notice_loading"><i class="fa-solid fa-file-invoice fa-bounce fa-2x"></i>
+                    <p>Extracting text and analyzing notice...</p>
+                </div>
+                <div id="notice_response" class="response-box"></div>
+            </div>
+
+            <!-- Panel 3: Filing Guide -->
+            <div class="tab-panel" id="guide">
+                <p style="margin-bottom: 20px; color: #666;">Select a procedure to get official step-by-step
+                    instructions.</p>
+                <div class="form_buttons">
+                    <button class="guide_btn" onclick="fetchGuide('How to File ITR')"><i
+                            class="fa-solid fa-file-export"></i> How to File ITR</button>
+                    <button class="guide_btn" onclick="fetchGuide('How to e-Verify ITR')"><i
+                            class="fa-solid fa-check-double"></i> How to Verify ITR</button>
+                    <button class="guide_btn" onclick="fetchGuide('How to File Revised Return')"><i
+                            class="fa-solid fa-clock-rotate-left"></i> File Revised Return</button>
+                </div>
+
+                <div class="loading-state" id="guide_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                    <p>Generating guide...</p>
+                </div>
+                <div id="guide_response" class="response-box"></div>
+            </div>
+
+            <!-- Panel 4: Forms -->
+            <div class="tab-panel" id="forms">
+                <div class="form-group">
+                    <input type="text" id="form_search" placeholder="Type a form name (e.g. Form 16, Form 10E)">
+                </div>
+                <div class="form_buttons">
+                    <button class="form_btn" onclick="fetchForm('Form 16')">Form 16</button>
+                    <button class="form_btn" onclick="fetchForm('Form 26AS')">Form 26AS</button>
+                    <button class="form_btn" onclick="fetchForm('AIS (Annual Information Statement)')">AIS /
+                        TIS</button>
+                </div>
+                <button class="action-btn" onclick="submitFormSearch()">Explain Form</button>
+
+                <div class="loading-state" id="forms_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                    <p>Retrieving form metadata...</p>
+                </div>
+                <div id="forms_response" class="response-box"></div>
+            </div>
+
+            <!-- Panel 5: Refund Help -->
+            <div class="tab-panel" id="refund">
+                <div class="form-group">
+                    <select id="refund_issue">
+                        <option value="" disabled selected>Select your refund issue...</option>
+                        <option value="My refund is delayed">Refund processing delay</option>
+                        <option value="Refund failed or rejected">Refund failed / rejected</option>
+                        <option value="Refund adjusted against outstanding demand">Adjusted against demand</option>
+                        <option value="How to check refund status">How to check refund status</option>
+                    </select>
+                </div>
+                <button class="action-btn" id="refund_btn" onclick="submitRefund()">Get Refund Help</button>
+
+                <div class="loading-state" id="refund_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                    <p>Diagnosing refund issue...</p>
+                </div>
+                <div id="refund_response" class="response-box"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // Tab Navigation Logic
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.tab).classList.add('active');
+            });
+        });
+
+        // Helper to fill input fields from suggestion chips
+        function fillInput(id, text) {
+            document.getElementById(id).value = text;
+        }
+
+        // Capture file selection string
+        document.getElementById('file-input').addEventListener('change', function (e) {
+            if (e.target.files.length > 0) {
+                document.getElementById('file-name-display').innerHTML = `<b>Selected:</b> ${e.target.files[0].name}`;
+                document.getElementById('upload-zone').style.borderColor = "var(--primary-red)";
+            }
+        });
+
+        // Universal JSON Renderer
+        function render_response(data, targetId) {
+            const target = document.getElementById(targetId);
+
+            // Handle unexpected errors where the backend sends a raw string instead of the strict JSON format
+            if (typeof data !== 'object' || !data.urgency) {
+                target.innerHTML = `<div style="color:red;"><i class="fa-solid fa-triangle-exclamation"></i> Error parsing official guidelines. Please try again.</div>`;
+                target.style.display = 'block';
+                return;
+            }
+
+            let urgencyHtml = data.urgency && data.urgency.toLowerCase() !== "not applicable"
+                ? `<div class="urgency ${data.urgency.includes("urgent") ? "urgent" : data.urgency.includes("attention") ? "attention" : "normal"}"><i class="fa-solid fa-bell"></i> ${data.urgency.toUpperCase()}</div>`
+                : '';
+
+            let deadlineHtml = data.deadline && data.deadline.toLowerCase() !== "not applicable"
+                ? `<div class="deadline-box"><i class="fa-regular fa-calendar-xmark"></i> Deadline: ${data.deadline}</div>`
+                : '';
+
+            let stepsHtml = Array.isArray(data.steps) && data.steps.length > 0
+                ? `<h4><i class="fa-solid fa-list-check"></i> Action Steps</h4>
+               <ol>${data.steps.map(s => `<li>${s}</li>`).join('')}</ol>`
+                : '';
+
+            let mistakesHtml = Array.isArray(data.common_mistakes) && data.common_mistakes.length > 0
+                ? `<h4><i class="fa-solid fa-circle-exclamation" style="color:#e43137;"></i> Common Mistakes to Avoid</h4>
+               <ul>${data.common_mistakes.map(m => `<li>${m}</li>`).join('')}</ul>`
+                : '';
+
+            target.innerHTML = `
+            ${urgencyHtml}
+            ${deadlineHtml}
+            <div class="explanation">
+                <h4><i class="fa-solid fa-scale-balanced"></i> Official Explanation</h4>
+                <p>${data.explanation.replace(/\\n/g, '<br>')}</p>
+            </div>
+            ${stepsHtml}
+            ${mistakesHtml}
+            <div class="source"><i class="fa-solid fa-book-bookmark"></i> <b>Source:</b> ${data.official_source}</div>
+            <div class="disclaimer">${data.disclaimer}</div>
+        `;
+            target.style.display = 'block';
+        }
+
+        // Toggle loading UI
+        function toggleLoading(panelId, isLoading) {
+            document.getElementById(`${panelId}_loading`).style.display = isLoading ? 'block' : 'none';
+            if (isLoading) {
+                document.getElementById(`${panelId}_response`).style.display = 'none';
+            }
+        }
+
+        // 1. Ask AI 
+        async function submitAskAi() {
+            const q = document.getElementById('question').value.trim();
+            if (!q) return;
+
+            toggleLoading('ask', true);
+            try {
+                const res = await fetch('/ask_tax_question', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: q })
+                });
+                const data = await res.json();
+                render_response(data, 'ask_response');
+            } catch (e) {
+                console.error(e);
+                alert("Error connecting to server.");
+            } finally {
+                toggleLoading('ask', false);
+            }
+        }
+
+        // 2. Upload Notice
+        async function submitNotice() {
+            const fileInput = document.getElementById('file-input');
+            if (fileInput.files.length === 0) {
+                alert("Please select a PDF or Image file first.");
+                return;
+            }
+
+            toggleLoading('notice', true);
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            try {
+                const res = await fetch('/explain_tax_notice', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                render_response(data, 'notice_response');
+            } catch (e) {
+                console.error(e);
+                alert("Error analyzing notice.");
+            } finally {
+                toggleLoading('notice', false);
+            }
+        }
+
+        // 3. Filing Guide
+        async function fetchGuide(guideName) {
+            toggleLoading('guide', true);
+            try {
+                const res = await fetch(`/tax_guides/${encodeURIComponent(guideName)}`);
+                const data = await res.json();
+                render_response(data, 'guide_response');
+            } catch (e) {
+                console.error(e);
+            } finally {
+                toggleLoading('guide', false);
+            }
+        }
+
+        // 4. Form Info
+        async function fetchForm(formName) {
+            document.getElementById('form_search').value = formName;
+            submitFormSearch();
+        }
+
+        async function submitFormSearch() {
+            const f = document.getElementById('form_search').value.trim();
+            if (!f) return;
+
+            toggleLoading('forms', true);
+            try {
+                const res = await fetch(`/tax_forms/${encodeURIComponent(f)}`);
+                const data = await res.json();
+                render_response(data, 'forms_response');
+            } catch (e) {
+                console.error(e);
+            } finally {
+                toggleLoading('forms', false);
+            }
+        }
+
+        // 5. Refund
+        async function submitRefund() {
+            const issue = document.getElementById('refund_issue').value;
+            if (!issue) {
+                alert("Please select an issue.");
+                return;
+            }
+
+            toggleLoading('refund', true);
+            try {
+                const res = await fetch('/refund_guidance', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ issue: issue })
+                });
+                const data = await res.json();
+                render_response(data, 'refund_response');
+            } catch (e) {
+                console.error(e);
+            } finally {
+                toggleLoading('refund', false);
+            }
+        }
+    </script>
+
+</body>
+
+</html>

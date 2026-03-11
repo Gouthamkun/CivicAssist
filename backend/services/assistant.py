@@ -1,5 +1,7 @@
 import ollama
 import os
+import json
+
 # Force CPU usage because the Ollama OOM crash deadlocked the CUDA driver state
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
@@ -17,55 +19,100 @@ retriever = db.as_retriever(search_kwargs={"k":3})
 
 
 
-def civic_assist(question):
+def retrieve_knowledge(query: str):
+    """Reusable vector DB retriever for all endpoints."""
+    docs = retriever.invoke(query)
+    # The new prompt format expects a list of dictionaries with a "text" key
+    return [{"text": doc.page_content} for doc in docs]
 
-    docs = retriever.invoke(question)
+MASTER_PROMPT = """
+You are the Income Tax Assistant for CivicAssist, an independent public civic assistant for Indian citizens.
 
-    context = "\\n".join([doc.page_content for doc in docs])
+════════════════════════════════════════════════════════════════════════════════
+YOUR ROLE:
+You explain official Income Tax rules, notices, forms and procedures.
+You do NOT provide legal advice, tax planning or personalised calculation.
+You do NOT guess. You only use information present in the CONTEXT below.
+If information is not present in context, say so explicitly.
 
-    import json
-    import os
-    
-    # Dynamically scan for available physical forms in real-time
-    available_forms_catalog = "No physical forms available."
-    try:
-        form_files = [f for f in os.listdir("frontend/forms") if f.endswith(".pdf")]
-        if form_files:
-            catalog_lines = [f"- {f.replace('.pdf','')} Form (URL: forms/{f})" for f in form_files]
-            available_forms_catalog = "\\n".join(catalog_lines)
-    except Exception:
-        pass
+════════════════════════════════════════════════════════════════════════════════
+BEHAVIOUR RULES:
 
-    prompt = f"""
-You are CivicAssist, an AI assistant that helps citizens understand Indian government services.
+✅ IF USER ASKED A GENERAL QUESTION:
+   1. Explain the rule simply in plain language
+   2. List any applicable limits / deadlines
+   3. List steps to take
+   4. Cite the section / circular number
 
-Context:
-{context}
+✅ IF USER UPLOADED A TAX NOTICE:
+   1. FIRST: State urgency level: 🟢 Normal / 🟡 Attention Required / 🔴 Urgent
+   2. SECOND: State the deadline if any
+   3. Explain what this notice actually means in plain language
+   4. Explain why they probably received this notice
+   5. List step by step exactly what they need to do
+   6. Tell them what will happen if they do nothing
 
-REAL-TIME AVAILABLE FORMS CATALOG:
-{available_forms_catalog}
+✅ IF USER ASKED ABOUT A FORM:
+   1. Explain what this form is used for
+   2. List what information it contains
+   3. Explain when you need this form
+   4. List where to download it from
 
-Question:
-{question}
+✅ IF USER ASKED FOR FILING GUIDANCE:
+   1. Return numbered step by step instructions
+   2. List required documents
+   3. State deadline
+   4. List common mistakes to avoid
 
-CRITICAL RAG INSTRUCTION:
-1. ALWAYS prioritize the MODERN ONLINE PROCESS (e.g. UAN Member Portal) if it's available in the context (look for `SOURCE: official_modern_guide`). Do NOT describe older manual offline processes (like submitting physical forms to trusts or PF Offices) unless explicitly asked.
-2. YOU MUST EVALUATE EVERY QUERY AGAINST THE REAL-TIME AVAILABLE FORMS CATALOG:
-   - If the user's query involves a topic or workflow that matches a form listed in the catalog (e.g., PF Transfer, Withdrawal, Pension, LIC Policy), YOU MUST output its exact URL in `action_url` and set `action_label` to "Download [Form Name]". Do this even if the modern process is online.
-   - If AND ONLY IF the query has absolutely nothing to do with any of the forms in the catalog, you MUST set `action_label` to exactly "Form is not required" and leave `action_url` as "".
+✅ IF USER ASKED ABOUT REFUND ISSUES:
+   1. List possible reasons
+   2. List step by step troubleshooting
+   3. Explain how to check status
+   4. Explain escalation procedure
 
-Answer clearly and step-by-step based ONLY on the provided Context. 
+════════════════════════════════════════════════════════════════════════════════
+OUTPUT FORMAT:
+Always return ONLY valid JSON in exactly this format. No extra text. No markdown outside the fields.
 
-CRITICAL INSTRUCTION: You MUST return your response ONLY as a valid JSON object. Do not include any other text outside the JSON.
-The JSON must have the following structure:
 {{
-    "answer": "Your detailed step-by-step explanation here. YOU MUST use explicit escaped newline characters (\\\\n) to logically separate each step or bullet point instead of actual line breaks so the JSON does not crash.",
-    "action_label": "Optional button text if a form is needed (e.g. 'Download Form 19'). If no form is needed, output exactly 'Form is not required'",
-    "action_url": "Optional URL if a form is needed (e.g. 'forms/form19.pdf'). If no form is needed, output an empty string ''"
+  "urgency": "normal / attention / urgent",
+  "deadline": "31st July 2025 / Not Applicable",
+  "explanation": "Plain language explanation. 2-3 paragraphs maximum.",
+  "steps": [ "Step 1: ...", "Step 2: ...", "Step 3: ..." ],
+  "common_mistakes": [ "Mistake 1", "Mistake 2" ],
+  "official_source": "CBDT Circular / ITR Instruction / Section XYZ",
+  "disclaimer": "This is official procedure explanation. For personal assistance contact helpline or consult a CA."
 }}
 
-If the user needs a specific form, provide the action_label and action_url. If no action is needed, set action_label to "Form is not required" and leave action_url empty.
+════════════════════════════════════════════════════════════════════════════════
+CONTEXT (Retrieved from official Income Tax documents):
+{context}
+
+════════════════════════════════════════════════════════════════════════════════
+USER REQUEST:
+{user_query}
+
+════════════════════════════════════════════════════════════════════════════════
+Return only valid JSON. Do not add any text before or after the JSON.
 """
+
+def safety_check(response: dict):
+    # Never allow the system to claim it can calculate tax
+    explanation = response.get("explanation", "")
+    if "calculate" in explanation.lower():
+        response["explanation"] = explanation + "\nThis system does not calculate personal tax liability."
+    
+    # Standard public service disclaimer
+    response["disclaimer"] = "This is an explanation of official procedure. For personal assistance please contact 1800-103-0025 or consult a Chartered Accountant."
+    return response
+
+# Legacy ask endpoint wrapper to prevent breaking the older generic UI
+def civic_assist(question):
+    context_chunks = retrieve_knowledge(question)
+    prompt = MASTER_PROMPT.format(
+        context="\\n---\\n".join([c["text"] for c in context_chunks]),
+        user_query=question
+    )
 
     response = ollama.chat(
         model="llama3",
