@@ -1,31 +1,61 @@
 ---
-SOURCE: https://incometaxindia.gov.in/simulation/income_tax_faq
+SOURCE: https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/filing-your-return#faqs%20on%20ais%20(annual%20information%20statement)
 DOMAIN: income_tax
 CATEGORY: informational
-LAST_UPDATED: 2026-03-09
+LAST_UPDATED: 2026-03-11
 LANGUAGE: English
 ---
 
-[Income Tax FAQs]
+[Income Tax FAQs - Annual Information Statement (AIS)]
 
 [CONTENT]
-Official guidelines regarding Income Tax FAQs.
+Q: What is Annual Information Statement (AIS)?
+A: Annual Information Statement (AIS) is a comprehensive view of information for a taxpayer. The objectives of AIS are: 1) Displays complete information to the taxpayer before filing the return of income with a facility to capture online feedback. 2) Promotes voluntary compliance and enable seamless prefilling of return. 3) Deters non-compliance.
 
-Official guidelines regarding Income Tax FAQs.
+Q: What are the components of Annual Information Statement (AIS)?
+A: The information shown on AIS is divided in two parts: Part A- General Information (PAN, Masked Aadhaar Number, Name, DOB, mobile, email, address) and Part B- TDS/TCS Information, SFT Information, Other Information (Taxes Paid, Demand and Refund, Pending Proceedings).
 
-Official guidelines regarding Income Tax FAQs.
+Q: Are all information of a taxpayer available in AIS for filing return of income?
+A: Annual Information Statement (AIS) includes information presently available with Income Tax Department. There may be other transactions relating to the taxpayer which are not presently displayed. Taxpayer is expected to check all related information and report complete and accurate information in the Income Tax Return.
 
-Official guidelines regarding Income Tax FAQs.
+Q: What does General information part contain under AIS?
+A: Part A displays general information pertaining to you, including PAN, Masked Aadhaar Number, Name of the Taxpayer, Date of Birth/ Incorporation/ Formation, mobile number, e-mail address and address of Taxpayer.
 
-Official guidelines regarding Income Tax FAQs.
+Q: What does Taxpayer Information Summary (TIS) contain under AIS?
+A: Taxpayer Information Summary (TIS) is an information category wise aggregated information summary for a taxpayer. It shows value processed by system and value accepted by taxpayer/confirmed by source. It includes Information Category, Value processed by system, Value accepted by taxpayer.
 
-1. Login to the e-filing portal.
-2. Go to e-File menu.
-3. Follow the instructions displayed on the screen.
-Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+Q: What is the difference between AIS and Form 26AS?
+A: Annual Information Statement (AIS) includes information presently available with Income Tax Department. Form 26AS displays information of TDS/TCS, taxes paid and other information. AIS is a more comprehensive statement and Form 26AS will continue to be provided till the time system of AIS is fully operational.
+
+Q: How can I view AIS?
+A: You can view Annual Information Statement (AIS) by logging into your e-Filing account and clicking on AIS under e-File/AIS menu.
+
+Q: Can I track the activity history in AIS?
+A: Yes, you can track the activity history in AIS by clicking on the Activity History button on AIS homepage. System generated ID (Activity ID) will be created for each performed activity, and the Activity date, Activity description and detail will be displayed.
+
+Q: In what all formats can I download my AIS?
+A: You can download Annual Information Statement (AIS) in PDF, JSON, CSV file formats.
+
+Q: How do I submit feedback on the information?
+A: You can submit feedback by: 1) Click of the information and then Click on Optional button mentioned in the Feedback column. 2) Choose relevant feedback option and enter details. 3) Click Submit.
+
+Q: What happens after I submit feedback?
+A: Upon successful submission of feedback, the feedback will be displayed with the information and the modified value will be visible with the reported value. The activity history tab will also be updated.
+
+Q: Would I get any confirmation on submission of AIS feedback?
+A: Yes, after successful submission, the activity history tab will be updated, and you will be able to download an Acknowledgement Receipt. Email and SMS confirmations will also be sent.
+
+Q: What is AIS Consolidated Feedback file?
+A: AIS Consolidated Feedback file (ACF) gives taxpayers a facility to view all their AIS feedback (other than feedback 'Information is correct') related information in one pdf for easy understanding.
+
+Q: Is there any limit on the number of times I can modify given feedback?
+A: Currently, there is no limit on the number of times you can modify previously given feedbacks.
+
+Q: Can I verify the GST turnover in AIS?
+A: Yes, GST turnover information is available in AIS under the "Other Information" tab.
 
 [FORMS_REFERENCED]
-None
+Form 26AS
 
 [RELATED_QUERIES]
 None

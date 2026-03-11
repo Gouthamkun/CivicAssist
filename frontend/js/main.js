@@ -120,7 +120,7 @@ async function simulateAIResponse(query, forceFormUrl = null, forceFormLabel = n
     openModal();
 
     try {
-        const response = await fetch('http://127.0.0.1:8000/ask', {
+        const response = await fetch('/ask', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -214,8 +214,16 @@ function openGeneralQueriesUI() {
 
 function submitEpfoQuery() {
     const input = document.getElementById('epfo-custom-query');
-    if (!input || !input.value.trim()) return;
-    executeQuickQuery(input.value.trim());
+    let query = input ? input.value.trim() : "";
+
+    // Check main background search bar if this is empty
+    if (!query) {
+        const globalInput = document.getElementById('ai-search-input');
+        if (globalInput && globalInput.value.trim()) query = globalInput.value.trim();
+    }
+
+    if (!query) return;
+    executeQuickQuery(query);
 }
 
 function openServiceModal(serviceName) {
@@ -235,13 +243,47 @@ function openServiceModal(serviceName) {
                 <i class="fa-solid fa-robot" style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 20px;"></i>
                 <h3>${serviceName} Assistant</h3>
                 <p style="margin-top: 15px;">What specifically do you need help with regarding ${serviceName}?</p>
-                <div class="search-box glass-panel" style="margin-top: 20px; border: 1px solid var(--border-color);">
-                    <input type="text" placeholder="Ask a question..." autocomplete="off">
-                    <button class="btn btn-gradient search-action" style="padding: 8px 16px; background-color: var(--primary-red); color: white;">Ask AI</button>
+                <div class="search-box glass-panel" style="margin-top: 20px; border: 1px solid var(--border-color); display: flex; padding: 5px; align-items: center; border-radius: 8px;">
+                    <input type="text" id="generic-custom-query" placeholder="Ask a question..." autocomplete="off" style="flex: 1; border: none; outline: none; padding: 10px; background: transparent;">
+                    <button class="btn btn-gradient search-action" onclick="submitGenericQuery()" style="padding: 8px 16px; background-color: var(--primary-red); color: white; border: none; border-radius: 4px; cursor: pointer;">Ask AI</button>
                 </div>
             </div>
         `;
+
+        // Add enter key listener
+        setTimeout(() => {
+            const input = document.getElementById('generic-custom-query');
+            if (input) {
+                input.focus();
+                input.addEventListener('keypress', function (e) {
+                    if (e.key === 'Enter') submitGenericQuery();
+                });
+            }
+        }, 100);
     }
 
     openModal();
+}
+
+function submitGenericQuery() {
+    console.log("Ask AI clicked!");
+    const input = document.getElementById('generic-custom-query');
+    let query = input ? input.value.trim() : "";
+
+    // Check main background search bar if this is empty
+    if (!query) {
+        console.log("Modal input is empty, checking global search bar...");
+        const globalInput = document.getElementById('ai-search-input');
+        if (globalInput && globalInput.value.trim()) {
+            query = globalInput.value.trim();
+        }
+    }
+
+    if (!query) {
+        alert("Please enter a question in the search box to Ask AI.");
+        return;
+    }
+
+    console.log("Executing Query:", query);
+    executeQuickQuery(query);
 }

@@ -1,4 +1,8 @@
 import ollama
+import os
+# Force CPU usage because the Ollama OOM crash deadlocked the CUDA driver state
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
