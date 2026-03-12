@@ -1,0 +1,2014 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Exemption Division Manual]
+
+[CONTENT]
+EXEMPTION 
+MANUAL 
+ 
+
+ 
+2 
+ 
+PREFACE 
+ 
+Welcome to the Exemption Division Manual of the Employees' Provident Fund Organization
+(EPFO). This comprehensive guide is designed to serve as a valuable resource for our
+dedicated employees, officials, and all stakeholders involved in the administration and 
+management of EPFO's exemption division. 
+ 
+The world of employee’s provident fund is ever evolving, and the intricacies of granting
+exemptions are continually shaped by legislative changes, procedural enhancements, and
+evolving industry standards. To navigate this dynamic landscape effectively, it is imperative
+that we equip ourselves with a thorough understanding of the exemption division's 
+operations, processes, and objectives. 
+ 
+This manual has been meticulously crafted to offer a detailed insight into the functioning of
+the exemption division, from its core principles to its day-to-day operations. By providing a 
+standardized and comprehensive reference, our aim is to foster transparency, consistency,
+and excellence in the way we manage exemption cases and serve our valued stakeholders. 
+ 
+Through this manual we aim to provide clarity & guidance, promote consistency &
+standardization in operations, ensure compliance in an ever – changing regulatory
+environment, enhance efficiency of the EPFO Exemption machinery and most importantly
+emphasize on Customer service and Stakeholder centricity.  
+ 
+We encourage all EPFO employees and officials to familiarize themselves with the contents 
+of this manual and to refer to it whenever needed. It serves as a valuable tool for both new 
+recruits and experienced professionals, promoting a unified approach to handling exemption 
+cases. 
+ 
+We hope that you find this Exemption Division Manual to be a valuable resource in your
+journey to ensure a secure and prosperous future for all the EPF beneficiaries across the
+nation. Your commitment and dedication to this noble cause is deeply appreciated. Thank
+you for your service and unwavering support to EPFO's mission. 
+ 
+ 
+ 
+
+ 
+3 
+ 
+ACKNOWLEDGMENT
+ 
+The drafting, review and design of Exemption Division Manual would not have been 
+possible without the tremendous efforts by all officers of the division. At the outset we 
+would like to thank our CPFC for her continuous guidance and motivation without 
+which the Manual would not have seen the light of day.  
+ 
+The Manual has been successfully co-authored by Shri. Saurabh Suman Prasad - 
+Regional Provident Fund Commissioner – I, Shri. Subodh – Regional Provident Fund 
+Commissioner – II and Shri. Nella Raga Tarun – Assistant Section Officer. 
+ 
+The team has worked under the guidance of Shri R.M Verma - Additional Central 
+Provident Fund Commissioner Head Quarters (ACC – HQ, Exemption Division) and 
+Shri P. Veerabhadra Swamy – Additional Central Provident Fund Commissioner (ACC, 
+Exemption Division). 
+ 
+We would like to take this opportunity to also thank Shri. Uttam Prakash Regional 
+Provident Fund Commissioner – I for providing valuable inputs from time to time. 
+Lastly the team is thankful to Shri Uday Baxi (Additional Central Provident Fund 
+Commissioner, Zonal Office, Kanpur) for preparing the initial drafts during his tenure 
+as ACC (Exemption) in Head Office.  
+ 
+ 
+PURPOSE OF THE MANUAL 
+ 
+To foster transparency, consistency, and excellence in the way EPFO 
+manages exemption cases and serves its valued stakeholders. 
+ 
+
+ 
+4 
+ 
+ 
+Table of Contents 
+1 
+1. 
+Introduction ................................................................................................. 7 
+1.1 Context & Historical Background ........................................................................................ 8 
+1.2 Key Statutory Milestones ..................................................................................................... 8 
+1.3 The Legal Administration Contours ...................................................................................12 
+1.4 Exemptions and its Types ................................................................................................... 15 
+1.5 Definitions .......................................................................................................................... 18 
+2. 
+Grant of Exemption ..................................................................................... 21 
+2.1 Introduction ........................................................................................................................21 
+2.2 Conditions of Exemption ...................................................................................................21 
+2.3 Stakeholder Roles & Responsibilities ............................................................................... 24 
+2.4 Specific Procedure ............................................................................................................. 26 
+2.5 Miscellaneous .................................................................................................................... 28 
+3. 
+Regulation & Management of Exempted Establishments ............................ 30 
+3.1 Introduction ....................................................................................................................... 30 
+3.2 Stakeholder Roles & Responsibilities ............................................................................... 30 
+3.3 Process Flow ...................................................................................................................... 33 
+4. Cancellation of Exemption ........................................................................... 37 
+4.1 Introduction ....................................................................................................................... 37 
+4.2 Trigger Points .................................................................................................................... 37 
+4.3 The Legal Framework ........................................................................................................ 38 
+4.4 Stakeholder Roles and Responsibilities ............................................................................ 39 
+4.5 Process Flow .......................................................................................................................41 
+4.6 Exceptional Circumstances ............................................................................................... 43 
+4.7 Hearing of Court Cases ...................................................................................................... 44 
+5. 
+Surrender of Exemption ............................................................................. 50 
+5.1 Surrender of Exemption .................................................................................................... 50 
+5.2 Stakeholder Roles & Responsibilities ............................................................................... 50 
+5.3 Process Flow ...................................................................................................................... 52 
+6. Third Party Audit & Compliance Audit ........................................................ 56 
+6.1 Third Party Audit ............................................................................................................... 56 
+6.2 Scenarios and Prescribed Performa for Third Party Audit .............................................. 57 
+6.3 Format for Third-Party Audit ........................................................................................... 57 
+6.4 Compliance Audit .............................................................................................................. 58 
+7. 
+Governance Structure.................................................................................. 61 
+7.1 Need for a Governance Structure ...................................................................................... 61 
+
+ 
+5 
+ 
+7.2 Existing Governance Structure ......................................................................................... 61 
+7.2.1 Head Office .................................................................................................................. 61 
+7.2.2 Exempted Establishment Committee ......................................................................... 63 
+7.2.3 Central Board of Trustees ........................................................................................... 64 
+7.2.4 Zonal Office ................................................................................................................. 65 
+7.2.5 Regional Office ............................................................................................................ 66 
+7.3 The Matrix of Timelines .................................................................................................... 66 
+7.3.1 Timelines and Responsibilities for Cancellation of Exemption ................................. 67 
+7.3.2 Timelines and Responsibilities for Regulation & Management of Exempted 
+Establishments .................................................................................................................... 67 
+7.3.3 Timelines and Responsibilities for Grant of Exemption ............................................ 68 
+7.3.4 Timelines for Grant of Permission to start compliance as an Unexempted 
+establishment ....................................................................................................................... 68 
+7.3.5 Timelines for Agenda preparation for consideration of appropriate Government ... 69 
+7.4 The Monitoring Mechanisms & Tools ............................................................................... 69 
+8. Forms and Templates ..................................................................................74 
+ 
+ 
+ 
+Glossary 
+ 
+CA
+Counter Affidavits
+CBT
+Central Board of Trustees
+CDSL
+Central Depository Services (India) Limited
+ECR
+Electronic Challan cum Return
+EEC
+Exempted Establishments’ Committee
+EPF & MP 
+Act 
+Employees Provident Fund and Miscellaneous Provisions Act, 1952
+EPF Scheme
+Employees Provident Fund Scheme, 1952
+FCA
+Fellow Chartered Accountants
+FO interface
+Field Office Interface
+GSR
+General Statutory Rules
+HO
+Head Office
+ICAI
+Institute of Chartered Accountants of India
+KYC
+Know Your Customer
+NCLT
+National Company Law Tribunal
+NDC
+National Data Centre
+NSDL
+National Securities Depository Limited
+PA
+Past Accumulation
+PF
+Provident Fund
+RO
+Regional Office 
+SDS
+Special Deposit Scheme
+SOP
+Standard Operating Procedure
+TRRN
+Temporary Return Reference Number
+ZO 
+Zonal Office
+
+ 
+6 
+ 
+ 
+CHAPTER 1 
+ 
+ 
+ 
+
+ 
+7 
+ 
+ 
+1. Introduction 
+ 
+a. The Employees’ Provident Fund (EPF) Scheme]1 is a mandatory social security 
+legislation for the working-class population of India. It is administered by the 
+Employees' Provident Fund Organisation (EPFO), the statutory arm of the Government 
+under the Ministry of Labour and Employment. The scheme aims to provide social 
+security and financial stability to employees after their retirement and acts as a 
+financial cushion to various contingencies during the lifetime. 
+ 
+b. Under Section 17 of the EPF & MP Act 1952]2, establishments can be permitted to 
+manage any or all the schemes under the EPF & MP Act 1952 for their employees. Such 
+establishments are known as “Exempted establishments”. Exemption is granted by the 
+Appropriate Government on a basic precondition that the rules of the Provident Fund 
+with respect to the rates of contribution of such an establishment are not less 
+favourable than those specified in Section 6 and the employees are in enjoyment of 
+other Provident Fund benefits which are again not less favourable than the employees 
+of the other establishments of a similar nature. 
+ 
+c. Regulation of the exempted establishments and their Trusts by EPFO ensures that their 
+employees do not suffer any disadvantage, simply on account of the establishment 
+having been accorded the privilege of maintenance of its own fund without having to 
+undergo the rigours of regular remittance of the statutory dues of its employees to 
+EPFO. Thus, at the core of the legislation is the ‘worker’ whose interest is supreme. As 
+such exemption to establishments and its regulation thereof only provides a level 
+playing field between a publicly delivered service and a privately managed service. 
+ 
+d. As on 01.04.2023 the total number of Exempted Establishments having link to file 
+online returns stands at 1305. 
+ 
+ 
+
+ 
+8 
+ 
+1.1 Context & Historical background 
+This manual is an attempt at a consolidation of the various procedures and steps involved in 
+the grant, regulation cancellation and surrender of exemption from the   EPF Scheme as 
+indicated in their respective standard operating procedures. This would enable all 
+stakeholders namely Establishment, Employer and EPFO to effectively perform their 
+respective duties by referring to this manual as a single source. 
+The fag end of the year 1951, witnessed the promulgation of the Employees' Provident Funds 
+Ordinance to provide for the institution of provident funds for employees in the factories and 
+other establishments in India. This was later replaced by the Employees' Provident Funds Act, 
+1952(Act) beginning 4th March 1952. 
+Under section 5 of the Act, The Employees’ Provident Funds Scheme, was framed. This 
+scheme first came into force on the 1st of November 1952. Since then, the day has been 
+rechristened as the EPFO foundation day.  
+Section 17 of the Act empowers the Appropriate Government to grant exemption prospectively 
+or retrospectively to an establishment to which the Act applies or to any establishment. The 
+provision was amended in 1988, allowing grant of exemption only after consultations with the 
+Central Board. Since 01.10.1988 the procedural aspect of the scheme has remained 
+unchanged. 
+1.2 Key Statutory Milestones 
+ 
+Year
+Statutory Milestones
+1953 
+Besides the introduction of the provisions related to exemption under 
+Section 17]3 of the Act, the provisions for granting exemption to a class of 
+employees was provided in Para 27A of the Employees’ Provident Fund 
+Scheme 1952. The provisions of the exemption for the class of employees 
+under Para 27A deemed to have come into force with effect from 31st 
+October 1953. 
+ 
+1956 
+The word “establishment” was added by substitution in the Section 17(1) (a) 
+and in the Section 17(2) making the provisions specifically applicable to an 
+establishment to which the Act applies, both for the purpose of the 
+exemption to the establishment as a whole or to a class of employees. 
+Similarly, the word “establishment” was added by substitution in the Section 
+
+ 
+9 
+ 
+Year
+Statutory Milestones
+17(1) (b) making the provisions specifically applicable to any other 
+establishment, if the benefits provided to their employees, separately or 
+jointly were on the whole were more favorable than the benefits under the 
+Act. 
+1957 
+The word “Factory and other establishments” was added by substitution in 
+Para 27A (1) enlarging the scope of application to factory workers where the 
+EPF scheme applies. Correspondingly, the word “Factory and other 
+establishments” was also added in the proviso to Para 28 (3), which deals 
+with the transfer of accumulations from existing provident funds. 
+1958 
+An explanation was added below the Para 28(2) of the EPF Scheme 1952,
+which explained that the provident fund trusts are required to transfer even 
+undistributed interest on the date of transfer of accumulations or 
+realized/realizable prior to the date the securities are actually transferred in 
+the name of the CBT, EPF 
+   1960
+Through an amendment of Para 28 (3), the role of erstwhile “Imperial Bank 
+of India” was replaced to “State Bank of India”.  
+    1961
+The power to grant exemption in respect of class of employees under Para 
+27A of the EPF scheme was delegated to the Appropriate Government. 
+     1963 
+The statutory duties of the employer of an exempted establishment, which 
+has been granted exemption for the whole establishment, class of its 
+employees or any individual employee, were defined in Section 17(3) of the 
+EMP & MP Act 1952. 
+With effect from 30th November 1963, the provisions for cancellation of 
+exemption were added by institution of Section 17(4) in the EPF & MP Act 
+1952. The provision under 17 (4) (b) made it operational to such 
+establishments which has been granted exemption under Section 17(2) also. 
+With effect from 18th May 1963, the provisions for grant of exemption to an 
+individual member under Para 27 of the EPF Scheme 1952 was added by 
+substitution. 
+By amending the Section 17(4) (aa), the scope for cancellation of exemption 
+was enlarged by applying the same to the exemption granted under erstwhile 
+
+ 
+10 
+ 
+Year
+Statutory Milestones
+1971 
+Family Pension Scheme 1976. Section 17(4) (aa) was further modified in 
+1988 by specifically adding by substitution Section 17(1C), which deals with 
+Pension exemption. 
+Statutory provisions were amended in Section 17(5) which provides that 
+upon cancellation of any exemption, the amount of accumulation standing to 
+the credit of every employee be transferred within such time as provided in 
+the Scheme. 
+ 
+ 
+ 
+ 
+ 
+1976 
+The Employee’s Deposit-Linked Insurance Scheme]4 came into operation in 
+1976. Statutory provisions were amended in Section 17(2A) and 17(2B) for 
+providing exemption from EDLI 1976 to any establishment if their Insurance 
+benefits were at par or more favorable than the EDLI 1976. 
+Section 17(4)(c) was instituted with effect from 01st August 1976 to provide 
+for the cancellation of exemption granted to an establishment from the 
+operation of the EDLI Scheme 1976. 
+The statutory duties of the employer of an exempted establishment, which 
+has been granted exemption from the EDLI 1976 for the whole 
+establishment, class of its employees or any individual employee, were 
+defined in Section 17(3A) of the EMP & MP Act 1952. 
+The Section 17(5) was suitably amended for transferring the accumulations 
+standing to the credit of every employee when the exemption from the 
+Insurance scheme is cancelled. 
+ 
+1985 
+Through an amendment of Para 28 of the EPF Scheme, the role of an 
+authority entrusted with the management of any provident Fund was further 
+enlarged by adding the provisions of Section 17(5). This enables for the 
+receipt of Past accumulations statement showing the amount standing to the 
+credit of each subscriber on the date of such transfer within time specified in 
+the scheme. 
+Time periods were prescribed for transferring the accumulations as well as 
+the statement showing the amount standing to the credit of each member by 
+amending Para 28(1) (a). 
+
+ 
+11 
+ 
+Year
+Statutory Milestones
+ 
+1988 
+Section 17(1A) was added on 01st October 1988. This provided that no 
+exemption shall be made without consultation with the Central Board. The 
+same amendment also provided for the application of Section 6, 7, 8 and 
+Section 14 including 14B on the employer of an exempted establishment. 
+Statutory provisions regarding the constitution of a Board of trustees, its 
+terms and conditions of their trustee members as well as their primary 
+responsibilities were also institutionalized. 
+As a substitution of Section 17(2A), the power to grant exemption from EDLI 
+Scheme 1976 was delegated to the Central Provident Fund Commissioner. 
+By amending the Section 17(4) (a), the scope for cancellation of exemption 
+was enlarged by covering the defaults by the employer against the provisions 
+of Section 17(1), Section 17(1A) or the defaults by the Board of trustees 
+against the provisions of Section 17(3) for such cancellation. 
+Section 17(5) was amended for transferring the accumulations standing to 
+the credit of every employee when the exemption from the Pension scheme is 
+cancelled. Further in 1996, after inception of EPS 1995]5, it was modified to 
+substitute from “family pension” to “Pension”. 
+By amending the Section 17(5), it was provided to transfer even the forfeited 
+amount from the employer’s share of contribution to the credit of an 
+employee who leaves the establishment before completion of full period of 
+service. 
+    1996 
+The statutory provisions were amended in Section 17(1C) by substitution for 
+providing exemption from EPS 1995 to any establishment or class of 
+establishments if their pensionary benefits were at par or more favorable 
+than the EPS 1995. Such substitutions indicate that such provisions were 
+available in respect of Family Pension Scheme 1976 that was merged into 
+Employees’ Pension Scheme of 1995. 
+   2000
+With effect from 06th January 2001, the Para 27AA was instituted in the EPF 
+Scheme 1952, defining terms and conditions of exemption. 
+   2003
+Appendix A to the Para 27AA of the EPF Scheme was substituted with effect 
+
+ 
+12 
+ 
+Year
+Statutory Milestones
+from 30th October 2003 with a checklist of 31 conditions.
+   2012
+ 
+Condition no. 16 of the Appendix-A to the Para 27AA of the EPF Scheme 
+1952 was amended to provide for the electronic format of the returns to be 
+filed by the exempted establishment. 
+2016 
+The Central Board of trustees approved an easy process for the cancellation 
+of exemption by way of surrender]6 if the Board of Trustees desired 
+surrender of exemption. 
+2020 
+The Code on Social Security 2020]7 got Presidential assent. The exemption 
+provisions of the code yet to be notified, intends to infuse the concept of 
+renewable exemption after every prescribed period instead of existing 
+provisions of enjoying exemption till the same is formally cancelled. 
+ 
+1.3 The Legal Administration Contours  
+a. The legal framework for the provisions related to Exemption is indicated under 
+Section 17]8 of the Act which is the overarching statutory provision governing all 
+aspects of Exemption. The corresponding enabling provisions are provided in the 
+Scheme (EPF Scheme,1952 as defined in Section 2(l) of the Act).   
+ 
+b. The Exemption from the EPF Scheme is granted by the Appropriate Government, on 
+an application by an establishment if its proposed scheme is not less favourable than 
+the statutory benefits provided under the Act and the EPF Scheme. EPFO acting as 
+the agency of the Appropriate Government monitors the functioning of the exempted 
+establishments.  
+c. The terms and Conditions, of exemption, is indicated in Section 17(1A)(b),(d) and 
+Section 17(3) of the Act read with Para 27AA of the EPF Scheme,1952 with a 
+provision for additional conditions as considered appropriate by the Appropriate 
+Government. 
+ 
+d. Regular Audits are conducted to see that conditions prescribed are not violated.  In 
+the event of non-compliance of the terms and conditions of the Exemption 
+cancellation of such exemption is provided under Section 17(4) of the Act.  
+
+ 
+13 
+ 
+ 
+e. The consequence of cancellation is a statutory obligation cast upon the 
+establishment to transfer the entire corpus of its PF Trust to the accounts of the 
+Central Board of Trustees, EPF as per the provisions of Section 17(5) of the act read 
+with Para 28 of the EPF Scheme. This is done by way of a formal report originating 
+from the Regional Provident Fund Commissioner and subjected to rigorous scrutiny 
+before it is put up to the Appropriate Government for an informed decision as 
+regards cancellation by way of a gazette notification. 
+f. Besides cancellation of exemption, other actions as stipulated under the Act can also 
+be initiated to ensure that the interests of the workers remain protected. 
+g. The cancellation can also take the route of surrender, which is a voluntary action by 
+an exempted establishment to hand over the responsibility of managing the Trust 
+Fund back to EPFO. Thus amidst the vagaries of an uncertain business climate and 
+the fluctuations in the Capital market this has been found to be the preferred option 
+for the employers’ of exempted establishment keen on concentrating on their core 
+business and leaving the statutory task of managing the retirement corpus of their 
+employees to EPFO. 
+h. A subcommittee of the Central Board called “Committee on Exempted 
+Establishments”]9 constituted by Chairman CBT monitors and guides the 
+functioning of Exempted establishments in the country. Further the committee also 
+ratifies the proposals of grant, cancellation and surrender of exemption for their 
+placement before the CBT as a precursor to their final approval by the appropriate 
+Government. 
+f. A brief overview of the Act and Scheme provisions which lay down the legal 
+framework and are relevant to the context of Exemption are explained below. 
+i. 
+“Act” means the Employee’s Provident Fund and Miscellaneous Provisions act,1952 
+ii. 
+“Scheme” means the Employee’s Provident Fund scheme framed under Section 5 of 
+the Act and as indicated in Section 2(l) of the Act. 
+iii. 
+“Appropriate Government” means the appropriate Government as defined in 
+Section 2 of the Act and explained as below  
+a. 
+Central Government for the establishments under the control of the Central 
+Govt. or in relation to an establishment connected with a railway company, a 
+major port, a mine or an oil-field or a controlled industry or in relation to an 
+establishment having branches in more than one state, and 
+b. 
+(b)State Govt in relation to any other establishment.  
+
+ 
+14 
+ 
+iv. 
+“Employer” as defined in Section 2(e) of the Act means 
+a. 
+in relation to an establishment which is a factory, the owner or occupier of the 
+factory, including the agent of such owner or occupier, the legal 
+representative of a deceased owner or occupier and, where a person has been 
+named as a manager of the factory under clause (f) of sub-section (1) of 
+section 7 of the Factories Act, 1948 (63 of 1948), the person so named; and 
+b. 
+in relation to any other establishment, the person who, or the authority 
+which, has the ultimate control over the affairs of the establishment, and 
+where the said affairs are entrusted to a manager, managing director or 
+managing agent, such manager, managing director or managing agent;] 
+v. 
+(v)” Employee” as defined in Section 2(f) of the Act means any person who is 
+employed for wages in any kind of work, manual or otherwise, in or in connection 
+with the work of 6 [an establishment], and who gets his wages directly or indirectly 
+from the employer, and includes any person 
+(a) 
+employed by or through a contractor in or in connection with the work of the 
+establishment;  
+(b) 
+engaged as an apprentice, not being an apprentice engaged under the 
+Apprentices Act, 1961 (52 of 1961), or under the standing orders of the 
+establishment;] 
+vi. 
+“Exempted employee” as defined in Section 2(ff) of the act means an employee to 
+whom a Scheme [or the Insurance Scheme, as the case may be,] would, but for the 
+exemption granted under*** section 17, have applied; 
+vii. 
+“Exempted establishment” as defined in Section 2(fff) of the Act means an 
+establishment in respect of which an exemption has been granted under section 17 
+from the operation of all or any of the provisions of any Scheme 2 [or the Insurance 
+Scheme, as the case may be, whether such exemption has been granted to the 4 
+establishment as such or to any person or class of persons employed therein 
+viii. “Fund” as defined in Section 2(h) of the act means the provident fund established 
+under a Scheme 
+ix. 
+“CBT” refers to the Central Board as indicated in Section 5A of the Act. 
+x. 
+Section 14(2A) relates to prosecution upon violations of conditions of Exemption 
+xi. 
+Section 17(1) (a) &(b) relates to the appropriate Govt’s powers to grant exemption 
+to establishments only when their employees are in enjoyment of benefits as regards 
+rate of contribution as specified in Section 6 and in the nature of PF, Pension and 
+
+ 
+15 
+ 
+Gratuity which are on the whole not less favourable than those provided by EPFO, 
+respectively. 
+xii. 
+Section 17(1A)(a-d) refers to the applicability of Section 6,7A,8 and 14B on 
+exempted establishments, the establishment of a Board of trustees to manage the PF 
+of its employees ,its terms and conditions and the duties to be performed by them. 
+xiii. Section 17(2) refers to the exemption for a class of employees 
+xiv. Section 17(3) refers to the duties and the conditions of exemption mandated for 
+the exempted establishments 
+xv. 
+Section 17(4) indicates the provisions relating to cancellation of exemption 
+xvi. Section 17(5) relates to the provisions regarding transfer of Past Accumulations of 
+the employees of establishments whose exemption has been cancelled. 
+xvii. Paragraph 27 of the EPF Scheme is the enabling scheme provision for Section 
+17(2) of the Act and refers to the exemption granted to a single employee. 
+xviii. Paragraph 27A of the EPF Scheme is the enabling scheme provision of Section 
+17(2) of the Act and refers to the exemption granted to a class of employees. 
+xix. Paragraph 28 is the enabling scheme provision of Section 17(5) of the Act and 
+indicates the transfer of Past accumulation of the employees of establishments 
+whose exemption has been cancelled. 
+xx. 
+Paragraph 27AA, Appendix” A” indicates the Conditions of exemption which are 
+applicable to all exempted establishments and which are undertaken to be followed 
+by the establishments seeking exemption. 
+xxi. Para 79 relates to grant of relaxation to establishments 
+xxii. Para 79-B relates to the time period for the Central board to communicate its views 
+to the appropriate Government. 
+xxiii. Para 79-C indicates the composition of the Board of trustees and their terms and 
+conditions of service. 
+1.4 Exemptions and its Types 
+a. Exemption from the EPF Scheme can be broadly classified into three categories.  
+ Exemption for the establishment as a whole,  
+ Exemption for a class of employees and  
+ Exemption for a single employee.  
+ 
+b. The corresponding statutory provision is indicated under Section 17(1) of the Act]10, Section 
+17(2) of the Act read with Para 27A and Para 27 of the Scheme, respectively. In the 
+
+ 
+16 
+ 
+upcoming Social Security Code, 2020]11 the provisions for exemption from the EPF Scheme 
+is indicated in Section 143 of the Code.  
+ 
+c. Thus Section 17 of the EPF Act is pari materia to Section 143 of the Social security code. 
+However irrespective of the finer points of the two legislations, the intent of the lawmakers 
+remains unambiguous i.e. quality service to the working class matching the global 
+standards through a competitive interplay between a publicly managed service and 
+privately controlled entities who possess the financial wherewithal to match the benefits 
+given by EPFO. 
+ 
+d. The exemptions granted under the EPF Act is predicated upon the fact that the quantum of 
+benefits which the establishment provides in the nature of PF, Pension or Gratuity or as 
+regards the rate of contribution to the fund for its beneficiary employees should in no way 
+be inferior to that being provided by EPFO to its subscribers. Further the exempted 
+establishments are required to abide by the conditions of exemption provided in Para 
+27AA Appendix “A” of the Scheme. Lastly the establishments are under a statutory 
+obligation to transfer the Past   Accumulation of its beneficiary employees to the Fund 
+under the EPFO once the exemption is cancelled. 
+ 
+e. It will however, be pertinent for the sake of continuity, to provide here a brief overview of 
+the law of exemption under the new Social Security Code.  Consequent to the inception of 
+the Social Security Code 2020 the draft rules 2020 pending formal notification proposes 
+the following preconditions for exemption:              
+i. 
+the employees are in receipt of benefits substantially similar or superior to the 
+benefits granted in the EPF scheme; 
+ii. 
+the establishment seeking exemption has been complying with the provisions 
+of the Code or the Employees’ Provident Funds and Miscellaneous Provisions 
+Act, 1952 for a period of three years continuously immediately before making 
+the application and has not defaulted in payment of contribution payable 
+during such period; 
+iii. 
+the establishment seeking exemption should have minimum five hundred 
+contributory members on the date of such application; 
+iv. 
+the establishment seeking exemption from the provisions of the Provident 
+Fund Scheme should have a cumulative balance in members account of rupees 
+fifty crore or more; 
+
+ 
+17 
+ 
+v. 
+the establishment seeking exemption should have a positive net worth during 
+each of the last three years before the date of application; 
+vi. 
+the establishment must have seeded the Aadhar Number of each of the 
+member in the respective members’ account 
+vii. 
+the establishment shall provide facilities for online claim settlement and has 
+an online portal for grievance resolution to provide linkages with that of 
+Employees’ Provident Fund Organisation within ninety days of grant of 
+exemption. 
+ 
+f. There are three types of exemptions namely Establishment-based exemption: 
+Employee-based exemption and special concessions for Start-ups and new 
+establishments. 
+i. 
+Establishment-based exemption: Under the new Social Security Code, an 
+establishment can be exempted from contributing to the EPF if it provides a 
+comparable or better than the benefits provided under the EPF scheme. 
+Exemption can be granted for a period of up to three years, with a provision 
+for subsequent renewals. 
+ii. 
+Employee-based exemption: Individual employees can be exempted to 
+contribute to the EPF if they meet certain criteria. 
+iii. 
+Start-ups and new establishments: The Social Security Code provides for 
+certain exemptions and incentives for start-ups and new establishments. These 
+include a lower rate of contribution to the EPF for the first three years of 
+operation, as well as a waiver of the employer's contribution to the EPF for the 
+first three years for certain categories of employees. 
+
+ 
+18 
+ 
+ 
+Figure 1: Types of Exemption under Social Security Code 
+ 
+1.5 Definitions 
+For the purpose of this manual the following terms will be defined as indicated in this 
+paragraph. 
+1. 
+“Act” means The Employees’ Provident Funds and Miscellaneous Provisions Act, 
+1952. 
+2. 
+“ACC” means the Additional Central Provident Fund Commissioner or the 
+Additional Central Provident Fund Commissioner (HQ) of the Zone. 
+3. 
+"Appropriate Government" means, the appropriate Government as defined in 
+Section 2(a) of the Act. 
+4. 
+“BOT” means the Board of Trustees constituted as per the provisions under Para 
+79C of the EPF Scheme, 1952. 
+5. 
+“CBT " means, the Central Board as provided under Section 5A of the Act. 
+6. 
+“Common Provident Fund Trust” means a Trust with two or more 
+participating establishments with at least one representative each from the 
+participating establishment. 
+7. 
+“Compliance Audit” means the annual audit of an exempted establishment in a 
+designated proforma by a team of officers from the R.O in whose jurisdiction the 
+exempted establishment is located. 
+8. 
+“Condition(s)” means conditions of exemption as indicated in the “Appendix A” 
+of Para 27AA of the Scheme. 
+
+ 
+19 
+ 
+9. 
+“Depository participants” means the registered agent or stockbroker of the 
+depositories like NSDL and CSDL which maintain the ownership records of the 
+investors. 
+10. 
+“Draft Agenda”]12 refers to the prescribed format meant for the Regional Offices 
+to forward its recommendations or rejections for grant of exemption to Zonal 
+Offices and Head Office for consideration of the EEC. 
+11. 
+“EEC” means the Exempted Establishments Committee of the CBT. 
+12. 
+“Employer” means the Employer as defined in Section 2(e) of the Act. 
+13. 
+“Exempted Establishment” means an establishment in respect of which an 
+exemption has been granted under section 17 from the operation of all or any of the 
+provisions of EPFC Scheme whether such exemption has been granted to the 
+establishment as such or to any person or class of persons employed therein. 
+14. 
+"Exemption" means an exemption within the meaning of Section 17 (1) and 17 (2) 
+of the Act.  
+15. 
+“PA” means the Past Accumulations as indicated in section 17(5) of the Act read 
+with Para 28 of the Scheme. 
+16. 
+“Priority Matrix” means the categorisation of the violations of conditions of 
+exemption and the desirable consequential actions in FORM CE-6 
+17. 
+“Regional Provident Fund Commissioner (RPFC)” is the RPFC-In-Charge of 
+the Region in whose jurisdiction the establishment is covered under the Act. 
+18. 
+“Relaxation” means a Relaxation granted under Para 79 of the Scheme. 
+19. 
+“Relaxed Establishments” means, the establishment who have been granted 
+relaxation under Para 79 of the EPF Scheme, 1952 by the Commissioner as defined 
+in Section 5D of the Act. 
+20. 
+“Scheme” means the Employees’ Provident Fund Scheme, 1952 framed under 
+Section 5. 
+21. 
+“Standard Operating Procedure” (SOP) means the specific procedure to be 
+followed with respect to the process of Grant of Exemption, Management and 
+Regulation of EPF Exempted Establishments, Cancellation of Exemption and 
+Surrender of Exemption. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+20 
+ 
+ 
+ 
+ 
+CHAPTER 2 
+ 
+
+ 
+21 
+ 
+ 
+ 
+ 
+2. Grant of Exemption 
+ 
+2.1 Introduction 
+a. The basic premise of exemption from the EPF Scheme is predicated on the ability of 
+any establishment to match the benefits provided by EPFO to its subscribers. Such 
+comparable benefits can be as regards the rate of contribution as indicated in Section 6 
+of the Act or in the nature of Provident Fund, Pension or Gratuity which on the whole 
+should not be less favourable than the benefits under the EPF Act and the Scheme.   
+b. Establishments that seek to maintain their own Provident Fund Trusts apply for grant 
+of exemption under Section 17 of the EPF & MP Act, 1952 (Act). While exemption for 
+the establishment as a whole is regulated by Section 17(1) of the EPF Act, the 
+exemption for a class of employees is regulated by Section 17(2) of the Act; the enabling 
+provision enshrined in Para 27A of the Scheme while Para 27 of the Scheme deals with 
+the grant of exemption to a single employee by the RPFC.  
+c. The grant of exemption]13 is however subject to the fulfilment of the Conditions of 
+Exemption indicated in Section 17(1A) and 17(3) while the enabling provision in the 
+Scheme is provided under Para27AA Appendix “A” of the Scheme 
+2.2 Conditions of Exemption  
+From the perspective of an employer of an establishment seeking to obtain exemption 
+from the statutory obligations related to monthly remittance of the PF contributions of 
+their employees under the Scheme, an application based on compliance with the 
+Conditions of exemption is a sine qua non of the entire process. The said conditions as 
+defined in Section 1.5 of this Manual is delineated in detail under Appendix “A” of Para 
+27AA of the Scheme. An overview of these conditions which have been classified into four 
+categories is indicated in FORM GE-1(9) of the Chapter 8 of this Manual. 
+ 
+ 
+
+ 
+22 
+ 
+CONDITIONS OF EXEMPTION AS PER APPENDIX ‘A’ 
+TO PARA 27AA OF THE EPF SCHEME, 1952 
+ 
+(For Reference) 
+Board of Trustees
+ 
+Establishment/Employer
+Condition 
+no.2:  
+BOT to meet in every 
+three months 
+ 
+Condition 
+no.3:  
+Enrolment of all eligible 
+Employees 
+ 
+Condition no. 
+9: 
+ 
+Benefits to be not less 
+favorable than EPFO as 
+regards 
+rate 
+of 
+contributions, 
+interest 
+etc. and quantum of 
+advances 
+ 
+Condition no. 
+10:  
+Beneficial rules to apply 
+automatically 
+Condition 
+no.13:  
+To maintain Electronic 
+accounts of employee 
+contributions 
+ 
+Condition 
+no.17: 
+Investments to be made 
+as per GOI Guidelines 
+ 
+Condition 
+no.18: 
+Securities to be in the 
+Trust’s name and kept 
+in Demat Account with 
+RBI 
+approved 
+Depositary Participants 
+ 
+Condition no. 
+19: 
+Directions 
+for 
+Depository participants 
+to transfer the Trust 
+Investment 
+to 
+RPFC 
+under 
+certain 
+conditions 
+ 
+Condition 
+no.1:  
+ 
+Constitution of BoT
+ 
+Condition 
+no.4:  
+ 
+Transfer of Previous accumulations 
+(From past service to Trust). 
+ 
+Condition 
+no.5:  
+Monthly contributions to the trust 
+by 15th of the succeeding month 
+ 
+Condition 
+no.6:  
+ 
+Establishment to make good the 
+loss suffered by the Trust. 
+Condition 
+no.7:  
+Trust 
+to 
+at 
+least 
+match 
+the 
+statutory rate of interest 
+ 
+Condition 
+no.8:  
+ 
+Trust rules to be displayed on 
+notice board 
+Condition 
+no.16:            
+Timely filing of monthly/annual 
+returns 
+ 
+Condition 
+no.22:  
+Establishment 
+to 
+submit 
+undertaking 
+to 
+abide 
+by 
+the 
+conditions of exemption to RPFC 
+ 
+Condition no 
+23:  
+Establishment 
+to 
+submit 
+undertaking 
+to 
+transfer 
+past 
+accumulations in the event of 
+cancellation of Exemption to RPFC 
+ 
+Condition 
+no.24(b):  
+Trust Balance Sheet submission to 
+RPFC 
+ 
+Condition 
+no.24(c):  
+ 
+The same auditor not to be 
+appointed for 2 consecutive years 
+& for not more than 2 times in a 
+block of six years 
+ 
+Condition 
+no.28:  
+Establishment to make good the 
+loss arising out of fraud/wrong 
+investment etc. to the Trust 
+ 
+Condition 
+no.29:  
+Mandatory 
+revocation 
+of 
+Exemption 
+under 
+certain 
+conditions 
+ 
+
+ 
+23 
+ 
+Employees
+ 
+EPFO
+ 
+Condition 
+no. 
+12:  
+ 
+Entitled for a time 
+bound Settlement of 
+claims. 
+ 
+Condition 
+no. 
+14:   
+ 
+Entitled 
+for 
+a 
+Passbook facility to 
+be provided by the 
+Trust. 
+ 
+Condition 
+no. 
+15: 
+Entitled for a facility 
+to view Balance on 
+computer terminals 
+ 
+Condition no.11: 
+ 
+RPFC’s mandatory permission 
+for amendment in the rules 
+ 
+Condition 
+no.20:  
+ 
+The 
+Investments 
+can 
+be 
+liquidated 
+for 
+obligatory 
+expense only upon RPFC’s 
+Permission 
+ 
+Condition 
+no.24(a):  
+ 
+Third Party Audit to be done 
+upon RPFC’s orders 
+ 
+Condition no.25: 
+ 
+To 
+check 
+for 
+3-year 
+continuous loss 
+Condition no.26: 
+ 
+To cause Compliance Audit
+Condition no.27: 
+ 
+To 
+initiate 
+cancellation
+procedure only after a show 
+cause notice 
+ 
+Condition 
+no.30:  
+ 
+RPFC to take Legal action in 
+case of a default against all 
+the Trustees of a Common PF 
+Trust 
+Central Government
+Condition no.31:   Further Conditions
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+24 
+ 
+2.3 Stakeholder Roles & Responsibilities 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2:Key Stakeholders for Exemption  
+Each stakeholder has a pre-determined set of roles to play so as to   achieve the aim of a 
+hassle-free disposal of the application for Grant within the time limit permitted under the 
+Scheme. 
+Stakeholder 
+Responsibility 
+Establishment 
+ Has to constitute a Trust and formulate the Trust Rules based 
+on the conditions of exemption.  
+ Further an application has to be made in a standardized 
+format within the parameters set by the appropriate 
+government 
+duly 
+enclosing 
+a 
+comparative 
+statement 
+indicating that the benefits allowed to its beneficiaries are at 
+least at par with the benefits provided by EPFO to its 
+subscribers. 
+Regional Office 
+(RO) 
+ Shall receive the application, scrutinize it thoroughly and send 
+the Draft proposal to Z.O 
+ The draft proposal should be sent only after due certification 
+of the fact that the benefits provided by the applicant 
+establishment are no less favourable than what is being 
+
+ 
+25 
+ 
+Stakeholder 
+Responsibility 
+allowed by EPFO to its subscribers.
+Zonal Office 
+(ZO) 
+ The Zonal Office (ZO) shall forward the Draft agenda proposal 
+to H.O. with its recommendations. 
+ The Zonal ACC can also exercise his/her discretion as regards 
+the Grant of Relaxation to the applicant establishment within 
+the meaning of Para 79-C of the Scheme. 
+Head Office (ZO)
+Exemption Division shall scrutinize the draft agenda proposal for 
+grant of exemption and place its recommendations before the 
+EEC. 
+The Exempted 
+Establishment 
+Committee 
+(EEC) 
+Shall decide about the suitability of the proposal and submit its 
+views to the CBT through the Head Office Exemption Division. 
+The Central 
+Board (CBT) 
+The Central Board (CBT) shall finalize its views for onward 
+communication to the Appropriate Government through the HO 
+Exemption Division 
+Appropriate 
+Government 
+Takes a considered decision upon the views of the CBT as regards 
+the case and in case of its assent the process culminates in the 
+issuance of a Gazette notification for Grant of exemption to the 
+establishment. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+26 
+ 
+2.4 Specific Procedure 
+ 
+STAKEHOLDER:  ESTABLISHMENT  
+LIST OF ACTIVITIES 
+ The establishment shall make an application in FORM GE-1 after a due 
+diligence at its end as regards compliance with the conditions of exemption.  
+ To that effect, the employer shall constitute a BOT under his chairmanship 
+and the terms and conditions of the Trustees shall be as per the provisions of 
+Para 79-C of the Scheme.  
+ The BOT shall primarily be concerned with the maintenance of accounts of 
+each employee beneficiary of the Trust duly indicating the contributions made, 
+the withdrawals effected, and the interest accrued. It should further submit 
+such returns as directed by the RPFC, invest the P.F corpus and effect transfer 
+of the PF. Account of the employee beneficiaries as soon as it becomes due.  
+ The application Form GE-1 should be compulsorily accompanied with two 
+copies of the duly signed Trust rules indicative of the definition of the “class of 
+employees” if exemption is sought under Section 17(2). 
+ A comparative chart of the benefits vis a vis EPFO, full details of the Trustees, 
+certificates of undertaking as indicated in the conditions of exemption and the 
+details of its departments and branches. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+27 
+ 
+STAKEHOLDER:  REGIONAL OFFICE 
+LIST OF ACTIVITIES 
+ The RO shall facilitate submission of a complete form with all the 
+documentation. 
+ It shall evaluate the FORM GE-1 on the twin criteria of compliance with the 
+conditions of exemption and a certification with respect to the fact that the 
+benefits being provided by the applicant establishment are not less favourable 
+than the benefits provided by EPFO to its subscribers. 
+ It shall prepare the Draft Agenda and along with the Draft agenda RPFC shall 
+send his/her recommendations in FORM GE-2 within 10 weeks from the 
+receipt of the application.  
+ However, in case the proposal is unfit, a negative recommendation shall be 
+sent. 
+ 
+ 
+STAKEHOLDER:  ZONAL OFFICE 
+LIST OF ACTIVITIES 
+ The ZO shall certify the fitness of the Draft agenda for placement before the 
+EEC and shall send it to H.O Exemption division along with its 
+recommendations in FORM GE-3 
+ Within 15 days of receipt of proposal from RO. Simultaneously ACC of the 
+Zone shall issue an order of Relaxation under Para 79 of the Scheme. 
+ 
+
+ 
+28 
+ 
+ 
+STAKEHOLDER:  HEAD OFFICE 
+LIST OF ACTIVITIES 
+ ACC (Exemption Division) shall evaluate the proposal for grant of exemption 
+and with the approval of CPFC shall place it before the EEC for its 
+consideration preferably within 1 month of the receipt of FORM GE-3 from the 
+ZO. 
+ Subsequent to its ratification the proposal shall be placed before the CBT for 
+its approval. It shall be the duty of ACC (Exemption Division) H.O to 
+communicate the recommendations of the CBT to the appropriate government 
+in FORM GE-4 for a formal notification in the Gazette. 
+ 
+2.5 Miscellaneous 
+Transfer of Past Accumulation in case of grant of exemption or exclusion: 
+The CBT, in its 163rd meeting held on 19.08.2003 decided that after the grant of exemption or 
+in any other eventuality necessitating transfer of past accumulations to an establishment or 
+Trust, or excluded establishments, entire past accumulations be transferred in cash only in all 
+cases. Securities will not be transferred by Head Office in exclusion cases too. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+29 
+ 
+CHAPTER 3 
+ 
+. 
+
+ 
+30 
+ 
+ 
+ 
+3. Regulation & Management of 
+Exempted Establishments 
+ 
+3.1 Introduction 
+This chapter aims to lay down the essential guidelines necessary for the management of 
+exempted establishments and the regulation]14 thereof by EPFO based on the statutory 
+provisions indicated in the Act and the Scheme. The scheme of the exempted establishment 
+functions within the ambit of the Act; as such the framework for its proper functioning is 
+similar to the EPF Scheme under the Act.  
+The management and regulatory processes are however a subset of the Conditions of 
+exemption delineated under Para 27AA Appendix “A” of the EPF Scheme. The said conditions 
+are unique in the sense that its 31 clauses constitute a comprehensive treatise on functional 
+and compliance guidelines ranging from the constitution of the BOT, its operational 
+parameters, the nature of its beneficiaries, the duties of the employer towards the beneficiary 
+employees and lastly its statutory obligations vis a vis EPFO functioning as a regulator of PF 
+Trusts in the exempted establishments. 
+ 
+3.2 Stakeholder Roles & Responsibilities 
+ 
+Stakeholder 
+Roles & Responsibilities 
+ 
+ 
+ 
+ 
+ 
+ Manage their Trust fund as per the guidelines set by the EPFO 
+which functions as a statutory regulator. Thus the primary 
+stakeholder has to be the establishment and the Board of 
+Trustees 
+ Has to undertake to abide by the Conditions of exemption and 
+has to constitute a BOT as per the statutory guidelines 
+ Facilitate inspection, pay the inspection charges, submit online 
+
+ 
+31 
+ 
+Stakeholder 
+Roles & Responsibilities 
+ 
+ 
+ 
+ 
+ 
+ 
+Establishment 
+returns within time, ensure seamless service for its beneficiary 
+employees and adhere to the disclosure norms set by the statute 
+as regards its annual report and the accounts of the Trust Fund. 
+ Any business occurrence which may entail a change in its legal 
+status shall be promptly informed to the RPFC. 
+ The BOT in turn is responsible for the receipt of the monthly 
+remittances, maintenance of the detailed account of its 
+beneficiary employees, submission of returns and investment of 
+the PF money in designated instruments as per the notified 
+pattern of investment 
+ It also has important roles vis a vis its beneficiaries as regards 
+transfer in and out of their accounts whenever due and ensuring 
+non reduction of the total quantum of benefits vis a vis EPFO 
+ Its duties towards financial disclosure and reportage as regards 
+its profitability is coterminous with that of the establishment. 
+ 
+ 
+ 
+ 
+ 
+  RPFC and RO 
+ Ensure that their compliance machinery pertaining to exempted 
+establishments’ functions like a well-oiled machine by 
+deployment of adequate number of trained staff adept in dealing 
+with its complexities.  
+ The exemption section shall be responsible for ensuring timely 
+filing of online returns and a proper monitoring of the online 
+performance evaluator.  
+ A time bound compliance audit of exempted establishments and 
+a proper follow up action along with a Third-Party audit of the 
+Trust Funds as and when considered necessary are also of 
+utmost importance.  
+ Timely detection of the existence of the stipulations in Condition 
+
+ 
+32 
+ 
+Stakeholder 
+Roles & Responsibilities 
+No.25 and 29 is a task devolved upon the RO whose importance 
+can never be overstated. Last but not the least it is expected to be 
+diligent in a time bound submission of al the reports to ZO. 
+ 
+Zonal Office 
+ Functions as a monitoring office accentuating on a timely filing 
+of online returns and compliance audit of the exempted 
+establishments as well as its follow up actions 
+ Sends advisories on the basis of the online marks based 
+performance evaluator of exempted establishments 
+ Important role to play in the context of the department’s 
+increasing emphasis on public outreach and capacity building 
+based on the best practices adopted by the exempted 
+establishments in the context of fund management and Trust 
+administration 
+ 
+Head Office 
+ 
+ Monitoring of ZO’s on the basis of the twin parameters of timely 
+completion of Compliance audit of exempted establishments and 
+a timely filing of online returns 
+ HO shall be responsible for outreach programs at a national 
+scale as well as capacity building both at the internal as well as 
+external level. 
+ 
+ 
+ 
+ 
+
+ 
+33 
+ 
+3.3 Process Flow 
+ 
+STAKEHOLDER:  ESTABLISHMENT  
+LIST OF ACTIVITIES 
+ The exempted establishment’s responsibility towards the management of its 
+exemption is predicated upon its scrupulous adherence to the conditions of 
+exemption which have a three-fold orientation. 
+ Responsible for constituting a BOT under his chairmanship which shall 
+function as per the provisions of Para 79-C (Condition No 1 & 2). 
+ Responsible for ensuring membership to all the eligible membership and also 
+facilitate transfer in of his accumulations from his erstwhile employer. 
+(Condition No.3 & 4). 
+ Liable to facilitate seamless services in the context of crediting of interest, 
+claim settlement, issuance of account statement and checking of PF balances. 
+(Condition No’s 9,12,13,14 & 15) 
+ Facilitation of EPFO’s regulatory role vis a vis the establishment as well as the 
+Trust 
+ Ensure timely remittance of monthly charges, administrative charges and 
+interest, (Condition No 5,6 & 7). Any beneficial amendment in the Trust 
+rules shall be adopted automatically. 
+ Any amendment to the Trust rule shall require the prior permission of RPFC. 
+(Condition No 10 & 11). 
+ Ensure timely filing of all returns, adhere to the designated pattern of 
+investment and maintain its investments mandatorily in the Demat mode in 
+the name of the Trust, (Condition No 16,17 & 18). 
+ Undertake due compliance to all the conditions while the depository 
+participants are requiring to transfer the Trust investments to the RPFC upon 
+closure or liquidation of the establishment subsequent to a communication 
+
+ 
+34 
+ 
+received from him/ her (Condition No 22,23 & 19).
+ Adhere to the norms of audit of the Trust’s accounts, the publication of its 
+report and the appointment of auditors, (Condition No.24) 
+ Any pecuniary reward shall be credited to the Trust account. (Condition No 
+21). 
+ All inspection charges are liable to be paid and any loss to the fund shall be 
+made good by the employer. (Condition No.26 & 28). 
+ Condition No.25 entails mandatory withdrawal of Exemption consequent to 
+a loss incurred by the establishment (not the Trust) for three consecutive years 
+or upon an erosion in the capital base of the establishment, Condition No 29 
+has a clause for a mandatory revocation of exemption upon a change in the 
+legal status of the establishment. 
+ Condition No 29 has a clause for a mandatory revocation of exemption upon a 
+change in the legal status of the establishment. 
+ 
+ 
+STAKEHOLDER:  REGIONAL OFFICE 
+LIST OF ACTIVITIES 
+ Lynchpin of the entire regulatory machinery with a well-defined role. ensure 
+timely filing and the scrutiny thereof of the online returns and a timely 
+conduct of the compliance audit of the establishment 
+ Audit should have a separate note on the treatment of Surplus and reserve 
+Fund as well as the employee service profile of the establishment. 
+ RPFC also conducts Third Party Audit of exempted establishments on grounds 
+of reasons which are clearly specified in writing, in a pre-designated format 
+
+ 
+35 
+ 
+ RPFC shall submit a report to ZO as regards compliance audit of all exempted 
+establishments under his jurisdiction in a time bound manner. 
+ 
+ 
+ 
+STAKEHOLDER:  ZONAL OFFICE 
+LIST OF ACTIVITIES 
+ Function as a monitoring office for monitoring the online return position as 
+well as the online marks-based performance evaluator of the RO’s 
+ Compliance audit profile of RO’S shall be monitored at ZO which shall submit 
+a designated report to HO in a time bound manner. 
+ 
+ 
+STAKEHOLDER:  HEAD OFFICE 
+LIST OF ACTIVITIES 
+ Monitor the performance of the ZO Vis a Vis the position of online returns 
+filed by the establishments as well as the timely conduct of compliance audit 
+ Shall conduct outreach programs in consultation with PDUNASS from time to 
+time. 
+ 
+ 
+ 
+
+ 
+36 
+ 
+CHAPTER 4 
+ 
+ 
+ 
+
+ 
+37 
+ 
+ 
+4. Cancellation of Exemption 
+ 
+4.1 Introduction  
+Exemption is a privilege accorded to establishments which possess the financial heft to match 
+and sustain the benefits provided to the subscribers of EPF Scheme. However, the privilege is 
+conditional; it is liable to be withdrawn by the authority which granted it in order to safeguard 
+the interest of the employee beneficiaries of the Trust, once the conditions of exemption stand 
+violated. Thus the exempted establishment remains under the constant regulatory gaze of the 
+appropriate government, enforced through its statutory arm i.e. the EPFO.  
+Here it needs to be reiterated that the scheme of the exempted establishment remains a 
+scheme under the Act like the EPF Scheme, 1952, whereby to avoid duplication as well as the 
+onerous task of framing a scheme for every establishment seeking exemption from the rigors 
+of making statutory remittance of the PF dues of its employees, the establishment is allowed to 
+run its own scheme and provide benefits which have to be necessarily not less favorable than 
+the benefits provided by EPFO, within the limits set by law. 
+4.2 Trigger Points 
+ 
+
+ 
+38 
+ 
+4.3 The Legal Framework 
+a. The key legal provision in the EPF Act is Section 17(4) (a) and Section 17(4) (b) 
+which deals with the various conditions under which exemption is cancelled by the 
+authority which granted it.  
+b. Section 17(4)(a) provides for cancellation of exemption granted under Section 17(1) 
+for non -compliance of the conditions of exemption indicated in sub-section 
+(1A) and sub-section (3). 
+c. Section 17(4)(b) provides for cancellation provision for any exemption granted under 
+Section 17(2) for non-compliance with the conditions of exemption indicated in 
+sub-section (3). 
+d. Para 27 AA Appendix “A” of the Scheme indicates the enabling provisions for the 
+conditions of exemption in Section 17(1A) and Section 17(3)  
+e. Section 17(5) deals with the provisions of transfer of PA dues in the case of 
+cancellation of exemption. 
+f. 
+Para 28 of the Scheme has the enabling Scheme provisions for transfer of PA dues to 
+the Fund 
+g. Condition no 19 of Appendix “A” of Para 27AA of the Scheme deals with the 
+communication to the Depository participants of the Trust Fund to transfer the 
+investment holdings of the Trust to RPFC upon cancellation of exemption]15, closure of 
+the establishment or its liquidation. 
+h. Condition No 25 of Appendix “A” of Para 27AA of the Scheme indicates a mandatory 
+provision of withdrawal of exemption, if the establishment has incurred losses for three 
+consecutive years or suffers an erosion in their capital base, from the first day of the next 
+financial year. 
+i. Condition No 29 of Appendix “A” of Para 27AA of the Scheme has provision for a 
+mandatory revocation of exemption upon a change in legal status of the establishment 
+consequent to a sale, amalgamation, merger, demerger acquisition or formation of a 
+subsidiary whether wholly owned or not. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+39 
+ 
+4.4 Stakeholder Roles and Responsibilities 
+All the stakeholders namely the establishment, RO, ZO, HO have clear and well-defined roles 
+while dealing with the process of cancellation. 
+  
+STAKEHOLDER
+ROLES & RESPONSIBILITIES
+ 
+Exempted 
+Establishment
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Under a statutory obligation to report about any business 
+activity involving acquisition sale, merger or demerger etc. 
+which is essential for the RO, to identify existence of the 
+stipulations necessitating invocation of Condition No.29. 
+ 
+ Financial reportage involving communication of annual 
+reports by 30th September every year for the year which 
+ended in March is important in the context of invocation of 
+condition no. 25 whenever necessary 
+ 
+ Since the exempted establishments are under a statutory 
+obligation to transfer the PA dues upon cancellation, their 
+depository participants are required to transfer the investment 
+holdings standing under the Trust’s name to the RPFC upon a 
+communication received from him/her. 
+ 
+ Full disclosure of the depository participant’s details is a 
+mandatory condition to be followed 
+ 
+Regional 
+Office 
+ Should maintain a constant vigil as regards timely filing up of 
+online returns. Regular scrutiny of the online marking system 
+also constitutes a mandatory activity. 
+ 
+ Timely action under condition No 19 as mentioned aforesaid 
+and a time bound deposit of PA dues by the establishment 
+under Section 17(5) read with Para 28 of the Scheme falls 
+within its remit 
+ 
+ Identification of the factors necessary for the invocation of 
+
+ 
+40 
+ 
+STAKEHOLDER
+ROLES & RESPONSIBILITIES
+Condition no 25 and 29 and any violation of the conditions of 
+exemption through timely conduct of compliance audit and 
+forwarding Draft agenda to the ZO for cancellation is a 
+regular operational duty so necessary to secure the interests 
+of the workers 
+Zonal Office 
+ Draft agenda to HO with its categorical recommendations and 
+forward the link removal request from RO to HO with its 
+recommendations. 
+ 
+ Coordination with the State Govt. if they happen to be the 
+appropriate Government as regards issuance of notification 
+for cancellation. 
+ 
+ 
+ 
+ 
+Head Office 
+ 
+ Scrutinizes the draft agenda received from the ZO and places 
+it before EEC.  
+ 
+ Recommendations of the EEC are placed before the CBT 
+whose views are communicated to the appropriate Govt. 
+Simultaneously upon cancellation, HO removes the link for 
+filing of online returns. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+41 
+ 
+ 
+4.5 Process Flow 
+ 
+STAKEHOLDER:  REGIONAL OFFICE  
+LIST OF ACTIVITIES 
+ At the RO the process of cancellation can be triggered off by any of the triggers as 
+mentioned aforesaid and necessitates issuance of a show cause notice in Form 
+CE-1 to the establishment to be replied within 7 days.  
+ 
+ In case the cancellation process is triggered by the findings of the compliance 
+audit a show cause notice shall be issued only after a lapse of 15 days’ time given 
+to reply to the findings of the compliance audit team. 
+ 
+ Based upon the reply of the establishment the mechanism delineated in the 
+Priority Matrix shall be utilized to deal with the violations of the conditions of 
+exemption. However, any cancellation draft agenda shall be prepared in the 
+Form CE-2 and sent within 30 days of the receipt of the reply to the notice in 
+Form CE-1 with the concomitant documents for it to be deemed as a complete 
+proposal. 
+ 
+ In case the established is relaxed under Para 79 RPFC can withdraw the 
+relaxation by using Form CE-1(R). 
+ 
+ Further, in cases where the establishment concedes and offers to give up its 
+exemption, subsequent to the detection of violations of conditions of exemption 
+RPFC shall immediately take over the Trust and facilitate compliance with the 
+provisions of Section 17(5) read with Para 28 of the Scheme as regards 
+transfer of PA dues to the Fund under CBT and immediate credit of the accounts 
+of the newly joined subscribers.  
+ 
+ This is done to secure the interests of the workers However the draft agenda of all 
+such special cases of surrender shall be sent to Z.O only with a Third-Party Audit 
+
+ 
+42 
+ 
+report in Form RM-6.
+ Cancellations triggered by the operations of the condition No. 25 and 29 shall 
+necessarily involve mandatory withdrawal of exemption through Form CE-9 
+and Form CE-10.  
+ 
+ In the case of cancellation involving condition No. 25 the Third-Party Audit shall 
+be completed by the 31st of December of the FY prior to the 1st April of the year 
+from which cancellation is being withdrawn.  
+ 
+ In the case of a cancellation process involving Condition no 29 the Third-Party 
+audit shall be completed compulsorily within two months of the issuance of 
+Form CE-10. In both the cases however, the draft agenda should compulsorily 
+be accompanied with the Third-Party audit report 
+ 
+ 
+ 
+ 
+STAKEHOLDER:  ZONAL OFFICE 
+LIST OF ACTIVITIES 
+ Scrutinize and send the agenda to HO in Form CE-4 within 30 days from 
+the receipt of the proposal from RO 
+ Follow up with the appropriate Govt. (if State Govt.) through the forum of 
+Regional Committee as regards the pending cancellation proposals which have 
+been recommended for cancellation by the CBT. 
+ 
+Forward the proposal for removal of online return filing link to HO. 
+ 
+ 
+ 
+ 
+ 
+STAKEHOLDER:  HEAD OFFICE EXEMPTION DIVISION 
+LIST OF ACTIVITIES 
+ 
+
+ 
+43 
+ 
+ In a time bound manner shall place the Draft agenda received from the ZO 
+before the EEC for its decision 
+ 
+ The decision of the EEC shall be communicated to CBT which in turn shall 
+forward its views to the appropriate Govt. for a final decision 
+ Subsequently after the formal notification HO shall accede to the link removal 
+request. 
+ 
+Subsequently in conjunction with Investment division HO Exemption division 
+shall duly verify the receipt of PA in all its components; cash and securities. 
+ 
+ 
+4.6 Exceptional Circumstances 
+a. In cases where Condition No 19 is attracted, RPFCs may approach the depository 
+participants to transfer the holdings of the Trust to CBT in Form CE-11 and any non-
+Compliance with this request can entail cancellation of exemption of the Establishment 
+after the issuance of a show cause notice. 
+ 
+b. In the case of closed establishments, the RPFC shall facilitate transfer of past 
+accumulation from a prospective date or the actual date. However, this action shall not 
+preclude initiation of cancellation proceedings by the RPFC on the basis of available 
+records. 
+ 
+c. If the employer’s whereabouts are not known, then the RPFC may advertise in the local 
+newspaper as regards closure of such exempted establishment. The intention of 
+bringing the Trust within the fold of EPFO may be specified with a request to the 
+general public to furnish any available information for the purposes of cancellation of 
+exemption within 30 days of the publication of the advertisement.  
+ 
+d. In cases where despite existence of the conditions meriting cancellation as per 
+condition no 25 and condition 29 the cancellation is pending beyond the time 
+frame indicated in the aforesaid two conditions RPFC shall proceed to get a third-
+party audit done immediately. 
+ 
+ 
+
+ 
+44 
+ 
+e. However, if despite due diligence the same cannot be done on factual grounds he/she 
+can proceed to take immediate action without waiting for any Third-Party audit 
+report. This is required to secure the interest of workers for whom the exemption 
+primarily exists.  
+ 
+f. The draft agenda in Form CE-2 in such cases shall be processed and sent to ZO with 
+a note on the pending Third-Party audit, which shall include the reasons behind such 
+pendency and the due diligence taken by the RPFC as regards completion of the Third 
+Party audit before proceeding to send the agenda to ZO.  
+ 
+g. Further Form CE-3 sent to H.O shall be accompanied with a note from Zonal ACC 
+on the pending Third-Party Audit.  
+ 
+h. The said draft agenda shall be put up to EEC only along with the note from RO and 
+comments from Zonal ACC so as to take a decision as regards waiver of this document 
+while sending recommendations for cancellation to CBT.  
+ 
+i. However subsequent to the issuance of notification for cancellation, a third-party 
+audit of the Trust Fund shall be mandatory at the time of transfer of PA dues. 
+ 
+4.7 Handling of Court Cases 
+The petitions/counter affidavits (CA) in defense of the department’s actions towards 
+cancellation shall be drafted at the RO and vetted by RPFC. Every CA against a petition 
+challenging the cancellation of exemption shall be prepared keeping in mind the 
+following legal concepts 
+a. Exemption granted to the establishment is a privilege based on the financial health 
+and compliance profile of an establishment once the appropriate Government is 
+satisfied that the establishment had the financial heft to match the benefits provided 
+by EPFO. 
+ 
+b. Once the appropriate Government convinces itself that the financial condition of the 
+establishment is not sound enough to sustain the aforementioned privilege of 
+maintaining its own provident fund the same privilege can be withdrawn. 
+ 
+c. Withdrawal of exemption is not a penal action; the same is provided under Section 
+14(2A) of the Act when there is a violation of conditions of exemption as provided 
+
+ 
+45 
+ 
+under Section 17(1A) and17(3) and elaborated under Appendix “A” Para 27AA of the 
+Scheme. Thus violation of conditions of exemption can lead to either cancellation or 
+withdrawal of exemption or a penal action under Section 14(2A) of the Act or both. 
+(Reference can be made to the Hon. Supreme court’s observations in N.K. 
+Shah Vs C.K Shah and others)]16 
+ 
+d. The scheme of an exempted establishment is a scheme under the EPF Act just like the 
+EPF Scheme 1952.Exemption doesn’t mean that the scheme of the exempted 
+establishment is outside the purview of the Act. In fact, just to prevent a duplication of 
+work the establishment has been allowed to have its own scheme. Both are schemes 
+under the same Act (Tata Iron and Steel Co. Ltd v Bir Singh and another-
+1983(63) FJR.32;Patna High Court)]17 
+ 
+e. As such the exempted establishment is subject to all the compliance provisions under 
+the Act; Section 6.7A,8 and 14B.In fact the exempted establishment has to follow all 
+the conditions of exemption as indicated in the EPF Scheme 1952[Section 17(1A) (a) to 
+(d). 
+f. The RO and the ZO shall be alive to their duties as regards the logistics involved in the 
+preparation of CA and the communications to HO which have been laid down in the 
+Legal Framework document. 
+ 
+What the Courts Says: 
+ 
+The law on exemption has evolved in due course thanks to the interpretations of its key legal 
+concepts by the Courts by way of some important judgements. An attempt has been made to 
+consolidate the ratios of the said judgements as indicated below. 
+ 
+Case Name 1: N.K. Jain and others v C.K. Shah and another-1963(1) 
+LLJ.536 
+Judgment interpretation: Exemption is a privilege and its withdrawal 
+not a penalty 
+ 
+ 
+Case Name: 2.: Mohammedali and others v. Union of India and another-
+1963(1) LLJ.536] 
+Judgment interpretation: Exemption is with a view to avoiding 
+duplication and permitting the employee concerned with the benefits under 
+
+ 
+46 
+ 
+the pre-existing scheme
+ 
+ 
+Case Name: 3: Tata Iron and Steel Co. Ltd v Bir Singh and another-
+1983(63) FJR.32 
+Judgment interpretation: The scheme of the exempted establishment 
+and the EPF Scheme, both are schemes under the EPF Act 1952 
+ 
+ 
+Case Name: 4: Binny Ltd V. Regional Provident Fund Commissioner 
+and another-1999(94) FJR. 1869Karn.H.C-D. B).] 
+Judgment interpretation: Exempted establishments not permitted to 
+credit interest annually at a lesser rate compared to the one allowed in Para 
+60 of the Scheme 
+ 
+ 
+Case Name: 5: Tamil Nadu Small Industries Development Corporation 
+Ltd. 
+v, 
+Regional 
+Provident 
+Fund 
+Commissioner, 
+Chennai-2004(1) 
+LLJ.67:2004(1) LLN.782(Madras H.C.)] 
+Judgment interpretation: Exemption under Section 17, not a matter of 
+right 
+ 
+ 
+Case Name: 6: Rhone-Poulenc Employee’s Union v. Regional Provident 
+Fund Commissioner and others-1996(2) LLJ.10019(Bom H.C)] 
+Judgment interpretation: Exemption under Section 17, not segregated 
+into two separate compartments and the conditions of exemption are 
+applicable to all types of exemptions 
+ 
+ 
+Case Name: 7: C.M.S. Matriculation Higher Secondary School, 
+Coimbatore v. Regional Provident Fund Commissioner and another on 29th 
+October, 1998 
+Judgment interpretation: Exemption under Section 17 not to be granted 
+where the employer fails to satisfy that its private scheme is more beneficial 
+ 
+ 
+Case Name: 8: Gajanand Commercial Pvt Ltd and another v. Central 
+Provident Fund Commissioner and others-2003(99) FLR.1109:2003(3) 
+CLR.900:2004(1) LLJ.540:2004(5) LLN. (SNOC 90)89(Cal.H.C).] 
+Judgment interpretation: Exemption under Section 17, to be cancelled 
+only by the authority who granted it. 
+
+ 
+47 
+ 
+ 
+ 
+Case Name: 9: Sundaram Motors Ltd v The Employees Provident Fund, 
+Regional Office, Chennai, represented by Regional Provident Fund 
+Commissioner, Chennai-Puducherry Region and another-W.P.Nos.6763 and 
+16443 of 2008 and M.P. Nos. 1 and 1 of 2008 decided on 7th 
+June,2011(Madras H.C).] 
+Judgment interpretation: Exemption cannot continue in the name of 
+the Trust alone when company does not exist 
+ 
+ 
+Case Name: 10: Jiyajeerao Cotton Mills Ltd. V. Dev Kumar Holani and 
+others [1998(6) SCC.35: AIR.1998 S.C.2480:1998 SCC (L & S) 1444: 1998(2) 
+LLJ.612 :1998 (3) LLN.928(S.C-2M] 
+Judgment interpretation: Notification unless made, amendments not to 
+be applied 
+ 
+ 
+Case Name: 11: National Textile Corporation (Maharashtra North) Ltd 
+v. Central Board of Provident Fund Employee’s Provident Fund Organization, 
+New Delhi and others-2010(3) LLJ.132:2010(126) FLR.712(BOM.H.C).] 
+Judgment interpretation: “benefit”-interest, covered 
+ 
+ 
+Case Name: 12: Green Fields Public School Employee’s Provident Fund 
+trust v. Union of India and others [2007(3) LIC. (NOC,573) at p.156(Delhi 
+H.C).] 
+Judgment interpretation: Exemption-to be decided by appropriate 
+Government and not by the Regional Commissioner 
+ 
+ 
+Case Name: 13: Regional P.F. Commissioner vs Hooghly Mills Co. Ltd & 
+Ors C.A No.655 of 2012(Arising out of SLP© No. 17298/2009) 
+Judgment interpretation: Damages under Section 14 B. can be levied on 
+exempted Trusts. Notably this Supreme Court judgement overturned the 
+judgement of the Calcutta High Court on the same matter prohibiting levy of 
+damages on exempted establishments 
+ 
+ 
+Case Name: 14: Gulshan Khandsari Udyog V UOI & Anr,1969 Lab IC 
+1869All), AIR 1968 All 75,3 FJR 467,1969-II LLJ477 
+Judgment interpretation: Employer seeking exemption u/s 17 ought to 
+seek it before the appropriate govt. than before the HC in writ petition 
+
+ 
+48 
+ 
+ 
+ 
+Case Name: 15: Consolidated Crop Protection P Ltd v Hema Chandrarao 
+(V) & Anr,1977-I LLJ 114 9Bom),1977 Lab IC 251,49FJR 346,1976-IILLN 469 
+Judgment interpretation: After cancellation of exemption from the 
+provisions of the statutory scheme neither the employee nor the employer 
+can reduce the contribution to the statutory level 
+ 
+ 
+Case Name: 16: Lawly Sen & Co v RPFC,1959-I LLJ 272(Pat) (DB 
+Judgment interpretation: Where exemption application is refused the 
+liability of the establishment is effective from the date the scheme is notified 
+and not from the date of refusal of the exemption application 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+49 
+ 
+CHAPTER 5 
+ 
+ 
+ 
+
+ 
+50 
+ 
+ 
+5. Surrender of Exemption 
+ 
+5.1 Surrender of Exemption 
+ 
+Cancellation of exemption can take the route of a voluntary relinquishing of exemption by the 
+establishment. Once such a decision is taken by the establishment and the Board of Trustees 
+the exempted establishment needs to follow a designated protocol before the Trust fund is 
+taken over by RPFC. As a matter of fact such a voluntary surrender of exemption]18 is seen to 
+be getting more frequent as exempted establishments unable to cope with the vagaries of an 
+uncertain business climate and the fluctuations in the Bond and capital market find it difficult 
+to match the benefits being provided by EPFO. 
+A tactical decision to concentrate on their core business while leaving the task of managing the 
+PF of their employees to EPFO which has also significantly improved its service to its 
+subscribers is taken and EPFO informed about such a decision well in advance. The increasing 
+frequency of such decisions by exempted establishments led the CBT to devise a protocol in its 
+215th meeting. Encapsulating the decisions taken in the said meeting EPFO came out with a 
+detailed circular dated 27/12/2016 which lays down the guidelines for handling such cases. 
+ 
+5.2 Stakeholder Roles & Responsibilities 
+STAKEHOLDER
+ROLES & RESPONSIBILITIES
+ 
+Exempted 
+Establishment
+ 
+ 
+ 
+ 
+ 
+ 
+ Inform EPFO well in advance about its decision to relinquish 
+its exemption through a BOT resolution since the surrender 
+becomes effective only from a prospective date  
+ 
+ Prepare a list of its beneficiaries with or without their KYC 
+details, get a third-Party audit of the accounts of the Trust 
+done in consultation with RPFC, transfer the PA dues of its 
+employees to EPFO and undertake to resolve the grievances 
+of its Trust beneficiaries prior to the period of surrender.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

@@ -1,9 +1,15 @@
 import os
 import shutil
 from langchain_community.document_loaders import TextLoader
+from langchain_core.documents import Document
+
+# Force CPU usage because the Ollama OOM crash deadlocked the CUDA driver state
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
+
+print("Initializing Ingestion...")
 
 # Clear vector database if it exists to ensure fresh metadata
 if os.path.exists("vector_db"):
@@ -16,35 +22,43 @@ if os.path.exists("vector_db"):
 documents = []
 
 # Load documents and extract metadata
-# Only look at income_tax folder for now as per current focus
-target_dir = os.path.join("knowledge_base", "income_tax")
+# Look at the entire knowledge_base folder to support all modes (Income Tax, EPFO, Passport, etc.)
+kb_dir = "knowledge_base"
 
-for root, dirs, files in os.walk(target_dir):
+for root, dirs, files in os.walk(kb_dir):
     for file in files:
         if file.endswith(".txt"):
             file_path = os.path.join(root, file)
-            with open(file_path, "r", encoding="utf-8") as f:
-                content = f.read()
-            
-            # Simple metadata extraction from headers
-            metadata = {"source": file_path}
-            for line in content.split("\n")[:15]: # Check first 15 lines
-                if "**Category:**" in line:
-                    metadata["category"] = line.split("**Category:**")[1].strip()
-                if "**Page ID:**" in line:
-                    metadata["page_id"] = line.split("**Page ID:**")[1].strip()
-            
-            # Ensure metadata stays as strings for Chroma
-            metadata["category"] = metadata.get("category", "OTHER")
-            metadata["page_id"] = metadata.get("page_id", "UNKNOWN")
-
-            loader = TextLoader(file_path, encoding="utf-8")
-            docs = loader.load()
-            for doc in docs:
-                doc.metadata.update(metadata)
-            documents.extend(docs)
+            print(f"Loading: {file_path}")
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                
+                # Simple metadata extraction from headers
+                metadata = {"source": file_path}
+                for line in content.split("\n")[:15]: # Check first 15 lines
+                    if "**Category:**" in line:
+                        metadata["category"] = line.split("**Category:**")[1].strip()
+                    if "**Page ID:**" in line:
+                        metadata["page_id"] = line.split("**Page ID:**")[1].strip()
+                
+                # Ensure metadata stays as strings for Chroma
+                metadata["category"] = metadata.get("category", "OTHER")
+                metadata["page_id"] = metadata.get("page_id", "UNKNOWN")
+                
+                loader = TextLoader(file_path, encoding="utf-8")
+                docs = loader.load()
+                for doc in docs:
+                    doc.metadata.update(metadata)
+                documents.extend(docs)
+            except Exception as e:
+                print(f"Error loading {file_path}: {e}")
 
 print(f"Loaded {len(documents)} documents with metadata")
+
+if not documents:
+    print("No documents found to ingest.")
+    exit()
 
 # Split into chunks
 text_splitter = RecursiveCharacterTextSplitter(
@@ -53,16 +67,18 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 
 chunks = text_splitter.split_documents(documents)
-
 print(f"Created {len(chunks)} chunks")
 
 # Create embeddings
+print("Loading Embedding Model...")
+# all-MiniLM-L6-v2 is small and usually fast
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Store in vector database
+print("Updating Vector Database...")
 vector_db = Chroma.from_documents(
-    chunks,
-    embeddings,
+    documents=chunks,
+    embedding=embeddings,
     persist_directory="vector_db"
 )
 

@@ -1,0 +1,82 @@
+---
+SOURCE: https://www.epfindia.gov.in/site_en/FAQ.php
+DOMAIN: epfo
+CATEGORY: faq
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Complete Exhaustive FAQs]
+
+[CONTENT]
+
+### Category: General / Default
+Q: Whether an employer can deduct employer’s share of contribution from the wages of employees?
+A: No. It is not permissible. Any such deduction is a criminal offence.
+
+Q: Can the wages be reduced by the employer on account of payment to the EPF?
+A: No. Under Section 12 of the Act, it is prohibited.
+
+Q: Whether a daily rated employee or the piece rated employee can become a member of the EPF?
+A: Yes, any employee receiving wages directly or indirectly from any employer is coverable.
+
+Q: If an employee is paid wages on daily basis or on piece rate basis how the contribution is determined?
+A: Contributions are determined on the total wages earned during the month, subject to the statutory limit.
+
+Q: Whether the member is entitled for full interest on the belated deposit of PF dues by the employer?
+A: Yes, the member gets full interest for the entire period as per the annual declared rate.
+
+Q: Can an employee contribute to the EPF after leaving the service?
+A: No, contributions are payable only during employment in a covered establishment.
+
+Q: Whether an employee can become a member of EPF without any age restriction?
+A: Yes, there is no age restriction for becoming a member.
+
+Q: Whether an apprentice can become a member of the EPF?
+A: No, apprentices under the Apprentices Act are excluded.
+
+Q: If an employee is transferred, whether he is required to be enrolled as a member once again?
+A: No, but his UAN must be linked by the new employer.
+
+Q: Whether an employee can continue as a PF member even after retirement?
+A: Yes, if he continues to work in a covered establishment.
+
+### Category: Claim & Withdrawals / TDS on Claims
+Q: At what rate TDS will be deducted if PF account is linked with a valid PAN for resident member?
+A: 10 percent (Section 194 A).
+
+Q: At what rate TDS will be deducted if PAN is not linked/invalid?
+A: 20 percent.
+
+Q: Is there any minimum amount up to which tax is not deducted?
+A: Yes, currently Rs. 50,000/- for PF withdrawals (Section 192A).
+
+Q: Under which circumstances TDS will be applicable?
+A: Final Settlement, transfer claims, and certain accounting processes after year 2021-22.
+
+### Category: Others / Pension Scheme (EPS-1995)
+Q: Whether an employee who has not opted for the earlier Family Pension Scheme, 1971 can join the EPS-1995?
+A: Yes.
+
+Q: What are the advantages of taking a Scheme Certificate?
+A: It facilitates transfer of Pension Accounts and ensures family pension in case of the holder's death.
+
+Q: At what age a member is eligible for pension?
+A: Minimum 58 years for superannuation pension; 50 years for early pension (with reduction).
+
+Q: How long can one continue EPF membership?
+A: As long as one is in service in a covered establishment.
+
+### Category: Others / UAN & KYC
+Q: Is it compulsory to change Husband’s name in place of Father’s name in UAN after marriage?
+A: No, it is not mandatory, but UAN details should match the Aadhaar for seamless services.
+
+Q: Can we generate UAN for Nepal Based Employees without Aadhaar?
+A: Yes, using other valid documents like Passport.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

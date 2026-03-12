@@ -1,0 +1,32 @@
+---
+SOURCE: https://incometaxindia.gov.in/simulation/tax_notice_response_process
+DOMAIN: income_tax
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Process to respond to IT Notices]
+
+[CONTENT]
+Official guidelines regarding Process to respond to IT Notices.
+
+Official guidelines regarding Process to respond to IT Notices.
+
+Official guidelines regarding Process to respond to IT Notices.
+
+Official guidelines regarding Process to respond to IT Notices.
+
+Official guidelines regarding Process to respond to IT Notices.
+
+1. Login to the e-filing portal.
+2. Go to e-File menu.
+3. Follow the instructions displayed on the screen.
+Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

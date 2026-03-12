@@ -1,0 +1,32 @@
+---
+SOURCE: https://incometaxindia.gov.in/simulation/income_tax_refund_process
+DOMAIN: income_tax
+CATEGORY: informational
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Income Tax Refund Process and Timelines]
+
+[CONTENT]
+Official guidelines regarding Income Tax Refund Process and Timelines.
+
+Official guidelines regarding Income Tax Refund Process and Timelines.
+
+Official guidelines regarding Income Tax Refund Process and Timelines.
+
+Official guidelines regarding Income Tax Refund Process and Timelines.
+
+Official guidelines regarding Income Tax Refund Process and Timelines.
+
+1. Login to the e-filing portal.
+2. Go to e-File menu.
+3. Follow the instructions displayed on the screen.
+Make sure your PAN and Aadhaar are linked before proceeding with tax services.
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

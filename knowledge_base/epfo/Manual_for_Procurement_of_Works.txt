@@ -1,0 +1,2142 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Manual for Procurement of Works]
+
+[CONTENT]
+i 
+ 
+Manual for Procurement 
+of 
+Works 
+(Updated June, 2022) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Government of India 
+Ministry of Finance 
+Department of Expenditure 
+
+ 
+ii 
+ 
+
+
+iv 
+ 
+ 
+
+FOREWORD
+1.	
+Government organizations procure a wide variety of goods and services and undertake 
+execution of works in pursuance of their duties and responsibilities. With a view to 
+improving transparency in decision making in public procurement and reducing the 
+scope for subjectivity, Department of Expenditure in 2006 had prepared a set of three 
+Manuals on Policies and Procedures for Procurement of Goods, Works and hiring of 
+Consultants, in conformity with the General Financial Rules (GFR), 2005. Over the years, 
+these Manuals have served as a guide book for procurement. 
+2.	
+In the last few years, the Government of India has issued new instructions in the domain 
+of public procurement. Some of these important changes include introduction of Central 
+Public Procurement Portal (CPPP), preference for domestic contractors, inclusion of integrity 
+pact, etc. The GFR has been revised comprehensively in March 2017 covering inter-alia 
+these set of new instructions. Consequently, the Manual of Procurement of Goods and 
+Manual for Procurement of Consultancy & Other Services too have been revised.
+3.	
+The new Manual on Procurement of Works has been extensively revised in keeping with 
+GFR 2017 and in consonance with the fundamental principles of transparency, fairness, 
+competition, economy, efficiency and accountability. Efforts have been made to cover 
+all major aspects of procurement in this Manual in a user-friendly manner. The manual 
+is the outcome of extensive consultations with Ministries/ Departments/ PSUs and other 
+organizations over a period of more than one year. 
+4.	
+Manuals issued by this Department are to be taken as generic guidelines, which have 
+to be necessarily broad in nature. Ministries/ Departments are advised to supplement 
+this manual to suit their local/ specialized needs, by issuing their own detailed 
+manuals (including customized formats); Standard Bidding Documents and Schedule of 
+Procurement Powers to serve as detailed instructions for their own procuring officers. 
+5.	
+I would like to acknowledge the efforts taken by Shri Sanjay Prasad, Joint Secretary 
+(PF C-II), Shri Sanjay Aggarwal, Director (PPD), Shri Kotluru Narayana Reddy, Deputy 
+Secretary (PPD) and Shri Girish Bhatnagar, Consultant (Public Procurement) in revision of 
+this Manual. I would also like to thank the Ministries, Departments, other organisations 
+and individuals who reviewed the drafts of the Manual and provided their valuable 
+inputs.
+6.	
+I hope that this Manual would be useful to procuring officials working in various Ministries/ 
+Departments as operating instructions and will bring about greater transparency and 
+predictability in government procedures and help in improving the ease of doing business 
+with the Government.
+(G. C. Murmu)
+Date : 06.06.2019	
+Secretary (Expenditure)
+v
+
+ 
+vi 
+ 
+
+vii 
+ 
+CAUTION 
+While every care has been taken to ensure that the contents of this Manual are accurate 
+and up to date till June 2022, the procuring entities are advised to check the precise current 
+provisions of extant law and other applicable instruction from the original sources. In case of 
+any conflict between the provisions stipulated in this Manual and in the original sources. Such 
+as GFR or the prevailing laws, the provisions contained in the extant law and the original 
+instructions shall prevail. 
+ 
+ 
+
+ 
+viii 
+ 
+ 
+
+ 
+ix 
+ 
+Table of Contents 
+FOREWORD ........................................................................................................................... iii 
+CAUTION ............................................................................................................................... vii 
+Table of Contents ................................................................................................................... ix 
+Abbreviations and Acronyms ................................................................................................. xiii 
+Procurement Glossary .......................................................................................................... xvii 
+Chapter 1: Introduction to Procurement of Works ................................................................... 1 
+1.1 
+Procurement Rules and Regulations; and this Manual ............................................. 1 
+1.2 
+Clarification, Amendments and Revision of this Manual ........................................... 8 
+1.3 
+Applicability of this Manual ........................................................................................ 8 
+1.4 
+Basic Aims of Procurement – Five R’s of Procurement .......................................... 10 
+1.5 
+Fundamental Principles of Public Procurement ...................................................... 10 
+1.6 
+Standards (Canons) of Financial Propriety ............................................................. 10 
+1.7 
+Public Procurement Infrastructure at the Centre ..................................................... 11 
+1.8 
+Legal Aspects Governing Public Procurement of Works ........................................ 12 
+1.9 
+The Law of Agency – applicable to Procurement of Works .................................... 13 
+1.10 
+The Basic Principles of undertaking works: ......................................................... 13 
+1.11 
+Processing of Public Works ................................................................................. 15 
+1.12 
+Administrative Control and Powers to Sanction .................................................. 16 
+Chapter 2: Preparation of Estimates ..................................................................................... 17 
+2.1 
+Perspective Planning for Works .............................................................................. 17 
+2.2 
+Preparation of Preliminary Project Report (PPR) or Rough Cost Estimate ............. 17 
+2.3 
+Acceptance of necessity and issue of in-Principle Approval ................................... 18 
+2.4 
+Preparation of Detailed Project Report (DPR) /Preliminary Estimates (PE) ........... 18 
+2.5 
+Administrative Approval and Expenditure Sanction (A/A and E/S) ......................... 20 
+2.6 
+Detailed Designs, Detailed Estimates and Technical Sanction ............................... 20 
+2.7 
+Appropriation of funds ............................................................................................. 21 
+2.8 
+Reference Documents used in preparation of Estimates ........................................ 21 
+2.9 
+Procurement Planning ............................................................................................. 21 
+Chapter 3: Agency for Procurement; Types of Contract, Bidding Systems and Modes of 
+Procurement .......................................................................................................................... 22 
+3.1 
+Agency for Procurement ......................................................................................... 22 
+3.2 
+Types of Contract .................................................................................................... 23 
+3.3 
+Bidding Systems ..................................................................................................... 28 
+3.4 
+Electronic Procurement (e-Procurement) ................................................................ 38 
+
+ 
+x 
+ 
+3.5 
+Modes of Tendering ................................................................................................ 39 
+Chapter 4: Preparing Bid Documents, Publication, Receipt and Opening of Bids ................ 51 
+4.1 
+Bid Documents ........................................................................................................ 51 
+4.2 
+Preparation of Bid Documents by Procuring Entity ................................................. 53 
+4.3 
+Publication of Bid Documents ................................................................................. 54 
+4.4 
+Issue/ Availability and Cost of tender documents ................................................... 56 
+4.5 
+Eligibility and Qualifications of Bidders ................................................................... 56 
+4.6 
+Clarification of Tender Documents .......................................................................... 57 
+4.7 
+Amendment of Tender Documents ......................................................................... 57 
+4.8 
+Pre-bid Conference ................................................................................................. 57 
+4.9 
+Submission of Bids by Bidders ................................................................................ 58 
+4.10 
+Receipt and Opening of Bids ............................................................................... 62 
+4.11 
+Bid Security/ Earnest Money Deposit (EMD) ....................................................... 64 
+4.12 
+Performance Guarantee ...................................................................................... 65 
+4.13 
+Security Deposit/ Retention Money ..................................................................... 66 
+4.14 
+Sources and Verification of Bank Guarantees ..................................................... 66 
+4.15 
+Safe Custody and Monitoring of Securities ......................................................... 67 
+4.16 
+Goods and Services Tax (GST) .......................................................................... 67 
+4.17 
+Risks and Mitigations- Preparing Bid Documents, Publication, Receipt and 
+Opening of Bids ................................................................................................................. 69 
+Chapter 5: Evaluation of Bids and Award of Work ................................................................ 71 
+5.1 
+Evaluation of Bids ................................................................................................... 71 
+5.2 
+Schedule of Procurement Powers (SoPP) .............................................................. 71 
+5.3 
+Preparation of Comparative Statement and Briefing Note ...................................... 72 
+5.4 
+Preliminary Examination ......................................................................................... 72 
+5.5 
+Evaluation of Responsive Bids ................................................................................ 74 
+5.6 
+Deliberations by the Tender Committee .................................................................. 76 
+5.7 
+Award of Work ......................................................................................................... 82 
+5.8 
+Evaluation of Bids and Award of Contract - Risks and Mitigations ......................... 86 
+Chapter 6: Execution and Monitoring of Works and Quality Assurance ................................ 89 
+6.1 Execution and Monitoring of Work ............................................................................... 89 
+6.2 
+Quality Assurance ................................................................................................... 91 
+6.3 
+Design Approvals .................................................................................................... 91 
+6.4 
+Time Monitoring ...................................................................................................... 91 
+6.5 
+Financial Monitoring ................................................................................................ 93 
+6.6 
+ Commissioning and Documentation .................................................................... 101 
+
+ 
+xi 
+ 
+6.7 
+Closure of Contract ............................................................................................... 102 
+6.8 
+Dispute Resolution Mechanism ............................................................................. 103 
+6.9 
+Conciliation ............................................................................................................ 104 
+6.10 
+ Arbitration ......................................................................................................... 104 
+6.11 
+Breach of Contract, Remedies and Termination ............................................... 106 
+6.12 
+Preparation of Revised Project Report .............................................................. 107 
+Chapter 7: Registration/ Enlistment of Contractors and Governance Issues ...................... 109 
+7.1 
+Contractor Relationship Management ................................................................... 109 
+7.2 
+Code of Integrity for Public Procurement (CIPP) .................................................. 109 
+7.3 
+Integrity Pact (IP) .................................................................................................. 112 
+7.4 
+Development of New Sources and Registration/ Enlistment of Contractors ......... 115 
+7.5 
+Debarment ............................................................................................................ 118 
+7.6 
+Project Management ............................................................................................. 121 
+ANNEXURE ......................................................................................................................... 129 
+Annexure 1: Procurement Guidelines .................................................................................. 130 
+Annexure 2: Bid Opening Attendance Sheet cum Report ................................................... 131 
+Annexure 3: Tender Committee Minutes Format ................................................................ 132 
+Annexure 4: Invitation and Declaration for Negotiations ..................................................... 134 
+Annexure 5: Format of Revised Offer in Negotiations ......................................................... 135 
+Annexure 6: Letter (Notification) of Award (LOA) of Contract ............................................. 136 
+Annexure 7: No Claim Certificate ........................................................................................ 137 
+Annexure 8: A Sample MOU ............................................................................................... 138 
+Annexure 9: Flowchart of Process of Procurement of Works .............................................. 146 
+Annexure 10: Additional Resources relating to Procurement of Works .............................. 148 
+Annexure 11: Format for seeking the approval of the Competent Authority for inviting Global 
+Tender Enquiry for procurements less than Rs. 200 crores ................................................ 149 
+Annexure 12: List of Medical Devices and IVDs, where local manufacturers are not available, 
+as on 17.12.2021 (as verified with the Medical Devices Manufacturing Associations) ....... 151 
+Annexure 13: Model Clause/ Certificate to be inserted in tenders etc. w.r.t Order (Public 
+Procurement No.1) .............................................................................................................. 154 
+Annexure 14: Example of Formula for Price Variation Clause ............................................ 157 
+Appendix 1: Advanced Concepts of Value for Money and Fundamental Principles of Public 
+Procurement ........................................................................................................................ 159 
+1.0 
+The Concept of Value ........................................................................................... 159 
+2.0 
+Total Cost of Ownership ........................................................................................ 159 
+3.0 
+Value for Money .................................................................................................... 160 
+4.0 
+Fundamental Principles of Public Procurement .................................................... 160 
+
+ 
+xii 
+ 
+Appendix– 2: Legal Aspects of Public Procurement ............................................................ 170 
+1.0 
+Relevant Provisions of the Constitution of India .................................................... 170 
+2.0 
+Salient Features of the Indian Contract Act .......................................................... 171 
+3.0 
+Salient Features of the Indian Arbitration & Conciliation Act 1996 and Arbitration 
+and Conciliation (Amendment) Act, 2015 ........................................................................ 176 
+4.0 
+Salient Features of Competition Act, 2002 relating to Anti-competitive Practices 180 
+5.0 
+Salient Features of the Whistle Blowers Protection Act, 2011 and the Whistle 
+Blowers Protection (Amendment) Act, 2015 .................................................................... 184 
+Appendix 3: Electronic Procurement (e-Procurement) ........................................................ 187 
+1.0 
+Electronic procurement (e-procurement) .............................................................. 187 
+2.0 
+Service Provider .................................................................................................... 187 
+3.0 
+Process ................................................................................................................. 187 
+ 
+
+ 
+xiii 
+ 
+Abbreviations and Acronyms 
+AAEC Appreciable Adverse Effect on Competition 
+AITB Appendix to Instructions to Bidders (ITB, also named as BDS, sometimes, see below) 
+BC (selling) 
+Bill for Collection Selling (Foreign Exchange) Rate 
+BDS 
+Bid Data Sheet 
+BG 
+Bank Guarantee 
+BIS 
+Bureau of Indian Standards 
+BOC 
+Bid Opening Committee 
+BOQ Bill of Quantities 
+BRO 
+Border Roads Organisation 
+C&AG Comptroller and Auditor General (of India) 
+CA 
+Competent Authority 
+CBI 
+Central Bureau of Investigation 
+CCI 
+Competition Commission of India 
+CEC 
+Consultancy Evaluation Committee 
+CIPP Code of Integrity for Public Procurement 
+CMC Contract Management Committee 
+CPO 
+Central Purchasing Organizations 
+CPPP Central Public Procurement Portal 
+CPSE Central Public Sector Enterprise, see PSU also 
+CPWD Central Public Works Department 
+CV 
+Curriculum Vitae 
+CVC 
+Central Vigilance Commission 
+CVO 
+Chief Vigilance Officer 
+DFPR Delegation of Financial Power 
+DG 
+Director General 
+DGS&D 
+Directorate General of Supplies and Disposals 
+DLC 
+Defect Liability Certificate 
+DLP 
+ Defect Liability Period 
+DoE 
+Department of Expenditure 
+DPR 
+Detailed Project Report 
+DSC 
+Digital Signature Certificate 
+
+ 
+xiv 
+ 
+DSPE Delhi Special Police Establishment Act, 1946 
+EC 
+Evaluated Cost 
+ECS 
+Electronic Clearing System 
+EIA 
+Environmental impact assessment 
+EMD Earnest Money Deposit 
+EOI 
+Expression of Interest (Tender) 
+EPC 
+Engineering, Procurement and Construction 
+EPF 
+Employee Provident Fund 
+ESI 
+Employee State Insurance 
+FA 
+Financial Advisor 
+FBS 
+Fixed Budget System 
+FEMA Foreign Exchange Management Act 
+FM 
+Force Majeure 
+FTP 
+Full Technical Proposal 
+GCC General Conditions of Contract 
+GePNIC 
+Government e-Procurement (System) of National Informatics Centre 
+GFR 
+General and Financial Rules, 2017 
+GOI 
+Government of India 
+GTE 
+Global Tender Enquiry 
+HOD Head of the Department 
+HUF 
+Hindu Undivided Family 
+ICT 
+Information & Communications Technology 
+IEM 
+Independent External Monitor 
+IP 
+Integrity Pact 
+ISO 
+International Organization for Standardization 
+IT 
+Information Technology 
+ITB 
+Instructions to Bidders (may in some instance be called Instructions to Tenderers - 
+ITT) 
+ITC 
+Instructions to Consultants 
+ITJ 
+Indian Trade Journal 
+JV 
+Joint Venture (Consortium) 
+L1 
+Lowest Bidder 
+L2 
+Second Lowest Bidder 
+L3 
+Third Lowest Bidder 
+
+ 
+xv 
+ 
+LCC 
+Life Cycle Cost 
+LCS 
+Least Cost System 
+LD 
+Liquidated Damages 
+LEC 
+Lowest Evaluated Cost 
+LOA 
+Letter of Acceptance 
+LOI 
+Letter of Invitation 
+LTE 
+Limited Tender Enquiry 
+MB 
+Measurement Book 
+MES 
+Military Engineering Service 
+MoF 
+Ministry of Finance 
+MOU Memorandum of Understanding (of JV) 
+MoUD Ministry of Urban Development 
+MSTC Metal Scrap Trading Corporation 
+NGO Non Government Organisation 
+NIC 
+National Informatics Centre 
+NIT 
+Notice Inviting Tender 
+OTE 
+Open Tender Enquiry 
+PAN 
+Personal Account Number 
+PBG 
+Performance Bank Guarantee 
+POL 
+Petroleum Oils and Lubricants 
+PPD 
+Procurement Policy Division 
+PPP 
+Public Private Partnership 
+PPP-MII 
+Public Procurement (Preference to Make in India), Order 
+PPR 
+Preliminary Project Report 
+PQB 
+Prequalification Bidding 
+PQC 
+Pre-qualification Criteria 
+PSARA 
+Private Security Agencies Regulation Act, 2005 
+(C)PSU/ PSE (Central) Public Sector Undertaking/ Enterprise 
+PWO Public Works Organisations 
+QA 
+Quality Assurance 
+QCBS Quality and Cost Based Selection 
+(S)RFP 
+(Standard) Request for Proposals (Document) 
+RFQ 
+Request for Qualification 
+RTI 
+Right to Information (Act) 
+
+ 
+xvi 
+ 
+SBD 
+Standard Bidding Document 
+SCC 
+Special Conditions of Contract 
+SD 
+Security Deposit 
+SLA 
+Service Level Agreement 
+SoPP Schedule of Procurement Powers 
+SOR 
+Schedule of Rates 
+SSS/ STE 
+Single Source Selection/ Single Tender Enquiry 
+STP 
+Simplified Technical proposal 
+TC 
+Tender Committee also called Tender Purchase or Evaluation Committee (TPC/ 
+TEC) or Tender Scrutiny Committee 
+TCO 
+Total Cost of Ownership 
+TOC 
+Taking Over Certificate 
+TOR 
+Terms of Reference 
+URDG  
+Uniform Rules for Demand Guarantees 
+VAT 
+Value Added Tax 
+VfM 
+(Best) Value for Money 
+WOL Whole of Life (Cost) or Total Cost of Ownership TCO 
+
+ 
+xvii 
+ 
+Procurement Glossary 
+In this Manual and in the ‘Procurement Guidelines’, unless the context otherwise requires: 
+i) 
+"Bid" (including the term ‘tender’, ‘offer’, ‘quotation’ or ‘proposal’ in certain contexts) 
+means an offer to supply goods, services or execution of works made in accordance with 
+the terms and conditions set out in a document inviting such offers; 
+ii) "Bidder" (including the term ‘tenderer’, ‘consultant’ or ‘service provider’ in certain contexts) 
+means any eligible person or firm or company, including a consortium (that is an 
+association of several persons, or firms or companies), participating in a procurement 
+process with a procuring entity; 
+iii) "(Standard) Bid(ding) documents" (including the term ‘tender (enquiry) documents’ or 
+‘Request for Proposal Documents’ – RFP documents in certain contexts) means a 
+document issued by the procuring entity, including any amendment thereto, that sets out 
+the terms and conditions of the given procurement and includes the invitation to bid. A 
+Standard (Model) Bidding Document is the standardised template to be used for preparing 
+Bidding Documents after making suitable changes for specific procurement; 
+iv) "Bidder enlistment document" means a document issued by a procuring entity, including 
+any amendment thereto, that sets out the terms and conditions of enlistment proceedings 
+and includes the invitation to enlist; 
+v) "Bid security" (including the term ‘Earnest Money Deposit’(EMD), in certain contexts) 
+means a security from a bidder securing obligations resulting from a prospective contract 
+award with the intention to avoid: the withdrawal or modification of an offer within the 
+validity of the bid, after the deadline for submission of such documents; failure to sign the 
+contract or failure to provide the required security for the performance of the contract after 
+an offer has been accepted; or failure to comply with any other condition precedent to 
+signing the contract specified in the solicitation documents.; 
+vi) “Central Public sector enterprise” means a body incorporated under the Companies Act 
+or established under any other Act and in which the Central Government or a Central 
+enterprise owns more than 50 (fifty) per cent of the issued share capital; 
+vii) "Central Purchase Organisation" means a procuring entity which is authorised by the 
+Government of India by an order, made in this behalf, to make procurement for one or 
+more procuring entities or to enter into rate contracts or framework agreements for 
+procurement by other procuring entities. However, Government can authorise other 
+Organisations for specific categories of materials; 
+viii) “Class-I local supplier” means a supplier or service provider, whose goods, services or 
+works offered for procurement, meet the minimum local content as prescribed for ‘Class-
+I local supplier’ under the Public Procurement (Preference to Make in India), Order 20171; 
+ix) “Class-II local supplier” means a supplier or service provider, whose goods, services or 
+works offered for procurement, meets the minimum local content as prescribed for ‘Class-
+ 
+1Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+xviii 
+ 
+II local supplier’ but less than that prescribed for ‘Class-I local supplier’ under the Public 
+Procurement (Preference to Make in India), Order 20172; 
+x) “Competent Authority” or the “Competent Financial Authority” means the officer (s) who 
+have been delegated the financial powers to approve the decision. 
+xi) “Consultancy services” covers a range of services that are of an advisory or professional 
+nature and are provided by Consultants. These Services typically involve providing expert 
+or strategic advice e.g., management consultants, policy consultants or communications 
+consultants, Advisory and project related Consultancy Services and include, for example: 
+feasibility studies, project management, engineering services, Architectural Services, 
+finance and accounting services, training and development. It may include small works or 
+supply of goods or non-Consultancy services which are incidental or consequential to 
+such services; 
+xii) “e-Procurement” means the use of information and communication technology (specially 
+the internet) by the procuring entity in conducting its procurement processes with bidders 
+for the acquisition of goods (supplies), works and services with the aim of open, non-
+discriminatory and efficient procurement through transparent procedures; 
+xiii) "Enlisted Contractor" means any contractor who is on a list of enlisted contractors of the 
+procuring entity or a Central Purchase Organisation (Please refer to registration to 
+appreciate the differentiation); 
+xiv) “Enlisting authority” means an authority which enlists bidders for different categories of 
+procurement(Please refer to registration to appreciate the differentiation); 
+xv)  “Enlistment” means including the name of the contractor in the list of after verification of 
+credentials.(Please refer to registration to appreciate the differentiation) 
+xvi) "Goods" includes all articles, material, commodity, livestock, furniture, fixtures, raw 
+material, spares, instruments, machinery, equipment, industrial plant, vehicles, aircrafts, 
+ships, medicines, railway rolling stock, assemblies, sub-assemblies, accessories, a group 
+of machineries comprising an integrated production process or such other categories of 
+goods or intangible products like software, technology transfer, licenses, patents or other 
+intellectual properties purchased or otherwise acquired for the use of Government but 
+excludes books, publications, periodicals, etc., for a library. The term ‘goods’ also includes 
+works and services which are incidental or consequential to the supply of such goods, 
+such as, transportation, insurance, installation, commissioning, training and maintenance; 
+xvii) 
+“Indenter” ( or the term ‘User (Department)’ in certain contexts) means the entity and 
+its officials initiating a procurement indent, that is, a request to the procuring entity to 
+procure goods, works or services specified therein; 
+xviii) “Inventory” means any material, component or product that is held for use at a later 
+time; 
+xix) "Invitation to (pre-)qualify" means a document including any amendment thereto 
+published by the procuring entity inviting offers for pre-qualification from prospective 
+bidders; 
+xx) "Invitation to Enlist" means a document including any amendment thereto published by 
+the procuring entity inviting offers for bidder enlistment from prospective bidders; 
+xxi) 
+“Local Content” means the amount of value added in India which shall, unless 
+otherwise prescribed by the Nodal Ministry, be the total value of the item procured 
+ 
+2Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+xix 
+ 
+(excluding net domestic indirect taxes) minus the value of imported content in the item 
+(including all customs duties) as a proportion of the total value, in percent3. 
+xxii) “Non-Local supplier” means a supplier or service provider, whose goods, services or 
+works offered for procurement, has local content less than that prescribed for ‘Class-II 
+local supplier’ under the Public Procurement (Preference to Make in India), Order 20174 
+xxiii) "Notice inviting tenders" (including the term ‘Invitation to bid’ or ‘request for proposals’ 
+in certain contexts) means a document and any amendment thereto published or notified 
+by the procuring entity, which informs the potential bidders that it intends to procure 
+goods, services and/ or works.; 
+xxiv) “Other Services” (including the term ‘Non-consultancy services’ in certain contexts) are 
+defined by exclusion as services that cannot be classified as Consultancy Services. Other 
+services involve routine repetitive physical or procedural non-intellectual outcomes for 
+which quantum and performance standards can be tangibly identified and consistently 
+applied and are bid and contracted on such basis. It may include small works, supply of 
+goods or consultancy service, which are incidental or consequential to such services. 
+Other Services may include transport services; logistics; clearing and Forwarding; courier 
+services; upkeep and maintenance of office/ buildings/ Estates (other than Civil & 
+Electrical Works etc.); drilling, aerial photography, satellite imagery, mapping and similar 
+operations etc; 
+xxv) 
+“Outsourcing of Services” means deployment of outside agencies on a sustained long-
+term (for one year or more) for performance of other services which were traditionally 
+being done in-house by the employees of Ministries/ departments (e.g. Security Services, 
+Horticultural Services, Janitor/ Cooking/ Catering/ Management Services for Hostels and 
+Guest Houses, Cleaning/ Housekeeping Services, .Errand/ Messenger Services, and so 
+forth). Besides outsourcing, other services also include procurement of short-term stand-
+alone services. 
+xxvi) "Pre-qualification (bidding) procedure" means the procedure set out to identify, prior to 
+inviting bids, the bidders that are qualified to participate in the procurement; 
+xxvii) "Pre-qualification document" means the document including any amendment thereto 
+issued by a procuring entity, which sets out the terms and conditions of the pre- 
+qualification bidding and includes the invitation to pre-qualify; 
+xxviii) "Procurement" or "public procurement" (or ‘Purchase’, or ‘Government Procurement/ 
+Purchase’ in certain contacts) means acquisition by way of purchase, lease, license or 
+otherwise, either using public funds or any other source of funds (e.g. grant, loans, gifts, 
+private investment etc.) of goods, works or services or any combination thereof, including 
+award of Public Private Partnership projects, by a procuring entity, whether directly or 
+through an agency with which a contract for procurement services is entered into, but 
+does not include any acquisition of goods, works or services without consideration, and 
+the term "procure" or "procured" shall be construed accordingly; 
+xxix) "Procurement contract" (including the terms ‘Purchase Order’ or ‘Supply Order’ or 
+‘Withdrawal Order’ or ‘Work Order’ or ‘Consultancy Contract’ or ‘Contract for Other 
+Services’ under certain contexts), means a formal legal agreement in writing relating to 
+ 
+3Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+4Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+xx 
+ 
+the subject matter of procurement, entered into between the procuring entity and the 
+contractor, service provider or contractor on mutually acceptable terms and conditions 
+and which are in compliance with all the relevant provisions of the laws of the country. 
+The term “contract” will also include “rate contract’ and “framework contract”; 
+xxx) 
+“(Public) Procurement Guidelines” means guidelines applicable to Public Procurement, 
+consisting of under relevant context a set of – i) Statutory Provisions (The Constitution of 
+India; Indian Contract Act, 1872; Sales of Goods Act, 1930; and other laws as relevant to 
+the context); ii) Rules & Regulations (General Financial Rules, 2017; Delegation of 
+Financial Power Rules and any other regulation so declared by the Government); iii) 
+Manuals of Policies and Procedures for Procurement (of Goods; Works; Consultancy/ 
+other services or any for other category) promulgated by the Ministry of Finance and iv) 
+Procuring Entity’s Documents relevant to the context (Codes, Manuals and Standard/ 
+Model Bidding Documents); 
+xxxi) "Procurement process" means the process of procurement extending from the 
+assessment of need; issue of invitation to pre-qualify or to enlist or to bid, as the case 
+may be; the award of the procurement contract; execution of contract till closure of the 
+contract; 
+xxxii) "Procuring Entity" (including Procuring Authority or Employer) means any Ministry or 
+Department of the Central Government or a unit thereof or its attached or subordinate 
+office to which powers of procurement have been delegated; 
+xxxiii) “Project” means one-time, short-term expenditure resulting in creation of capital 
+assets, which could yield financial or economic returns or both. A project may comprise 
+one or more related but independent task-oriented ‘Works’. Projects may either be 
+approved as individual projects within an approved scheme envelope or on a stand-alone 
+basis. They may be executed through budgetary, extra-budgetary resources, or a 
+combination of both. 
+xxxiv) "Prospective bidder" means anyone likely or desirous to be a bidder; 
+xxxv) "Public Private Partnership" means an arrangement between the central, a statutory 
+entity or any other government-owned entity, on one side, and a private sector entity, on 
+the other, for the provision of public assets or public services or a combination thereof, 
+through investments being made or management being undertaken by the private sector 
+entity, for a specified period of time, where there is predefined allocation of risk between 
+the private sector and the public entity and the private entity receives performance-linked 
+payments that conform (or are benchmarked) to specified and predetermined 
+performance standards, deliverables or Service Level agreements measurable by the 
+public entity or its representative; 
+xxxvi) “Registration” means simply registering the bidder/ supplier/ service provider/ 
+contractor, without any verification, say on a website etc. (Please refer to enlistment to 
+appreciate the differentiation).  
+xxxvii) "Reverse auction" (or the term ‘Electronic reverse auction’ in certain contexts) means 
+an online real-time purchasing technique utilised by the procuring entity to select the 
+successful bid, which involves presentation by bidders of successively more favourable 
+bids during a scheduled period of time and automatic evaluation of bids; 
+xxxviii) "service" is defined by exception as any subject matter of procurement other than 
+goods or works, except those incidental or consequential to the service, and includes 
+physical, maintenance, professional, intellectual, training, consultancy and advisory 
+services or any other service classified or declared as such by a procuring entity but does 
+
+ 
+xxi 
+ 
+not include appointment of an individual made under any law, rules, regulations or order 
+issued in this behalf. It includes ‘Consultancy Services’ and ‘Other (Non-consultancy) 
+Services’; 
+xxxix) "Subject matter of procurement" means any item of procurement whether in the form 
+of goods, services or works or a combination thereof; 
+xl) "Works" refer to any activity, sufficient in itself to fulfil an economic or technical function, 
+involving construction, fabrication, repair, overhaul, renovation, decoration, installation, 
+erection, excavation, dredging, and so on, which make use of a combination of one or 
+more of engineering design, architectural design, material and technology, labour, 
+machinery and equipment. Supply of some materials or certain services may be incidental 
+or consequential to and part of such works. The term “Works” includes (i) civil works for 
+the purposes of roads, railway, airports, shipping-ports, bridges, buildings, irrigation 
+systems, water supply, sewerage facilities, dams, tunnels and earthworks; and so on, and 
+(ii) mechanical and electrical works involving fabrication, installation, erection, repair and 
+maintenance of a mechanical or electrical nature relating to machinery and plants. 
+ 
+
+
+ 
+1 
+ 
+Chapter 1: Introduction to Procurement of Works 
+1.1 
+Procurement Rules and Regulations; and this Manual 
+i) 
+Various ministries, departments, attached and subordinate offices, local urban bodies, 
+public sector enterprises and other government (including autonomous) bodies 
+(hereinafter referred as ‘Procuring Entities’) spend a sizeable amount of their budget 
+on procurement of goods, works and services to discharge the duties and 
+responsibilities assigned to them. 
+ii) 
+The Ministries/ Departments have been delegated powers to make their own 
+arrangements for procurement of works under the Delegation of Financial Power 
+Rules, which have to be exercised in conformity with the ‘Procurement Guidelines’. 
+iii) To ensure that these procurements are made by following a uniform, systematic, 
+efficient and cost-effective procedure and also to ensure fair and equitable treatment 
+of bidders/ contractors, there are statutory provisions; rules; financial, vigilance, 
+security, safety, counter- trade and other regulations; orders and guidelines of the 
+Government on the subject of public procurement (hereinafter referred as 
+‘Procurement Guidelines’) which provide framework for the public procurement 
+system. 
+iv) At the apex of the statutory framework governing public procurement is Article 299 of 
+the Constitution of India, which stipulates that contracts legally binding on the 
+Government have to be executed in writing by officers specifically authorized to do so. 
+The Constitution also enshrines Fundamental Rights (In particular Article 14 – Right to 
+Equality before law and Article 19 (1) (g) – Right to carry on a Profession) which have 
+implications for Public Procurement. Further, the Indian Contract Act, 1872 and the 
+Arbitration and Conciliation Act, 1996 (as amended in 2015) are major legislations 
+governing contracts for procurement (both private and public) in general. There are in 
+addition guidelines issued by Central Vigilance Commission (CVC) relating to 
+Governance issues which are applicable to Public Procurement also. There is no law 
+exclusively governing public procurement. 
+v) 
+However, comprehensive Rules and Regulations in this regard are available in the 
+General Financial Rules (GFR), 2017, Delegation of Financial Powers Rules (DFPR); 
+Public Procurement (Preference to Make in India), Order 2017 and the guidelines 
+issued by the Central Vigilance Commission to increase transparency and objectivity 
+in public procurement. 
+vi) Without purporting to be a comprehensive compendium of all such ‘Procurement 
+Guidelines’, this Manual is intended to serve as a portal to enter this vast area and 
+draw attention to basic norms and practices governing public procurement. 
+These guidelines would not be applicable to projects funded by World Bank and other 
+International Funding Agencies, as, such external aid/ loans etc. received are covered under 
+the applicable policies/ legal agreements executed as permitted under Rules 264 of GFR 
+2017. 
+1.1.1 Preference to Make in India 
+
+ 
+2 
+ 
+To encourage ‘Make in India’ and promote manufacturing and production of goods and 
+services in India with a view to enhancing income and employment, Department of Promotion 
+of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, Government of 
+India, issued Public Procurement (Preference to Make in India), Order 20175. The order is 
+issued pursuant to Rule 153 (iii) of GFR, 2017. The Order is applicable on the procurement of 
+Goods, Works and Services. For the purpose of this Order:- 
+a) ‘L1’ means the lowest tender or lowest bid or the lowest quotation received in a tender, 
+bidding process or other procurement solicitation as adjudged in the evaluation 
+process as per the tender or other procurement solicitation. 
+b) ‘Margin of purchase preference’ means the maximum extent to which the price quoted 
+by a “Class-I local supplier” may be above the L1 for the purpose of purchase 
+preference. It has been fixed as 20 (twenty) percent. 
+c) ‘Nodal Ministry’ means the Ministry or Department identified pursuant to this order in 
+respect of a particular item of goods or services or works. 
+d) ‘Procuring entity’ means a Ministry or department or attached or subordinate office of, 
+or autonomous body controlled by, the Government of India and includes Government 
+companies as defined in the Companies Act. 
+e) ‘Works’ means all works as per Rule 130 of GFR- 2017, and will also include ‘turnkey 
+works’. 
+(i) Eligibility of ‘Class-I local supplier’/ ‘Class-II local supplier’/ ‘Non-local suppliers’ for 
+different types of procurement 
+a) In procurement of all goods, services or works in respect of which the Nodal Ministry/ 
+Department has communicated that there is sufficient local capacity and local 
+competition, only ‘Class-I local supplier’, shall be eligible to bid irrespective of purchase 
+value. 
+b) Only ‘Class-I local supplier’ and ‘Class-II local supplier’, shall be eligible to bid in 
+procurements undertaken by procuring entities, except when Global tender enquiry 
+has been issued. In global tender enquiries, ‘Non-local suppliers’ shall also be eligible 
+to bid along with ‘Class-I local suppliers’ and ‘Class-II local suppliers’. In procurement 
+of all goods, services or works, not covered by sub-para (i)(a) above, and with 
+estimated value of purchases less than Rs. 200 Crore, in accordance with Rule 161(iv) 
+of GFR, 2017, Global tender enquiry shall not be issued except with the approval of 
+competent authority as designated by Department of Expenditure. 
+c) For the purpose of this Order, works includes Engineering, Procurement and 
+Construction (EPC) contracts and services include System Integrator (SI) contracts.  
+(ii) 
+Purchase Preference 
+a) Subject to the provisions of the Order and to any specific instructions issued by the 
+Nodal Ministry or in pursuance of the Order, purchase preference shall be given to 
+‘Class-I local supplier’ in procurements undertaken by procuring entities in the manner 
+specified here under. 
+ 
+5Latest revision to the Order notified vide OM No. P-45021/2/2017-PP (BE-II) issued by DPIIT, dated 
+16.09.2020 
+
+ 
+3 
+ 
+b) n the procurements of goods or works, which are covered by para (i)(b) above and 
+which are divisible in nature, the ‘Class-I local supplier’ shall get purchase preference 
+over ‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following procedure:  
+1. 
+Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract for full quantity will be awarded to L1.  
+2. 
+If L1 bid is not a ‘Class-I local supplier’, 50 (fifty) percent of the order quantity 
+shall be awarded to L1. Thereafter, the lowest bidder among the ‘Class-I local 
+supplier’ will be invited to match the L1 price for the remaining 50 (fifty) percent 
+quantity subject to the Class-I local supplier’s  quoted price falling within the 
+margin of purchase preference, and contract for that quantity shall be awarded 
+to such ‘Class-I local supplier’ subject to matching the L1 price. In case such 
+lowest eligible ‘Class-I local supplier’ fails to match the L1 price or accepts less 
+than the offered quantity, the next higher ‘Class-I local supplier’ within the 
+margin of purchase preference shall be invited to match the L1 price for 
+remaining quantity and so on, and contract shall be awarded accordingly. In 
+case some quantity is still left uncovered on Class-I local suppliers, then such 
+balance quantity may also be ordered on the L1 bidder. 
+ 
+c) In the procurements of goods or works, which are covered by para (i)(b) above and 
+which are not divisible in nature, and in procurement of services where the bid is 
+evaluated on price alone, the ‘Class-I local supplier’ shall get purchase preference over 
+‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following procedure: 
+1. Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract will be awarded to L1. 
+2. If L1 is not ‘Class-I local supplier’, the lowest bidder among the ‘Class-I local 
+supplier’, will be invited to match the L1 price subject to Class-I local supplier’s 
+quoted price falling within the margin of purchase preference, and the contract 
+shall be awarded to such ‘Class-I local supplier’ subject to matching the L1 
+price. 
+3. In case such lowest eligible ‘Class-I local supplier’ fails to match the L1 price, 
+the ‘Class-I local supplier’ with the next higher bid within the margin of purchase 
+preference shall be invited to match the L1 price and so on and contract shall 
+be awarded accordingly. In case none of the ‘Class-I local supplier’ within the 
+margin of purchase preference matches the L1 price, the contract may be 
+awarded to the L1 bidder. 
+4. “Class-II local supplier” will not get purchase preference in any procurement, 
+undertaken by procuring entities. 
+(iii) 
+Applicability in tenders where contract is to be awarded to multiple bidders  
+In tenders where contract is awarded to multiple bidders subject to matching of L1 rates or 
+otherwise, the ‘Class-I local supplier’ shall get purchase preference over ‘Class-II local 
+supplier’ as well as ‘Non-local supplier’, as per following procedure:  
+a) In case there is sufficient local capacity and competition for the item to be procured, as 
+notified by the nodal Ministry, only Class I local suppliers shall be eligible to bid. As such, 
+
+ 
+4 
+ 
+the multiple suppliers, who would be awarded the contract, should be all and only ‘Class 
+I Local suppliers’. 
+b) In other cases, ‘Class II local suppliers’ and ‘Non local suppliers’ may also participate in 
+the bidding process along with ‘Class I Local suppliers’ as per provisions of the Order.  
+c) 
+If ‘Class I Local suppliers’ qualify for award of contract for at least 50 (fifty) percent of the 
+tendered quantity in any tender, the contract may be awarded to all the qualified bidders 
+as per award criteria stipulated in the bid documents. However, in case ‘Class I Local 
+suppliers’ do not qualify for award of contract for at least 50 (fifty) percent of the tendered 
+quantity, purchase preference should be given to the ‘Class I local supplier’ over ‘Class II 
+local suppliers’/ ‘Non local suppliers’ provided that their quoted rate falls within 20 (twenty) 
+percent margin of purchase preference of the highest quoted bidder considered for award 
+of contract so as to ensure that the ‘Class I Local suppliers’ taken in totality are considered 
+for award of contract for at least 50 (fifty) percent of the tendered quantity. 
+d) First purchase preference has to be given to the lowest quoting ‘Class-I local supplier’, 
+whose quoted rates fall within 20 (twenty) percent margin of purchase preference, subject 
+to its meeting the prescribed criteria for award of contract as also the constraint of 
+maximum quantity that can be sourced from any single supplier. If the lowest quoting 
+‘Class-I local supplier’, does not qualify for purchase preference because of aforesaid 
+constraints or does not accept the offered quantity, an opportunity may be given to next 
+higher ‘Class-I local supplier’, falling within 20 (twenty) percent margin of purchase 
+preference, and so on.  
+e) To avoid any ambiguity during bid evaluation process, the procuring entities may 
+stipulate its own tender specific criteria for award of contract amongst different bidders 
+including the procedure for purchase preference to ‘Class-I local supplier’ within the 
+broad policy guidelines stipulated in sub-paras above. 
+(iv) 
+Exemption of small purchases: Notwithstanding anything contained in paragraph (i), 
+procurements where the estimated value to be procured is less than Rs. 5 lakhs shall be 
+exempt from the Order. However, it shall be ensured by procuring entities that procurement is 
+not split for the purpose of avoiding the provisions of this Order. 
+(v) 
+Minimum local content: The ‘local content’ requirement to categorize a supplier as 
+‘Class-I local supplier’ is minimum 50 (fifty) percent. For ‘Class-II local supplier’, the ‘local 
+content’ requirement is minimum 20 (twenty) percent. Nodal Ministry/ Department may 
+prescribe only a higher percentage of minimum local content requirement to categorize a 
+supplier as ‘Class-I local supplier’/ ‘Class-II local supplier’. For the items, for which Nodal 
+Ministry/ Department has not prescribed higher minimum local content notification under the 
+Order, it shall be 50 (fifty) percent and 20 (twenty) percent for ‘Class-I local supplier’/ ‘Class-II 
+local supplier’ respectively. 
+(vi) 
+Requirement for specification in advance: The minimum local content, the margin 
+of purchase preference and the procedure for preference to Make in India shall be specified 
+in the notice inviting tenders or other form of procurement solicitation and shall not be varied 
+during a particular procurement transaction. 
+
+ 
+5 
+ 
+(vii) 
+Government E-marketplace: In respect of procurement through the Government E-
+marketplace (GeM) shall, as far as possible, specifically mark the items which meet the 
+minimum local content while registering the item for display, and shall, wherever feasible, 
+make provision for automated comparison with purchase preference and without purchase 
+preference and for obtaining consent of the local supplier in those cases where purchase 
+preference is to be exercised.  
+(vii) 
+Verification of local content:  
+a) The ‘Class-I local supplier’/ ‘Class-II local supplier’ at the time of tender, bidding or 
+solicitation shall be required to indicate percentage of local content and provide self-
+certification that the item offered meets the local content requirement for ‘Class-I local 
+supplier’/ ‘Class-II local supplier’, as the case may be. They shall also give details of 
+the location(s) at which the local value addition is made. 
+b) In cases of procurement for a value in excess of Rs. 10 crores, the ‘Class-I local 
+supplier’/ ‘Class-II local supplier’ shall be required to provide a certificate from the 
+statutory auditor or cost auditor of the company (in the case of companies) or from a 
+practicing cost accountant or practicing chartered accountant (in respect of suppliers 
+other than companies) giving the percentage of local content. 
+c) Decisions on complaints relating to implementation of this Order shall be taken by the 
+competent authority which is empowered to look into procurement-related complaints 
+relating to the procuring entity. 
+d) Nodal Ministries may constitute committees with internal and external experts for 
+independent verification of self-declarations and auditor’s/ accountant’s certificates 
+on random basis and in the case of complaints. 
+e) Nodal Ministries and procuring entities may prescribe fees for such complaints. 
+f) False declarations will be in breach of the Code of Integrity under Rule 175(1)(i)(h) of 
+the General Financial Rules for which a bidder or its successors can be debarred for 
+up to two years as per Rule 151 (iii) of the General Financial Rules along with such 
+other actions as may be permissible under law. 
+g) A supplier who has been debarred by any procuring entity for violation of the Order 
+shall not be eligible for preference under the Order for procurement by any other 
+procuring entity for the duration of the debarment. The debarment for such other 
+procuring entities shall take effect prospectively from the date on which it comes to 
+the notice of other procurement entities, in the manner prescribed under paragraph 
+(h) below. 
+h) The Department of Expenditure shall issue suitable instructions for the effective and 
+smooth operation of this process, so that: 
+1. The fact and duration of debarment for violation of the Order by any procuring 
+entity are promptly brought to the notice of the Member-Convenor of the Standing 
+Committee and the Department of Expenditure through the concerned Ministry 
+/Department or in some other manner;  
+2. on a periodical basis such cases are consolidated and a centralized list or 
+decentralized lists of such suppliers with the period of debarment is maintained 
+and displayed on website(s); 
+3. in respect of procuring entities other than the one which has carried out the 
+debarment, the debarment takes effect prospectively from the date of uploading 
+
+ 
+6 
+ 
+on the website(s) in the such a manner that ongoing procurements are not 
+disrupted. 
+(viii) 
+Specifications in Tenders and other procurement solicitations:  
+a) Every procuring entity shall ensure that the eligibility conditions in respect of previous 
+experience fixed in any tender or solicitation do not require proof of supply in other 
+countries or proof of exports. 
+b) Procuring entities shall endeavour to see that eligibility conditions, including on matters 
+like turnover, production capability and financial strength do not result in unreasonable 
+exclusion of ‘Class-I local supplier’/ ‘Class-II local supplier’ who would otherwise be 
+eligible, beyond what is essential for ensuring quality or creditworthiness of the 
+supplier. 
+c) Procuring entities shall review all existing eligibility norms and conditions with 
+reference to sub-paragraphs (viii) (a) and (b) above.    
+d) Reciprocity Clause 
+1. When a Nodal Ministry/Department identifies that Indian suppliers of an item 
+are not allowed to participate and/ or compete in procurement by any foreign 
+government, due to restrictive tender conditions which have direct or indirect 
+effect of barring Indian companies such as registration in the procuring country, 
+execution of projects of specific value in the procuring country etc., it shall 
+provide such details to all its procuring entities including  CMDs/CEOs of 
+PSEs/PSUs, State Governments and other procurement agencies under their 
+administrative control and GeM for appropriate reciprocal action.  
+2. Entities of countries which have been identified by the nodal 
+Ministry/Department as not allowing Indian companies to participate in their 
+Government procurement for any item related to that nodal Ministry shall not 
+be allowed to participate in Government procurement in India for all items 
+related to that nodal Ministry/ Department, except for the list of items published 
+by the Ministry/ Department permitting their participation.  
+3. The stipulation in (2) above shall be part of all tenders invited by the Central 
+Government procuring entities stated in (1) above. All purchases on GeM shall 
+also necessarily have the above provisions for items identified by nodal 
+Ministry/ Department.  
+4. State Governments should be encouraged to incorporate similar provisions in 
+their respective tenders.  
+5. The term 'entity' of a country shall have the same meaning as under the FDI 
+Policy of DPIIT as amended from time to time. 
+e) Specifying foreign certifications/ unreasonable technical specifications/ brands/ 
+models in the bid document is restrictive and discriminatory practice against local 
+suppliers. If foreign certification is required to be stipulated because of non-availability 
+of Indian Standards and/or for any other reason, the same shall be done only after 
+written approval of Secretary of the Department concerned or any other Authority 
+having been designated such power by the Secretary of the Department concerned.  
+f) “All administrative Ministries/Departments whose procurement exceeds Rs. 1000 
+Crore per annum shall notify/ update their procurement projections every year, 
+including those of the PSEs/PSUs, for the next 5 years on their respective website.” 
+
+ 
+7 
+ 
+(ix) Action for non-compliance of the Provisions of the Order:In case restrictive or 
+discriminatory conditions against domestic suppliers are included in bid documents, an 
+inquiry shall be conducted by the Administrative Department undertaking the 
+procurement (including procurement by any entity under its administrative control) to fix 
+responsibility for the same. Thereafter, appropriate action, administrative or otherwise, 
+shall be taken against erring officials of procurement entities under relevant provisions. 
+Intimation on all such actions shall be sent to the Standing Committee. 
+(x) Assessment of supply base by Nodal Ministries: The Nodal Ministry shall keep in view 
+the domestic manufacturing / supply base and assess the available capacity and the 
+extent of local competition while identifying items and prescribing the higher minimum 
+local content or the manner of its calculation, with a view to avoiding cost increase from 
+the operation of this Order. 
+(xi) Increase in minimum local content: The Nodal Ministry may annually review the local 
+content requirements with a view to increasing them, subject to availability of sufficient 
+local competition with adequate quality. 
+(xii) Manufacture under license/ technology collaboration agreements with phased 
+indigenization 
+a) While notifying the minimum local content, Nodal Ministries may make special 
+provisions for exempting suppliers from meeting the stipulated local content if the 
+product is being manufactured in India under a license from a foreign  manufacturer 
+who holds intellectual property rights and where there is a technology collaboration 
+agreement / transfer of technology agreement for indigenous manufacture of a product 
+developed abroad with clear phasing of increase in local content. 
+b) In procurement of all goods, services or works in respect of which there is substantial 
+quantity of public procurement and for which the nodal ministry has not notified that 
+there is sufficient local capacity and local competition, the concerned nodal ministry 
+shall notify an upper threshold value of procurement beyond which foreign companies 
+shall enter into a joint venture with an Indian company to participate in the tender. 
+Procuring entities, while procuring such items beyond the notified threshold value, shall 
+prescribe in their respective tenders that foreign companies may enter into a joint 
+venture with an Indian company to participate in the tender. The procuring 
+Ministries/Departments shall also make special provisions for exempting such joint 
+ventures from meeting the stipulated minimum local content requirement, which shall 
+be increased in a phased manner. 
+(xiii) 
+Powers to grant exemption and to reduce minimum local content:  The 
+administrative Department undertaking the procurement (including procurement by any entity 
+under its administrative control), with the approval of their Minister-in-charge, may by written 
+order, for reasons to be recorded in writing, 
+1. reduce the minimum local content below the prescribed level; or 
+2. reduce the margin of purchase preference below 20 (twenty) percent; or 
+3. exempt any particular item or supplying entities from the operation of this Order 
+or any part of the Order. 
+
+ 
+8 
+ 
+A copy of every such order shall be provided to the Standing Committee and concerned Nodal 
+Ministry / Department. The Nodal Ministry / Department concerned will continue to have the 
+power to vary its notification on Minimum Local Content. 
+(xiv) 
+Directions to Government companies: In respect of Government companies and 
+other procuring entities not governed by the General Financial Rules, the administrative 
+Ministry or Department shall issue policy directions requiring compliance with this Order. 
+(xv) 
+Standing Committee. A standing committee is hereby constituted with the following 
+membership: 
+ 
+Secretary, Department for Promotion of Industry and Internal Trade-Chairman 
+ 
+Secretary, Commerce-Member 
+ 
+Secretary, Ministry of Electronics and Information Technology-Member 
+ 
+Joint Secretary (Public Procurement), Department of Expenditure-Member 
+ 
+Joint Secretary (DPIIT)-Member-Convenor 
+The Secretary of the Department concerned with a particular item shall be a member in 
+respect of issues relating to such item. The Chairman of the Committee may co-opt technical 
+experts as relevant to any issue or class of issues under its consideration. 
+(xvi) 
+Removal of difficulties: Ministries /Departments and the Boards of Directors of 
+Government companies may issue such clarifications and instructions as may be necessary 
+for the removal of any difficulties arising in the implementation of the Order.  
+(xvii) 
+Ministries having existing policies: Where any Ministry or Department has its own 
+policy for preference to local content approved by the Cabinet after 1st January 2015, such 
+policies will prevail over the provisions of the Order. All other existing orders on preference to 
+local content shall be reviewed by the Nodal Ministries and revised as needed to conform to 
+this Order, within two months of the issue of this Order. 
+(xviii) Transitional provision: The Order shall not apply to any tender or procurement for 
+which notice inviting tender or other form of procurement solicitation has been issued before 
+the issue of this Order. 
+(Rule 153 of GFR 2017) 
+1.2 
+Clarification, Amendments and Revision of this Manual 
+For revision, interpretation, clarification and issues relating to this manual, the Procurement 
+Policy Division, Department of Expenditure, Ministry of Finance would be the nodal authority. 
+1.3 
+Applicability of this Manual 
+i) 
+Works: This manual is applicable to procurement of Works is defined as “any activity, 
+sufficient in itself to fulfil an economic or technical function, involving construction, 
+fabrication, repair, overhaul, renovation, decoration, installation, erection, excavation, 
+dredging, and so on, which make use of a combination of one or more of engineering 
+design, architectural design, material and technology, labour, machinery and 
+equipment. Supply of some materials or certain services may be incidental or 
+consequential to and part of such works. The term “Works” includes (i) civil works for 
+the purposes of roads, railway, airports, shipping-ports, bridges, buildings, irrigation 
+systems, water supply, sewerage facilities, dams, tunnels and earthworks; and so on, 
+and (ii) mechanical and electrical works involving fabrication, installation, erection, 
+repair and maintenance of a mechanical or electrical nature relating to machinery and 
+plants”. 
+
+ 
+9 
+ 
+ii) Classification of Works: The civil works are classified in GFR 2017 (Rule 130) into 
+three categories: (a) Original Works (b) Minor Works and (c) Repairs Works. “Original 
+works” means all new constructions, site preparation, additions and alterations to 
+existing works. It also includes special repairs to newly purchased or previously 
+abandoned buildings or structures, including remodelling or replacement. “Minor 
+works” mean works which add capital value to existing assets but do not create new 
+assets. “Repair works” means works undertaken to maintain building and fixtures. 
+Expenditure on Repair Work does not add to the value of the asset and only restores 
+the functionality of the asset. Repair Work can be further categorized as (i) Annual 
+repairs covering routine and yearly operation and maintenance work on buildings and 
+services (ii) Special repairs, which are undertaken as and when required, covering 
+major repairs to existing buildings or services. Some types of the Special repairs may 
+qualify to be categorised as ‘Original Work’ as mentioned earlier. 
+iii) Procurement Entities 
+Procurement Entities which can benefit from this manual include ministries, 
+departments, or a unit thereof, or an attached or subordinate offices/ units; any other 
+body (including autonomous bodies) substantially owned or controlled by or receiving 
+substantial financial assistance from the Central Government. It can still be utilised, if 
+these procurement entities outsource the procurement process or bundle the 
+procurement process with other contractual arrangements or utilise the services of 
+procurement support agency or procurement agents to carry out the procurement on 
+their behalf. But these procurement guidelines would not apply to procurements by 
+these procuring entities for their own use from their subsidiary companies including 
+Joint Ventures in which they have controlling share. 
+Major Works procuring Ministries/ Departments like the Central Public Works 
+Department (CPWD); Military Engineering Service (MES); Border Roads Organisation 
+(BRO); Ministries of Railways; Information & Broadcasting and Departments of Posts, 
+and Space etc. already have their own detailed guidelines tailored to unique individual 
+requirements, e.g. Manuals or Procedure Orders, which will continue to be applicable 
+to these organizations.  
+This manual for procurement of works is more specifically addressed to those 
+Ministries/ Departments and their attached and subordinate offices, as well as 
+autonomous bodies (except to the extent the bye laws of an autonomous body provides 
+for different provisions, which have been approved by the Government) which don’t 
+have in-house capabilities to execute Works and assign most of the procurement of 
+works to third parties (Public Works Organisations or PSUs).  
+This Manual is also useful for directly execution of repair works by these agencies up 
+to 6Rs. thirty lakh.  
+iv) For procurements financed by Loans/ Grants extended by International Agencies: The 
+Articles of Agreement with the International Agencies like the World Bank, Asian 
+Development Bank etc. stipulate specific procurement procedures to be followed by 
+the borrowers. The procurement procedures, as finalized and incorporated in the 
+ 
+6 Rule 133(1) of GFR, 2017 
+
+ 
+10 
+ 
+Agreements after consideration and approval of the Ministry of Finance are to be 
+followed accordingly. 
+1.4 
+Basic Aims of Procurement – Five R’s of Procurement 
+In every procurement, public or private, the basic aim is to achieve just the right balance 
+between costs and requirements concerning five parameters called the five R’s of 
+procurement. The entire process of procurement (from the time that need for an item, facility 
+or services is identified till the need is satisfied) is designed to achieve following basic aims. 
+Although couched in jargon of procurement of Goods, it’s equally applicable to procurement 
+of Works. The term ‘Right’ is used here in the sense of being optimal: 
+i) 
+Right quality; 
+ii) 
+Right quantity; 
+iii) Right price; 
+iv) Right time and place; and 
+v) 
+Right source. 
+(For more details on basic aims of procurement, please refer to Chapter 1 of the Manual for 
+Procurement of Goods 2017 – reproduced in Appendix 1. Please refer to Broader obligation 
+principle under Appendix 1 for instructions related to registration of bidders belonging to 
+countries sharing land border with India, and Annexure-13). 
+1.5 
+Fundamental Principles of Public Procurement 
+Over and above the basic aims of procurement, the obligations of procuring authorities can 
+be grouped into following five fundamental principles of public procurement, which all 
+procuring authorities must abide by and be accountable for: 
+i) 
+Transparency principle; 
+ii) 
+Professionalism principle; 
+iii) Broader obligations principle; 
+iv) Extended legal principle; and 
+v) 
+Public accountability principle. 
+(For more details on basic aims of procurement, please refer to Chapter 1 of the Manual for 
+Procurement of Goods-reproduced in Appendix 1). 
+1.6 
+Standards (Canons) of Financial Propriety 
+Public Procurement like any other expenditure in Government must conform to the Standards 
+(also called Canons) of Financial Propriety. It may be useful to refer to the relevant provisions 
+in the General Financial Rules, 2017 
+“Rule 21. Standards of financial propriety: Every officer incurring or authorizing expenditure 
+from public moneys should be guided by high standards of financial propriety. Every officer 
+should also enforce financial order and strict economy and see that all relevant financial rules 
+and regulations are observed, by his own office and by subordinate disbursing officers. Among 
+the principles on which emphasis is generally laid are the following:- 
+
+ 
+11 
+ 
+i) 
+Every officer is expected to exercise the same vigilance in respect of expenditure 
+incurred from public moneys as a person of ordinary prudence would exercise in 
+respect of expenditure of his own money. 
+ii) 
+The expenditure should not be prima facie more than the occasion demands. 
+iii) No authority should exercise its powers of sanctioning expenditure to pass an order 
+which will be directly or indirectly to its own advantage. 
+iv) Expenditure from public moneys should not be incurred for the benefit of a particular 
+person or a section of the people, unless - 
+i) a claim for the amount could be enforced in a Court of Law, or 
+ii) The expenditure is in pursuance of a recognized policy or custom. 
+The amount of allowances granted to meet expenditure of a particular type should be so 
+regulated that the allowances are not on the whole a source of profit to the recipients.” 
+1.7 
+Public Procurement Infrastructure at the Centre 
+i) 
+Procurement Policy Division 
+Procurement Policy Division (PPD) in Department of Expenditure; Ministry of Finance has 
+been created to encourage uniformity and harmonisation in public procurement processes 
+by setting guidelines, dissemination of best practices, providing guidance, oversight and 
+capacity building and issuing of procurement manuals. However, Centralisation of 
+procurement or involvement in procurement processes is not the intended purpose of 
+creation of PPD. 
+ii) 
+Central Public Procurement Portal 
+Central Public Procurement Portal (CPPP) has been designed, developed and hosted by 
+National Informatics Centre (NIC, Ministry of Electronics & Information Technology) in 
+association with Dept. of Expenditure to ensure transparency in the public procurement 
+process. The primary objective of the Central Public Procurement portal is to provide a 
+single point access to the information on procurements made across various Ministries and 
+the Departments. The CPPP has e-publishing and e-procurement modules. It is mandatory 
+for all Ministries/ Departments of the Central Government, Central Public Sector 
+Enterprises (CPSEs) and Autonomous and Statutory Bodies to publish on the CPPP all 
+their tender enquiries and information about the resulting contracts. CPPP provides access 
+to information such as documents relating to pre-qualification, Bidders’ enlistment, Bidding 
+documents; details of bidders, their pre-qualification, enlistment, exclusions/ debarments; 
+decisions taken regarding prequalification and selection of successful bid. GFR 2017 (Rule 
+160) makes it mandatory for Ministries/ Departments to receive all bids through e-
+procurement portals in respect of all procurements. Ministries/ Departments which do not 
+have a large volume of procurement or carry out procurements required only for day-to-day 
+running of offices and also have not initiated e-procurement through any other solution 
+provided so far, may use e-procurement solution (CPPP) developed by NIC. Other 
+Ministries/ Departments may either use e-procurement solution developed by NIC or 
+engage any other service provider following due process. In the latter case, data on tenders 
+are to be published on CPPP as well through web-service. 
+iii) Government e-Marketplace (GeM) 
+
+ 
+12 
+ 
+To ensure better transparency and higher efficiency an online Government e-Marketplace 
+(GeM– an e-commerce marketplace) has been developed for common use goods and 
+services. In GeM product or services are offered by a number of eligible sellers and all the 
+eligible buyers can view/ compare all the product/ services and select the product/ services 
+offered by any one of the seller. In general, because online marketplaces aggregate 
+product/ services from a wide array of providers, selection is usually wider, availability is 
+higher, and prices are more competitive than in vendor-specific online retail stores. The 
+procurement process on GeM is online and electronic - end to end from placement of supply 
+order to payment to suppliers. The registration of suppliers on GeM is online and automatic 
+based on ID authentication etc. The procuring authorities have to assess the reasonability 
+of rates. Buyer’s transactions are processed by the GeM portal and then product/ services 
+are delivered and fulfilled directly by the participating sellers. Tools of reverse bidding and 
+e-auction are also available which can be utilised for the procurement of bulk quantities. 
+More details are available in Rule 149, GFR, 2017. The Procurement of Goods and 
+Services by Ministries or Departments are mandatory for Goods or Services available on 
+GeM. Ministries/ Departments are expected to work with GeM in making available on the 
+GeM platform as many products/ services by making available such Goods and Services 
+which are regularly procured by them. 
+1.8 
+Legal Aspects Governing Public Procurement of Works 
+A public procurement contract, besides being a commercial transaction, is also a legal 
+transaction. There are a number of laws that may affect various commercial aspects of public 
+procurement contracts. A public procurement professional is expected to be generally aware 
+of the implications of following basic laws affecting procurement of works; however, he or she 
+is not expected to be a legal expert. In different contexts of the scope of work, an additional 
+set of laws may be relevant. 
+i) 
+The Constitution of India; 
+ii) 
+Indian Contracts Act, 1872; 
+iii) 
+Arbitration and Conciliation Act, 1996 read with The Arbitration and Conciliation 
+(Amendment) Act, 2015; 
+iv) 
+Competition Act, 2002 as amended with Competition (Amendment) Act, 2007; 
+v) 
+The Information Technology Act, 2000 (IT Act, regarding e-procurement and e-auction, 
+popularly called the Cyber Law); 
+vi) 
+Right to Information (RTI) Act 2005; 
+vii) 
+Central Vigilance Commission Act, 2003; 
+viii) Delhi Special Police Establishment Act, 1946 (DSPE – basis of the Central Bureau of 
+Investigation); 
+ix) 
+Prevention of Corruption Act, 1988; 
+x) 
+Code of Criminal Procedure, 1973 (Sections 195(1) and 197(1)); 
+xi) 
+Various labour laws applicable at the works’ site; 
+xii) 
+Various building and safety acts, codes, standards applicable in the context of the 
+scope of work; and 
+
+ 
+13 
+ 
+xiii) Various environmental and mining laws, codes, standards applicable in the context of 
+the scope of work. 
+(For salient features of laws applicable to public procurement, please refer to Appendix 2). 
+1.9 
+The Law of Agency – applicable to Procurement of Works 
+In addition to Laws which are applicable to Public Procurement of Works mentioned above, 
+the Law of Agency (Section 182 to section 238, of the Indian Contract Act, 1872) implies that 
+Contractor would be an Agent of the Procuring Entity, to execute the works on its behalf. 
+Hence, there exists a Principal/ Employer and Agent relationship between Procuring Entity 
+and such Contractor. As per this law, the employer is vicariously legally and financially liable 
+for actions of its Agents. For example, a violation of certain labour laws in deputing staff for 
+Procuring Entity’s contract by the agents may render the Procuring Entity legally and 
+financially liable for such violations, under certain circumstances. The Procuring Entities need 
+to be aware of such eventualities. Standard Bidding Documents should take care of this 
+aspect. 
+1.10 The Basic Principles of undertaking works: 
+i) 
+No new works should be sanctioned without 
+i) Careful assessment of the assets or facilities already available and time and 
+cost required to complete the new works. 
+ii) A concept plan/ preliminary drawing have been approved by the Authority 
+competent to accord sanction. While designing projects to the extent possible, 
+principles of Life Cycle Costing may also be considered; 
+ii) 
+As budgetary resources are limited and granted on annual basis, adequate provisions 
+should be ensured for works and services already in progress before new works are 
+undertaken. 
+iii) No project or work will be split up to bring it within the sanctioning powers of a lower 
+authority. 
+iv) 
+7For purpose of approval and sanctions, a group of works which forms one project, 
+shall be considered as one work. The approval or sanction of the higher authority for 
+such a project which consists of such a group of work should not be circumvented by 
+resorting to approval of individual works using the powers of approval or sanction of a 
+lower authority. 8If the component parts of a project are mutually independent of each 
+other and are not dependent on the execution of one or more such component parts, 
+each such part should be treated as a separate project. In case the functioning of a 
+project is dependent on the execution of one or more other projects, the entire group 
+of such projects should be taken as a single scheme/ project and provision made 
+accordingly. If however, a scheme consists of revenue component, capital expenditure 
+and loan content, etc. the provision for which is required to be exhibited separately 
+under respective Heads of Account, there is no objection to the provision being made 
+in the relevant Heads of Account; but the authorities concerned should ensure that the 
+sanction of the Competent Authority is obtained for the integrated scheme as a whole 
+ 
+7 Rule 137, GFR, 2017 
+8 MoF OM No. F.1(26)-E-II(A)/66 dtd 04/01/1967 & 27/10/1967 
+
+ 
+14 
+ 
+depending on the total cost of the scheme. It will not be permissible in such cases to 
+split up a scheme treating each part as a scheme in order to avoid the sanction of a 
+higher authority. 
+v) 
+9Any anticipated or actual savings from a sanctioned estimate for a definite project, 
+shall not, without special authorisation, be applied to carry out additional work not 
+contemplated in the original project. 
+vi) 
+10Any development of a project considered necessary while a work is in progress, 
+which is not contingent on the execution of work first sanctioned, shall have to be 
+covered by a supplementary estimate. 
+vii) The construction period and sanctioned cost stipulated in the sanction of Project will 
+not be exceeded as far as possible. 
+viii) 11Ministry or Department shall put in place, as far as possible, empowered project 
+teams for all large value projects and these teams should be tasked only with project 
+execution and not given other operational duties. 
+ix) The competent financial authority according administrative approval should be kept 
+informed of the physical and financial progress of the work till their completion through 
+regular periodical reports. 
+x) 
+12Subject to the observance of these general rules (Rule 130 – 141, GFR, 2017), the 
+initiation, authorization, procurement and execution of works allotted to a particular 
+Ministry or Department shall be regulated by detailed rules and orders contained in the 
+respective departmental regulations and by other special orders applicable to them. 
+The detailed procedure relating to expenditure on such works shall be prescribed by 
+departmental regulations framed in consultation with the Accounts Officer, generally 
+based on the procedures and the principles underlying the financial and accounting 
+rules prescribed for similar works carried out by the Central Public Works Department 
+(CPWD). 
+xi) 
+13No works shall be commenced or liability incurred in connection with it until:- 
+i) 
+Feasibility Study Report / Preliminary Project Report (PPR) has been be 
+prepared in case of works of substantial value  
+ii) 
+A proper Detailed Project Report (DPR) has been prepared by a competent 
+agency;  
+iii) 
+Administrative approval (A/A) has been obtained from the appropriate 
+authority, in each case; 
+iv) 
+Expenditure Sanction (E/S) to incur expenditure has been obtained from the 
+competent authority; 
+v) 
+Technical approval has been obtained of the detailed and coordinated design 
+of all the Architectural, Civil, Electrical, Mechanical, Horticulture and any other 
+ 
+9Rule 138, GFR, 2017 
+10Rule 136(3), GFR, 2017 
+11Rule 135(2), GFR, 2017 
+12Rule 135(1), and 139(i), GFR, 2017 
+13Rule 136(1) and 139(vi), GFR, 2017 
+
+ 
+15 
+ 
+services included in the scope of the sanction and of the Detailed Cost Estimates 
+containing the detailed specifications and quantities of various items prepared on the 
+basis of the schedule of rates maintained by CPWD or other Public Works 
+Organizations. 
+vi) 
+Funds to cover the work, which will be executed, at least during the current 
+year, have been provided by competent authority. 
+vii) Tenders have been invited and processed in accordance with rules. 
+viii) Award of work and execution of Contract Agreement; 
+ix) A work order has been issued.  
+x) Time taken in grant of statutory and other clearances also contributes to the time 
+and cost overrun in public projects. These clearances are required to achieve 
+specific objectives like concern for the environment, aviation safety, preservation 
+of national heritage, conservation of forest and wildlife etc. Public Authorities/ 
+Project Executing Authorities should plan for obtaining all necessary clearances 
+quickly and proper efforts be made for the same, which also should be duly 
+recorded. The progress regarding follow up of obtaining the statutory clearances 
+should be closely monitored. 
+xi) The process of land acquisition shall be started by the Procuring Entity, well 
+ahead and completed entirely, or at least substantially, before the work is started. 
+Availability of auxiliary services has been ensured - like roads/access, power, 
+water, solid & liquid waste disposal system, street lighting and other civic services 
+shall be ensured. It is desirable to have 100% of the required land in possession 
+before award of contract; however, it may not always be possible to have the 
+entire land due to prevailing circumstances. Also, it may not be prudent to put the 
+entire process of award of contract on hold for want of the remaining portion of 
+land, which in the assessment of public authority or the project executing 
+authority, could possibly be acquired in a targeted manner after award of the 
+contract, without affecting progress. Minimum necessary encumbrance free land 
+should be available before award of contract. The minimum may be determined 
+based on the circumstances of each case or general guidelines, issued by the 
+concerned authorities. Such land, non-availability of which, will prevent essential 
+components of work from execution, should be insisted upon. Public Authorities/ 
+Project Executing Authorities should plan for acquiring balance land quickly and 
+proper efforts be made for the same, which also should be duly recorded. The 
+progress regarding land acquisition should be closely monitored. 
+1.11 Processing of Public Works 
+Following are the stages in planning, sanctioning and execution of work. 
+i) 
+Perspective Planning for works; 
+ii) 
+Preparation of Preliminary Project Report (PPR) or Rough Cost Estimate; 
+iii) Acceptance of necessity and issue of in-Principle Approval; 
+iv) Preparation of Detailed Project Report (DPR) or Preliminary Estimate (PE); 
+
+ 
+16 
+ 
+v) 
+Administrative Approval and Expenditure Sanction (A/A&E/S) or ‘Go ahead’ Approval; 
+vi) Detailed Design, Estimate and Technical Sanction; 
+vii) Appropriation/ re-appropriation of funds; 
+viii) Preparation of Bid documents, Publication, Receipt and Opening of Bids; 
+ix) Evaluation of Bids and Award of Work; 
+x) 
+Execution and Monitoring of works and Quality Assurance. 
+Note: For repair works up to Rs. 30 (thirty) lakh, expenditure sanction may be given on the 
+basis of Preliminary Project Report itself. 
+Annexure 9 shows the above mentioned process of procurement of Public Works as a flow-
+chart. 
+1.12 Administrative Control and Powers to Sanction 
+i) 
+14Administrative control of works includes.— 
+i) assumption of full responsibility for construction, maintenance and upkeep; 
+(b) Proper utilization of buildings and allied works; 
+(c) Provision of funds for execution of these functions. 
+ii) 
+15 Powers to Sanction Works: The powers delegated to various subordinate 
+authorities to accord administrative approval, sanction expenditure and re-appropriate 
+funds for works are regulated by the Delegation of Financial Powers Rules (DFPR) 
+and other orders contained in the respective departmental regulations.The powers of 
+the Department relating to works are detailed in Rule 133 (1) and 133(2) of GFR, 2017 
+(Refer para 3.1.1 and 3.1.2 for details). 
+iii) 16Work under the administrative control of the Public Works Departments- Works 
+not specifically allotted to any Ministry or Department shall be included in the Grants 
+for Civil Works to be administered by Central Public Works Department. No such work 
+may be financed partly from funds provided in departmental budget and partly from the 
+budget for civil works. 
+ 
+ 
+14Rule 131, GFR, 2017 
+15Rule 132, GFR, 2017 
+16Rule 134, GFR, 2017 
+
+ 
+17 
+ 
+Chapter 2: Preparation of Estimates 
+2.1 
+Perspective Planning for Works 
+Each Ministry/ Department shall prepare a perspective plan for undertaking different types of 
+works. There shall also be a provision for annual review of the plan for making modifications, 
+if any. 
+2.2 
+Preparation of Preliminary Project Report (PPR) or Rough Cost Estimate 
+2.2.1 In case the work is to be executed under its own arrangement by the Ministry/ 
+Department, a preliminary project report (PPR) or Rough Cost Estimate shall be prepared by 
+the Works Committee based on Land, Site Details, functional and space requirements (or 
+Various Facilities, Special Requirements/ Features and Broad Specifications for specialised 
+Equipment and Plants), Layout Plans etc, with the technical details/ documents mentioned 
+below being prepared by (or under the guidance of) the technical member(s) of the Works 
+Committee (please refer to Para 3.1.4 (iv) below. In case of execution of Work through Public 
+Works Organisation (PWO) or the Public Sector Undertaking (PSU – refer Para 3.1 below), 
+on requisition from Ministry/ Department for procurement of works, PWO or the PSU to whom 
+work is entrusted for execution shall prepare such PPR or Rough Cost Estimate and submit it 
+to the requiring Department/ Ministry. Based on PPR and Rough Cost Estimate, the competent 
+authority in Administrative Ministry/ Department grants in Principle approval indicating 
+approval of the concept and scope of the project at the rough cost assessed. Ministry of 
+Finance (DoE) has issued detailed instructions regarding appraisal and approval of Public 
+Funded projects/ schemes17. 
+2.2.2 The preliminary project report shall provide the following details: 
+i) 
+Background of the work/ project justifying the need for the work 
+ii) 
+Details of scope of the project 
+iii) Exclusions (if any) - This will cover part of the work, which is not included in this 
+particular project estimate. 
+iv) Availability of land - There should be a clear indication about the availability of land 
+required for completion of whole project. The land shall be made available free of all 
+encumbrances. 
+v) 
+Availability of auxiliary services - like roads, power, water, solid & liquid waste disposal 
+system, street lighting and other civic services shall be ensured. 
+vi) Reference to Concept Plans/ Preliminary Drawings, if any and their acceptance - This 
+shall indicate the details of Concept Plans/ Preliminary Drawings prepared and their 
+approval by the requisitioning authority. 
+vii) Agency of Procurement – through direct procurement, outsourcing to PWO/ PSUs or 
+otherwise (Refer Para 3.1 below). 
+ 
+17No. 24(35)/PF-II/2012 dtd 05/08/2016 (where Schemes refers to a collection of Projects/Works of either Central 
+Sector Schemes or Centrally Sponsored Schemes and Project refers to work which can be standalone or part of a 
+scheme). 
+The 
+OM 
+can 
+be 
+downloaded 
+from: 
+http://doe.gov.in/sites/default/files/GuidelinesAppraisal_Approval_Schemes_Projects.pdf 
+
+ 
+18 
+ 
+viii) Rough Cost Estimate: Ministries/Department may carefully assess alternative 
+technological options, their area requirements and obtain Rough Cost on the basis of 
+prevailing Plinth Area rates (or any other reliable basis) without preparation of drawings 
+to enable the competent authority to accord in principle approval. 
+ix) If relevant, Cost benefits analysis of the project, including evaluation of options for cost 
+sharing/ recovery (user charges) for infrastructure/ services. Principles of Life Cycle 
+Cost may also be considered, to the extent feasible. 
+x) 
+Cash flow: This will show year-wise requirement. 
+xi) Source & availability of funds - The manner of transferring the fund to the executing 
+agency to be spelt out. 
+xii) Appendices: 
+i) 
+Requisition of the Department/ Ministry; 
+ii) Concept Plans/ Preliminary Drawings; 
+iii) Reference to approval of Concept Plans/ Preliminary Drawings. 
+xiii)   Any other relevant documents.  
+xiv) A presentation on the findings of the feasibility study/ PPR may be made by a team 
+(which may include engineers/ consultants/ outside experts, finance officers etc.) 
+before the public authority/ or designated competent authority. This is to provide an 
+opportunity to the public authority to have an overall assessment of the situation, 
+appraisal of various options as well as likely challenges and mitigation measures. In 
+the case of very large projects, such presentation may be made to the head of the 
+public authority. The record of discussions during the presentation may become part 
+of the Detailed Project Report (DPR) and tender file/ project record. 
+2.3 
+Acceptance of necessity and issue of in-Principle Approval 
+Approval of competent financial authority for accepting the necessity of works and its Scope 
+should be sought on the basis of PPR or Rough Cost Estimate and in Principle Approval of 
+the concerned Ministry/ Department shall be made available for preparation of Detailed Project 
+Report or Preliminary Estimates. 
+2.4 
+Preparation of Detailed Project Report (DPR) /Preliminary Estimates (PE) 
+2.4.1 On receipt of in-Principle Approval of the project, the procuring entity shall finalize the 
+Detailed Project Report giving reference to the documents mentioned below. The DPR should 
+provide a level playing field to the bidders and should ensure as far as feasible, the widest 
+possible competition: 
+i) Reference to Concept plan/ preliminary drawings and their acceptance - This shall 
+indicate the details of Concept plan/ preliminary drawings prepared and their approval 
+by the requisitioning authority; 
+ii) Details of scope of the project indicating clearly the list of Engineering Services 
+(Mechanical/ Electrical/ Plumbing) as well as Operation and Maintenance included or 
+not included in the DPR/PE; 
+iii) Preliminary estimated cost – This will also include the expected escalation for the 
+period of completion of the project and also the departmental or lump sum charges to 
+
+ 
+19 
+ 
+be paid to the executing agency (Public Works Organization or PSUs). Cash flow 
+projection should show year-wise requirement. While designing the projects etc, if and 
+to the extent possible, principles of Life Cycle Cost may also be considered; 
+iv) Time of the completion – This will consist of two parts, one for pre- construction activity 
+till award of the work and the other one for the execution; 
+v) 
+Details of land required along with land plan schedule to implement timely land 
+acquisition procedures; 
+vi) Environmental impact assessment (EIA) of the project and approval thereof, wherever 
+applicable; 
+vii) Social Impact Assessment and Resettlement and Rehabilitation: Social Impact 
+Assessment needs to be done, based on baseline socio-economic survey and census 
+survey data, to identify the Project Affected People (PAPs). A Resettlement and 
+Rehabilitation Plan should be prepared for the PAPs in accordance with the LARR Act 
+2013 or National Policy on Resettlement and Rehabilitation (NPRR), and State 
+Governments framework of resettlement policies and other social safeguard policies 
+designed to protect the rights of the affected persons and communities as applicable; 
+viii) List of Approval of Statutory Bodies required; 
+ix) Annual plan allocation and cash flow; 
+x) Systems to be adopted for project monitoring; 
+xi) Works accounting system; 
+xii) Quality assurance system/ mechanism; 
+xiii) Bidding Systems - Single, two parts, pre-qualification, Post- qualification. 
+In case the work is being executed by the Ministry/ Department themselves, DPR and PE will 
+be prepared by the Ministry/ Department itself. In case the Work is assigned to Public Works 
+Organisation or the Public Sector Undertaking, that agency shall prepare the DPR and PE. 
+For repair works costing up to Rs. 30 (thirty) lakh, preparation of DPR and PE may be 
+dispensed with, since repair work does not need detailed designing. Sanction may be 
+accorded by the competent authority based on PPR itself. 
+2.4.2 Major reasons for the problem in works contracts (in particular relating to construction 
+of roads, highways, ports, runways, dams etc. on item-rate or percentage rate basis) is the 
+out-sourcing of preparation of Detailed Project Reports to consultants without sufficient 
+relevant experience or giving them sufficient time to do so. It is therefore essential to stipulate 
+& ensure successful project design/ supervision experience while selecting consultants, 
+especially for large works contracts. DPR in such contracts is required to be based on proper 
+ground investigation at each specified stretch (normally 50 metres), called “reach”, and  the 
+Consultant be directed to exercise such due diligence.  
+2.4.3 
+The involvement of the Ministry/ Department in providing proper inputs including 
+user requirements during the preparation of the DPR and before accepting the draft DPR is 
+paramount in ensuring successful implementation. Proper field surveys and investigations of 
+ground conditions are critical in preparation of a reliable DPR. Providing scientifically valid 
+data to bidders will depend on the quality of the investigations done by the DPR consultant. 
+
+ 
+20 
+ 
+As a corollary, the Ministry/ Department must insist on a qualified team of engineers with 
+experience for carrying out DPR studies. It is also essential that the Ministry/ Department 
+insists that the Consultant offers them technology options at the early stage of preparation 
+of the DPR, so that a cost-efficient choice may be made using principles of Life Cycle 
+Costing. In case the deviations between actual ground situation and the situation recorded 
+in such DPR results in significant cost and time over-runs, the engineer, while doing valuation 
+of variations [refer to Para 6.5.1 (iii)], must bring to Procuring Entity‘s notice the reach-wise 
+differences and the Ministry/ Department may consider stringent action against the 
+consultant who has prepared such DPRs, including debarment from future consultancy 
+contracts, after following due procedure. Such clauses may be included in the contracts for 
+preparation of DPR. Wherever consultants are appointed for preparation of DPR, field units 
+of the public authorities should also be associated with the process. The inputs from these 
+field units can be useful in proposing best solutions for design and execution of the work as 
+they are the custodian of legacy data, which may not be available with the consultants, as 
+they may not be operating regularly in that geographical region. 
+2.4.4 
+Presentation may be made about the DPR before the public authority, for projects 
+above a threshold value, as decided by Project Executing Authorities. The presentation may 
+include salient features of the project including general layout, architectural drawings, broad 
+specifications, cash flow (over the life of the project), composition of the project team, quality 
+management plan for the project, important milestones in the project execution, obligations 
+of the authority and the contractor/ concessionaire (hereinafter referred to as "contractor'') 
+and possible risks and mitigation measures. In the case of very large projects such 
+presentation may be made to the head of the public authority. The record of discussions 
+during the presentation shall become part of tender file/project record. 
+2.5 
+Administrative Approval and Expenditure Sanction (A/A and E/S) 
+Administrative approval and Expenditure Sanction (A/A and E/S) will be accorded to the 
+execution of work by the competent Financial authority in the Ministry/ Department after due 
+examination of Detailed Project Report and Preliminary estimates. Post Sanction changes in 
+scope and specification lead to delay, loss of quality and contractual penalties therefore such 
+A/A and E/S shall be accorded after carefully assessing their requirements. The estimates 
+framed by a PWO or other engineering organisation may be modified for such sanction only 
+with their concurrence. 
+The sanction order should contain scope of work, estimated cost, and time schedule for 
+completion of work and funding sources along with their share. 
+Where a project as a whole has been sanctioned after scrutiny and acceptance by the Finance 
+Ministry, further concurrence of the Finance Ministry shall not be required for sanctioning 
+expenditure on the various constituent schemes included in the project. [Rule 18(1), DFPR, 
+1978] 
+2.6 
+Detailed Designs, Detailed Estimates and Technical Sanction 
+Except where the work is to be undertaken in the EPC(Turnkey) mode, on receipt of sanction 
+of the project, based on DPR or PE and assurance of funds, the procuring entity in 
+consultation with the Works Committee (as mentioned in para 3.1.4 (iv) below) shall prepare 
+and accord Technical Sanction to detailed and coordinated design of all the Architectural, 
+Civil, Electrical, Mechanical, Horticulture and any other services included in the scope of the 
+sanction and of the Detailed Cost Estimates containing the detailed specifications and 
+
+ 
+21 
+ 
+quantities of various items prepared on the basis of the schedule of rates maintained by 
+CPWD or other Public Works Organizations - so as to ensure that proposals are structurally 
+sound and that the estimates are accurately calculated based on adequate data. In case the 
+work is to be executed through a Public Works Organization or Public Sector Undertaking, 
+preparation of detailed design/ estimates and technical sanction shall be done/ accorded by 
+that organization. Architectural and structural drawings: Architectural and structural drawings 
+(fit for construction) are among the core requirements for projects. Finalization of these 
+drawings at the earliest, preferably at the time of preparation of the cost estimate itself, can 
+help to determine quantities of various items of the work. Adverse consequences of not 
+preparing these drawings before invitation of tenders may manifest in the form of delay in 
+execution of the work and deviations in quantities of the items of work. Hence, approved 
+architectural and structural drawings should be available before invitation of tenders. Fit for 
+construction (sometimes called Good for construction) drawings means the architectural and 
+structural drawings approved by the project executing authority as well as by the authority 
+governing the extant rules/ laws, including byelaws, such as local authorities. 
+2.7 
+Appropriation of funds 
+Before taking up the execution of work it shall be ensured that proper funds are available to 
+meet out the expenditure on the work. It should also be emphasized that the DPR consultant 
+is able to provide realistic year wise requirement of funds. This information is necessary so 
+that concerned Ministries/ organizations may be intimated regarding the same. This will enable 
+them to include such funds projection in their budget.  
+2.8 
+Reference Documents used in preparation of Estimates 
+For preparation of estimates and during execution of work following reference documents are 
+used by PWOs. These may be separate for different regions, various types of works - Building, 
+Electrical and Mechanical. Annexure 10 lists further resources regarding Procurement of 
+Works. 
+i) 
+Plinth Area Rates which provide a quick but fairly accurate method of estimation of 
+cost of buildings (e.g. CPWD DPAR – Delhi Plinth Area Rates). 
+ii) Schedule of Rates for each kind of work commonly executed to facilitate the 
+preparation of estimates, as also to serve as a guide in settling rates in connection with 
+contract agreements, maintained up-to-date (e.g. CPWD DSR - Delhi Schedule of 
+Rates). Endeavour may be made to enlarge the base of the 'Schedule of Rates' 
+published by various organizations to bring a maximum number of items under its 
+ambit. For non-scheduled items, rates may be finalized by a committee constituted by 
+the organization concerned/ consultants as the case may be. 
+iii) Analysis of Rates by taking market rates of labour, materials, cartage etc and their 
+quantities for each kind of work commonly executed (e.g. CPWD Analysis of Rates) 
+iv) Specifications describing inputs, processes, tests and mode of measurement for each 
+kind of work commonly executed (e.g. CPWD Specifications) 
+2.9 
+Procurement Planning 
+GFR 2017 [Rule 144 (x)] mandates that All Ministries/Departments shall prepare Annual 
+Procurement Plan within 30 (thirty) days of Budget approval, before the commencement of 
+the year and the same should also be placed on their website 
+
+ 
+22 
+ 
+Chapter 3: Agency for Procurement; Types of Contract, Bidding 
+Systems and Modes of Procurement 
+3.1 
+Agency for Procurement 
+Rule 133 of the GFR, 2017, permits Ministries/ Departments at its discretion to assign 
+execution of their original and repair works as follows:- 
+i) Directly by the Ministry/ Department 
+ii) Public Works Organisations (PWO) 
+iii) Public Sector Undertaking (PSU)/ Organisations setup to execute Works 
+3.1.1 Directly by the Ministry/ Department 
+A Ministry or Department at its discretion may directly execute repair works estimated to cost 
+up to Rupees thirty lakh after following due procedure ‘laid down for Execution of Works’ (Rule 
+139, 159 and 160 of GFR 2017). 
+3.1.2 Public Works Organisations 
+A Ministry or Department may, at its discretion, assign repair works estimated to cost above 
+Rupees thirty lakh and original works of any value to any Public Works Organisation (PWO) 
+such as Central Public Works Department (CPWD), State Public Works Department, others 
+Central Government organisations authorised to carry out civil or electrical works such as 
+Military Engineering Service (MES), Border Roads Organisation (BRO), etc. or Ministry/ 
+Department’s construction wings of Ministries of Railways, Defence, Environment & Forests, 
+Information & Broadcasting and Departments of Posts, and Space etc. 
+3.1.3 Public Works PSU/ Organisations 
+As an alternative a Ministry or Department may assign repair works estimated to cost above 
+Rupees thirty lakh and original works of any value to: 
+i) any Public Sector Undertaking set up by the Central or State Government to carry out 
+civil or electrical works or 
+ii) to any other Central/ State Government organisation/ PSU which may be notified by 
+the Ministry of Urban Development (MoUD) for such purpose after evaluating their 
+financial strength and technical competence. 
+3.1.4 Procedure for Assigning Work to PWO or PSU/ Organisations 
+i) For the assignment of work under provisions of para 3.1.3 above to PSUs, the Ministry/ 
+Department shall ensure competition among all such eligible PSUs/ organisations. 
+This competition shall be essentially on the lump sum service charges to be claimed 
+for execution of work. The award of work to a PSU should be taken as Project 
+Management Consultancy (PMC) and the concerned PSU shall be treated as 
+consultancy firm. Relevant methods (QCBS, LCS etc) for procurement of consultancy 
+will be applicable. For better understanding of selection methodology of consultant(s), 
+Rule 192 to Rule 194 of GFR 2017 and Manual for Procurement of Consultancy and 
+Other Services, 2017 may be referred. 
+
+ 
+23 
+ 
+ii) In exceptional cases, for assignment of work on nomination basis under provisions of 
+para 3.1.3 above to PSU, the conditions contained in para 3.5.7 below would apply. 
+The work under these circumstances shall also be assigned only on the basis of lump 
+sum basis. 
+iii) 18For original works and repair works entrusted under the provisions of Para 3.1.2 and 
+3.1.3 above, the administrative approval and expenditure sanction shall be accorded 
+and funds allotted by the concerned authority in accordance with the Para 1.12 (ii) 
+above. The Public Works Organisation or the Public Sector Undertaking or any 
+organisation allotted work shall then execute the work entrusted to it in accordance 
+with the rules and procedures prescribed in that organisation. 
+iv) A Memorandum of Understanding (MoU) may be drawn with the Public Works 
+Organisation or the Public Sector Undertaking for proper execution of work. The MoU 
+should spell out the obligations on the part of Public Works Organization or PSU 
+regarding execution of works as per proper specifications and for maintaining proper 
+quality and speed of execution of works. Different stages at which funds shall be 
+released to the Public Works Organization should also be clearly spelt out. Such MoU 
+would normally be for a specific standalone work, but could also be for a Project 
+consisting of a collection of related works. In case of MoU with Public work 
+Organisations (PWOs) it could also be as a long-term framework MoU. A Sample MOU 
+delineating complete procedure of assignment of work to PWO/ PSUs and its 
+monitoring is shown in Annexure 8. Procuring entity may change the MOU format 
+suiting to their requirement, and If felt necessary may also get the MOU document 
+vetted from the Ministry of Law/ or its own legal cell. 
+v) For execution of any work, under the provisions of Para 3.1.2 and 3.1.3 above, the 
+Ministry/ Department shall constitute a “Works Committee”, whether on ad hoc or 
+standing basis; comprising of representatives of administrative wing and Finance wing 
+and an officer possessing technical skills and experience of framing estimates and 
+execution of works. If need be, members may be co-opted from User Department; 
+CPWD/ Public Works Organization/ PSUs or any technically sound Government 
+agency such as a relevant NIT/ IIT or a relevant National Research Institute etc. The 
+Works Committee shall ensure observance of due process in the planning and 
+execution of works, check the reasonability of the estimates and other technical details 
+and monitor the execution of the works.  
+3.2 
+Types of Contract 
+There are different basis for linking payments to the performance of Contract (called types of 
+contracts) – each having different risks and mitigation measures. Bids are called and 
+evaluated based on the type of contract. The choice of the type of contract should be based 
+on Value-for-Money (VfM) with due regard to the nature of Work. Adoption of an inappropriate 
+type of contract could lead to a situation of lack of competition, contractual disputes and non-
+performance/ failure of the contract. Standard forms for all the types of contract mentioned 
+below are available with Public Works Organizations like CPWD and the same may be used 
+ 
+18Rule 140, GFR, 2017 
+
+ 
+24 
+ 
+for calling the tenders. Each type of contract is described briefly in subsequent paras, and 
+criteria are suggested for their adoption. Mostly used types of contracts are: 
+3.2.1 Lump sum (Fixed Price) Contract 
+i) 
+This form is used for work in which contractors are required to quote a lump sum fixed 
+price figure for completing the works in accordance with the given designs, 
+specifications and functional requirements. Bidder’s price is deemed to include all 
+elements of cost - no arithmetical correction or price adjustments are allowed during 
+evaluation and execution. Lump sum contracts are easy to administer because it is a 
+fixed price for a fixed scope and payments are linked to clearly specified outputs/ 
+milestones. 
+ii) 
+There may be tendency for the Contractor to cut corners on quality and scope of work 
+by saving on resources employed. Disputes may arise due to different possible 
+interpretations of quality and scope of work. The contract should include provision for 
+evaluation of quality and scope of work and certificate for its acceptability may be 
+recorded. 
+iii) As time is not linked to the payment, there may be tendency for the Contractor to save 
+on deployment of resources which may result in time-over-run. While the payments are 
+not linked to time, the assignment should be monitored per month to ensure that the 
+progress of work per month is in line with planned and estimated time-line. 
+iv) Lump sum service contracts should be used mainly for assignments in which the 
+quality, scope and the timing of the Work are clearly defined. Lump sum contracts may 
+be used where the Works can be defined in their full physical and qualitative 
+characteristics and risk for change in quantity or specification, and unforeseen 
+difficulties and site conditions (for example, hidden foundation problems) are minimal. 
+Thus is suitable for stereotype/ repetitive residential buildings or other structures for 
+which standard drawings are normally available. It is also suitable for minor bridge 
+works, chimneys, bins/ silos, overhead tanks, etc. whether on Department's design or 
+that of the contractor. In the latter case, the Department shall spell out the requirements 
+in detail to enable the contractor to prepare his designs and drawings accordingly, and 
+submit them to the Procuring Entity for check and approval before construction 
+v) 
+A Schedule of Rates (SOR) may still be specified in order to regulate the amounts to 
+be added to or deducted from the fixed sum on account of additions and alterations to 
+drawings, designs and specifications not covered by the contract. 
+vi) The contractor shall be paid from time to time as per the schedule specified in the 
+contract or the full amount on completion of the work. In The concept of priced “activity 
+schedules” may be used, to enable payments to be made on the basis of percentage 
+completion of each activity. The billing schedule shall commensurate with the actual 
+work done, and the risk of front-loading strictly guarded against. 
+vii) Detailed measurements of work done in a lump sum contract are not required to be 
+recorded, except in respect of additions and omissions. No reference is made in the 
+contract to the departmental estimate of the work, prevailing SOR or the quantities of 
+work to be done. Payment of additions and omissions is regulated by prevailing SOR 
+as agreed upon while approving the tender or the rates. 
+3.2.2 Item rate (Unit Rate) Contract 
+
+ 
+25 
+ 
+i) 
+For item rate tenders, contractors are required to quote rate for each individual items 
+of work on the basis of Bill of quantities (BOQ) provided by the Procuring Entity in the 
+Bid Documents. Reasonable variations in quantities can be allowed during the 
+execution in terms of the contract. This is the most commonly used contract type for 
+civil works. 
+ii) 
+The payment is made at the rate set out in the contract for the measured quantity within 
+prescribed range [usually +/- 15 (fifteen) percent per item] of the estimated quantity of 
+the initial BOQ. 
+iii) This type of contract is suitable for all types of major works such as buildings, bridges, 
+culverts, roads, sewer lines, irrigation works, and carries the least risk of uncertainty 
+for the parties. 
+iv) Specifications, design, drawings and contract conditions (including availability of land, 
+forest clearance, social and environmental impact assessment, where applicable) have 
+to be critically appraised before the initiation of procurement process, in order to 
+minimise the incidence of internal inconsistencies, variations, and situation of claims/ 
+disputes or contract failure. 
+3.2.3 Percentage Rate Contract 
+i) 
+For percentage rate contract, the contractors are required to quote rate as overall 
+percentage above or below the total estimated cost. 
+ii) 
+This type of contract works best when the work does not involve major design process 
+and directions, and simple drawings are sufficient for execution. It saves on the time 
+and effort of detailed design before the procurement process. This type of tender can 
+be used in respect of for small and routine types of original works for which estimates 
+can be made based on available schedule of rates and all repair works e.g. levelling 
+and development works including such works as storm water drainage, water supply 
+and sewer lines. 
+iii) Bills for percentage rate contracts shall be prepared at the estimated rates for individual 
+items only and the percentage excess or less shall be added or subtracted from the 
+gross amount of the bill. The payment is made for the measured quantity. Contract 
+provisions are made to determine the price of the items not included in SOR. In the 
+absence of a standard schedule of rates, a project-specific schedule of items and their 
+rates is drawn. 
+3.2.4 Piece Work Contract 
+Piece Work Contract is to be used mainly in following cases: 
+i) The cases, in which it is necessary to start the work in anticipation of formal acceptance 
+of contract, an agreement on piece work contract may be drawn and the contract may be 
+cancelled as soon as regular contract is signed. 
+ii) For running contracts i.e. those for pipes, laying of sewerage etc. quotations are called 
+periodically and a running rate contract is drawn up as a result of those quotations usually 
+for one year. The piece work contract provides for payment of stipulated rates only when 
+it refers to such quantity of time and also stipulates that the procuring entity may put an 
+end to the agreement at his option at any time. 
+3.2.5 Engineering, Procurement and Construction (EPC) Contracts 
+
+ 
+26 
+ 
+i) 
+The Engineering, Procurement and Construction (EPC) (also called ‘Design & Build’ 
+Contracts) approach relies on assigning the responsibility for investigations, design 
+and construction to the contractor for a lump sum price determined through competitive 
+bidding. The objective is to ensure implementation of the project to specified standards 
+with a fair degree of certainty relating to costs and time while transferring the 
+construction risks to the contractor. 
+ii) 
+On the recommendations of National Institution for Transforming India (NITI Aayog) 
+the Cabinet Committee on Economic Affairs (CCEA)19 has recommended that Item 
+Rate contracts may be substituted by EPC contracts wherever appropriate. 
+iii) 
+Unlike the normal practice of construction specifications, the technical parameters in 
+the EPC Agreement are based mainly on output specifications / performance 
+standards. Procuring Entity specifies only the core requirements of design and 
+construction of the project that have a bearing on the quality durability, reliability, 
+maintainability and safety of assets and enough room is left for the contractor to add 
+value. The Contractor has full freedom to design and plan the construction schedule 
+using best practices to achieve quality, durability, reliability, maintainability, and safety 
+as specified along with efficiency and economy. Projects risks such as soil conditions 
+and weather or commercial and technical risks relating to design and construction are 
+assigned to the Contractor. The Procuring Entity bears the risk for any delays in 
+handing over the land, approvals from local authorities, environment clearances, 
+shifting of utilities and approvals in respect of engineering plans. 
+iv) 
+Selection of the contractor is based on open competitive bidding. All project parameters 
+such as the contract period, price adjustments and technical parameters are to be 
+clearly stated upfront, and short-listed bidders are required to specify only the lump 
+sum price for the project. The bidder who seeks the lowest payment is awarded the 
+contract. The contract price is subject to adjustment on account of price variation during 
+the contract period as per a specified formula. It also lays down a ceiling of 10 (Ten) 
+per cent of contract price to cater for any changes in the scope of project, the cost of 
+which the Procuring Entity will bear. 
+v) 
+The selected Contractor carries out survey and investigations and also develops 
+designs and drawings in conformity with the specifications and standards laid down in 
+the Agreement. Procuring Entity's engineer (also called owner’s engineer) reviews the 
+design and drawings to ensure that these conform to the scope of the project, design 
+standards and specifications. Any comments by the Procuring Entity on the design 
+proposals submitted by the contractor are to be communicated in totality once in a 
+time-bound manner as indicated in the schedule. The contractor is free to proceed with 
+construction after the expiry of specified period in case no remarks/ clearances are 
+given by the Procuring Entity. 
+vi) 
+The Contractor is liable to pay Liquidated Damages for each day of delay beyond the 
+specified date of completion, subject to the total amount of Damages not exceeding 10 
+(ten) per cent of the Contract Price. However, the Contractor is entitled to time 
+extension arising out of delays on account of change of scope and force majeure or 
+delays caused by or attributable to the Procuring Entity. If so provided in the Bid 
+ 
+19Niti Aayog OM No. N-14070/14/2016-PPPAU dated September 05, 2016 
+
+ 
+27 
+ 
+Document, Procuring Entity is also liable to pay bonus (normally should not exceed ten 
+percent) to the Contractor for completion of the project before the scheduled 
+completion date, if so provided in the contract documents. 
+vii) 
+Monitoring and supervision of construction are undertaken through Procuring Entity’s 
+engineer, (a qualified firm that will be selected through a transparent process) acting 
+as a single window for coordination with the contractor. 
+viii) 
+Each item of work is further sub-divided into stages and payment based on output 
+specifications and performance standard is to be made for each completed stage of 
+work. Defects liability period of two years may be specified in the Agreement in order 
+to provide additional comfort to the Procuring Entity. 
+ix) 
+Federation Internationale Des Ingénieurs-Conseils (FIDIC - an International Federation 
+of Consulting Engineers, known by its French acronym) has also published such 
+contractual frameworks. Model EPC contract documents have been developed for 
+Highways and Railways and published by the erstwhile Planning Commission. National 
+Highways Authority of India (NHAI) has already adopted these documents and all 
+construction contracts are currently being structured on this model. Ministry of 
+Railways has also started using such documents. Model bidding documents and Model 
+EPC contracts suitably revisited or modified wherever required to suit the requirements 
+of particular sectors, may be adopted. 
+x) 
+The selected Procuring Entity’s Engineer (Consultant) has to have good experience in 
+design, project supervision and works management. The Procuring Entity organisation 
+must have an experienced team with (works committee) to super check the quality of 
+supervision exercised by the owner’s engineer, including quality of design review, site 
+supervision, quality audits, etc. Periodic audits of the Procuring Entity’s Engineer 
+functioning are desirable in ensuring that the Procuring Entity’s Engineer carries out 
+his tasks professionally. 
+xi) 
+In complex projects, a third party consultant be deployed for specific tasks like design 
+audit, quality audits, safety audits, etc., to cross-check the Procuring Entity’s 
+Engineer’s diligence in the process. 
+xii) In EPC contracts, since primary responsibility to execute the work lies with the EPC 
+contractor, success of the project also depends upon the quality of the tender document 
+wherein enough clarity on the broad framework for execution of the work and the 
+obligations of the contractor needs to be built in.  
+xiii) Milestones for payment to the contractor should be fixed in a manner that facilitates smooth 
+cash flow for the contractor as well as for progress of the work. Milestones fixed should 
+avoid excessive front loading or back loading, i.e., amount of payment should be 
+commensurate with stage-wise quantum of work/ cost incurred. Milestones for payment to 
+the contractor should also be linked with the deliverables. 
+xiv) 
+In case of EPC contracts, only general arrangement drawings and architectural control 
+parameters should be part of the PEC tender document. In case of EPC contracts, 
+timelines for submission of drawings by the contractors and approval thereof by the 
+competent authority should be clearly prescribed in the tender document, wherein, 
+damages for non-adherence of such timelines ins this regard may also be incorporated. 
+xv) EPC contracts shall specify broad technical specification and key output parameters. 
+Over-specification of design may lead to increase in cost. Technical specifications shall be
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

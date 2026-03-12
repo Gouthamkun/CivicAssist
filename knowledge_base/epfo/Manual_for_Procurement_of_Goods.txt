@@ -1,0 +1,2329 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[Procurement of Goods Manual (Updated June, 2022)]
+
+[CONTENT]
+Manual for Procurement 
+of 
+Goods 
+(Updated June, 2022) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Government of India 
+Ministry of Finance 
+Department of Expenditure 
+ 
+ 
+
+ 
+ 
+ii 
+ 
+ 
+
+
+ 
+ 
+iv 
+ 
+ 
+ 
+
+FOREWORD
+1.	
+Government organizations procure a wide variety of goods and services and undertake 
+execution of works in pursuance of their duties and responsibilities. With a view to 
+improving transparency in decision making in public procurement and reducing the 
+scope for subjectivity, Department of Expenditure in 2006 had prepared a set of three 
+Manuals on Policies and Procedures for Procurement of Goods, Works and hiring of 
+Consultants, in conformity with the General Financial Rules (GFR), 2005. Over the years, 
+these Manuals have served as a guide book for procurement. 
+2.	
+In the last few years, the Government of India has issued new instructions in the domain 
+of public procurement. Some of these important changes include introduction of Central 
+Public Procurement Portal (CPPP), Government e-Marketplace (GeM), preferential market 
+access for micro and small enterprises, preference for domestic manufacturers of electronic 
+goods, inclusion of integrity pact, etc. The GFR has been revised comprehensively in 
+March 2017 covering inter-alia these set of new instructions. Consequently the Manual 
+of Procurement too has been revised after a decade and within a month of the release 
+of GFR 2017.
+3.	
+The new Manual on Procurement of Goods has been extensively revised in keeping with 
+GFR 2017 and in consonance with the fundamental principles of transparency, fairness, 
+competition, economy, efficiency and accountability. Efforts have been made to cover 
+all major aspects of procurement in this Manual in a user-friendly manner. The manual is 
+the outcome of extensive consultations in two stages with Ministries/Departments/PSUs 
+and other organizations over a period of six months.
+4.	
+Manuals issued by this Department are to be taken as generic guidelines, which have 
+to be necessarily broad in nature. Ministries/Departments are advised to supplement 
+this manual to suit their local/specialized needs, by issuing their own detailed 
+manuals (including customized formats); Standard Bidding Documents and Schedule of 
+Procurement Powers to serve as detailed instructions for their own procuring officers.
+5.	
+I would like to acknowledge the lead taken by Dr. Vivek Joshi, Joint Secretary, DoE and 
+dedicated efforts of Shri Sanjay Aggarwal, Director (PPD), Shri Vinayak T. Likhar, Under 
+Secretary(PPD) and Shri Girish Bhatnagar, Consultant (Public Procurement) in revision of 
+this Manual. I would also like to thank Ministries, Departments, other organisations and 
+individuals who reviewed the drafts of the Manual and provided their valuable inputs.  
+6.	
+I hope that this Manual would be useful to procuring officials working in various Ministries/
+Departments as operating instructions and will bring about greater transparency and 
+predictability in government procedures and help in improving the ease of doing Business 
+with Government.
+(Ashok Lavasa)
+Date : 05.04.2017	
+Finance Secretary
+v
+
+ 
+ 
+vi 
+ 
+ 
+ 
+
+ 
+ 
+ 
+vii 
+Disclaimer 
+While every care has been taken to ensure that the contents of this manual are accurate and 
+up to date till June 2022, the procuring entities are advised to check the precise current 
+provisions of law and other applicable instructions from the original sources. In case of any 
+conflict between the provisions stipulated in this manual and in the original source such as 
+GFR or the prevailing laws, the provisions contained in the extant law and the original 
+instructions shall prevail.  
+ 
+ 
+ 
+ 
+
+ 
+ 
+viii 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ix 
+Table of Contents 
+FOREWORD ........................................................................................................................... iii 
+Disclaimer ............................................................................................................................... vii 
+Abbreviations and Acronyms ................................................................................................. xiv 
+Procurement Glossary .......................................................................................................... xvii 
+Chapter 1: Introduction – Policies and Principles .................................................................... 1 
+1.1 Procurement Rules and Regulations; and this Manual ............................................ 1 
+1.2 Clarification, Amendments and Revision of this Manual .......................................... 1 
+1.3 Applicability of this Manual ....................................................................................... 2 
+1.4 Authorities competent to purchase goods and their Purchase Powers ................... 3 
+1.5 Basic Aims of Procurement – the Five R’s of Procurement ..................................... 3 
+1.6 Refined Concepts of Cost and Value – Value for Money ........................................ 4 
+1.7 Fundamental Principles of Public Procurement ....................................................... 4 
+1.8 Standards (Canons) of Financial Propriety ............................................................ 13 
+1.9 Public Procurement Infrastructure at the Centre .................................................... 14 
+1.10 Product Reservation and Preferential/Mandatory Purchase from certain sources 15 
+1.11 Proactive Information Disclosures ......................................................................... 25 
+1.12 Public Procurement Cycle ...................................................................................... 26 
+Chapter 2: Need assessment, formulation of Specifications and Procurement Planning ..... 27 
+2.1 Need Assessment .................................................................................................. 27 
+2.2 Formulation of Technical specifications (TS) ......................................................... 29 
+2.3 Obtaining Technical, Administrative and Budgetary Sanctions/ Approvals and signing 
+of Indents ....................................................................................................................... 33 
+2.4 Procurement Planning ........................................................................................... 34 
+Chapter 3: Supplier Relationship Management ..................................................................... 36 
+3.1 Supplier Relationship Management ....................................................................... 36 
+3.2 Code of Integrity for Public Procurement (CIPP) ................................................... 36 
+3.3 Integrity Pact (IP) ................................................................................................... 39 
+3.4 Development of New Sources and Registration of Suppliers ................................ 41 
+3.5 Debarment of Suppliers ......................................................................................... 46 
+3.6 Compulsory Enlistment of Indian Agents ............................................................... 50 
+Chapter 4: Modes of Procurement and Bidding Systems ...................................................... 51 
+4.1 Modes of Procurement ........................................................................................... 51 
+4.2 Open Tender Enquiry(OTE) ................................................................................... 51 
+4.3 Global Tender Enquiry(GTE) ................................................................................. 53 
+4.4 Limited Tender Enquiry(LTE) ................................................................................. 58 
+4.5 Special Limited Tender Enquiry for Procurements More than Rs. 25 (Rupees twenty-
+five) Lakh ....................................................................................................................... 60 
+4.6 Proprietary Article Certificate ................................................................................. 61 
+
+ 
+ 
+ 
+x 
+4.7 Single Tender Enquiry (STE) without a PAC ......................................................... 62 
+4.8 Drawals against Rate Contract (RC)/Framework Contract (FC) ............................ 63 
+4.9 Direct Procurement without Quotation ................................................................... 66 
+4.10 Direct Procurement by Purchase Committee ......................................................... 67 
+4.11 Purchase through Central Purchase Organisation or other Organizations ............ 68 
+4.12 Bidding Systems .................................................................................................... 69 
+4.13 Single Stage Bidding System ................................................................................. 70 
+4.14 Two Stage Bidding - Expression of Interest Tenders – Market Exploration .......... 73 
+4.15 Electronic Procurement (e-Procurement) .............................................................. 76 
+4.16 Electronic Reverse Auction (RA) ........................................................................... 77 
+4.17 One Stop Government e-Marketplace (GeM) ........................................................ 78 
+Chapter 5: Preparing bid documents, publication, receipt and opening of bids .................... 91 
+5.1 Preparation of Bid Documents ............................................................................... 91 
+5.2 Receipt and Custody of Tenders ......................................................................... 100 
+5.3 Procedures to be followed during Bid Opening .................................................... 102 
+Chapter 6: Forms of Securities, Payment Terms and Price Variations ............................... 105 
+6.1 Forms of Security ................................................................................................. 105 
+6.2 Payment Clause ................................................................................................... 108 
+6.3 Terms of Payment for Domestic Goods ............................................................... 110 
+6.4 Terms of Payment for Imported Goods ................................................................ 111 
+6.5 Advance Payment ................................................................................................ 113 
+6.6 Firm Price vis-à-vis Variable Price ....................................................................... 114 
+6.7 Exchange Rate Variation ..................................................................................... 116 
+6.8 Taxes, Duties and Levies ..................................................................................... 116 
+6.9 Incoterms Terms of Delivery ................................................................................ 118 
+6.10 e-Payment ............................................................................................................ 119 
+6.11 Deduction of Income Tax, Service Tax, and so on, at Source from Payments to 
+Suppliers ...................................................................................................................... 120 
+6.12 Recovery of Public Money from Supplier's Bill .................................................... 120 
+6.13 Refund from Supplier ........................................................................................... 120 
+6.14 Payment against Time Barred Claims ................................................................. 120 
+Chapter 7: Evaluation of Bids and Award of Contract ......................................................... 121 
+7.1 Tender Evaluation ................................................................................................ 121 
+7.2 Preparation and Vetting of Comparative Statement ............................................ 122 
+7.3 Preliminary Examination ...................................................................................... 122 
+7.4 Evaluation of Responsive Bids and Decision on Award of Contract ...................... 124 
+7.5 Deliberations by the Tender Committee for Award of Contract. .......................... 127 
+7.6 Award of Contract ................................................................................................ 135 
+Chapter 8: Rate Contract and other Procurements with special features ........................... 141 
+8.1 Rate Contracts ..................................................................................................... 141 
+
+ 
+ 
+ 
+xi 
+8.2 Handling Procurement in urgencies/ Emergencies and Disaster Management .. 144 
+8.3 Buy Back Offer ..................................................................................................... 144 
+8.4 Capital Goods/ Equipment (Machinery and Plant – M&P) ................................... 144 
+8.5 Turnkey Contract ................................................................................................. 145 
+8.6 Annual Maintenance Contract (AMC) .................................................................. 145 
+Chapter 9: Contract Management ....................................................................................... 148 
+9.1 Contract Management ......................................................................................... 148 
+9.2 Amendment to the Contract ................................................................................. 148 
+9.3 Operation of Option Clause ................................................................................. 149 
+9.4 Safeguards for Handing over Procuring Entity Materials/Equipment to Contractors150 
+9.5 Payments to the Contractor and Handling of Securities ...................................... 151 
+9.6 Monitoring of Supplier Performance .................................................................... 151 
+9.7 Delays in Performance of Contract ...................................................................... 151 
+9.8 Breach of Contract, Remedies and Termination .................................................. 156 
+9.9 Dispute Resolution ............................................................................................... 158 
+9.10 Closure of Contract .............................................................................................. 160 
+9.11 Goods Receiving .................................................................................................. 161 
+9.12 Quality Assurance and Inspection ....................................................................... 162 
+9.13 Storage and Issue of Inspected Goods ................................................................ 169 
+9.14 Accounting and Payment of Received Materials ................................................. 169 
+Chapter 10: Disposal of Scrap Goods ................................................................................. 172 
+10.1 Scrap for Disposal ................................................................................................ 172 
+10.2 Classification and Categorisation ......................................................................... 172 
+10.3 Survey of Materials for Classifying as Scrap for Disposal ................................... 172 
+10.4 Modes of Disposal ............................................................................................... 173 
+10.5 Preparation for Disposal ...................................................................................... 174 
+10.6 Conditions of Disposal Applicable to all Modes of Disposal ................................ 174 
+10.7 Disposal through Tender ...................................................................................... 175 
+10.8 Disposal through Auction ..................................................................................... 177 
+10.9 Disposal at scrap value or by other modes .......................................................... 177 
+10.10 
+Delivery of Sold Material ................................................................................ 178 
+10.11 
+ Procedure for Adjustment of Sale Proceeds in the Books of Accounts ........ 180 
+Annexure 1: Procurement Guidelines .................................................................................. 182 
+Annexure 2A: Delegation of Financial Powers – Indents, Contracts and Purchases for public 
+service ................................................................................................................................. 183 
+Annexure 2B: Powers for Incurring Contingent Expenditure ............................................... 184 
+Annexure 2C: Suggested Structure of Schedule of Procurement Powers (SoPP) ............. 185 
+Annexure 2D: Format for seeking the approval of the Competent Authority for inviting Global 
+Tender Enquiry for procurements less than Rs. 200 crores ................................................ 188 
+
+ 
+ 
+ 
+xii 
+Annexure 2E: List of Medical Devices and IVDs, where local manufacturers are not 
+available, as on 17.12.2021 (as verified with the Medical Devices Manufacturing 
+Associations) ....................................................................................................................... 191 
+Annexure 2F: Model Clause/ Certificate to be inserted in tenders etc. w.r.t Order (Public 
+Procurement No.1) .............................................................................................................. 194 
+Annexure 3: Purchase Requisition (Indent) for Goods (Non-stock) .................................... 197 
+Annexure 4A: Purchase Requisition Register for Indenters ................................................ 198 
+Annexure 4B: Purchase Requisition Register for Procuring Entity ...................................... 199 
+Annexure 5: Limited Tender Form ....................................................................................... 200 
+Annexure 6: Proprietary Article Certificate .......................................................................... 202 
+Annexure 7: Purchase without Quotation Format ................................................................ 203 
+Annexure 8: Purchase Committee Certificate Format ......................................................... 204 
+Annexure 9: Sample Prequalification Criteria ...................................................................... 205 
+Annexure 10: Bid Opening Attendance Sheet cum Report ................................................. 208 
+Annexure 11: Tender Committee Minutes Format .............................................................. 209 
+Annexure 12: Invitation and Declaration for Negotiations ................................................... 211 
+Annexure 13: Format of Revised Offer in Negotiations ....................................................... 212 
+Annexure 14: Letter (Notification) of Award (LoA) of Contract ............................................ 213 
+Annexure 15: Example of Formula for Price Variation Clause ............................................ 214 
+Annexure 16: Incoterms ...................................................................................................... 216 
+Annexure 17: Progress of Supply Order Register ............................................................... 217 
+Annexure 18: Proposal for Extension of Delivery Period ..................................................... 218 
+Annexure 19: Format for Extension of Delivery Period/Performance Notice ....................... 219 
+Annexure 20: Model Format for Correspondence with Supplier after Expiry of Delivery Date
+ ............................................................................................................................................. 221 
+Annexure 21: No Claim Certificate ...................................................................................... 222 
+Annexure 22: Goods Receipt and Inspection Report .......................................................... 223 
+Annexure 23: Pay Order Form ............................................................................................ 224 
+Annexure 24: Survey Committee’s Report .......................................................................... 225 
+Annexure 25: Sale Account for Goods Disposed ................................................................ 226 
+Annexure 26: Deleted .......................................................................................................... 227 
+Annexure 27: List of Medicines Reserved for procurement from Pharma CPSEs .............. 228 
+Annexure 28 Deleted ........................................................................................................... 231 
+APPENDIX ................................................................................................................... 232 
+Appendix 1: Advanced Concepts of Value for Money ......................................................... 233 
+1.0 The Concept of Value .......................................................................................... 233 
+2.0 Total Cost of Ownership ...................................................................................... 233 
+3.0 Value for Money ................................................................................................... 234 
+Appendix– 2: Legal Aspects of Public Procurement ............................................................ 235 
+1.0 Relevant Provisions of the Constitution of India .................................................. 235 
+
+ 
+ 
+ 
+xiii 
+2.0 Salient Features of the Indian Contract Act ......................................................... 236 
+3.0 Salient Features of the Sales of Goods Act, 1930 ............................................... 242 
+4.0 Salient Features of the Indian Arbitration & Conciliation Act 1996 ...................... 243 
+5.0 Salient Features of Competition Act, 2002 relating to Anti-competitive Practices 247 
+6.0 Salient Features of the Whistle Blowers Protection Act, 2011 and the Whistle Blowers 
+Protection (Amendment) Act, 2015 .............................................................................. 250 
+Appendix 3: Electronic Procurement (e-Procurement) and e-Auction ................................. 253 
+1.0 Electronic procurement (e-procurement) ............................................................. 253 
+2.0 Service Provider: .................................................................................................. 253 
+3.0 Process: ............................................................................................................... 253 
+4.0 Disposal through e-Auction .................................................................................. 255 
+Appendix 4: Management of Public Procurement Function ................................................ 260 
+1.0 Organisation of Procurement Function ................................................................ 260 
+2.0 Management Reporting ....................................................................................... 260 
+3.0 Record Keeping ................................................................................................... 261 
+Appendix 5: Templates for Management Reports and KPIs ............................................... 262 
+ 
+
+ 
+ 
+ 
+xiv 
+Abbreviations and Acronyms 
+AMC Annual Maintenance Contract 
+ACASH 
+Association of Corporations 
+and Apex Societies of Handlooms 
+AITB Additional Instructions to Bidders 
+(may in some instances be called 
+Bid Data Sheet – BDS or Tender 
+Information Sheet -TIS) 
+AMC Annual Maintenance Contract 
+BC 
+Bill Currency (selling/ buying) 
+BEE 
+Bureau of Energy Efficiency 
+BG 
+Bank Guarantee 
+BIS 
+Bureau of Indian Standards 
+BOC 
+Bid Opening Committee 
+BSTC Buyer Specific Terms & Conditions 
+BSV 
+Balance Sale Value 
+C&AG Comptroller and Auditor General 
+(of India) 
+CA 
+Competent Authority 
+CAPEX 
+Capital Expenditure (model 
+of acquisition/ procurement) 
+CBI 
+Central Bureau of Investigation 
+CCI 
+Competition Commission of India 
+CFR 
+Cost and Freight 
+CHA 
+Custom House Agent 
+CIF 
+Cost Insurance and Freight 
+CIP 
+Carriage and Insurance Paid 
+CIPP Code of Integrity for Public 
+Procurement 
+CMC Comprehensive Maintenance 
+Contract 
+COMPAT 
+Competition Appellate 
+Tribunal 
+COTS Commercially Off The Shelf (Items) 
+CPCB Central Pollution Control Board 
+CPO 
+Central Purchasing Organizations 
+CPPP Central Public Procurement Portal 
+CPSE Central Public Sector Enterprise 
+CRAC Consignee Receipt and 
+Acceptance Certificate 
+CST 
+Central Sales Tax  
+CVC 
+Central Vigilance Commission 
+CVO 
+Chief Vigilance Officer 
+DCF 
+Discounted Cash Flow 
+DDO Direct Demanding Officer (for RCs) 
+DFPR Delegation of Financial Power 
+DGS&D 
+Directorate General of 
+Supplies and Disposals 
+DPIIT Department for Promotion of 
+Industry and Internal Trade 
+DSC 
+Digital Signature Certificate 
+eASP E-Auction Service Provider 
+ECS 
+Electronic Clearing System 
+EFT 
+Electronic Funds Transfer 
+EMD Earnest Money Deposit 
+EoI 
+Expression of Interest (Tender) 
+EPM 
+Export Promotion and Marketing  
+ERV 
+Exchange Rate Variation 
+EXIM Export Import (Policy) 
+FA (&CAO) 
+Financial Adviser (and 
+Chief Accounts Officer) 
+FAS 
+Free Alongside Ship 
+FC 
+Framework Contract 
+FEMA Foreign Exchange Management 
+Act 
+FM 
+Force Majeure 
+FOB 
+Free On Board 
+FOR 
+Free On Rail 
+
+ 
+ 
+ 
+xv 
+FOT 
+Free On Truck 
+GCC General Conditions of Contract 
+GCS 
+General Conditions of Sale 
+GeM 
+Government Electronic Market 
+GeMAR&PTS  GeM Availability Report 
+and Past Transaction Summary 
+GFR 
+General and Financial Rules, 2017 
+GoI 
+Government of India 
+GRIR Goods Receipt and Inspection 
+Report 
+GTC 
+General Terms & Conditions 
+GTE 
+Global Tender Enquiry 
+HOD Head of the Department 
+IEM 
+Independent External Monitor 
+INCOTERMS International Commercial 
+Terms 
+IP 
+Integrity Pact 
+IRDA Insurance Regulatory and 
+Development Authority 
+ISI 
+Indian Standards Institute  
+ISO 
+International Organization for 
+Standardization 
+ITB 
+Instructions to Bidders (may in 
+some instance be called 
+Instructions to Tenderers - ITT) 
+ITJ 
+Indian Trade Journal 
+JLG 
+Joint Liability Group 
+KPIs 
+Key Performance Indices 
+KVIC Khadi and Village Industries 
+Commission 
+L1 
+Lowest Bidder 
+LC 
+Letter of Credit 
+LCC 
+Life Cycle Costing 
+LD 
+Liquidated Damages 
+LoA 
+Letter (Notification) of Award also 
+called Acceptance of Tender (A/T) 
+LPP 
+Last Purchase Price 
+LTE 
+Limited Tender Enquiry 
+M&P Machinery and Plant 
+MeitY Ministry of Electronics and 
+Information Technology 
+MoEF Ministry of Environment and 
+Forests 
+MRP Maximum Retail Price 
+MSE 
+Micro and Small Enterprise 
+MSME(D) 
+Micro Small and Medium 
+Enterprises (Development Act, 2006) 
+MSTC Metal Scrap Trading Corporation 
+NEFT National Electronic Funds Transfer 
+NIC 
+National Informatics Centre 
+NIT 
+Notice Inviting Tender 
+NSIC National Small Industries 
+Corporation 
+NTH 
+National Test House 
+OEM Original Equipment Manufacturer 
+OES 
+Original Equipment Suppliers 
+OPEX Operating Expense (model of 
+acquisition/ procurement)  
+OPMs Original Parts Manufacturers 
+OTE 
+Open Tender Enquiry 
+PAC 
+Proprietary Article Certificate 
+PBG 
+Performance Bank Guarantee, also 
+see SD 
+PC 
+Producer Companies 
+PPD 
+Procurement Policy Division, 
+Department of Expenditure, 
+Ministry of Finance 
+PPP 
+Public Private Partnership 
+PPP-MII 
+Public Procurement 
+(Preference to Make in India), Order 
+PQB 
+Pre-qualification Bidding 
+PQC 
+Pre-qualification Criterion 
+
+ 
+ 
+ 
+xvi 
+PR 
+Purchase Requisition/ Indent 
+PSU 
+Public Sector Undertaking 
+PVC 
+Price Variation Clause 
+QA 
+Quality Assurance  
+RA/ eRA 
+Electronic Reverse Auction 
+RBI 
+Reserve Bank of India 
+RC 
+Rate Contract (or Framework 
+Contract FC) 
+(S)RfP (Standard) Request for Proposals 
+(Document) 
+RTGS Real Time Gross Settlement 
+RTI 
+Right to Information  
+SBD 
+Standard Bidding Document 
+SC 
+Survey Committee 
+SCC 
+Special Conditions of Contract 
+SD 
+Security Deposit, also see PBG 
+SHG 
+Self Help Group 
+SLA 
+Service Level Agreement 
+SLTE Special Limited Tender (Enquiry) 
+SoPP Schedule of Procurement Powers  
+SPCB State Pollution Control Board 
+STA 
+Subject to Acceptance 
+STC 
+Special Terms &Conditions 
+STE 
+Single Tender Enquiry 
+TC 
+Tender Committee also called 
+Tender Purchase or Evaluation 
+Committee (TPC/ TEC) 
+TCO 
+Total Cost of Ownership 
+TCS 
+Tax Collected at Source 
+TDS 
+Tax Deducted at Source 
+ToR 
+Terms of Reference 
+TS 
+Technical Specification 
+UAM Udyam Aadhaar Memorandum 
+UCP 600 
+The Uniform Customs and 
+Practice for Documentary Credits 
+(UCPDC or simply UCP) 
+UNCITRAL 
+United Nations Commission 
+on International Trade Law 
+URC Udyam Registration Certificate 
+URDG 758 
+Uniform Rules for Demand 
+Guarantees 
+VAT 
+Value Added Tax 
+VfM 
+(Best) Value for Money 
+WOL Whole of Life (Cost) or Total Cost 
+of Ownership TCO 
+ 
+ 
+ 
+
+ 
+ 
+ 
+xvii 
+Procurement Glossary 
+In this Manual and in the ‘Procurement Guidelines’, unless the context otherwise requires1: 
+i) 
+"Bid" (including the term ‘tender’, ‘offer’, ‘quotation’ or ‘proposal’ in certain contexts) 
+means an offer to supply goods, services or execution of works made in accordance 
+with the terms and conditions set out in a document inviting such offers; 
+ii) 
+"Bidder" (including the term ‘tenderer’, ‘consultant’ or ‘service provider’ in certain 
+contexts) means any eligible person or firm or company, including a consortium (that 
+is an association of several persons, or firms or companies), participating in a 
+procurement process with a procuring entity; 
+iii) 
+"(Standard) Bid(ding) documents" (including the term ‘tender (enquiry) documents’ or 
+‘Request for Proposal Documents’ – RfP documents in certain contexts) means a 
+document issued by the procuring entity, including any amendment thereto, that sets 
+out the terms and conditions of the given procurement and includes the invitation to 
+bid. A Standard (Model) Bidding Document is the standardised template to be used 
+for preparing Bidding Documents after making suitable changes for specific 
+procurement; 
+iv) 
+"Bidder registration document" means a document issued by a procuring entity, 
+including any amendment thereto, that sets out the terms and conditions of 
+registration proceedings and includes the invitation to register; 
+v) 
+"Bid security" (including the term ‘Earnest Money Deposit’(EMD), in certain contexts) 
+means a security from a bidder securing obligations resulting from a prospective 
+contract award with the intention to avoid: the withdrawal or modification of an offer 
+within the validity of the bid, after the deadline for submission of such documents; 
+failure to sign the contract or failure to provide the required security for the 
+performance of the contract after an offer has been accepted; or failure to comply 
+with any other condition precedent to signing the contract specified in the solicitation 
+documents.; 
+vi) 
+“Central Public sector enterprise” means a body incorporated under the Companies 
+Act or established under any other Act and in which the Central Government or a 
+Central enterprise owns more than 50 per cent of the issued share capital;  
+vii) 
+"Central Purchase Organisation" means a procuring entity which is authorised by the 
+Government of India by an order, made in this behalf, to make procurement for one 
+or more procuring entitiesHowever, Government can authorise other Organisations 
+for specific categories of materials; 
+viii) 
+“Class-I local supplier” means a supplier or service provider, whose goods, services 
+or works offered for procurement, meet the minimum local content as prescribed for 
+‘Class-I local supplier’ under the Public Procurement (Preference to Make in India), 
+Order 20172; 
+ix) 
+“Class-II local supplier” means a supplier or service provider, whose goods, services 
+or works offered for procurement, meets the minimum local content as prescribed for 
+ 
+ 
+1 The main preferred term is within the inverted commas. Alternative equivalent terms used in certain contexts, 
+if any, are listed in the brackets. Text within brackets is not considered for sort-order of terms. 
+2Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+ 
+ 
+ 
+xviii 
+‘Class-II local supplier’ but less than that prescribed for ‘Class-I local supplier’ under 
+the Public Procurement (Preference to Make in India), Order 20173; 
+x) 
+“Competent authority” means the officer(s) who finally approves the decision. 
+xi) 
+“Consultancy services” means a one-off (that is, not repetitive and not routine) 
+services, involving project specific intellectual and procedural processes using 
+established technologies and methodologies but the outcomes – which are primarily 
+of non-physical nature – may not be standardised and would vary from one 
+consultant to another. It may include small works or supply of goods which are 
+incidental or consequential to such services; 
+xii) 
+“e-Procurement” means the use of information and communication technology 
+(specially the internet) by the procuring entity in conducting its procurement 
+processes with bidders for the acquisition of goods (supplies), works and services 
+with the aim of open, non-discriminatory and efficient procurement through 
+transparent procedures;  
+xiii) 
+"Goods" includes all articles, material, commodity, livestock, medicines, furniture, 
+fixtures, raw material, consumables, spare parts, instruments, machinery, equipment, 
+industrial plant, vehicles, aircrafts, ships, railway rolling stock assemblies, sub-
+assemblies, accessories, a group of machines comprising an integrated production 
+process or such other categories of goods or intangible, products like technology 
+transfer, licenses, patents or other intellectual properties (but excludes books, 
+publications, periodicals, etc., for a library), procured or otherwise acquired by a 
+procuring entity. Procurement of goods may include certain  small work or some 
+services, which are incidental or consequential to the supply of such goods, such as 
+transportation, insurance, installation, commissioning, training and maintenance; 
+xiv) 
+“Indenter” ( or the term ‘User (Department)’ in certain contexts) means the entity and 
+its officials initiating a procurement indent, that is, a request to the procuring entity to 
+procure goods, works or services specified therein; 
+xv) 
+“Inventory” means any material, component or product that is held for use at a later 
+time; 
+xvi) 
+"Invitation to (pre-)qualify" means a document including any amendment thereto 
+published by the procuring entity inviting offers for pre-qualification from prospective 
+bidders; 
+xvii) 
+"Invitation to register" means a document including any amendment thereto 
+published by the procuring entity inviting offers for bidder registration from 
+prospective bidders; 
+xviii) 
+“Local Content” means the amount of value added in India which shall, unless 
+otherwise prescribed by the Nodal Ministry, be the total value of the item procured 
+(excluding net domestic indirect taxes) minus the value of imported content in the 
+item (including all customs duties) as a proportion of the total value, in percent4. 
+ 
+ 
+3Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+4Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+ 
+xix 
+xix) 
+“Non-consultancy services” includes services of physical and procedural nature and 
+are bid and contracted on the basis of performance of a measurable physical output, 
+and for which performance standards can be clearly identified and consistently 
+applied such as drilling, aerial photography, satellite imagery, mapping and similar 
+operations. It may include small works or supply of goods which are incidental or 
+consequential to such services; 
+xx) 
+“Non-Local supplier” means a supplier or service provider, whose goods, services or 
+works offered for procurement, has local content less than that prescribed for ‘Class-
+II local supplier’ under the Public Procurement (Preference to Make in India), Order 
+20175; 
+xxi) 
+" Notice inviting tenders" (including the term ‘Invitation to bid’ or ‘request for 
+proposals’ in certain contexts) means a document and any amendment thereto 
+published or notified by the procuring entity, which informs the potential bidders that it 
+intends to procure goods, services and/or works.; 
+xxii) 
+"Pre-qualification (bidding) procedure" means the procedure set out to identify, prior 
+to inviting bids, the bidders that are qualified to participate in the procurement; 
+xxiii) 
+"Pre-qualification document" means the document including any amendment thereto 
+issued by a procuring entity, which sets out the terms and conditions of the pre- 
+qualification bidding and includes the invitation to pre-qualify; 
+xxiv) 
+"Procurement" or "public procurement" (or ‘Purchase’, or ‘Government Procurement/ 
+Purchase’ in certain contacts) means acquisition by way of purchase, lease, license 
+or otherwise, either using public funds or any other source of funds (e.g. grant, loans, 
+gifts, private investment etc.) of goods, works or services or any combination thereof, 
+including award of Public Private Partnership projects, by a procuring entity, whether 
+directly or through an agency with which a contract for procurement services is 
+entered into, but does not include any acquisition of goods, works or services without 
+consideration, and the term "procure" or "procured" shall be construed accordingly; 
+xxv) 
+"Procurement contract" (including the terms ‘Purchase Order’ or ‘Supply Order’ or 
+‘Withdrawal Order’ or ‘Work Order’ or ‘Consultancy Contract’ or ‘Contract for 
+Services’ under certain contexts), means a formal legal agreement in writing relating 
+to the subject matter of procurement, entered into between the procuring entity and 
+the supplier, service provider or contractor on mutually acceptable terms and 
+conditions and which are in compliance with all the relevant provisions of the laws of 
+the country. The term “contract” will also include “rate contract’ and “framework 
+contract”; 
+xxvi) 
+“(Public) 
+Procurement 
+Guidelines” 
+means 
+guidelines 
+applicable 
+to 
+Public 
+Procurement, consisting of under relevant context a set of – i) Statutory Provisions 
+(The Constitution of India; Indian Contract Act, 1872; Sales of Goods Act, 1930; and 
+other laws as relevant to the context); ii) Rules & Regulations (General Financial 
+Rules, 2017; Delegation of Financial Power Rules and any other regulation so 
+declared by the Government); iii) Manuals of Policies and Procedures for 
+Procurement (of Goods; Works; Consultancy Services or any for other category) 
+ 
+ 
+5Notified vide Order No. P-45021/2/2017-PP (BE-II) issued by Department of Promotion of Industry and 
+Internal Trade dated 16.09.2020 
+
+ 
+ 
+ 
+ 
+ 
+xx 
+promulgated by the Ministry of Finance and iv) Procuring Entity’s Documents relevant 
+to the context (Codes, Manuals and Standard/ Model Bidding Documents);  
+xxvii) "Procurement process" means the process of procurement extending from the 
+assessment of need; issue of invitation to pre-qualify or to register or to bid, as the 
+case may be; the award of the procurement contract; execution of contract  till 
+closure of the contract; 
+xxviii) “Procuring authority” means the officer who finally approves as well as those officials 
+and committee members who submit the notes/reports for the approval for any 
+decision.  
+xxix) 
+"Procuring entity" means any Ministry or Department of the Central Government or a 
+unit thereof or its attached or subordinate office to which powers of procurement 
+have been delegated; 
+xxx) 
+"Prospective bidder" means anyone likely or desirous to be a bidder; 
+xxxi) 
+"Public Private Partnership" means an arrangement between the central, a statutory 
+entity or any other Government-owned entity, on one side, and a private sector entity, 
+on the other, for the provision of public assets or public services or both, or a 
+combination thereof, through investments being made or management being 
+undertaken by the private sector entity, for a specified period of time, where there is 
+predefined allocation of risk between the private sector and the public entity and the 
+private entity receives performance-linked payments that conform (or are 
+benchmarked) to specified and predetermined performance standards, deliverables 
+or Service Level  agreements measurable by the public entity or its representative; 
+xxxii) "Rate contract" ( or the term ‘framework agreement’ in certain contexts) means an 
+agreement between a Central Purchase Organisation or procuring entity with one or 
+more bidders, valid for a specified period of time, which sets out terms and conditions 
+under which specific procurements can be made during the term of the agreement 
+and may include an agreement on prices which may be either predetermined or be 
+determined at the stage of actual procurement through competition or a predefined 
+process allowing their revision without further competition; 
+xxxiii) “Registering authority” means an authority which registers bidders for different 
+categories of procurement.  
+xxxiv) "Registered Supplier" means any supplier who is on a list of registered suppliers of 
+the procuring entity or a Central Purchase Organisation; 
+xxxv) "Reverse auction" (or the term ‘Electronic reverse auction’ in certain contexts) means 
+an online real-time purchasing technique utilised by the procuring entity to select the 
+successful bid, which involves presentation by bidders of successively more 
+favourable bids during a scheduled period of time and automatic evaluation of bids; 
+xxxvi) "Service" means any subject matter of procurement other than goods or works, 
+except those incidental or consequential to the service, and includes physical, 
+maintenance, professional, intellectual, training, consultancy and advisory services or 
+any other service classified or declared as such by a procuring entity but does not 
+include appointment of an individual made under any law, rules, regulations or order 
+issued in this behalf; 
+xxxvii) "Subject matter of procurement" means any item of procurement whether in the form 
+of goods, services or works or a combination thereof; 
+xxxviii) "Works" refer to any activity, sufficient in itself to fulfil an economic or technical 
+function, involving construction, fabrication, repair, overhaul, renovation, decoration, 
+installation, erection, excavation, dredging, and so on, which make use of a 
+
+ 
+ 
+ 
+xxi 
+combination of one or more of engineering design, architectural design, material and 
+technology, labour, machinery and equipment. Supply of some materials or certain 
+services may be incidental or consequential to and part of such works. The term 
+“Works” includes (i) civil works for the purposes of roads, railway, airports, shipping-
+ports, bridges, buildings, irrigation systems, water supply, sewerage facilities, dams, 
+tunnels and earthworks; and so on, and (ii) mechanical and electrical works involving 
+fabrication, installation, erection, repair and maintenance of a mechanical or electrical 
+nature relating to machinery and plants. 
+ 
+
+ 
+ 
+ 
+xvii 
+ 
+ 
+ 
+
+ 
+ 
+ 
+1 
+Chapter 1: Introduction – Policies and Principles 
+1.1 
+Procurement Rules and Regulations; and this Manual 
+Various Ministries, Departments, attached and subordinate offices, local urban bodies, public 
+sector enterprises and other Government (including autonomous) bodies (hereinafter 
+referred as ‘Procuring Entities’) spend a sizeable amount of their budget on procurement of 
+goods, works and services to discharge the duties and responsibilities assigned to them. 
+The Ministries / Departments have been delegated full powers to make their own 
+arrangements for procurement of goods and services, that are not available6 on Government 
+e-Marketplace (GeM). These powers have to be exercised which have to be exercised as 
+per the Delegation of Financial Power Rules and in conformity with the ‘Procurement 
+Guidelines’ described below. Common use Goods and Services available on GeM are 
+required to be procured mandatorily through GeM as per Rule 149 of GFR, 2017 
+To ensure that these procurements are made by following a uniform, systematic, efficient 
+and cost-effective procedure and also to ensure fair and equitable treatment of suppliers, 
+there are statutory provisions, rules, financial, vigilance, security, safety, counter- trade and 
+other regulations; orders and guidelines of the Government on the subject of public 
+procurement (hereinafter referred as ‘Procurement Guidelines’) which provide framework for 
+the public procurement system. 
+At the apex of the Statutory framework governing public procurement is Article 299 of the 
+Constitution of India, which stipulates that contracts legally binding on the Government have 
+to be executed in writing by officers specifically authorized to do so. The Constitution also 
+enshrines Fundamental Rights (In particular Article 19 (1) (g) – Right to carry on a 
+Profession) which have implications for Public Procurement. Further, the Indian Contract 
+Act, 1872 and the Sale of Goods Act, 1930 are major legislations governing contracts of 
+sale/ purchase of goods in general. There are other mercantile laws (Arbitration and 
+Conciliation Act, 1996;Competition Act, 2002; Information Technology Act, 2000 etc), which 
+may be attracted in Public Procurement Transactions. There is no law exclusively governing 
+public procurement.  
+However, comprehensive Rules and Regulations in this regard are available in the General 
+Financial Rules (GFR), 2017, especially chapter 6; Delegation of Financial Powers Rules 
+(DFPR); Government orders regarding product reservations or purchase preference or other 
+facilities to sellers in Micro and Small Enterprises, Pharmaceutical Central Public Sector 
+Enterprises, Khadi/ Handlooms goods goods, works and services rendered with more than 
+prescribed local content (Make in India) etc.  
+Without purporting to be a comprehensive compendium of all such ‘Procurement 
+Guidelines’, this Manual is intended to serve as a portal to enter this vast area and draw 
+attention to basic norms and practices governing public procurement.  
+1.2 
+Clarification, Amendments and Revision of this Manual 
+ 
+ 
+6Rule 147 of GFR, 2017 amended vide OM No. F.1/26/2018-PPD dated 02.04.2019 
+
+ 
+ 
+ 
+2 
+For revision, interpretation, clarification and issues relating to this manual, the Procurement 
+Policy Division, Department of Expenditure, Ministry of Finance would be the nodal authority. 
+1.3 
+Applicability of this Manual 
+The term 'goods' used in this manual includes all articles, material, commodity, livestock, 
+medicines, furniture, fixtures, raw material, consumables, spare parts, instruments, 
+machinery, equipment, industrial plants, vehicles, aircraft, ships, railway rolling stock, 
+assemblies, sub-assemblies, accessories, a group of machines comprising an integrated 
+production process or such other goods (but excludes books, publications, periodicals, and 
+so on, for a library), or intangible products like software, technology transfer, licenses, 
+patents or other intellectual properties procured or otherwise acquired by a procuring entity. 
+Procurement of goods may include certain small work or some services, which are incidental 
+or consequential to the supply of such goods, such as transportation, insurance, installation, 
+commissioning, training and maintenance (Rule 143 of GFR 2017). What is unique about 
+procurement of goods (as compared to services and works) is the ability to precisely 
+describe the technical specification of the requirement. 
+The ‘Procurement Entities’ who can benefit from this manual include Ministries, 
+Departments, or a unit thereof, or an attached or subordinate offices/units; Central Public 
+Sector Enterprises (CPSEs) or undertakings; any other body (including autonomous bodies) 
+substantially owned or controlled by or receiving substantial financial assistance from the 
+Central Government. These procurement guidelines would continue to apply if these 
+procurement entities outsource the procurement process or bundle the procurement process 
+with other contractual arrangements or utilise the services of procurement support agency or 
+procurement agents to carry out the procurement on their behalf. But these procurement 
+guidelines would not apply to procurements by these procuring entities for their own use (but 
+not for purpose of trading/ sale) from their subsidiary companies including Joint Ventures in 
+which they have controlling share. 
+However by a general or special notification, the Government may permit certain ‘Procuring 
+Entities’ mentioned in sub-para above, considering unique conditions under which they 
+operate, for all or certain categories of procurement, to adopt detailed approved guidelines 
+for procurement, which may deviate in some aspects but conform with all other essential 
+aspects of ‘Procurement Guidelines’. 
+This Manual is to be taken as generic guidelines, which have to be necessarily broad in 
+nature. Subject to the observance of these generic guidelines, the initiation, authorization, 
+procurement and execution of Goods Contracts undertaken by a particular Ministry or 
+Department shall be regulated by detailed rules and orders contained in the respective 
+Departmental regulations and by other special orders applicable to them. Ministries/ 
+Departments are advised to supplement these manuals to suit their local/ specialized needs, 
+by issuing their own detailed Manuals (including customized formats); Standard Bidding 
+Documents; Schedule of Procurement Powers 7  and Checklists to serve as practical 
+instructions for their officers and to ensure completeness of examination of cases. Major 
+Goods procuring Ministries/Departments like the Ministry of Defence, Ministry of Railways, 
+ 
+ 
+7Notified vide OM No.F.1/36/2018-PPD issued by Department of Expenditure dated 28.12.2018 
+
+ 
+ 
+ 
+3 
+etc. have their own detailed guidelines tailored to unique individual requirements, e.g. 
+Manuals or Procedure Orders. Many other Ministries/ Departments as well as CPSEs also 
+have their own Procurement Manuals. For these Procuring Entities, this Manual would serve 
+as a generic reference. 
+These guidelines would not be applicable to projects funded by World Bank and other 
+International Funding Agencies, as, such external aid/ loans etc. received are covered under 
+the applicable policies/ legal agreements executed as permitted under Rules 264 of GFR 
+2017. 
+For procurements financed by Loans/Grants extended by International Agencies: The 
+Articles of Agreement with the International Agencies, like the World Bank, Asian 
+Development Bank etc. stipulate specific procurement procedures to be followed by the 
+borrowers. The procurement procedures, as finalized and incorporated in the Agreements 
+after consideration and approval of the Ministry of Finance are to be followed accordingly. 
+1.4 
+Authorities competent to purchase goods and their Purchase Powers 
+1.4.1 A Competent authority which is competent to incur expenditure may sanction the 
+purchase of goods required for use in public service in accordance with the Delegation of 
+Financial Rules (DFPR – extracted in Annexure 2A) by following the ‘Procurement 
+Guidelines’ described in this Manual (Rule 145 of GFR 2017) .Each ‘Procuring Entity’ may 
+issue a Schedule of Procurement Powers (SoPP) adding further details to the broad 
+delegations in the DFPR, based on the assessment of risks involved in different decisions/ 
+approvals at various stages of Procurement Cycle. A suggested structure of such SoPP is 
+enclosed as Annexure 2C. 
+1.5 
+Basic Aims of Procurement – the Five R’s of Procurement 
+In every procurement, public or private, the basic aim is to achieve just the right balance 
+between costs and requirements concerning the following five parameters called the Five 
+R’s of procurement. The entire process of procurement (from the time the need for an item, 
+facility or services is identified till the need is satisfied) is designed to achieve such a right 
+balance. The word ‘right’ is used in the sense of ‘optimal balance’. 
+i) 
+Right Quality 
+Procurement aims to buy just the right quality that will suit the needs – no more and no less 
+– with clear specification of the procuring entity’s requirements, proper understanding of 
+functional value and cost, understanding of the bidder’s quality system and quality 
+awareness. The concept of the right balance of quality can be further refined to the concept 
+of utility/value (Please refer to para 1.6 below). For the Right Quality, Technical Specification 
+is the most vital ingredient. In public procurement, it is essential to give due consideration to 
+Value for Money while benchmarking the specification. 
+ii) 
+Right Quantity 
+There are extra costs and systemic overheads involved with both procuring a requirement 
+too frequently in small quantities or with buying large quantities for prolonged use. Hence, 
+the right quantity should be procured (in appropriate size of contract) which balances extra 
+costs associated with larger and smaller quantities. 
+iii) 
+Right Price 
+
+ 
+ 
+ 
+4 
+It is not correct to aim at the cheapest materials/ facilities/ Services available. The price 
+should be just right for the quality, quantity and other factors involved (or should not be 
+abnormally low for a facilities/works/ services which could lead to a situation of non-
+performance or failure of contract). The concept of price can be refined further to take into 
+account not only the initial price paid for the requirement but also other costs such as 
+maintenance costs, operational costs and disposal costs (Also termed as life cycle costing - 
+please also refer to para 1.6 below) 
+iv) 
+Right Time and Place 
+If the material (or facility or services) is needed by an organisation in three months’ time, it 
+will be costly to procure it too late or too early. Similarly, if the vendor delivers the materials/ 
+facilities/ services in another city, extra time and money would be involved in logistics. An 
+unrealistic time schedule for completion of a facility may lead to delays, claims and disputes. 
+v) 
+Right Source 
+Similarly, the source of delivery of Goods, Works and Services of the requirement must have 
+just right financial capacity and technical capability for our needs (demonstrated through 
+satisfactory past performance of contracts of same or similar nature). Buying a few packets 
+of printer paper directly from a large manufacturer may not be the right strategy. On the 
+other hand, if our requirements are very large, buying such requirements through dealers or 
+middlemen may also not be right. 
+1.6 
+Refined Concepts of Cost and Value – Value for Money 
+The concept of price or cost has been further refined into Total Cost Of Ownership (TCO) or 
+Life Cycle Cost (LCC) or Whole-of-Life (WOL) to take into account not only the initial 
+acquisition cost but also cost of operation, maintenance and disposal during the lifetime of 
+the external resource procured. Similarly, the concept of quality is linked to the need and is 
+refined into the concept of utility/ value. These two, taken together, are used to develop the 
+concept of Value for Money (VfM, also called Best Value for Money in certain contexts). VfM 
+means the effective, efficient, and economic use of resources, which may involve the 
+evaluation of relevant costs and benefits, along with an assessment of risks, non-price 
+attributes (e.g. in goods and/or services that contain recyclable content, are recyclable, 
+minimise waste and greenhouse gas emissions, conserve energy and water and minimize 
+habitat destruction and environmental degradation, are non-toxic etc.) and/or life cycle costs, 
+as appropriate. Price alone may not necessarily represent VfM. In public procurement, VfM 
+is achieved by attracting the widest competition by way of optimal description of need; 
+development of value-engineered specifications/ Terms of Reference (ToR); appropriate 
+packaging/ slicing of requirement; selection of an appropriate mode of procurement and 
+bidding system. These advanced concepts are explained in Appendix 1. 
+1.7 
+Fundamental Principles of Public Procurement 
+General Financial Rules, 2017 (Rule 144) lay down the Fundamental Principles of Public 
+Procurement. These principles and other additional obligations of procuring authorities in 
+public procurement can be organised into five fundamental principles of public procurement, 
+which all procuring authorities must abide by and be accountable for: 
+i) 
+Transparency Principle 
+
+ 
+ 
+ 
+5 
+All procuring authorities are responsible and accountable to ensure transparency, fairness, 
+equality, competition and appeal rights. This involves simultaneous, symmetric and 
+unrestricted dissemination of information to all likely bidders, sufficient for them to know and 
+understand the availability of bidding opportunities and actual means, processes and time-
+limits prescribed for completion of registration of bidders, bidding, evaluation, grievance 
+redressal, award and management of contracts. It implies that such officers must ensure that 
+there is consistency (absence of subjectivity), predictability (absence of arbitrariness), clarity, 
+openness (absence of secretiveness), equal opportunities (absence of discrimination) in 
+processes. In essence Transparency Principle also enjoins upon the Procuring Authorities’ 
+to do only that which it had professed to do as pre-declared in the relevant published 
+documents and not to do anything that had not been so declared’. As part of this principle, all 
+procuring entities should ensure that offers should be invited following a fair and transparent 
+procedure and also ensure publication of all relevant information on the Central Public 
+Procurement Portal (CPPP). 
+ii) 
+Professionalism Principle 
+As per these synergic attributes, the procuring authorities have a responsibility and 
+accountability to ensure professionalism, economy, efficiency, effectiveness and integrity in 
+the procurement process. They must avoid wasteful, dilatory and improper practices 
+violating the Code of integrity for Public Procurement (CIPP) mentioned in Chapter 3 of this 
+manual. They should, at the same time, ensure that the methodology adopted for 
+procurement should not only be reasonable and appropriate for the cost and complexity but 
+should also effectively achieve the planned objective of the procurement. As part of this 
+principle, the Government may prescribe professional standards and specify suitable training 
+and certification requirements for officials dealing with procurement matters.  
+In reference to the above two principles - Transparency and Professionalism Principle, It 
+may be useful to refer to the following provisions in the General Financial Rules, 2017: 
+Rule 144. Fundamental principles of public buying: Fundamental principles of public buying 
+(for all procurements including procurement of works).— Every authority delegated with the 
+financial powers of procuring goods in public interest shall have the responsibility and 
+accountability to bring efficiency, economy, and transparency in matters relating to public 
+procurement and for fair and equitable treatment of suppliers and promotion of competition 
+in public procurement. 
+The procedure to be followed in making public procurement must conform to the following 
+yardsticks:- 
+a) The description of the subject matter of procurement to the extent practicable 
+should -- 
+1. be objective, functional, generic and measurable and specify 
+technical, qualitative and performance characteristics; 
+2. not indicate a requirement for a particular trade mark, trade name or 
+brand.  
+b) the specifications in terms of quality, type etc., as also quantity of goods to be 
+procured, should be clearly spelt out keeping in view the specific needs of the 
+procuring organisations. The specifications so worked out should meet the basic 
+
+ 
+ 
+ 
+6 
+needs of the organisation without including superfluous and non-essential 
+features, which may result in unwarranted expenditure.  
+c) Where applicable, the technical specifications shall, to the extent practicable, 
+be based on the national technical regulations or recognized national standards 
+or building codes, wherever such standards exist, and in their absence, be based 
+on the relevant international standards. In case of Government of India funded 
+projects abroad, the technical specifications may be framed based on 
+requirements and standards of the host beneficiary Government, where such 
+standards exist. Provided that a procuring entity may, for reasons to be recorded 
+in writing, adopt any other technical specification8. 
+d) Care should also be taken to avoid purchasing quantities in excess of 
+requirement to avoid inventory carrying costs;  
+e) offers should be invited following a fair, transparent and reasonable 
+procedure;  
+f) the procuring authority should be satisfied that the selected offer adequately 
+meets the requirement in all respects;  
+g) the procuring authority should satisfy itself that the price of the selected offer 
+is reasonable and consistent with the quality required;  
+h) 
+at each stage of procurement the concerned procuring authority must place 
+on record, in precise terms, the considerations which weighed with it while taking 
+the procurement decision. 
+i) a complete schedule of procurement cycle from date of issuing the tender to 
+date of issuing the contract should be published when the tender is issued.  
+j) All Ministries/Departments shall prepare Annual Procurement Plan before the 
+commencement of the year and the same should also be placed on the their 
+website” 
+k) [Notwithstanding anything contained in these Rules, Department of 
+Expenditure may, by order in writing, impose restrictions, including prior 
+registration and/or screening, on procurement from bidders from a country or 
+countries, or a class of countries, on grounds of defence of India, or matters 
+directly or indirectly related thereto including national security; no procurement 
+shall be made in violation of such restrictions.]9 
+iii) 
+Broader Obligations Principle 
+ 
+ 
+8It has been reiterated by Department of Expenditure vide OM F.N.12/17/2019-PPD dated 12.05.2020 that 
+wherever Indian Technical specifications and Quality Certifications exists, the procuring entity should prescribe 
+them. In those rare or exceptional cases where, despite the existence of Indian technical specifications, the 
+procuring entity intends to specify foreign Technical Certifications and Accreditations, it must record its 
+reasons in writing for adoption of such other technical specifications. This may also be subject to matter of 
+audit. 
+9Inserted vide Department of Expenditure (DoE), Ministry of Finance (MoF) OM No. F.6/18/2019-PPD dated 23.07.2020. 
+
+ 
+ 
+ 
+7 
+Over and above transparency and professionalism, the procuring authorities have also the 
+responsibility and accountability to conduct public procurement in a manner to facilitate 
+achievement of the broader objectives of the Government - to the extent these are 
+specifically included in the ‘Procurement Guidelines’:  
+a) Preferential procurement from backward regions, weaker sections and  
+MSEs, locally manufactured goods or services, to the extent specifically 
+included in the ‘Procurement Guidelines’; and 
+b) Reservation of procurement of specified class of goods from or through 
+certain nominated CPSEs or Government Organisations, to the extent 
+specifically included in the ‘Procurement Guidelines’. 
+c) Support to broader social policy and programme objectives of the 
+Government (for example,  economic growth, strengthening of local industry - 
+make-in-India, Ease of Doing Business, job and employment creation, and so 
+on, to the extent specifically included in the ‘Procurement Guidelines’); 
+d) Facilitating administrative goals of other Departments of Government (for 
+example, ensuring tax or environmental compliance by participants, Energy 
+Conservation, accessibility for People With Disabilities etc. to the extent 
+specifically included in the ‘Procurement Guidelines’). 
+e) Procurement policies and procedures must comply with accessibility criteria 
+which may be mandated by the Government from time to time. Keeping this in 
+view, Department of Expenditure amended Rule 144 of GFR, 2017 and 
+introduced a sub-rule (xi) imposing restrictions under the rule [as mentioned 
+under (ii) above]. The detailed provisions were notified through Order (Public 
+Procurement No.1)10 which are as follows: 
+1. 
+Requirement of registration 
+a) Any bidder from a country which shares a land border with India will be eligible to bid 
+in any procurement whether of goods, services (including consultancy services and 
+non-consultancy services) or works (including turnkey projects) only if the bidder is 
+registered with the Competent Authority, specified in Para 12(c) below. 
+b) The Order shall not apply to (i) cases where orders have been placed or contract has 
+been concluded or letter/notice of award/ acceptance (LoA) has been issued on or 
+before the date of the order (23rd July 2020); and (ii) cases falling under para 13 
+below. 
+2. 
+Transitional cases 
+Tenders where no contract has been concluded or no LoA has been issued so far shall be 
+handled in the following manner: - 
+a) In tenders which are yet to be opened, or where evaluation of technical bid or the first 
+exclusionary qualificatory stage (i.e. the first stage at which the qualifications of 
+tenderers are evaluated and unqualified bidders are excluded) has not been 
+completed: No contracts shall be placed on bidders from such countries. Tenders 
+ 
+ 
+10Inserted vide Department of Expenditure (DoE), Ministry of Finance (MoF) OM No. F.6/18/2019-PPD dated 23.07.2020. 
+
+ 
+ 
+ 
+8 
+received from bidders from such countries shall be dealt with as if they are non-
+compliant with the tender conditions and the tender shall be processed accordingly. 
+b) If the tendering process has crossed the first exclusionary qualificatory stage, if the 
+qualified bidders include bidders from such countries, the entire process shall be 
+scrapped and initiated de novo. The de novo process shall adhere to the conditions 
+prescribed in the Order. 
+c) As far as practicable, and in cases of doubt about whether a bidder falls under 
+paragraph (1) above, a certificate shall be obtained from the bidder whose bid is 
+proposed to be considered or accepted, in terms of paras 5(c), 5(d) and 6 read with 
+para (1). 
+3. 
+Incorporation in tender conditions 
+In tenders to be issued after the date (23rd July 2020) of the order, the provisions of 
+paragraph (1) above and of other relevant provisions of the Order shall be incorporated in 
+the tender conditions.  
+4. 
+Applicability 
+a) Apart from Ministries/Departments, attached and subordinate bodies, notwithstanding 
+anything contained in Rule 1 of the GFRs 2017, the Order shall also be applicable to 
+all Autonomous Bodies; 
+b) to public sector banks and public sector financial institutions; and 
+c) subject to any orders of the Department of Public Enterprises, to all Central Public 
+Sector Enterprises; and 
+d) to procurement in Public Private Partnership projects receiving financial support from 
+the Government or public sector enterprises/ undertakings. 
+e) Union Territories, National Capital Territory of Delhi and all agencies/ undertakings 
+thereof 
+5. 
+Definitions 
+a) “Bidder" for the purpose of the Order (including the term ‘tenderer’, ‘consultant’ 
+‘vendor’ or ‘service provider’ in certain contexts) means any person or firm or 
+company, including any member of a consortium or joint venture (that is an 
+association of several persons, or firms or companies), every artificial juridical person 
+not falling in any of the descriptions of bidders stated hereinbefore, including any 
+agency, branch or office controlled by such person, participating in a procurement 
+process. 
+b) “Tender” for the purpose of the Order will include other forms of procurement, except 
+where the context requires otherwise. 
+c) “Bidder from a country which shares a land border with India” for the purpose of the 
+Order means 
+i. 
+An entity incorporated, established or registered in such a country; or 
+ii. 
+A subsidiary of an entity incorporated, established or registered in such a 
+country; or 
+iii. 
+An entity substantially controlled through entities incorporated, established or 
+registered in such a country; or 
+iv. 
+An entity whose beneficial owner is situated in such a country; or 
+v. 
+An Indian (or other) agent of such an entity; or 
+vi. 
+A natural person who is a citizen of such a country; or 
+vii. 
+A consortium or joint venture where any member of the consortium or joint 
+venture falls under any of the above 
+
+ 
+ 
+ 
+9 
+d) “Agent” for the purpose of the Order is a person employed to do any act for another, 
+or to represent another in dealings with third persons. 
+6. 
+Beneficial owner for the purposes of point (c) (iv) will be as under: 
+a) In case of a company or Limited Liability Partnership, the beneficial owner is the 
+natural person(s), who, whether acting alone or together, or through one or more 
+juridical person(s), has a controlling ownership interest or who exercises control 
+through other means. Explanation:- 
+b) In case of a partnership firm, the beneficial owner is the natural person(s) who, 
+whether acting alone or together, or through one or more juridical person, has 
+ownership of entitlement to more than fifteen percent of capital or profits of the 
+partnership; 
+c) In case of an unincorporated association or body of individuals, the beneficial owner 
+is the natural person(s), who, whether acting alone or together, or through one or 
+more juridical person, has ownership of or entitlement to more than fifteen percent of 
+the property or capital or profits of such association or body of individuals; 
+d) Where no natural person is identified under (6) (a) or (6) (b) or (6) (c) above, the 
+beneficial owner is the relevant natural person who holds the position of senior 
+managing official; 
+e) In case of a trust, the identification of beneficial owner(s) shall include identification of 
+the author of the trust, the trustee, the beneficiaries with fifteen percent or more 
+interest in the trust and any other natural person exercising ultimate effective control 
+over the trust through a chain of control or ownership. 
+7. 
+Sub-contracting in works contracts 
+In works contracts, including turnkey contracts, contractors shall not be allowed to sub-
+contract works to any contractor from a country which shares a land border with India unless 
+such contractor is registered with the Competent Authority. The definition of “contractor from 
+a country which shares a land border with India” shall be as in paragraph (5) (c) above. This 
+shall not apply to sub-contracts already awarded on or before the date of the Order (i.e. 23rd 
+July, 2020). 
+8. 
+Certificate regarding compliance 
+A certificate shall be taken from bidders in the tender documents regarding their compliance 
+with the Order. If such certificate given by a bidder whose bid is accepted is found to be 
+false, this would be a ground for immediate termination and further legal action in 
+accordance with law. 
+9. 
+Validity of registration 
+In respect of tenders, registration should be valid at the time of submission of bids and at the 
+time of acceptance of bids. In respect of supply otherwise than by tender, registration should 
+be valid at the time of placement of order. If the bidder was validly registered at the time of 
+acceptance / placement of order, registration shall not be a relevant consideration during 
+contract execution. 
+10. 
+Government e-Marketplace 
+The Government E-Marketplace shall, as soon as possible, require all vendors/ bidders 
+registered with GeM to give a certificate regarding compliance with the Order, and after the 
+date fixed by it, shall remove non-compliant entities from GeM unless/ until they are 
+registered in accordance with this Order. 
+11. 
+Model Clauses/ Certificates 
+Model Clauses and Model Certificates which may be inserted in tenders / obtained from 
+Bidders are given at Annexure-2F. While adhering to the substance of the Order, procuring 
+
+ 
+ 
+ 
+10 
+entities are free to appropriately modify the wording of these clauses based on their past 
+experience, local needs etc. without making any reference to Department of Expenditure. 
+12. 
+Competent Authority and Procedure for Registration 
+a) The Competent Authority for the purpose of registration under this Order shall be the 
+Registration Committee constituted by the Department for Promotion of Industry and 
+Internal Trade (DPIIT)11. 
+b) The Registration Committee shall have the following members10 
+i. 
+An officer, not below the rank of Joint Secretary, designated for this purpose 
+by DPIIT, who shall be the Chairman; 
+ii. 
+Officers (ordinarily not below the rank of Joint Secretary) representing the 
+Ministry of Home Affairs, Ministry of External Affairs, and of those 
+Departments whose sectors are covered by applications under consideration; 
+iii. 
+Any other officer whose presence is deemed necessary by the Chairman of 
+the Committee. 
+c) DPIIT has laid down the method of application, format etc. for such bidders as stated 
+in para (1) (a) above12. On receipt of an application seeking registration from a bidder 
+from a country covered by para (1) (a) above the Competent Authority shall first seek 
+political and security clearances from the Ministry of External Affairs and Ministry of 
+Home Affairs, as per guidelines issued from time to time. Registration shall not be given 
+unless political and security clearance have both been received. 
+d) The Ministry of External Affairs and Ministry of Home Affairs may issue guidelines for 
+internal use regarding the procedure for scrutiny of such applications by them. 
+e) The decision of the Competent Authority, to register such bidder may be for all kinds 
+of tenders or for a specified type(s) of goods or services, and may be for as specified or 
+unspecified duration of time, as deemed fit. The decision of the Competent Authority 
+shall be final. 
+f) Registration shall not be granted unless the representatives of the Ministries of Home 
+Affairs and External Affairs on the Committee concur13. 
+g) Registration granted by the Competent Authority of the Government of India shall be 
+valid not only for procurement by Central Government and its agencies/ public 
+ 
+ 
+11(i)In respect of application of the Order to procurement by/ under State Governments, all functions assigned 
+to DPIIT shall be carried out by the State Government concerned through a specific department or authority 
+designated by it. The composition of the Registration Committee shall be as decided by the State Government 
+and paragraph G above shall not apply. However, the requirement of political and security clearance as per 
+para D shall remain and no registration shall be granted without such clearance. 
+(ii) Registration granted by State Governments shall be valid only for procurement by the State Government 
+and its agencies/ public enterprises etc. and shall not be valid for procurement in other states or by the 
+Government of India and their agencies/ public enterprises etc. 
+12Notified vide OM No.P-45021/112/2020-PP (BE-II) (E-43780) issued by DPIIT dated 30.03.2021 
+13(i)In respect of application of the Order to procurement by/ under State Governments, all functions assigned 
+to DPIIT shall be carried out by the State Government concerned through a specific department or authority 
+designated by it. The composition of the Registration Committee shall be as decided by the State Government 
+and paragraph G above shall not apply. However, the requirement of political and security clearance as per 
+para D shall remain and no registration shall be granted without such clearance. 
+(ii) Registration granted by State Governments shall be valid only for procurement by the State Government 
+and its agencies/ public enterprises etc. and shall not be valid for procurement in other states or by the 
+Government of India and their agencies/ public enterprises etc. 
+
+ 
+ 
+ 
+11 
+enterprises etc. but also for procurement by State Governments and their agencies/ 
+public enterprises etc. No fresh registration at the State level shall be required. 
+h) The Competent Authority is empowered to cancel the registration already granted if it 
+determines that there is sufficient cause. Such cancellation by itself, however, will not 
+affect the execution of contracts already awarded. Pending cancellation, it may also 
+suspend the registration of a bidder, and the bidder shall not be eligible to bid in any 
+further tenders during the period of suspension. 
+i)  For national security reasons, the Competent Authority shall not be required to give 
+reasons for rejection/cancellation of registration of a bidder. 
+j) In transitional cases falling under para (2)above, where it is felt that it will not be 
+practicable to exclude bidders from a country which shares a land border with India, a 
+reference seeking permission to consider such bidders shall be made by the procuring 
+entity to the Competent Authority, giving full information and detailed reasons. The 
+Competent Authority shall decide whether such bidders may be considered, and if so 
+shall follow the procedure laid down in the above paras. 
+k) Periodic reports on the acceptance/ refusal of registration during the preceding 
+period may be required to be sent to the Cabinet Secretariat. Details will be issued 
+separately in due course by DPIIT. 
+13. 
+Special Cases [In reference to para (1) (b) above] 
+a) Bona fide procurements made through GeM without knowing the country of the 
+bidder till the date fixed by GeM for this purpose, shall not be invalidated by the 
+Order. 
+b) Bona fide small procurements, made without knowing the country of the bidder, shall 
+not be invalidated by the Order. 
+c) In projects which receive international funding with the approval of the Department of 
+Economic Affairs (DEA), Ministry of Finance, the procurement guidelines applicable 
+to the project shall normally be followed, notwithstanding anything contained in the 
+Order and without reference to the Competent Authority. Exceptions to this shall be 
+decided in consultation with DEA. 
+d) The Order shall not apply to procurement by Indian missions and by offices of 
+government agencies/ undertakings located outside India. 
+e) The Order will not apply to bidders from those countries (even if sharing a land 
+border with India) to which the Government of India has extended lines of credit or in 
+which the Government of India is engaged in development projects. Updated lists of 
+countries to which lines of credit have been extended or in which development 
+projects are undertaken are given in the website of the Ministry of External Affairs14. 
+f) A bidder is permitted to procure raw material, components, sub-assemblies etc. from 
+the vendors from countries which shares a land border with India. Such vendors will 
+not be required to be registered with the Competent Authority, as it is not regarded as 
+“sub-contracting”. However, in case a bidder has proposed to supply finished goods 
+procured directly/ indirectly from the vendors from the countries sharing land border 
+ 
+ 
+14Notified through Order (Public Procurement No. 2) vide F.No.6/18/2019-PPD issued by Department of 
+Expenditure dated 23.07.2020 
+
+ 
+ 
+ 
+12 
+with India, such vendor will be required to be registered with the Competent 
+Authority15. 
+g) Procurement of spare parts and other essential service support like Annual 
+Maintenance Contract (AMC)/ Comprehensive Maintenance Contract (CMC), 
+including consumables for closed systems, from Original Equipment Manufacturers 
+(OEMs) or their authorized agents, shall be exempted from the requirement of 
+registration as mandated under Rule 144(xi) of GFR, 2017 and Public Procurement 
+orders issued in this regard16. 
+14. 
+Clarification to Order (Public Procurement No.1) dated 23rd July 202017 
+a) For the purpose of (2)(b) above, “qualified bidders” means only those bidders would 
+otherwise have been qualified for award of the tender after considering all factors 
+including price, if the Order (Public Procurement No.1) dated 23rd July 2020 had not 
+been issued. 
+b) If bidders form such countries would not have qualified for award for reasons 
+unconnected with the said Orders (for example, because they do not meet tender 
+criteria or their price bid is higher or because of the provisions of purchase 
+preference under any other order or rule or any other reason) then there is no need 
+to scrap the tender/ start the process de novo. 
+c) The following examples are given to assist in implementation of the Order 
+1. 
+Example l: Four bids are received in a tender. One of them is from a country 
+which shares a land border with India. The bidder from such country is found 
+to be qualified technically by meeting all prescribed criteria and is also the 
+lowest bidder. In this case, the bidder is qualified for award of the tender, 
+except for the provisions of the Order (Public Procurement No. 1) dated 23rd 
+July. In this case, the tender should be scrapped and fresh tender initiated. 
+2. 
+Example 2: The facts are as in Example 1, but the bidder from such country, 
+though technically qualified is not the lowest because there are other 
+technically qualified bidders whose price is lower. Hence the bidder from such 
+country would not be qualified for award of the tender irrespective of the 
+Order (Public Procurement No. 1) dated 23rd July 2020. In such a case, there 
+is no need to scrap the tender. 
+3. 
+Example 3: The facts are as in Example 1, but the bidder from a country 
+which shares a land border with India, though technically qualified, is not 
+eligible for award due to the application of price preference as per other 
+orders/ rules. In such a case, there is no need to scrap the tender. 
+4. 
+Example 4: Three bids are received in a tender. One of them is a bidder from 
+a country sharing a land border with India. The bidder from such a country 
+does not meet the technical requirements and hence is not qualified. There is 
+no need to scrap the tender. 
+iv) 
+Extended Legal Responsibilities Principle 
+ 
+ 
+15Notified vide OM No. F.18/37/2020-PPD issued by Department of Expenditure dated 08.02.2021 
+16Notified vide OM No. F.12/1/2021-PPD(Pt.) issued by Department of Expenditure dated 02.03.2021 
+17Notified through Order (Public Procurement No. 3) vide F.No.6/18/2019-PPD issued by Department of 
+Expenditure dated 24.07.2020 
+
+ 
+ 
+ 
+13 
+Procuring authorities must fulfil additional legal obligations in public procurement, over and 
+above mere conformity to the mercantile laws (which even private sector procurements have 
+to comply with). The Constitution of India has certain provisions regarding fundamental rights 
+and public procurement. Courts have, over a time, taking a broader view of Public 
+Procurement as a function of ‘State’, interpreted these to extend the responsibility and 
+accountability of public procurement Authorities. Courts in India thus exercise additional 
+judicial review (beyond contractual issues) over public procurement in relation to the manner 
+of decision making in respect of fundamental rights, fair play and legality. Similarly, procuring 
+authorities have also the responsibility and accountability to comply with the laws relating to 
+Governance Issues like Right to Information (RTI) Act and Prevention of Corruption Act, and 
+so on. Details of such extended legal obligations are given in Appendix 2. 
+v) 
+Public Accountability Principle 
+Procuring authorities are accountable for all the above principles to several statutory and 
+official bodies in the Country – the Legislature and its Committees, Central Vigilance 
+Commission, Comptroller and Auditor General of India, Central Bureau of Investigations and 
+so on– in addition to administrative accountability. As a result, each individual public 
+procurement transaction is liable to be scrutinised independently, in isolation, besides 
+judging the overall outcomes of procurement process over a period of time. Procuring 
+authorities thus have responsibility and accountability for compliance of rules and 
+procedures in each individual procurement transaction besides the achievement of overall 
+procurement outcomes. The procuring authority, at each stage of procurement, must 
+therefore place on record, in precise terms, the considerations which weighed with it while 
+making the procurement decision from need assessment to fulfilment of need. Such records 
+must be preserved, retained in easily retrievable form and made available to such oversight 
+agencies. The procuring entity shall therefore maintain and retain audit trails, records and 
+documents generated or received during its procurement proceedings, in chronological 
+order, the files will be stored in an identified place and retrievable for scrutiny whenever 
+needed without wastage of time. The documents and record will include: 
+a) 
+documents pertaining to determination of need for procurement; 
+b) 
+description of the subject matter of the procurement;  
+c) 
+Statement of the justification for choice of a procurement method other 
+ 
+than open competitive bidding; 
+d) 
+Documents relating to pre-qualification and registration of bidders, if 
+ 
+applicable; 
+e) 
+Particulars of issue, receipt, opening of the bids and the participating 
+ 
+bidders at each stage;  
+f) 
+Requests 
+for 
+clarifications 
+and 
+any 
+reply 
+thereof 
+including 
+the 
+ 
+clarifications given during pre-bid conferences; 
+g) 
+Bids evaluated, and documents relating to their evaluation; and 
+h) 
+Contracts and Contract Amendments 
+i) 
+Complaint handling, correspondences with clients, consultants, banks. 
+1.8 
+Standards (Canons) of Financial Propriety 
+Public Procurement like any other expenditure in Government must conform to the 
+Standards(also called Canons) of Financial Propriety. It may be useful to refer to the relevant 
+provisions in the General Financial Rules, 2017 
+
+ 
+ 
+ 
+14 
+Rule21.Standardsoffinancialpropriety: Every officer incurring or authorizing 
+expenditure from public moneys should be guided by high standards of financial 
+propriety. Every officer should also enforce financial order and strict economy and 
+see that all relevant financial rules and regulations are observed, by his own office 
+and by subordinate disbursing officers. Among the principles on which emphasis is 
+generally laid are the following:- 
+i) 
+Every officer is expected to exercise the same vigilance in respect of expenditure 
+incurred from public moneys as a person of ordinary prudence would exercise in 
+respect of expenditure of his own money. 
+ii) 
+The expenditure should not be prima facie more than the occasion demands. 
+iii) No authority should exercise its powers of sanctioning expenditure to pass an 
+order which will be directly or indirectly to its own advantage. 
+iv) Expenditure from public moneys should not be incurred for the benefit of a 
+particular person or a section of the people, unless - 
+a) 
+a claim for the amount could be enforced in a Court of Law, orb) 
+the 
+expenditure is in pursuance of a recognized policy or custom. 
+v) 
+The amount of allowances granted to meet expenditure of a particular type 
+should be so regulated that the allowances are not on the whole a source of profit to 
+the recipients. 
+vi) While discharging the duties of financial concurrence of any public expenditure, 
+such authorities subsequent to such decision, shall not be involved in any future 
+financial/audit/payment responsibilities which may create conflict of interest. 
+1.9 Public Procurement Infrastructure at the Centre 
+i) 
+Procurement Policy Division 
+Procurement Policy Division (PPD) in Department of Expenditure; Ministry of Finance has 
+been created to encourage uniformity and harmonisation in public procurement processes 
+by dissemination of best practices, provision of guidance, oversight and capacity building 
+and issuing of procurement manuals. However Centralisation of procurement or involvement 
+in procurement processes is not the intended purpose of creation of PPD.  
+ii) 
+Central Public Procurement Portal 
+Central Public Procurement Portal (CPPP) has been designed, developed and hosted by 
+National Informatics Centre (NIC, Ministry of Electronics & Information Technology) in 
+association with Dept. of Expenditure to ensure transparency in the public procurement 
+process. The primary objective of the Central Public Procurement portal is to provide a 
+single point access to the information on procurements made across various Ministries and 
+the Departments. The CPPP has e-publishing and e-procurement modules. It is mandatory 
+for all Ministries / Departments of the Central Government, Central Public Sector Enterprises 
+(CPSEs) and Autonomous and Statutory Bodies to publish on the CPPP all their tender 
+enquiries and information about the resulting contracts. CPPP provides access to 
+information such as documents relating to pre-qualification, Bidders’ registration, Bidding 
+documents; details of bidders, their pre-qualification, registration, exclusions/ debarments; 
+decisions taken regarding prequalification and selection of successful bid. It is also now 
+
+ 
+ 
+ 
+15 
+mandatory to implement end-to-end e-Procurement for all procurements either through 
+CPPP portal or any other suitable portal. 
+1.10 Product Reservation and Preferential/Mandatory Purchase from certain 
+sources 
+The Central Government may, by notification, provide for mandatory procurement of any 
+goods or services from any category of bidders, or provide for preference to bidders on the 
+grounds of promotion of locally manufactured goods or locally provided services. 
+Note: Before considering any Purchase Preference/ product reservation mentioned below, 
+the Procuring Entity should check the latest directives in this regard for necessary action. 
+Product Reservation/ Purchase Preference provision shall invariably be part of the Notice 
+Inviting Tender (NIT) and Instructions to Bidders (ITB). 
+1.10.1 Reservation of Procurement of certain class of Products from certain agencies- 
+Khadi Goods/Handloom Textiles 
+The Central Government has reserved18 all items of hand-spun and hand-woven textiles 
+(Khadi goods) for exclusive purchase from Khadi & Village Industries Commission (KVIC). 
+Of all items of textiles required by the Central Government departments, it shall be 
+mandatory to make procurement of at least 20% from amongst items of handloom origin, for 
+exclusive purchase from KVIC and/ or Handloom Clusters such as Co-Operative Societies, 
+Self Help Group (SHG) Federations, Joint Liability Group (JLG), Producer Companies (PC), 
+Corporations etc. including Weavers having Pehchan Cards19.  
+1.10.2 Reservation of Procurement of certain class of Products from certain agencies-  
+Pharmaceuticals from Pharmaceutical CPSEs 
+The pharmaceuticals Purchase Policy20, 2013 is intended to ensure  
+1) Optimum utilization of the installed capacity and to provide necessary fillip in reviving 
+these ailing pharmaceuticals CPSEs 
+2) Availability of quality medicines at low prices to the masses  
+3) Drug security of the nation. 
+The salient features of this policy are as follows: 
+a) Pharmaceuticals Purchase Policy in respect of 103 (one hundred and three) 
+medicines would be valid for a period of five years from the date of issue 
+(30/10/2013) of orders by Department of Pharmaceuticals. 
+b) Pharmaceuticals Purchase Policy will extend only to Central Public Sector 
+Enterprises 
+(CPSEs) 
+under 
+the 
+administrative 
+control 
+of 
+Department 
+of 
+Pharmaceuticals such as Indian Drugs and Pharmaceuticals Limited (IDPL), 
+Hindustan Antibiotics Limited (HAL), Bengal Chemicals and Pharmaceuticals Limited 
+(BCPL), Karnataka Antibiotics and Pharmaceuticals Limited (KAPL) and Rajasthan 
+ 
+ 
+18Ministry of Textiles O. M. No. 4/2/88-DCH/M & E dated 17th February 1992  
+19Notified vide OM No. F.10/2/2019-PPD(Pt.) issued by Department of Expenditure dated 17.02.2020 
+20Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, OM 50(9)/ 2010-PI-IV Dtd 10/12/2013 
+
+ 
+ 
+ 
+16 
+Drugs and Pharmaceuticals Limited (RDPL) and their subsidiaries where 
+Government of India owns 51% (fifty one percent) or above shares. 
+c) This would be applicable to purchases by Central Government Departments, their 
+Public Sector Undertakings, and Autonomous Bodies, etc. This would also be 
+applicable to purchase of medicines by State Governments under Health 
+Programmes funded by Government of India such as the National Rural Health 
+Mission etc. 
+d) The pricing of the products would be done by National Pharmaceutical Pricing 
+Authority (NPPA) using the cost based formula, as mentioned in the Drugs Price 
+Control Order, 1995. A uniform discount of 16% (Sixteen percent) would be extended 
+to all products. All the taxes, whatsoever, would have to be passed on to buyers. 
+e) Annual revision of prices would be linked to Wholesale Price Index as per provisions 
+contained in Drugs Prices Control Order, 2013. 
+f) The procuring entity would purchase from pharma CPSEs and their subsidiaries 
+subject to their meeting Good Manufacturing Practices (GMP) norms as per 
+Schedule 'M' of the Drugs & Cosmetic Rules. 
+g) In case pharma CPSEs and their subsidiaries fail to supply the medicines, the 
+procuring entity would be at liberty to make purchases from other manufacturers. If 
+the pharma CPSEs or their subsidiaries fail to perform as per the purchase order, 
+they would also be subject to payment of liquidated damages or any other penalty as 
+per the terms of the contract. 
+h) The list of medicines (please refer to Annexure 27)may be reviewed and revised by 
+the Department of Pharmaceuticals as per requirement. 
+1.10.3 Reservation of specific items for procurement from Micro and Small 
+Enterprises (MSE) 
+To enable wider dispersal of enterprises in the country, particularly in rural areas, the Central 
+Government Ministries or Departments or Public Sector Undertakings shall continue to 
+procure items reserved for procurement exclusively from MSE (presently 358 (three hundred 
+and fifty-eight) items including eight items of Handicrafts) from Micro and Small Enterprises, 
+which have been reserved for exclusive purchase from them. The latest list may be seen 
+from the website of the MSME Ministry21. Ministry of MSME has clarified that the laminated 
+paper Gr.l,ll and Ill are not covered under the paper conversion product (SI.No.202) of the 
+Public Procurement Policy22. For locating the sources of such reserved items, NSIC may be 
+contacted. 
+1.10.4 Public Procurement Policy for Micro and Small Enterprises (MSEs) 
+i) 
+From time to time, the Government of India (Procuring Entity) lays down procurement 
+policies to help inclusive national economic growth by providing long-term support to 
+micro, small and medium enterprises and disadvantaged sections of society . The 
+Procurement Policy for Micro and Small Enterprises, 2012 [amended 2018 and 2021] 
+has been notified by the Government in exercise of the powers conferred in Section 11 
+of the Micro, Small and Medium Enterprises Development (MSMED) Act, 2006. Details 
+ 
+ 
+21 http://www.dcmsme.gov.in/schemes/Listof358itemsReserved.pdf 
+22Policy Circular No. 21(6)/2016-MA dated 26.05.2016 
+
+ 
+ 
+ 
+17 
+of the policy along with the amendments issued in 2018 and 2021 are available on the 
+MSME website23. 
+ii) Micro and Small Enterprises (MSEs) registered under Udyam Registration are eligible to 
+avail the benefits under the policy.  
+iii) The Policy is applicable to all the Central Government Ministries/ Departments/ CPSUs. 
+However, the policy is not applicable to State Government Ministries/ Departments/ 
+PSUs. 
+1) To reduce transaction cost of doing business,  MSEs will be facilitated by 
+providing them tender documents free of cost, exempting MSEs  from 
+payment of earnest money deposit, adopting e-procurement to bring 
+transparency in tendering process. However, exemption from paying 
+Performance Bank Guarantee is not covered under the policy. MSEs may 
+also be given relaxation in prior turnover and prior experience criteria during 
+the tender process, subject to meeting of quality and technical specifications. 
+However, there may be circumstances (like procurement of items related to 
+public safety, health, critical security operations and equipment, etc.) where 
+procuring entity may prefer the vendor to have prior experience rather than 
+giving orders to new entities24. 
+2) Chapter V of the MSMED Act, 2006 also has provision for ensuring timely 
+payments to the MSE suppliers. The period agreed upon for payment must 
+not exceed forty-five days after the supplies. For delays in payment the buyer 
+shall be liable to pay compound interest to the supplier on the delayed 
+amount at three times of the bank rate notified by the Reserve Bank. For 
+arbitration and conciliation regarding recovery of such payments and 
+interests, Micro and Small Enterprises Facilitation Council has been setup in 
+states. 
+3) In tender, participating Micro and Small Enterprises (MSE) quoting price 
+within price band of L1+15 (fifteen) per cent shall also be allowed to supply a 
+portion of requirement by bringing down their price to L1 price in a situation 
+where L1 price is from someone other than a MSE and such MSE shall be 
+allowed to supply up to 25(twenty five) per cent of total tendered value. The 
+25(twenty five) per cent quantity is to be distributed proportionately among 
+these bidders, in case there are more than one MSEs within such price band.  
+4) Within this 25% (Twenty Five Percent) quantity, a purchase preference of 
+four (4) per cent s reserved for MSEs owned by Scheduled Caste (SC)/ 
+Scheduled Tribe (ST) entrepreneurs  and three (3) percent is reserved for 
+MSEs owned by women entrepreneur (if they participate in the tender 
+process and match the L1 price).However, in event of failure of such MSEs 
+to participate in tender process or meet tender requirements and L1 price, 
+four percent sub-target for procurement earmarked for MSEs owned by 
+SC/ST entrepreneurs and three (3) percent earmarked to women 
+ 
+ 
+23http://dcmsme.gov.in/pppm.htm.aspx 
+24Notified vide OM No.F.20/2/2014-PPD(Pt.) issued by Department of Expenditure dated 29.09.2016. 
+
+ 
+ 
+ 
+18 
+entrepreneur will be met from other MSEs. . MSEs would be treated as 
+owned by SC/ ST entrepreneurs:  
+a) In case of proprietary MSE, proprietor(s) shall be SC /ST; 
+b) In case of partnership MSE, the SC/ ST partners shall be holding at least 51% (fifty-one 
+percent) shares in the unit; 
+c) In case of Private Limited Companies, at least 51% (fifty-one percent) share shall be 
+held by SC/ ST promoters.  
+iv) If subcontract is given to MSEs, it will be considered as procurement from MSEs. 
+v) In case of tender item cannot be split or divided, etc. the MSE quoting a price within the 
+band L1+15% may be awarded for full/ complete supply of total tendered value to MSE, 
+considering the spirit of the Policy for enhancing Govt. Procurement from MSEs. 
+vi) To develop MSE vendors so as to achieve their targets for MSEs procurement, Central 
+Government Ministries /Departments /PSUs shall take necessary steps to develop 
+appropriate vendors by organizing Vendor Development Programmes (VDPs) or Buyer-
+Seller Meets focused on developing MSEs for procurement through the Government e-
+Marketplace (GeM) portal. In order to develop vendors belonging to MSEs for Public 
+Procurement Policy, the Ministry of MSME is regularly organizing State Level VDPs and 
+National Level VDPs under the Procurement and Marketing Support Scheme. For 
+enhancing participation of MSEs owned by SCs /STs/ Women in Government 
+procurement, Central Government Ministries/ Departments/ CPSUs have to take the 
+following steps: 
+a) Special Vendor Development Programmes/ Buyer-Seller Meets would be 
+conducted by Departments/ CPSUs for SC/STs and Women. 
+b) Outreach programmes will be conducted by National Small Industries 
+Corporation (NSIC) to cover more and more MSEs from SC/STs under its 
+schemes of consortia formation; and 
+c) NSIC would open a special window for SCs/ STs under its Single Point 
+Registration Scheme (SPRS). 
+d) A National SC/ST hub scheme was launched in October, 2016, for providing 
+handholding support to SC/ST entrepreneur which is being coordinated / 
+implemented by the NSIC under this Ministry.  
+vii) Where any Aggregator has been appointed by the Ministry of MSME, themselves quote 
+on behalf of some MSE units, such offers will be considered as offers from MSE units 
+and all such facilities would be extended to these also. 
+viii) This Policy is meant for procurement of only goods produced and services rendered by 
+MSEs. Traders/ distributors/ sole agent/ Works Contract are excluded from the purview 
+of the policy.  
+ix) Exemptions from the policy: Given their unique nature, defence armament imports 
+shall not be included in computing 25(twenty five) per cent goal for Ministry of Defence. 
+In addition, defence equipments like weapon systems, missiles, etc. shall remain out of 
+purview of such Policy of reservation. Monitoring of goals set under the policy will be 
+done, in so far as they related to Defense sector, by Ministry of Defense itself in 
+accordance with suitable procedures to be established by them. 
+
+ 
+ 
+ 
+19 
+x) To monitor the progress of procurement by Central Government Ministries/ Departments 
+and CPSUs from MSEs, Ministry of MSME has launched the MSME ‘Sambandh’25 Portal 
+on 8th December, 2017 for uploading procurement details by all CPSUs on a monthly and 
+an annual basis which is regularly monitored by the Ministry. 
+xi) To redress the grievances of MSEs related to non-compliance of the Policy a Grievance 
+cell named “CHAMPION Portal” has been set up in the Ministry of MSME.  
+1.10.5 Procurement Preference for Domestically Manufactured Electronic Products 
+(Deleted)26 
+ 
+1.10.6 Preference to Make in India 
+To encourage ‘Make in India’ and promote manufacturing and production of goods and 
+services in India with a view to enhancing income and employment, Department of 
+Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, 
+Government of India, issued Public Procurement (Preference to Make in India), Order 
+201727. The order is issued pursuant to Rule 153 (iii) of GFR, 2017. The Order is applicable 
+on the procurement of Goods, Works and Services. For the purpose of this Order:- 
+a) ‘L1’ means the lowest tender or lowest bid or the lowest quotation received in a 
+tender, bidding process or other procurement solicitation as adjudged in the 
+evaluation process as per the tender or other procurement solicitation. 
+b) ‘Margin of purchase preference’ means the maximum extent to which the price 
+quoted by a “Class-I local supplier” may be above the L1 for the purpose of purchase 
+preference. It has been fixed as 20 (twenty) percent. 
+c) ‘Nodal Ministry’ means the Ministry or Department identified pursuant to this order in 
+respect of a particular item of goods or services or works. 
+d) ‘Procuring entity’ means a Ministry or department or attached or subordinate office of, 
+or autonomous body controlled by, the Government of India and includes 
+Government companies as defined in the Companies Act. 
+e) ‘Works’ means all works as per Rule 130 of GFR- 2017, and will also include ‘turnkey 
+works’. 
+i) Eligibility of ‘Class-I local supplier’/ ‘Class-II local supplier’/ ‘Non-local suppliers’ 
+for different types of procurement 
+a) In procurement of all goods, services or works in respect of which the Nodal Ministry/ 
+Department has communicated that there is sufficient local capacity and local 
+competition, only ‘Class-I local supplier’, shall be eligible to bid irrespective of 
+purchase value. 
+b) Only ‘Class-I local supplier’ and ‘Class-II local supplier’, shall be eligible to bid in 
+procurements undertaken by procuring entities, except when Global tender enquiry 
+has been issued. In global tender enquiries, ‘Non-local suppliers’ shall also be 
+ 
+ 
+25https://sambandh.msme.gov.in/PPP_Index.aspx 
+26Superseded by Public Procurement (Preference to Make in India) Order issued by DPIIT dated 16.09.2020 
+27Latest revision to the Order notified vide OM No. P-45021/2/2017-PP (BE-II) issued by DPIIT, dated 
+16.09.2020 
+
+ 
+ 
+ 
+20 
+eligible to bid along with ‘Class-I local suppliers’ and ‘Class-II local suppliers’. In 
+procurement of all goods, services or works, not covered by sub-para (i)(a) above, 
+and with estimated value of purchases less than Rs. 200 Crore, in accordance with 
+Rule 161(iv) of GFR, 2017, Global tender enquiry shall not be issued except with the 
+approval of competent authority as designated by Department of Expenditure. 
+c)  For the purpose of this Order, works includes Engineering, Procurement and 
+Construction (EPC) contracts and services include System Integrator (SI) contracts.  
+ii) 
+Purchase Preference 
+a) Subject to the provisions of the Order and to any specific instructions issued by the 
+Nodal Ministry or in pursuance of the Order, purchase preference shall be given to 
+‘Class-I local supplier’ in procurements undertaken by procuring entities in the 
+manner specified here under. 
+b) n the procurements of goods or works, which are covered by para (i)(b) above and 
+which are divisible in nature, the ‘Class-I local supplier’ shall get purchase preference 
+over ‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following 
+procedure:  
+1. 
+Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract for full quantity will be awarded to L1.  
+2. 
+If L1 bid is not a ‘Class-I local supplier’, 50 (fifty) percent of the order quantity 
+shall be awarded to L1. Thereafter, the lowest bidder among the ‘Class-I local 
+supplier’ will be invited to match the L1 price for the remaining 50 (fifty) 
+percent quantity subject to the Class-I local supplier’s  quoted price falling 
+within the margin of purchase preference, and contract for that quantity shall 
+be awarded to such ‘Class-I local supplier’ subject to matching the L1 price. In 
+case such lowest eligible ‘Class-I local supplier’ fails to match the L1 price or 
+accepts less than the offered quantity, the next higher ‘Class-I local supplier’ 
+within the margin of purchase preference shall be invited to match the L1 
+price for remaining quantity and so on, and contract shall be awarded 
+accordingly. In case some quantity is still left uncovered on Class-I local 
+suppliers, then such balance quantity may also be ordered on the L1 bidder. 
+c) In the procurements of goods or works, which are covered by para (i)(b) above and 
+which are not divisible in nature, and in procurement of services where the bid is 
+evaluated on price alone, the ‘Class-I local supplier’ shall get purchase preference 
+over ‘Class-II local supplier’ as well as ‘Non-local supplier’, as per following 
+procedure: 
+1. Among all qualified bids, the lowest bid will be termed as L1. If L1 is ‘Class-I 
+local supplier’, the contract will be awarded to L1. 
+2. If L1 is not ‘Class-I local supplier’, the lowest bidder among the ‘Class-I local 
+supplier’, will be invited to match the L1 price subject to Class-I local 
+supplier’s quoted price falling within the margin of purchase preference, and 
+the contract shall be awarded to such ‘Class-I local supplier’ subject to 
+matching the L1 price. 
+3. In case such lowest eligible ‘Class-I local supplier’ fails to match the L1 price, 
+the ‘Class-I local supplier’ with the next higher bid within the margin of 
+purchase preference shall be invited to match the L1 price and so on and 
+
+ 
+ 
+ 
+21 
+contract shall be awarded accordingly. In case none of the ‘Class-I local 
+supplier’ within the margin of purchase preference matches the L1 price, the 
+contract may be awarded to the L1 bidder. 
+4. “Class-II local supplier” will not get purchase preference in any procurement, 
+undertaken by procuring entities. 
+iii) 
+Applicability in tenders where contract is to be awarded to multiple bidders  
+In tenders where contract is awarded to multiple bidders subject to matching of L1 rates or 
+otherwise, the ‘Class-I local supplier’ shall get purchase preference over ‘Class-II local 
+supplier’ as well as ‘Non-local supplier’, as per following procedure:  
+a) In case there is sufficient local capacity and competition for the item to be 
+procured, as notified by the nodal Ministry, only Class I local suppliers shall 
+be eligible to bid. As such, the multiple suppliers, who would be awarded the 
+contract, should be all and only ‘Class I Local suppliers’. 
+b) In other cases, ‘Class II local suppliers’ and ‘Non local suppliers’ may also 
+participate in the bidding process along with ‘Class I Local suppliers’ as per 
+provisions of the Order.  
+c) If ‘Class I Local suppliers’ qualify for award of contract for at least 50 (fifty) 
+percent of the tendered quantity in any tender, the contract may be awarded 
+to all the qualified bidders as per award criteria stipulated in the bid 
+documents. However, in case ‘Class I Local suppliers’ do not qualify for 
+award of contract for at least 50 (fifty) percent of the tendered quantity, 
+purchase preference should be given to the ‘Class I local supplier’ over ‘Class 
+II local suppliers’/ ‘Non local suppliers’ provided that their quoted rate falls 
+within 20 (twenty) percent margin of purchase preference of the highest 
+quoted bidder considered for award of contract so as to ensure that the ‘Class 
+I Local suppliers’ taken in totality are considered for award of contract for at 
+least 50 (fifty) percent of the tendered quantity. 
+d) First purchase preference has to be given to the lowest quoting ‘Class-I local 
+supplier’, whose quoted rates fall within 20 (twenty) percent margin of 
+purchase preference, subject to its meeting the prescribed criteria for award 
+of contract as also the constraint of maximum quantity that can be sourced 
+from any single supplier. If the lowest quoting ‘Class-I local supplier’, does not 
+qualify for purchase preference because of aforesaid constraints or does not 
+accept the offered quantity, an opportunity may be given to next higher 
+‘Class-I local supplier’, falling within 20 (twenty) percent margin of purchase 
+preference, and so on.  
+e) To avoid any ambiguity during bid evaluation process, the procuring entities 
+may stipulate its own tender specific criteria for award of contract amongst 
+different bidders including the procedure for purchase preference to ‘Class-I 
+local supplier’ within the broad policy guidelines stipulated in sub-paras 
+above. 
+iv) 
+Exemption of small purchases: Notwithstanding anything contained in paragraph 
+(i), procurements where the estimated value to be procured is less than Rs. 5 lakhs 
+shall be exempt from the Order. However, it shall be ensured by procuring entities 
+that procurement is not split for the purpose of avoiding the provisions of this Order. 
+
+ 
+ 
+ 
+22 
+v) 
+Minimum local content: The ‘local content’ requirement to categorize a supplier as 
+‘Class-I local supplier’ is minimum 50 (fifty) percent. For ‘Class-II local supplier’, the 
+‘local content’ requirement is minimum 20 (twenty) percent. Nodal Ministry/ 
+Department may prescribe only a higher percentage of minimum local content 
+requirement to categorize a supplier as ‘Class-I local supplier’/ ‘Class-II local 
+supplier’. For the items, for which Nodal Ministry/ Department has not prescribed 
+higher minimum local content notification under the Order, it shall be 50 (fifty) percent 
+and 20 (twenty) percent for ‘Class-I local supplier’/ ‘Class-II local supplier’ 
+respectively. 
+vi) 
+Requirement for specification in advance: The minimum local content, the margin 
+of purchase preference and the procedure for preference to Make in India shall be 
+specified in the notice inviting tenders or other form of procurement solicitation and 
+shall not be varied during a particular procurement transaction. 
+vii) 
+Government E-marketplace: In respect of procurement through the Government E-
+marketplace (GeM) shall, as far as possible, specifically mark the items which meet 
+the minimum local content while registering the item for display, and shall, wherever 
+feasible, make provision for automated comparison with purchase preference and 
+without purchase preference and for obtaining consent of the local supplier in those 
+cases where purchase preference is to be exercised.  
+viii) 
+Verification of local content:  
+a) The ‘Class-I local supplier’/ ‘Class-II local supplier’ at the time of tender, bidding or 
+solicitation shall be required to indicate percentage of local content and provide self-
+certification that the item offered meets the local content requirement for ‘Class-I 
+local supplier’/ ‘Class-II local supplier’, as the case may be. They shall also give 
+details of the location(s) at which the local value addition is made. 
+b) In cases of procurement for a value in excess of Rs. 10 crores, the ‘Class-I local 
+supplier’/ ‘Class-II local supplier’ shall be required to provide a certificate from the 
+statutory auditor or cost auditor of the company (in the case of companies) or from 
+a practicing cost accountant or practicing chartered accountant (in respect of 
+suppliers other than companies) giving the percentage of local content. 
+c) Decisions on complaints relating to implementation of this Order shall be taken by 
+the competent authority which is empowered to look into procurement-related 
+complaints relating to the procuring entity. 
+d) Nodal Ministries may constitute committees with internal and external experts for 
+independent verification of self-declarations and auditor’s/ accountant’s certificates 
+on random basis and in the case of complaints. 
+e) Nodal Ministries and procuring entities may prescribe fees for such complaints. 
+f) False declarations will be in breach of the Code of Integrity under Rule 175(1)(i)(h) 
+of the General Financial Rules for which a bidder or its successors can be debarred 
+for up to two years as per Rule 151 (iii) of the General Financial Rules along with 
+such other actions as may be permissible under law. 
+g) A supplier who has been debarred by any procuring entity for violation of the Order 
+shall not be eligible for preference under the Order for procurement by any other 
+
+ 
+ 
+ 
+23 
+procuring entity for the duration of the debarment. The debarment for such other 
+procuring entities shall take effect prospectively from the date on which it comes to 
+the notice of other procurement entities, in the manner prescribed under paragraph 
+(h) below. 
+h) The Department of Expenditure shall issue suitable instructions for the effective and 
+smooth operation of this process, so that: 
+1. The fact and duration of debarment for violation of the Order by any procuring 
+entity are promptly brought to the notice of the Member-Convenor of the 
+Standing Committee and the Department of Expenditure through the concerned 
+Ministry /Department or in some other manner;  
+2. on a periodical basis such cases are consolidated and a centralized list or 
+decentralized lists of such suppliers with the period of debarment is maintained 
+and displayed on website(s); 
+3. in respect of procuring entities other than the one which has carried out the 
+debarment, the debarment takes effect prospectively from the date of uploading 
+on the website(s) in the such a manner that ongoing procurements are not 
+disrupted. 
+ix) 
+Specifications in Tenders and other procurement solicitations:  
+a) Every procuring entity shall ensure that the eligibility conditions in respect of previous 
+experience fixed in any tender or solicitation do not require proof of supply in other 
+countries or proof of exports. 
+b) Procuring entities shall endeavour to see that eligibility conditions, including on 
+matters like turnover, production capability and financial strength do not result in 
+unreasonable exclusion of ‘Class-I local supplier’/ ‘Class-II local supplier’ who would 
+otherwise be eligible, beyond what is essential for ensuring quality or 
+creditworthiness of the supplier. 
+c) Procuring entities shall review all existing eligibility norms and conditions with 
+reference to sub-paragraphs (viii) (a) and (b) above.    
+d) Reciprocity Clause 
+1. When a Nodal Ministry/Department identifies that Indian suppliers of an item 
+are not allowed to participate and/ or compete in procurement by any foreign 
+government, due to restrictive tender conditions which have direct or indirect 
+effect of barring Indian companies such as registration in the procuring 
+country, execution of projects of specific value in the procuring country etc., it 
+shall provide such details to all its procuring entities including  CMDs/CEOs of 
+PSEs/PSUs, State Governments and other procurement agencies under their 
+administrative control and GeM for appropriate reciprocal action.  
+2. Entities 
+of 
+countries 
+which 
+have 
+been 
+identified 
+by 
+the 
+nodal 
+Ministry/Department as not allowing Indian companies to participate in their 
+Government procurement for any item related to that nodal Ministry shall not 
+be allowed to participate in Government procurement in India for all items 
+related to that nodal Ministry/ Department, except for the list of items 
+published by the Ministry/ Department permitting their participation.  
+3. The stipulation in (2) above shall be part of all tenders invited by the Central 
+Government procuring entities stated in (1) above. All purchases on GeM 
+
+ 
+ 
+ 
+24 
+shall also necessarily have the above provisions for items identified by nodal 
+Ministry/ Department.  
+4. State Governments should be encouraged to incorporate similar provisions in 
+their respective tenders.  
+5. The term 'entity' of a country shall have the same meaning as under the FDI 
+Policy of DPIIT as amended from time to time. 
+e) Specifying foreign certifications/ unreasonable technical specifications/ brands/ 
+models in the bid document is restrictive and discriminatory practice against local 
+suppliers. If foreign certification is required to be stipulated because of non-
+availability of Indian Standards and/or for any other reason, the same shall be done 
+only after written approval of Secretary of the Department concerned or any other 
+Authority having been designated such power by the Secretary of the Department 
+concerned.  
+f) “All administrative Ministries/Departments whose procurement exceeds Rs. 1000 
+Crore per annum shall notify/ update their procurement projections every year, 
+including those of the PSEs/PSUs, for the next 5 years on their respective website.” 
+x) 
+Action for non-compliance of the Provisions of the Order: In case restrictive or 
+discriminatory conditions against domestic suppliers are included in bid documents, an 
+inquiry shall be conducted by the Administrative Department undertaking the 
+procurement (including procurement by any entity under its administrative control) to fix 
+responsibility for the same. Thereafter, appropriate action, administrative or otherwise, 
+shall be taken against erring officials of procurement entities under relevant provisions. 
+Intimation on all such actions shall be sent to the Standing Committee. 
+xi) Assessment of supply base by Nodal Ministries: The Nodal Ministry shall keep in 
+view the domestic manufacturing / supply base and assess the available capacity and 
+the extent of local competition while identifying items and prescribing the higher 
+minimum local content or the manner of its calculation, with a view to avoiding cost 
+increase from the operation of this Order. 
+xii) Increase in minimum local content: The Nodal Ministry may annually review the local 
+content requirements with a view to increasing them, subject to availability of sufficient 
+local competition with adequate quality. 
+xiii) Manufacture under license/ technology collaboration agreements with phased 
+indigenization 
+a) While notifying the minimum local content, Nodal Ministries may make special 
+provisions for exempting suppliers from meeting the stipulated local content if the 
+product is being manufactured in India under a license from a foreign  manufacturer 
+who holds intellectual property rights and where there is a technology collaboration 
+agreement / transfer of technology agreement for indigenous manufacture of a 
+product developed abroad with clear phasing of increase in local content. 
+b) In procurement of all goods, services or works in respect of which there is substantial 
+quantity of public procurement and for which the nodal ministry has not notified that 
+there is sufficient local capacity and local competition, the concerned nodal ministry 
+shall notify an upper threshold value of procurement beyond which foreign 
+
+ 
+ 
+ 
+25 
+companies shall enter into a joint venture with an Indian company to participate in the 
+tender. Procuring entities, while procuring such items beyond the notified threshold 
+value, shall prescribe in their respective tenders that foreign companies may enter 
+into a joint venture with an Indian company to participate in the tender. The procuring 
+Ministries/Departments shall also make special provisions for exempting such joint 
+ventures from meeting the stipulated minimum local content requirement, which shall 
+be increased in a phased manner. 
+xiv) 
+Powers to grant exemption and to reduce minimum local content: The 
+administrative Department undertaking the procurement (including procurement by any 
+entity under its administrative control), with the approval of their Minister-in-charge, may by 
+written order, for reasons to be recorded in writing, 
+1. reduce the minimum local content below the prescribed level; or 
+2. reduce the margin of purchase preference below 20 (twenty) percent; or 
+3. exempt any particular item or supplying entities from the operation of this 
+Order or any part of the Order. 
+A copy of every such order shall be provided to the Standing Committee and concerned 
+Nodal Ministry / Department. The Nodal Ministry / Department concerned will continue to 
+have the power to vary its notification on Minimum Local Content. 
+xv) 
+Directions to Government companies: In respect of Government companies and 
+other procuring entities not governed by the General Financial Rules, the administrative 
+Ministry or Department shall issue policy directions requiring compliance with this Order. 
+xvi) 
+Standing Committee. A standing committee is hereby constituted with the following 
+membership: 
+ 
+Secretary, Department for Promotion of Industry and Internal Trade-Chairman 
+ 
+Secretary, Commerce-Member 
+ 
+Secretary, Ministry of Electronics and Information Technology-Member 
+ 
+Joint Secretary (Public Procurement), Department of Expenditure-Member 
+ 
+Joint Secretary (DPIIT)-Member-Convenor 
+The Secretary of the Department concerned with a particular item shall be a member in 
+respect of issues relating to such item. The Chairman of the Committee may co-opt technical 
+experts as relevant to any issue or class of issues under its consideration. 
+xvii) 
+Removal of difficulties: Ministries /Departments and the Boards of Directors of 
+Government companies may issue such clarifications and instructions as may be necessary 
+for the removal of any difficulties arising in the implementation of the Order.  
+xviii) 
+Ministries having existing policies: Where any Ministry or Department has its own 
+policy for preference to local content approved by the Cabinet after 1st January 2015, such 
+policies will prevail over the provisions of the Order. All other existing orders on preference 
+to local content shall be reviewed by the Nodal Ministries and revised as needed to conform 
+to this Order, within two months of the issue of this Order. 
+xix) 
+Transitional provision: The Order shall not apply to any tender or procurement for 
+which notice inviting tender or other form of procurement solicitation has been issued before 
+the issue of this Order. 
+(Rule 153 of GFR 2017) 
+1.11 Proactive Information Disclosures 
+
+ 
+ 
+ 
+26 
+Section 4(1) (b) of the RTI Act lays down the information to be disclosed by public authorities 
+on a suo motu or proactive basis and Section 4(2) and Section 4(3) prescribe the method of 
+its dissemination to enhance transparency and also to reduce the need for filing individual 
+RTI applications. The Department of Personnel & Training, Ministry of Personnel, Public 
+Grievances & Pensions, Government of India, has issued “Guidelines on suo motu 
+disclosure under Section 4 of the RTI Act” vide their OM No.1/6/2011-IR dated April 15, 
+2013.28. The relevant guidelines relating to information disclosure relating to procurement 
+are reproduced below: 
+“Information relating to procurement made by public authorities including publication of 
+notice/tender enquiries, corrigenda thereon, and details of bid awards detailing the name of 
+the Vendor/ Contractor of goods/services being procured or the works contracts entered or 
+any such combination of these and the rate and total amount at which such procurement or 
+works contract is to be done should be disclosed. All information disclosable as per Ministry 
+of Finance, Department of Expenditure’s O.M. No 10/1/2011-PPC dated 30th November, 
+2011 29 (and 05th March 2012 30) on Mandatory Publication of Tender Enquiries on the 
+Central Public Procurement Portal and O.M. No. 10/3/2012- PPC dated 09th January 2014 
+on implementation of comprehensive end-to-end e-procurement should be disclosed under 
+Section 4 of the Right to Information Act.  
+1.12 Public Procurement Cycle 
+The procurement process for goods, works and/or services typically involves the following 
+cycle of activities, undertaken in the order stated below.  
+i) Need 
+Assessment: Need assessment, formulation of Specifications and 
+Procurement Planning 
+ii) Bid Invitation: Preparing bid documents, publication, receipt and opening of bids; 
+iii) Bid Evaluation: Evaluation of bids and award of contract; and 
+iv) Contract Execution: Contract management and closure. 
+v) Disposal of Scrap: Disposal of Scrap through various modes of disposal. 
+Details and procedures of various stages of the procurement cycle would be described in 
+subsequent Chapters of the manuals. 
+ 
+ 
+28 http://cic.gov.in/GuidelinesOnProActive.pdf 
+29 http://finmin.nic.in/the_ministry/dept_expenditure/gfrs/pub_tender_enq_cppportal.pdf 
+30http://eprocure.gov.in/cppp/sites/default/files/instruction_contents/INST_DOC_NO_7/OM_DoE_5thMarch2012.pdf 
+
+ 
+Chapter 2: Need assessment, formulation of Specifications and 
+Procurement Planning 
+2.1 
+Need Assessment 
+2.1.1 Procurements should be initiated only based on an indent from the user Department. 
+The authority in the user Department initiating the indent for procurement shall first 
+determine the need (including anticipated requirement) for the subject matter of the 
+procurement. Description and Specification of Need assessment is of fundamental 
+importance in ensuring value for money, transparency, competition and level playing field in 
+procurement. The user Department shall maintain all documents relating to the 
+determination and technical/financial/budgetary approvals of the need for procurement. 
+During need assessments, the following matters are decided to comply with the 
+‘Procurement Guidelines’:  
+i) 
+The expression/description of the need keeping in view the Value for Money (VfM) 
+and to ensure wide competition. Therefore to the extent practicable it should be: 
+a) Unambiguous, complete, using common terminology prevalent in relevant trade; 
+b) In accordance with the guidelines prescribed if any in this regard; 
+c) Except in case of proprietary purchase from a selected single source, reference 
+to brand names, catalogue numbers or other details that limit any materials or 
+items to specific manufacturer(s) should be avoided as far as possible. Where 
+unavoidable, such item descriptions should always be followed by the words “or 
+substantially equivalent”. 
+ii) Method of satisfying it (owning/leasing/hiring/outsourcing or through Public Private 
+Partnership (PPP), and so on) may be determined as per policies declared in this regard 
+or based on a techno-economic evaluation (using life cycle cost, if feasible) of various 
+alternative methods of satisfaction of the need and compatibility and inter-operability with 
+existing infrastructure or systems. 
+iii) The quantity of the subject matter of procurement, commensurate with economy:  
+a) Care should be taken not to make unnecessary procurements much in advance of 
+actual requirements, if such procurement is likely to be unprofitable to the 
+Government, coupled with unwarranted inventory-carrying cost. Where sales, 
+consumption or usage limits of requirements have been laid down by the Competent 
+Authority (CA), the officer signing the indent should also certify that the prescribed 
+scales or limits are not exceeded. The authority preparing the indent shall neither 
+package nor divide its procurement or take any other action so as to limit competition 
+among potential bidders or to avoid its obligations under ‘Procurement Guidelines’. 
+Provided that in the interest of efficiency, economy, timely completion or supply, 
+wider competition or access to MSEs, a indenting or procuring authority may, for 
+reasons to be recorded in writing, divide its procurement into appropriate packages, 
+or club requirements of other users for procurement. Some requirements e.g. IT 
+Systems may have elements of Goods, Works and Services. It could be either sliced 
+into of Goods, Works and Services elements or combined into a package. Such 
+decisions for slicing or packaging should be based on technical and VfM
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

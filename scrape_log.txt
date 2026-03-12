@@ -1,0 +1,46 @@
+2026-03-09 20:44:44,779 - INFO - Starting EPFO Scraper...
+2026-03-09 20:44:44,886 - INFO - Skipping epfo_contact_support.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping epfo_faq.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping pf_account_balance_check.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping pf_claim_rejection_reasons.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping pf_grievance_process.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping pf_kyc_update_process.txt, already exists.
+2026-03-09 20:44:44,886 - INFO - Skipping pf_nominee_update.txt, already exists.
+2026-03-09 20:44:44,887 - INFO - Skipping pf_partial_withdrawal_rules.txt, already exists.
+2026-03-09 20:44:44,887 - INFO - Skipping pf_transfer_process.txt, already exists.
+2026-03-09 20:44:44,887 - INFO - Skipping pf_withdrawal_process.txt, already exists.
+2026-03-09 20:44:47,468 - INFO - Downloaded PDF knowledge_base\epfo\forms\Form_19.pdf
+2026-03-09 20:44:47,605 - INFO - Starting Income Tax Scraper...
+2026-03-09 20:44:47,606 - INFO - Skipping income_tax_faq.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping income_tax_refund_process.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping itr_documents_required.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping itr_filing_process.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping tax_deduction_sections.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping tax_grievance_process.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping tax_notice_143_explanation.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping tax_notice_148_explanation.txt, already exists.
+2026-03-09 20:44:47,606 - INFO - Skipping tax_notice_response_process.txt, already exists.
+2026-03-09 20:44:47,791 - INFO - Saved knowledge_base\income_tax\tax_refund_delay_reasons.txt
+2026-03-09 21:32:24,843 - INFO - Starting EPFO Scraper...
+2026-03-09 21:32:25,048 - INFO - Saved knowledge_base\epfo\epfo_contact_support.txt
+2026-03-09 21:32:25,050 - INFO - Saved knowledge_base\epfo\epfo_faq.txt
+2026-03-09 21:32:25,050 - INFO - Saved knowledge_base\epfo\pf_account_balance_check.txt
+2026-03-09 21:32:25,057 - INFO - Saved knowledge_base\epfo\pf_claim_rejection_reasons.txt
+2026-03-09 21:32:25,061 - INFO - Saved knowledge_base\epfo\pf_grievance_process.txt
+2026-03-09 21:32:25,064 - INFO - Saved knowledge_base\epfo\pf_kyc_update_process.txt
+2026-03-09 21:32:25,066 - INFO - Saved knowledge_base\epfo\pf_nominee_update.txt
+2026-03-09 21:32:25,069 - INFO - Saved knowledge_base\epfo\pf_partial_withdrawal_rules.txt
+2026-03-09 21:32:25,073 - INFO - Saved knowledge_base\epfo\pf_transfer_process.txt
+2026-03-09 21:32:25,075 - INFO - Saved knowledge_base\epfo\pf_withdrawal_process.txt
+2026-03-09 21:32:25,077 - INFO - Skipping PDF Form_19.pdf, already exists.
+2026-03-09 21:32:25,125 - INFO - Starting Income Tax Scraper...
+2026-03-09 21:32:25,128 - INFO - Saved knowledge_base\income_tax\income_tax_faq.txt
+2026-03-09 21:32:25,133 - INFO - Saved knowledge_base\income_tax\income_tax_refund_process.txt
+2026-03-09 21:32:25,134 - INFO - Saved knowledge_base\income_tax\itr_documents_required.txt
+2026-03-09 21:32:25,134 - INFO - Saved knowledge_base\income_tax\itr_filing_process.txt
+2026-03-09 21:32:25,141 - INFO - Saved knowledge_base\income_tax\tax_deduction_sections.txt
+2026-03-09 21:32:25,144 - INFO - Saved knowledge_base\income_tax\tax_grievance_process.txt
+2026-03-09 21:32:25,145 - INFO - Saved knowledge_base\income_tax\tax_notice_143_explanation.txt
+2026-03-09 21:32:25,149 - INFO - Saved knowledge_base\income_tax\tax_notice_148_explanation.txt
+2026-03-09 21:32:25,149 - INFO - Saved knowledge_base\income_tax\tax_notice_response_process.txt
+2026-03-09 21:32:25,154 - INFO - Saved knowledge_base\income_tax\tax_refund_delay_reasons.txt

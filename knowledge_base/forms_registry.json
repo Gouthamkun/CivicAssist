@@ -1,0 +1,17 @@
+{
+    "forms": [
+        {
+            "form_id": "Form 19",
+            "domain": "epfo",
+            "official_name": "PF Final Settlement Form",
+            "purpose": "Full PF withdrawal",
+            "download_url": "https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/Form19.pdf",
+            "local_path": "epfo/forms/Form_19.pdf",
+            "text_path": "epfo/forms/Form_19_meta.txt",
+            "trigger_keywords": [
+                "form 19",
+                "pf final settlement form"
+            ]
+        }
+    ]
+}

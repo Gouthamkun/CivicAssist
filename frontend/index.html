@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,28 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Top Bar (Accessibility & Links) -->
     <div class="top-bar">
         <div class="container top-bar-inner">
             <div class="tb-left" style="display: flex; align-items: center; gap: 15px;">
                 <a href="#main-content">Skip to main content</a>
-                
+
                 <!-- User Profile Dropdown -->
                 <div class="user-profile-dropdown" style="position: relative;">
-                    <button class="btn-outline" onclick="toggleUserProfile()" style="padding: 2px 8px; font-size: 0.8rem; display: flex; align-items: center; gap: 5px; border-color: rgba(255,255,255,0.3); color: white; background: transparent; cursor: pointer; border-radius: 4px;">
-                        <i class="fa-solid fa-user-circle"></i> User Details <i class="fa-solid fa-chevron-down" style="font-size: 0.6rem;"></i>
+                    <button class="btn-outline" onclick="toggleUserProfile()"
+                        style="padding: 2px 8px; font-size: 0.8rem; display: flex; align-items: center; gap: 5px; border-color: rgba(255,255,255,0.3); color: white; background: transparent; cursor: pointer; border-radius: 4px;">
+                        <i class="fa-solid fa-user-circle"></i> User Details <i class="fa-solid fa-chevron-down"
+                            style="font-size: 0.6rem;"></i>
                     </button>
                     <!-- Dropdown Menu -->
-                    <div id="user-profile-menu" class="glass-panel" style="display: none; position: absolute; top: calc(100% + 5px); left: 0; padding: 15px; min-width: 250px; z-index: 1000; border-radius: 8px; color: var(--text-dark); text-align: left; box-shadow: 0 10px 25px rgba(0,0,0,0.5); background: white;">
-                        <h4 style="margin: 0 0 10px 0; color: var(--primary-red); border-bottom: 2px solid #eee; padding-bottom: 8px; font-size: 1rem;"><i class="fa-solid fa-id-badge"></i> CivicAssist Profile</h4>
+                    <div id="user-profile-menu" class="glass-panel"
+                        style="display: none; position: absolute; top: calc(100% + 5px); left: 0; padding: 15px; min-width: 250px; z-index: 1000; border-radius: 8px; color: var(--text-dark); text-align: left; box-shadow: 0 10px 25px rgba(0,0,0,0.5); background: white;">
+                        <h4
+                            style="margin: 0 0 10px 0; color: var(--primary-red); border-bottom: 2px solid #eee; padding-bottom: 8px; font-size: 1rem;">
+                            <i class="fa-solid fa-id-badge"></i> CivicAssist Profile
+                        </h4>
                         <div style="font-size: 0.9rem; line-height: 1.6;">
                             <p style="margin: 5px 0;"><strong>Name:</strong> <span id="profile-name"></span></p>
                             <p style="margin: 5px 0;"><strong>Email:</strong> <span id="profile-email"></span></p>
@@ -37,7 +45,8 @@
                 <a href="#" title="Calendar"><i class="fa-regular fa-calendar-days"></i></a>
                 <a href="#" title="Accessibility"><i class="fa-solid fa-universal-access"></i></a>
                 <a href="#" title="Language"><i class="fa-solid fa-language"></i></a>
-                <a href="#" onclick="logoutUser(); return false;" title="Logout" style="margin-left: 10px; color: #ffcccc;"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                <a href="#" onclick="logoutUser(); return false;" title="Logout"
+                    style="margin-left: 10px; color: #ffcccc;"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
                 <div class="flag-icon"></div>
             </div>
         </div>
@@ -47,11 +56,11 @@
     <header class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            
+
             <div class="hero-emblem">
                 <i class="fa-solid fa-landmark-dome"></i>
             </div>
-            
+
             <div class="hero-titles">
                 <div class="hero-logo-line">
                     <h1>civicassist.gov.in</h1>
@@ -64,7 +73,8 @@
             <div class="search-container">
                 <div class="search-box">
                     <i class="fa-solid fa-magnifying-glass text-muted"></i>
-                    <input type="text" id="ai-search-input" placeholder="Search for PF withdrawal, Passport status, Tax queries..." autocomplete="off">
+                    <input type="text" id="ai-search-input"
+                        placeholder="Search for PF withdrawal, Passport status, Tax queries..." autocomplete="off">
                     <div class="category-dropdown">
                         All Categories <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -76,7 +86,8 @@
                 <span class="trending-label">Trending Searches :</span>
                 <button class="chip" onclick="executeQuickQuery('Link Aadhaar to UAN')">Link Aadhaar to UAN</button>
                 <button class="chip" onclick="executeQuickQuery('Passport Delay')">Passport Delay</button>
-                <button class="chip" onclick="executeQuickQuery('Upload PF Rejection Notice')">Upload PF Rejection Notice</button>
+                <button class="chip" onclick="executeQuickQuery('Upload PF Rejection Notice')">Upload PF Rejection
+                    Notice</button>
             </div>
         </div>
     </header>
@@ -84,7 +95,7 @@
     <!-- Services Section (Red block on left, Services on right) -->
     <section class="services-section" id="main-content">
         <div class="container services-wrapper">
-            
+
             <!-- Red Block -->
             <div class="services-red-block">
                 <h2>CivicAssist Services</h2>
@@ -141,7 +152,7 @@
                 </div>
 
                 <!-- Income Tax Card -->
-                <div class="service-card" onclick="openServiceModal('Income Tax')">
+                <div class="service-card" onclick="window.location.href='income_tax.html'">
                     <div class="service-img tax-bg">
                         <i class="fa-solid fa-file-invoice-dollar"></i>
                     </div>
@@ -151,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
@@ -216,7 +227,6 @@
             </div>
             <div class="modal-actions">
                 <button class="btn-outline" onclick="closeModal()">Close</button>
-                <button class="btn-primary">Take Action</button>
             </div>
         </div>
     </div>
@@ -231,78 +241,121 @@
     <!-- Hidden Template for EPFO Modal Grid -->
     <template id="epfo-features-template">
         <div class="custom-modal-grid">
-            <h3 style="margin-bottom: 20px; color: var(--primary-red); border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">EPFO Section Details</h3>
+            <h3
+                style="margin-bottom: 20px; color: var(--primary-red); border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">
+                EPFO Section Details</h3>
             <div class="categories-grid" style="grid-template-columns: repeat(2, 1fr);">
                 <!-- Feature 1 -->
-                <div class="category-card" onclick="executeQuickQuery('How to withdraw PF?')">
+                <div class="category-card" onclick="openGeneralQueriesUI()">
                     <div class="cat-icon-box"><i class="fa-solid fa-clipboard-question"></i></div>
-                    <div class="cat-content"><h4>General Queries (AI Chat)</h4><p>Ask questions like "How to withdraw PF?" or "How to activate UAN?" in simple terms.</p></div>
+                    <div class="cat-content">
+                        <h4>General Queries (AI Chat)</h4>
+                        <p>Ask custom questions about PF withdrawal, UAN activation, pensions, or any other topics.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 2 -->
                 <div class="category-card" onclick="executeQuickQuery('Help me fill out my PF form')">
-                    <div class="cat-icon-box" style="background-color:#ffd700; color:#333;"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-                    <div class="cat-content"><h4>Smart Form Filling</h4><p>AI helps you format data correctly to reduce rejections caused by incorrect form formats.</p></div>
+                    <div class="cat-icon-box" style="background-color:#ffd700; color:#333;"><i
+                            class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <div class="cat-content">
+                        <h4>Smart Form Filling</h4>
+                        <p>AI helps you format data correctly to reduce rejections caused by incorrect form formats.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 3 -->
                 <div class="category-card" onclick="showPFOptions()">
                     <div class="cat-icon-box"><i class="fa-solid fa-money-bill-transfer"></i></div>
-                    <div class="cat-content"><h4>PF Withdrawal</h4><p>Step-by-step guidance, required forms (Form 19/31), and eligibility explanations.</p></div>
+                    <div class="cat-content">
+                        <h4>PF Withdrawal</h4>
+                        <p>Step-by-step guidance, required forms (Form 19/31), and eligibility explanations.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 4 -->
                 <div class="category-card" onclick="executeQuickQuery('How to transfer PF to new job?')">
                     <div class="cat-icon-box"><i class="fa-solid fa-random"></i></div>
-                    <div class="cat-content"><h4>PF Transfer</h4><p>Learn the process, required steps, and track your transfer requests when changing jobs.</p></div>
+                    <div class="cat-content">
+                        <h4>PF Transfer</h4>
+                        <p>Learn the process, required steps, and track your transfer requests when changing jobs.</p>
+                    </div>
                 </div>
-                
+
                 <!-- Feature 5 -->
                 <div class="category-card" onclick="executeQuickQuery('What does Pending employer approval mean?')">
                     <div class="cat-icon-box"><i class="fa-solid fa-comment-dots"></i></div>
-                    <div class="cat-content"><h4>Claim Status Explanation</h4><p>Our AI explains confusing claim status messages like "Claim settled" or "Rejected".</p></div>
+                    <div class="cat-content">
+                        <h4>Claim Status Explanation</h4>
+                        <p>Our AI explains confusing claim status messages like "Claim settled" or "Rejected".</p>
+                    </div>
                 </div>
 
                 <!-- Feature 6 -->
-                <div class="category-card" onclick="executeQuickQuery('Upload PF Rejection Notice')">
+                <div class="category-card" onclick="openUniversalNoticeExplainer()">
                     <div class="cat-icon-box"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-                    <div class="cat-content"><h4>Claim Rejection Analysis</h4><p>Upload a PF rejection message. Our OCR AI explains the main issue and suggests next steps.</p></div>
+                    <div class="cat-content">
+                        <h4>Claim Rejection Analysis</h4>
+                        <p>Upload a PF rejection message. Our OCR AI explains the main issue and suggests next steps.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 7 -->
                 <div class="category-card" onclick="executeQuickQuery('How to link Aadhaar to UAN')">
                     <div class="cat-icon-box"><i class="fa-solid fa-id-card"></i></div>
-                    <div class="cat-content"><h4>UAN & KYC Help</h4><p>Get help with UAN activation, Aadhaar linking, PAN linking, and Bank KYC updates.</p></div>
+                    <div class="cat-content">
+                        <h4>UAN & KYC Help</h4>
+                        <p>Get help with UAN activation, Aadhaar linking, PAN linking, and Bank KYC updates.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 8 -->
                 <div class="category-card" onclick="executeQuickQuery('How to check PF balance')">
                     <div class="cat-icon-box"><i class="fa-solid fa-book"></i></div>
-                    <div class="cat-content"><h4>PF Balance & Passbook Help</h4><p>Learn how to check your PF balance, download passbooks, and what entries mean.</p></div>
+                    <div class="cat-content">
+                        <h4>PF Balance & Passbook Help</h4>
+                        <p>Learn how to check your PF balance, download passbooks, and what entries mean.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 9 -->
                 <div class="category-card" onclick="executeQuickQuery('Employer is not depositing PF')">
                     <div class="cat-icon-box"><i class="fa-solid fa-building-user"></i></div>
-                    <div class="cat-content"><h4>Employer Issues</h4><p>Guidance for employer not depositing PF, incorrect contributions, or related issues.</p></div>
+                    <div class="cat-content">
+                        <h4>Employer Issues</h4>
+                        <p>Guidance for employer not depositing PF, incorrect contributions, or related issues.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 10 -->
                 <div class="category-card" onclick="executeQuickQuery('What is EPS pension eligibility?')">
                     <div class="cat-icon-box"><i class="fa-solid fa-hand-holding-dollar"></i></div>
-                    <div class="cat-content"><h4>Pension Information</h4><p>Learn about pension eligibility, EPS withdrawal, and the pension claim process.</p></div>
+                    <div class="cat-content">
+                        <h4>Pension Information</h4>
+                        <p>Learn about pension eligibility, EPS withdrawal, and the pension claim process.</p>
+                    </div>
                 </div>
 
                 <!-- Feature 11 -->
                 <div class="category-card" onclick="executeQuickQuery('Passport Delay')">
                     <div class="cat-icon-box"><i class="fa-solid fa-stopwatch"></i></div>
-                    <div class="cat-content"><h4>Delay Detection</h4><p>Input your timeline to see if your application is stuck, and learn how to raise grievances.</p></div>
+                    <div class="cat-content">
+                        <h4>Delay Detection</h4>
+                        <p>Input your timeline to see if your application is stuck, and learn how to raise grievances.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Feature 12 -->
-                <div class="category-card" onclick="executeQuickQuery('Generate a grievance letter for PF claim rejection')">
-                    <div class="cat-icon-box" style="background-color:#dc3545;"><i class="fa-solid fa-file-signature"></i></div>
-                    <div class="cat-content"><h4>Grievance Generator</h4><p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.</p></div>
+                <div class="category-card"
+                    onclick="executeQuickQuery('Generate a grievance letter for PF claim rejection')">
+                    <div class="cat-icon-box" style="background-color:#dc3545;"><i
+                            class="fa-solid fa-file-signature"></i></div>
+                    <div class="cat-content">
+                        <h4>Grievance Generator</h4>
+                        <p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -393,11 +446,13 @@
             </div>
         </div>
     </template>
-        <div class="container text-center">
-            <p>CivicAssist Hackathon Project - Inspired by india.gov.in</p>
-        </div>
+    
+    <div class="container text-center">
+        <p>CivicAssist Hackathon Project - Inspired by india.gov.in</p>
+    </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/main.js?v=3"></script>
 </body>
+
 </html>

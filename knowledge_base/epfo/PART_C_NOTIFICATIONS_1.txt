@@ -1,0 +1,2274 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Compliance Manual - Part C: Notifications]
+
+[CONTENT]
+211 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+PART C : 
+NOTIFICATIONS 
+ 
+ 
+ 
+
+212 
+COMPLIANCE MANUAL 
+ 
+ 
+
+213 
+COMPLIANCE MANUAL 
+ 
+ 
+Index - List of Industries 
+S.No. 
+GSR/SRO No.
+W.E.F 
+Industries 
+Pg. No. 
+1 
+19 
+01-11-1952 
+Cement 
+225 
+2 
+19 
+01-11-1952 
+Cigarettes 
+225 
+3 
+19 
+01-11-1952 
+Electrical, mechanical, or general 
+engineering products (EM&G) 
+226 
+4 
+19 
+01-11-1952 
+Irons and Steel 
+226 
+5 
+19 
+01-11-1952 
+Paper 
+226 
+6 
+19 
+01-11-1952 
+Textiles (made wholly or in part of 
+cotton, or wool or jute, or silk, whether 
+natural or artificial) 
+226 
+7 
+1566 
+31-07-1956 
+Edible Oils and Fats 
+228 
+8 
+1566 
+31-07-1956 
+Sugar 
+228 
+9 
+1566 
+31-07-1956 
+Rubber and rubber products 
+228 
+10 
+1566 
+31-07-1956 
+Electricity including generation, 
+transmission, and distribution thereof 
+228 
+11 
+1566 
+31-07-1956 
+Tea (except in the State of Assam 
+where the Government of Assam have 
+instituted a separate Provident Funds 
+Scheme for the industry including 
+plantations) 
+228 
+12 
+1566 
+31-07-1956 
+Printing, including the process of 
+composing types for printing, printing 
+of letter press, lithography, 
+photogravure or other similar process 
+or bookbinding, but excluding printing 
+presses, covered under " Newspaper 
+establishments " to which the 
+Employees' Provident Fund Act have 
+been separately extended under Sec. 
+15 of the Working Journalists 
+(Conditions of Service and 
+Miscellaneous Provisions) Act, 1955 
+228 
+13 
+1566 
+31-07-1956 
+Stone-ware pipes 
+228 
+
+214 
+COMPLIANCE MANUAL 
+14 
+1566 
+31-07-1956 
+Sanitary Wares 
+228 
+15 
+1566 
+31-07-1956 
+Electrical porcelain insulators of high 
+and low tension 
+228 
+16 
+1566 
+31-07-1956 
+Refractories 
+228 
+17 
+1566 
+31-07-1956 
+Tiles 
+228 
+18 
+1566 
+31-07-1956 
+Matches 
+228 
+19 
+1566 
+31-07-1956 
+Glass 
+228 
+20 
+2026 
+30-09-1956 
+Heavy and fine chemical, including :—
+(i) Fertilizers, 
+(ii) Turpentine ; 
+(iii) Rosing ; 
+(iv) Medical and Pharmaceutical 
+Preparations, 
+(v) Toilet preparations, 
+(vi) Soaps, 
+(vii) Inks, 
+(viii) Intermediates, dyes, colour lacs 
+and, 
+(ix) Fatty acids, 
+(x) Oxygen, acetylene, and carbon-
+dioxide gases 
+230 
+21 
+2026 
+30-09-1956 
+Indigo 
+230 
+22 
+2026 
+30-09-1956 
+Lac including shellac 
+230 
+23 
+2026 
+30-09-1956 
+Non-edible vegetable & animal oils & 
+fats 
+230 
+24 
+218 
+31-01-1957 
+Mineral oil refining industry 
+231 
+25 
+108 
+30-11-1957 
+Industrial and Power Alcohol 
+232 
+26 
+108 
+30-11-1957 
+Asbestos Cement Sheets 
+232 
+27 
+733 
+30-04-1958 
+Biscuit making industry including 
+composite units making biscuits and  
+products such as bread, confectionery 
+and milk and milk powder 
+233 
+28 
+362 
+31-05-1960 
+Mica Mines and Mica Industry 
+234 
+29 
+733 
+30-06-1960 
+Plywood industry 
+233 
+
+215 
+COMPLIANCE MANUAL 
+30 
+733 
+30-06-1960 
+Automobile repairing and servicing 
+industry 
+233 
+31 
+733 
+31-12-1960 
+Rice Milling 
+233 
+32 
+733 
+31-12-1960 
+Dal Milling 
+233 
+33 
+733 
+31-12-1960 
+Flour Milling 
+233 
+34 
+535 
+31-05-1961 
+Starch industry 
+235 
+35 
+2014 
+31-06-1961 
+petroleum or natural gas exploitation, 
+prospecting, drilling or production ; 
+236 
+36 
+2014 
+31-06-1961 
+Petroleum or natural gas refining 
+236 
+37 
+2014 
+31-08-1961 
+Leather and Leather products industry 
+236 
+38 
+2014 
+30-11-1961 
+Stone-ware Jars 
+236 
+39 
+2014 
+30-11-1961 
+Crockery 
+236 
+40 
+887 
+30-04-1962 
+Fruit and vegetable preservation 
+238 
+41 
+824 
+30-09-1962 
+Cashewnuts industry 
+240 
+42 
+504 
+31-03-1963 
+Confectionery industry 
+241 
+43 
+666 
+30-04-1963 
+Buttons 
+242 
+44 
+666 
+30-04-1963 
+Brushes 
+242 
+45 
+666 
+30-04-1963 
+Plastic and plastic products 
+242 
+46 
+666 
+30-04-1963 
+Stationery products 
+242 
+47 
+1433 
+31-08-1963 
+Aerated water, soft drinks, or 
+carbonated water Industry 
+243 
+48 
+1605 
+23315 
+Distilling and rectifying of spirits (not 
+falling under industrial or power 
+alcohol) and blending of spirits 
+ 
+49 
+93 
+31-01-1964 
+Paint and Varnish industry 
+244 
+50 
+127 
+31-01-1964 
+Bone crushing industry 
+248 
+51 
+822 
+23558 
+Pickers industry 
+ 
+52 
+1723 
+31-12-1964 
+Milk and milk products industry 
+249 
+
+216 
+COMPLIANCE MANUAL 
+53 
+1795 
+31-01-1965 
+Non-ferrous metals and alloys in the 
+form of ingots industry 
+251 
+54 
+475 
+31-03-1965 
+Bread industry 
+252 
+55 
+823 
+30-06-1965 
+Steaming or redrying of tobacco leaf 
+industry. 
+253 
+56 
+969 
+31-07-1965 
+Agarbatti (including dhoop and 
+dhoopbatee) 
+254 
+57 
+22 
+30-09-1965 
+Coir (excluding the spinning sector) 
+industry 
+255 
+58 
+997 
+30-06-1966 
+Tobacco industry, that is any industry 
+engaged in the manufacture of cigars, 
+zarda, snuff, quivaam and guraku from 
+tobacco ; 
+256 
+59 
+1187 
+31-07-1966 
+Paper Products industry 
+257 
+60 
+1362 
+30-09-1966 
+Licensed salt industry 
+258 
+61 
+553 
+30-04-1967 
+Linoleum industry 
+259 
+62 
+553 
+30-04-1967 
+Indoleum industry 
+259 
+63 
+1103 
+31-07-1967 
+Explosives industry 
+261 
+64 
+1269 
+31-08-1967 
+Jute bailing or pressing industry 
+262 
+65 
+1510 
+31-10-1967 
+Fireworks and percussion cap work 
+industry 
+264 
+66 
+1795 
+30-11-1967 
+Tent making industry 
+267 
+67 
+1017 
+30-04-1969 
+Ferro Manganese industry 
+268 
+68 
+1510 
+30-06-1969 
+Ice and ice-cream industry 
+264 
+69 
+263 
+30-11-1971 
+Winding of Thread and Yarn Reeling 
+industry 
+270 
+70 
+1255 
+30-09-1972 
+Cotton ginning,bailing and pressing 
+industry 
+271 
+71 
+843 
+31-05-1973 
+Katha making industry 
+273 
+s72 
+428 
+30-04-1974 
+Beer manufacturing industry 
+274 
+73 
+1400 
+30-11-1974 
+Garments making factories 
+275 
+
+217 
+COMPLIANCE MANUAL 
+74 
+677 
+31-05-1977 
+Beedi industry 
+277 
+75 
+982 
+31-07-1979 
+Ferro Chrome industry 
+279 
+76 
+605 
+31-05-1980 
+Diamond cutting industry 
+282 
+77 
+614 
+31-10-1980 
+Myrobalan extract powder, Myrobalan 
+extract solid and Vegetable Tannin 
+Blended Extract 
+284 
+78 
+665 
+30-11-1980 
+Brick industry 
+286 
+79 
+13 
+01-01-1984 
+Industries based on Asbestos as 
+principal raw material 
+290 
+80 
+112 
+16-09-1989 
+Industries manufacturing iron-ore 
+pellets 
+292 
+ 
+ 
+
+Page No. 218
+
+Page No. 219
+
+Page No. 220
+
+Page No. 221
+
+Page No. 222
+
+Page No. 223
+
+Page No. 224
+
+Page No. 225
+
+Page No. 226
+
+Page No. 227
+
+Page No. 228
+
+Page No. 229
+
+Page No. 230
+
+-
+. .:! . . . 
+-,'.! 
+. 
+l'l'M!f~· {-\r}, . 
+. (PVBLisHED m PART II 
+SECTION 3 OF THE GAZETTE 0~ INDIA)_ 
+19th January, 1957• 
+. 
+n·at.ed the 
+· Gov.ernment•, of India 
+M.inistry · of. La,bo.ur • 
+·. 
+Dated- new. Delh_i, the 12th Jan•' ' 57 •· 
+. 
+·• 
+·,, 
+. 
+. 
+: . 
+I
+. 
+A 
+✓l 
+\ 
+s.R.o. 218 
+I . 
+Whereas the Central Government is of 
+. opinion that a prQ!ident fund ·scl,1.em~:-·s?o.uld be framed under 
+the Employees' Prov:_-!P.n:t; Funds Act, 1~52 ( 19 of 1952), in 
+respect of the employees of the mineral oil refining 
+industry; 
+.... 
+. 
+,,,,.. 
+Now; . ·the.r~.for~, . in exer~is~ "·of the powers 
+-- •. 
+'~- ~ . . 
+conferred by section 4 °/jf. the said Act; :the Cantral 
+.- __ Government hereby directs that with effect from the 
+31st January, 1957, the said industry shall be added 
+=, ·•m ;.; 
+. 
+. 
+·. !:.a=t 
+h@_p. 
+1Z ti IS ~
+. 
+to Schedule I of tho said Act • 
+,h:· .. 
+'DEV'/21~1-,.57 • 
+. ["PF.46(18)/56J 
+. 
+Sd/-r-··· 
+( R.C. Saksena) 
+Under Secretary • 
+3 ·' ·.
+~> ~-
+.'> -
+Page No. 231
+
+\
+e
+e
+e
+e
+•
+e
+}
+e
+e
+e
+e
+e
+•
+e
+e
+e
+e
+e
+e
+e
+e
+:+:::
+5 bi
+Zppublished 
+in 
+Part 
+II , -Section'3-( 
+i)--of---the 
+-
+dated 16 , la 1965_/
+(}nze tt e
+a$ /
+Government of Indja
+DeDartment; of Social Security.
+Dated N?w Delhi I the 
+6th 
+J3n.,If*€ 
+5
+NOTIFI CATION
+G. S, R. 107 . In exercise of the powPrs conferred br bbc
+first 
+proviso to ’i–c-8tion G of the Employees f Providpnt Funds ic; 
+. 3 -':
+( 19 of ' 1952) , the Centrnl Governmpnt,n.f-tcr making nccrsgq.ry
+enquiry into the npt;ter , hereby
+e specifies every est'blishm'nb 
+3
+tea nl8ntations in the Stat-3 of
+( iii 
+) cardamom pl;'ntPtions 
+, ( iv )
+tone mil-,r;s
+or
+rfa
+more persons nrc emDloyed ;-X'--$Fmrtsqlnent; 
+to which the s 'id
+S9
+7 S
+proviso shall apPly with eff ?ct from the Ist Febru,;'ry , 1965.
+Z--No . 15/3/63- PF . 1l+ ( 127
+D%§£i9• ga gPgtgry
+Z Published in Put II , SectiJn 3( i) of the G,=zette of Indip
+d'ted 16.1.1965/
+Government of Irtdin
+Dep-rt;ment of Soci?I SPcurity
+D? ted New Delhi9 the 6th J8n. ,
+1965
+NOT TFI C A.T IaN
+G,S ,R, IOg , in ?xercise of th- nowPrs conferre- by the
+first 
+proviso to ;Ection G of the Bmployf esf Provident Funds Act ,
+1959( 19 of 1952) 9 the Central Governhen tI qf ter m,king ne cessp.ry
+enquiry into the n'tt:er , her'by specifi8s every establishment v/}lict
+is 
+? f'ctory 
+eng' 
+god 
+in 
+th' 
+vlpnuf''ct;urc 
+of 
+;'ny'----o-f'-----tkro"-'-tt-erIB'---CIOnE-flr,>a
+in 
+the Schedule 
+below, 
+?nd in 
+which 
+fifty 
+or more persons 
+n.re
+employed 9 's an PS tpblishm€’nt to which the s'’id proviso sh'11 F'nTl)
+with eff'--ct from the Ist Febru8ry9 1965,
+Schedule
+Industri?1 and Power alcohol industry
+Asbestos Cement Sheets Industry.
+Z--No . 15 (3)/63.-'pF , Il- ( iII’
+Sd/- . So Ae Ahmed .
+Denut;y Secretary
+Page No. 232
+
+Page No. 233
+
+8
+e
+e
++
+e
+e
+9
+e
++
+e
+8
+e
+e
+@
+e
++
+e
+e
+e
+e
+e
++
+•
++
++
+e
+Z}>ubllshed in Part II. SectIon 3? subsection (:U
+of the Gazette of IndIal Dated 26-•3-60 , 
+, +/
+Government of IndIa
+MIBst;ry 
+of Labour and Employment
+Dated New DelhI? 
+the 
+16tih March 
+1608
+N, OT IF 
+I CAT 
+IQ 
+N
+&
+G, S,R, 362 , 
+in exercIse of the powers conferred
+by SUbsection . (1) of sectIon 7 of the Employees t ProvIdent
+Funds Act 91952 (19 Qf 1952) ? the Central.Government herebY
+uakes the followIng 
+further 
+amendHent in the Employees 1
+PracLdentJwrds.-Schsue-plh£8 
+Jramely : -.
+In the saId Scheme 1 in clause (b) of sub-paragraph
+<3) of paragraph 
+1? sub- clause 
+(xI) 
+shall 
+be renumbered 
+as
+suboeclause (xII) thereof and the following sub-,clause shall
+be inserted 
+as sub-clause 
+(xI) ? namely8...
+It (xI) 
+as respect;! aca 
+.m}age_HId mi:a ;ndu9%'z_9overed
+by the notIfIcations of the Government of IndIa . In the
+Ministry 
+of Labour & -Emp.LowlenttbHL+_HIJnd.WJated 
+-the
+5th MarcI1+]960 t _respectIvely, come into force on the 31st day
+at Hay}1960’t ,
+No , PF , 114 (3)/59 ,
+$d/-.p , D , Ga:tIlt
+Under Secretary,
+tKatara 1
+23+3+60 +
+b{\
+I
+N’r
+Page No. 234
+
+Page No. 235
+
+Page No. 236
+
+bnf
+L bb,inC:;
+! hit-
+e
+C&
+T
+zz-U.
+The undermentioned Gazettes of India Extraordinary n’ere published upto the r5th June
+t962 :–3fp 3 S,/A/? : IIn
+Nt
+r7S //' 
+= ?
+I
+C/:’ +a
+IssI le
+No.
+a Zr &J
+Issued by
+Subject
+61
+G.S.R. 787, dated
+June, 1962.
+I3th
+Mi/say 
+of Finance
+Exemptio 
+of 
+printing 
+paper
+containing mechanical wood
+pulp 
+amounting 
+to not 
+less
+than 70 per cent of the fibre
+content.
+#4
+62
+G.S.R. 788, dated
+June, 1962.
+I3th
+r3th
+I3th
+Ditto
+Exemption 
+of 
+the 
+patent
+Proprietary 
+medicines+
+Or
+G.S.R. 789, dated
+June, 1962.
+Ditto
+Ditto
+Exemption
+specified
+of 
+cotton 
+yarn 
+as
+in Table therein.
+G.S.R. 
+790, dated
+June, 1962.
+Exemption of any cloth woven
+on handlooms in India from
+cotton, or silk, or woollen
+yarn hand spun in India or
+from a mixture of such yarns
+as Khadi.
+O
+I.R. 791
+June> 1962.
+' lf3n
+I3th
+Ditto
+:Ditto
+Exemption of Cotton fabrics
+as speci6ed in Table therein,
+G.S.R. 792, dated
+June, 1962.
+r3th
+Amendment in the notification
+No. 
+4+/62'–Central 
+Excises,
+dated 
+-the 24th April, 
+196£
+of the Ministry 
+of Finance,
+793, dated r3th
+* 33'lg
+3347 FP
+I;th
+Ditto
+Exemption of cotton fabrics
+Produced on powerlooms in
+one or more factories under
+the same proprietorship.
+G.S,R. 794, dated
+June, 1962
+Fixation of rates per shift'
+per month, 
+per 
+powerloom
+employed by 
+or 
+on 
+behalf
+of the same person in the
+manufacture 
+of 
+unprocessed
+cotton fabrics.
+G.S.R. 795, dated
+June, 1962
+I3th
+Ditto
+. Amendment in the notification
+No. 50/62–Central 
+Excises,
+dated 
+the 
+24th 
+April, 
+196£
+of the Ministry of Finance
+N„.kJ:h&..=}„t ,b
+&hq nM, fuIL#
+Page No. 237
+
+8
++ + n++
+e
+\{
+SEC. 3 (i)]- ,-
+THE GAZETTE OF INDIA : JUNg 30, 19q2/A:SAPHA 9, 18§4
+§43
+B
+Irt
+ri
+Signed by. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+in the presence of :–
+(1)
+(2)
+(Amendment 
+No. LXIV 
+dated 19-6-1962).
+[No. 14(17)/Po1-1/58/Comp. & Prop.]
+S. W. SHIV$SHWARKAR, Jt. Secy.
+MINISTRY OF IRRIGATION AND POWER
+New 
+Delhi, 
+the 
+13.thA Jttne 
+1962
+G.S.R. 885.–In pursu.ance .p{ c.I.apqe (1)+ of article 239 of .the Constitution, the
+pi'dsiddit- ha&b+' ditectb- ttidE- 'gubjeet--td---big control and until further orders, the
+Adminjstrator oi the Union tbrritory of Laccadive, Minicoy and Amincbvi Is]'ands
+shall in relation to that Union terTitory exercise the powers, and discharge the
+functions of the State Government under the WaH Act, 1954 (29 of 1954) .
+[No. 1 (7) /62-M.W.]
+M. K. KIDWAI, Jt. Secy.
+MINISTRY OF LABOUR & EMPLOYMENT
+New Delhi, the 21st June 1962
+G.S.R. 886.–In exercise of the powers conferred by sub.section (1) of section
+83 of the Mines Act, 1952 (35 of 1952), the Central Government hereby makes
+the following amendment in the Schedule annexed to the 
+notifIcation of the
+Government –of India in the Ministry of labour and Employment No. G.S.R. -975
+dated the 11th August, 1960, nameIy:–
+In the said
+_amely :–
+Schedule, after item 1, the following item shall be
+inserted,
+3
+IA The following mines in
+the . States -of Assam.
+West Bengal and Bihar,
+Danely :–
+The crude oil pipe line
+from the oil-Edd of
+Naharkatia 
+to 
+the
+petroleum 
+re-
+finer ies at 
+Noonmati,
+Gauhati and 
+Barauni
+owned by Messrs. on
+India Limited .
+[No. 6/5/62-MI(Am-5).]
+A. P. VEERA RAGHAVAN) 
+Under Secy.
+Bem Dejhi, 
+the 23rd JuIIe 
+1962
+G.S.R. 887.–In exercise of the powers conferrdd by section 5.- ri,d 
+with ,„h_
+section 
+(1) 
+of 
+section 
+7 of 
+thi E:mpI
+MV,
+F$a£Wl:__ MM%\ 
+>II III jb
+' J 
+gBBB€§©€. X 6 rae $rW - 
+'
+MeeT&, get 8-Sr
+Page No. 238
+
+(
+\W,
+e
+THE .GAZETTE OF INDIA : JUNE
+greg?la 
+ti+Fe SR);:!ePg::gB]!1lth§TIfa; gS:LTIJ lrg{;,nlqy 
+Fe:me rumba to
+e
+3 (i)]
+i
+;
+i
+{
+1. This Scheme may be ' called the Employees’ Provident Funds (Fifth
+Amendment) 
+Scheme, 1962.
+paragraph (3) of daragraph I, sub-clause (xxv) ' shall -be renumbered as sub-
+clause (xxvi) thereof and the followin'g shall be inserted as sub-clause (xxv) .
+)
+2. In the Empld Bees’ Provident Funds Scheme, 1952: ' ill dlausd (b) of sub-
+namely : – 
+'
+“(xxv) 
+as respects the factories relating to fruit 
+and vegetable preser-
+vation industry covered by 'the n6tification of the Government of
+India 
+in 
+the 
+Ministry 
+of 
+Labour 
+and 
+Employment 
+No. 
+G.S.R. 
+786,
+dated the 6th June, 1962, come into force ori the 30th June. ,196%;”.
+!
+1 1
+i
+[No. PP.II.4/4/59.]
+F. D. GAIHA, Und, g S„y .
+/
+Mlb QJ
+iW? €NqRV, VRrqR t\T&
+R$bg qI&!. 
+Ria-54
+tIl IP
+I
+I
+l
+i
+i
+!;
+i
+j
+I
++i
+PRINTED IN INDIA BY THE GENERAL MANAGER) GOVERNMENT OF INDIA PRESS)
+N£W D£Lur AND rUBLXHCD BY THn-MANAc£R F?UBLICATrONS, D£LUI, 1962
+- JI
+Page No. 239
+
+Page No. 240
+
+Page No. 241
+
+Page No. 242
+
+/"
+e
+C)
+ZTE£
+hi
+• n’&
+ST,
+EXTRAORIF#ART
+PART II–Section 3–Sub-section (i)
+PUBLISHED BY AUTHORITY
+(q3
+®ke ®&zett:e
+No, IZ7] 
+NEW DELHI, TITURSI>AY, AUGUST 29, 1963/BHADRA 7, I885
+Zgq
+MINISTRY OF LABOUR AND EMPLOYMENT
+NOTIFICATIONS
+New Delhi, the 3rd August 1963
+G.S.R. 143h–Whereas the Central Government is of opinion that a provident
+fund scheme should be framed under the Employees’ Provident Funds Act: 1952 (19
+of 1952), in respect atE the employees of the aerated water industry, that is to say,
+any industry erigaged in the manufacture of aerated water, soft drinks or carbo-
+nated water.
+X,
+\
+\
+Now, therefore, in exercise of the powers, conferred by sub-section (1) of section
+4 of the Employees’ Provident Funds Act, 1952, the Central Government hereby
+directs that with effect from the 31st day of August, 1963, the said industry shall
+be added to Schedule I to the said Act.
+New Delhi, the 22nd August 1963
+//
+[No. 4(9)60-PF.II.]
+o.S.it. 1433.--In exercise of the powers conferred by section 5, read with sub-
+section (1) of section 7, of the Employees’ Provident Funds Act, 1952 (19 of 1952),
+the Central Government hereby makes the following Scheme further to amend the
+Employees’ Provident Funds Scheme, 1952, namely:–
+Amlrl£Mcg:;La:%6 BF cane! h:eye!!I’EnUM 
+'d§'-(ggleW:$:
+2. I;'the 
+Employees’ Provident Funds Scheme, 1952, in clause (b) of sub-para-
+graph (3) of paragraph 1, sub-clause (xxxiii) 
+shall be renumbered as sub-clause
+(xxxiv) 
+and before sub-clause (xxxiv), 
+so renumbered, 
+the following 
+sub-clause
+shall be inserted, namely:–
+“ (xxxiii) as respect aerated water industry, that is to say, any industry
+engaged in the manufacture of aerated ' water, soft drinks, carbonated
+water, industry come into force on the 31st day of August, 1963;”
+[No. 4(9)/60-PF.n.']
+N. N. CHATTERJEE, Jt. Secy.
+i
+{
+< 693 )
+'{
+PRINTED IN INDIA BY THE GENERAL MANAGER. GOVERNMENT OF INDIA 
+PRESSa
+Nnw DnLrn AND PUBLrSHnD BY Tm 
+a£ANAGnR- or PUBLiCATioNS, D£Lrn, 1963
+1.~*a,Jd IM$PT.%'\"\'P
+1!I11111S::R=PIIII=::AIiIi
+Page No. 243
+
+110
+THE GAZETTE OF INDIA : JANUARY 18, 1964/PAUSA 28, 1885
+MINISTRY OF LABOUR & EMPLOYMENT
+b &
+.J'
+New Delhi, the 8th January 1964
+I
+//
+G.s.R. 93.–In exercise of the powers conferred by section 5 read with sub-sec-
+tion (1) of section 7 of the Emplo-yees’ Provident Fuids Act, 1952 (19 of 1952), the
+e8ntrai Government hereby makes the foIIo$yjng Scheme further to amend the
+Employees’ Provident Funds Scheme, 1952, namely :–
+] . This Scheme may be called the Employees’ Provident Funds (Second Amend-
+ment) Scheme, 1964. 
+' 
+–--'n--”---'--''- 
+'-' '’ '’*'&"'’'--''; ' - "- '---- - '-
+i,U,I
+b-a
+2. In the Empjoyees' Provident Funds S'chem$ 1952, in clause (b) of sub-para-
+f;iT£i£g) :fdP£:}$£Plil££V£d?:;£\r?Bxviis) s:ha!1liST::A% Ed hal?otlW Stig
+dlause shall be inserted, namely:–
+I
+“(xxxvii) as respects the paint and varnish industry come into force on the
+31'st day of January, 1964;”
+[No. 4(17)62-P.F.II.]
+I
+SHAH AZIZ AHMAD, Dy. Secy.
+ERRATU M
+{ R=: 3 iv;!!!r T ::i E!1I?!bg 
++ 
+nil 1 %;:1}${?SiD: 
+IF 1:BRIll: 
+1rf: i!;i !!$)ITd 
+I) d : 
+t : 
+d
+Page 82, para. 1 of - the notn.–(last but one line of the page)–
+Delete the unrd “twent),fourth”.
+MnViSTRY OF EDUCATION
+New DeZ}li, the qth J'anuarv 1964
+G.S.R. 94.–In exercise of the powers conferred .by the proviso to article
+309 of the Constitution, the President hereby mBkes the following rules regulating
+the method of recruitmnt to General Central Seryice Class IV posts in the Training
+Centre for the Adult Blind, under the Ministry of Education, namely:–
+1. Short Title.–These rules may be called the Training Centre for the Adult
+Blind (Class IV posts) Recruitmerft Rules,. 1963, 
+'”' 
+-- 
+;; 
+'- - "- ' ’ 
+a
+"]:' - Ai'MF;a-i;;=i-};'e'se ;;lel shin apply ;o, recruitment to the posts specified
+in co-lun= 1 of the Schedule annexed hereto.
+i
+3. Number, C]assi6cation and Scale of Pay.–The number of posts, their classifi-
+cation and the scale of pay attached thereto shall be as specifiid in columns 2 to
+4 of the said Schedule.
+4. Method of Recruitment, Age Limit and other Quali6oations.–The method of
+recruitment, age limit, qualifications and other matters relating to the said posts
+shall be as specified in columns 5 to 13 of the &’hedule aforesaId: 
+- 
+- '
+Provided that the upper age limit prescribed for direct recruitment may be
+relaxed in the case of candidates belonging to Scheduled Castes/Tribes and 8ther
+special categories in accordance with the orders issued by the Central Governmenl
+from time to time.
+P. Dilquali8cation c(?) 
+No person., who has more than one wife 
+uvhg 
+or
+}={o::iE}=1:jPJobj;ne!:P:ge 
+=F:jegs tiiIe IIT:abnfi?i: : B 
+IEt:g: hs its\? [1: i :{} 
+ag: h gIgi:
+i
+\
+2Jlll ljb
+fM„$4
+Page No. 244
+
+e
+Page No. 245
+
+<
+e
+!:j;}
+i'i
+t
+kI
+/,J&&Z
+;TERED No.' D.'
+,g J :/
+®&£ette
+PUBLISHED
+NBW DBLHI, SATURDAY; JANUARY 25, 1964/MA-CHA 5,
+No. 4]
+NOTICE
+Gazettes of India Extraordinary were published up to
+19%qb-
+The undermenticned
+January, 1964 :–
+Issued by
+dZ„4
+Issue
+Ministry of Food and Agri'
+cultulee
+G.S.R. 74, dated 7th January,
+1964.
+5} P
+Do.
+G.S.RJ 75, dated 7th.Janu8ry;
+I9'64.
+Do.
+10+
+G.S.R. 76, dated 8th January,
+I964 .
+Do.
+G.S.R.77, dated 9th January,
+I964 .
+J 10
+3. 7'<
+Ministry of Finance .
+JQnu+
+G.S.R. 78, dated IOth
+ary3 I964•
+12+
+Ministry of Fcod and Agri-
+cultur&
+13. 
+G.S,R, 98, dated r4th 
+Janu-
+ary, I964.
+Do.
+14. G.S.R. 99, dated I4th Janu-
+ary, I964.
+Copies of the Gazettes Extraordinary mentioned above will be supplied op
+jaded{ to the Manager of Publications, Civil Lines, Delhl 
+Indents ihoUld'. be
+aS;nite-a ii- as –tb--bach the Manager’ within ten days of the date otiBue- at
+these (;azettes.
+( 121 )
+JIIbV1bbb1 ][12/81/1hEpII? I(IIIIIIFI•bFi:# 12tIll IIb
+6rq88qvn, gqrgvMw% '
+Nfbg erIe, WI-$4 
+-
+T–M'
+1885
+// 489- g/ 3
+the r4th
+=B
+Subject
+The Rice (Madras) Price Con-
+aol .- Order, I964.
+Then ..M8dR$-, Ricp: . Proc,Luc-
+meat (Levy) Older, I964.
+The Rice (Andhra Pnder II)
+Price Control (Amendment)
+Order, 1964.
+Direction that the price 
+at
+which rice or paddy shall be
+sold in any lo&lity-in 
+Orissa
+State, shall be rcgul8ted and
+authorising the Director of
+Food Supplies, Orissa, to
+determine the average mar-
+kdt'fatd of-'ridi-6f-pgddy irl
+Orissa State.
+The 
+Compulsory 
+Deposit
+(Income.Tax'Payers) Amend-
+ment Scheme, I964.
+Authorising 
+Shri 
+J_ P+ Gael,
+O.S.D., - Dtc. of Sugbr and
+Van8spati, to take ' over the
+management of the S8rha3ti-
+put 
+- Central 
+Sugar 
+Co+
+Ltd., Sama3tipur.
+Amendment to G.S.R. I730,
+dated 3Ist October, 1963.
+Page No. 246
+
+D
+S£c. 3(i)]
+T'HE CAZ£TrE Or INDLA , JANUARY 25, 19-64/MACRA B, t8k5
+ljrl
+Inn 
++ n
+I
+L,. J:=T:–T––
+I 
+-- - t. J;~. 
+8
+9
+10
+11
+12
+No.
+2 years
+( 1) Direct recruit- 
+Pt07rtoti07r.•–
+Brent–66 i % 
+J’an’ior Field O#ideri
+- haVing 
+%
+(i) Promotion–33+% 
+miniumtn 
+'c'xpe-
+Hence of 3 yeafs ib
+the gIdCfe,-Ta the
+case of 
+M. 
+Sc.
+degree hdldetg 'ih
+itiiI:i{ti?/#:gf:e
+cal. Ehgincetirig or
+Technology hdd 5
+year's’ eiperje’ncfe
+in {hi ca’se of B. k.
+dcgrbe hdldcrs'; in
+Science.
+Class I
+DFC
+As 
+required
+WIder ' the
+rules.
+I
+P=
+jNd. 6-BI(10)/60-Bgtt]
+N. J. KAMATH, Jt. Seey.
+MrNiST8y OF rNDrysTRy
+New Delhi, the 17th January 1964
+G.S.R+ /25.–In - exercise of the powers conferred by sub-sections (1) and (2)
+ol Sect:lod .26 of the Khedi and Village Industries 'Cdrnmission .Act, 1'956 (61 of
+1956)+, tb# Central Government hereby brakes the following rules further to amend
+the iCh?ai and' Village Industries Cdmmission Rules, 1951, namely:–
+1 .dish . iiIds. miy.. .be called the Khadi -and via@ EldMie3 cdhuasM
+( A'$-enafgB!} 
+# RiM:464. 
+e-'-'--b=“' 
+---'-
+2. In rule' 32 of the K=hadi an.d ViI-lage Industries Commission Rules., 1957, after
+{hd Wo-rd’s “the jir=etio’ub '6nahciaI. yd-ar,’7 th'i f6nowin'g shall ba bfse-ftddb nihbly:–
+“shall be submitted before the 31st December, every year and it”
+[No. 40/2/63-K.V.KP).t
+A. VISVANATII, Dy. Socy.
+iIIRISiRY 
+ot LABOUR & EMPLOYME kT
+i
+1
+-b
+C 
+FIdtD DtthI, thb 10th IaTttfaTU -1964
+G.S.R. 126.–In- exercise of 'the powers cdnferred by sub-seCtion (1) of section
+5, tead M,th spb-section (1) of section 7, of the Employees’ ProVident Funds Act,
+liU 
+’($4 dl lb52') ’ tha 'cer;tral dovdintnent 
+h'df6by =fn-ikd£ the 1611bving gcheme
+furth9f to amend' the Employees’ Provident Funds Scheme, 1’95'2, haItIely:–
+f ’TiTs '’Sdhbmi +day be eXiled -thb IdIY>b),des’ Prbtiderft bahdb (third Amend-
+rient) Scheme, 1964. . T__.___ nh-„-L.-..--,.L=_',„_,_-'- -u-„'_b-,-..;-„ 
+'.., 
+. .,-... 
+_.,
+\+---+n'
+:
+!
+AtfwEd Wbg 2.1.,),y
+IBIB ne11 8vrvqqm8,
+li
+BBB BIje, twat- Sa
+-i
+Page No. 247
+
+172
+THE GAZETTE OF INDIA : JANUARY 25P 1964/MAGHA SP 1885
+[PART II-
+I
+d 
+: n][]1 :l8T1 
+e B 1 9 5 2 a f t e r P a r a g==1=1&
+“68-J. Advance fTam,
+G.S.R. 127.pIn exercise of the powers conferred by section 5 read with sub-
+section (1) of section 7 of the Employees’ Provident Funds Act, 1952 (19 of 1952),
+the Centr'a1 Government hereby makes the following 
+Scheme further 
+to amend
+the Employees’ Provident Funds Scheme, 1952, namely:–
+]. This Scheme may be called the Employees’ Provident Funds JFourth
+Amendment) Scheme, 1964, 
+-v
+2. In the Employees’ Provident Funds Scheme, 1952, in clause (b) of SIlb
+paragraph (3) of paragraph 1, sub-clause (xxxviii) shall be renumbered as sub-
+ilause (xxxix) 
+and bdfdre (xxxii) 
+as so renumbered, the following 
+sub-clause
+shall be inserted, namely:–
+[
+G.SR 128.–In exercise of the powers conferred by section 3 read - with
+seen-or; 7 of the Coal Mines Provident Fund and Bonus Schemes Act, 1948 (46 of
+i9a8 j, the Cdntral Government hereby makes the following Scheme- further. tq
+amena the Coal Mines Provident Fund- Scheme, published with the notification of
+the Government of India. in the late MinistrJl of Labour No. PP. 15(5) /48, dated
+the llth December, 1948, namely:–
+1. This Scheme may be called the -Coal Mines Provident Fund ( Amend;trent)
+Scheme. 1964. 
+-- -'-' “-' - - ' 
+' =-'='==-----’=' ’=-'qa' -a-“-+--'-=T__
+lb+wv
+2. In the Coal Mines Provident Fund Scheme, in paragraph 27A–
+(i) in sub-paragraph (2)–
+(ii) in the proviso to sub-paragraph (3),–
+the Fund for illness in certain cases:–
+(1) A member may be allowed non-refundable advance from his account
+in the Fund in cases 'of (a) hospitalisation -lasting for one-month or
+more, or (b) major surgical operation in a hospiial, or (d) $unering
+from T.B., leprosy, paralysis or cancer and haVing bae’n granted
+leave by his employer for treatment of the said illn6ss.
+I
+I
+II
+#
+I
+a
+I
+(2) The advance shall be granted if (a) the empjoyer certifies that the
+Employees’ State Insurance ScherrIe facility an& benefits therdunder
+are not actually available to the member and (b) a doctor of the
+hospital certifies that a surgical . operation was necessary or that
+hospitalisation 
+for one rrfonth or more was 
+considered 
+necessary.
+Pr.o-vided that the amount so advanced shall not exceed the mem-
+bet’S ' basic wages for three months or his own share of contri-
+bution 
+with 
+interest 
+in the Fund, whichever 
+is less.
+[No. 3/2/61-PF.11.]
+4c
+r+
+New Delhi, the 20th January 1964
+“(ncxviii) as respects bone crushing industry oome into force on the 31st
+day of JanUary, 1964;”
+[No. 4(1)63-PF.11.]
+(a) after the word 'Commissioner’, the following words shall be inserted,
+namely :–
+“or to any other officer subordinate to him and authorised by him in this
+behalf”.
+(b) for the word 'him’, the words 'the Commissioner’, shall be substituted,
+(a) after the word 'Commissioner’, the following 
+words shall be inserted,
+namely :–
+“or to any other Officer subordinate to him and authorised by him in this
+behalf”,
+lay
+21 IIt Ill-
+WWI'aq ®m3,
+Page No. 248
+
+e
+I
+! 1
+hi 1 n •L;:-B• ; ; i :;/ / 
+:
+e
+f
+;
+q: i 1 : n n
+SEC. 3(i) ] THE GAZETTE OF INDIA : DECEMBER-, 5: 1964/AGRAHAYATIA F4; 1886 1897'
+fa
+. 1
+:+. VE
+2. IiI ;hd in aiaA''polic& 
+„'Servibe ’ '((!adie) 
+IRu16i}_ 1954, '_ in 
+tbd. g dan&
+_ proviso to sub-rule (2') bf ’rulb"4; f6r' tHe.:hrardk “haf'exceedkw':one'
+War:: 
+the words “no’t 'exceedihg'' &ne yeae and- n'itn ITte approfal-: of
+Md . ~Central Government f6r' &' fartKer: paibcf nat excgedihg tWo-
+years”, £hall be £wbstitutect
+Wo. f/f/6f-AIS(1).]'
+O: S: MARVfAlt 
+Under-- Secy.-
+’y; C..: - -T-:
+New Delhi: tBc 25th: Nbve7fbbeT 1964
+a.s.R. 1720.–In exercise 'of ';the- powers '. confer-retf by . srIb--rufe (1)' of rulb- lIB
+of the Defence of India 
+Rules, IgB2; tHe Central' Gdvernment 
+hereby . qppoint.g
+Shri~S. V. ' Ii, -Pagafe,-' Di-striet' aInf Sbssidhs ' JUdge;:'(Fwb'lior, to be. a rneri6er_ of”
+the ’-cQmpensition:_:mbuiar"ftP 
+the St&te' ,of- Macib&a Prbde£h:' w6ith -wb§' Collsti--
+tIlted by-the C6htral: ’(;overrr Bien+ by- the: hotifidati6-n of' tHe - C;overnme-nt . of Iriaia,
+in the iWinigtry of Home Affaitg' ito: (X£lt 
+860: dbtea tha 17th XCFay; 1'963; ih'-th&
+place of Shri M, Bajpai siam; transferred- out: of Ghranor. 
+- ' ' 
+-Y-
+Wu Er(/63=Poll (SPI) . I,
+I
+I
+I
+I
+f
+CORRIGENDUM
+New Delhi, the 25th NaveTrtber 1964:
+G.S.R. 1721.–In the notificatIon- of the GbVernmant' of' Fndia- ih' the Mirrig@
+of Home Aaairs G.SiR. - No. 129£ published at- page 1-44a af - the Gazette of India,_
+Part JI, Section 3. Sub-section (D: .dated' 12-th -September; 1964, ih alg preamble;
+in'-line;4, jUL- '3rd April, 1962’ Pgp(i 'grc{ April;_ 196Y:
+;'
+T. N --'GtJ'P'I’A, tmddr''Sbcy_
+rita. A '476=-Poti'CgPt).]:
+ORDER_
+I
+I
+' New _ Delhi;' the 2qth NwvembeT lgm-
+;1hh:{{:B:ggin34;g: 
+gZ>jT? 
+{)}}?!?inPBfu 
+}iFf£ipL::itiF§3:FITJ 
+?!hE:::Li1[ 
+F};a:4;
+of. rule 35 .of the Defdnce of :India Ruleg, 1-962:
+of
+Now, therefore, in exercise of the pdwerg- canf6fred- by ruIb' 45 of the Defence'
+indi£ Rules, lg62, the Central Gov-enuuent hereby–
+(P) PV:trtjt: FitSegarRb::iEPiS:: ?faX:fat?:lilgt#{resjF!% TJijl: gtI?:
+;iia j>;;nd;1& -and every copy dr translbtibn thereof or extract. there-
+from: to be forfeited t6 (;a-v-ernment;' and'
+(b) dH5gge#%=r ?aTlseak ???EFI::if 
+Pgp:: £?#i%rft{eJ:Eia saidr paW? llet a
+/
+i n : f • •• I T P• r: a
+[No: a/134/a4-Poll. II.]:
+(J; S: KAPOOR,' Under SecF-
+TH-:
+a q +
+:'' DEPAnTMENT OF SOOIAt- S£CURITV- .
+: d .n n
+:' ;
+., #
+Na11) ' beth, the alti.-Wvevtb ei, -1 964= : .-
+I
+G.S.R. 1723.:{Vhereas the Centrbf (+overnment' ii of - opihiblr that a Provident
+%!!f +hSe:{{e: F;b 
+&!! 
+:{:i r:af: e! !=P{t::=!%;};i;iiies::} 
+};g{gg: 
+!o ggi £c3:);ep -E}
++ +
+q
+} ;
+w &bM..„,,.\„\.-
+W%.'%. ;;'’
+Page No. 249
+
+Page No. 250
+
+. · . 
+• I 
+J.l'~::"•---~ - ~ .. - . -~~ · ' •.; .. , , . .
+.
+. 
+· · ·. · {oepartJnent'· o~ Fijocif -:.·:. 
+· oR!tiER . 
+New· Delhi, the SJ"th ))ec~m6~;-.
+0
+1964 
+. . 
+. 
+·. 
+. ,_ ... ·, 
+. ·,. :i :-,·:·- ':" .·.· .. ·.: . . 
+. G.S.it. 11194/ES& Coni/Sugarcane.--In .ptirsuancE: •o.f, __ "s"ilb~clause _(~) ·of ciause 3A ·. 
+9f Ute. ~ugatcan,e (Cqntrpl). 9r4er, lfl55,,, th~. Centr~l:iGPX~I11.m.~t he_reby dir.e~ts that . 
+tb-e adp,!tiQ~~l sugarci,iPe· price _ <i~ten,ni,n~~. ,Ulldt:r $~~~1~11se (1>: of the · $~id, .clause, 
+~hall be p~d by , ey~.r:Y. p~o<'lµc,er of sqgar ' to. the : ~fl"?/~1 ~t s:µ_g~rcane · or growers' , 
+co-oper~trye s~clety,· as the case may .1>.e within thirty days from the aate of receipt · 
+of . the intimation of the same in · wnbng from the Sugarcane (Additional) Price 
+Fixati.on Autllority appointed by the Order oT the · Gov~rnment of India in the 
+Ministry of Food and Agriculture_ (Department of Food) No. G.S.R. -1194 dated the · 
+1st July, 1963. 
+'[No. F. 14-7/64-Sugar.1' 
+K. L. PASRICHA, Jt. Secy. 
+D~fAAn.1£NT OF . $0PIJ\~ · ~JCPMTY 
+New Delhi, the 9th pecemb.er. lQ,64 
+l 
+·'! \ 
+. 
+I 
+i I 
+1 i I \ 
+; \ 
+; I 
+j i 
+,1 \ 
+. ' . 
+... . . 
+. 
+. 
+' '. 
+G.S.R. 1795.-Whereas the Central Government ·'is ', of opinion that a Provident 
+Fund Scheme should be framed under the Employees' Pt;oviaent,:unds Act, 1952 
+n9 c;>f 19.52) -in,.r~~pect of .. the employ:~es .0.f .t:g:,e n.01;1-f~oqs m~taJs .and alloys in the 
+i 
+· 
+l 
+I 
+· f • 
+I 
+I 
+. 1 ! 
+j I 
+form of ingots industry; 
+· 
+· 
+•. · 
+· 
+· ' · · 
+· 
+' 
+· · 
+Now, therefore, in exercise of the powers conferred· by sub-section (1) of section 
+4, ,¢. ~e. ~loye~s• :~oyi(l~nt F,\ll,lQS Aci, J952 09 .91 :1Q52), :tht!, C~-tral .Go:v:ernment 
+· 
+~ec~ tll,;tt wi,;tp ~ffthe_~t--t:ro~ :t}le 3_,!st January, .196p, t~ said industry shall 
+be added to Schedule I to 
+e said Act. 
+,[No. 4/f>/64/PF-II.J 
+G.S.Jt. 1'196,__:..In exercise-.of the .powers conferred -by· clau_se (b) of sub-section (3) 
+of section 1 of the Employees' Provident Funds Act,· 1952 (19 of 1952), the Central 
+- qovl:!rnm~:r;it :h~,reby specifies the following classes of establishments in each of 
+which -twenty or more persons are employed, as the establishments to which the 
+said Act shall apply with effect from the 31st January, i965, namely:-
+).. Tr~vel ag~~"cies engaged in (i) bopking of International Air · and Sea Pass-
+ages and other travel arrangeme~ts; (U} booking of internal air and 
+· 
+mail . passag~s and other trav~l arrangements and (ill) forwarding and 
+clearing of cargo from an<;l to overseas and within India. 
+2. Forwarding agenci¢s :engFig~~l ~ - tbe · p<;>]J!:!~U.qn, packing, forwarding or. 
+de_livery of any goo,d~ 
+including carloading, brea.k-bulK service and 
+foreign · freight service. 
+· 
+. 
+l(No. 4/8/62/PF-II/J 
+.S. A. .AHMAD, :Dy. SecY . 
+. . &µi,l~'f~J',--i<)F. :po_MMP.CJ . 
+TEA CoN'l'ROL 
+;Ngw. ,IJ.e.thi, j-b,e 14th. :nea.e.m-~ .1964 
+G.S.R. 1797.-The following amendments made by the Tea Board in exercise 
+,4 ,!!1,r,p9w<u,:s ~•,;re<! by .s.u~!pn. _m of ••c;tjm> ,ijP pl lite :r.•• Act, 195? (29. 
+~t ,1Q5;1,) .t,,· :j)!~C :,i,ea ,So~td .'!iftc'li/-'l{S, 'JQ~&, , •N ' l!etl'.\>1.. ,W~liltlied tor general infuirox:i 
+. -nMiU9~: 1Ae '.S.~~-, ;h,a.vJ..ng, )'b~~Il ~qnfl..m).ed. .l>Y: .tpe. :.CeAµ'-,u--~y~rAJll~t as req: 
+e 
+by sub-Section (2). ·of the said section; namely:~ --~--· · · 
+. : 
+:~ ~l_a;w · J.B. ::Pfnµi~ said by-law~ 
+• 
+. ·•lD•"1>r 9'8·-tl"'res "5001-'' ,wherever th•Y occur, the ftiure• '"575/·" shall be 
+substltuted; 
+-, 
+· 
+' ! 
+. j 
+-----
+I 
+I 
+/1 
+Page No. 251
+
+e
+e
+e
+e
+e
+e
+©
+e
+; f 1F:+ S:
+1: • IA 
+u r : 
+p 4% 61:s t 
+H o
+;•B::t::i }}i•I:;!hi
+Governuent of India
+DdT>dr+ment _of„ Soc ia::L ' Secur i. W
+Dated - NeW D,e:Lhi- I the
+NO TI Fl CATION
+G +.S
+section
+Bhp lo ye e
+Ce nt ral
+fIIrt br to- amend the Emnloyees r Provide'nt> ' FUnds Scheme p
+1952 , namly: 
+-
+1, 
+This ec Irene may be ,called,. the Enployees1 Provident
+FUnds (Fifth 
+A$gn<Iment ) Sche'me2'19 Q5:
+2 , . ' :[h t.he :Emp19yeest.ProyUieht 
+' Funds SDheme 919529 in
+c:Lau be (b) ' of sub-•paragrq3.h ’-(3 ).'.' of 'p aragraph lp' sub-clause
+(xlVI )- - shall 'be renumbered as sub-'’6'lause (xlti'i) 
+and
+before 6ub--,c.jause (xlvii ) --as .60 renumbered 9- t.he fo11owipg’
+SRb-clause 
+s In:L:L be . inser,ted 9 name. jy : '.
+" (xlv! ) ' as res.]je'6ts ' bread fhdhs try sp'e'cifi'ed in'
+the notification of–1:EMo 
+But o'f :India in
+the 
+Department 
+- of S6cia1 
+SecUti,tg 
+No , G, S , R. 402
+dated 
+the 2nd March 119651 .come. into 
+f,o'rce on , the
+31 st day of March, 196.5 ; "
+K;i
+e
+../
+[ kk€,b / /63-£F ,1 lj
+bx
+:/Pa
+( S , ',A „ Ahmad, ,)
+Deputy . Secretary
+e
+e
+•
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+To
+Page No. 252
+
+J
+s e c t i o 1][Hpq1L ? ? s tIL b = s e : : i : HE• t e ! ! f o jn! !::7
+At ' IL- 6: £§';r
+/ 
+Goverrune'th of india
+Department of SQcia1 Security
+f'
+br
+;\\(II(y :1iT= 
+: :H?f:::I
+Dat;eds New Delhi9 the 
+1 st June,
+_ 
+NOTIFICATION ' 
+' 
+'
+G.stR,a:--'-n=;cise 
+of the -powers conferred
+by section 59 read with sub-section (1) of section. 7 of
+the Employees 1 Provident Funds /,ctI 1952 (19 of 1952) 9
+the Central Government hereby makes the following
+Scheme further 
+to amend the Employees t Provident 
+Funds
+iii!!iI
+n\
+PFB;!!::?!!
+r+)
+Schemes '19529 namelyi-
+..:a
+(1) This Scheme may be called the Employees I
+Provident FundS ( gevent,h Amendment) Scheme9 1965,
+(2) in the Employees I Provident 
+Funds Scheme9 19529
+in clause (b) of sub-.Daragraph (3) of paragraph 1; sub-
+clause (xlvii) shall be renumbered as sub-clause (xlviii)
+and before sub-clause (xlviii) 
+as so renumbered, the
+following sub-.clause shall be inserted9 namely:-
+11(xlvii) as respects the steaMing or redrying of
+tobacco 16af in(lustu= ttHPtv+tr3ana 
+industry
+e Waged--mTB–TRaining! redrying9 handling9 sorting9
+grading or packing of t6baccQ leaf specified in the
+notification 
+of the Government of India in the
+Department of Social Security No,G, S,R, 768
+dated the 18th May : 1965 come into force on
+the 30th June . 1965: 11
+ZnNo, PF, 11-4(9)/597
+-–-T
+g.#nL___
+( Dalj4t 
+Singh 
+)
+Under Secretary to -the Govt, of Ir©ia,
+The General Manager,
+Government of India' Press,
+Minto Road9 N,e)LILeLtl}? 
+’
+r T ;Ai::i;hii;!!}}:
+Page No. 253
+
+Page No. 254
+
+16
+THE _ ___ __ __ __(DIA : JANUARY 4, ]9&4/PAUSA 14, 1885
+[PART 11–
+New Delhi, the e 
+lk
+n,£JFIHFhrJail£rwiIu_Lraft 
+Rules -further to amend the C;cir Industry
+(Registration and Licensing)-Ella;1958Jhich–+he<;entraLGQyFrnment 
+proposes
+{o-i;;–k8-.i;r-8xercise of thi'powers conferred by section 26 of–l–h+--C6-FindustH’–
+;{ct-,-idi3(45 of 1953), are hereby published foI general infoniation as required
+by ’sub_section (1) of 'the ,said se-ction and notice– is hereby given that the said
+a;aft–i,ill 
+be ta-kin b-,to consideration on or after 25t=h Jaiuiry, 
+1963.
+Any obj6~otron or suggestion with respect to the draft received from any person
+1>efor8'’ t}-r8' aforesaid da-ti will be considered by the Central Govemment.-
+- .-1. lxrese rules may be called the Coir Industry (Registration and Ligensjpg)
+Third Amendment R61es, 1963.
+2Tthn 
+ar Iaiustrf 
+(Tdgistration and Licensing) Rules, 1958, rule 5 shall
+be omitted. 
+t
+(x.s.R. 23._In exercise of the powers conferred by the proviso to article 309
+of tie--Constitution, the President 'heretD, makn the following IUles, nameIY: –
+1. Short title.–These rules may be called the Mill
+(Class II Posts in ',he Institutes of Handloorn
+M
+T2nf•,- Ilt fFFI Pn
+?411113–UI
+H-\,U-X_
+2. Appi%atiM.–'l’hese rules shall apply to the posts of Draftsmen<um Work-
+shop Su-perintendent in the Institutes if 
+Handloom Technology, Varanasi 
+and
+Salem
+(ii) in the Table below paragraph 3–against serial numbers 1, 3 and 4. for
+the existing entries in the last column, the following entrie? ' ihall
+respectively be substituted namely : –
+“l. (i) Assistant, (ii) Junior 
+Technical Assistant
+(Senior) (Headquarters Once.)
+and
+(iii) Stenographer
+3. Upper Division Clerks and Stenographers (Junior) Headquarters Office.
+4. Upper Division Clerks and Stenographers (JunIor). in Regional OgIces.";
+(iii) after serial number 4 and the entries relating thereto, the following
+serial numbers and entries shall be inserted, namely:–
+''(5) Stenographers 
+50%
+(Senior)
+(Headquarters
+Once).
+Departmental candidates who fulfII
+the qualifications prescribed for the
+post. If suitable departmental candi-
+dates are not available, the posts shall
+be treated as unreserved and fIlled by
+direct recruitment.
+(6) Stenographers 
+50%
+(Junior)
+(Headquarters
+and Regional
+Oalces).
+Departmental candidates who fulfil
+the qualifIcations prescribed for the
+post. It suitable departmental c andi-
+aates are not available, the posts shall
+be treated as unreserved and filled by
+dIrect recruitment”;
+(iv) the existing serjal numbers 5 to 10 shall be renumbered as serial num-
+bers 7 to 12 respectivejy.
+[No. 48(9)/63-PF. 1.}
+SHAH AZIZ AHMAD, Dy. Secy.
+MINISTRy OF 'IIVTERNATIONAL TRADE
+Draft Rules
+[No. 11(10)/63-J&C.]
+New DeZM, the 27t PI December 1963
+'rade
+a
+B:ml)
+Int
+Varan
+Atlby_J
+q=a
+'r ( IF
+AggIE. C - Ft fC it?
+Dery. L
+Civii 
+:
+Page No. 255
+
++TO
+a b 
+b ::qrq 
+: 
+4r 
+Ii: 
+n = : f
+,4;
+t.
+6
+./'
+JIIIII11P{ R 
+I & : : : : t : n 0 %a : i d } : j d : : : S t: 
+: : 3 ; 5 : :b 3 : : : tiE :Ji ) :/ /
+We on anew Boa eaP
+Goverrmant of India
+Hini8 iiry of Labour, Employment & Rehabilitation
+(D6parl;mont 
+of Labour 
+& Employment )
+A eur• + qube 
+aneon ewe 
+e
+New Delhi, 
+tEn 17tih June, 1966 ,
+NOTIF IC. IT ION
+(,,s,R, 997, -In exercise of the pow6r8 conferred bY
+n E!! 
+a: 
+E g 
+: 
+::: 
+: 
+: 
+: ::IEI:p 
+?! 
+! 
+! i : i 
+; i 
+: : 
+: i ! II 
+? ! 
+ci:: 
+Big 
+! 
+! hi 
+Bt 
+: Efi 
+:: 
+J
+the anploy6es4 &evident Fund8 Scheme, 1952 , namely:-
+(1)
+This scheme may be called the ©nploy6e 81 provid6nt=
+Funds (Ninth 
+&acn cImait \ Scbohc , 1966+
+(2 )
+U
+In thc &rploycc st Provident 
+Funds Schc nrc+1952 , in
+clause- (b) of sub-paragraph (3) of paragraph -1,
+sub&calusc (liii) 
+bball bc rcnurlbcrcd ag pub_.claus c
+(li'v ) ald bcforc sub-clausc (liv) a8 so rcnwnbcrcd ,
+the -following sub_clause shall be inserted , nano:LY: -
+n (lili) 
+as respects the tobacco industry, that is
+to say, any indO stry engagcd in the manufacture of
+snuff , qiJ3JII and guraku fra'a totuc
+nmTicitiorl–bf th?--GoVcrdLeanT
+India 
+in thc Ministry 
+of Lat>o url 
+ampjoymcnt and
+Rehabilitation 
+(Dcpartn©nt 
+of Labow 
+and nnploymcnt )
+No ,G ,S,R , 895 dated the lst 
+June , 1966, come into
+fwcc dn the 30th day of June ,1966;tt
+zarda ,
+-by Lhc
+C
+J.: :}(
+i:+IT {
+(;}iii: 
+: 
+: 
+a H rn==P P H H: E
+J{{$:{
+FI 
+;
+%}iii:i-li:';;
+}};;
+£' No ,PP , I1 , 4( 9 ) /5&7
+Sd/_ Daljit 
+SilKhJ
+Under Secretary,
+Pa
+;• !:{ii!!:ii
+; J rVBa
+M P •
+F 
+H ::P3; 
+a •: •
+Page No. 256
+
+e
+qr
+&
+air tiEh::z:hE':} =g, E=::{:: ii.'BIg':Ii; T,iib :_?-\
+qubewe 
+Maw 
+anew 
+\ 
+\
+Govorrt-nant 
+of 
+India 
+,
+Ministry of Lat>c>br J Employ-,rent and Rehabilitation,
+(Department 
+of Labour' 
+utd amplopn6nt: )
+e
+e
+•
+e
+a
+UP
+New :Dalhi , the 21st: July,1966 ,
+NOTIFIC AT Ie !!
+e
++
+e
+e
+G ,S,R, It87 , In-exercise of the powers conferred
+by section 5 read with sub,,section (! ) of sbct ion 7 of the
+aaploye6s 1 Provident Funds Act , 1952 ( 19 of 1952 } , the
+acid ral Gover’IxnGnt hereby '’, lakes the f611Qwin8 scheme further -
+to amend the 
+@nploy6 sst 
+}ravi clout Funds 6c irene , 1952 , nanrely: _
+1,
+P Iris Schema may be called the BmployG€ st
+i:?IEiEG:b6Ey-di ( twelfth' ' ' ' ' ' ' ''l ' X;1'nd'n'nt )
+e
+e
+2.
+namely : +
+e
+e
+e
+e
+It
+WU=b+==
+e
+@
+e
+/Xo , 5/13')/6 4_ PF , ID/
+Sd/_ ')alji 
+q:: Singh ,
+Under Secretary to the Govern-rent of India
+• f IS
++ d J
++
+e
+@
+e
+e
+e
+Page No. 257
+
+Page No. 258
+
+.+HPa
+a
+/
+v~}
+e
+•
+e
+Z-Published --in Part I.I-, SeCtion 3, Subsection ( i)
+u of +ha Gazette of India dated the 22nd. ,.”,pril9 1967J/
++
+(}overnmalt of india
+Ministry of Labour , EnIpl_oymerit & Rehabilit,tion
+( Department 
+Q.f Labour 
+& Employment 
+)
+Dated New Delhi 7 the llt;h April,
+----. - .- ___.__ _'. 
+1967 .
+}T 0 T 1 F I C \ T I O !\T
+e
+e
+e
+•
+e
+G. S. R, 553 . In exercise of the b'5wers' conferred
+by section 5 , ren(1_ with suI>section ( 1) of section 7 of
+thd Einployeest Provident ,Fllnds .A.ct , 1952 ( 19 of 1952) , the
+Cent-rnl 
+Government 
+hereby 
+makes the 
+fOlIQwing 
+Scheme
+further 
+to amend the !hIDloycest 
+Prar-ident 
+Funds Schwl-e, 1952
+n Pm 61y :-
+(1)
+This 
+Scheme mAy be cqjl ed'-the l;wjploye-est
+Provident 
+Funds ( Third ' .'m errdmen t) 
+Scheme 9 1967 .
+(2)
+In the Errlnjoyees’ 
+Provident 
+FunQs Scheme9 1952
+in clause (b) of sub-pRr,rgraph C3) of
+paragraph 1, sub ClaIr-se ( 1.- vi) shrIll be
+}enurrlbeted as sub clause ( 1 vii) 
+and before
+sub clause ( 1 vii) 
+as io renumbered9 the
+following SJIt> clause Sha.1_1 be inserted, n,rIely :T
+1’ ( 1 vi) as "resDects linole lan and
+ind.ol eun indygtrie8, specified in the rr'oTfof 
+the
+Gdult6 
+T Indin in the F*tirlist ry of LRt>our , Employment and
+Rehn.bil_itation ( Department of Labour and bknployrn ent ) , No ,
+G. s. R.477 dated the 77t;h March, 19679 come into force on
+the 30th dpy of April 9 1967 tt ;
+@
+•
+e
+e
+e
+•
+e
+e
+e
+Z-No , 4/2/66-.PF , IIJ7
+Sd/-
+( D'3ljit 
+Singh 
+)
+TTn(lcr Secret qry
+V(b
+-\I
+e
+e
+Page No. 259
+
+e
+•
+•
+Z-published 'in Part II , section& S'1,tb sect:[?n' ’(i)_:fvthe
+& ' - . :.. Gl.zett; e of Ir;dia dRE ed the lst 
+Bpril9- 1967a/
+©
+e
+Government of Indie
+Ministry of LRt)our , ElrnDloyvlent & Rehabi]_itation
+(Departrrlent 
+of in.botIr '?- 13mployrnent)
+Dated New Delhi j the nth 
+March,167
+NOTIFI 
+CITI 
+' IN
+e
+e
+8
+e
+e
+e
+e
+e
+G , So Rn437 TflaM qS the Cent;r Pl GOV ernTn ent iS of
+opinion th.at a provideit fund’s6hetIle should be framed_ under the
+E;nDloyeest Provident Funds Act , 1952 ( 19 of 1952) , in resUect
+of the employees of the I.ino}-qq-gb and' indole tIm industries 
+;
+Now9 TgE!{EFO=E9 in exercIse -of the powers conferred
+by Sub- section (1 ) of Section 4 of ; the EmDloyeest Provident
+Funds Ict , 1952 ( 19 of 1952) , the -Centrn1 Governmait hereby
+directs thRt with effect f ron the 3C)th \Dr-il9 1967 , tT,inoleum
+lndustryt 8nd +',tlndoleum Industry1 shall be added to Schedule
+1 to the said act,
+//
+/
+Z--No , 4/2/6G-PF,IIJ/
+Sd/-
+( Dal jit 
+Singh 
+)
+Under Secretary
+V
+e
+'b
+e
+e
+e
+@
++
+Page No. 260
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---

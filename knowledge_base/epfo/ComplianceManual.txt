@@ -1,0 +1,1716 @@
+---
+SOURCE: local_offline_pdf
+DOMAIN: epfo
+CATEGORY: manual
+LAST_UPDATED: 2026-03-09
+LANGUAGE: English
+---
+
+[EPFO Compliance Manual]
+
+[CONTENT]
+COMPLIANCE MANUAL
+
+ 
+ 
+ 
+
+i 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+ 
+ 
+ 
+PREFACE 
+ 
+It is with great pleasure and a sense of accomplishment that this Compliance Manual is introduced 
+that serves as a comprehensive guide for administration and management of EPFO’s Compliance 
+functions at the field level.  
+ 
+The Compliance Division, through its field functionaries strives to secure compliance of the 
+provisions of the EPF & MP Act, 1952 to extend social security to the intended beneficiaries. In order 
+to do so, various instructions have been issued from time to time which guide the officers and 
+officials entrusted with the compliance function.  The Compliance manual, in your hand, not only 
+consolidates statutory provisions, Head Office instructions, and court interpretations at one place in 
+ready- to -refer form but also offers an evolutionary perspective on compliance and addresses 
+emerging challenges in the evolved landscape.  
+ 
+By providing a standardized and comprehensive reference document, the aim is to maintain 
+uniformity, transparency, objectivity and fairness in a manner that fosters trust and excellence. 
+Roles and responsibilities have been clearly demarcated. 
+ 
+It is expected that this Compliance Manual shall serve as a valuable resource in your journey to 
+ensure a secure and prosperous future for all the EPF beneficiaries across the nation.  
+ 
+Compliance Division 
+Employees’ Provident Fund Organization 
+Head Office, New Delhi 
+Date: 5th February, 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ii 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ACKNOWLEDGEMENT 
+ 
+ 
+The drafting, review and design of Compliance Manual would not have been possible 
+without the tremendous efforts by all officers of the division. At the outset we would 
+like to thank our CPFC, Ms. Neelam Shami Rao, IAS for her continuous guidance and 
+motivation without which the Manual would not have seen the light of the day. 
+ 
+The Compliance Manual has been co-authored by Shri Rajesh Kumar Sinha, Regional 
+Provident Fund Commissioner – I, Shri Akash Verma, Regional Provident Fund 
+Commissioner – II and Shri Abhishek Kumar Mishra, Regional Provident Fund 
+Commissioner – II. 
+ 
+The team has worked under the guidance of Shri S.K. Aggarwal, Additional Central 
+Provident Fund Commissioner (HQ) and Shri P. Veerabhadra Swamy, Additional 
+Central Provident Fund Commissioner. 
+ 
+Thanks are due to Shri Navendu Rai, Regional Provident Fund Commissioner – I, Shri 
+Siddharth Singh, Regional Provident Fund Commissioner – I and Ms Pooja Singh, 
+Regional Provident Fund Commissioner – I for providing valuable inputs from time to 
+time. 
+ 
+Last but not the least, thanks are due to Shri Raunak N Chahande, Shri Santosh Kisku 
+and Shri Devendra Kumar, ASOs in the Compliance Division who have meticulously 
+compiled and catalogued the notifications and circulars. The manual has also been 
+peer reviewed by officers of the field. 
+ 
+ 
+ 
+Compliance Division 
+Employees’ Provident Fund Organization 
+Head Office, New Delhi                                            
+Date: 5th February, 2024 
+ 
+
+iii 
+COMPLIANCE MANUAL 
+ 
+Table of Contents 
+PART A : CHAPTERS .................................................................................................................................... 1 
+1. 
+Applicability ..................................................................................................................................... 5 
+1.1 
+Application of the EPF & MP Act, 1952 .................................................................................................. 5 
+1.1.1 
+Mandatory Application .................................................................................................................... 5 
+1.1.2 
+Voluntary Application ...................................................................................................................... 5 
+1.1.3 
+Reduction in Strength ...................................................................................................................... 6 
+1.1.4 
+Clubbing ........................................................................................................................................... 7 
+1.2 
+Exemption from the Act ......................................................................................................................... 7 
+1.3 
+Schedule of Industries/Classes of Establishments ............................................................................... 10 
+1.3.1 
+Coverage of Establishments .......................................................................................................... 11 
+1.3.2 
+Registration ................................................................................................................................... 12 
+1.3.3 
+Notification of Voluntary Coverages u/s 1(4)................................................................................ 14 
+2. 
+Inquiries u/s 7A, 7B & 7C of the Act ............................................................................................. 17 
+2.1 
+Introduction .......................................................................................................................................... 17 
+2.2 
+Officers and their Powers ..................................................................................................................... 19 
+2.3 
+Procedure of Initiation and Conduct of Inquiry .................................................................................... 24 
+2.3.1 
+Initiation ........................................................................................................................................ 24 
+2.3.2 
+Issue of Summons.......................................................................................................................... 27 
+2.3.3 
+Conduct of Inquiry ......................................................................................................................... 28 
+2.4 
+Dos & Don’ts of Inquiries ...................................................................................................................... 31 
+2.5 
+Jurisdiction of Officers (Administrative Directions) .............................................................................. 33 
+2.6 
+Ex-parte Order ...................................................................................................................................... 34 
+2.7 
+Review u/s 7B ....................................................................................................................................... 35 
+2.8 
+Determination of Escaped Amount u/s 7C ........................................................................................... 39 
+2.9 
+Handling of Cases remanded back by Courts ....................................................................................... 39 
+2.10 
+Timeline ............................................................................................................................................. 40 
+2.11 
+Administrative scrutiny of Orders ..................................................................................................... 41 
+2.12 
+Indicative Structure of the order u/s 7A ........................................................................................... 42 
+3. 
+Levy of Damages u/s 14B .............................................................................................................. 49 
+3.1 
+Rule Provisions – Acts & Schemes ........................................................................................................ 49 
+3.2 
+Initiation of Proceedings ....................................................................................................................... 52 
+3.3 
+Initiation & Conduct of Proceedings u/s 14B ....................................................................................... 56 
+3.4 
+Timeline ................................................................................................................................................ 59 
+3.5 
+Knocking off of Auto Calculated Damages & Interest .......................................................................... 60 
+
+iv 
+COMPLIANCE MANUAL 
+3.6 
+Penal Damages in Respect of Exempted Establishments ..................................................................... 61 
+3.7 
+Waiver of Damages ............................................................................................................................... 62 
+4. 
+Resolution of Membership Doubts u/p 26B of the EPF Scheme, u/p 8 Of the EPS ................... 67 
+4.1 
+Introduction .......................................................................................................................................... 67 
+4.2 
+Basic Premises ...................................................................................................................................... 68 
+4.3 
+Background ........................................................................................................................................... 68 
+4.4 
+Trigger Points for Requirement of Proceeding u/p 26B Of EPF Scheme/ 8 Of EPS .............................. 69 
+4.5 
+Case of Student-Trainees ...................................................................................................................... 70 
+4.6 
+Procedure for Initiation and Conduct of Proceeding u/p 26B .............................................................. 71 
+5. 
+Penal Provisions ............................................................................................................................ 75 
+5.1 
+Introduction .......................................................................................................................................... 75 
+5.2 
+Prosecution ........................................................................................................................................... 79 
+5.2.1 
+Importance of Form 5A ................................................................................................................. 79 
+5.2.2 
+Procedure to Follow ...................................................................................................................... 79 
+5.2.3 
+Misjoinder of Charges ................................................................................................................... 81 
+5.2.4 
+Persons liable to be impleaded in the Complaint ......................................................................... 83 
+5.2.5 
+Withdrawal of Prosecution ........................................................................................................... 83 
+5.2.6 
+Compensation u/s 357 of CrPC, 1973 ........................................................................................... 85 
+5.2.7 
+Limitation for Prosecution - Section 468 of CrPC, 1973 ................................................................ 86 
+5.2.8 
+Transfer of complainant ................................................................................................................ 87 
+5.2.9 
+Criminal Breach of Trust ................................................................................................................ 88 
+5.2.10 Proceedings under provisions contained in section 110 of the Code of CrPC, 1973 .................... 89 
+6. Handling of Compliance Issues in Insolvency & Bankruptcy Cases ......................................................... 93 
+6.1 Introduction ............................................................................................................................................... 93 
+6.2 
+Action for Assessment and Recovery of Dues Prior to Commencement of CIRP ................................ 94 
+6.3 
+Initiation of CIRP and Follow-Up Action by EPFO ................................................................................. 96 
+6.4 
+Procedure to be followed when CIRP has started ................................................................................ 97 
+6.5 
+Procedure for Multi-Location Establishments ...................................................................................... 98 
+6.6 
+Admissibility of Appealed/Litigated Dues............................................................................................. 99 
+6.7 
+Remedies – Procedure for Appeals ...................................................................................................... 99 
+6.8 
+Post CIRP Issues .................................................................................................................................... 99 
+6.9 
+Relevant Case Laws ............................................................................................................................. 100 
+7. Establishment Master Updation ..........................................................................................................105 
+7.1 
+Introduction ........................................................................................................................................ 105 
+7.2 
+Verification of Status through GST Portal .......................................................................................... 106 
+7.3 
+Establishments Declaring Closure on Nudging ................................................................................... 107 
+
+v 
+COMPLIANCE MANUAL 
+7.4 
+Marking Closure in Case of Establishments Covered U/S 1(4) ........................................................... 107 
+7.5 
+Marking Closure in Case of Establishments Covered U/S 1(3)/2A ..................................................... 108 
+7.6 
+List of Defaulting Establishments ....................................................................................................... 109 
+PART B : STANDARD OPERATING PROCEDURES(SOPs), FORMS & TEMPLATES ..........................................111 
+PART C : NOTIFICATIONS .........................................................................................................................211 
+List of Industries ............................................................................................................................................ 213 
+Classes of Establishments .............................................................................................................................. 293 
+PART D : CIRCULARS ................................................................................................................................382 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+vi 
+COMPLIANCE MANUAL 
+ 
+ 
+
+1 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PART A : CHAPTERS
+ 
+ 
+
+2 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+
+3 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+ 
+CHAPTER 1 : 
+APPLICABILITY 
+ 
+ 
+ 
+ 
+
+4 
+COMPLIANCE MANUAL 
+ 
+ 
+
+5 
+COMPLIANCE MANUAL 
+ 
+1. Applicability 
+ 
+1.1 Application of the EPF & MP Act, 1952 
+ 
+The Act extends to the whole of India. 
+ 
+1.1.1 Mandatory Application 
+ 
+i. 
+To every establishment, which is a factory, engaged in any industry specified in Schedule-I and in 
+which twenty or more persons are employed [Sec 1(3)(a)]. 
+ 
+ii. 
+To any other establishment employing twenty or more persons or class of such establishments 
+which the Central Government may, by notification in the Official Gazette, specify in this behalf 
+[Sec 1(3)(b)]. 
+ 
+iii. 
+Provided that the Central Government may, after giving not less than two months’ notice of its 
+intention so to do, by notification in the Official Gazette, apply the provisions of this Act to any 
+establishment employing such number of persons less than twenty as may be specified in the 
+notification. In case of ‘Cinema Theatres,’ the Central Government has fixed the required 
+employee strength at five (5) for the purpose of coverage under the Act. The Central Government 
+has also applied the EPF & MP Act, 1952 to all the establishments, employing ten or more persons 
+and covered under the provisions of the erstwhile the Jammu and Kashmir Employees’ Provident 
+Funds and Miscellaneous Provisions Act, as it stood before its repeal by the Jammu and Kashmir 
+Reorganization Act, 2019, with effect from 1.1.2020. 
+ 
+iv. 
+Mandatory application of the Act is, however, subject to the provisions contained in Section 16 
+which allows for exemption from the application of the Act itself. 
+ 
+1.1.2 Voluntary Application 
+ 
+i. 
+Notwithstanding anything contained in Sub-Section 3 of Section 1 or-Sub-Section 1 of Section 16, 
+where it appears to the Central Provident Fund Commissioner, whether on an application made to 
+him/her in this behalf or otherwise, that the employer and the majority of employees in relation 
+
+6 
+COMPLIANCE MANUAL 
+to any establishment have agreed that the provisions of this Act should be made applicable to the 
+establishment, the CPFC may, by notification in the Official Gazette, apply the provisions of this 
+Act to that establishment on and from the date of such agreement or from any subsequent date 
+specified in such agreement [Sec 1(4)]. 
+ 
+ii. 
+Three scenarios may emerge here: 
+ 
+ 
+Figure 1 : Scenarios for Establishments applying u/s 1(4) 
+ 
+iii. 
+As can be observed, application from the employer is not an essential requirement; CPFC’s 
+satisfaction of consent of employer and majority of employees is the essential condition. In 
+case of voluntary coverages under section 1(4), application of the Act can only be from the 
+date of agreement, or some subsequent date specified in the agreement. There cannot be any 
+retrospective coverage under section 1(4). ‘Notification in Official Gazette’ is an essential 
+requirement for application of the Act under section 1(4) cases. Till notification is issued, the 
+establishment is technically free to withdraw its application.  
+ 
+1.1.3 Reduction in Strength 
+ 
+It has also been made clear under Section 1(5) of the Act, that once an establishment is brought 
+under the purview of the Act, it shall continue to be governed by the Act notwithstanding that the 
+number of employees at any time falls below twenty (five in respect of Cinema Theatres). 
+ 
+ 
+ 
+
+7 
+COMPLIANCE MANUAL 
+1.1.4 Clubbing 
+ 
+i. 
+Branches and departments of an establishment should be clubbed together for the purpose of 
+determining the employment strength. 
+In accordance with Section 2A of the Act, where an establishment consists of different 
+departments or has branches, whether situated in the same place or different places, all such 
+departments/branches should be treated as part and parcel of the main establishment for the 
+purpose of application of the provisions of the Act. 
+ii. 
+Coverage of establishments by virtue of having a Common Provident Fund with another 
+establishment. 
+Where immediately before the Act becomes applicable to an establishment, there is in existence a 
+Provident Fund, which is common to the employees in that establishment (which is coverable) and 
+employees in any other establishment (which is not coverable), the Central Government may, by 
+notification in the Official Gazette, extend the Act to such establishment which is not otherwise 
+coverable under the Act, in accordance with the provisions of Section 3 of the Act. 
+1.2 Exemption from the Act 
+ 
+1.2.1 The Act shall not apply to:  
+ 
+Figure 2 : Exemption from the Act u/s 16(1) 
+1.2.2 Present clauses (b) and (c) have been inserted under section 16(1) vide Act 33 of 1988 w.e.f. 
+01.08.1988. By virtue of these provisions a large number of Departmental Undertaking and 
+
+8 
+COMPLIANCE MANUAL 
+Statutory Bodies have gone out of the purview of the Act. These exemptions are automatic and no 
+notification or order to the effect is required to be issued. However, Government of India, Ministry 
+of Labour vide its letter number S-35025/15/88-SS-II dated 06.01.1989 (Part D/Circular No. 47) 
+has clarified the position as under in case of such establishments: 
+ 
+ 
+1.2.3 The Central Government can also exempt any class of establishments from the Act by notification 
+under section 16(2) of the Act for some specified period retrospectively or prospectively. Section 
+16(2) provides that if the Central Government is of the opinion that having regard to the financial 
+position of any class of establishments or other circumstances of the case, it is necessary or 
+expedient so to do, it may, by notification in the Official Gazette, and subject to such conditions, 
+as may be specified in the notification, exempt, whether prospectively or respectively, that class of 
+establishments from the operation of the Act for such period as may be specified in the 
+notification. 
+Several notifications had been issued under section 16(2) from time to time exempting various 
+class of establishments. The last notification under this section was issued on 14.5.2010 for 
+establishments registered under the Societies Registration Act, 1860 (corresponding laws) 
+exempting these, subject to conditions, for the period 1.4.2010 to 31.3.2015 [SO 1431 dated 
+14.5.2010]. There is no such notification in currency since 1.4.2015 issued under section 16(2) 
+granting exemption to any class of establishments from operation of the Act.   
+While deciding date of applicability of the Act to establishments where the dates are going back 
+before 03/2015, notifications issued under this section should also be kept in view.  
+1.2.4 
+Scope of Section 16(1)(b) of the Act 
+Clause (b) of sub-section (1) of Section 16 provides for exemption to establishments belonging to 
+or under the control of the Central Government or a State Government while clause (c) 
+contemplates exemption to any other establishment set up under any Central, Provincial or State 
+Act, subject to conditions specified therein. 
+Establishments set up under Central, Provincial or a State Act may be identified easily. However, 
+the same cannot be said of establishments belonging to or under the control of the Central or a 
+
+9 
+COMPLIANCE MANUAL 
+State Government. There is no test/clue in the Act to identify establishments belonging to or 
+under the control of the Central or a State Government. 
+The issue has been dealt with by the Hon’ble Supreme Court in Regional Provident Fund 
+Commissioner 
+v/s 
+Sanatan 
+Dharam 
+Girls 
+Secondary 
+School 
+and 
+Ors 
+[(2007) 1 SCC 268 : (2007) 1 SCC (L&S) 167 ]. While clarifying the meaning of ‘belonging to or 
+under the control of’, the Hon’ble Court has held as under: 
+“In our view, the two words used in the said section have different connotations. The words 
+"belonging to" signifies ownership i.e., the Government owned institutions would be covered 
+under the said part and the words "under the control of" signifies control other than ownership 
+since ownership has already been covered under the words "belonging to". It must be also noted 
+that the two words are separated by the word "OR" and therefore these two words refer to two 
+mutually exclusive categories of institutions. While the institutions "belonging" to the Central or 
+the State Government would imply the control of the State but the privately- owned institutions 
+can be "under the control of" the Government in various ways. 
+………………………………… 
+The word "control" has not been defined under the EPF Act, 1952. However, this Court 
+in Shamrao Vithal Coop. Bank Ltd. vs. Kasargode Panduranga Maliya, (1972) 4 SCC 600 at page 
+604 has cited with approval the meaning of the word "control" as it appears at page 442 of 
+Words & Phrases Vol.9, Permanent Edition as under: 
+"The word "control" is synonymous with superintendence, management or authority to direct, 
+restrict or regulate." 
+In the case of State of Mysore vs. Allum karibasappa, (1974) 2 SCC 498 at page 501, this Court 
+defined the words "word control" as under: 
+"The word "control" suggests check, restraint or influence Control is intended to regulate and 
+hold in check and restrain from action." 
+ 
+ 
+
+10 
+COMPLIANCE MANUAL 
+ 
+Hon’ble Supreme Court in Pawan Hans Limited and Ors vs Aviation Karmchari Sanghatana & Ors  
+[AIR2020SC564] dealing with the same issue has observed as under: 
+“This Court in Regional Provident Fund Commissioner vs Sanatan Dharam Girls Secondary School 
+laid down a twin test   for   an   establishment   to   seek   exemption   from   the provisions of the 
+EPF Act, 1952.  
+The twin conditions are: 
+First, the establishment must be either “belonging to” or “under the control of” the Central or the 
+State Government. The phrase “belonging to” would signify “ownership” of the Government, 
+whereas   the   phrase “under   the   control   of” would imply superintendence, management, or 
+authority to direct, restrict or regulate. 
+Second, the employees of such an establishment should be entitled to the benefit of contributory 
+provident fund or old age pension in accordance with any scheme  or rule framed by the Central 
+Government or the State Government governing such benefits. 
+If both tests are satisfied, an establishment can claim exemption/exclusion under Section 16(1)(b) 
+of the EPF Act. 
+Applying the first test to the instant case, the Central Government   has   a   51%   ownership   in  
+the   Appellant-Company, while the balance 49% is owned by the ONGC, a Central Government 
+PSU. 
+As per Section 2(45) of the Companies Act, 2013, a “Government Company” means any company in 
+which not less than 51 % of the paid--up share capital is held by the Central   Government.   Since  
+51%   of   the   shares   of   the Appellant¬-Company are owned by the Central Government, the first 
+test is satisfied as the Appellant-¬Company can be termed as a Government Company under 
+Section 2(45) of the Companies Act, 2013.” 
+ 
+1.3 Schedule of Industries/Classes of Establishments 
+ 
+The Act is applicable to factories engaged in industries specified in Schedule-I of the Act and to 
+establishments/classes of establishments notified by the Central Government. All notifications issued 
+till date are contained in Part – C of the Manual. 
+
+11 
+COMPLIANCE MANUAL 
+ 
+ 
+1.3.1 Coverage of Establishments 
+ 
+i. 
+The Act comes into operation by its own vigour and discovery of the establishment by the 
+department is no requirement for application of the Act to the establishment from the date of 
+eligibility. Hon’ble Supreme Court has held so in Associated Industries (Pvt) Ltd vs Regional P F 
+Commissioner, Kerala [1963(2) LLJ 652(SC-5M)] and several other judgements. 
+ 
+ii. 
+The Field Offices should however ensure that all coverable establishments are brought under the 
+purview of the Act promptly. For this purpose, data triangulation could be of great help. Till the 
+time some arrangement for exchange of data is made centrally, information should be collected 
+from relevant agencies such as ESIC, Factories Department, Labour Department, Chamber of 
+Commerce, Trade Unions, MCA portal, UDAISE portal FSSAI and Railways portal etc by the Field 
+Offices.  
+ 
+iii. 
+The data collected from these agencies should be matched with the information of establishments 
+already covered under the Act to gather information of eligible but uncovered establishments. 
+This exercise may be conducted preferably on quarterly basis so that effective and timely action 
+could be taken to extend the provisions of the Employees’ Provident Funds and Miscellaneous 
+Provisions Act, 1952 to such establishments.  
+ 
+iv. 
+As the establishments are expected to register themselves on their own, in case of establishments 
+not registering on their own under the EPF & MP Act, 1952 despite being coverable under the Act, 
+the RPFC/APFC-in-charge should take immediate steps to contact and persuade such 
+establishments for registration through Shram Suvidha Portal. If any such establishment is still not 
+coming forward for coverage under this Act on its own in spite of persuasion made by the office, 
+permission from CAIU should be obtained and then the Enforcement Officer may be deputed to 
+verify the position to bring the establishment under the ambit of the Act from the date of 
+eligibility in order to ensure extension of social security benefits to the employees of such 
+establishment.  
+ 
+ 
+
+12 
+COMPLIANCE MANUAL 
+1.3.2 Registration 
+ 
+Depending on its type, an establishment can register under the Act using any of these online 
+portals: 
+Portal URL 
+Type of Establishment 
+Remarks 
+MCA Portal 
+http://www.mca.gov.in/ 
+All Companies 
+ 
+w.e.f.  15.02.2020 
+Shram Suvidha Portal 
+https://registration.shrams
+uvidha.gov.in/user/login 
+Any other type of establishment 
+ 
+i. 
+Options 
+are 
+available 
+for 
+the 
+employer 
+to 
+apply 
+online 
+under 
+the 
+following 
+conditions: 
+ 
+Figure 3 : Options for Employers for Online Application 
+ 
+ii. 
+While filling the form the employer has to upload documents related to the establishment as 
+specified on the portal. The employer has to digitally approve the filled form. 
+ 
+iii. 
+The code number allotment letter and documents uploaded by the Employer are available with 
+field offices on FO interface. The same should be downloaded and scrutinized properly and 
+promptly. If any specific document is found missing or is not readable, the same should be 
+collected by the RO/DO from the establishment through email or otherwise. 
+ 
+
+13 
+COMPLIANCE MANUAL 
+iv. 
+E-office compliance file of the establishment would be created with these documents downloaded 
+from the FO interface which should be put up by the section to the Circle Officer for confirmation 
+of receipt of the basic documents.  
+ 
+FO-interface >>OLRE>>View Documents 
+ 
+ 
+ 
+The following details appear in the view document: 
+ 
+ 
+
+14 
+COMPLIANCE MANUAL 
+1.3.3 Notification of Voluntary Coverages U/S 1(4) 
+ 
+i. 
+All voluntary coverages obtained under section 1(4) should immediately be processed for 
+notification in the Official Gazette as is the requirement under the section concerned. 
+ 
+ii. 
+Section 1(4) needs satisfaction of CPFC, on an application made or otherwise, that the employer 
+and the majority of employees have consented to make the provisions of Act applicable. 
+Therefore, application of the employer and his consent along with consent of majority of 
+employees should be collected and if contribution of even one month has been paid, the case 
+should be processed for notification. Standard proforma for employees’ consent and employer’s 
+application-cum-consent may be used by the employers. (ST 1 & ST 2). 
+ 
+iii. 
+ZO concerned has to get the coverage notified in the official gazette once the same is approved by 
+the CPFC. Therefore, the original documents need not be sent to HO. Only the information as 
+required under Head Office circular number C-I/4(3)2016/AP-OR/1(4)/2709 dated 05.05.2017 (ST 
+3) should be forwarded to Head Office [ACC(HQ)/ACC of Compliance Division] for approval of CPFC 
+by the ZO concerned through e-office. On communication of approval of CPFC, ACC Zone has to 
+make arrangement for notification of such establishments in Official Gazette. 
+ 
+ 
+***CHAPTER END*** 
+ 
+ 
+ 
+
+15 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+CHAPTER 2 :  
+INQUIRIES U/S 7A, 7B & 
+7C OF THE ACT  
+ 
+ 
+ 
+ 
+
+16 
+COMPLIANCE MANUAL 
+ 
+ 
+
+17 
+COMPLIANCE MANUAL 
+ 
+2. Inquiries u/s 7A, 7B & 7C of the Act 
+ 
+2.1 Introduction 
+ 
+The statutory mandate for inquiry under section 7A is two-fold:  
+ 
+ 
+ 
+2.1.1 When the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 was framed in the 
+year 1952, it did not provide for any forum for determination of dues. Hon’ble Courts had, 
+however, held that the action to recover the amount due under the Act, by way of recovery 
+proceedings, could be taken only after the determination of dues. Hence, section 7A was inserted 
+in the Act, by the Amendment Act 28 of 1963 to remove the above lacuna in the Act, by providing 
+a forum to determine the dues under the Act.  
+ 
+2.1.2 When the Section 7A was inserted, the respective State Governments were empowered to 
+recover dues. To simplify and rationalise the process, Section 7A was amended in the year 1973 
+empowering the Central Provident Fund Commissioner, Deputy Provident Fund Commissioner, 
+Regional Provident Fund Commissioner to exercise the power under Section 7A. Though there was 
+no specific provision in the Act to decide applicability disputes, in various court judgments it was 
+held that the assessing authority should first decide the dispute of applicability, if such dispute 
+was raised by the employer and then only determine the dues. [D K Barua vs RPFC 1972 I LLJ 385 
+(Pat DB); Mahamaya Coconut vs RPFC 1972 II LLN 540 (Ori DB)]  
+ 
+2.1.3 By the Amendment, Act 33 of 1988, the power to conduct inquiry under Section 7A was extended 
+to Additional Central Provident Fund Commissioners and Assistant Provident Fund Commissioners 
+as well to speed up the assessment of dues and take timely action against defaulters. Provision 
+was made expressly empowering officers exercising the powers under this section to decide the 
+dispute relating to the applicability of the Act to an establishment, when such a dispute arose. The 
+
+18 
+COMPLIANCE MANUAL 
+amendment also provided for appeal against the orders of the adjudicating authority hitherto not 
+available by inserting section 7-I. 
+ 
+ 
+Figure 4 : Developments over the years 
+ 
+2.1.4 Due care should be taken while initiating inquiries so that while rights of the employees under the 
+Act are protected without any compromise, there is no undue hardship to the employer in the 
+process as well. The authority clothed in the trappings of a Court under the Code of Civil 
+procedure, is required to act judiciously, fairly, transparently, and equitably following the 
+principles of natural justice. Hence, such inquiries are required to be initiated after establishing a 
+prima-facie case of default / applicability dispute.  
+ 
+2.1.5 The idea is to secure compliance first by handholding, persuasion & nudging before resorting to 
+initiation of inquiry. However, though the attitudinal change of keeping the idea of Ease of Doing 
+Business in view is expected, the idea of ‘compliance with no compromise’ should never be lost 
+sight of. 
+ 
+
+19 
+COMPLIANCE MANUAL 
+2.2 Officers and their Powers 
+                        
+2.2.1 Section 7A (1) authorizes the Central Provident Fund Commissioner, Additional Central Provident 
+Fund Commissioners, Deputy Provident Fund Commissioners, Regional Provident Fund 
+Commissioners or Assistant Provident Fund Commissioners to decide disputes regarding 
+applicability of the Act to an establishment and/ or to determine amount due from any employer 
+under the provisions of the Act/Schemes by order. For the aforesaid purposes, such inquiry as 
+deemed necessary may be conducted by the Commissioner deciding the applicability-
+dispute/determining amount due.  
+ 
+2.2.2 Section 7A (3) provides that no such order shall be made unless the employer concerned is given 
+reasonable opportunity of representing his case. Providing reasonable opportunity before passing 
+an order is a requirement of the principle of natural justice. The two core concepts of the principle 
+of natural justice are; audi alteram partem (hear the other side or no one should be condemned 
+unheard) and nemo judex in causa sua (no one should be a judge in his own case). 
+ 
+2.2.3 It is therefore essential legal requirement that reasonable opportunities of hearing be provided to 
+the employer and the Central Board is represented by someone other than the officer conducting 
+the inquiry.  
+ 
+2.2.4 Section 7A (2) vests the officers conducting inquiry under section 7A (1) with the same powers as 
+are vested in a court under the Code of Civil Procedure, 1908 for trying a suit in respect of the 
+following matters, namely: 
+ 
+i. 
+Enforcing the attendance of any person or examining him/her on oath 
+ii. 
+Requiring the discovery and production of documents 
+iii. 
+Receiving evidence on affidavit 
+iv. 
+Issuing commissions for the examination of witnesses 
+ 
+2.2.5 Relevant sections dealing with the aforementioned subjects in the Code of Civil Procedure, 1908 
+are Sections 27 to 32 under the heading ‘Summons and Discovery’: 
+
+20 
+COMPLIANCE MANUAL 
+ 
+ 
+ 
+ 
+
+21 
+COMPLIANCE MANUAL 
+2.2.6 At times, situations may be encountered during the proceedings where employer may refuse to 
+cooperate ostensibly to prolong/delay the proceedings for various reasons and on the other hand, 
+sufficient documents may not be on record to pass an ex parte order. In such situations, it is under 
+section 30 of the Code of Civil Procedure, 1908 that show cause notices are issued during the 
+proceedings against the recalcitrant employers who refuse or neglect to produce the required 
+documents or part with any other information sought. Sample notice to the employer under 
+section 30 of the CPC is at ST 5. 
+ 
+2.2.7 At times witnesses are also to be called for taking their statements during the inquiry. Sample of 
+summons to witness is at ST 6. 
+ 
+2.2.8 Section 32 of the CPC prescribes the means through which attendance of a person to whom 
+summons has been issued is compelled. The provisions are self-explanatory, yet instances have 
+been noticed in which the officers conducting inquiries u/s 7A have issued orders to attach/freeze 
+bank accounts of the establishments/personal accounts of the employers for alleged non-
+appearance in such inquiries. Such practices have attracted a lot of adverse observations from 
+Constitutional Courts and other quarters; hence, must not be resorted to.  
+ 
+2.2.9 In so far as the power to impose fines for non-appearance, by invocation of section 32 CPC is 
+concerned, it may be noted that the power of a Civil Court, and consequently an officer exercising 
+jurisdiction under section 7A, in imposing a pecuniary fine for wilful absence of a party 
+summoned, is restricted to the amount of Rupees Five Thousand only by virtue of section 32 of 
+the CPC.  
+ 
+2.2.10 The power to attach and sell property for non-appearance is also subject to limitation prescribed 
+in rule 10 of Order XVI of the CPC which circumscribes the power so available to the limit of fine 
+imposable under rule 12. Alternatively stated, when the power to attach and sell property of the 
+employer is sought to be exercised for non-appearance, the value of property so attached has to 
+be within the quantum of fine that could be levied under the relevant provision. 
+ 
+ 
+ 
+ 
+ 
+
+22 
+COMPLIANCE MANUAL 
+Note: It has been observed, in a number of cases, that the officers issue attachment   
+orders without specifying any amount to the extent of which the attachment is 
+intended to be made. It is important to note that the power to make attachments of   
+unlimited value or to freeze operation of bank accounts is not relatable to any 
+provision of the Act or Code of Civil Procedure. Such actions are evidently illegal and 
+amount to blatant misuse of authority besides causing unwarranted harassment to 
+the employers concerned. 
+ 
+2.2.11 In case the person to whom summons is issued for production of document or discovery of any 
+document and he commits default in attendance, the 7A authority is empowered to issue warrant 
+of arrest under section 32 of the Code of Civil Procedure, 1908. [Devi Ahilya Bai Ghate Uccha 
+Shiksha Samiti and another vs State of MP and ors-2007(1) LLJ 78- MP High Court-Gwalior 
+Bench]. Sample of warrant of arrest issued under section 32 of the CPC is at ST 7. 
+ 
+2.2.12 However, the 7A authority cannot direct detention of a person in civil prison in case he fails to 
+produce the records which he has been summoned to produce. The power under Order XVI Rule 
+18 of the Code of Civil Procedure, 1908 can be exercised by the court only for the purpose of 
+ensuring the appearance of the person and not when he fails to produce any document or record 
+which he has been summoned to produce. Clause (d) of Section 32 of the Civil Procedure Code is 
+the only provision providing for detention of a person in civil prison and it states that the Court 
+may compel the attendance of any person to whom summons have been issued under Section 
+30 and for that purpose may order him to furnish security for his appearance and in default 
+commit him to civil prison. The expression "for that purpose" clearly indicates that the detention 
+of a person in civil prison can be ordered by the Court only for the purpose of compelling his 
+attendance. There is nothing in Section 32 of the Civil Procedure Code to indicate that the Court 
+can detain a person to civil prison if he does not produce any record or documents which he has 
+been summoned to produce. Similarly a reading of Rule 18 of Order XVI of the Civil Procedure 
+Code shows that where any person arrested under a warrant is brought before the Court in 
+custody and cannot, owing to the absence of parties or any of them, give the evidence or produce 
+the document which he has been summoned to give or produce, the Court may require him to 
+give reasonable bail or other security for his appearance at such time and place as it thinks fit, and, 
+on such bail or security being given, may release him, and, in default of his giving such bail or 
+security, may order him to detain in civil prison. Thus, the power under Order XVI, Rule 18 of the 
+
+23 
+COMPLIANCE MANUAL 
+Civil Procedure Code can be exercised by the Court only for the purpose of ensuring the 
+appearance of the person and not when he fails to produce any document or record which has 
+been summoned to produce. [Vinod Tiwari vs Employees Provident Fund Organisation and anr-
+2006(3) LLJ 308 (MP H.C. -Gwalior bench)] 
+ 
+2.2.13 Section 7A (2) further clarifies that any such inquiry [under section 7A (1)] shall be deemed to be a 
+judicial proceeding within the meaning of sections 193 and 228 and for the purpose of section 196 
+of the Indian Penal Code. 
+INDIAN PENAL CODE, 1860
+Section 193 - Punishment for false evidence
+Whoever intentionally gives false evidence in any stage of a judicial proceeding, or fabricates 
+false evidence for the purpose of being used in any stage of a judicial proceeding, shall be 
+punished with imprisonment of either description for a term which may extend to seven 
+years, and shall also be liable to fine, and whoever intentionally gives or fabricates false 
+evidence in any other case, shall be punished with imprisonment of either description for a 
+term which may extend to three years, and shall also be liable to fine. 
+ 
+Explanation 1- A trial before a Court-martial; is a judicial proceeding. 
+Explanation 2- An investigation directed by law preliminary to a proceeding before a Court of 
+Justice, is a stage of a judicial proceeding, though that investigation may not take place before 
+a Court of Justice. 
+ 
+Illustration 
+A, in an enquiry before a Magistrate for the purpose of ascertaining whether Z ought to be 
+committed for trial, makes on oath a statement which he knows to be false. As this enquiry is 
+a state of a judicial proceeding, A has given false evidence. 
+ 
+Explanation 3- An investigation directed by a Court of Justice according to law and conducted 
+under the authority of a Court of Justice, is a state of a judicial proceeding, though that 
+investigation may not take place before a Court of Justice. 
+ 
+Illustration 
+A, in any enquiry before an officer deputed by a Court of Justice to ascertain on the spot the 
+boundaries of land, makes on oath a statement which he knows to be false. As this enquiry is 
+a stage of a judicial proceeding. A has given false evidence. 
+ 
+Section 196 - Using evidence known to be false
+Whoever corruptly uses or attempts to use as true or genuine evidence any evidence which 
+he knows to be false or fabricated, shall be punished in the same manner as if he gave or 
+fabricated false evidence. 
+
+24 
+COMPLIANCE MANUAL 
+Section 228 - Intentional insult or interruption to public servant sitting in judicial proceeding
+Whoever intentionally offers any insult, or causes any interruption to any public servant, 
+while such public servant is sitting in any stage of a judicial proceeding, shall be punished with 
+simple imprisonment for a term which may extend to six months, or with fine which may 
+extend to one thousand rupees, or with both. 
+ 
+2.3 Procedure of Initiation and Conduct of Inquiry 
+ 
+2.3.1 Initiation 
+ 
+i. 
+The Enforcement Officer shall submit the inspection report to the e-Office login of the Circle 
+Officer concerned in a diarized manner who shall immediately mark the same to the SS / DA 
+concerned of the Circle for processing the same. DA concerned to whom the file is allotted/his link 
+in turn shall process the inspection report within three (03) working days of receipt in his login in 
+the e-Office compliance file of the establishment and put up the same to the SS/SSSA in-charge of 
+the section. The SS/SSSA in-charge of the section shall in turn process the file and put it up to the 
+Circle Officer within two (2) working days. 
+ 
+ii. 
+The process flow of the said inspection report together with the observations and 
+recommendations in accordance with law/extant HO instructions shall be in the following manner- 
+ 
+Figure 5 : Process Flow of Inspection Report 
+ 
+iii. 
+The Circle Officer shall examine the investigation report submitted by the EO and decide the 
+course of action within further two (2) working days; including whether any case is made out for 
+initiation of action under section 7A/7C. However, when an inquiry needs to be initiated on urgent 
+RPFCII/APFC 
+(Compliance 
+Circle)
+(T+7)
+SS/SSSA-in-
+charge 
+(Compliance 
+Circle)
+(T+5)
+DA 
+(Compliance 
+Circle)
+(T+3)
+
+25 
+COMPLIANCE MANUAL 
+basis based on some credible information other than the inspection report, approval of the 
+officer-in-charge (RO) for initiation of such inquiry shall be taken in the e-office compliance file of 
+the establishment.  
+ 
+iv. 
+If, on the basis of the investigation report of the EO, or otherwise as mentioned at (iii) above, a 
+prima facie case is established and it is decided that there is a fit case for initiation of inquiry 
+under section 7A/7C of the Act, the Section Supervisor of the Compliance Circle (or SSSA / SSA in 
+charge of the section) shall register the case on the Compliance e-Proceedings portal within two 
+(02) working days of the aforesaid approval after duly entering the employee strength of the 
+establishment bearing in mind the following scenarios.  
+ 
+S.No.
+Nature of dispute 
+Employee strength to include 
+1. Applicability  
+dispute u/s 7A 
+Employee strength on the date of applicability 
+proposed by the EO  
+2. Determination of  
+Dues u/s 7A (7B/7C) 
+No. of contributory UANs* in the last filed ECR + eligible 
+employees as reported by the EO  
+3. Levy of Damages  
+u/s 14B 
+No. of contributory UANs in the last wage month of the 
+period of default 
+ 
+*In case, an establishment files multiple ECRs for a wage month, the sum of all contributory UANs 
+of all such ECRs. If the establishment has not filed any ECR, the jurisdiction shall be decided on the 
+basis of the declaration of number of employees at the time of registration or as reported by the 
+EO (whichever is higher). 
+ 
+**Proceeding u/p 26B of the Scheme and u/p 8 (EPS) shall be done by RPFC-I/RPFC-II 
+ 
+v. 
+Complete investigation report should be available on record before initiation of inquiry is 
+recommended. In cases where the complete report is not received, the officer directing initiation 
+of inquiry shall record reasons in writing for initiating the said inquiry. 
+ 
+
+26 
+COMPLIANCE MANUAL 
+vi. 
+Diary number generated on the e-proceedings portal get reflected in the admin role of the OIC. 
+He/she will allot the inquiries on daily basis in randomised manner as discussed below. 
+ 
+vii. 
+Profiles of all officers, APFC and above, shall be created on e-Proceedings portal by the OIC 
+through the admin role. Inquiries shall be allotted to all officers, APFC and above (except those 
+barred from holding sensitive charge) posted in the RO (including DO) strictly on random basis 
+keeping in view the administrative arrangements as indicated in para 2.5.1 below. 
+ 
+viii. 
+OIC will reassign the cases in contingencies such as: 
+ 
+a. Transfer/resignation/death etc. of the Officer conducting the proceeding. 
+b. Officer conducting proceeding and/or acting as Departmental Representative has been 
+identified by the Head Office not eligible for sensitive posting during the currency of the 
+proceeding. 
+c. Officer (either after promotion or otherwise) to whom the system has randomly allocated the 
+case has either conducted inspection forming basis of the proceeding or acted as 
+Departmental Representative earlier in the same case. 
+d. In case, any exception is required the same may be sought by the OIC from the ACC of the 
+Zone. 
+ 
+ix. 
+Profiles of officers who are transferred in an out of the Region should be updated timely. 
+ 
+x. 
+After the inquiry is assigned to an officer, the Compliance Circle (SS/SSSA-in-charge shall be 
+responsible) shall create a separate e-office Proceedings file for the inquiry within next two (02) 
+working days of its allocation and forward the same through the Circle Officer (RPFC-II/APFC) to 
+the officer to whom the inquiry is assigned. 
+ 
+xi. 
+The separate e-office proceedings file shall essentially contain the following:  
+ 
+a. Diary number generated on the e-Proceedings portal for the inquiry. 
+b. Draft summons. Indicative structure of summons under section 7A is at ST 4. 
+c. Investigation report of the EO and/or documents being the basis of initiation of inquiry. 
+ 
+ 
+
+27 
+COMPLIANCE MANUAL 
+2.3.2 Issue of Summons 
+ 
+i. 
+The summons/notice is a necessary and an essential condition for the initiation of a proceeding. It 
+will be the duty of the officer conducting the proceeding that summons/notice are prepared and 
+issued in a proper and timely manner. 
+ 
+ii. 
+On receipt of the separate e-office proceedings file created for the inquiry, the officer to whom 
+the inquiry is assigned shall check admissibility of the case and after satisfying on the same shall 
+approve the summons for issuance. For the purpose of generating e-notices u/s 7A following 
+portal route may be used. 
+ 
+ 
+ 
+iii. 
+The officer conducting the inquiry will examine that: 
+ 
+a. The scope, period and system generated diary number of inquiry is clearly spelt out in the said 
+summons/notice 
+b. Virtual mode of hearing specifying the date and time and meeting link for video conferencing 
+to employers and others to join the hearing at scheduled time is mentioned in the 
+summons/notice clearly 
+c. URL of Compliance e-Proceedings Portal is also mentioned to enable employers to know case 
+status 
+including 
+next 
+date 
+of 
+hearing 
+& 
+daily 
+orders— 
+http://eproceedings.epfindia.gov.in/epfo/public/caseenowisesearch.php 
+d. Investigation Report is essentially uploaded on the e-Proceedings portal, except where it does 
+not form the basis of initiation of the proceeding. In other cases, documents forming basis for 
+initiation of proceedings shall be uploaded on the e-Proceedings portal. 
+ 
+iv. 
+Summons/notice of the inquiry along with the report/documents relied upon as uploaded on the 
+portal above, shall be served to the parties in electronic and physical mode on the registered email 
+Notice
+Fresh 
+Notice
+Search 
+Diary
+Fill 
+Notice 
+Format 
+in Text 
+Editor
+Submit
+
+28 
+COMPLIANCE MANUAL 
+and postal address(es) registered on the establishment profile and the ones provided by the 
+employees / complainant(s), if any. Notices when served in physical mode shall be sent through 
+Speed Post with acknowledgement due. Wherever the summons / notice could not be served 
+through the modes mentioned above, such notices should be served in accordance with the 
+provisions of the Code of Civil Procedure, 1908; contained in Order V, Rule 9-30 under the First 
+Schedule. 
+ 
+v. 
+The summons / notice must be duly stamp marked with the diary number generated on the e-
+Proceedings portal besides bearing the sign and seal of the officer conducting the proceeding.  
+ 
+vi. 
+The case diary id number shall be quoted in all communications- Notice of hearings, daily order 
+sheets, final orders, orders, and notices in execution process. 
+ 
+2.3.3 Conduct of Inquiry 
+ 
+i. 
+Inquiries are to be conducted invariably on Compliance e-Proceedings portal in virtual mode. 
+ 
+ii. 
+The officer conducting the inquiry shall conduct the same from the desktop in his office chamber. 
+EO (Departmental Representative) shall attend hearings through desktop available in the office. 
+ 
+iii. 
+SS/SSSA of the Compliance Circle being custodian of the file and records as well as in the role of 
+filer in the Compliance e-Proceedings portal shall join the virtual hearing through link from 
+desktop in section/office for carrying out following roles: 
+ 
+a. To scan and upload physical documents delivered by any party 
+b. To upload final order on the portal after signature of the adjudicating authority 
+c. To update the status in each case on portal and follow calendar 
+d. To issue notice of hearings, order to parties and other communication through email 
+ 
+iv. 
+Each officer conducting inquiry shall have a dedicated official email id (@epfindia.gov.in) for 
+communication with employers and other parties. 
+ 
+
+29 
+COMPLIANCE MANUAL 
+v. 
+The officer conducting proceedings may add the Dealing Assistant as delegate of the dedicated 
+email ID using the PREFERENCES >> ACCCOUNTS >> ADD DELEGATES and share the Inbox and 
+Sent Mail folders using the PREFERENCES >> SHARING >> SHARE A FOLDER (Inbox/Sent) 
+functionality for smooth handling of the communication and without further sharing the password 
+of the email. It shall be the responsibility of the officer to remove delegate-access to the dedicated 
+email-id in timely manner on transfer / posting of Dealing Assistant. 
+ 
+ 
+ 
+vi. 
+Till the time user id or login on Unified Portal is integrated with compliance e-Proceedings portal, 
+e-notice intimating the date, time and mode of hearing is to be served to the employer through 
+the dedicated official email-id of the officer conducting the proceedings to the email ids of the 
+parties involved. The officer concerned shall ensure service of e-Notice containing details of virtual 
+hearing specific to the said proceeding. 
+ 
+vii. 
+Dealing Assistant concerned (or his/her link official) of the Compliance Circle shall host the virtual 
+court hearing at the scheduled time and ensure that all parties are allowed into the court meeting 
+with their audio and video functions active.  
+ 
+
+30 
+COMPLIANCE MANUAL 
+viii. 
+All proceedings shall be recorded in the utility selected for virtual hearing and shall be retained till 
+the upload of the daily order sheet of the next date of hearing. If no party raises objection to any 
+part of the daily order sheet uploaded on the previous date of hearing, the recording shall not be 
+retained further. 
+ 
+ix. 
+The proceedings are to be drawn on the spot by the officer conducting the proceeding in the 
+presence of the participating parties on the e-Proceedings portal directly using the screen share 
+mode of the video conferencing utility which should be submitted immediately for the reference 
+and use of the parties. Oral submissions made, including admission of liability by employer or 
+consent of complainant to the assessment of dues and arguments put forth by the parties during 
+the virtual court hearings should be recorded in daily order sheet.  
+ 
+x. 
+The daily order sheet so submitted may be downloaded by the parties for appending signature – 
+digitally / physically – and emailing the same to the officer concerned within 24 hours. In case no 
+reply 
+is 
+received, 
+the 
+daily 
+order 
+shall 
+be 
+deemed 
+to 
+have 
+been 
+accepted. 
+ 
+xi. 
+If the employer needs to file documents / papers / statement in support of his/her case, the same 
+shall be allowed to be filed by the employer from her/his registered email-id to the dedicated 
+email-id of the officer conducting the proceeding. The documents should be in pdf format, 
+properly indexed, and bear the digital / physical signature of the employer as mentioned in the 
+Form 5A of the establishment. These should be provided to other parties to the case. 
+ 
+xii. 
+If any employer or any other party to the dispute insists on filing submission / documents in hard 
+copy through post or by delivery, the same may be allowed provided the same is submitted in 
+digitally signed PDF format as well and properly indexed. 
+ 
+xiii. 
+As the next date and time of hearing shall be mentioned invariably in the daily order sheet itself, 
+no separate adjournment notice is to be issued to the establishment / parties. Adjournments 
+should not be allowed as a matter of routine and no adjournment should be allowed for more 
+than 7 days in usual course.  
+ 
+ 
+ 
+
+31 
+COMPLIANCE MANUAL 
+xiv. 
+On conclusion of hearings, the following timeline should be observed for pronouncement of final 
+order and follow up action: 
+ 
+S.No.
+Issue 
+Timeline 
+Responsibility
+1. 
+ Pronouncement and Signing of 
+Final Order 
+Within 15 working 
+days 
+from 
+the 
+conclusion 
+of 
+hearing(Tth day) 
+Officer conducting 
+the proceeding 
+2. 
+ Upload of Signed Final Order 
+on Portal 
+Tth day 
+SS 
+& 
+Dealing 
+Assistant 
+concerned of the 
+Compliance Circle 
+3. 
+ Dispatch of signed Final Order 
+to Parties physically 
+T+1(Working Days) 
+SS 
+& 
+Dealing 
+Assistant 
+concerned of the 
+Compliance Circle 
+ 
+xv. 
+Though the SS/Dealing Assistant of the Compliance Circle shall be uploading the final order, the 
+ultimate responsibility of ensuring the same within the timeline above shall be of the officer 
+conducting the proceeding.  
+ 
+xvi. 
+It should be ensured that the month wise details of dues are mentioned in the orders made under 
+section 7A / 7B / 7C, so that difficulty in levying damages in lump sum assessment cases could be 
+avoided. However, in case, it is not feasible to record dues on month-to-month basis, the reason 
+thereof must be recorded in detail by the Officer conducting the proceeding in the final order. 
+ 
+2.4 Dos & Don’ts of Inquiries 
+ 
+i.     Inquiries under section 7A should only be initiated for the purposes provided in the statute 
+i.e., for deciding disputes of applicability of the Act to the establishment or for determining 
+dues payable under the provisions of the Act/Schemes. Grounds such as non-submission of 
+returns, non-production of records, non-cooperation during inspection etc. are beyond the 
+sweep of section 7A and should be dealt with through other mechanisms such as 
+prosecution. 
+ 
+ii. Inquiries under section 7A should only be initiated where there are sufficient and tenable 
+reasons for doing so i.e., there is existence of prima facie case. The Officer initiating the 
+
+32 
+COMPLIANCE MANUAL 
+inquiry should record reasons in writing in the file of existence of a prima facie case based 
+on evidence of default/evasion available on record or existence of an applicability dispute 
+before initiating process under section 7A. Any inquiry or legal proceeding initiated 
+without a prima facie case is of the nature of fishing and roving inquiry and the same is 
+impermissible in law    
+     
+iii. A complaint is merely a source of information; at best, a lead. It does not constitute prima 
+facie evidence. Any actionable complaint needs to be verified by the Enforcement Officer 
+first and only on substantiation of the same on the basis of evidence collected, any inquiry 
+under section 7A should be initiated. Initiating inquiries on the basis of complaints alone 
+must be avoided as it is legally untenable.  
+ 
+iv. Proximate nexus with the evidence and period of default available on record should be 
+recorded in the file by the officer initiating the inquiry. Initiation of inquiries for prolonged 
+periods such as more than 5 years should be avoided unless sufficient documents to do the 
+assessment are available on record. 
+ 
+v.  Scope and period of the inquiry should be decided beforehand and once finalized should 
+be adhered to steadfastly. For any new period or issue, a separate notice must be issued. 
+The records summoned from the employer should have reasonable linkage with the 
+subject and period of determination. Summoning unrelated records for prolonged period 
+amounts to conducting a fishing and roving inquiry which is not permissible in law. 
+ 
+vi. Reason for initiation of inquiry must be recorded in writing in the Compliance file 
+concerned and a copy of the documents relied upon and forming the basis of initiation of 
+the inquiry must be supplied to the parties concerned along with the 7A summons.   
+ 
+vii. The summons/notice initiating inquiry shall be assigned a computer- generated diary 
+number from Compliance e-Proceedings portal invariably.      
+ 
+ 
+ 
+ 
+
+33 
+COMPLIANCE MANUAL 
+2.5 Jurisdiction of Officers (Administrative Directions) 
+ 
+2.5.1 Allocation of inquiries/proceedings to the officers is to be done randomly through e-Proceedings 
+portal keeping in view the member-strength reckoned with reference to the subscriber-strength 
+for the month immediately preceding the commencement of default (i.e., the latest information 
+available on record) 
+ 
+Sl. 
+No
+Membership 
+in the 
+Establishments
+DO where 
+APFC is in-
+charge 
+RO / DO 
+where 
+RPFC-II is in-
+charge 
+In RO where 
+RPFC-I is in-
+charge, and no 
+RC-II is posted 
+In RO where RPFC-I is 
+in-charge and where 
+RPFC-II is/are also 
+posted 
+(1)
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+1. 
+Establishments 
+with 
+contributory 
+UANs up to 
+250 
+APFC 
+APFC / 
+(RPFC II of 
+the DO 
+concerned) 
+APFC 
+APFC 
+2. 
+Establishments 
+with 
+contributory 
+UANs from 251 
+to 1000 
+RPFC-I / 
+RPFC-II, as 
+the case 
+may be, in 
+accordance 
+with Cols. 
+(4), (5) & 
+(6) 
+RPFC-II/ 
+Officer In-
+Charge 
+RPFC-I/ Officer 
+In-Charge 
+RPFC-II 
+3. 
+Establishments 
+with 
+contributory 
+UANs from 
+1001 onwards 
+RPFC-II/ 
+Officer In-
+Charge in 
+case of RO; 
+RPFC-I of RO 
+in case of 
+DO 
+RPFC-I/ Officer In-
+Charge 
+ 
+NB: In case an establishment files multiple ECRs for a wage-month, the sum of all contributory UANs 
+is to be reckoned. 
+  
+2.5.2 Once an inquiry is initiated u/s 7A/7B/7C on the prescribed criteria by jurisdictional officer, any 
+fluctuation in the subscriber strength of the establishment in any wage month during the period of 
+default for which inquiry is initiated shall not result in transfer of the case from officer of one level 
+to another. Should a circumstance arise that the guidelines above are difficult to implement due 
+to shortage of officers, the RPFC-in charge of the RO shall forward a self-contained proposal with 
+
+34 
+COMPLIANCE MANUAL 
+due justification to the ACC (Zone) for consideration. The ACC (Zone) shall be competent to decide 
+on such proposals for deviation and decision of the ACC (Zone) on such proposal shall be conveyed 
+within 3 days of its receipt, under intimation to the Head Office. 
+ 
+2.6 Ex-parte Order 
+ 
+2.6.1 Sub-sections 3A & 4 of section 7A deal with ex-parte orders i.e., orders passed in the absence of 
+the employer/employee/any other party. Where the employer, employee or any other person 
+required to attend the inquiry fails to attend the inquiry without assigning any valid reason or fails 
+to produce any document or to file any report or return when called upon to do so, the officer 
+conducting the inquiry may decide the applicability dispute or determine the amount due on the 
+basis of evidence adduced during the inquiry and documents available on record. 
+ 
+2.6.2 Confirmation of due service of notice/summons to the employer or any other person required to 
+attend the inquiry or to produce any document or to file any report or return should be ensured 
+before invoking the provision of section 7A(3A). In many cases it has been observed that the 
+employer/complainant has not been aware of the proceeding being conducted. Most of the ex-
+parte orders are challenged on this very ground alone. 
+ 
+2.6.3 Even in such cases where ex-parte orders are issued, the officer conducting the inquiry must pass 
+a reasoned, fair, and just order. Many a times it is observed that proceedings are conducted in 
+undue haste without providing reasonable opportunity to the employer/parties to contest the 
+matter and/or arbitrary orders are passed leading to undue litigation and remanding back of 
+cases/quashing of orders by higher judicial fora.  
+ 
+2.6.4 It should also be kept in mind that power under section 7A(3A) to proceed with evidence and 
+material available on record should be exercised only when powers under section 7A (2) have 
+been exercised beforehand. The casefile must show that all possible efforts have been made to 
+afford proper and sufficient opportunity to defend the matter by the employer and/or other 
+parties involved.  
+ 
+2.6.5 However, where an order u/s 7A (1) has been passed against an employer ex- parte, he may within 
+three (3) months of communication of such order apply for setting it aside. If s/he satisfies the 
+
+35 
+COMPLIANCE MANUAL 
+officer that the show cause notice was not duly served or that he was prevented by any sufficient 
+cause from appearing when the inquiry was held, the officer shall by an order set aside his earlier 
+order and shall hear the matter de-novo.  
+ 
+2.6.6 No order shall, however, be set aside merely on the ground that there has been an irregularity in 
+the service of the show cause notice if the officer is satisfied that employer did have the notice of 
+the date of hearing and had sufficient time to appear before the officer. 
+ 
+2.6.7 Further, if any appeal has been preferred under the Act against the ex-parte order and the same 
+has been disposed of, otherwise than on the ground of withdrawal of the same by the appellant, 
+no application shall lie under section 7A (4) for setting aside the ex-parte order.  
+ 
+2.6.8 Moreover, no order for setting aside shall be made on an application made under section 7A (4) 
+unless notice of it has been served on the opposite party. 
+2.7 Review u/s 7B 
+ 
+2.7.1 In case of review applications filed against orders passed under section 7A (1), the powers under 
+section 7B to review the orders shall be exercised by an officer only after obtaining the views of 
+the officer next above in hierarchy. APFC of RO/DO shall obtain view of RPFC II (Compliance) of the 
+RO/ RPFC I or Officer-in-Charge of the Regional Office (if RPFC II is not there in hierarchy). RPFC II 
+of RO will likewise obtain the view of RPFC I of RO or Zonal ACC (in case the RO is headed by RPFC 
+II or in case of ROs headed by RPFC I, no RPFC I is posted/available). RPFC I of RO shall obtain the 
+view of Zonal ACC. 
+ 
+2.7.2 The scope of review is extremely limited. 
+ 
+2.7.3 Section 7B is a replica of Order XLVII Rule 1 of the Code of Civil Procedure,1908 and reads as 
+under: 
+ 
+7B. Review of orders passed under section 7A.—(1) Any person aggrieved by an order made under 
+sub-section (1) of section 7A, but from which no appeal has been preferred under this Act, and who, 
+from the discovery of new and important matter or evidence which, after the exercise of due diligence 
+was not within his knowledge or could not be produced by him at the time when the order was made, 
+
+36 
+COMPLIANCE MANUAL 
+or on account of some mistake or error apparent on the face of the record or for any other sufficient 
+reason, desires to obtain a review of such order may apply for a review of that order to the officer 
+who passed the order: 
+ Provided that such officer may also on his own motion review his order if he is satisfied that it is 
+necessary so to do on any such ground.  
+(2) Every application for review under sub-section (1) shall be filed in such form and manner and 
+within such time as may be specified in the Scheme.  
+(3) Where it appears to the officer receiving an application for review that there is no sufficient 
+ground for a review, he shall reject the application. 
+(4) Where the officer is of opinion that the application for review should be granted, he shall grant the 
+same: Provided that,— 
+(a) no such application shall be granted without previous notice to all the parties before him to enable 
+them to appear and be heard in support of the order in respect of which a review is applied for, and  
+(b) no such application shall be granted on the ground of discovery of new matter or evidence which 
+the applicant alleges was not within his knowledge or could not be produced by him when the order 
+was made, without proof of such allegation.  
+1. (5) No appeal shall lie against the order of the officer rejecting an application for review, but an 
+appeal under this Act shall lie against an order passed under review as if the order passed 
+under review were the original order passed by him under section 7A. 
+2.7.4 Hon’ble Calcutta High Court on a reading and comprehension of Supreme Court judgements on 
+the issue of review has enumerated the principles that emerge therefrom: 
+a. The power of review is a limited power and would be governed by the principles of section 151 
+read with Order XLVII Rule 1 of the Code of Civil Procedure. 
+ 
+b. Firstly, a court can review its own judgement when there is a discovery of new and important 
+matter or evidence that was in spite of exercise of due diligence not within the knowledge or 
+could not be produced due to cogent reasons by the party seeking the review. Secondly, the 
+Court may review its order or judgement on account of some mistake or error apparent on the 
+face of the record. Thirdly, a residuary clause in Rule 1 of Order XLVII provides for a review ‘for 
+
+37 
+COMPLIANCE MANUAL 
+any other sufficient reason’. It is to be noted that the Apex Court on several occasions has held 
+that the third condition ‘for any other sufficient reason’ has to be read within the four corners 
+of the first two conditions. 
+ 
+c. An error which is not self-evident and has to be detected by a process of reasoning is not an 
+error apparent on the face of the record. 
+ 
+d. A review petition has a limited purpose and cannot be allowed to be “an appeal in disguise.” 
+There is a sharp distinction between an erroneous decision that can be only appealed against 
+and an error apparent on the face of the record that is subject to review. 
+ 
+[ The State of West Bengal vs Confederation of State Government Employees, 2019 (3) WBLR (Cal) 
+39] 
+ 
+2.7.5 It could, therefore, be seen that unless the employer comes up with irrefutable evidence about 
+discovery of new facts or evidence which was not within his knowledge even after due 
+diligence, the decision to re- open the issue should not be taken. The burden of proof is on the 
+employer to bring sufficient proof, which despite his best efforts he could not produce at the 
+time of inquiry or before the order was passed. In other words, a mere submission by the 
+employer that he was not aware of the facts at the time of inquiry, or some vague submission 
+that the material evidence or records was not available at the time of inquiry, would not be 
+enough. 
+ 
+2.7.6 Further, under section 7B, an application can be entertained only if the same is filed in form-9 
+within 45 days of passing of the order under section 7A. With a view to curb the indiscriminate 
+use of section 7B, the following procedure should be followed in all cases. 
+ 
+
+38 
+COMPLIANCE MANUAL 
+Figure 6 : Processing of appliacations under section 7B 
+ 
+ 
+
+39 
+COMPLIANCE MANUAL 
+2.7.7 On the other hand, if the higher authority at the time of administrative scrutiny of the 7A order 
+finds grounds for action under section 7B, he shall cause suo moto order for review under 
+section 7B. 
+2.8 Determination of Escaped Amount u/s 7C 
+ 
+2.8.1 Section 7C deals with determination of escaped amount. Section 7C inquiry can only be done 
+within a period of five (5) years from the date of communication of the order passed under 7A/7B.  
+ 
+2.8.2 Where the officer has reason to believe that due to omission or failure on the part of employer to 
+make any document or report available or to disclose, fully and truly, all material facts necessary 
+for determining the correct amount due from the employer, any amount so due from the 
+employer for any period has escaped his notice OR has, in consequence of information in his 
+possession, reason to believe that any amount to be determined under section 7A or section 7B 
+has escaped from determination for any period notwithstanding that there has been no omission 
+or failure on the part of the employer, he may re-open the case and pass appropriate orders re-
+determining the amount due from the employer in accordance with the provisions of the Act. 
+ 
+2.8.3 No such order under section 7C re-determining the amount due from the employer shall, 
+however, be passed unless the employer is given reasonable opportunity of representing his case. 
+ 
+2.8.4 HO directions are that without prejudice to the powers available to the officer who has passed the 
+order under section 7A/7B, the officer at higher level who conducts supervisory test-check of the 
+order may, if he/she so thinks, direct the officer concerned who has passed the order under 
+section 7A/7B to exercise the powers under section 7C to determine the escaped amount or may 
+do it himself/herself treating the order passed under section 7A as an order passed by 
+himself/herself in exercise of their original jurisdiction. However, the power shall be exercised by 
+one of the two only in each case. 
+2.9 Handling of Cases remanded back by Courts 
+ 
+At times, 7A/7B/7C cases are remanded back by the Tribunal/High Courts for adjudication afresh. 
+Many a times, these are time bound as well.  
+ 
+
+40 
+COMPLIANCE MANUAL 
+Therefore, HO directions are that hearing of remanded back cases are to be conducted by an 
+officer administratively one level higher than the original adjudicating officer as detailed below: 
+S. 
+No 
+Authority 
+having passed 
+the Order u/s 
+7A/7B/7C 
+Authority to hear remanded back case 
+ 
+If APFC in (2) is 
+in-charge of DO 
+RO where RPFC-
+II is in-charge 
+In Region where 
+RPFC-I is in-
+charge, and no 
+RC-II is posted 
+In Region where 
+RPFC-I is in-charge 
+and where RPFC-II 
+is/are also posted 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+1. 
+APFC 
+RPFC-II of 
+Region 
+(including DO) 
+concerned 
+RPFC II 
+RPFC-I 
+RPFC-II 
+2. 
+RPFC-II 
+NA 
+ACC-in-Charge 
+/RPFC-I of ZO to 
+whom that case 
+is assigned by 
+ACC-in-Charge  
+NA 
+RPFC-I 
+3. 
+RPFC-I 
+NA 
+NA 
+ACC-in-Charge 
+ACC-in-Charge 
+ 
+ 
+2.10 Timeline 
+ 
+ 
+
+41 
+COMPLIANCE MANUAL 
+2.11 Administrative scrutiny of Orders 
+ 
+2.11.1 Supervisory test check or scrutiny of quasi-judicial orders is essential not only for capacity building 
+of officers through regular guidance and feedback for improving the quality of orders but also to 
+take prompt remedial measures in case of any omission, mistake, or irregularity. It is for this 
+reason that it is imperative that a certain percentage of orders passed in inquiries and proceedings 
+are subjected to supervisory test-check each month. The matrix for scrutiny is as under: 
+ 
+S. 
+No 
+Authority having 
+passed the Order 
+u/s 7A/7B/7C 
+Officer to conduct Administrative scrutiny of Order 
+If APFC in (2) is in-
+charge of DO 
+RO where RPFC-II is 
+in-charge 
+RO where RPFC-I is 
+in-charge  
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+1. 
+APFC 
+RPFC-II of RO (RPFC-I 
+in case no RPFC-II is 
+posted in RO) 
+RPFC II 
+RPFC II (RPFC-I in 
+case no RPFC-II is 
+posted in RO) 
+2. 
+RPFC II 
+NA 
+ACC-in-Charge/RPFC-I 
+of ZO to whom the 
+work is assigned 
+RPFC I 
+3. 
+RPFC I 
+NA 
+NA 
+ACC-in-Charge 
+ 
+2.11.2 Administrative scrutiny of orders is to be carried out in the following cases every month: 
+ 
+
+42 
+COMPLIANCE MANUAL 
+2.11.3 Standard proforma for conducting the scrutiny is placed at ST 8 for maintaining uniformity. 
+ 
+2.11.4 Observations in the standard proforma shall be communicated to the officer concerned under 
+intimation to next higher authority by 15th of the following month.  
+ 
+2.11.5 During the scrutiny, wherever it is felt necessary to get the provisions of sections 7B/7C invoked, 
+recommendation of the same is to be given immediately by the officer who has done the test-
+check/ scrutiny of the order. Ensuring action in this regard is also the responsibility of the officer 
+concerned who has/should have done scrutiny of the order.  
+ 
+2.11.6 During the scrutiny of orders passed under sections 7A/7B/7C, if it is observed that the decision is 
+not in accordance with law, provisions of section 7 I should immediately be got invoked. The 
+officer who has/should have done the scrutiny, is required to do the same. He shall get an appeal 
+filed under section 7I against the said 7A/7B/7C order to protect the interest of the 
+members/employees and /or the Organisation.  
+ 
+2.11.7 Quarterly report shall be submitted by the Zonal Office in ST 9 to Compliance Division (Vertical-
+IV.9) Head Office for the quarters ending June, September, December, and March of a year by the 
+last working day of July, October, January, and April respectively. 
+ 
+2.12 Indicative Structure of the order u/s 7A 
+ 
+2.12.1 The order issued by the Assessing Officer should be a “speaking order”. Speaking order may be 
+defined as an order which contains not only the conclusions and directions but also the reasons 
+that have led to the conclusions. A speaking order speaks for itself and is considered the third 
+pillar of natural justice. It builds up trust and confidence in the system and introduces fairness. The 
+requirement of recording of reasons and communication thereof are considered as an integral 
+part of the concept of just and fair administrative and judicial procedure and very important facet 
+of natural justice. Failure to give reasons could lead to a very justifiable complaint that there was a 
+breach of natural justice. Non- speaking order is illegal and against the principle of natural justice. 
+ 
+2.12.2 Accordingly, to ensure that the orders do not suffer from any procedural infirmity, an indicative 
+structure is provided below for guidance. It is made clear that the same is for guidance purpose
+
+[FORMS_REFERENCED]
+None
+
+[RELATED_QUERIES]
+None
+---
