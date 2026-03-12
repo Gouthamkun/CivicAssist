@@ -114,19 +114,25 @@ async function simulateAIResponse(query, forceFormUrl = null, forceFormLabel = n
         <div class="ai-reasoning text-center" style="text-align:center;">
             <i class="fa-solid fa-spinner fa-spin" style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 20px;"></i>
             <h3>Analyzing query...</h3>
-            <p>Please wait while CivicAssist retrieves the information securely.</p>
+            <p>Processing over 7,500 document chunks. This may take 1-2 minutes on CPU.</p>
+            <p style="font-size: 0.9rem; color: #666;">Retrieving official guidelines and forms...</p>
         </div>
     `;
     openModal();
 
     try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
+
         const response = await fetch('/ask', {
             method: 'POST',
+            signal: controller.signal,
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ question: query })
         });
+        clearTimeout(timeoutId);
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -159,16 +165,71 @@ async function simulateAIResponse(query, forceFormUrl = null, forceFormLabel = n
             `;
         }
 
+        let reqDocsHtml = '';
+        if (aiResponse.required_documents && aiResponse.required_documents.length > 0) {
+            reqDocsHtml = `
+                <div style="margin-top: 15px;">
+                    <h5 style="font-weight: bold;"><i class="fa-solid fa-file-contract"></i> Required Documents</h5>
+                    <ul style="padding-left: 20px; text-align: left; list-style-type: disc;">
+                        ${aiResponse.required_documents.map(d => `<li style="margin-bottom: 8px;">${d}</li>`).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+
+        let stepsHtml = '';
+        if (aiResponse.steps && aiResponse.steps.length > 0) {
+            stepsHtml = `
+                <div style="margin-top: 15px;">
+                    <h5 style="font-weight: bold;"><i class="fa-solid fa-list-ol"></i> Step-by-Step Process</h5>
+                    <ol style="padding-left: 20px; text-align: left;">
+                        ${aiResponse.steps.map(s => `<li style="margin-bottom: 8px;">${s}</li>`).join('')}
+                    </ol>
+                </div>
+            `;
+        }
+
+        let mistakesHtml = '';
+        if (aiResponse.common_mistakes && aiResponse.common_mistakes.length > 0) {
+            mistakesHtml = `
+                <div style="margin-top: 15px;">
+                    <h5 style="color: var(--primary-red); font-weight: bold;"><i class="fa-solid fa-circle-exclamation"></i> Important Notes</h5>
+                    <ul style="padding-left: 20px; text-align: left; list-style-type: disc;">
+                        ${aiResponse.common_mistakes.map(m => `<li style="margin-bottom: 8px;">${m}</li>`).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+
+        let portalHtml = '';
+        if (aiResponse.official_portal_link && aiResponse.official_portal_link !== "" && aiResponse.official_portal_link.toLowerCase() !== "not applicable") {
+             portalHtml = `
+                <div style="margin-top: 15px; text-align: left;">
+                    <h5 style="font-weight: bold;"><i class="fa-solid fa-globe"></i> Official Portal Link</h5>
+                    <a href="${aiResponse.official_portal_link}" target="_blank" style="color: var(--primary-red); text-decoration: underline; word-break: break-all;">${aiResponse.official_portal_link}</a>
+                </div>
+             `;
+        }
+
+        const answerText = aiResponse.overview ? aiResponse.overview.replace(/\n/g, '<br>') : (aiResponse.answer ? aiResponse.answer.replace(/\n/g, '<br>') : 'Information not found.');
+
         // Render the real AI response
         modalBody.innerHTML = `
-            <div class="ai-reasoning">
+            <div class="ai-reasoning text-start">
                 <h4>${reasoningTitle}</h4>
-                <p>I analyzed your query securely using the government knowledge base.</p>
+                <p>I analyzed your query securely using the official government knowledge base.</p>
+                ${aiResponse.official_source ? `<p style="font-size: 0.85em; color: gray;"><strong>Source:</strong> ${aiResponse.official_source}</p>` : ''}
             </div>
-            <div class="ai-next-steps">
-                <h4><i class="fa-solid fa-shoe-prints"></i> Recommended Next Steps</h4>
-                <div class="steps-container" style="white-space: pre-wrap; font-family: inherit; line-height: 1.6; padding: 10px;">
-                    ${aiResponse.answer.replace(/\n/g, '<br>')}
+            <div class="ai-next-steps text-start">
+                <div class="steps-container" style="white-space: pre-wrap; font-family: inherit; line-height: 1.6; padding: 15px; background-color: white; border: 1px solid #e0e0e0; border-radius: 8px; margin-top: 10px;">
+                    <div style="margin-bottom: 10px;">
+                        <h5 style="font-weight: bold;"><i class="fa-solid fa-info-circle"></i> Overview</h5>
+                        ${answerText}
+                    </div>
+                    ${reqDocsHtml}
+                    ${stepsHtml}
+                    ${mistakesHtml}
+                    ${portalHtml}
                     ${actionButtonHtml}
                 </div>
             </div>
@@ -286,4 +347,131 @@ function submitGenericQuery() {
 
     console.log("Executing Query:", query);
     executeQuickQuery(query);
+}
+
+function openUniversalNoticeExplainer() {
+    modalBody.innerHTML = `
+        <div class="ai-reasoning text-center" style="text-align:center;">
+            <i class="fa-solid fa-magnifying-glass-chart" style="font-size: 3rem; color: var(--primary-red); margin-bottom: 20px;"></i>
+            <h3>Universal Notice Explainer</h3>
+            <p style="margin-top: 15px;">Upload a Income Tax Notice, EPFO Rejection, or Passport Message (PDF/Image).</p>
+            
+            <div id="modal-upload-zone" style="border: 2px dashed #ccc; padding: 40px; margin-top: 20px; border-radius: 10px; cursor: pointer;">
+                <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2rem; color: #666; margin-bottom: 10px;"></i>
+                <p id="modal-file-name">Drag & drop or Click to browse</p>
+                <input type="file" id="modal-file-input" style="display:none;" accept="application/pdf,image/*">
+            </div>
+            
+            <button class="btn btn-primary" onclick="submitUniversalNotice()" style="margin-top: 20px; width: 100%; padding: 12px; background-color: var(--primary-red); color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Analyze Official Document
+            </button>
+            
+            <div id="modal-notice-loading" style="display:none; margin-top: 20px; color: #666;">
+                <i class="fa-solid fa-file-invoice fa-bounce fa-2x"></i>
+                <p>Running OCR & AI Analysis...</p>
+            </div>
+        </div>
+    `;
+
+    const zone = document.getElementById('modal-upload-zone');
+    const input = document.getElementById('modal-file-input');
+    
+    zone.onclick = () => input.click();
+    input.onchange = (e) => {
+        if(e.target.files.length > 0) document.getElementById('modal-file-name').innerHTML = `<b>Selected:</b> ${e.target.files[0].name}`;
+    };
+    
+    // Simple drag drop
+    zone.ondragover = (e) => { e.preventDefault(); zone.style.borderColor = "var(--primary-red)"; };
+    zone.ondragleave = () => { zone.style.borderColor = "#ccc"; };
+    zone.ondrop = (e) => {
+        e.preventDefault();
+        input.files = e.dataTransfer.files;
+        if(input.files.length > 0) document.getElementById('modal-file-name').innerHTML = `<b>Selected:</b> ${input.files[0].name}`;
+        zone.style.borderColor = "#ccc";
+    };
+}
+
+async function submitUniversalNotice() {
+    const input = document.getElementById('modal-file-input');
+    if (!input.files || input.files.length === 0) {
+        alert("Please select a file first.");
+        return;
+    }
+
+    const loading = document.getElementById('modal-notice-loading');
+    loading.style.display = 'block';
+    
+    const formData = new FormData();
+    formData.append("file", input.files[0]);
+
+    try {
+        const res = await fetch('http://localhost:8000/explain_notice', {
+            method: 'POST',
+            body: formData
+        });
+        const data = await res.json();
+        renderUniversalNoticeResult(data);
+    } catch (e) {
+        console.error(e);
+        alert("Error analyzing notice.");
+        loading.style.display = 'none';
+    }
+}
+
+function renderUniversalNoticeResult(data) {
+    const urgency = data.urgency || "normal";
+    const urgencyColor = urgency === 'urgent' ? '#e43137' : (urgency === 'attention' ? '#f7b900' : '#2b8a3e');
+    const urgencyText = urgency.toUpperCase();
+    
+    modalBody.innerHTML = `
+        <div class="ai-reasoning text-start">
+            <div style="background-color: ${urgencyColor}; color: white; padding: 5px 15px; border-radius: 4px; display: inline-block; font-weight: bold; margin-bottom: 10px;">
+                ${urgencyText}
+            </div>
+            <h3>${data.notice_type || 'Notice Analysis'}</h3>
+            <p style="color: gray; font-size: 0.9em; margin-bottom: 20px;">Analyzed via CivicAssist OCR & AI</p>
+            
+            <div style="background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; line-height: 1.6;">
+                <h5 style="font-weight: bold; border-bottom: 1px solid #eee; padding-bottom: 8px;"><i class="fa-solid fa-info-circle"></i> Explanation</h5>
+                <p>${data.explanation || 'No detail provided.'}</p>
+                
+                ${data.why_received ? `
+                    <h5 style="font-weight: bold; margin-top: 20px;"><i class="fa-solid fa-question-circle"></i> Why you received this</h5>
+                    <p>${data.why_received}</p>
+                ` : ''}
+
+                ${data.steps && data.steps.length > 0 ? `
+                    <h5 style="font-weight: bold; margin-top: 20px;"><i class="fa-solid fa-list-ol"></i> Action Steps</h5>
+                    <ol style="padding-left: 20px;">
+                        ${data.steps.map(s => `<li style="margin-bottom: 5px;">${s}</li>`).join('')}
+                    </ol>
+                ` : ''}
+
+                ${data.forms_needed && data.forms_needed.length > 0 ? `
+                    <h5 style="font-weight: bold; margin-top: 20px;"><i class="fa-solid fa-file-pdf"></i> Required Forms</h5>
+                    <ul style="padding-left: 20px;">
+                        ${data.forms_needed.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}
+                    </ul>
+                ` : ''}
+
+                ${data.official_links && data.official_links.length > 0 ? `
+                    <h5 style="font-weight: bold; margin-top: 20px;"><i class="fa-solid fa-globe"></i> Official Portals</h5>
+                    <ul style="padding-left: 20px;">
+                        ${data.official_links.map(l => `<li style="margin-bottom: 5px;"><a href="${l}" target="_blank" style="color: var(--primary-red); overflow-wrap: break-word;">${l}</a></li>`).join('')}
+                    </ul>
+                ` : ''}
+
+                ${data.what_if_ignore ? `
+                    <div style="margin-top: 20px; padding: 15px; background-color: #fff5f5; border-left: 4px solid #e43137; border-radius: 4px; font-size: 0.9em;">
+                        <i class="fa-solid fa-triangle-exclamation"></i> <strong>Consequence of Inaction:</strong> ${data.what_if_ignore}
+                    </div>
+                ` : ''}
+                
+                <div style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 15px; text-align: center;">
+                    <span style="font-weight: bold; color: #555;"><i class="fa-solid fa-phone"></i> Helpline: ${data.helpline || '1800-118-005'}</span>
+                </div>
+            </div>
+        </div>
+    `;
 }

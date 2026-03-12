@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:62216 - "GET /income_tax.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57395 - "POST /explain_notice HTTP/1.1" 200 OK

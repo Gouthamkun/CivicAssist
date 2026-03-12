@@ -1,169 +1,149 @@
+import os
+import shutil
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-import json
 import ollama
+import json
 
-# Import legacy generic function and the new modular RAG tools
-from backend.services.assistant import civic_assist, retrieve_knowledge, MASTER_PROMPT, safety_check
+from backend.services.assistant import clean_json_response, MASTER_PROMPT, civic_assist, retrieve_knowledge, safety_check
 
 app = FastAPI()
 
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for dev
-    allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# -----------------------------------------------------------------------------
-# Core Request Models
-# -----------------------------------------------------------------------------
-class QueryRequest(BaseModel):
+# Request Models
+class QuestionRequest(BaseModel):
     question: str
 
-class TaxQuery(BaseModel):
-    question: str
-
-class RefundQuery(BaseModel):
+class RefundRequest(BaseModel):
     issue: str
 
 # -----------------------------------------------------------------------------
-# Original Generic Endpoint (Kept for compatibility with old UI)
+# Main RAG AI Logic (Used across endpoints)
 # -----------------------------------------------------------------------------
+
+def process_custom_rag(user_query: str, context_override: str = None):
+    """Internal helper to process queries with either vector DB context or specific override."""
+    if context_override:
+        context = context_override
+    else:
+        context_chunks = retrieve_knowledge(user_query)
+        context = "\n---\n".join([c["text"] for c in context_chunks])
+    
+    prompt = MASTER_PROMPT.format(context=context, user_query=user_query)
+    
+    response = ollama.chat(
+        model="llama3",
+        messages=[{"role":"user", "content": prompt}],
+        options={"temperature": 0.0, "format": "json"}
+    )
+    return safety_check(clean_json_response(response["message"]["content"]))
+
+# -----------------------------------------------------------------------------
+# API Endpoints
+# -----------------------------------------------------------------------------
+
 @app.post("/ask")
-def ask(request: QueryRequest):
-    response = civic_assist(request.question)
-    return {"response": response}
+def ask(request: QuestionRequest):
+    return {"response": civic_assist(request.question)}
 
-# -----------------------------------------------------------------------------
-# Helper: PDF Text Extractor
-# -----------------------------------------------------------------------------
-def extract_text_from_file(file_bytes: bytes) -> str:
+@app.post("/ask_tax_question")
+def ask_tax_question(request: QuestionRequest):
+    return process_custom_rag(request.question)
+
+from backend.services.ocr_service import extract_text, classify_notice, ENHANCED_NOTICE_PROMPT, NOTICE_REGISTRY
+
+@app.post("/explain_notice")
+async def explain_notice(file: UploadFile = File(...)):
+    # Read the file contents directly into memory
+    content = await file.read()
+    content_type = file.content_type
+
+    # 1. OCR Extraction (handles PDF or Images automatically)
     try:
-        import fitz  # PyMuPDF
-        doc = fitz.open(stream=file_bytes, filetype="pdf")
-        text = ""
-        for page in doc:
-            text += page.get_text()
-        return text
-    except ImportError:
-        return "PyMuPDF not installed, unable to extract PDF text."
+        extracted_text = extract_text(content, content_type)
     except Exception as e:
-        return f"Error extracting text from document: {str(e)}"
-
-def clean_json_response(raw_response: str) -> dict:
-    """Cleans potential markdown backticks or junk from LLM JSON response."""
-    s = raw_response.strip()
-    if s.startswith("```json"):
-        s = s[7:]
-    if s.startswith("```"):
-        s = s[3:]
-    if s.endswith("```"):
-        s = s[:-3]
-    s = s.strip()
+        print(f"OCR Error: {e}")
+        extracted_text = "FAILED TO EXTRACT TEXT. PLEASE ENSURE IT IS A CLEAR PDF OR IMAGE."
+        
+    # 2. Hybrid Classification
+    notice_type = classify_notice(extracted_text)
+    
+    # 3. Targeted RAG Retrieval
+    # Provide the AI with the extracted text, class, and official CBDT/EPFO sources
+    context_chunks = retrieve_knowledge(f"{notice_type} explanation actions forms guidelines")
+    context = "\n---\n".join([c["text"] for c in context_chunks])
+    
+    # 4. Generate highly structured Notice Explanation using the specialized prompt
+    prompt = ENHANCED_NOTICE_PROMPT.format(
+        extracted_text=extracted_text,
+        notice_type=notice_type,
+        context=context,
+        registry=json.dumps(NOTICE_REGISTRY.get(notice_type, {}))
+    )
+    
     try:
-        return json.loads(s)
-    except json.JSONDecodeError:
-        # Fallback for very simple fixes or error reporting
+        response = ollama.chat(
+            model="llama3", 
+            messages=[{"role":"user", "content": prompt}], 
+            options={"temperature": 0.0, "format": "json"}
+        )
+        
+        # Clean JSON and add a preview of extracted text for transparency
+        import re
+        s = response["message"]["content"].strip()
+        json_match = re.search(r'(\{.*\})', s, re.DOTALL)
+        if json_match:
+            s = json_match.group(1)
+        structured_data = json.loads(s, strict=False)
+        structured_data["extracted_text_preview"] = extracted_text[:300] + "..." if len(extracted_text) > 50 else "Not enough text found via OCR."
+        
+        # Ensure fallback defaults exist
+        for k in ["steps", "forms_needed", "official_links"]:
+            if k not in structured_data:
+                structured_data[k] = []
+        if "helpline" not in structured_data:
+             structured_data["helpline"] = "1800-103-0025 (IT) / 1800-118-005 (EPFO) / 1800-258-1800 (Passport)"
+             
+        return structured_data
+        
+    except Exception as e:
         return {
+            "notice_type": notice_type,
             "urgency": "attention",
-            "deadline": "Check official portal",
-            "explanation": "The AI provided a malformed response. Please rephrase your question or contact support.",
-            "steps": ["Login to Income Tax Portal", "Check pending actions"],
-            "official_source": "System Error",
-            "disclaimer": "AI response error."
+            "deadline": "Not Applicable",
+            "explanation": "Could not parse AI response perfectly. Extracted text may be too blurry.",
+            "why_received": "Unknown",
+            "steps": ["Retry uploading a clearer image."],
+            "forms_needed": [],
+            "official_links": [],
+            "what_if_ignore": "Unknown",
+            "helpline": "1800-103-0025 (IT) / 1800-118-005 (EPFO)",
+            "extracted_text_preview": extracted_text[:200]
         }
 
-# -----------------------------------------------------------------------------
-# 1. Ask AI Endpoint
-# -----------------------------------------------------------------------------
-@app.post("/ask_tax_question")
-def ask_tax_question(query: TaxQuery):
-    context_chunks = retrieve_knowledge(query.question)
-    prompt = MASTER_PROMPT.format(
-        context = "\n---\n".join([c["text"] for c in context_chunks]),
-        user_query = query.question
-    )
-    response = ollama.chat(
-        model="llama3",
-        messages=[{"role":"user", "content": prompt}],
-        options={"temperature": 0.0, "format": "json"}
-    )
-    return safety_check(clean_json_response(response["message"]["content"]))
-
-# -----------------------------------------------------------------------------
-# 2. Explain Tax Notice Endpoint
-# -----------------------------------------------------------------------------
-@app.post("/explain_tax_notice")
-async def explain_notice(file: UploadFile = File(...)):
-    # Read raw bytes into memory (assumes mostly 1-3 page PDF notices)
-    file_bytes = await file.read()
-    extracted_text = extract_text_from_file(file_bytes)
-    
-    context_chunks = retrieve_knowledge(extracted_text)
-    prompt = MASTER_PROMPT.format(
-        context = "\n---\n".join([c["text"] for c in context_chunks]),
-        user_query = f"Explain this tax notice I received. The text of the notice is:\n{extracted_text}"
-    )
-    response = ollama.chat(
-        model="llama3",
-        messages=[{"role":"user", "content": prompt}],
-        options={"temperature": 0.0, "format": "json"}
-    )
-    return safety_check(clean_json_response(response["message"]["content"]))
-
-# -----------------------------------------------------------------------------
-# 3. Filing Guide Endpoint
-# -----------------------------------------------------------------------------
 @app.get("/tax_guides/{guide_id}")
 def get_guide(guide_id: str):
-    context_chunks = retrieve_knowledge(f"{guide_id} step by step procedure")
-    prompt = MASTER_PROMPT.format(
-        context = "\n---\n".join([c["text"] for c in context_chunks]),
-        user_query = f"Give me the step by step guide for {guide_id}"
-    )
-    response = ollama.chat(
-        model="llama3",
-        messages=[{"role":"user", "content": prompt}],
-        options={"temperature": 0.0, "format": "json"}
-    )
-    return safety_check(clean_json_response(response["message"]["content"]))
+    return process_custom_rag(f"Step by step guide for: {guide_id}")
 
-# -----------------------------------------------------------------------------
-# 4. Tax Forms Endpoint
-# -----------------------------------------------------------------------------
 @app.get("/tax_forms/{form_name}")
 def get_form(form_name: str):
-    context_chunks = retrieve_knowledge(form_name)
-    prompt = MASTER_PROMPT.format(
-        context = "\n---\n".join([c["text"] for c in context_chunks]),
-        user_query = f"Explain what is {form_name}"
-    )
-    response = ollama.chat(
-        model="llama3",
-        messages=[{"role":"user", "content": prompt}],
-        options={"temperature": 0.0, "format": "json"}
-    )
-    return safety_check(clean_json_response(response["message"]["content"]))
+    # Specifically ensure the AI knows we want a form explanation and the link
+    return process_custom_rag(f"I need to fill {form_name}. Explain it and provide the download link if available.")
 
-# -----------------------------------------------------------------------------
-# 5. Refund Guidance Endpoint
-# -----------------------------------------------------------------------------
 @app.post("/refund_guidance")
-def refund_guidance(query: RefundQuery):
-    context_chunks = retrieve_knowledge(query.issue)
-    prompt = MASTER_PROMPT.format(
-        context = "\n---\n".join([c["text"] for c in context_chunks]),
-        user_query = f"I have this problem with my income tax refund: {query.issue}"
-    )
-    response = ollama.chat(
-        model="llama3",
-        messages=[{"role":"user", "content": prompt}],
-        options={"temperature": 0.0, "format": "json"}
-    )
-    return safety_check(clean_json_response(response["message"]["content"]))
+def refund_guidance(request: RefundRequest):
+    return process_custom_rag(f"My tax refund issue: {request.issue}")
 
+# -----------------------------------------------------------------------------
+# Static Files & Frontend
+# -----------------------------------------------------------------------------
 app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")

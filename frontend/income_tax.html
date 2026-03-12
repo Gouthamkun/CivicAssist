@@ -217,38 +217,54 @@
             line-height: 1.5;
         }
 
+        /* Notice Results Styles */
         .urgency {
             display: inline-block;
-            padding: 5px 12px;
+            padding: 8px 16px;
             border-radius: 4px;
             font-weight: bold;
+            color: white;
+            margin-bottom: 20px;
             font-size: 0.9rem;
-            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
-        .urgency.normal {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .urgency.attention {
-            background: #fff3cd;
-            color: #856404;
-        }
-
-        .urgency.urgent {
-            background: #f8d7da;
-            color: #721c24;
-        }
+        .urgency.urgent { background-color: #e43137; color: white; }
+        .urgency.attention { background-color: #f7b900; color: #1c283d; }
+        .urgency.normal { background-color: #2b8a3e; color: white; }
 
         .deadline-box {
-            background: #e2e3e5;
-            padding: 10px 15px;
-            border-radius: 4px;
-            margin-bottom: 15px;
-            display: inline-block;
+            background-color: #fff9db;
+            border: 1px solid #fab005;
+            color: #862e08;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
             font-weight: 500;
         }
+
+        .explanation h4 {
+            color: var(--primary-blue, #1c283d);
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        #upload-zone {
+            border: 3px dashed #ccc;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        #file-input {
+            display: none;
+        }
+
 
         .source {
             margin-top: 20px;
@@ -416,53 +432,170 @@
         }
 
         // Capture file selection string
-        document.getElementById('file-input').addEventListener('change', function (e) {
-            if (e.target.files.length > 0) {
-                document.getElementById('file-name-display').innerHTML = `<b>Selected:</b> ${e.target.files[0].name}`;
-                document.getElementById('upload-zone').style.borderColor = "var(--primary-red)";
-            }
+        const uploadZone = document.getElementById('upload-zone');
+        const fileInput = document.getElementById('file-input');
+
+        fileInput.addEventListener('change', function (e) {
+            handleFiles(e.target.files);
         });
+
+        // Drag and Drop listeners
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            uploadZone.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            uploadZone.addEventListener(eventName, () => {
+                uploadZone.style.borderColor = "var(--primary-red)";
+                uploadZone.style.backgroundColor = "#fff5f5";
+            }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            uploadZone.addEventListener(eventName, () => {
+                const hasFile = fileInput.files.length > 0;
+                uploadZone.style.borderColor = hasFile ? "var(--primary-red)" : "#ccc";
+                uploadZone.style.backgroundColor = "transparent";
+            }, false);
+        });
+
+        uploadZone.addEventListener('drop', e => {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            fileInput.files = files;
+            handleFiles(files);
+        }, false);
+
+        function handleFiles(files) {
+            if (files.length > 0) {
+                document.getElementById('file-name-display').innerHTML = `<b>Selected:</b> ${files[0].name}`;
+                uploadZone.style.borderColor = "var(--primary-red)";
+            }
+        }
 
         // Universal JSON Renderer
         function render_response(data, targetId) {
             const target = document.getElementById(targetId);
 
-            // Handle unexpected errors where the backend sends a raw string instead of the strict JSON format
-            if (typeof data !== 'object' || !data.urgency) {
+            // Handle unexpected errors or raw strings
+            if (typeof data !== 'object') {
                 target.innerHTML = `<div style="color:red;"><i class="fa-solid fa-triangle-exclamation"></i> Error parsing official guidelines. Please try again.</div>`;
                 target.style.display = 'block';
                 return;
             }
 
-            let urgencyHtml = data.urgency && data.urgency.toLowerCase() !== "not applicable"
-                ? `<div class="urgency ${data.urgency.includes("urgent") ? "urgent" : data.urgency.includes("attention") ? "attention" : "normal"}"><i class="fa-solid fa-bell"></i> ${data.urgency.toUpperCase()}</div>`
+            // Use fallbacks for missing fields
+            const urgency = data.urgency || "Not Applicable";
+            const deadline = data.deadline || "Not Applicable";
+            const explanation = data.overview || data.explanation || "No explanation provided by AI.";
+            const reqDocs = Array.isArray(data.required_documents) ? data.required_documents : [];
+            const steps = Array.isArray(data.steps) ? data.steps : [];
+            const mistakes = Array.isArray(data.common_mistakes) ? data.common_mistakes : [];
+            const portalLink = data.official_portal_link || "";
+            const source = data.official_source || "Official CBDT Document";
+            const disclaimer = data.disclaimer || "Consult a professional for specific advice.";
+            
+            // Notice-specific fields
+            const whyReceived = data.why_received || "";
+            const formsNeeded = Array.isArray(data.forms_needed) ? data.forms_needed : [];
+            const officialLinks = Array.isArray(data.official_links) ? data.official_links : [];
+            const whatIfIgnore = data.what_if_ignore || "";
+            const helpline = data.helpline || "";
+            const ocrPreview = data.extracted_text_preview || "";
+
+            let urgencyHtml = urgency.toLowerCase() !== "not applicable"
+                ? `<div class="urgency ${urgency.includes("urgent") ? "urgent" : urgency.includes("attention") ? "attention" : "normal"}"><i class="fa-solid fa-bell"></i> ${urgency.toUpperCase()}</div>`
                 : '';
 
-            let deadlineHtml = data.deadline && data.deadline.toLowerCase() !== "not applicable"
-                ? `<div class="deadline-box"><i class="fa-regular fa-calendar-xmark"></i> Deadline: ${data.deadline}</div>`
+            let deadlineHtml = deadline.toLowerCase() !== "not applicable"
+                ? `<div class="deadline-box"><i class="fa-regular fa-calendar-xmark"></i> Deadline: ${deadline}</div>`
                 : '';
 
-            let stepsHtml = Array.isArray(data.steps) && data.steps.length > 0
-                ? `<h4><i class="fa-solid fa-list-check"></i> Action Steps</h4>
-               <ol>${data.steps.map(s => `<li>${s}</li>`).join('')}</ol>`
+            let reqDocsHtml = reqDocs.length > 0
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-file-contract"></i> Required Documents</h4>
+                   <ul style="padding-left: 20px;">${reqDocs.map(d => `<li style="margin-bottom: 5px;">${d}</li>`).join('')}</ul></div>`
                 : '';
 
-            let mistakesHtml = Array.isArray(data.common_mistakes) && data.common_mistakes.length > 0
-                ? `<h4><i class="fa-solid fa-circle-exclamation" style="color:#e43137;"></i> Common Mistakes to Avoid</h4>
-               <ul>${data.common_mistakes.map(m => `<li>${m}</li>`).join('')}</ul>`
+            let stepsHtml = steps.length > 0
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-list-ol"></i> ${data.notice_type ? 'Steps to Fix' : 'Step-by-Step Process'}</h4>
+                   <ol style="padding-left: 20px;">${steps.map(s => `<li style="margin-bottom: 5px;">${s}</li>`).join('')}</ol></div>`
+                : '';
+
+            let mistakesHtml = mistakes.length > 0
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-circle-exclamation" style="color:#e43137;"></i> Important Notes</h4>
+                   <ul style="padding-left: 20px; color: var(--primary-red);">${mistakes.map(m => `<li style="margin-bottom: 5px;">${m}</li>`).join('')}</ul></div>`
+                : '';
+                
+            let whyHtml = whyReceived 
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-question-circle"></i> Why you received this</h4>
+                   <p>${whyReceived}</p></div>`
+                : '';
+
+            let formsHtml = formsNeeded.length > 0
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-file-pdf"></i> Forms / Actions Needed</h4>
+                   <ul style="padding-left: 20px;">${formsNeeded.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}</ul></div>`
+                : '';
+
+            let linksHtml = (officialLinks.length > 0 || portalLink)
+                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-globe"></i> Official Resources</h4>
+                   <ul style="padding-left: 20px;">
+                    ${portalLink ? `<li><a href="${portalLink}" target="_blank" style="color: var(--primary-red); word-break: break-all;">${portalLink}</a></li>` : ''}
+                    ${officialLinks.map(l => `<li><a href="${l}" target="_blank" style="color: var(--primary-red); word-break: break-all;">${l}</a></li>`).join('')}
+                   </ul></div>`
+                : '';
+
+            let ignoreHtml = whatIfIgnore
+                ? `<div style="margin-top:20px; padding: 10px; background: #fff5f5; border-left: 4px solid #e43137; font-size: 0.9em;">
+                    <strong><i class="fa-solid fa-triangle-exclamation"></i> Consequences of Inaction:</strong> ${whatIfIgnore}
+                   </div>`
+                : '';
+
+            let helplineHtml = helpline
+                ? `<div style="margin-top:15px; font-weight: bold; color: #555;">
+                    <i class="fa-solid fa-phone"></i> Official Helpline: ${helpline}
+                   </div>`
+                : '';
+
+            let ocrHtml = ocrPreview
+                ? `<div style="margin-top:20px; font-size: 0.8em; color: gray; font-style: italic; border-top: 1px dashed #ccc; padding-top: 10px;">
+                    <strong>OCR Text Preview:</strong> ${ocrPreview}
+                   </div>`
+                : '';
+
+            let actionHtml = data.action_url && data.action_label && !data.action_label.toLowerCase().includes("not required")
+                ? `<div style="margin: 20px 0; text-align: left;">
+                     <a href="${data.action_url}" target="_blank" class="action-btn" style="display:inline-block; width:auto; padding: 12px 25px; text-decoration:none;">
+                        <i class="fa-solid fa-file-pdf"></i> ${data.action_label}
+                     </a>
+                   </div>`
                 : '';
 
             target.innerHTML = `
             ${urgencyHtml}
             ${deadlineHtml}
             <div class="explanation">
-                <h4><i class="fa-solid fa-scale-balanced"></i> Official Explanation</h4>
-                <p>${data.explanation.replace(/\\n/g, '<br>')}</p>
+                <h4><i class="fa-solid fa-info-circle"></i> ${data.notice_type ? 'Notice Explanation' : 'Overview'}</h4>
+                <p>${explanation.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</p>
             </div>
+            ${whyHtml}
+            ${reqDocsHtml}
             ${stepsHtml}
             ${mistakesHtml}
-            <div class="source"><i class="fa-solid fa-book-bookmark"></i> <b>Source:</b> ${data.official_source}</div>
-            <div class="disclaimer">${data.disclaimer}</div>
+            ${formsHtml}
+            ${linksHtml}
+            ${ignoreHtml}
+            ${helplineHtml}
+            ${actionHtml}
+            ${ocrHtml}
+            <div style="margin-top:20px; padding-top:15px; border-top: 1px solid #ddd; font-size: 0.9em;">
+                <div class="source"><i class="fa-solid fa-book-bookmark"></i> <b>Source:</b> ${source}</div>
+                <div class="disclaimer">${disclaimer}</div>
+            </div>
         `;
             target.style.display = 'block';
         }
@@ -510,7 +643,7 @@
             formData.append("file", fileInput.files[0]);
 
             try {
-                const res = await fetch('/explain_tax_notice', {
+                const res = await fetch('/explain_notice', {
                     method: 'POST',
                     body: formData
                 });

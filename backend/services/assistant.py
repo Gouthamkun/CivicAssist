@@ -1,8 +1,9 @@
 import ollama
 import os
 import json
+import re
 
-# Force CPU usage because the Ollama OOM crash deadlocked the CUDA driver state
+# Force CPU usage
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 from langchain_community.vectorstores import Chroma
@@ -15,132 +16,167 @@ db = Chroma(
     embedding_function=embedding
 )
 
-retriever = db.as_retriever(search_kwargs={"k":3})
-
-
+# Increased context to 10 chunks for deeper extraction
+retriever = db.as_retriever(search_kwargs={"k":10})
 
 def retrieve_knowledge(query: str):
     """Reusable vector DB retriever for all endpoints."""
     docs = retriever.invoke(query)
-    # The new prompt format expects a list of dictionaries with a "text" key
     return [{"text": doc.page_content} for doc in docs]
 
+def clean_json_response(raw_response: str) -> dict:
+    """Cleans potential markdown backticks or junk and enforces ALL required keys."""
+    if not raw_response:
+        return {}
+    
+    s = raw_response.strip()
+    # Remove markdown code blocks
+    s = re.sub(r'^```json\s*', '', s, flags=re.MULTILINE)
+    s = re.sub(r'^```\s*', '', s, flags=re.MULTILINE)
+    s = re.sub(r'\s*```$', '', s, flags=re.MULTILINE)
+    
+    try:
+        # Extract the largest JSON object found
+        json_match = re.search(r'(\{.*\})', s, re.DOTALL)
+        if json_match:
+            s = json_match.group(1)
+            
+        try:
+            data = json.loads(s, strict=False)
+        except json.JSONDecodeError:
+            # Fallback: try to manually escape newlines that might break parsing
+            s = s.replace('\n', '\\n').replace('\r', '\\r').replace('\t', '\\t')
+            data = json.loads(s, strict=False)
+            
+        if not isinstance(data, dict):
+             raise ValueError("Parsed JSON is not a dictionary")
+             
+        # Strictly define required keys and their defaults
+        schema = {
+            "urgency": "normal",
+            "deadline": "Not Applicable",
+            "overview": "Information not found.",
+            "required_documents": [],
+            "steps": [],
+            "common_mistakes": [],
+            "official_portal_link": "",
+            "official_source": "CivicAssist Knowledge Base",
+            "disclaimer": "This is official procedure explanation only.",
+            "action_url": "",
+            "action_label": ""
+        }
+        
+        # Merge AI data with schema defaults.
+        final_data = schema.copy()
+        for key in schema:
+            if key in data:
+                # Accept non-null, non-empty values
+                val = data[key]
+                if val is not None and val != "" and val != []:
+                    final_data[key] = val
+        
+        # Legacy mapping (if UI still depends on answer or explanation)
+        final_data["answer"] = final_data.get("overview", "")
+        final_data["explanation"] = final_data.get("overview", "")
+            
+        return final_data
+    except Exception as e:
+        print(f"JSON Cleaning Error: {e} | Raw: {raw_response[:200]}")
+        return {
+            "urgency": "attention",
+            "deadline": "Try again",
+            "explanation": "The AI provided a malformed response.",
+            "answer": "Error parsing AI response.",
+            "steps": ["Refresh and try again"],
+            "common_mistakes": ["System overload"],
+            "official_source": "System Error",
+            "disclaimer": "Internal Error.",
+            "action_url": "",
+            "action_label": ""
+        }
+
 MASTER_PROMPT = """
-You are the Income Tax Assistant for CivicAssist, an independent public civic assistant for Indian citizens.
+You are CivicAssist AI, a government guidance assistant.
+Your job is to convert retrieved knowledge from government documents into a clear, formal, structured guidance response for citizens.
 
 ════════════════════════════════════════════════════════════════════════════════
-YOUR ROLE:
-You explain official Income Tax rules, notices, forms and procedures.
-You do NOT provide legal advice, tax planning or personalised calculation.
-You do NOT guess. You only use information present in the CONTEXT below.
-If information is not present in context, say so explicitly.
+MANDATORY FORM DOWNLOADS (Use these OR mention them if relevant):
+- ITR-2: url 'forms/ITR-2.pdf', label 'Download ITR-2'
+- ITR-3: url 'forms/ITR-3.pdf', label 'Download ITR-3'
+- ITR-5: url 'forms/ITR-5.pdf', label 'Download ITR-5'
+- ITR-6: url 'forms/ITR-6.pdf', label 'Download ITR-6'
+- Form 16: url 'forms/Form 16.pdf', label 'Download Form 16 Guide'
+- Form 26AS: url 'forms/Form 26AS.pdf', label 'Download 26AS Sample'
+- AIS / TIS: url 'forms/AIS.pdf', label 'Download AIS Guide'
+- PF Withdrawal (Form 19): url 'forms/PF Final Settlement.pdf', label 'Download Form 19'
+- PF Transfer (Form 13): url 'forms/PF Transfer.pdf', label 'Download Form 13'
+
+TECHNICAL EXTRACTION RULES:
+1. OVERVIEW: MUST be exactly 1-2 sentences summarizing the process. NEVER include steps or document lists here.
+2. STEPS ARRAY: You MUST break down the procedure into individual string elements within the "steps" JSON array.
+3. DOCUMENTS ARRAY: Put any required documents into the "required_documents" JSON array.
+4. FORBID GENERIC SUMMARIES. Quote exact terms like "Para 57".
+5. NO NEWLINES. Do not use literal newlines (\n) inside JSON string values.
 
 ════════════════════════════════════════════════════════════════════════════════
-BEHAVIOUR RULES:
-
-✅ IF USER ASKED A GENERAL QUESTION:
-   1. Explain the rule simply in plain language
-   2. List any applicable limits / deadlines
-   3. List steps to take
-   4. Cite the section / circular number
-
-✅ IF USER UPLOADED A TAX NOTICE:
-   1. FIRST: State urgency level: 🟢 Normal / 🟡 Attention Required / 🔴 Urgent
-   2. SECOND: State the deadline if any
-   3. Explain what this notice actually means in plain language
-   4. Explain why they probably received this notice
-   5. List step by step exactly what they need to do
-   6. Tell them what will happen if they do nothing
-
-✅ IF USER ASKED ABOUT A FORM:
-   1. Explain what this form is used for
-   2. List what information it contains
-   3. Explain when you need this form
-   4. List where to download it from
-
-✅ IF USER ASKED FOR FILING GUIDANCE:
-   1. Return numbered step by step instructions
-   2. List required documents
-   3. State deadline
-   4. List common mistakes to avoid
-
-✅ IF USER ASKED ABOUT REFUND ISSUES:
-   1. List possible reasons
-   2. List step by step troubleshooting
-   3. Explain how to check status
-   4. Explain escalation procedure
-
-════════════════════════════════════════════════════════════════════════════════
-OUTPUT FORMAT:
-Always return ONLY valid JSON in exactly this format. No extra text. No markdown outside the fields.
-
+OUTPUT SCHEMA (MANDATORY):
 {{
   "urgency": "normal / attention / urgent",
-  "deadline": "31st July 2025 / Not Applicable",
-  "explanation": "Plain language explanation. 2-3 paragraphs maximum.",
-  "steps": [ "Step 1: ...", "Step 2: ...", "Step 3: ..." ],
-  "common_mistakes": [ "Mistake 1", "Mistake 2" ],
-  "official_source": "CBDT Circular / ITR Instruction / Section XYZ",
-  "disclaimer": "This is official procedure explanation. For personal assistance contact helpline or consult a CA."
+  "deadline": "Date or Not Applicable",
+  "overview": "Brief 2-3 sentence summary explaining the process. Verbatim citations where possible.",
+  "required_documents": ["Aadhaar Card", "PAN Card"],
+  "steps": ["Step 1", "Step 2"],
+  "common_mistakes": ["Important note 1", "Legally significant mistake"],
+  "official_portal_link": "https://url-to-portal if available",
+  "official_source": "Paragraph/Section/Form Name",
+  "disclaimer": "Technical disclaimer.",
+  "action_url": "forms/filename.pdf",
+  "action_label": "Download button text"
 }}
 
+EXAMPLE EXCELLENT JSON:
+{{
+  "urgency": "normal",
+  "deadline": "Not Applicable",
+  "overview": "To withdraw your PF, you must submit Form 19 as per Para 57. The process can be completed online via the UAN Member Portal.",
+  "required_documents": ["Aadhaar Card linked to UAN", "Cancelled Cheque", "PAN Card"],
+  "steps": ["Step 1: Login to UAN portal.", "Step 2: Go to Online Services and select Claim (Form 31, 19, 10C & 10D).", "Step 3: Verify bank account.", "Step 4: Select 'Only PF Withdrawal (Form 19)'."],
+  "common_mistakes": ["Not linking Aadhaar with UAN", "Applying before completing 2 months of unemployment"],
+  "official_portal_link": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+  "official_source": "Para 57",
+  "disclaimer": "This is official procedure explanation only.",
+  "action_url": "forms/PF Final Settlement.pdf",
+  "action_label": "Download Form 19"
+}}
+
+
 ════════════════════════════════════════════════════════════════════════════════
-CONTEXT (Retrieved from official Income Tax documents):
+CONTEXT:
 {context}
 
 ════════════════════════════════════════════════════════════════════════════════
 USER REQUEST:
 {user_query}
 
-════════════════════════════════════════════════════════════════════════════════
-Return only valid JSON. Do not add any text before or after the JSON.
+Return ONLY valid JSON. Focus on TECHNICAL details from the context.
 """
 
 def safety_check(response: dict):
-    # Never allow the system to claim it can calculate tax
-    explanation = response.get("explanation", "")
-    if "calculate" in explanation.lower():
-        response["explanation"] = explanation + "\nThis system does not calculate personal tax liability."
-    
     # Standard public service disclaimer
-    response["disclaimer"] = "This is an explanation of official procedure. For personal assistance please contact 1800-103-0025 or consult a Chartered Accountant."
+    response["disclaimer"] = "This is a technical explanation based on official documents. For personal assistance please contact the official helpline or consult a professional."
     return response
 
-# Legacy ask endpoint wrapper to prevent breaking the older generic UI
 def civic_assist(question):
     context_chunks = retrieve_knowledge(question)
     prompt = MASTER_PROMPT.format(
-        context="\\n---\\n".join([c["text"] for c in context_chunks]),
+        context="\n---\n".join([c["text"] for c in context_chunks]),
         user_query=question
     )
 
     response = ollama.chat(
         model="llama3",
-        messages=[{"role":"user","content":prompt}]
+        messages=[{"role":"user","content":prompt}],
+        options={"temperature": 0.0, "format": "json"}
     )
-
-    try:
-        import re
-        content_str = response["message"]["content"]
-        
-        # Strip out code markdown blocks if the LLM adds them
-        if content_str.startswith("```json"):
-            content_str = content_str[7:-3]
-        elif content_str.startswith("```"):
-            content_str = content_str[3:-3]
-            
-        # Regex to find the first { and last } to handle chatty preambles "Here is the JSON: {}"
-        json_match = re.search(r'\{.*\}', content_str.strip(), re.DOTALL)
-        if json_match:
-            content_str = json_match.group(0)
-            
-        parsed_response = json.loads(content_str, strict=False)
-        return parsed_response
-    except Exception as e:
-        print(f"Failed to parse JSON: {e}")
-        # Fallback if the LLM completely fails format
-        return {
-            "answer": response["message"]["content"],
-            "action_label": "",
-            "action_url": ""
-        }
+    
+    return safety_check(clean_json_response(response["message"]["content"]))
