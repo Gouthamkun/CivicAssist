@@ -1,0 +1,45 @@
+# Page 9: AIS – Annual Information Statement
+
+**Page ID:** AIS_STATEMENT
+**Category:** STATEMENTS
+
+## Official Sources
+- AIS Guide: https://www.incometaxindia.gov.in/communications/faqs-ais
+- Access Portal: https://www.incometax.gov.in/iec/foportal/login
+- Notification: https://www.incometaxindia.gov.in/communications/notification/notification-89-2023
+
+## Overview
+- **Definition:** Comprehensive statement showing all high-value financial transactions reported by third parties (Banks, Brokers, Registrar, etc.) linked to your PAN.
+- **Purpose:** To increase tax transparency and reduce underreporting of income.
+- **Relation to 26AS:** AIS is a much broader statement. While 26AS focus on Taxes, AIS includes all major financial activities regardless of whether tax was deducted.
+
+## AIS Contents
+- **Salary Income:** Reported by your employer.
+- **Interest Income:** From Savings Accounts and Fixed Deposits (Reported by Banks).
+- **Dividends:** Reported by companies and mutual funds.
+- **Securities Transactions:** Buying and Selling of stocks/mutual funds (Reported by Brokers).
+- **Real Estate:** Buying or Selling of property (Reported by Sub-registrar).
+- **Foreign Remittances:** Money sent or received from abroad.
+- **Crypto:** Transactions on crypto exchanges (if reported).
+- **Credit Card Payments:** High-value credit card bill payments (> ₹10 lakh).
+
+## TIS (Taxpayer Information Summary)
+- TIS is a consolidated summary of AIS.
+- It shows "Reported Value" and "Derived Value" (your feedback value).
+- **Recommendation:** Use TIS values for pre-filling your ITR for accuracy.
+
+## Feedback Mechanism
+- You can submit feedback on any transaction shown in AIS:
+  - 'Information is correct'
+  - 'Information is not taxable' (e.g., reimbursement)
+  - 'Information is duplicate'
+  - 'Information is denied' (not your transaction)
+- Accepted feedback updates the TIS values.
+
+## Typical Queries
+- What is AIS?
+- Why are my transactions shown in AIS?
+- How is AIS different from 26AS?
+- Do I need to match AIS with my ITR?
+- What if a transaction in AIS is not mine?
+- How to download AIS PDF? (Login → Services → AIS).

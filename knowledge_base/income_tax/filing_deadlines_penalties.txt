@@ -1,0 +1,40 @@
+# Page 12: Income Tax Filing Deadlines & Penalties
+
+**Page ID:** FILING_DEADLINES
+**Category:** REFUNDS
+
+## Official Sources
+- Filing Deadlines: https://www.incometaxindia.gov.in/communications/notification/notification-01-2024
+- Extension Guidelines: https://www.incometaxindia.gov.in/communications/faqs-deadlines
+- Penalties: https://www.incometaxindia.gov.in/communications/notification/notification-penalties-2024
+
+## Key Deadlines (FY 2024-25 / AY 2025-26)
+- **Individual / Salaried (Regular):** July 31st, 2025.
+- **Audit Cases (Business/Audit):** October 31st, 2025.
+- **Transfer Pricing Cases:** November 30th, 2025.
+- **Belated / Revised Return:** December 31st, 2025.
+
+## Verification Deadline
+- Must e-verify within **30 days** of filing.
+
+## Penalties & Consequences
+### Section 234F (Late Filing Fee)
+- If filed after the deadline:
+  - **Income <= ₹5 lakh:** ₹1,000.
+  - **Income > ₹5 lakh:** ₹5,000.
+### Section 234A (Interest)
+- If tax is unpaid: **1% per month** interest from the deadline until filing.
+### Other Consequences
+- **Losses:** Business/Capital losses cannot be carried forward to next years.
+- **Refunds:** Delay in refund processing and no interest on refund for the delay period.
+
+## Revised vs Belated Return
+- **Revised Return:** Filed to correct errors in the original return. No penalty if original was on time.
+- **Belated Return:** Filed after the deadline. Corrects the failure to file, but attracts Section 234F penalty.
+
+## Typical Queries
+- What is the ITR filing deadline?
+- What happens if I file ITR late?
+- What are the penalties for late filing?
+- Can I file a revised return after the deadline? (Yes, until Dec 31st).
+- Can I file ITR after 2 years? (Only via ITR-U with higher penalties).

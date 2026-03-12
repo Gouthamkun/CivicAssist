@@ -1,0 +1,47 @@
+# Page 1: Income Tax e-Filing Portal – File Income Tax Return
+
+**Page ID:** ITR_FILING_BASICS
+**Category:** CORE_FILING
+
+## Official Sources
+- Primary: https://www.incometaxindia.gov.in/
+- Direct Filing Portal: https://www.incometax.gov.in/iec/foportal/login
+- Step-by-Step Guide: https://www.incometaxindia.gov.in/communications/notification/notification-03-2024
+- FAQ Page: https://www.incometaxindia.gov.in/communications/faqs
+
+## Who Must File ITR
+Filing an ITR is mandatory if:
+- Income exceeds the basic exemption limit (₹2.5L to ₹5L depending on age).
+- You are a company or a firm (regardless of profit/loss).
+- You are a resident with foreign assets or signing authority in foreign accounts.
+- Professional receipts > ₹10 lakh or Business receipts > ₹60 lakh.
+- TDS/TCS > ₹25,000 (₹50,000 for senior citizens).
+- Foreign travel expenditure > ₹2 lakh.
+- Electricity consumption > ₹1 lakh.
+- Deposits in current accounts > ₹1 crore.
+
+## Step-by-Step Filing Process
+1. **Login:** Login to the e-filing portal using your PAN as User ID.
+2. **Navigate:** Go to 'e-File' → 'Income Tax Returns' → 'File Income Tax Return'.
+3. **Select Assessment Year:** Choose the relevant year and mode (Online/Offline).
+4. **Choose Status:** Select Individual, HUF, etc.
+5. **Select ITR Form:** Choose the correct form (ITR-1, ITR-2, etc.).
+6. **Select Reason for Filing:** (e.g., taxable income, specific expenditures).
+7. **Fill Details:** Validate pre-filled personal, income, and tax-deduction details from AIS/TIS.
+8. **Pay Tax:** If there is any liability, pay immediately via 'Pay Now'.
+9. **Preview & Submit:** Review all sections and submit.
+10. **E-Verify:** Crucial step. Verify using Aadhaar OTP or other methods within 30 days.
+
+## Required Documents
+- PAN and Aadhaar (must be linked).
+- Bank account details (pre-validated for refund).
+- Form 16 (for salaried) or Form 16A (for others).
+- Form 26AS and AIS (for tax credit and transaction matching).
+- Bank statements and Interest certificates.
+- Investment proofs (80C, 80D, etc.).
+
+## Typical Queries
+- How do I file ITR?
+- Who should file an income tax return?
+- Is ITR filing mandatory for me?
+- What are the required documents for filing?

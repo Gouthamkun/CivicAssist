@@ -1,0 +1,37 @@
+# Page 10: Form 16 – Salary TDS Certificate
+
+**Page ID:** FORM_16
+**Category:** STATEMENTS
+
+## Official Sources
+- Form 16 Guide: https://www.incometaxindia.gov.in/communications/faqs-form-16
+- Technical Spec: https://www.incometaxindia.gov.in/communications/notification/notification-44-2023
+- Employer Resources: https://www.incometax.gov.in/iec/foportal/help/employers
+
+## Overview
+- **Definition:** A certificate issued by an employer to its employees, documenting the total salary paid and tax deducted (TDS) during the financial year.
+- **Legal Basis:** Section 203A(2) of Income Tax Act, 1961.
+- **Deadline:** Must be issued by **31st May** every year for the previous FY.
+
+## Components of Form 16
+- **Part A:** Summary of TDS deposited by the employer. Includes Employer TAN, PAN, and Employee PAN. Verified via the TRACES portal.
+- **Part B (Annexure):** Detailed breakup of:
+  - Gross Salary (Basic, HRA, LTA, Conveyance).
+  - Exemptions under Section 10 (HRA, LTA, etc.).
+  - Deductions under Chapter VI-A (80C, 80D, etc.).
+  - Final Taxable Income and Tax Payable/Refund.
+
+## How to Use while Filing ITR
+- **Schedule S (Salary):** Directly copy values from Form 16 Part B (Gross Salary, Allowances, Deductions).
+- **Schedule IT (Tax Payments):** Enter the TDS amount from Form 16 Part A and cross-check with Form 26AS.
+
+## Obtaining Form 16
+- **Direct:** From HR/Accounts department of your employer.
+- **Missing:** If your employer didn't provide it, check Form 26AS for TDS entries. Use salary slips to compute income.
+
+## Typical Queries
+- What is Form 16?
+- By when should I receive Form 16?
+- What if my employer didn't provide Form 16?
+- How to use Form 16 while filing ITR?
+- What is the difference between Form 16 and 16A? (16 is for Salary, 16A is for non-salary like Interest).

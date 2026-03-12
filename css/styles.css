@@ -6,6 +6,7 @@
     --text-muted: #666666;
     --border-color: #e0e0e0;
     --white: #ffffff;
+    --accent-purple: #6f42c1;
 }
 
 * {
@@ -494,3 +495,119 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .ai-reasoning p { background: #fff3cd; color: #856404; padding: 15px; border-left: 4px solid #ffeeba; margin-bottom: 20px; }
 .step-card { display: flex; gap: 15px; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #f1f3f5; }
 .step-number { background: var(--primary-blue); color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+/* Document Manager Section Refactor */
+.document-manager-section {
+    padding: 30px 0;
+    background-color: var(--bg-light);
+}
+
+.doc-manager-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 400px; /* Aligned to the left as in screenshot */
+}
+
+.doc-row {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.doc-row-icon {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-top: 2px;
+}
+
+.doc-row-content h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.doc-status {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.doc-status.uploaded {
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.doc-status.uploaded i {
+    color: #333; /* Darker checkmark in screenshot */
+}
+
+.doc-actions-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-link {
+    font-size: 0.85rem;
+    color: var(--text-dark);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.btn-link i {
+    width: 14px;
+    text-align: center;
+}
+
+/* PF Withdrawal Extension Styles */
+.guidance-view .roadmap-steps {
+    margin-top: 20px;
+}
+
+.guidance-view .step-card {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;
+}
+
+.guidance-view .step-number {
+    background: var(--primary-blue);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.result-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.pf-modes-container .category-card:hover {
+    border-color: var(--primary-red) !important;
+    background: #fffafa;
+}

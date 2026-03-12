@@ -1,0 +1,42 @@
+# Page 6: Section 148 – Income Escaping Assessment (Reassessment)
+
+**Page ID:** SECTION_148_NOTICE
+**Category:** TAX_NOTICES
+
+## Official Sources
+- Section 148 Rules: https://www.incometaxindia.gov.in/communications/notification/notification-75-2023
+- Reassessment Guidelines: https://www.incometax.gov.in/iec/foportal/help/notices/148
+
+## Notice Details
+- **Definition:** Notice issued when the Assessing Officer (AO) has reason to believe that any income chargeable to tax has escaped assessment for any assessment year.
+- **Legal Reference:** Section 148 of Income Tax Act, 1961.
+- **Time Limit:** 
+  - Up to **3 years** from the end of the Assessment Year (AY) for normal cases.
+  - Up to **10 years** if the escaped income is **₹50 lakh or more**.
+
+## Reasons for Reassessment
+- Income was not reported in the original return.
+- Income was deliberately suppressed or underreported.
+- Expenses were falsely overestimated to reduce tax.
+- Wrongful claim of exemptions or deductions.
+- New evidence discovered by the department (e.g., from AIS/SFT).
+- Income from undisclosed sources (Bank, Cash, Foreign Assets).
+
+## Notice & Response Process
+1. **Inquiry (Section 148A):** Mandatory pre-notice inquiry by AO.
+2. **Show-Cause (Section 148A(b)):** AO issues a notice asking why reassessment should not be done. Taxpayer must respond within 7-30 days.
+3. **Decision (Section 148A(d)):** AO decides whether to proceed. If yes, the Section 148 Notice is issued.
+4. **Filing Fresh Return:** The taxpayer is required to file a fresh ITR for the relevant year.
+5. **Assessment:** Final reassessment order is issued after reviewing the return and evidence.
+
+## Rights During Reassessment
+- Right to be heard and submit evidence.
+- Right to request used "Reasons to Believe".
+- Right to file formal objections to the notice.
+- Right to appeal the final assessment order.
+
+## Typical Queries
+- Why did I receive a Section 148 notice?
+- What does 'income escaping assessment' mean?
+- How do I respond to a reassessment notice?
+- Can I appeal a Section 148 notice?

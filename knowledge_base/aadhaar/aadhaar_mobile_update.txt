@@ -1,0 +1,38 @@
+SERVICE NAME
+------------
+Aadhaar Mobile Update
+
+DEPARTMENT
+----------
+AADHAAR
+
+DESCRIPTION
+-----------
+Language Selection - Unique Identification Authority of India | Government of India
+Select your Preferred Language to Enter the Website
+वेबसाइट में प्रवेश करने के लिए अपनी पसंदीदा भाषा का चयन करें
+
+PROCESS
+-------
+Information extracted from official portal. See sections below.
+
+REQUIRED DOCUMENTS
+------------------
+Please refer to the official portal links provided.
+
+COMMON PROBLEMS
+---------------
+Details found in FAQ sections of the portal.
+
+SOLUTION
+--------
+Check the grievance system or contact support.
+
+EXPECTED TIMELINE
+-----------------
+Varies by state/service. Check service timelines.
+
+OFFICIAL PORTAL
+---------------
+https://uidai.gov.in/
+

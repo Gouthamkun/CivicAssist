@@ -1,0 +1,50 @@
+# Page 2: Guide to Different ITR Forms (ITR-1, ITR-2, etc.)
+
+**Page ID:** ITR_FORMS_GUIDE
+**Category:** CORE_FILING
+
+## Official Sources
+- Main Resource: https://www.incometaxindia.gov.in/communications/notification/notification-04-2023
+- ITR Forms Comparison: https://www.incometax.gov.in/iec/foportal/help/itrforms
+- Form 26AS Guidance: https://www.incometaxindia.gov.in/communications/faqs-form-26as
+
+## ITR Form Selection Matrix
+
+### ITR-1 (Sahaj)
+- **Full Name:** Sahaj
+- **Eligible Taxpayers:** Resident individuals (not RNOR/NRIs).
+- **Income Conditions:** Total income up to ₹50 lakhs.
+- **Income Sources:** Salary/Pension, One House Property, Other Sources (Interest, etc.), Agricultural income up to ₹5,000.
+- **Exclusions:** Directors, holders of unlisted equity shares, those with capital gains.
+
+### ITR-2
+- **Full Name:** Standard
+- **Eligible Taxpayers:** Individuals and HUFs not having business/professional income.
+- **Income Conditions:** No limit on total income.
+- **Income Sources:** Capital gains (Stocks/Property), Foreign income/assets, more than one house property, Agricultural income over ₹5,000.
+- **Applicability:** For those who do not qualify for ITR-1.
+
+### ITR-3
+- **Full Name:** Business
+- **Eligible Taxpayers:** Individuals and HUFs with income from business or profession.
+- **Applicability:** Business owners, freelancers, trade in F&O, partners in firms.
+
+### ITR-4 (Sugam)
+- **Full Name:** Sugam
+- **Eligible Taxpayers:** Resident individuals, HUFs, and Firms (other than LLP).
+- **Condition:** Total income up to ₹50 lakhs under Presumptive Taxation (Sec 44AD/44ADA/44AE).
+
+### ITR-5
+- **Eligibility:** LLP, Partnership firms, AOP, BOI, Artificial Juridical Person.
+
+### ITR-6
+- **Eligibility:** Companies (other than those claiming exemption under Section 11).
+
+### ITR-7
+- **Eligibility:** Persons/Companies including trusts under Section 139(4A/4B/4C/4D).
+
+## Typical Queries
+- Which ITR form should I use?
+- What is ITR-1/ITR-2/ITR-3/ITR-4?
+- Can I file ITR-2 if I am salaried?
+- I have stock market gains, which form to use? (ITR-2 or ITR-3).

@@ -155,6 +155,53 @@
         </div>
     </section>
 
+    <!-- Document Manager Section -->
+    <section class="document-manager-section" id="document-manager">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Document Manager</h2>
+                <div style="height: 2px; width: 50px; background: var(--primary-red); margin: 10px auto;"></div>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 5px;">Securely upload and manage your essential documents for AI guidance.</p>
+            </div>
+
+            <div class="doc-manager-grid" id="doc-list-container">
+                <!-- Aadhaar Card -->
+                <div class="doc-card" id="doc-card-aadhaar">
+                    <div class="doc-icon"><i class="fa-solid fa-id-card"></i></div>
+                    <div class="doc-info">
+                        <h3>Aadhaar Card</h3>
+                        <p class="doc-status" id="status-aadhaar">
+                            <i class="fa-solid fa-circle-exclamation"></i> Not Uploaded
+                        </p>
+                    </div>
+                    <div class="doc-action" id="action-aadhaar">
+                        <label class="btn-upload">
+                            <i class="fa-solid fa-upload"></i> Upload
+                            <input type="file" onchange="uploadDocument('aadhaar', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- PAN Card -->
+                <div class="doc-card" id="doc-card-pan">
+                    <div class="doc-icon"><i class="fa-solid fa-address-card"></i></div>
+                    <div class="doc-info">
+                        <h3>PAN Card</h3>
+                        <p class="doc-status" id="status-pan">
+                            <i class="fa-solid fa-circle-exclamation"></i> Not Uploaded
+                        </p>
+                    </div>
+                    <div class="doc-action" id="action-pan">
+                        <label class="btn-upload">
+                            <i class="fa-solid fa-upload"></i> Upload
+                            <input type="file" onchange="uploadDocument('pan', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Features section moved to JS template -->
 
     <!-- Simulated Output / Response Modal Overlay -->
@@ -199,7 +246,7 @@
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="category-card" onclick="executeQuickQuery('How do I withdraw my PF?')">
+                <div class="category-card" onclick="showPFOptions()">
                     <div class="cat-icon-box"><i class="fa-solid fa-money-bill-transfer"></i></div>
                     <div class="cat-content"><h4>PF Withdrawal</h4><p>Step-by-step guidance, required forms (Form 19/31), and eligibility explanations.</p></div>
                 </div>
@@ -257,6 +304,92 @@
                     <div class="cat-icon-box" style="background-color:#dc3545;"><i class="fa-solid fa-file-signature"></i></div>
                     <div class="cat-content"><h4>Grievance Generator</h4><p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.</p></div>
                 </div>
+            </div>
+        </div>
+    </template>
+    <!-- Template for PF Withdrawal Options -->
+    <template id="pf-options-template">
+        <div class="pf-options-container">
+            <div class="modal-back-nav" onclick="revertToEPFOGrid()">
+                <i class="fa-solid fa-arrow-left"></i> Back to EPFO Services
+            </div>
+            <h3 class="sub-header">PF Withdrawal Modes</h3>
+            <p class="sub-desc">Choose a mode based on your current progress in the PF claim process.</p>
+            
+            <div class="modes-grid">
+                <div class="mode-card" onclick="showPFVerification()">
+                    <div class="mode-icon"><i class="fa-solid fa-shield-check"></i></div>
+                    <div class="mode-content">
+                        <h4>Verification Mode</h4>
+                        <p>For users who already filled the claim and want to verify details before submission.</p>
+                        <span class="btn-sm">Open Verification</span>
+                    </div>
+                </div>
+                <div class="mode-card" onclick="showPFGuidance()">
+                    <div class="mode-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="mode-content">
+                        <h4>Guidance Mode</h4>
+                        <p>For users who have not filled the PF withdrawal form yet. We'll guide you step-by-step.</p>
+                        <span class="btn-sm">Open Guidance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for PF Guidance Mode -->
+    <template id="pf-guidance-template">
+        <div class="pf-container">
+            <div class="modal-back-nav" onclick="showPFOptions()">
+                <i class="fa-solid fa-arrow-left"></i> Back to Modes
+            </div>
+            <h3 class="sub-header">PF Withdrawal Guidance</h3>
+            
+            <div class="user-info-card">
+                <div class="info-row">
+                    <span class="info-label">Name extracted from Aadhaar:</span>
+                    <span class="info-value" id="pf-guidance-name">Loading...</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">DOB extracted from Aadhaar:</span>
+                    <span class="info-value" id="pf-guidance-dob">Loading...</span>
+                </div>
+            </div>
+
+            <div class="guidance-steps">
+                <h4>Claim Submission Steps:</h4>
+                <ol class="step-list">
+                    <li><strong>Login:</strong> Go to EPFO UAN portal and login with your UAN and Password.</li>
+                    <li><strong>Online Services:</strong> From the top menu, select 'Online Services'.</li>
+                    <li><strong>Claim Selection:</strong> Select 'Claim (Form-19, 31, 10C & 10D)'.</li>
+                    <li><strong>Aadhaar OTP:</strong> Enter the last 4 digits of your bank account and verify with Aadhaar OTP.</li>
+                    <li><strong>Submit:</strong> Select the claim type and submit the request.</li>
+                </ol>
+                <div class="alert-info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <p>Tip: Ensure your bank account details and IFSC are correct in the KYC section before applying.</p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for PF Verification Mode -->
+    <template id="pf-verification-template">
+        <div class="pf-container">
+            <div class="modal-back-nav" onclick="showPFOptions()">
+                <i class="fa-solid fa-arrow-left"></i> Back to Modes
+            </div>
+            <h3 class="sub-header">PF Details Verification</h3>
+            <p class="sub-desc">Upload a screenshot of your UAN Passbook to verify details against your identity documents.</p>
+            
+            <div class="upload-zone" id="passbook-upload-zone">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>Click to upload UAN Passbook screenshot</p>
+                <input type="file" onchange="verifyPassbook(this)" accept="image/*" style="display:none;" id="passbook-input">
+            </div>
+
+            <div id="verification-result-container" style="display:none;">
+                <!-- Results cards will be injected here -->
             </div>
         </div>
     </template>

@@ -1,0 +1,41 @@
+# Page 4: Section 143(1) Intimation Notice
+
+**Page ID:** SECTION_143_1_NOTICE
+**Category:** TAX_NOTICES
+
+## Official Sources
+- Notice Guidelines: https://www.incometaxindia.gov.in/communications/notification/notification-91-2023
+- 143(1) FAQ: https://www.incometaxindia.gov.in/communications/faqs-143-intimation
+- Mismatch Resolution: https://www.incometax.gov.in/iec/foportal/help/notices
+
+## Notice Details
+- **Definition:** Automated intimation sent after return processing (matching software-calculated tax vs. taxpayer-filed tax).
+- **Legal Reference:** Section 143(1) of Income Tax Act, 1961.
+- **Nature:** Preliminary assessment communication (not a scrutiny or audit notice).
+- **Issuance Timeline:** Within 1 year from the end of the financial year in which the return is filed.
+
+## Three Possible Outcomes
+- **No Demand / No Refund:** Calculations match perfectly. No action needed.
+- **Refund Due:** Tax paid > Tax liability. Refund will be credited.
+- **Tax Demand:** Discrepancies found resulting in extra tax. Pay or contest.
+
+## Common Reasons for Notice
+- Tax mismatch in return vs AIS / Form 26AS.
+- Arithmetical errors in computation.
+- Internal inconsistencies in the ITR sections.
+- Mismatch in TDS/TCS claims.
+- Disallowed deductions or exemptions (e.g., Chapter VI-A).
+
+## Required Action
+- **Deadline:** Within **30 days** from the date of the notice.
+- **Options:**
+  - Accept and pay the demand (via e-pay tax).
+  - Submit an online response/explanation via 'e-Proceedings'.
+  - File Rectification Request under Section 154 for clerical errors.
+  - File Revised Return if the deadline has not passed.
+
+## Typical Queries
+- What is a 143(1) notice?
+- Why did I receive a tax intimation?
+- Is 143(1) a demand notice?
+- What should I do if I received 143(1) with a mismatch?

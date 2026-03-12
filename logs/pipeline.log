@@ -1,0 +1,276 @@
+2026-03-10 17:33:22,797 | civicassist.retrieval | INFO | Query: 'What is a Section 143(1) notice?' | Classification: tax_notice
+2026-03-10 17:33:27,567 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-10 17:33:27,568 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-10T17:33:27.568565", "query": "What is a Section 143(1) notice?", "query_type": "tax_notice", "num_documents_retrieved": 3, "response_preview": "- Why did I receive a Section 148 notice? - What does 'income escaping assessment' mean? - How do I respond to a reassessment notice? - Can I appeal a Section 148 notice?"}
+2026-03-10 17:34:03,651 | civicassist.api | INFO | [/explain_notice] File received: ABC of Tax.pdf (application/pdf)
+2026-03-10 17:34:03,651 | civicassist.file_processor | INFO | Processing file: ABC of Tax.pdf (type: pdf, content_type: application/pdf)
+2026-03-10 17:34:28,889 | civicassist.retrieval | INFO | Query: 'How do I file my ITR?' | Classification: itr_filing
+2026-03-10 17:34:28,906 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-10 17:34:28,906 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-10T17:34:28.906784", "query": "How do I file my ITR?", "query_type": "itr_filing", "num_documents_retrieved": 3, "response_preview": "- How do I file ITR? - Who should file an income tax return? - Is ITR filing mandatory for me? - What are the required documents for filing?"}
+2026-03-10 17:34:39,726 | civicassist.retrieval | INFO | Query: 'How do I file my ITR?' | Classification: itr_filing
+2026-03-10 17:34:39,750 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-10 17:34:39,750 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-10T17:34:39.750479", "query": "How do I file my ITR?", "query_type": "itr_filing", "num_documents_retrieved": 3, "response_preview": "- How do I file ITR? - Who should file an income tax return? - Is ITR filing mandatory for me? - What are the required documents for filing?"}
+2026-03-11 14:07:38,521 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:09:22,793 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:45:10,738 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:47:02,163 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:47:39,030 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:48:21,753 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 14:48:54,830 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 17:58:11,331 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 21:59:33,548 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 21:59:47,065 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:02:52,434 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:10:35,172 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:19:18,081 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:23:24,938 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:23:37,961 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:23:38,245 | civicassist.api | INFO | [/api/register] New user registered: testuser5f129029@example.com
+2026-03-11 22:23:40,547 | civicassist.api | INFO | [/api/login] User logged in: testuser5f129029@example.com
+2026-03-11 22:24:40,869 | civicassist.api | INFO | [/api/register] New user registered: testuser3cfa06e5@example.com
+2026-03-11 22:24:43,148 | civicassist.api | INFO | [/api/login] User logged in: testuser3cfa06e5@example.com
+2026-03-11 22:25:56,938 | civicassist.api | INFO | [/api/register] New user registered: y2@y.com
+2026-03-11 22:25:59,215 | civicassist.api | INFO | [/api/login] User logged in: y2@y.com
+2026-03-11 22:27:44,374 | civicassist.api | INFO | [/api/register] New user registered: testuser3d752aa3@example.com
+2026-03-11 22:27:46,633 | civicassist.api | INFO | [/api/login] User logged in: testuser3d752aa3@example.com
+2026-03-11 22:28:38,057 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:28:42,814 | civicassist.api | INFO | [/api/register] New user registered: y3@y.com
+2026-03-11 22:28:45,103 | civicassist.api | INFO | [/api/login] User logged in: y3@y.com
+2026-03-11 22:29:23,675 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:29:44,009 | civicassist.api | INFO | [/api/register] New user registered: y4@y.com
+2026-03-11 22:29:46,285 | civicassist.api | INFO | [/api/login] User logged in: y4@y.com
+2026-03-11 22:30:13,724 | civicassist.api | INFO | [/api/register] New user registered: testuser280f29da@example.com
+2026-03-11 22:30:15,973 | civicassist.api | INFO | [/api/login] User logged in: testuser280f29da@example.com
+2026-03-11 22:32:32,069 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:33:03,938 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:33:15,317 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:33:15,564 | civicassist.api | INFO | [/api/register] New user registered: y5@y.com
+2026-03-11 22:33:17,831 | civicassist.api | INFO | [/api/login] User logged in: y5@y.com
+2026-03-11 22:34:23,582 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:34:35,746 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:34:38,019 | civicassist.api | INFO | [/api/login] User logged in: y5@y.com
+2026-03-11 22:34:40,059 | civicassist.api | ERROR | [/api/upload_documents] Error: (sqlite3.OperationalError) table documents has no column named encryption_nonce
+[SQL: INSERT INTO documents (user_id, doc_type, filename, content_type, file_data, encryption_nonce, is_encrypted, uploaded_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: (8, 'aadhaar', 't.pdf', 'application/pdf', <memory at 0x0000016E9784E740>, 'OEw07drKt/ZofcZJ', 1, '2026-03-11 17:04:40.058963')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-11 22:35:20,976 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:35:30,408 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:35:32,641 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:35:44,688 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:35:59,340 | civicassist.api | INFO | [/api/register] New user registered: testuser80ee58ee@example.com
+2026-03-11 22:36:01,599 | civicassist.api | INFO | [/api/login] User logged in: testuser80ee58ee@example.com
+2026-03-11 22:36:03,637 | civicassist.api | ERROR | [/api/upload_documents] Error: (sqlite3.OperationalError) table documents has no column named encryption_nonce
+[SQL: INSERT INTO documents (user_id, doc_type, filename, content_type, file_data, encryption_nonce, is_encrypted, uploaded_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: (9, 'aadhaar', 'test_aadhaar.pdf', 'application/pdf', <memory at 0x000001770C81A8C0>, 'mPFfHKqsDZ5oLH2G', 1, '2026-03-11 17:06:03.636386')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-11 22:36:18,180 | civicassist.api | INFO | [/api/login] User logged in: y5@y.com
+2026-03-11 22:36:20,225 | civicassist.api | ERROR | [/api/upload_documents] Error: (sqlite3.OperationalError) table documents has no column named encryption_nonce
+[SQL: INSERT INTO documents (user_id, doc_type, filename, content_type, file_data, encryption_nonce, is_encrypted, uploaded_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: (8, 'aadhaar', 't.pdf', 'application/pdf', <memory at 0x000001770C819180>, 'sK5N3OiZketqwoO3', 1, '2026-03-11 17:06:20.224878')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-11 22:36:58,691 | civicassist.api | INFO | [/api/register] New user registered: testuser4073e7d0@example.com
+2026-03-11 22:37:00,938 | civicassist.api | INFO | [/api/login] User logged in: testuser4073e7d0@example.com
+2026-03-11 22:37:03,004 | civicassist.api | INFO | [/api/upload_documents] Documents uploaded successfully for: testuser4073e7d0@example.com
+2026-03-11 22:37:34,330 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:38:05,315 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:38:37,096 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 22:39:46,169 | civicassist.api | INFO | [/api/register] New user registered: mayasahasra2005@gmail.com
+2026-03-11 22:39:53,145 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-11 22:44:38,489 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:15:29,701 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:15:43,347 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:15:56,295 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:24:19,126 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:27:02,678 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:27:34,478 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:32:18,405 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:33:18,681 | civicassist.api | INFO | [/api/register] New user registered: 9998887776refactor_verify@example.com
+2026-03-11 23:34:14,964 | civicassist.api | INFO | [/api/register] New user registered: refactor_verify@example.com
+2026-03-11 23:34:38,491 | civicassist.api | INFO | [/api/login] User logged in: refactor_verify@example.com
+2026-03-11 23:43:54,739 | civicassist.api | INFO | [/api/upload_document] aadhaar uploaded for user: refactor_verify@example.com
+2026-03-11 23:44:00,000 | civicassist.api | INFO | [/api/upload_document] pan uploaded for user: refactor_verify@example.com
+2026-03-11 23:48:47,380 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:49:05,177 | civicassist.api | INFO | Database tables created / verified.
+2026-03-11 23:50:27,149 | civicassist.api | INFO | [/api/login] User logged in: refactor_verify@example.com
+2026-03-12 00:19:52,122 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:19:58,650 | civicassist.api | INFO | [/api/register] New user registered: test_ec39b182@example.com
+2026-03-12 00:20:20,185 | civicassist.api | INFO | [/api/register] New user registered: test_11a24e75@example.com
+2026-03-12 00:20:22,433 | civicassist.api | INFO | [/api/login] User logged in: test_11a24e75@example.com
+2026-03-12 00:20:53,789 | civicassist.api | INFO | [/api/register] New user registered: doc_test_38b4970d@example.com
+2026-03-12 00:20:56,050 | civicassist.api | INFO | [/api/login] User logged in: doc_test_38b4970d@example.com
+2026-03-12 00:20:58,103 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: doc_test_38b4970d@example.com
+2026-03-12 00:22:23,507 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:25:39,365 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 00:25:48,111 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: mayasahasra2005@gmail.com
+2026-03-12 00:25:51,779 | civicassist.api | INFO | [/api/upload_document] pan saved to disk for user: mayasahasra2005@gmail.com
+2026-03-12 00:29:38,425 | civicassist.api | INFO | [/api/register] New user registered: secure_test_97ad29bc@example.com
+2026-03-12 00:29:40,653 | civicassist.api | INFO | [/api/login] User logged in: secure_test_97ad29bc@example.com
+2026-03-12 00:29:42,703 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: secure_test_97ad29bc@example.com
+2026-03-12 00:31:47,174 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 00:35:15,752 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_cfb8fd78@example.com
+2026-03-12 00:35:17,978 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_cfb8fd78@example.com
+2026-03-12 00:35:20,022 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: integrity_test_cfb8fd78@example.com
+2026-03-12 00:35:46,613 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_58d919e7@example.com
+2026-03-12 00:35:48,858 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_58d919e7@example.com
+2026-03-12 00:35:50,898 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: integrity_test_58d919e7@example.com
+2026-03-12 00:36:15,903 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_1b0b6dc1@example.com
+2026-03-12 00:36:18,139 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_1b0b6dc1@example.com
+2026-03-12 00:36:20,201 | civicassist.api | INFO | [/api/upload_document] aadhaar saved to disk for user: integrity_test_1b0b6dc1@example.com
+2026-03-12 00:36:53,294 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:37:02,685 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_4129691b@example.com
+2026-03-12 00:37:04,930 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_4129691b@example.com
+2026-03-12 00:37:06,982 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: integrity_test_4129691b@example.com
+2026-03-12 00:37:09,019 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user integrity_test_4129691b@example.com: Authentic=True
+2026-03-12 00:37:36,836 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_6e4a6edc@example.com
+2026-03-12 00:37:39,077 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_6e4a6edc@example.com
+2026-03-12 00:37:43,198 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: integrity_test_6e4a6edc@example.com
+2026-03-12 00:37:45,247 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user integrity_test_6e4a6edc@example.com: Authentic=True
+2026-03-12 00:38:28,243 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:38:39,003 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:38:53,513 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:39:05,184 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_a221831d@example.com
+2026-03-12 00:39:07,482 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_a221831d@example.com
+2026-03-12 00:39:11,583 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: integrity_test_a221831d@example.com
+2026-03-12 00:39:13,627 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user integrity_test_a221831d@example.com: Authentic=True
+2026-03-12 00:39:17,725 | civicassist.api | ERROR | Decryption failed during integrity check: 
+2026-03-12 00:39:52,910 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 00:39:54,300 | civicassist.api | INFO | [/api/register] New user registered: integrity_test_5e92df42@example.com
+2026-03-12 00:39:56,578 | civicassist.api | INFO | [/api/login] User logged in: integrity_test_5e92df42@example.com
+2026-03-12 00:40:00,674 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: integrity_test_5e92df42@example.com
+2026-03-12 00:40:02,714 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user integrity_test_5e92df42@example.com: Authentic=True
+2026-03-12 00:40:06,777 | civicassist.api | ERROR | Decryption failed during integrity check: 
+2026-03-12 00:40:06,779 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user integrity_test_5e92df42@example.com: Authentic=False
+2026-03-12 00:42:05,669 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 00:42:50,398 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 00:44:49,930 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 00:49:55,135 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 00:51:17,362 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 01:10:47,390 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 01:11:53,591 | civicassist.api | INFO | [/api/register] New user registered: test@test.com
+2026-03-12 01:15:57,951 | civicassist.api | INFO | [/api/login] User logged in: test@test.com
+2026-03-12 01:28:43,735 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 01:30:00,151 | civicassist.api | INFO | [/api/login] User logged in: test@test.com
+2026-03-12 01:37:40,444 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 01:37:56,131 | civicassist.retrieval | INFO | Query: 'How to withdraw PF?' | Classification: general
+2026-03-12 01:38:01,457 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 01:38:01,461 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T01:38:01.461120", "query": "How to withdraw PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 01:38:20,270 | civicassist.retrieval | INFO | Query: 'How to withdraw PF?' | Classification: general
+2026-03-12 01:38:20,326 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 01:38:20,328 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T01:38:20.328213", "query": "How to withdraw PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 01:38:22,383 | civicassist.api | INFO | [/explain_notice] File received: dummy_notice.txt (text/plain)
+2026-03-12 01:38:22,385 | civicassist.file_processor | INFO | Processing file: dummy_notice.txt (type: unsupported, content_type: text/plain)
+2026-03-12 01:38:37,214 | civicassist.retrieval | INFO | Query: 'How to withdraw PF?' | Classification: general
+2026-03-12 01:38:37,237 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 01:38:37,239 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T01:38:37.239012", "query": "How to withdraw PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 01:38:39,304 | civicassist.api | INFO | [/explain_notice] File received: dummy_notice.txt (text/plain)
+2026-03-12 01:38:39,305 | civicassist.file_processor | INFO | Processing file: dummy_notice.txt (type: unsupported, content_type: text/plain)
+2026-03-12 01:39:03,354 | civicassist.retrieval | INFO | Query: 'How to withdraw PF?' | Classification: general
+2026-03-12 01:39:03,377 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 01:39:03,378 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T01:39:03.378110", "query": "How to withdraw PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 01:39:05,427 | civicassist.api | INFO | [/explain_notice] File received: dummy_notice.txt (text/plain)
+2026-03-12 01:39:05,428 | civicassist.file_processor | INFO | Processing file: dummy_notice.txt (type: unsupported, content_type: text/plain)
+2026-03-12 01:40:45,345 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 01:40:50,195 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 01:41:44,136 | civicassist.api | INFO | [/api/register] New user registered: akshara@gmail.com
+2026-03-12 01:41:51,156 | civicassist.api | INFO | [/api/login] User logged in: akshara@gmail.com
+2026-03-12 01:41:59,681 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: akshara@gmail.com
+2026-03-12 01:42:03,760 | civicassist.api | INFO | [/api/upload_document] pan saved and hashed for user: akshara@gmail.com
+2026-03-12 01:42:05,654 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 01:44:29,183 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 01:47:11,317 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 01:47:24,586 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 01:52:28,889 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 01:52:42,790 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 02:00:54,985 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 02:00:58,748 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 02:01:48,622 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=False
+2026-03-12 02:06:22,876 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: mayasahasra2005@gmail.com
+2026-03-12 02:09:40,780 | civicassist.api | INFO | [/api/upload_document] pan saved and hashed for user: akshara@gmail.com
+2026-03-12 02:09:42,410 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 02:09:48,286 | civicassist.api | INFO | [/api/verify_integrity] Verified pan for user akshara@gmail.com: Authentic=True
+2026-03-12 09:36:27,255 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 09:37:54,100 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 09:38:38,891 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: akshara@gmail.com
+2026-03-12 09:38:41,373 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 09:38:50,398 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user akshara@gmail.com: Authentic=True
+2026-03-12 09:39:08,655 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 09:40:17,675 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 09:40:40,908 | civicassist.api | INFO | [/api/upload_document] pan saved and hashed for user: mayasahasra2005@gmail.com
+2026-03-12 09:40:58,188 | civicassist.api | INFO | [/api/login] User logged in: akshara@gmail.com
+2026-03-12 09:41:26,674 | civicassist.api | INFO | [/api/upload_document] aadhaar saved and hashed for user: akshara@gmail.com
+2026-03-12 09:41:30,259 | civicassist.api | INFO | [/api/upload_document] pan saved and hashed for user: akshara@gmail.com
+2026-03-12 09:42:02,069 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 09:45:28,037 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=True
+2026-03-12 09:50:23,217 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=True
+2026-03-12 09:50:28,103 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=True
+2026-03-12 09:53:01,199 | civicassist.retrieval | INFO | Query: 'Passport Delay' | Classification: refund_status
+2026-03-12 09:53:19,868 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 09:53:19,870 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T09:53:19.870154", "query": "Passport Delay", "query_type": "refund_status", "num_documents_retrieved": 3, "response_preview": "- Refunds: Delay in refund processing and no interest on refund for the delay period."}
+2026-03-12 09:58:15,719 | civicassist.api | INFO | [/api/register] New user registered: mani@gmail.com
+2026-03-12 09:58:23,207 | civicassist.api | INFO | [/api/login] User logged in: mani@gmail.com
+2026-03-12 10:10:18,365 | civicassist.api | INFO | [/api/login] User logged in: test@test.com
+2026-03-12 10:20:29,092 | civicassist.api | INFO | [/api/login] User logged in: mani@gmail.com
+2026-03-12 10:21:06,256 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 10:21:53,069 | civicassist.api | INFO | [/api/verify_integrity] Verified aadhaar for user mayasahasra2005@gmail.com: Authentic=True
+2026-03-12 10:25:03,451 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 10:25:03,534 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:25:03,535 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:25:03.535666", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 10:25:36,717 | civicassist.retrieval | INFO | Query: 'How to transfer PF to new job?' | Classification: general
+2026-03-12 10:25:36,766 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:25:36,768 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:25:36.768191", "query": "How to transfer PF to new job?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Transfer Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 13581197183"}
+2026-03-12 10:25:46,743 | civicassist.retrieval | INFO | Query: 'What does Pending employer approval mean?' | Classification: general
+2026-03-12 10:25:46,786 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:25:46,787 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:25:46.787768", "query": "What does Pending employer approval mean?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "1. Identify Notice Type: Log in to portal → 'Pending Actions' → 'e-Proceedings'. Note the Section (e.g., 143(1), 139(9), 148, 142(1)). 2. Understand the Query: Read the notice PDF carefully to identif"}
+2026-03-12 10:25:55,454 | civicassist.retrieval | INFO | Query: 'What does Pending employer approval mean?' | Classification: general
+2026-03-12 10:25:55,488 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:25:55,490 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:25:55.490133", "query": "What does Pending employer approval mean?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "1. Identify Notice Type: Log in to portal → 'Pending Actions' → 'e-Proceedings'. Note the Section (e.g., 143(1), 139(9), 148, 142(1)). 2. Understand the Query: Read the notice PDF carefully to identif"}
+2026-03-12 10:26:46,711 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 10:26:46,749 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:26:46,750 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:26:46.750527", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 10:27:36,765 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 10:27:36,806 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:27:36,807 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:27:36.807670", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 10:28:26,658 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 10:28:26,703 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:28:26,705 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:28:26.704944", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 10:41:30,275 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 10:41:30,303 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 10:41:30,303 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T10:41:30.303654", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 11:14:52,793 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 11:14:52,835 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 11:14:52,836 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T11:14:52.836695", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 11:28:52,505 | civicassist.api | INFO | [/api/login] User logged in: mani@gmail.com
+2026-03-12 11:28:56,657 | civicassist.retrieval | INFO | Query: 'How do I withdraw my PF?' | Classification: general
+2026-03-12 11:28:56,685 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 11:28:56,686 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T11:28:56.686770", "query": "How do I withdraw my PF?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Withdrawal Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 135811971"}
+2026-03-12 11:36:02,322 | civicassist.api | INFO | [/api/login] User logged in: test@test.com
+2026-03-12 11:46:14,193 | civicassist.api | INFO | Database tables created / verified.
+2026-03-12 11:47:15,327 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 11:48:01,041 | civicassist.retrieval | INFO | Query: 'How to transfer PF to new job?' | Classification: general
+2026-03-12 11:48:07,861 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 11:48:07,862 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T11:48:07.862859", "query": "How to transfer PF to new job?", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Pf Transfer Process DEPARTMENT ---------- EPFO DESCRIPTION ----------- The requested URL was rejected. Please consult with your administrator. Your support ID is: 13581197183"}
+2026-03-12 11:49:08,724 | civicassist.retrieval | INFO | Query: 'Link Aadhaar to UAN' | Classification: general
+2026-03-12 11:49:08,764 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 11:49:08,765 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T11:49:08.765924", "query": "Link Aadhaar to UAN", "query_type": "general", "num_documents_retrieved": 3, "response_preview": "SERVICE NAME ------------ Aadhaar Faq DEPARTMENT ---------- AADHAAR DESCRIPTION ----------- Language Selection - Unique Identification Authority of India | Government of India Select your Preferred La"}
+2026-03-12 11:49:28,383 | civicassist.retrieval | INFO | Query: 'Passport Delay' | Classification: refund_status
+2026-03-12 11:49:28,404 | civicassist.retrieval | INFO | Retrieved 3 documents.
+2026-03-12 11:49:28,405 | civicassist | INFO | PIPELINE_EVENT: {"timestamp": "2026-03-12T11:49:28.405876", "query": "Passport Delay", "query_type": "refund_status", "num_documents_retrieved": 3, "response_preview": "- Refunds: Delay in refund processing and no interest on refund for the delay period."}
+2026-03-12 11:51:39,052 | civicassist.api | INFO | [/api/login] User logged in: mani@gmail.com
+2026-03-12 11:53:17,312 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 12:07:12,327 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 12:08:15,549 | civicassist.api | INFO | [/api/login] User logged in: mayasahasra2005@gmail.com
+2026-03-12 12:12:48,903 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:12:49,168 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:21:02,499 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:21:02,821 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:25:42,280 | civicassist.api | INFO | [/api/login] User logged in: akshara@gmail.com
+2026-03-12 12:42:34,695 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:42:34,713 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:49:52,590 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 12:49:52,600 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:10:03,872 | civicassist.api | INFO | [/api/login] User logged in: akshara@gmail.com
+2026-03-12 13:10:56,491 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:10:56,501 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:11:05,453 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:11:05,470 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:11:59,692 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-03-12 13:11:59,702 | civicassist.identity_service | ERROR | OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.

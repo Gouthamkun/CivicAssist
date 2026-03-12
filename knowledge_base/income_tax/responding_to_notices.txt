@@ -1,0 +1,36 @@
+# Page 7: Responding to Income Tax Notices
+
+**Page ID:** RESPOND_TO_NOTICES
+**Category:** TAX_NOTICES
+
+## Official Sources
+- General Notice Response Guide: https://www.incometaxindia.gov.in/communications/faqs-notices
+- Portal Navigation: https://www.incometax.gov.in/iec/foportal/help/notices
+
+## Notice Response Workflow
+1. **Identify Notice Type:** Log in to portal → 'Pending Actions' → 'e-Proceedings'. Note the Section (e.g., 143(1), 139(9), 148, 142(1)).
+2. **Understand the Query:** Read the notice PDF carefully to identify the specific discrepancy, demand, or missing document.
+3. **Gather Documents:** Collect relevant PAN, Aadhaar, Bank Statements, AIS, and Form 16/26AS as per the notice requirement.
+4. **File Online Response:**
+   - Go to 'Pending Actions' → 'e-Proceedings' → 'View Notice' → 'Submit Response'.
+   - Select 'Agree' or 'Disagree' (with remarks).
+   - Upload supporting evidence (PDF format, max 5MB).
+   - Submit and download the acknowledgment.
+5. **Track Status:** Monitor the 'e-Proceedings' section for updates or successful closure.
+
+## Best Practices
+- Respond within **15-30 days** as specified in the notice. Do not wait for the deadline.
+- Ensure all uploaded documents are clearly legible.
+- Keep copies of all digital and physical submissions.
+- For complex legal notices like Section 148, consult with a Chartered Accountant (CA).
+
+## Common Consequences of Missing Deadline
+- Automatic processing based on department's calculations (best judgment).
+- Penalties levied under Section 234F or Section 271/270A.
+- Recovery actions initiated for unpaid tax demands.
+
+## Typical Queries
+- How do I respond to an income tax notice?
+- Where can I see my pending notices?
+- What if I miss the response deadline?
+- Can I respond to a notice offline? (Online is preferred, but some AO letters require physical reply).

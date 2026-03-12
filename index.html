@@ -65,6 +65,14 @@
                 <div class="search-box">
                     <i class="fa-solid fa-magnifying-glass text-muted"></i>
                     <input type="text" id="ai-search-input" placeholder="Search for PF withdrawal, Passport status, Tax queries..." autocomplete="off">
+                    
+                    <!-- Hidden file input for Notice Upload -->
+                    <input type="file" id="notice-upload-input" style="display: none;" accept=".pdf,.png,.jpg,.jpeg,.txt" onchange="handleNoticeUpload(this)">
+                    
+                    <button class="notice-upload-btn" onclick="triggerNoticeUpload()" title="Upload Tax/Govt Notice" style="background: var(--accent-purple, #6f42c1); color: white; border-radius: 50%; width: 40px; height: 40px; min-width: 40px; display: flex; align-items: center; justify-content: center; margin: 0 10px; cursor: pointer; border: none; z-index: 5;">
+                        <i class="fa-solid fa-file-upload"></i>
+                    </button>
+
                     <div class="category-dropdown">
                         All Categories <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -199,7 +207,7 @@
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="category-card" onclick="executeQuickQuery('How do I withdraw my PF?')">
+                <div class="category-card" onclick="openPFWithdrawalModes()">
                     <div class="cat-icon-box"><i class="fa-solid fa-money-bill-transfer"></i></div>
                     <div class="cat-content"><h4>PF Withdrawal</h4><p>Step-by-step guidance, required forms (Form 19/31), and eligibility explanations.</p></div>
                 </div>
@@ -257,6 +265,61 @@
                     <div class="cat-icon-box" style="background-color:#dc3545;"><i class="fa-solid fa-file-signature"></i></div>
                     <div class="cat-content"><h4>Grievance Generator</h4><p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.</p></div>
                 </div>
+            </div>
+        </div>
+    </template>
+    
+    <!-- PF Withdrawal Mode Selection Template -->
+    <template id="pf-withdrawal-modes-template">
+        <div class="pf-modes-container" style="padding: 10px;">
+            <h3 style="margin-bottom: 20px; color: var(--primary-red); border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">
+                <i class="fa-solid fa-money-bill-transfer"></i> PF Withdrawal Options
+            </h3>
+            <p style="margin-bottom: 25px; color: var(--text-muted);">Choose how you would like to proceed with your PF withdrawal claim.</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <!-- Option 1: Verification -->
+                <div class="category-card" onclick="renderPFVerificationView()" style="flex-direction: column; text-align: center; align-items: center; padding: 30px; border: 2px solid #e0e0e0; transition: all 0.3s; height: 100%;">
+                    <div class="cat-icon-box" style="margin-bottom: 15px; width: 70px; height: 70px; font-size: 2.22rem; background: #00b074;">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <h4>Verify My Details</h4>
+                    <p style="font-size: 0.85rem; margin-top: 10px;">Check if your EPFO data matches your Aadhaar/PAN to avoid rejections.</p>
+                    <button class="btn-primary" style="margin-top: 20px; width: 100%; pointer-events: none;">Start Verification</button>
+                </div>
+
+                <!-- Option 2: Guidance -->
+                <div class="category-card" onclick="renderPFGuidanceView()" style="flex-direction: column; text-align: center; align-items: center; padding: 30px; border: 2px solid #e0e0e0; transition: all 0.3s; height: 100%;">
+                    <div class="cat-icon-box" style="margin-bottom: 15px; width: 70px; height: 70px; font-size: 2.22rem; background: var(--accent-purple);">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h4>Guidance Mode</h4>
+                    <p style="font-size: 0.85rem; margin-top: 10px;">New to PF withdrawal? Get a step-by-step roadmap and personalized tips.</p>
+                    <button class="btn-primary" style="margin-top: 20px; width: 100%; background: var(--accent-purple); pointer-events: none;">Get Roadmap</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- PF Verification View Template -->
+    <template id="pf-verification-template">
+        <div class="verification-view" style="padding: 10px;">
+             <h3 style="margin-bottom: 20px; color: var(--primary-red); border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">
+                <i class="fa-solid fa-user-check"></i> Claim Verification
+            </h3>
+            <div class="glass-panel" style="padding: 20px; border-radius: 8px; border: 1px solid var(--border-color); background: #f8f9fa;">
+                <p style="margin-bottom: 20px;">Upload a screenshot of your <strong>EPFO Member Passbook</strong> (profile page) to verify your name and DOB against your govt documents.</p>
+                
+                <div id="passbook-drop-zone" style="border: 2px dashed var(--border-color); padding: 40px; text-align: center; border-radius: 8px; cursor: pointer; transition: all 0.2s;" onclick="document.getElementById('passbook-file-input').click()">
+                    <i class="fa-solid fa-cloud-arrow-up" style="font-size: 3rem; color: var(--text-muted); margin-bottom: 15px;"></i>
+                    <h4>Click or Drag Passbook Screenshot</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Supports PNG, JPG (Max 5MB)</p>
+                    <input type="file" id="passbook-file-input" style="display: none;" accept="image/*" onchange="handlePassbookUpload(this)">
+                </div>
+            </div>
+            
+            <div id="verification-result-container" style="margin-top: 25px;">
+                <!-- Result will be injected here -->
             </div>
         </div>
     </template>

@@ -1,0 +1,39 @@
+# Page 5: Section 139(9) – Defective Return Notice
+
+**Page ID:** SECTION_139_9_NOTICE
+**Category:** TAX_NOTICES
+
+## Official Sources
+- Defective Return Rules: https://www.incometaxindia.gov.in/communications/notification/notification-62-2023
+- 139(9) Guidelines: https://www.incometax.gov.in/iec/foportal/help/notices/139-9
+
+## Notice Details
+- **Definition:** Notice issued when the ITR is considered incomplete or contains obvious errors specified in the law.
+- **Legal Reference:** Section 139(9) of Income Tax Act, 1961.
+- **Issued By:** Centralized Processing Center (CPC) or Assessing Officer (AO).
+
+## Common Reasons for Defects
+- Missing mandatory schedules (e.g., Balance Sheet/P&L for businesses).
+- Taxes paid but not reported (TDS/Self-Assessment Tax).
+- Arithmetic errors in computation.
+- Unsigned return/unverified return.
+- Missing specific fields in the ITR form.
+- Incomplete audit reports (if required).
+
+## How to Correct
+- **Deadline:** Within **15 days** from notice receipt (can be extended).
+- **Actions:**
+  - **Online Response:** Login to portal → 'Pending Actions' → 'e-Proceedings' → 'Submit Response'.
+  - **Correction:** Modify the ITR and resubmit as a "Response to Section 139(9)".
+
+## Consequences of Non-Response
+- The return will be rejected and treated as **INVALID (Never Filed)**.
+- Penalties for late filing apply.
+- No processing of tax credits or refunds.
+- Potential interest under Section 234A.
+
+## Typical Queries
+- What is a defective return notice?
+- How do I fix a 139(9) notice?
+- What happens if I don't respond to 139(9) on time?
+- Can I get an extension for a defective return notice? (Yes, apply to AO).

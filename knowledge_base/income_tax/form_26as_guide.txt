@@ -1,0 +1,45 @@
+# Page 8: Form 26AS (Tax Credit Statement)
+
+**Page ID:** FORM_26AS
+**Category:** STATEMENTS
+
+## Official Sources
+- Form 26AS Guide: https://www.incometaxindia.gov.in/communications/faqs-form-26as
+- Portal Access: https://www.incometax.gov.in/iec/foportal/login
+- Technical Specs: https://www.incometaxindia.gov.in/communications/notification/notification-43-2023
+
+## Overview
+- **Definition:** Consolidated annual tax statement showing all TDS/TCS deducted and paid on your behalf.
+- **Legal Basis:** Section 203A(1) of Income Tax Act, 1961.
+- **Issued By:** Income Tax Department (TRACES portal).
+
+## Contents of Form 26AS
+- **TDS:** Details of Tax Deducted at Source by employer (Sec 192), Banks (Sec 194A), or others.
+- **TCS:** Tax Collected at Source on high-value items (e.g., car purchase).
+- **Advance/Self-Assessment Tax:** Record of taxes you paid directly via challans.
+- **Tax Refunds:** Details of refunds received during the year (with interest).
+- **High-Value Transactions (SFT):** Transactions reported by banks/financial institutions (Property, Mutual Funds).
+- **Turnover details:** From GSTR-3B filings (if applicable).
+
+## How to Access
+1. Visit [incometax.gov.in](https://www.incometax.gov.in) and login.
+2. Navigate to **'e-File'** → **'Income Tax Returns'** → **'View Form 26AS'**.
+3. Redirect to TRACES portal → Agree to terms → 'View Tax Credit'.
+4. Select Financial Year → View as HTML → Export as PDF.
+
+## How to Use while Filing ITR
+- **Validation:** Match TDS amounts in Form 26AS with your Form 16/16A.
+- **Credit Claim:** Ensure all TDS shown in 26AS is correctly entered in the ITR "Schedules for Tax Credit".
+- **Refund Claim:** Use 26AS as primary proof when claiming high tax refunds.
+
+## Common Mismatches
+- **TDS Missing:** Deductor has not filed the TDS return. Contact them to file/update.
+- **Wrong Amount:** Deductor filed the wrong PAN or amount. Request a corrected Form 16A/ITR.
+- **Timeline:** TDS usually reflects in 26AS within 1-3 months after the end of the quarter.
+
+## Typical Queries
+- What is Form 26AS?
+- How do I download Form 26AS?
+- Why is my TDS not showing in 26AS?
+- What if 26AS and Form 16 don't match?
+- What is the password for Form 26AS PDF? (Date of Birth in DDMMYYYY format).

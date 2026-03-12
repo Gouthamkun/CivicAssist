@@ -1,0 +1,48 @@
+# Page 3: ITR Verification Process
+
+**Page ID:** ITR_VERIFICATION
+**Category:** CORE_FILING
+
+## Official Sources
+- Verification Guide: https://www.incometaxindia.gov.in/communications/notification/notification-17-2023
+- e-Verification Methods: https://www.incometax.gov.in/iec/foportal/help/verification
+- Aadhaar OTP Guide: https://www.incometaxindia.gov.in/communications/faqs-aadhaar-verification
+
+## Verification Methods
+
+### Aadhaar OTP
+- **Description:** Verify using OTP on mobile registered with Aadhaar.
+- **Steps:** Login → 'e-File' → 'Income Tax Returns' → 'e-Verify Return' → Select 'Aadhaar OTP'.
+- **Timeline:** 24 hours (usually instant).
+- **Documents Needed:** Aadhaar number, Mobile for OTP.
+
+### Bank Account (EVC)
+- **Description:** Generate Electronic Verification Code through pre-validated bank account.
+- **Eligible Banks:** Most major banks (SBI, HDFC, ICICI, etc.).
+- **Timeline:** Immediate.
+
+### Net Banking
+- **Description:** Direct verification by logging into the e-filing portal via the bank's net banking page.
+- **Timeline:** Immediate.
+
+### Digital Signature Certificate (DSC)
+- **Description:** Mandatory for audit cases. E-sign using a valid DSC.
+- **Timeline:** Immediate.
+
+### Physical Verification (ITR-V)
+- **Description:** Send signed paper acknowledgment to CPC, Bengaluru.
+- **Steps:** Print ITR-V → Sign in Blue Ink → Send via Speed Post.
+- **Timeline:** 30 days from submission.
+
+## Consequences of Non-Verification
+- Return will NOT be processed.
+- No tax refund will be issued.
+- No tax credit available.
+- Return treated as completely invalid/not filed.
+- May lead to Section 139(8) notice or interest under 234A.
+
+## Typical Queries
+- How do I verify my ITR?
+- What if I don't verify my return on time?
+- How long does verification take?
+- I don't have Aadhaar OTP, how can I verify?

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CivicAssist | Login</title>
-    <!-- Modern Typography fitting the official look -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
@@ -15,34 +14,44 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
-            overflow: hidden;
+            overflow-y: auto;
             position: relative;
         }
 
-        /* Abstract background layer for depth */
         .bg-shapes {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             overflow: hidden;
             z-index: 0;
             pointer-events: none;
         }
-        .bg-shapes::before, .bg-shapes::after {
+
+        .bg-shapes::before,
+        .bg-shapes::after {
             content: '';
             position: absolute;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(228,49,55,0.15) 0%, rgba(28,40,61,0) 70%);
+            background: radial-gradient(circle, rgba(228, 49, 55, 0.15) 0%, rgba(28, 40, 61, 0) 70%);
         }
+
         .bg-shapes::before {
-            width: 800px; height: 800px;
-            top: -200px; left: -200px;
+            width: 800px;
+            height: 800px;
+            top: -200px;
+            left: -200px;
         }
+
         .bg-shapes::after {
-            width: 600px; height: 600px;
-            bottom: -150px; right: -100px;
-            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(28,40,61,0) 70%);
+            width: 600px;
+            height: 600px;
+            bottom: -150px;
+            right: -100px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, rgba(28, 40, 61, 0) 70%);
         }
 
         .auth-container {
@@ -50,18 +59,19 @@
             z-index: 10;
             background: var(--white);
             width: 100%;
-            max-width: 420px;
+            max-width: 460px;
             border-radius: 8px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             padding: 40px;
             text-align: center;
             overflow: hidden;
+            margin: 30px 15px;
         }
 
         .auth-logo {
             margin-bottom: 20px;
         }
-        
+
         .auth-logo i {
             font-size: 3rem;
             color: var(--primary-red);
@@ -106,7 +116,7 @@
             height: calc(100% - 8px);
             background: var(--white);
             border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease;
             z-index: 1;
         }
@@ -123,8 +133,15 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .input-group {
@@ -132,7 +149,7 @@
             text-align: left;
         }
 
-        .input-group i {
+        .input-group i.field-icon {
             position: absolute;
             top: 50%;
             left: 15px;
@@ -141,7 +158,10 @@
             font-size: 1rem;
         }
 
-        .input-group input {
+        .input-group input[type="text"],
+        .input-group input[type="email"],
+        .input-group input[type="tel"],
+        .input-group input[type="password"] {
             width: 100%;
             padding: 12px 15px 12px 40px;
             border: 1px solid var(--border-color);
@@ -150,10 +170,79 @@
             color: var(--text-dark);
             outline: none;
             transition: border-color 0.2s;
+            box-sizing: border-box;
         }
 
         .input-group input:focus {
             border-color: var(--primary-blue);
+        }
+
+        /* File Upload Styling */
+        .upload-group {
+            text-align: left;
+        }
+
+        .upload-group label.upload-label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+        }
+
+        .upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: 6px;
+            padding: 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: #fafbfc;
+            position: relative;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary-blue);
+            background: #f0f4ff;
+        }
+
+        .upload-area.has-file {
+            border-color: #00b074;
+            background: #f0fdf4;
+        }
+
+        .upload-area i {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .upload-area.has-file i {
+            color: #00b074;
+        }
+
+        .upload-area p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin: 4px 0 0 0;
+        }
+
+        .upload-area .file-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-top: 4px;
+            word-break: break-all;
+        }
+
+        .upload-area input[type="file"] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
         }
 
         .btn-auth {
@@ -165,10 +254,18 @@
             font-weight: 500;
             margin-top: 10px;
             transition: background-color 0.2s;
+            width: 100%;
+            border: none;
+            cursor: pointer;
         }
 
         .btn-auth:hover {
             background-color: #b91d21;
+        }
+
+        .btn-auth:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
         }
 
         .auth-footer {
@@ -181,9 +278,9 @@
             color: var(--primary-blue);
             font-weight: 500;
         }
-
     </style>
 </head>
+
 <body>
 
     <div class="bg-shapes"></div>
@@ -203,35 +300,36 @@
         <!-- Login Form -->
         <form id="login-form" class="auth-form active">
             <div class="input-group">
-                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-envelope field-icon"></i>
                 <input type="email" id="login-email" placeholder="Email Address" required>
             </div>
             <div class="input-group">
-                <i class="fa-solid fa-lock"></i>
+                <i class="fa-solid fa-lock field-icon"></i>
                 <input type="password" id="login-password" placeholder="Password" required>
             </div>
-            <button type="submit" class="btn-auth">Access Portal</button>
+            <button type="submit" class="btn-auth" id="login-btn">Access Portal</button>
         </form>
 
         <!-- Register Form -->
         <form id="register-form" class="auth-form">
             <div class="input-group">
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-user field-icon"></i>
                 <input type="text" id="reg-name" placeholder="Full Name" required>
             </div>
             <div class="input-group">
-                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-envelope field-icon"></i>
                 <input type="email" id="reg-email" placeholder="Email Address" required>
             </div>
             <div class="input-group">
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone field-icon"></i>
                 <input type="tel" id="reg-phone" placeholder="Mobile Number" required>
             </div>
             <div class="input-group">
-                <i class="fa-solid fa-lock"></i>
+                <i class="fa-solid fa-lock field-icon"></i>
                 <input type="password" id="reg-password" placeholder="Create Password" minlength="6" required>
             </div>
-            <button type="submit" class="btn-auth">Create Account</button>
+
+            <button type="submit" class="btn-auth" id="register-btn">Create Account</button>
         </form>
 
         <div class="auth-footer">
@@ -240,20 +338,26 @@
     </div>
 
     <script>
-        // Optional: Redirect if already logged in
-        if (localStorage.getItem('civic_logged_in') === 'true') {
-            window.location.href = 'index.html';
+        const API_BASE = window.location.origin;
+
+        // Redirect if already logged in (has valid token)
+        const token = localStorage.getItem('civic_token');
+        if (token) {
+            fetch(API_BASE + '/api/me', {
+                headers: { 'Authorization': 'Bearer ' + token }
+            }).then(r => {
+                if (r.ok) window.location.href = 'index.html';
+            }).catch(() => { });
         }
 
+        // Tab switching
         function switchTab(tab) {
             const loginForm = document.getElementById('login-form');
             const registerForm = document.getElementById('register-form');
             const slider = document.getElementById('slider');
             const buttons = document.querySelectorAll('.toggle-btn');
 
-            // Clear messages
             document.querySelectorAll('.auth-msg').forEach(el => el.remove());
-
             buttons.forEach(btn => btn.classList.remove('active'));
 
             if (tab === 'login') {
@@ -278,73 +382,102 @@
             msgDiv.style.marginBottom = '15px';
             msgDiv.style.fontWeight = '500';
             msgDiv.innerText = msg;
-            
+
             const btn = form.querySelector('button[type="submit"]');
             form.insertBefore(msgDiv, btn);
         }
 
-        // Registration Logic
-        document.getElementById('register-form').addEventListener('submit', function(e) {
+
+        // ============= REGISTRATION =============
+        document.getElementById('register-form').addEventListener('submit', async function (e) {
             e.preventDefault();
             const form = e.target;
-            const email = document.getElementById('reg-email').value.trim().toLowerCase();
+            const btn = document.getElementById('register-btn');
+
+            const name = document.getElementById('reg-name').value.trim();
+            const email = document.getElementById('reg-email').value.trim();
+            const phone = document.getElementById('reg-phone').value.trim();
             const password = document.getElementById('reg-password').value;
-            const name = document.getElementById('reg-name').value;
-            const phone = document.getElementById('reg-phone').value;
 
-            let users = JSON.parse(localStorage.getItem('civic_users') || '{}');
+            // Disable button and show loading
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Registering...';
 
-            if (users[email]) {
-                showMessage(form, "An account with this email already exists.", true);
-                return;
+            const formData = new FormData();
+            formData.append('name', name);
+            formData.append('email', email);
+            formData.append('phone', phone);
+            formData.append('password', password);
+
+            try {
+                const response = await fetch(API_BASE + '/api/register', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    showMessage(form, 'Registration successful! Redirecting to login...', false);
+                    setTimeout(() => {
+                        form.reset();
+                        switchTab('login');
+                        document.getElementById('login-email').value = email;
+                    }, 1000);
+                } else {
+                    showMessage(form, data.detail || 'Registration failed.', true);
+                }
+            } catch (error) {
+                console.error('Registration error:', error);
+                showMessage(form, 'Could not connect to server. Is the backend running?', true);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = 'Create Account';
             }
-
-            users[email] = { name, password, phone };
-            localStorage.setItem('civic_users', JSON.stringify(users));
-
-            showMessage(form, "Registration successful! Redirecting to login...", false);
-            
-            setTimeout(() => {
-                form.reset();
-                switchTab('login');
-                document.getElementById('login-email').value = email;
-            }, 1000);
         });
 
-        // Login Logic
-        document.getElementById('login-form').addEventListener('submit', function(e) {
+        // ============= LOGIN =============
+        document.getElementById('login-form').addEventListener('submit', async function (e) {
             e.preventDefault();
             const form = e.target;
+            const btn = document.getElementById('login-btn');
             const email = document.getElementById('login-email').value.trim().toLowerCase();
             const password = document.getElementById('login-password').value;
 
-            let users = JSON.parse(localStorage.getItem('civic_users') || '{}');
-
-            if (!users[email]) {
-                showMessage(form, "Account not found. Please register first.", true);
-                return;
-            }
-
-            if (users[email].password !== password) {
-                showMessage(form, "Incorrect password. Please try again.", true);
-                return;
-            }
-
-            // Success
-            const btn = form.querySelector('button');
-            const originalText = btn.innerText;
+            btn.disabled = true;
             btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Authenticating...';
-            
-            localStorage.setItem('civic_logged_in', 'true');
-            // Store email along with the rest of the profile data
-            const currentUser = users[email];
-            currentUser.email = email;
-            localStorage.setItem('civic_current_user', JSON.stringify(currentUser));
 
-            setTimeout(() => {
-                window.location.href = 'index.html';
-            }, 800);
+            try {
+                const response = await fetch(API_BASE + '/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password }),
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    // Store JWT token and user data
+                    localStorage.setItem('civic_token', data.token);
+                    localStorage.setItem('civic_logged_in', 'true');
+                    localStorage.setItem('civic_current_user', JSON.stringify(data.user));
+
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 500);
+                } else {
+                    showMessage(form, data.detail || 'Login failed.', true);
+                    btn.disabled = false;
+                    btn.innerHTML = 'Access Portal';
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                showMessage(form, 'Could not connect to server. Is the backend running?', true);
+                btn.disabled = false;
+                btn.innerHTML = 'Access Portal';
+            }
         });
     </script>
 </body>
+
 </html>
