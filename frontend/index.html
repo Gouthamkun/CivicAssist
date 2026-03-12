@@ -75,6 +75,11 @@
                     <i class="fa-solid fa-magnifying-glass text-muted"></i>
                     <input type="text" id="ai-search-input"
                         placeholder="Search for PF withdrawal, Passport status, Tax queries..." autocomplete="off">
+                    
+                    <button class="btn-scan" onclick="openUniversalNoticeExplainer()" title="Upload & Scan Official Notice">
+                        <i class="fa-solid fa-camera"></i>
+                    </button>
+
                     <div class="category-dropdown">
                         All Categories <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -186,10 +191,12 @@
                         </p>
                     </div>
                     <div class="doc-action" id="action-aadhaar">
-                        <label class="btn-upload">
-                            <i class="fa-solid fa-upload"></i> Upload
-                            <input type="file" onchange="uploadDocument('aadhaar', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
-                        </label>
+                         <div class="doc-actions-row">
+                            <label class="btn-upload">
+                                <i class="fa-solid fa-upload"></i> Upload
+                                <input type="file" onchange="uploadDocument('aadhaar', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
+                            </label>
+                         </div>
                     </div>
                 </div>
 
@@ -203,10 +210,12 @@
                         </p>
                     </div>
                     <div class="doc-action" id="action-pan">
-                        <label class="btn-upload">
-                            <i class="fa-solid fa-upload"></i> Upload
-                            <input type="file" onchange="uploadDocument('pan', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
-                        </label>
+                        <div class="doc-actions-row">
+                            <label class="btn-upload">
+                                <i class="fa-solid fa-upload"></i> Upload
+                                <input type="file" onchange="uploadDocument('pan', this)" accept=".pdf,.png,.jpg,.jpeg" style="display:none;">
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -232,11 +241,12 @@
     </div>
 
     <!-- Minimal Footer to match style -->
-    <div class="bottom-branding">
+    <footer class="bottom-branding">
         <div class="container text-center">
-            <p>CivicAssist Hackathon Project - Inspired by india.gov.in</p>
+            <p>&copy; 2024 CivicAssist | National AI Guide for Citizens | Inspired by india.gov.in</p>
+            <p style="font-size: 0.7rem; margin-top: 5px; opacity: 0.7;">Secured using AES-GCM and Blockchain Integrity Verification.</p>
         </div>
-    </div>
+    </footer>
 
     <!-- Hidden Template for EPFO Modal Grid -->
     <template id="epfo-features-template">
@@ -347,14 +357,11 @@
                 </div>
 
                 <!-- Feature 12 -->
-                <div class="category-card"
-                    onclick="executeQuickQuery('Generate a grievance letter for PF claim rejection')">
-                    <div class="cat-icon-box" style="background-color:#dc3545;"><i
-                            class="fa-solid fa-file-signature"></i></div>
+                <div class="category-card" onclick="openGrievanceGenerator()">
+                    <div class="cat-icon-box" style="background-color:#dc3545;"><i class="fa-solid fa-file-signature"></i></div>
                     <div class="cat-content">
                         <h4>Grievance Generator</h4>
-                        <p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.
-                        </p>
+                        <p>Explain your issue and our AI generates a proper complaint letter for the grievance portal.</p>
                     </div>
                 </div>
             </div>
@@ -435,14 +442,46 @@
             <h3 class="sub-header">PF Details Verification</h3>
             <p class="sub-desc">Upload a screenshot of your UAN Passbook to verify details against your identity documents.</p>
             
-            <div class="upload-zone" id="passbook-upload-zone">
+            <div class="upload-zone" id="passbook-upload-zone" onclick="document.getElementById('passbook-input').click()">
                 <i class="fa-solid fa-cloud-arrow-up"></i>
-                <p>Click to upload UAN Passbook screenshot</p>
+                <p id="passbook-upload-text">Click to upload UAN Passbook screenshot</p>
                 <input type="file" onchange="verifyPassbook(this)" accept="image/*" style="display:none;" id="passbook-input">
             </div>
 
             <div id="verification-result-container" style="display:none;">
                 <!-- Results cards will be injected here -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for Grievance Generator -->
+    <template id="grievance-generator-template">
+        <div class="grievance-container" style="padding: 10px;">
+            <h3 style="margin-bottom: 20px; color: var(--primary-red); border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">
+                <i class="fa-solid fa-file-signature"></i> AI Grievance Generator
+            </h3>
+            <p style="margin-bottom: 20px;">Describe the issue you're facing (e.g., PF claim rejected for name mismatch, or Passport delay of 3 months).</p>
+            
+            <textarea id="grievance-input" placeholder="Type your issue details here..." style="width: 100%; height: 120px; padding: 15px; border-radius: 8px; border: 1px solid var(--border-color); margin-bottom: 20px; font-family: inherit; resize: none;"></textarea>
+            
+            <div class="issue-chips" style="display: flex; gap: 10px; margin-bottom: 25px; flex-wrap: wrap;">
+                <button class="chip" onclick="document.getElementById('grievance-input').value = 'My PF claim was rejected due to signature mismatch after 5 years of service.'">PF Rejection</button>
+                <button class="chip" onclick="document.getElementById('grievance-input').value = 'My Passport application has been stuck at police verification for over 45 days.'">Passport Delay</button>
+                <button class="chip" onclick="document.getElementById('grievance-input').value = 'I haven\'t received my tax refund for AY 2023-24 despite ITR-V verification.'">Tax Refund Issue</button>
+            </div>
+
+            <button class="btn btn-primary" onclick="generateGrievanceLetter()" style="width: 100%; padding: 15px; background: var(--primary-red); color: white; border-radius: 5px; font-weight: bold; border: none; cursor: pointer;">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Generate Official Letter
+            </button>
+
+            <div id="grievance-letter-result" style="margin-top: 30px; display: none;">
+                <h4 style="margin-bottom: 10px; color: var(--text-dark);">Generated Letter Preview:</h4>
+                <div id="grievance-letter-content" style="background: white; border: 1px solid #ddd; padding: 25px; border-radius: 8px; font-family: 'Courier New', Courier, monospace; font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+                </div>
+                <div style="margin-top: 20px; display: flex; gap: 10px;">
+                    <button class="btn-outline" onclick="copyGrievance()" style="flex: 1;"><i class="fa-solid fa-copy"></i> Copy Text</button>
+                    <button class="btn-outline" onclick="window.print()" style="flex: 1;"><i class="fa-solid fa-print"></i> Print PDF</button>
+                </div>
             </div>
         </div>
     </template>

@@ -245,6 +245,60 @@
             cursor: pointer;
         }
 
+        .file-preview-container {
+            display: none;
+            margin-top: 10px;
+            align-items: center;
+            gap: 15px;
+            background: #fff;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+        }
+
+        .file-preview-thumbnail {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 4px;
+            background: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        .file-preview-info {
+            flex: 1;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .file-preview-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .file-preview-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-preview-action {
+            font-size: 1rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .btn-preview-action:hover {
+            color: var(--primary-red);
+        }
+
         .btn-auth {
             background-color: var(--primary-red);
             color: var(--white);
@@ -329,6 +383,46 @@
                 <input type="password" id="reg-password" placeholder="Create Password" minlength="6" required>
             </div>
 
+            <!-- Aadhaar Upload -->
+            <div class="upload-group">
+                <label class="upload-label"><i class="fa-solid fa-id-card"></i> Aadhaar Card Upload (Optional)</label>
+                <div class="upload-area" id="aadhaar-upload-area">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <p>Click or drag to upload Aadhaar (PDF/Image)</p>
+                    <input type="file" id="reg-aadhaar" accept=".pdf,.png,.jpg,.jpeg">
+                </div>
+                <div id="aadhaar-preview" class="file-preview-container">
+                    <div class="file-preview-thumbnail" id="aadhaar-thumb"><i class="fa-solid fa-file-pdf"></i></div>
+                    <div class="file-preview-info">
+                        <div class="file-preview-name" id="aadhaar-file-name"></div>
+                    </div>
+                    <div class="file-preview-actions">
+                        <i class="fa-solid fa-eye btn-preview-action" onclick="viewLocalFile('reg-aadhaar')" title="View"></i>
+                        <i class="fa-solid fa-trash-can btn-preview-action" onclick="removeLocalFile('reg-aadhaar', 'aadhaar-upload-area', 'aadhaar-preview')" title="Remove"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAN Upload -->
+            <div class="upload-group">
+                <label class="upload-label"><i class="fa-solid fa-address-card"></i> PAN Card Upload (Optional)</label>
+                <div class="upload-area" id="pan-upload-area">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <p>Click or drag to upload PAN Card (PDF/Image)</p>
+                    <input type="file" id="reg-pan" accept=".pdf,.png,.jpg,.jpeg">
+                </div>
+                <div id="pan-preview" class="file-preview-container">
+                    <div class="file-preview-thumbnail" id="pan-thumb"><i class="fa-solid fa-file-pdf"></i></div>
+                    <div class="file-preview-info">
+                        <div class="file-preview-name" id="pan-file-name"></div>
+                    </div>
+                    <div class="file-preview-actions">
+                        <i class="fa-solid fa-eye btn-preview-action" onclick="viewLocalFile('reg-pan')" title="View"></i>
+                        <i class="fa-solid fa-trash-can btn-preview-action" onclick="removeLocalFile('reg-pan', 'pan-upload-area', 'pan-preview')" title="Remove"></i>
+                    </div>
+                </div>
+            </div>
+
             <button type="submit" class="btn-auth" id="register-btn">Create Account</button>
         </form>
 
@@ -387,6 +481,55 @@
             form.insertBefore(msgDiv, btn);
         }
 
+        // File upload visual feedback
+        function setupFileUpload(inputId, areaId, previewId, nameId, thumbId) {
+            const input = document.getElementById(inputId);
+            const area = document.getElementById(areaId);
+            const preview = document.getElementById(previewId);
+            const nameEl = document.getElementById(nameId);
+            const thumbEl = document.getElementById(thumbId);
+
+            input.addEventListener('change', function () {
+                if (this.files && this.files[0]) {
+                    const file = this.files[0];
+                    area.style.display = 'none';
+                    preview.style.display = 'flex';
+                    nameEl.textContent = file.name;
+                    
+                    // Show image thumbnail if applicable
+                    if (file.type.startsWith('image/')) {
+                        const reader = new FileReader();
+                        reader.onload = (e) => {
+                            thumbEl.innerHTML = `<img src="${e.target.result}" style="width:100%; height:100%; object-fit:cover; border-radius:4px;">`;
+                        };
+                        reader.readAsDataURL(file);
+                    } else {
+                        thumbEl.innerHTML = '<i class="fa-solid fa-file-pdf"></i>';
+                    }
+                }
+            });
+        }
+
+        function removeLocalFile(inputId, areaId, previewId) {
+            const input = document.getElementById(inputId);
+            const area = document.getElementById(areaId);
+            const preview = document.getElementById(previewId);
+            
+            input.value = '';
+            area.style.display = 'block';
+            preview.style.display = 'none';
+        }
+
+        function viewLocalFile(inputId) {
+            const input = document.getElementById(inputId);
+            if (input.files && input.files[0]) {
+                const url = URL.createObjectURL(input.files[0]);
+                window.open(url, '_blank');
+            }
+        }
+
+        setupFileUpload('reg-aadhaar', 'aadhaar-upload-area', 'aadhaar-preview', 'aadhaar-file-name', 'aadhaar-thumb');
+        setupFileUpload('reg-pan', 'pan-upload-area', 'pan-preview', 'pan-file-name', 'pan-thumb');
 
         // ============= REGISTRATION =============
         document.getElementById('register-form').addEventListener('submit', async function (e) {
@@ -398,6 +541,8 @@
             const email = document.getElementById('reg-email').value.trim();
             const phone = document.getElementById('reg-phone').value.trim();
             const password = document.getElementById('reg-password').value;
+            const aadhaarFile = document.getElementById('reg-aadhaar').files[0];
+            const panFile = document.getElementById('reg-pan').files[0];
 
             // Disable button and show loading
             btn.disabled = true;
@@ -408,6 +553,8 @@
             formData.append('email', email);
             formData.append('phone', phone);
             formData.append('password', password);
+            if (aadhaarFile) formData.append('aadhaar_file', aadhaarFile);
+            if (panFile) formData.append('pan_file', panFile);
 
             try {
                 const response = await fetch(API_BASE + '/api/register', {
@@ -421,6 +568,14 @@
                     showMessage(form, 'Registration successful! Redirecting to login...', false);
                     setTimeout(() => {
                         form.reset();
+                        // Reset upload areas
+                        document.querySelectorAll('.upload-area').forEach(a => {
+                            a.classList.remove('has-file');
+                            a.querySelector('p').textContent = a.id.includes('aadhaar')
+                                ? 'Click or drag to upload Aadhaar (PDF/Image)'
+                                : 'Click or drag to upload PAN Card (PDF/Image)';
+                            a.querySelector('.file-name').textContent = '';
+                        });
                         switchTab('login');
                         document.getElementById('login-email').value = email;
                     }, 1000);

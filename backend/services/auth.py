@@ -19,7 +19,7 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_HOURS = 24
 
 # --- Bearer Token Scheme ---
-security = HTTPBearer()
+security = HTTPBearer(auto_error=False)
 
 credentials_exception = HTTPException(
     status_code=status.HTTP_401_UNAUTHORIZED,
@@ -59,16 +59,21 @@ def create_access_token(user_id: int, email: str) -> str:
 
 def get_current_user(
     credentials: Optional[HTTPAuthorizationCredentials] = Depends(security),
+    token: Optional[str] = Query(None),
     db: Session = Depends(get_db),
 ) -> User:
     """
     FastAPI dependency: extracts and validates the JWT token from
-    the Authorization header, returns the User object.
+    the Authorization header OR a query parameter, returns the User object.
     """
-    if not credentials:
-        raise credentials_exception
+    token_str = None
+    if credentials:
+        token_str = credentials.credentials
+    elif token:
+        token_str = token
 
-    token_str = credentials.credentials
+    if not token_str:
+        raise credentials_exception
 
     try:
         payload = jwt.decode(token_str, SECRET_KEY, algorithms=[ALGORITHM])

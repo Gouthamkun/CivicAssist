@@ -163,6 +163,22 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     cursor: pointer;
 }
 
+.btn-scan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    height: 100%;
+    color: var(--text-muted);
+    font-size: 1.3rem;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.btn-scan:hover {
+    color: var(--primary-red);
+    background-color: #f8f9fa;
+}
+
 .btn-search {
     background-color: var(--primary-red);
     color: var(--white);
@@ -808,4 +824,77 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-size: 0.9rem;
     color: #166534;
     line-height: 1.5;
+}
+/* Notice Intelligence Engine Enhancements */
+.notice-intelligence-engine {
+    animation: slideUpFade 0.4s ease-out;
+}
+
+@keyframes slideUpFade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.intelligence-grid {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+
+.intelligence-grid::-webkit-scrollbar {
+    width: 6px;
+}
+
+.intelligence-grid::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* Glass effect for strategy blocks */
+.intelligence-engine-view .strategy-action-chip {
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.intelligence-engine-view .strategy-action-chip:hover {
+    background: #e2e8f0 !important;
+    transform: scale(1.02);
+}
+
+/* Mobile Responsiveness for Modal Grid */
+@media (max-width: 600px) {
+    .intelligence-engine-view .intelligence-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .intelligence-engine-view .intelligence-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .intelligence-engine-view .deadline-badge {
+        text-align: left !important;
+        width: 100%;
+    }
+}
+
+/* RAG Response Formatting */
+.rag-response h4 {
+    margin-bottom: 12px;
+    color: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.rag-response ul, .rag-response ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.rag-response li {
+    margin-bottom: 8px;
+    color: #4a5568;
 }

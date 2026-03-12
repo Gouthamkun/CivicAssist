@@ -19,6 +19,8 @@ NOTICE_REGISTRY = {
     # Tax Notices
     "143(1)": {
         "name": "Intimation u/s 143(1)",
+        "department": "Income Tax Department",
+        "seriousness": "Medium (Informational or Demand)",
         "explanation": "Demand/Refund notice after processing",
         "forms": ["ITR computation response"],
         "download_links": ["https://www.incometax.gov.in/downloads"],
@@ -26,6 +28,8 @@ NOTICE_REGISTRY = {
     },
     "139(9)": {
         "name": "Defective Return Notice",
+        "department": "Income Tax Department",
+        "seriousness": "High (Action Required)",
         "explanation": "Return is defective, needs correction",
         "forms": ["Revised ITR"],
         "download_links": ["https://www.incometax.gov.in/downloads"],
@@ -33,6 +37,8 @@ NOTICE_REGISTRY = {
     },
     "148": {
         "name": "Reassessment Notice",
+        "department": "Income Tax Department",
+        "seriousness": "Critical (Investigation)",
         "explanation": "Income escaped assessment",
         "forms": ["Response to 148"],
         "download_links": ["https://www.incometax.gov.in/downloads"],
@@ -41,6 +47,8 @@ NOTICE_REGISTRY = {
     # EPFO Rejections
     "claim_rejected": {
         "name": "EPFO Claim Rejection",
+        "department": "EPFO (Employees' Provident Fund Organization)",
+        "seriousness": "Medium (Financial Delay)",
         "explanation": "PF/Pension claim rejected",
         "forms": ["Form 19", "Form 10C", "Form 31"],
         "download_links": [
@@ -51,6 +59,8 @@ NOTICE_REGISTRY = {
     },
     "kyc_pending": {
         "name": "KYC Pending Rejection",
+        "department": "EPFO",
+        "seriousness": "Medium (Action Required for Withdrawal)",
         "explanation": "UAN KYC incomplete",
         "forms": ["KYC Update"],
         "download_links": ["https://unifiedportal-mem.epfindia.gov.in/memberinterface/"],
@@ -59,6 +69,8 @@ NOTICE_REGISTRY = {
     # Passport
     "passport_delay": {
         "name": "Passport Application Delay/Hold",
+        "department": "Passport Seva (MEA)",
+        "seriousness": "High (Travel Impact)",
         "explanation": "Passport application held due to incomplete documents or police verification",
         "forms": ["Document Submission Form"],
         "download_links": ["https://www.passportindia.gov.in"],
@@ -66,6 +78,8 @@ NOTICE_REGISTRY = {
     },
     "penalty_271": {
         "name": "Penalty Notice u/s 271(1)(c)",
+        "department": "Income Tax Department",
+        "seriousness": "Critical (Financial Penalty)",
         "explanation": "Notice for imposing penalty for concealment of income or furnishing inaccurate particulars.",
         "forms": ["Penalty Response"],
         "download_links": ["https://eportal.incometax.gov.in"],
@@ -167,27 +181,32 @@ def classify_notice(text):
     return "unknown"
 
 ENHANCED_NOTICE_PROMPT = """
-Explain this government notice. Extracted text: {extracted_text}
+You are the "CivicAssist Notice Intelligence Engine". 
+Government portals show notices but do not interpret them deeply. Your job is deep notice reasoning.
+
+Analyze this government notice text. 
+Extracted text: {extracted_text}
 
 Classified as: {notice_type}
-
-Official registry: {registry}
-
+Official registry hints: {registry}
 CONTEXT from knowledge base: {context}
 
 ════════════════════════════════════════════════════════════════════════════════
-OUTPUT SCHEMA (MANDATORY):
+OUTPUT SCHEMA (MANDATORY JSON):
 {{
   "notice_type": "{notice_type}",
-  "urgency": "normal / attention / urgent",
-  "deadline": "DD/MM/YYYY or N/A",
-  "explanation": "What this means in simple words (1-2 sentences)",
-  "why_received": "Common reasons or exact reasons if explicitly mentioned",
-  "steps": ["Step 1...", "Step 2..."],
-  "forms_needed": ["Link to specific specific form / action needed"],
-  "official_links": ["Link to official portal (from registry)"],
-  "what_if_ignore": "Consequences",
-  "helpline": "1800-103-0025 (IT) / 1800-118-005 (EPFO) / 1800-258-1800 (Passport)"
+  "department": "The specific government wing (e.g. Income Tax CPC, EPFO Gwalior, etc.)",
+  "urgency": "normal / attention / urgent / critical",
+  "severity_index": "Low / Medium / High / Critical",
+  "deadline": "Extract deadline date (e.g. 15 days or 31/03/2024). Calculate if relative.",
+  "risk_analysis": "Deep analysis of the risk if this notice is ignored. What is the legal/financial impact?",
+  "consequence": "Direct outcome (e.g. Return invalid, Penalty of INR 5000, Application cancelled)",
+  "explanation": "Simple summary for a common person (1-2 sentences)",
+  "strategy": "Strategic action plan to resolve this perfectly. Not just steps, but 'Strategy'.",
+  "steps": ["Action 1", "Action 2", "..."],
+  "forms_needed": ["Names of forms or actions (e.g. Revised ITR u/s 139(5))"],
+  "official_links": ["Link to the portal for taking action"],
+  "helpline": "Relevant contact number"
 }}
 
 Return ONLY valid JSON.

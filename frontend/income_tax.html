@@ -482,121 +482,110 @@
         function render_response(data, targetId) {
             const target = document.getElementById(targetId);
 
-            // Handle unexpected errors or raw strings
             if (typeof data !== 'object') {
-                target.innerHTML = `<div style="color:red;"><i class="fa-solid fa-triangle-exclamation"></i> Error parsing official guidelines. Please try again.</div>`;
+                target.innerHTML = `<div style="color:red;"><i class="fa-solid fa-triangle-exclamation"></i> Error parsing guidelines.</div>`;
                 target.style.display = 'block';
                 return;
             }
 
-            // Use fallbacks for missing fields
-            const urgency = data.urgency || "Not Applicable";
-            const deadline = data.deadline || "Not Applicable";
-            const explanation = data.overview || data.explanation || "No explanation provided by AI.";
-            const reqDocs = Array.isArray(data.required_documents) ? data.required_documents : [];
-            const steps = Array.isArray(data.steps) ? data.steps : [];
-            const mistakes = Array.isArray(data.common_mistakes) ? data.common_mistakes : [];
-            const portalLink = data.official_portal_link || "";
-            const source = data.official_source || "Official CBDT Document";
-            const disclaimer = data.disclaimer || "Consult a professional for specific advice.";
-            
-            // Notice-specific fields
-            const whyReceived = data.why_received || "";
-            const formsNeeded = Array.isArray(data.forms_needed) ? data.forms_needed : [];
-            const officialLinks = Array.isArray(data.official_links) ? data.official_links : [];
-            const whatIfIgnore = data.what_if_ignore || "";
-            const helpline = data.helpline || "";
-            const ocrPreview = data.extracted_text_preview || "";
+            // Intelligence Engine specific colors
+            const severityColors = {
+                'Low': '#2b8a3e',
+                'Medium': '#f7b900',
+                'High': '#e43137',
+                'Critical': '#8b0000'
+            };
+            const statusColor = severityColors[data.severity_index] || '#2b8a3e';
+            const urgencyText = (data.severity_index || data.urgency || "NORMAL").toUpperCase();
 
-            let urgencyHtml = urgency.toLowerCase() !== "not applicable"
-                ? `<div class="urgency ${urgency.includes("urgent") ? "urgent" : urgency.includes("attention") ? "attention" : "normal"}"><i class="fa-solid fa-bell"></i> ${urgency.toUpperCase()}</div>`
-                : '';
+            // Check if this is a notice response or general RAG
+            if (data.notice_type || targetId === 'notice_response') {
+                target.innerHTML = `
+                    <div class="intelligence-engine-view" style="font-family: inherit; color: #1e293b;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 25px;">
+                            <div>
+                                <div style="background-color: ${statusColor}; color: white; padding: 4px 12px; border-radius: 4px; display: inline-block; font-weight: bold; margin-bottom: 8px; font-size: 0.75rem;">
+                                    <i class="fa-solid fa-shield-halved"></i> SEVERITY: ${urgencyText}
+                                </div>
+                                <h3 style="font-size: 1.4rem; margin: 0; color: #0f172a;">${data.notice_type || 'Notice Reasoning'}</h3>
+                                <p style="color: #64748b; font-size: 0.85rem; margin: 4px 0;"><strong>Department:</strong> ${data.department || 'Income Tax CPC'}</p>
+                            </div>
+                            <div style="text-align: right; background: #fffbeb; border: 1px solid #fef3c7; padding: 8px 12px; border-radius: 6px;">
+                                <span style="display: block; font-size: 0.65rem; color: #92400e; font-weight: 800; text-transform: uppercase;">Reply Deadline</span>
+                                <span style="font-size: 1rem; color: #b91c1c; font-weight: 700;">${data.deadline || 'N/A'}</span>
+                            </div>
+                        </div>
 
-            let deadlineHtml = deadline.toLowerCase() !== "not applicable"
-                ? `<div class="deadline-box"><i class="fa-regular fa-calendar-xmark"></i> Deadline: ${deadline}</div>`
-                : '';
+                        <!-- Analysis Card -->
+                        <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                            <div style="padding: 15px 20px; border-bottom: 1px solid #f1f5f9; background: #f8fafc; font-weight: 600; font-size: 0.9rem; display: flex; align-items: center; gap: 8px;">
+                                <i class="fa-solid fa-brain" style="color: #6366f1;"></i> AI Reasoning Breakdown
+                            </div>
+                            <div style="padding: 20px;">
+                                <div style="margin-bottom: 15px;">
+                                    <h5 style="color: #64748b; font-size: 0.75rem; text-transform: uppercase; margin: 0 0 5px 0;">Notice Overview</h5>
+                                    <p style="font-size: 0.95rem; line-height: 1.5; margin: 0;">${data.explanation || data.overview || 'No overview available.'}</p>
+                                </div>
 
-            let reqDocsHtml = reqDocs.length > 0
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-file-contract"></i> Required Documents</h4>
-                   <ul style="padding-left: 20px;">${reqDocs.map(d => `<li style="margin-bottom: 5px;">${d}</li>`).join('')}</ul></div>`
-                : '';
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 15px; padding-top: 15px; border-top: 1px solid #f1f5f9;">
+                                    <div>
+                                        <h5 style="color: #b91c1c; font-size: 0.75rem; text-transform: uppercase; margin: 0 0 5px 0;"><i class="fa-solid fa-triangle-exclamation"></i> Risk Analysis</h5>
+                                        <p style="font-size: 0.85rem; color: #475569; margin: 0;">${data.risk_analysis || 'N/A'}</p>
+                                    </div>
+                                    <div>
+                                        <h5 style="color: #334155; font-size: 0.75rem; text-transform: uppercase; margin: 0 0 5px 0;"><i class="fa-solid fa-shield-virus"></i> Consequence</h5>
+                                        <p style="font-size: 0.85rem; color: #475569; margin: 0;">${data.consequence || 'N/A'}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            let stepsHtml = steps.length > 0
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-list-ol"></i> ${data.notice_type ? 'Steps to Fix' : 'Step-by-Step Process'}</h4>
-                   <ol style="padding-left: 20px;">${steps.map(s => `<li style="margin-bottom: 5px;">${s}</li>`).join('')}</ol></div>`
-                : '';
+                        <!-- Strategy Card -->
+                        <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                            <div style="padding: 15px 20px; border-bottom: 1px solid #f1f5f9; background: #ecfdf5; font-weight: 600; font-size: 0.9rem; display: flex; align-items: center; gap: 8px; color: #065f46;">
+                                <i class="fa-solid fa-route"></i> Resolution Strategy
+                            </div>
+                            <div style="padding: 20px;">
+                                <div style="margin-bottom: 15px; background: #eff6ff; padding: 12px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+                                    <p style="font-size: 0.9rem; font-weight: 500; color: #1e40af; margin: 0;">${data.strategy || 'Follow standard portal procedure.'}</p>
+                                </div>
 
-            let mistakesHtml = mistakes.length > 0
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-circle-exclamation" style="color:#e43137;"></i> Important Notes</h4>
-                   <ul style="padding-left: 20px; color: var(--primary-red);">${mistakes.map(m => `<li style="margin-bottom: 5px;">${m}</li>`).join('')}</ul></div>`
-                : '';
+                                <h5 style="color: #64748b; font-size: 0.75rem; text-transform: uppercase; margin: 15px 0 10px 0;">Execution Roadmap</h5>
+                                <div style="display: flex; flex-direction: column; gap: 8px;">
+                                    ${(data.steps || []).map((step, idx) => `
+                                        <div style="display: flex; gap: 10px; font-size: 0.9rem;">
+                                            <span style="color: #94a3b8; font-weight: bold; width: 15px;">${idx + 1}.</span>
+                                            <span style="color: #334155;">${step}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 15px;">
+                             <div style="color: #64748b; font-size: 0.8rem;">
+                                 <i class="fa-solid fa-phone"></i> Helpline: <strong>${data.helpline || '1800-103-0025'}</strong>
+                             </div>
+                             ${data.action_url ? `<a href="${data.action_url}" target="_blank" class="action-btn" style="width: auto; padding: 8px 16px; font-size: 0.9rem; text-decoration: none;">Take Action Now</a>` : ''}
+                        </div>
+                    </div>
+                `;
+            } else {
+                // Fallback for general RAG queries
+                const explanation = data.overview || data.explanation || "No detail provided.";
+                const steps = data.steps || [];
+                const reqDocs = data.required_documents || [];
                 
-            let whyHtml = whyReceived 
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-question-circle"></i> Why you received this</h4>
-                   <p>${whyReceived}</p></div>`
-                : '';
+                target.innerHTML = `
+                    <div class="rag-response">
+                        <p style="font-size: 1.1rem; line-height: 1.6;">${explanation.replace(/\n/g, '<br>')}</p>
+                        ${reqDocs.length > 0 ? `<h4 style="margin-top:20px;">Required Documents</h4><ul>${reqDocs.map(d => `<li>${d}</li>`).join('')}</ul>` : ''}
+                        ${steps.length > 0 ? `<h4 style="margin-top:20px;">Process Steps</h4><ol>${steps.map(s => `<li>${s}</li>`).join('')}</ol>` : ''}
+                        ${data.official_portal_link ? `<div style="margin-top:20px;"><strong>Official Portal:</strong> <a href="${data.official_portal_link}" target="_blank" style="color: var(--primary-red);">${data.official_portal_link}</a></div>` : ''}
+                    </div>
+                `;
+            }
 
-            let formsHtml = formsNeeded.length > 0
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-file-pdf"></i> Forms / Actions Needed</h4>
-                   <ul style="padding-left: 20px;">${formsNeeded.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}</ul></div>`
-                : '';
-
-            let linksHtml = (officialLinks.length > 0 || portalLink)
-                ? `<div style="margin-top:20px;"><h4><i class="fa-solid fa-globe"></i> Official Resources</h4>
-                   <ul style="padding-left: 20px;">
-                    ${portalLink ? `<li><a href="${portalLink}" target="_blank" style="color: var(--primary-red); word-break: break-all;">${portalLink}</a></li>` : ''}
-                    ${officialLinks.map(l => `<li><a href="${l}" target="_blank" style="color: var(--primary-red); word-break: break-all;">${l}</a></li>`).join('')}
-                   </ul></div>`
-                : '';
-
-            let ignoreHtml = whatIfIgnore
-                ? `<div style="margin-top:20px; padding: 10px; background: #fff5f5; border-left: 4px solid #e43137; font-size: 0.9em;">
-                    <strong><i class="fa-solid fa-triangle-exclamation"></i> Consequences of Inaction:</strong> ${whatIfIgnore}
-                   </div>`
-                : '';
-
-            let helplineHtml = helpline
-                ? `<div style="margin-top:15px; font-weight: bold; color: #555;">
-                    <i class="fa-solid fa-phone"></i> Official Helpline: ${helpline}
-                   </div>`
-                : '';
-
-            let ocrHtml = ocrPreview
-                ? `<div style="margin-top:20px; font-size: 0.8em; color: gray; font-style: italic; border-top: 1px dashed #ccc; padding-top: 10px;">
-                    <strong>OCR Text Preview:</strong> ${ocrPreview}
-                   </div>`
-                : '';
-
-            let actionHtml = data.action_url && data.action_label && !data.action_label.toLowerCase().includes("not required")
-                ? `<div style="margin: 20px 0; text-align: left;">
-                     <a href="${data.action_url}" target="_blank" class="action-btn" style="display:inline-block; width:auto; padding: 12px 25px; text-decoration:none;">
-                        <i class="fa-solid fa-file-pdf"></i> ${data.action_label}
-                     </a>
-                   </div>`
-                : '';
-
-            target.innerHTML = `
-            ${urgencyHtml}
-            ${deadlineHtml}
-            <div class="explanation">
-                <h4><i class="fa-solid fa-info-circle"></i> ${data.notice_type ? 'Notice Explanation' : 'Overview'}</h4>
-                <p>${explanation.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</p>
-            </div>
-            ${whyHtml}
-            ${reqDocsHtml}
-            ${stepsHtml}
-            ${mistakesHtml}
-            ${formsHtml}
-            ${linksHtml}
-            ${ignoreHtml}
-            ${helplineHtml}
-            ${actionHtml}
-            ${ocrHtml}
-            <div style="margin-top:20px; padding-top:15px; border-top: 1px solid #ddd; font-size: 0.9em;">
-                <div class="source"><i class="fa-solid fa-book-bookmark"></i> <b>Source:</b> ${source}</div>
-                <div class="disclaimer">${disclaimer}</div>
-            </div>
-        `;
             target.style.display = 'block';
         }
 

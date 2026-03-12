@@ -78,12 +78,58 @@ class RefundRequest(BaseModel):
     issue: str
 
 # ===== AUTH ENDPOINTS =====
+
+async def save_user_document_helper(db, user_id, doc_type, file):
+    """Refactored helper to save/update secured user documents."""
+    if not file:
+        return
+    file_bytes = await file.read()
+    doc_hash = generate_hash(file_bytes)
+    record_on_blockchain(db, user_id, doc_type, doc_hash)
+    encrypted = encrypt_document(file_bytes)
+    user_dir = os.path.join(UPLOAD_DIR, str(user_id))
+    os.makedirs(user_dir, exist_ok=True)
+    file_path = os.path.join(user_dir, f"{doc_type}.enc")
+    with open(file_path, "wb") as f:
+        f.write(encrypted["ciphertext"])
+    
+    filename = file.filename or doc_type
+    if "." not in filename:
+        ext_map = {"application/pdf": ".pdf", "image/png": ".png", "image/jpeg": ".jpg", "image/jpg": ".jpg"}
+        filename += ext_map.get(file.content_type, "")
+
+    existing = db.query(Document).filter(
+        Document.user_id == user_id,
+        Document.doc_type == doc_type
+    ).first()
+    
+    if existing:
+        existing.filename = filename
+        existing.content_type = file.content_type or "application/octet-stream"
+        existing.encryption_nonce = encrypted["nonce"]
+        existing.uploaded_at = datetime.utcnow()
+    else:
+        new_doc = Document(
+            user_id=user_id,
+            doc_type=doc_type,
+            filename=filename,
+            content_type=file.content_type or "application/octet-stream",
+            file_data=b"", 
+            encryption_nonce=encrypted["nonce"],
+            is_encrypted=True,
+        )
+        db.add(new_doc)
+    db.commit()
+    return file_bytes
+
 @app.post("/api/register")
 async def register(
     name: str = Form(...),
     email: str = Form(...),
     phone: str = Form(...),
     password: str = Form(...),
+    aadhaar_file: Optional[UploadFile] = File(None),
+    pan_file: Optional[UploadFile] = File(None),
     db: Session = Depends(get_db),
 ):
     email = email.strip().lower()
@@ -92,6 +138,7 @@ async def register(
         raise HTTPException(status_code=400, detail="An account with this email already exists.")
     if len(password) < 6:
         raise HTTPException(status_code=400, detail="Password must be at least 6 characters.")
+    
     user = User(
         name=name.strip(),
         email=email,
@@ -101,6 +148,28 @@ async def register(
     db.add(user)
     db.commit()
     db.refresh(user)
+    
+    # Process initial documents if uploaded - also extract names to sync
+    if aadhaar_file:
+        fbytes = await save_user_document_helper(db, user.id, "aadhaar", aadhaar_file)
+        try:
+            info = extract_info_from_doc(fbytes, "aadhaar")
+            if info.get("name"):
+                user.name = info["name"]
+                db.commit()
+        except Exception as e:
+            logger.error(f"Post-registration Aadhaar sync failed: {e}")
+
+    if pan_file:
+        fbytes = await save_user_document_helper(db, user.id, "pan", pan_file)
+        try:
+            info = extract_info_from_doc(fbytes, "pan")
+            if info.get("name") and len(user.name.split()) < 2:
+                user.name = info["name"]
+                db.commit()
+        except Exception as e:
+            logger.error(f"Post-registration PAN sync failed: {e}")
+
     logger.info(f"[/api/register] New user registered: {email}")
     return {"success": True, "message": "Registration successful!"}
 
@@ -113,40 +182,18 @@ async def upload_document(
 ):
     if doc_type not in ["aadhaar", "pan"]:
         raise HTTPException(status_code=400, detail="Invalid document type.")
-    file_bytes = await file.read()
-    doc_hash = generate_hash(file_bytes)
-    record_on_blockchain(db, current_user.id, doc_type, doc_hash)
-    encrypted = encrypt_document(file_bytes)
-    user_dir = os.path.join(UPLOAD_DIR, str(current_user.id))
-    os.makedirs(user_dir, exist_ok=True)
-    file_path = os.path.join(user_dir, f"{doc_type}.enc")
-    with open(file_path, "wb") as f:
-        f.write(encrypted["ciphertext"])
-    existing = db.query(Document).filter(
-        Document.user_id == current_user.id,
-        Document.doc_type == doc_type
-    ).first()
-    filename = file.filename or doc_type
-    if "." not in filename:
-        ext_map = {"application/pdf": ".pdf", "image/png": ".png", "image/jpeg": ".jpg", "image/jpg": ".jpg"}
-        filename += ext_map.get(file.content_type, "")
-    if existing:
-        existing.filename = filename
-        existing.content_type = file.content_type or "application/octet-stream"
-        existing.encryption_nonce = encrypted["nonce"]
-        existing.uploaded_at = datetime.utcnow()
-    else:
-        new_doc = Document(
-            user_id=current_user.id,
-            doc_type=doc_type,
-            filename=filename,
-            content_type=file.content_type or "application/octet-stream",
-            file_data=b"", 
-            encryption_nonce=encrypted["nonce"],
-            is_encrypted=True,
-        )
-        db.add(new_doc)
-    db.commit()
+    
+    fbytes = await save_user_document_helper(db, current_user.id, doc_type, file)
+    
+    # Sync name if extracted from new upload
+    try:
+        info = extract_info_from_doc(fbytes, doc_type)
+        if info.get("name"):
+            current_user.name = info["name"]
+            db.commit()
+    except Exception as e:
+        logger.error(f"Post-upload {doc_type} name sync failed: {e}")
+
     return {"success": True, "message": f"{doc_type.capitalize()} uploaded and secured with blockchain integrity!"}
 
 @app.get("/api/verify_integrity/{doc_type}")
@@ -197,7 +244,13 @@ async def view_document(
     with open(file_path, "rb") as f:
         ciphertext = f.read()
     plaintext = decrypt_document(ciphertext, doc.encryption_nonce)
-    return StreamingResponse(io.BytesIO(plaintext), media_type=doc.content_type)
+    
+    # Set headers to allow inline viewing in browser
+    headers = {
+        "Content-Disposition": f'inline; filename="{doc.filename}"',
+        "Content-Type": doc.content_type
+    }
+    return StreamingResponse(io.BytesIO(plaintext), media_type=doc.content_type, headers=headers)
 
 @app.get("/api/download_document/{doc_type}")
 async def download_document(
@@ -221,6 +274,36 @@ async def download_document(
         "Access-Control-Expose-Headers": "Content-Disposition"
     }
     return StreamingResponse(io.BytesIO(plaintext), media_type=doc.content_type, headers=headers)
+
+@app.delete("/api/remove_document/{doc_type}")
+async def remove_document(
+    doc_type: str,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    doc = db.query(Document).filter(
+        Document.user_id == current_user.id, Document.doc_type == doc_type
+    ).first()
+    if not doc:
+        raise HTTPException(status_code=404, detail="Document not found.")
+    
+    # Remove database entries
+    db.delete(doc)
+    # Also remove blockchain record for this user/doc if it exists
+    bc_record = db.query(BlockchainRecord).filter(
+        BlockchainRecord.user_id == current_user.id, BlockchainRecord.doc_type == doc_type
+    ).first()
+    if bc_record:
+        db.delete(bc_record)
+        
+    db.commit()
+    
+    # Remove physical file
+    file_path = os.path.join(UPLOAD_DIR, str(current_user.id), f"{doc_type}.enc")
+    if os.path.exists(file_path):
+        os.remove(file_path)
+        
+    return {"success": True, "message": f"{doc_type.capitalize()} removed successfully."}
 
 @app.get("/api/user_documents")
 def get_user_documents(db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
@@ -318,12 +401,23 @@ async def verify_passbook(file: UploadFile = File(...), db: Session = Depends(ge
         issues.append("Name mismatch between UAN and Aadhaar/PAN")
     if dob_mismatch:
         issues.append("Date of Birth mismatch")
+    
     status = "Verified Successfully" if not issues else "Issues Detected"
-    if is_success := (not issues):
-        fix = "You can proceed with the PF claim."
+    
+    if not issues:
+        fix = "Congratulations! All your details from the UAN passbook match your uploaded identity documents (Aadhaar/PAN). You are now eligible for smooth PF withdrawal processing without any data conflict."
     else:
-        fix = "Please update KYC details in the EPFO portal before submitting the claim."
-    return {"status": status, "problems_found": issues, "suggested_fix": fix, "extracted_details": pb_info}
+        # Use RAG to generate a specific fix based on the knowledge base
+        query = f"How to fix mismatch in EPFO portal for: {', '.join(issues)}. Provide step by step instructions."
+        rag_res = process_custom_rag(query)
+        fix = rag_res.get("answer") or rag_res.get("overview") or "Please log in to the EPFO Unified Portal and navigate to Manage -> Modify Basic Details. Submit your correct details as per your Aadhaar card and then ask your employer to approve the request."
+
+    return {
+        "status": status, 
+        "problems_found": issues, 
+        "suggested_fix": fix, 
+        "extracted_details": pb_info
+    }
 
 
 # -----------------------------------------------------------------------------
@@ -391,24 +485,40 @@ async def explain_notice_endpoint(file: UploadFile = File(...)):
             s = json_match.group(1)
         structured_data = json.loads(s, strict=False)
         structured_data["extracted_text_preview"] = extracted_text[:300] + "..." if len(extracted_text) > 50 else "Not enough text found via OCR."
-        for k in ["steps", "forms_needed", "official_links"]:
-            if k not in structured_data:
-                structured_data[k] = []
-        if "helpline" not in structured_data:
-             structured_data["helpline"] = "1800-103-0025 (IT) / 1800-118-005 (EPFO) / 1800-258-1800 (Passport)"
-        return structured_data
-    except Exception as e:
-        return {
-            "notice_type": notice_type,
-            "urgency": "attention",
-            "deadline": "Not Applicable",
-            "explanation": "Could not parse AI response perfectly. Extracted text may be too blurry.",
-            "why_received": "Unknown",
-            "steps": ["Retry uploading a clearer image."],
+        
+        # Ensure new intelligence fields exist with sensible fallbacks
+        defaults = {
+            "department": "Unknown Department",
+            "severity_index": "Medium",
+            "risk_analysis": "N/A",
+            "consequence": "N/A",
+            "strategy": "N/A",
+            "steps": [],
             "forms_needed": [],
             "official_links": [],
-            "what_if_ignore": "Unknown",
-            "helpline": "1800-103-0025 (IT) / 1800-118-005 (EPFO)",
+            "helpline": "1800-103-0025 (IT) / 1800-118-005 (EPFO)"
+        }
+        for k, v in defaults.items():
+            if k not in structured_data or not structured_data[k]:
+                structured_data[k] = v
+                
+        return structured_data
+    except Exception as e:
+        logger.error(f"Notice parsing failed: {e}")
+        return {
+            "notice_type": notice_type,
+            "department": "Unknown",
+            "urgency": "attention",
+            "severity_index": "High",
+            "deadline": "Check Notice",
+            "risk_analysis": "The notice could not be analyzed deeply. Ignoring government notices can lead to penalties or legal action.",
+            "consequence": "Varies by department",
+            "explanation": "Could not parse AI response perfectly. This usually happens if the text is blurry or the notice structure is complex.",
+            "strategy": "Upload a clearer photo or manually check the official portal.",
+            "steps": ["Login to official portal", "Identify notice section", "Verify deadline"],
+            "forms_needed": [],
+            "official_links": [],
+            "helpline": "1800-103-0025",
             "extracted_text_preview": extracted_text[:200]
         }
 

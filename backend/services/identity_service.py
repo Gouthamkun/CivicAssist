@@ -1,57 +1,51 @@
-"""
-Identity Service for extracting user information from government documents.
-Uses pytesseract for OCR and regex for pattern matching.
-"""
 import re
 import logging
-from typing import Dict, Optional, Set
+import io
+import os
+from typing import Dict, Optional, Set, List
 from datetime import datetime
+from backend.services.ocr_service import get_reader, preprocess_image
 
 logger = logging.getLogger("civicassist.identity_service")
 
-try:
-    from PIL import Image
-    import pytesseract
-    import io
-except ImportError:
-    logger.error("OCR dependencies missing.")
-
 def extract_text_from_bytes(file_bytes: bytes) -> str:
-    """Helper to extract text from image bytes."""
+    """Helper to extract text using EasyOCR (English + Hindi) with Advanced Preprocessing."""
     try:
-        image = Image.open(io.BytesIO(file_bytes))
-        return pytesseract.image_to_string(image)
+        r = get_reader()
+        # Apply the advanced preprocessing pipeline before OCR
+        processed_bytes = preprocess_image(file_bytes)
+        
+        # EasyOCR can take processed bytes directly
+        results = r.readtext(processed_bytes, detail=0, paragraph=True)
+        text = " ".join(results)
+        
+        # Fallback to raw if processed text is too sparse (sometimes aggressive sharpening backfires)
+        if len(text.strip()) < 10:
+            results = r.readtext(file_bytes, detail=0, paragraph=True)
+            text = " ".join(results)
+            
+        return text.strip()
     except Exception as e:
-        logger.error(f"OCR failed: {e}")
+        logger.error(f"EasyOCR extraction with preprocessing failed: {e}")
         return ""
 
 def normalize_name(name: Optional[str]) -> Set[str]:
-    """
-    Standardize name for comparison. 
-    Returns a set of words to handle reversed names and case-insensitivity.
-    """
+    """Normalize name into a set of lowercase words for robust matching."""
     if not name:
         return set()
-    # Remove special chars, lower case, split into words
-    clean_name = re.sub(r"[^a-zA-Z\s]", "", name).lower()
-    return set(clean_name.split())
+    return set(re.findall(r"\w+", name.lower()))
 
-def normalize_dob(dob_str: Optional[str]) -> Optional[str]:
-    """
-    Normalize DOB to YYYY-MM-DD format.
-    Handles DD-MM-YYYY, DD/MM/YYYY, YYYY-MM-DD etc.
-    """
-    if not dob_str:
+def normalize_dob(dob: Optional[str]) -> Optional[str]:
+    """Normalize DOB into YYYY-MM-DD format."""
+    if not dob:
         return None
-    
-    # Common patterns
+    # Support DD/MM/YYYY or YYYY/MM/DD with various separators
     patterns = [
-        r"(\d{2})[-/](\d{2})[-/](\d{4})", # DD-MM-YYYY or DD/MM/YYYY
-        r"(\d{4})[-/](\d{2})[-/](\d{2})", # YYYY-MM-DD or YYYY/MM/DD
+        r"(\d{4})[-/.](\d{2})[-/.](\d{2})",
+        r"(\d{2})[-/.](\d{2})[-/.](\d{4})"
     ]
-    
-    for pattern in patterns:
-        match = re.search(pattern, dob_str)
+    for p in patterns:
+        match = re.search(p, dob)
         if match:
             g = match.groups()
             if len(g[0]) == 4: # YYYY-MM-DD
@@ -63,25 +57,24 @@ def normalize_dob(dob_str: Optional[str]) -> Optional[str]:
 
 def extract_info_from_doc(file_bytes: bytes, doc_type: str) -> Dict[str, Optional[str]]:
     """
-    Extract Name and DOB from Aadhaar or PAN.
-    Note: Highly simplified patterns for demonstration/hackathon.
+    Extract Name and DOB from Aadhaar or PAN using OCR and regex.
     """
     text = extract_text_from_bytes(file_bytes)
-    result = {"name": None, "dob": None}
+    result: Dict[str, Optional[str]] = {"name": None, "dob": None}
     
-    # Generic regex patterns
-    dob_pattern = r"(\d{2}/\d{2}/\d{4})"
-    name_match = re.search(r"Name:\s*([A-Za-z\s]+)", text, re.IGNORECASE)
+    # More robust DOB pattern (DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY)
+    dob_pattern = r"(\d{2}[-/.]\d{2}[-/.]\d{4})"
+    name_match = re.search(r"(?:Name|NAME)[:\s]*([A-Z][A-Z\s]{3,})", text)
     dob_match = re.search(dob_pattern, text)
 
     if name_match:
-        result["name"] = name_match.group(1).strip()
+        result["name"] = re.sub(r"\s+", " ", name_match.group(1)).strip()
     if dob_match:
-        result["dob"] = dob_match.group(1)
+        result["dob"] = dob_match.group(1).replace("-", "/").replace(".", "/")
         
     # Fallback for Aadhaar "Year of Birth"
     if not result["dob"]:
-        yob_match = re.search(r"Year of Birth:\s*(\d{4})", text, re.IGNORECASE)
+        yob_match = re.search(r"(?:Year of Birth|YOB)[:\s]*(\d{4})", text, re.IGNORECASE)
         if yob_match:
             result["dob"] = f"01/01/{yob_match.group(1)}"
 
@@ -89,20 +82,25 @@ def extract_info_from_doc(file_bytes: bytes, doc_type: str) -> Dict[str, Optiona
 
 def extract_uan_from_passbook(file_bytes: bytes) -> Dict[str, Optional[str]]:
     """
-    Extract UAN, Name, and DOB from a passbook screenshot.
+    Extract UAN, Name, Member ID, and DOB from a passbook screenshot using OCR and robust regex.
     """
     text = extract_text_from_bytes(file_bytes)
-    result = {"uan": None, "name": None, "dob": None}
+    result: Dict[str, Optional[str]] = {"uan": None, "name": None, "dob": None, "member_id": None}
     
-    uan_match = re.search(r"UAN:?\s*(\d{12})", text, re.IGNORECASE)
-    name_match = re.search(r"Member Name:?\s*([A-Za-z\s]+)", text, re.IGNORECASE)
-    dob_match = re.search(r"DOB:?\s*(\d{2}/\d{2}/\d{4})", text, re.IGNORECASE)
+    # Improved patterns with better flexiblity
+    uan_match = re.search(r"(?:Universal Account Number|UAN)[:\s]*(\d{12})", text, re.IGNORECASE)
+    name_match = re.search(r"(?:Member Name|Name)[:\s]*([A-Z\s]{5,})", text, re.IGNORECASE)
+    dob_match = re.search(r"(?:DOB|Date of Birth)[:\s]*(\d{2}[-/.]\d{2}[-/.]\d{4})", text, re.IGNORECASE)
+    member_id_match = re.search(r"(?:Member ID|MEMBER_ID)[:\s]*([A-Z0-9]+)", text, re.IGNORECASE)
 
     if uan_match:
         result["uan"] = uan_match.group(1)
     if name_match:
-        result["name"] = name_match.group(1).strip()
+        # Simple cleanup for multiple spaces
+        result["name"] = re.sub(r"\s+", " ", name_match.group(1).strip())
     if dob_match:
-        result["dob"] = dob_match.group(1)
+        result["dob"] = dob_match.group(1).replace("-", "/").replace(".", "/")
+    if member_id_match:
+        result["member_id"] = member_id_match.group(1)
         
     return result
