@@ -1,0 +1,22 @@
+{
+  "form_id": "form1",
+  "form_name": "Form 1 — EPF Declaration",
+  "description": "Declaration and Nomination Form submitted by a new employee at the time of joining. It registers the employee under EPFO and assigns nominees.",
+  "pdf": "/api/view_form/form-1-EMPLOYEERS-PROVIDENT-FUND-SCHEME_compressed.pdf",
+  "fields": [
+    { "number": 1, "name": "Name of Establishment", "description": "Enter the full registered name of the company/factory you have joined." },
+    { "number": 2, "name": "Address of Establishment", "description": "Complete postal address of the company including PIN code." },
+    { "number": 3, "name": "Name of Employee", "description": "Your full name as recorded in your ID proof (Aadhaar/PAN)." },
+    { "number": 4, "name": "Father's / Husband's Name", "description": "Father's name if unmarried, or husband's name if married." },
+    { "number": 5, "name": "Date of Birth", "description": "Your date of birth in DD/MM/YYYY format as per official records." },
+    { "number": 6, "name": "Sex", "description": "Mention Male / Female / Other." },
+    { "number": 7, "name": "Marital Status", "description": "Married / Unmarried — important for nominee type selection." },
+    { "number": 8, "name": "Date of Joining", "description": "The date on which you joined this establishment." },
+    { "number": 9, "name": "Nominee Name", "description": "Full name of the person you are nominating for PF benefits." },
+    { "number": 10, "name": "Nominee Relationship", "description": "Relationship of the nominee to you (e.g., Wife, Son, Daughter, Mother)." },
+    { "number": 11, "name": "Nominee Date of Birth", "description": "Date of birth of the nominee in DD/MM/YYYY format." },
+    { "number": 12, "name": "Share Percentage", "description": "Percentage of PF to be given to this nominee (must total 100% if multiple nominees)." },
+    { "number": 13, "name": "Guardian (if nominee is minor)", "description": "If the nominee is below 18, enter the name and address of the guardian." },
+    { "number": 14, "name": "Employee Signature / Thumb Impression", "description": "Sign or affix left thumb impression at the bottom of the declaration." }
+  ]
+}

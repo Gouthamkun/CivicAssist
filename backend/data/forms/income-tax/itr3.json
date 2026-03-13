@@ -1,0 +1,18 @@
+{
+  "form_id": "itr3",
+  "form_name": "ITR-3",
+  "description": "For Individuals and HUFs having income from profits and gains of business or profession (not eligible for presumptive taxation under ITR-4) and includes partners of a firm.",
+  "pdf": "/api/view_form/formitr_3_2025.pdf",
+  "fields": [
+    { "number": 1, "name": "PAN & Personal Information", "description": "Mandatory PAN, Aadhaar, and demographic details." },
+    { "number": 2, "name": "Nature of Business (Part A-GEN)", "description": "Select the specific business code (e.g., trading, manufacturing, services) and activity." },
+    { "number": 3, "name": "Balance Sheet (Part A-BS)", "description": "Balance sheet details as on 31st March, including proprietor's capital, loans, fixed assets, and closing stock." },
+    { "number": 4, "name": "Manufacturing/Trading/P&L Account (Part A-P&L)", "description": "Details of opening stock, purchases, sales, direct/indirect expenses, and net profit." },
+    { "number": 5, "name": "Other Income (Schedules S, HP, CG, OS)", "description": "Income from salaries, house property, capital gains, or other sources like interest." },
+    { "number": 6, "name": "Depreciation (Schedule DPM/DOA/DEP)", "description": "Depreciation allowable under Income Tax Rules on various blocks of assets (machinery, building, intagibles)." },
+    { "number": 7, "name": "Computation of Business Income (Schedule BP)", "description": "Converting accounting profit to taxable profit by adding disallowed expenses (like personal expenses) and deducting allowed ones." },
+    { "number": 8, "name": "Deductions (Chapter VI-A)", "description": "Investments in PPF, LIC, medical insurance, and other specified eligible tax savings." },
+    { "number": 9, "name": "Schedule FA & AL", "description": "Foreign Assets details (if residing in India) and Assets & Liabilities statement (mandatory if total income > ₹50 Lakh)." },
+    { "number": 10, "name": "Tax Computation (Part B-TTI)", "description": "Computation of total tax, adjusting TDS/TCS, advance tax, and arriving at refund or tax payable." }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "form_id": "form2",
+  "form_name": "Form 2 — EPF Nomination Form",
+  "description": "Nomination and Declaration Form for adding or changing nominees under the Employees' Provident Fund and Employees' Pension Scheme.",
+  "pdf": "/api/view_form/Form-2-EPF-Nomination-Form-_compressed.pdf",
+  "fields": [
+    { "number": 1, "name": "Account Number / UAN", "description": "Your Universal Account Number (UAN) from EPFO, or your account number assigned by the employer." },
+    { "number": 2, "name": "Name of Employee", "description": "Your full name as it appears in your Aadhaar card/PAN." },
+    { "number": 3, "name": "Father's / Husband's Name", "description": "Father's name if unmarried, or husband's name if married — for identification." },
+    { "number": 4, "name": "Date of Birth", "description": "Enter your date of birth in DD/MM/YYYY format." },
+    { "number": 5, "name": "Name of Establishment & Address", "description": "Full name and address of your employer/factory." },
+    { "number": 6, "name": "Nominee Name", "description": "Full legal name of your nominee as per their Aadhaar or ID." },
+    { "number": 7, "name": "Nominee Address", "description": "Complete residential address of the nominee including PIN code." },
+    { "number": 8, "name": "Nominee Relationship", "description": "Your relationship to the nominee: Wife/Son/Daughter/Father/Mother etc." },
+    { "number": 9, "name": "Nominee Date of Birth", "description": "Nominee's date of birth in DD/MM/YYYY format — required for minors." },
+    { "number": 10, "name": "PF Share Amount for Nominee", "description": "Amount or percentage of PF to be paid to this nominee on member's death." },
+    { "number": 11, "name": "EPS Nominee Name", "description": "Name of nominee for Employees' Pension Scheme (EPS) — can differ from PF nominee." },
+    { "number": 12, "name": "EPS Nominee Relationship", "description": "Relationship to the EPS nominee." },
+    { "number": 13, "name": "Family Member Details", "description": "List all family members eligible if you have a family. Include name, relation, and date of birth." },
+    { "number": 14, "name": "Witness Signature", "description": "Signature of a witness (not the nominee) who is also an employee of the establishment." },
+    { "number": 15, "name": "Employee Signature with Date", "description": "Your signature and date confirming that the nomination is true and voluntary." }
+  ]
+}

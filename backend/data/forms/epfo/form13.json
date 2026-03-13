@@ -1,0 +1,23 @@
+{
+  "form_id": "form13",
+  "form_name": "Form 13 — PF Transfer Request",
+  "description": "Used to transfer your PF accumulation from your previous employer's trust/EPFO office to the current employer's account when switching jobs.",
+  "pdf": "/api/view_form/Form13_removed.pdf",
+  "fields": [
+    { "number": 1, "name": "Employee Name", "description": "Your full name as appearing in EPFO / employer records." },
+    { "number": 2, "name": "Father's / Husband's Name", "description": "Father's name for unmarried; husband's name for married female employees." },
+    { "number": 3, "name": "Date of Birth", "description": "Date of birth in DD/MM/YYYY format." },
+    { "number": 4, "name": "Present PF Account Number (New)", "description": "The full PF account number allotted by your current/new employer." },
+    { "number": 5, "name": "Date of Joining Current Employer", "description": "The date you joined the new organisation." },
+    { "number": 6, "name": "Name of Current Establishment", "description": "Full name of the company/factory where you are currently employed." },
+    { "number": 7, "name": "Address of Current Establishment", "description": "Complete address of the new employer." },
+    { "number": 8, "name": "Previous PF Account Number (Old)", "description": "Your PF account number from the previous employer that you want to transfer FROM." },
+    { "number": 9, "name": "Name & Address of Previous Establishment", "description": "Full name and address of your previous employer." },
+    { "number": 10, "name": "Date of Leaving Previous Employer", "description": "Exact date of leaving the previous job." },
+    { "number": 11, "name": "Reason for Transfer", "description": "Resignation / Retrenchment / Retirement / Death (if filing by nominee)." },
+    { "number": 12, "name": "Pension Contribution Details", "description": "Tick if you also want to transfer the EPS (Pension) balance along with PF." },
+    { "number": 13, "name": "Employee Signature", "description": "Sign at the bottom certifying the details are correct." },
+    { "number": 14, "name": "Current Employer Certification", "description": "To be certified by the new employer — certifying employment and account details." },
+    { "number": 15, "name": "Previous Employer Certification (if needed)", "description": "In case online transfer fails, the previous employer may also need to certify." }
+  ]
+}

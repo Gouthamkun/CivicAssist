@@ -88,3 +88,33 @@ def get_current_user(
         raise credentials_exception
 
     return user
+
+
+def get_current_user_optional(
+    credentials: Optional[HTTPAuthorizationCredentials] = Depends(security),
+    token: Optional[str] = Query(None),
+    db: Session = Depends(get_db),
+) -> Optional[User]:
+    """
+    FastAPI dependency: gracefully returns the User object if a valid token is provided.
+    If no token is present or it is invalid, returns None instead of raising an error.
+    Used for features like contextual AI that work with or without a profile.
+    """
+    token_str = None
+    if credentials:
+        token_str = credentials.credentials
+    elif token:
+        token_str = token
+
+    if not token_str:
+        return None
+
+    try:
+        payload = jwt.decode(token_str, SECRET_KEY, algorithms=[ALGORITHM])
+        user_id: str = payload.get("sub")
+        if user_id is None:
+            return None
+    except JWTError:
+        return None
+
+    return db.query(User).filter(User.id == int(user_id)).first()

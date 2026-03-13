@@ -1,0 +1,42 @@
+{
+ "form_name": "ITR-1 (SAHAJ)",
+ "description": "For Individuals having Income from Salaries, one house property, other sources (Interest etc.), and total income up to Rs. 50 lakh.",
+ "pdf": "/api/view_form/ITR-1.pdf",
+ "fields":[
+  {
+   "number":1,
+   "name":"PAN Number",
+   "description":"Your Permanent Account Number as per Income Tax records."
+  },
+  {
+   "number":2,
+   "name":"Aadhaar Number",
+   "description":"Your 12-digit Aadhaar number or 28-digit Enrollment ID."
+  },
+  {
+   "number":3,
+   "name":"Employer Category",
+   "description":"Select whether you are Central Govt, State Govt, PSU, or others."
+  },
+  {
+   "number":4,
+   "name":"Gross Salary",
+   "description":"Total salary as per Form 16 (Part B)."
+  },
+  {
+   "number":5,
+   "name":"Income from Other Sources",
+   "description":"Interest from Savings Account, FD, or Dividend income."
+  },
+  {
+   "number":6,
+   "name":"Section 80C Deductions",
+   "description":"Investments in LIC, PPF, ELSS, Children Tution Fees etc. (Max 1.5 Lakh)."
+  },
+  {
+   "number":7,
+   "name":"TDS Paid",
+   "description":"Tax already deducted at source as per Form 26AS."
+  }
+ ]
+}

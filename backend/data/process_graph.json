@@ -1,0 +1,91 @@
+{
+  "domains": {
+    "Income Tax": {
+      "nodes": [
+        {"id": "Form16", "type": "form", "label": "Form 16 (Salary TDS)"},
+        {"id": "Form26AS", "type": "form", "label": "Form 26AS (Tax Credit)"},
+        {"id": "AIS", "type": "form", "label": "AIS (Annual Info Statement)"},
+        {"id": "ITR_Filing", "type": "process", "label": "ITR Filing"},
+        {"id": "ITR1", "type": "form", "label": "ITR-1 (Sahaj)"},
+        {"id": "ITR2", "type": "form", "label": "ITR-2"},
+        {"id": "ITR3", "type": "form", "label": "ITR-3"},
+        {"id": "ITR4", "type": "form", "label": "ITR-4 (Sugam)"},
+        {"id": "Verification", "type": "process", "label": "ITR-V/e-Verification"},
+        {"id": "Processing", "type": "process", "label": "CPC Processing"},
+        {"id": "Notice_139_9", "type": "notice", "label": "Section 139(9) Notice"},
+        {"id": "Defective_Return", "type": "status", "label": "Defective Return"},
+        {"id": "Correction", "type": "process", "label": "Correction Filing"},
+        {"id": "Refund", "type": "outcome", "label": "Tax Refund Issued"},
+        {"id": "Demand", "type": "outcome", "label": "Tax Demand Raised"},
+        {"id": "Tax_Audit", "type": "process", "label": "Tax Audit (3CA/3CB)"}
+      ],
+      "edges": [
+        {"source": "Form16", "relation": "used_for", "target": "ITR1"},
+        {"source": "ITR1", "relation": "instance_of", "target": "ITR_Filing"},
+        {"source": "ITR2", "relation": "instance_of", "target": "ITR_Filing"},
+        {"source": "ITR3", "relation": "instance_of", "target": "ITR_Filing"},
+        {"source": "ITR4", "relation": "instance_of", "target": "ITR_Filing"},
+        {"source": "Form26AS", "relation": "verified_against", "target": "ITR_Filing"},
+        {"source": "AIS", "relation": "supplementary_to", "target": "ITR_Filing"},
+        {"source": "ITR_Filing", "relation": "generates", "target": "Verification"},
+        {"source": "Verification", "relation": "required_for", "target": "Processing"},
+        {"source": "Processing", "relation": "results_in", "target": "Refund"},
+        {"source": "Processing", "relation": "results_in", "target": "Demand"},
+        {"source": "Processing", "relation": "triggers", "target": "Notice_139_9"},
+        {"source": "Notice_139_9", "relation": "notifies", "target": "Defective_Return"},
+        {"source": "Defective_Return", "relation": "requires", "target": "Correction"}
+      ]
+    },
+    "EPFO": {
+      "nodes": [
+        {"id": "Employee", "type": "actor", "label": "Employee / Member"},
+        {"id": "UAN", "type": "requirement", "label": "Universal Account Number"},
+        {"id": "KYC", "type": "requirement", "label": "KYC (Aadhaar/PAN)"},
+        {"id": "PF_Claim", "type": "process", "label": "Online PF Claim"},
+        {"id": "EPF_Form11", "type": "form", "label": "Form 11 (Declaration)"},
+        {"id": "EPF_Form2", "type": "form", "label": "Form 2 (Nomination)"},
+        {"id": "EPF_Form13", "type": "form", "label": "Form 13 (Transfer)"},
+        {"id": "EPF_Form20", "type": "form", "label": "Form 20 (Death Claim)"},
+        {"id": "Employer_Verification", "type": "process", "label": "Employer Verification"},
+        {"id": "Field_Office_Approval", "type": "process", "label": "EPFO Office Approval"},
+        {"id": "Bank_Transfer", "type": "outcome", "label": "Bank Account Credit"},
+        {"id": "Form19", "type": "form", "label": "Form 19 (Withdrawal)"},
+        {"id": "LIC_PF_Payment", "type": "form", "label": "LIC Policy from PF"}
+      ],
+      "edges": [
+        {"source": "Employee", "relation": "holds", "target": "UAN"},
+        {"source": "UAN", "relation": "requires", "target": "KYC"},
+        {"source": "Employee", "relation": "linked_to", "target": "UAN"},
+        {"source": "UAN", "relation": "used_for", "target": "KYC"},
+        {"source": "KYC", "relation": "used_for", "target": "Form19"},
+        {"source": "KYC", "relation": "used_for", "target": "Form31"},
+        {"source": "KYC", "relation": "used_for", "target": "Form10C"},
+        {"source": "Form19", "relation": "used_for", "target": "PF_Claim"},
+        {"source": "Form31", "relation": "used_for", "target": "PF_Claim"},
+        {"source": "Form10C", "relation": "used_for", "target": "PF_Claim"},
+        {"source": "PF_Claim", "relation": "verified_by", "target": "Employer_Verification"},
+        {"source": "Employer_Verification", "relation": "results_in", "target": "Field_Office_Approval"},
+        {"source": "Field_Office_Approval", "relation": "results_in", "target": "Bank_Transfer"}
+      ]
+    },
+    "Passport": {
+      "nodes": [
+        {"id": "Application", "type": "process", "label": "Online Passport Application"},
+        {"id": "Appointment", "type": "process", "label": "PSK Appointment"},
+        {"id": "Document_Verification", "type": "process", "label": "Granting Officer Review"},
+        {"id": "Police_Verification", "type": "process", "label": "Police Verification"},
+        {"id": "Passport_Printing", "type": "process", "label": "Printing & Personalization"},
+        {"id": "Dispatch", "type": "process", "label": "Speed Post Dispatch"},
+        {"id": "Delivery", "type": "outcome", "label": "Passport Received"}
+      ],
+      "edges": [
+        {"source": "Application", "relation": "followed_by", "target": "Appointment"},
+        {"source": "Appointment", "relation": "triggers", "target": "Document_Verification"},
+        {"source": "Document_Verification", "relation": "initiates", "target": "Police_Verification"},
+        {"source": "Police_Verification", "relation": "triggers", "target": "Passport_Printing"},
+        {"source": "Passport_Printing", "relation": "followed_by", "target": "Dispatch"},
+        {"source": "Dispatch", "relation": "results_in", "target": "Delivery"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "form_id": "form19",
+  "form_name": "Form 19 — PF Final Settlement",
+  "description": "Final settlement claim for withdrawing the entire Provident Fund balance after leaving service (resignation, retirement). Member should be unemployed for at least 2 months.",
+  "pdf": "/api/view_form/form-1-EMPLOYEERS-PROVIDENT-FUND-SCHEME_compressed.pdf",
+  "fields": [
+    { "number": 1, "name": "UAN Number", "description": "Enter your 12-digit Universal Account Number (UAN) linked to your PF account. Found on salary slip or EPFO portal." },
+    { "number": 2, "name": "Member Name", "description": "Your full name exactly as it appears in EPFO records / Aadhaar card." },
+    { "number": 3, "name": "Father's / Husband's Name", "description": "Mention your father's name or husband's name as per Aadhaar/EPFO records." },
+    { "number": 4, "name": "Date of Birth", "description": "Your date of birth in DD/MM/YYYY format. Must match EPFO/Aadhaar." },
+    { "number": 5, "name": "PAN Number", "description": "Mandatory for claims above Rs. 50,000 to avoid TDS deduction at 30%. Without PAN, TDS is 34.608%." },
+    { "number": 6, "name": "Aadhaar Number", "description": "Your 12-digit Aadhaar number for identity verification — must be seeded with UAN on EPFO portal." },
+    { "number": 7, "name": "Name & Address of Establishment", "description": "Name and complete address of the employer you are claiming from." },
+    { "number": 8, "name": "Date of Joining", "description": "Date when you joined this establishment in DD/MM/YYYY format." },
+    { "number": 9, "name": "Date of Leaving Service", "description": "Mention the exact date of your last working day at this establishment." },
+    { "number": 10, "name": "Reason for Leaving", "description": "Resignation / Retrenchment / Retirement / Health / Migration abroad etc." },
+    { "number": 11, "name": "Full Postal Address", "description": "Your current residential address including city, state, and PIN code for communication." },
+    { "number": 12, "name": "Bank Account Number", "description": "Your bank account number where the PF settlement amount will be credited (must be linked to UAN on EPFO portal)." },
+    { "number": 13, "name": "IFSC Code", "description": "IFSC code of your bank branch. Verify from EPFO portal or bank passbook." },
+    { "number": 14, "name": "Mode of Payment", "description": "Select: ECS (Electronic Clearing System / NEFT). Most settlements are done via NEFT." },
+    { "number": 15, "name": "Advance Stamp Receipt (if cheque payment)", "description": "If payment is by cheque, affix a revenue stamp on the advance receipt." },
+    { "number": 16, "name": "Employee Signature with Date", "description": "Sign or affix thumb impression at the bottom of the form with date of filling." }
+  ]
+}

@@ -51,7 +51,7 @@ def clean_json_response(raw_response: str) -> dict:
         if not isinstance(data, dict):
              raise ValueError("Parsed JSON is not a dictionary")
              
-        # Strictly define required keys and their defaults
+        # CONSISTENT SCHEMA DEFAULTS
         schema = {
             "urgency": "normal",
             "deadline": "Not Applicable",
@@ -68,20 +68,30 @@ def clean_json_response(raw_response: str) -> dict:
         
         # Merge AI data with schema defaults.
         final_data = schema.copy()
-        for key in schema:
-            if key in data:
-                # Accept non-null, non-empty values
-                val = data[key]
-                if val is not None and val != "" and val != []:
-                    final_data[key] = val
         
-        # Legacy mapping (if UI still depends on answer or explanation)
-        final_data["answer"] = final_data.get("overview", "")
-        final_data["explanation"] = final_data.get("overview", "")
-            
+        # 1. Start with schema defaults
+        # 2. OVERLAY all keys from AI data (dont discard unknown keys)
+        for key, val in data.items():
+            if val is not None and val != "" and val != []:
+                final_data[key] = val
+        
+        # 3. Handle Legacy/Cross-Feature Mappings
+        # If we have 'explanation' (from Process Graph/OCR) but not 'overview' (from RAG), 
+        # or vice-versa, sync them so the UI always has a primary text field.
+        
+        main_text = final_data.get("explanation") or final_data.get("overview") or final_data.get("answer") or "No detailed information was found for this specific query."
+        
+        final_data["overview"] = main_text
+        final_data["explanation"] = main_text
+        final_data["answer"] = main_text
+        
+        # Ensure common keys for specific features exist
+        if "process_chain" not in final_data: final_data["process_chain"] = []
+        if "next_steps" not in final_data: final_data["next_steps"] = final_data.get("steps", [])
+        
         return final_data
     except Exception as e:
-        print(f"JSON Cleaning Error: {e} | Raw: {raw_response[:200]}")
+        print(f"JSON Cleaning Error: {e} | Raw: {raw_response[0:200]}")
         return {
             "urgency": "attention",
             "deadline": "Try again",
@@ -148,17 +158,63 @@ EXAMPLE EXCELLENT JSON:
   "action_url": "forms/PF Final Settlement.pdf",
   "action_label": "Download Form 19"
 }}
-
-
 ════════════════════════════════════════════════════════════════════════════════
 CONTEXT:
 {context}
 
 ════════════════════════════════════════════════════════════════════════════════
+{profile_context}
+
+CRITICAL PERSONALIZATION ENGINE (HIGH PRIORITY):
+Your response MUST be deeply personalized. Generic answers are considered a failure.
+1. ACKNOWLEDGE ALL TRAITS: Start the 'overview' by explicitly mentioning at least TWO profile traits.
+   - Example: "As a Senior Citizen in the 10-20L salary bracket, Section 80C is particularly useful because..."
+2. DYNAMIC TAX LIMITS:
+   - If 'senior_citizen': True → ALWAYS mention the higher basic exemption (₹3L for Age 60-80, ₹5L for 80+).
+   - If 'salary_range': 10L+ → ALWAYS mention the benefit of the Old Regime vs New Regime for their bracket.
+3. CONTEXTUAL DOCUMENTS:
+   - If 'ITR Filed': False → Remind them that they need to register on the portal first.
+   - If 'business'/'freelancer' → Add Form 10-IE (Regime selection) to required_documents.
+4. PERSONALIZED FOR HEADER: At the very beginning of the 'overview', include a tag: "[Personalized Guidance Context Applied]"
+5. If NO profile is provided, use a "[Public Knowledge]" tag instead.
+
+════════════════════════════════════════════════════════════════════════════════
 USER REQUEST:
 {user_query}
-
 Return ONLY valid JSON. Focus on TECHNICAL details from the context.
+"""
+
+ENHANCED_PROCESS_PROMPT = """
+You are CivicAssist AI, a government process navigator.
+Your job is to explain a government workflow using BOTH a structured process graph path and retrieved document context.
+
+════════════════════════════════════════════════════════════════════════════════
+PROCESS GRAPH PATH:
+{process_path}
+
+════════════════════════════════════════════════════════════════════════════════
+DOCUMENT CONTEXT:
+{context}
+
+════════════════════════════════════════════════════════════════════════════════
+USER PROFILE:
+{profile_context}
+
+════════════════════════════════════════════════════════════════════════════════
+USER QUERY:
+{user_query}
+
+OUTPUT SCHEMA (MANDATORY):
+{{
+  "process_chain": ["NodeA", "NodeB", "NodeC"],
+  "current_step": "The node that matches user's current situation",
+  "explanation": "Detailed explanation incorporating graph reasoning.",
+  "required_documents": ["Doc 1", "Doc 2"],
+  "next_steps": ["Step 1", "Step 2"],
+  "official_source": "Source citation"
+}}
+
+Return ONLY valid JSON.
 """
 
 def safety_check(response: dict):
@@ -166,10 +222,11 @@ def safety_check(response: dict):
     response["disclaimer"] = "This is a technical explanation based on official documents. For personal assistance please contact the official helpline or consult a professional."
     return response
 
-def civic_assist(question):
+def civic_assist(question, profile_context="No user profile provided."):
     context_chunks = retrieve_knowledge(question)
     prompt = MASTER_PROMPT.format(
         context="\n---\n".join([c["text"] for c in context_chunks]),
+        profile_context=profile_context,
         user_query=question
     )
 

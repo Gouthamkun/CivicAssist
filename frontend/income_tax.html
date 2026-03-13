@@ -305,12 +305,24 @@
                 <p>Official CBDT guidance powered by CivicAssist RAG AI</p>
             </div>
 
+            <!-- Profile Banner -->
+            <div style="background: rgba(228, 49, 55, 0.05); border-left: 4px solid var(--primary-red); padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee;">
+                <div>
+                    <strong style="color: var(--primary-dark);"><i class="fa-solid fa-wand-magic-sparkles" style="color: var(--primary-red);"></i> Improve AI answers</strong>
+                    <p style="margin: 5px 0 0 0; font-size: 0.9rem; color: #666;">Provide optional context like Employment Type to get personalized tax guidance.</p>
+                </div>
+                <button class="btn-sm" onclick="openTaxProfileModal()" style="background: white; border: 1px solid var(--primary-red); color: var(--primary-red); padding: 8px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; transition: all 0.2s;">
+                    <i class="fa-solid fa-pen-to-square"></i> Edit Profile
+                </button>
+            </div>
+
             <!-- Tab Navigation -->
             <div class="tabs">
                 <button class="tab active" data-tab="ask"><i class="fa-solid fa-comment-dots"></i> Ask AI</button>
                 <button class="tab" data-tab="notice"><i class="fa-solid fa-magnifying-glass-chart"></i> Upload
                     Notice</button>
                 <button class="tab" data-tab="guide"><i class="fa-solid fa-shoe-prints"></i> Filing Guide</button>
+                <button class="tab" data-tab="process_navigator"><i class="fa-solid fa-route"></i> Process Navigator</button>
                 <button class="tab" data-tab="forms"><i class="fa-solid fa-file-signature"></i> Forms & Docs</button>
                 <button class="tab" data-tab="refund"><i class="fa-solid fa-money-bill-transfer"></i> Refund
                     Help</button>
@@ -357,21 +369,40 @@
 
             <!-- Panel 3: Filing Guide -->
             <div class="tab-panel" id="guide">
-                <p style="margin-bottom: 20px; color: #666;">Select a procedure to get official step-by-step
-                    instructions.</p>
-                <div class="form_buttons">
-                    <button class="guide_btn" onclick="fetchGuide('How to File ITR')"><i
-                            class="fa-solid fa-file-export"></i> How to File ITR</button>
-                    <button class="guide_btn" onclick="fetchGuide('How to e-Verify ITR')"><i
-                            class="fa-solid fa-check-double"></i> How to Verify ITR</button>
-                    <button class="guide_btn" onclick="fetchGuide('How to File Revised Return')"><i
-                            class="fa-solid fa-clock-rotate-left"></i> File Revised Return</button>
+                <h3><i class="fa-solid fa-book-open"></i> Procedural Guides</h3>
+                <p>Official step-by-step instructions for common tax tasks.</p>
+                
+                <div class="suggestions" style="margin-top: 15px; margin-bottom: 20px;">
+                    <button class="suggestion" onclick="loadITForms()">View Available ITR Guides</button>
+                    <button class="suggestion" onclick="submitProcessExplain('What happens after I file my ITR?')">ITR Lifecycle</button>
+                    <button class="suggestion" onclick="submitProcessExplain('ITR-1 Verification Process')">Verify ITR</button>
                 </div>
-
-                <div class="loading-state" id="guide_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i>
-                    <p>Generating guide...</p>
-                </div>
+                
+                <div class="loading-state" id="guide_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i><p>Fetching Step-by-Step Guide...</p></div>
                 <div id="guide_response" class="response-box"></div>
+            </div>
+
+            <!-- Panel: Process Navigator (New) -->
+            <div class="tab-panel" id="process_navigator">
+                <div style="background: white; padding: 25px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                    <h3><i class="fa-solid fa-route" style="color:var(--primary-red);"></i> Government Process Navigator</h3>
+                    <p style="color: #64748b; margin-bottom: 20px;">Understand the lifecycle of your tax requests and dependencies.</p>
+                    
+                    <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                        <button class="chip" onclick="submitProcessExplain('What happens after I file my ITR?')">ITR Lifecycle</button>
+                        <button class="chip" onclick="submitProcessExplain('Why is my refund delayed?')">Refund Process</button>
+                        <button class="chip" onclick="submitProcessExplain('How to handle a defective return notice?')">Notice Handling</button>
+                        <button class="chip" onclick="submitProcessExplain('What are the requirements for Section 80C?')">80C Process</button>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="process_query" placeholder="Enter a process (e.g. Refund, Verification, Notice 139)..." style="width:100%; padding:12px; border:1px solid #cbd5e1; border-radius:8px;">
+                    </div>
+                    <button class="action-btn" onclick="submitProcessExplain(document.getElementById('process_query').value)" style="margin-top: 10px; width: 100%;">Map Process Path</button>
+
+                    <div class="loading-state" id="process_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i><p>Analyzing Knowledge Graph...</p></div>
+                    <div id="process_response" class="response-box"></div>
+                </div>
             </div>
 
             <!-- Panel 4: Forms -->
@@ -412,6 +443,67 @@
                 <div id="refund_response" class="response-box"></div>
             </div>
 
+        </div>
+    </div>
+
+    <!-- Citizen Profile Modal -->
+    <div class="modal modal-overlay" id="tax-profile-modal">
+        <div class="modal-content" style="max-width: 450px; text-align: left; background: #fff; padding: 30px; border-radius: 12px;">
+            <span class="close-btn" onclick="closeTaxProfileModal()">&times;</span>
+            <h2 style="color: var(--primary-dark); margin-bottom: 5px; font-size: 1.4rem;">
+                <i class="fa-solid fa-id-card-clip" style="color: var(--primary-red);"></i> AI Profile Memory
+            </h2>
+            <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">
+                Help CivicAssist personalize your guidance. <strong style="color: var(--primary-red);">We do not store PAN, Aadhaar, or Bank data.</strong> Profile is 100% optional.
+            </p>
+
+            <form id="taxProfileForm" onsubmit="event.preventDefault(); saveTaxProfile();">
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label style="display: block; font-size: 0.9rem; margin-bottom: 5px; font-weight: 500;">Employment Type</label>
+                    <select id="profile_employment_type" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <option value="">Select (Optional)</option>
+                        <option value="salaried">Salaried</option>
+                        <option value="business">Business / Professional</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="unemployed">Unemployed / Student</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label style="display: block; font-size: 0.9rem; margin-bottom: 5px; font-weight: 500;">Salary Range</label>
+                    <select id="profile_salary_range" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <option value="">Select (Optional)</option>
+                        <option value="0-5L">0 - 5 Lakhs</option>
+                        <option value="5-10L">5 - 10 Lakhs</option>
+                        <option value="10-20L">10 - 20 Lakhs</option>
+                        <option value="20L+">Above 20 Lakhs</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="profile_senior_citizen" style="width: auto; transform: scale(1.2);">
+                    <label for="profile_senior_citizen" style="font-size: 0.9rem; font-weight: 500; cursor: pointer;">I am a Senior Citizen (60+ years)</label>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 25px; display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="profile_itr_filed" style="width: auto; transform: scale(1.2);">
+                    <label for="profile_itr_filed" style="font-size: 0.9rem; font-weight: 500; cursor: pointer;">Filed ITR Last Year?</label>
+                </div>
+
+                <div id="profile-summary-view" style="display:none; background: #f0fdf4; border: 1px solid #bcf0da; padding: 12px; border-radius: 8px; margin-bottom: 20px;">
+                    <h4 style="color: #046c4e; font-size: 0.85rem; margin-bottom: 5px;"><i class="fa-solid fa-brain"></i> Active Memory:</h4>
+                    <p id="profile-summary-text" style="font-size: 0.8rem; color: #03543f; margin: 0; line-height: 1.4;"></p>
+                </div>
+
+                <div style="display: flex; gap: 10px; justify-content: space-between;">
+                    <button type="button" class="btn-sm" onclick="deleteTaxProfile()" style="background: transparent; border: 1px solid #ccc; color: #666; padding: 10px 15px; border-radius: 5px; cursor: pointer;">
+                        Delete Profile
+                    </button>
+                    <button type="submit" class="btn btn-primary" style="background: var(--primary-red); color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                        Save Context
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -571,22 +663,81 @@
                     </div>
                 `;
             } else {
-                // Fallback for general RAG queries
-                const explanation = data.overview || data.explanation || "No detail provided.";
-                const steps = data.steps || [];
+                // Fallback for general RAG queries or Process Graph responses
+                const explanation = data.explanation || data.overview || "No detail provided.";
+                const steps = data.next_steps || data.steps || [];
                 const reqDocs = data.required_documents || [];
                 
+                let graphHtml = '';
+                if (data.process_chain && data.process_chain.length > 0) {
+                    graphHtml = `
+                        <div class="process-flow" style="margin-bottom: 25px; background: #f8fafc; padding: 20px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                            <h5 style="margin: 0 0 15px 0; font-size: 0.75rem; text-transform: uppercase; color: #64748b;"><i class="fa-solid fa-diagram-project"></i> Structural Process Path</h5>
+                            <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+                                ${data.process_chain.map((step, idx) => `
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <div style="padding: 6px 12px; background: ${step === data.current_step ? 'var(--primary-red)' : 'white'}; color: ${step === data.current_step ? 'white' : '#1e293b'}; border-radius: 6px; border: 1px solid ${step === data.current_step ? 'var(--primary-red)' : '#cbd5e1'}; font-weight: 600; font-size: 0.85rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                                            ${step}
+                                        </div>
+                                        ${idx < data.process_chain.length - 1 ? '<i class="fa-solid fa-chevron-right" style="color: #cbd5e1; font-size: 0.8rem;"></i>' : ''}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                let formsHtml = '';
+                if (data.official_forms && data.official_forms.length > 0) {
+                    formsHtml = `
+                        <div style="margin-top: 20px; padding: 15px; background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px;">
+                            <h5 style="margin: 0 0 10px 0; color: #92400e; font-size: 0.8rem; text-transform: uppercase;"><i class="fa-solid fa-file-pdf"></i> Verified Forms Available on Disk</h5>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                ${data.official_forms.map(f => `
+                                    <a href="${f.url}" target="_blank" style="padding: 6px 12px; background: white; border: 1px solid #fcd34d; border-radius: 20px; color: #92400e; font-size: 0.8rem; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 6px;">
+                                        <i class="fa-solid fa-download"></i> ${f.name}
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
                 target.innerHTML = `
                     <div class="rag-response">
-                        <p style="font-size: 1.1rem; line-height: 1.6;">${explanation.replace(/\n/g, '<br>')}</p>
+                        ${graphHtml}
+                        ${formsHtml}
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 20px;">${explanation.replace(/\n/g, '<br>')}</p>
                         ${reqDocs.length > 0 ? `<h4 style="margin-top:20px;">Required Documents</h4><ul>${reqDocs.map(d => `<li>${d}</li>`).join('')}</ul>` : ''}
-                        ${steps.length > 0 ? `<h4 style="margin-top:20px;">Process Steps</h4><ol>${steps.map(s => `<li>${s}</li>`).join('')}</ol>` : ''}
+                        ${steps.length > 0 ? `<h4 style="margin-top:20px;">${data.process_chain ? 'Lifecycle Steps' : 'Process Steps'}</h4><ol>${steps.map(s => `<li>${s}</li>`).join('')}</ol>` : ''}
                         ${data.official_portal_link ? `<div style="margin-top:20px;"><strong>Official Portal:</strong> <a href="${data.official_portal_link}" target="_blank" style="color: var(--primary-red);">${data.official_portal_link}</a></div>` : ''}
                     </div>
                 `;
             }
 
             target.style.display = 'block';
+        }
+
+        async function submitProcessExplain(q) {
+            if (!q) return;
+            document.getElementById('process_query').value = q;
+            toggleLoading('process', true);
+            try {
+                const res = await fetch('/process_explain', {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    },
+                    body: JSON.stringify({ query: q })
+                });
+                const data = await res.json();
+                render_response(data, 'process_response');
+            } catch (e) {
+                console.error(e);
+            } finally {
+                toggleLoading('process', false);
+            }
         }
 
         // Toggle loading UI
@@ -606,7 +757,10 @@
             try {
                 const res = await fetch('/ask_tax_question', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    },
                     body: JSON.stringify({ question: q })
                 });
                 const data = await res.json();
@@ -634,6 +788,9 @@
             try {
                 const res = await fetch('/explain_notice', {
                     method: 'POST',
+                    headers: {
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    },
                     body: formData
                 });
                 const data = await res.json();
@@ -650,7 +807,11 @@
         async function fetchGuide(guideName) {
             toggleLoading('guide', true);
             try {
-                const res = await fetch(`/tax_guides/${encodeURIComponent(guideName)}`);
+                const res = await fetch(`/tax_guides/${encodeURIComponent(guideName)}`, {
+                    headers: {
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    }
+                });
                 const data = await res.json();
                 render_response(data, 'guide_response');
             } catch (e) {
@@ -672,7 +833,11 @@
 
             toggleLoading('forms', true);
             try {
-                const res = await fetch(`/tax_forms/${encodeURIComponent(f)}`);
+                const res = await fetch(`/tax_forms/${encodeURIComponent(f)}`, {
+                    headers: {
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    }
+                });
                 const data = await res.json();
                 render_response(data, 'forms_response');
             } catch (e) {
@@ -694,7 +859,10 @@
             try {
                 const res = await fetch('/refund_guidance', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+                    },
                     body: JSON.stringify({ issue: issue })
                 });
                 const data = await res.json();
@@ -707,6 +875,23 @@
         }
     </script>
 
+    <!-- AI Universal Explainer Modal -->
+    <div id="ai-response-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-robot" style="color: var(--primary-red);"></i> AI Guidance Response</h3>
+            </div>
+            <div id="ai-response-body" class="modal-body">
+                <!-- Content gets injected via JS -->
+            </div>
+            <div class="modal-actions">
+                <button class="btn-outline" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

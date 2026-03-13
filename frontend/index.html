@@ -62,9 +62,12 @@
             </div>
 
             <div class="hero-titles">
-                <div class="hero-logo-line">
+                <div class="hero-logo-line" style="position: relative;">
                     <h1>civicassist.gov.in</h1>
                     <span class="beta-tag">BETA</span>
+                    <button class="btn-profile-badge" onclick="openTaxProfileModal()" style="position: absolute; right: -120px; top: 0; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; display: flex; align-items: center; gap: 5px; transition: all 0.2s;">
+                        <i class="fa-solid fa-user-astronaut"></i> Profile
+                    </button>
                 </div>
                 <h2>National AI Guide for Citizens</h2>
                 <p>Where Government Documentation and AI Convergence</p>
@@ -224,7 +227,73 @@
 
     <!-- Features section moved to JS template -->
 
-    <!-- Simulated Output / Response Modal Overlay -->
+    <!-- Citizen Profile Modal -->
+    <div class="modal modal-overlay" id="tax-profile-modal">
+        <div class="modal-content" style="max-width: 450px; text-align: left; background: #fff; padding: 30px; border-radius: 12px;">
+            <span class="close-btn" onclick="closeTaxProfileModal()">&times;</span>
+            <h2 style="color: var(--primary-dark); margin-bottom: 5px; font-size: 1.4rem;">
+                <i class="fa-solid fa-id-card-clip" style="color: var(--primary-red);"></i> AI Profile Memory
+            </h2>
+            <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">
+                Help CivicAssist personalize your guidance. <strong style="color: var(--primary-red);">We do not store PAN, Aadhaar, or Bank data.</strong> Profile is 100% optional.
+            </p>
+
+            <form id="taxProfileForm" onsubmit="event.preventDefault(); saveTaxProfile();">
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label style="display: block; font-size: 0.9rem; margin-bottom: 5px; font-weight: 500;">Employment Type</label>
+                    <select id="profile_employment_type" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <option value="">Select (Optional)</option>
+                        <option value="salaried">Salaried</option>
+                        <option value="business">Business / Professional</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="unemployed">Unemployed / Student</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="profile_preview_memory" style="width: auto; transform: scale(1.2);">
+                    <label for="profile_preview_memory" style="font-size: 0.9rem; font-weight: 500; cursor: pointer;">Preview Profile Memory</label>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label style="display: block; font-size: 0.9rem; margin-bottom: 5px; font-weight: 500;">Salary Range</label>
+                    <select id="profile_salary_range" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <option value="">Select (Optional)</option>
+                        <option value="0-5L">0 - 5 Lakhs</option>
+                        <option value="5-10L">5 - 10 Lakhs</option>
+                        <option value="10-20L">10 - 20 Lakhs</option>
+                        <option value="20L+">Above 20 Lakhs</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="profile_senior_citizen" style="width: auto; transform: scale(1.2);">
+                    <label for="profile_senior_citizen" style="font-size: 0.9rem; font-weight: 500; cursor: pointer;">I am a Senior Citizen (60+ years)</label>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 25px; display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="profile_itr_filed" style="width: auto; transform: scale(1.2);">
+                    <label for="profile_itr_filed" style="font-size: 0.9rem; font-weight: 500; cursor: pointer;">Filed ITR Last Year?</label>
+                </div>
+
+                <div id="profile-summary-view" style="display:none; background: #f0fdf4; border: 1px solid #bcf0da; padding: 12px; border-radius: 8px; margin-bottom: 20px;">
+                    <h4 style="color: #046c4e; font-size: 0.85rem; margin-bottom: 5px;"><i class="fa-solid fa-brain"></i> Active Memory:</h4>
+                    <p id="profile-summary-text" style="font-size: 0.8rem; color: #03543f; margin: 0; line-height: 1.4;"></p>
+                </div>
+
+                <div style="display: flex; gap: 10px; justify-content: space-between;">
+                    <button type="button" class="btn-sm" onclick="deleteTaxProfile()" style="background: transparent; border: 1px solid #ccc; color: #666; padding: 10px 15px; border-radius: 5px; cursor: pointer;">
+                        Delete Profile
+                    </button>
+                    <button type="submit" class="btn btn-primary" style="background: var(--primary-red); color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                        Save Context
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- AI Universal Explainer Modal (Already existing) -->
     <div id="ai-response-modal" class="modal-overlay">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
@@ -265,7 +334,7 @@
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="category-card" onclick="executeQuickQuery('Help me fill out my PF form')">
+                <div class="category-card" onclick="loadEPFOForms()">
                     <div class="cat-icon-box" style="background-color:#ffd700; color:#333;"><i
                             class="fa-solid fa-wand-magic-sparkles"></i></div>
                     <div class="cat-content">
@@ -393,6 +462,14 @@
                         <span class="btn-sm">Open Guidance</span>
                     </div>
                 </div>
+                <div class="mode-card" onclick="showPFProcessNavigator()">
+                    <div class="mode-icon"><i class="fa-solid fa-diagram-next" style="color:var(--primary-red);"></i></div>
+                    <div class="mode-content">
+                        <h4>Process Navigator</h4>
+                        <p>Visualize the entire PF claim lifecycle and understand dependencies between UAN, KYC, and Claims.</p>
+                        <span class="btn-sm" style="background:var(--primary-red);">Map My Process</span>
+                    </div>
+                </div>
             </div>
         </div>
     </template>
@@ -430,6 +507,156 @@
                     <p>Tip: Ensure your bank account details and IFSC are correct in the KYC section before applying.</p>
                 </div>
             </div>
+        </div>
+    </template>
+
+    <!-- Template for Passport Seva Features -->
+    <template id="passport-features-template">
+        <div class="pf-container">
+            <h3 class="sub-header">Passport Seva Assistant</h3>
+            <p class="sub-desc">Comprehensive support for your passport journey.</p>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card" onclick="executeQuickQuery('How to apply for a new passport?')">
+                    <i class="fa-solid fa-file-circle-plus"></i>
+                    <h4>Apply New</h4>
+                    <p>Document checklist & process guide</p>
+                </div>
+                <div class="dashboard-card" onclick="window.open('https://www.passportindia.gov.in/AppOnlineProject/statusTracker/trackStatusInpNew', '_blank')">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h4>Track Official</h4>
+                    <p>Live status on Government portal</p>
+                </div>
+                <!-- Proactive Logic Card -->
+                <div class="dashboard-card highlight" onclick="showPassportTracking()">
+                    <i class="fa-solid fa-bell"></i>
+                    <h4>Monitor Delay</h4>
+                    <p>Proactive alerts & grievance support</p>
+                </div>
+                <div class="dashboard-card" onclick="openUniversalNoticeExplainer()">
+                    <i class="fa-solid fa-camera"></i>
+                    <h4>Scan Message</h4>
+                    <p>Analyze SMS/Notice from Passport Seva</p>
+                </div>
+            </div>
+            
+            <div style="margin-top:20px; text-align:center;">
+                <p style="font-size:0.8rem; color:#666;">Need something else? Ask below:</p>
+                <div class="search-box glass-panel" style="margin-top: 10px; border: 1px solid var(--border-color); display: flex; padding: 5px; align-items: center; border-radius: 8px;">
+                    <input type="text" id="passport-custom-query" placeholder="Ask about Tatkaal, Police verification, etc..." style="flex: 1; border: none; outline: none; padding: 10px; background: transparent;">
+                    <button class="btn btn-gradient" onclick="executeQuickQuery(document.getElementById('passport-custom-query').value)" style="padding: 8px 16px; background-color: var(--primary-red); color: white; border: none; border-radius: 4px; cursor: pointer;">Ask AI</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for Passport Delay Tracking -->
+    <template id="passport-tracking-template">
+        <div class="pf-container">
+            <div class="modal-back-nav" onclick="openServiceModal('Passport')">
+                <i class="fa-solid fa-arrow-left"></i> Back to Features
+            </div>
+            <h3 class="sub-header"><i class="fa-solid fa-clock-rotate-left"></i> Passport Timeline Monitor</h3>
+            <p class="sub-desc">Enter your application details. CivicAssist will check daily and notify you if the processing time exceeds the standard SLA.</p>
+            
+            <div id="passport-track-form-container">
+                <form id="passportTrackForm" onsubmit="event.preventDefault(); savePassportTracking();" style="background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="form-group">
+                            <label style="display:block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px;">Application Date</label>
+                            <input type="date" id="pass_app_date" required style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:6px;">
+                        </div>
+                        <div class="form-group">
+                            <label style="display:block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px;">Application Type</label>
+                            <select id="pass_app_type" style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:6px;">
+                                <option value="Normal">Normal</option>
+                                <option value="Tatkaal">Tatkaal</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" style="margin-top: 15px;">
+                        <label style="display:block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px;">Police Verification Status</label>
+                        <select id="pass_police_status" style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:6px;">
+                            <option value="Pending">Pending / Not yet initiated</option>
+                            <option value="Completed">Completed / Report Submitted</option>
+                        </select>
+                    </div>
+
+                    <p style="font-size:0.75rem; color:#666; margin-top:15px; background:#fff; padding:10px; border-radius:6px; border:1px solid #eee;">
+                        <i class="fa-solid fa-shield-halved" style="color:var(--primary-red);"></i> 
+                        <strong>Privacy Note:</strong> We only track your timeline based on these dates. We do not access your official application login or personal details.
+                    </p>
+
+                    <button type="submit" class="action-btn" style="width:100%; margin-top:20px; background:var(--primary-red); color:white; padding:12px; border:none; border-radius:6px; font-weight:bold; cursor:pointer;">
+                        Start Proactive Monitoring
+                    </button>
+                </form>
+            </div>
+
+            <div id="passport-active-monitor" style="display:none; margin-top:20px;">
+                <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; text-align: center; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                    <div id="passport-status-shield" style="font-size: 3rem; margin-bottom: 15px;">
+                        <i class="fa-solid fa-shield-heart" style="color: #059669;"></i>
+                    </div>
+                    <h3 id="monitor-heading">Monitoring Active</h3>
+                    <p id="monitor-days" style="font-size: 0.9rem; color: #666;"></p>
+                    
+                    <div id="delay-action-box" style="display:none; margin-top: 20px; background: #fff5f5; border: 1px solid #feb2b2; padding: 15px; border-radius: 8px; text-align: left;">
+                        <h4 style="color: #c53030; margin-bottom: 10px;"><i class="fa-solid fa-triangle-exclamation"></i> Potential Delay Detected</h4>
+                        <p style="font-size: 0.85rem; margin-bottom: 15px;">Your application has exceeded the standard SLA. You may want to escalate via official channels.</p>
+                        <button class="btn btn-sm" onclick="generatePassportGrievance()" style="width:100%; background:#c53030; color:white; border:none; padding:10px; border-radius:4px; font-weight:600; cursor:pointer;">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> Generate Grievance Draft
+                        </button>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 25px;">
+                        <div style="display: flex; gap: 10px;">
+                            <button class="btn-outline" onclick="showPassportTrackForm()" style="flex:1; border: 1px solid #cbd5e1; padding: 10px; border-radius: 6px; cursor:pointer;">Edit Details</button>
+                            <button class="btn-outline" onclick="resolvePassport()" style="flex:1; border: 1px solid #059669; color: #059669; padding: 10px; border-radius: 6px; cursor:pointer;">Passport Received</button>
+                        </div>
+                        <button class="btn-sm" onclick="testPassportAlert()" style="width:100%; background:#2563eb; color:white; border:none; padding:12px; border-radius:6px; font-weight:700; cursor:pointer; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                            <i class="fa-solid fa-phone-volume"></i> 🚀 Test Live Alert (Judge Demo)
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="grievance-draft-container" style="display:none; margin-top: 25px; border-top: 2px dashed #eee; padding-top: 20px;">
+                <h4 style="margin-bottom: 10px;">Grievance Draft Letter:</h4>
+                <div id="passport-grievance-content" style="background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 8px; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; line-height: 1.5; white-space: pre-wrap;"></div>
+                <div style="margin-top: 15px; display: flex; gap: 10px;">
+                    <button class="btn-sm" onclick="copyPassportGrievance()" style="flex:1; background:#f1f5f9; border:1px solid #cbd5e1; padding:8px; border-radius:4px; cursor:pointer;">Copy Text</button>
+                    <a id="off_grievance_link" href="https://portal2.passportindia.gov.in/AppOnlineProject/online/epayInit" target="_blank" style="flex:1; text-align:center; background:var(--primary-red); color:white; text-decoration:none; padding:8px; border-radius:4px; font-weight:600; font-size:0.85rem;">Official Portal</a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for PF Process Navigator (New) -->
+    <template id="pf-process-nav-template">
+        <div class="pf-container">
+            <div class="modal-back-nav" onclick="showPFOptions()">
+                <i class="fa-solid fa-arrow-left"></i> Back to Modes
+            </div>
+            <h3 class="sub-header">EPFO Process Navigator</h3>
+            <p class="sub-desc">Explore the technical workflow of EPFO services.</p>
+            
+            <div style="background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; margin-bottom: 20px;">
+                <div style="display: flex; gap: 8px; margin-bottom: 15px; flex-wrap: wrap;">
+                    <button class="chip" onclick="submitPFProcessExplain('What is the PF withdrawal process?')">Withdrawal Flow</button>
+                    <button class="chip" onclick="submitPFProcessExplain('How is UAN linked to Employee?')">UAN Mapping</button>
+                    <button class="chip" onclick="submitPFProcessExplain('What happens after Field Office Approval?')">Post-Approval</button>
+                    <button class="chip" onclick="submitPFProcessExplain('Transfer PF process')">Transfer Workflow</button>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="pf_process_query" placeholder="Ask about a PF process step..." style="width:100%; padding:12px; border:1px solid #cbd5e1; border-radius:8px;">
+                </div>
+                <button class="action-btn" onclick="submitPFProcessExplain(document.getElementById('pf_process_query').value)" style="margin-top:10px; width:100%;">Analyze Process</button>
+            </div>
+
+            <div class="loading-state" id="pf_process_loading"><i class="fa-solid fa-spinner fa-spin fa-2x"></i><p>Consulting EPFO Knowledge Graph...</p></div>
+            <div id="pf_process_response" class="response-box" style="background: white; min-height: 100px;"></div>
         </div>
     </template>
 
@@ -489,6 +716,22 @@
     <div class="container text-center">
         <p>CivicAssist Hackathon Project - Inspired by india.gov.in</p>
     </div>
+    </div>
+
+    <!-- Form Guide Modal (Universal) -->
+    <div class="modal modal-overlay" id="form-guide-modal" style="display:none;">
+        <div class="modal-content" style="max-width: 700px; text-align: left; background: #fff; padding: 0; border-radius: 12px; overflow: hidden; margin: 50px auto; position: relative; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);">
+            <div style="background: var(--primary-red); color: white; padding: 25px; display: flex; justify-content: space-between; align-items: center;">
+                <h3 id="guide-modal-title" style="margin: 0; font-size: 1.4rem; font-weight: 700;"><i class="fa-solid fa-book-open"></i> Form Guide</h3>
+                <span class="close-btn" onclick="closeFormGuideModal()" style="color: white; margin: 0; font-size: 2rem; cursor: pointer; line-height: 1;">&times;</span>
+            </div>
+            <div id="guide-modal-body" style="padding: 30px; max-height: 70vh; overflow-y: auto;">
+                <!-- Guide content injected here -->
+            </div>
+            <div style="padding: 15px 30px; background: #f8fafc; border-top: 1px solid #eee; text-align: right;">
+                <button class="btn btn-secondary" onclick="closeFormGuideModal()" style="padding: 10px 20px; border-radius: 6px; border: 1px solid #cbd5e1; background: white; cursor: pointer; font-weight: 600;">Close Guide</button>
+            </div>
+        </div>
     </div>
 
     <script src="js/main.js?v=3"></script>

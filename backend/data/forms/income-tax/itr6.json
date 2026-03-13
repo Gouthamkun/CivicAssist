@@ -1,0 +1,19 @@
+{
+  "form_id": "itr6",
+  "form_name": "ITR-6",
+  "description": "For Companies other than companies claiming exemption under section 11. Used by domestic and foreign companies.",
+  "pdf": "/api/view_form/forms/formitr6-english-2025.pdf",
+  "fields": [
+    { "number": 1, "name": "Company PAN & Information", "description": "Mandatory PAN, CIN (Corporate Identity Number), date of incorporation, nature of business." },
+    { "number": 2, "name": "Shareholders' Information", "description": "Details of the holding company, subsidiary company, key management personnel, and unlisted shares (if applicable)." },
+    { "number": 3, "name": "Balance Sheet (Part A-BS & Ind AS)", "description": "Reserves, loans, fixed assets (tangible & intangible), current assets, liabilities as on 31st March. Schedule Ind AS if applicable." },
+    { "number": 4, "name": "Manufacturing/Trading/P&L Account", "description": "Operating revenues, expenses (employee cost, depreciation), direct taxes paid, and net accounting profit." },
+    { "number": 5, "name": "Business Income Computation (Schedule BP)", "description": "Deductions disallowed vs allowed under Income Tax rules (e.g., non-deduction of TDS, unpaid GST)." },
+    { "number": 6, "name": "Depreciation (Schedule DPM, DOA)", "description": "Depreciation values allowable specifically for company properties as per IT Rules block rates." },
+    { "number": 7, "name": "Other Income (Schedules HP, CG, OS)", "description": "Rent from commercial/residential properties, capital gains on investments, dividends, interest." },
+    { "number": 8, "name": "Minimum Alternate Tax (MAT) (Schedule MAT/MATC)", "description": "Calculation of MAT at 15% of book profit if regular tax payable is lower." },
+    { "number": 9, "name": "Chapter VI-A Deductions", "description": "Corporate deductions like 80G (donations), 80-IA (infra), 80JJA (new employment generation)." },
+    { "number": 10, "name": "Audit Details (Part A-OI)", "description": "Whether liable for tax audit u/s 44AB, Transfer Pricing audit, and details of the auditor." },
+    { "number": 11, "name": "Final Tax & Verification (Part B-TTI)", "description": "Total tax, surcharge, cess, advance tax paid, self-assessment tax, MAT credit, and authorized director signature." }
+  ]
+}

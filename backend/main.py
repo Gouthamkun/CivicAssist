@@ -3,7 +3,9 @@ import os
 import io
 import shutil
 import json
+import re
 from datetime import datetime
+from typing import List, Tuple, Optional
 from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -26,20 +28,67 @@ from backend.services.identity_service import extract_info_from_doc, extract_uan
 from backend.services.notice_explainer import explain_notice as legacy_explain_notice
 
 # Assistant & Ollama (Remote)
-from backend.services.assistant import clean_json_response, MASTER_PROMPT, civic_assist, retrieve_knowledge, safety_check
+from backend.services.assistant import civic_assist, ENHANCED_PROCESS_PROMPT, safety_check, clean_json_response, MASTER_PROMPT, retrieve_knowledge
+from backend.services.graph_service import graph_service
+from backend.services.query_mapper import map_query_to_graph_nodes
 from backend.services.ocr_service import extract_text, classify_notice, ENHANCED_NOTICE_PROMPT, NOTICE_REGISTRY
 
 # Database & Auth
 from backend.database import get_db, create_tables
-from backend.models.auth_models import User, Document, BlockchainRecord
+from backend.models.auth_models import User, Document, BlockchainRecord, CitizenProfile
 from backend.services.auth import (
     hash_password,
     verify_password,
     create_access_token,
     get_current_user,
+    get_current_user_optional
 )
 from backend.services.encryption import encrypt_document, decrypt_document
 from backend.services.blockchain_service import generate_hash, record_on_blockchain, verify_integrity
+
+from apscheduler.schedulers.background import BackgroundScheduler
+from backend.models.auth_models import PassportTracking
+from backend.services.passport_engine import is_passport_delayed, generate_delay_email_html
+from backend.services.notifier import send_delay_email, trigger_voice_call
+
+scheduler = BackgroundScheduler()
+
+def check_passport_delays():
+    """Background task to scan for delayed passports and notify users."""
+    logger.info("Running background passport delay check...")
+    try:
+        from backend.database import SessionLocal
+        db = SessionLocal()
+        # Find active tracking records not yet notified for delay
+        records = db.query(PassportTracking).filter(
+            PassportTracking.passport_received == False,
+            PassportTracking.notified_delay == False
+        ).all()
+
+        for record in records:
+            if is_passport_delayed(record):
+                user = db.query(User).filter(User.id == record.user_id).first()
+                if user:
+                    logger.warning(f"DELAY DETECTED for user {user.email} (Passport ID: {record.id})")
+                    
+                    # 1. Generate Grievance Draft (Sync for background job)
+                    draft = "Dear RPO, My passport application has exceeded the standard processing time of 30 days. Please provide an update. Regards, " + user.name
+                    
+                    # 2. Send Email
+                    email_success = send_delay_email(user.email, user.name, draft)
+                    
+                    # 3. Trigger Call
+                    call_success = False
+                    if user.phone:
+                        call_success = trigger_voice_call(user.phone, user.name)
+                    
+                    if email_success or call_success:
+                        record.notified_delay = True
+                        db.commit()
+                        logger.info(f"Notifications sent to {user.email}")
+        db.close()
+    except Exception as e:
+        logger.error(f"Error in scheduler job: {e}")
 
 UPLOAD_DIR = os.path.join(os.path.dirname(__file__), "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
@@ -62,6 +111,10 @@ app.add_middleware(
 def on_startup():
     create_tables()
     logger.info("Database tables created / verified.")
+    if not scheduler.running:
+        scheduler.add_job(check_passport_delays, 'interval', minutes=1) # Run every minute for testing, normally 24 hours
+        scheduler.start()
+        logger.info("Background Scheduler started for Passport Tracking.")
 
 # --- Request Models ---
 class QueryRequest(BaseModel):
@@ -74,8 +127,164 @@ class LoginRequest(BaseModel):
 class QuestionRequest(BaseModel):
     question: str
 
+class ProcessExplainRequest(BaseModel):
+    query: str
+
 class RefundRequest(BaseModel):
     issue: str
+
+class PassportTrackRequest(BaseModel):
+    application_date: str
+    application_type: str
+    police_verification: str
+
+# ===== PASSPORT TRACKING ENDPOINTS =====
+
+@app.post("/api/track_passport")
+async def track_passport(
+    payload: PassportTrackRequest,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    try:
+        from datetime import datetime
+        app_date = datetime.strptime(payload.application_date, "%Y-%m-%d").date()
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD.")
+
+    existing = db.query(PassportTracking).filter(PassportTracking.user_id == current_user.id).first()
+    
+    if existing:
+        existing.application_date = app_date
+        existing.application_type = payload.application_type
+        existing.police_verification = payload.police_verification
+        existing.passport_received = False
+        existing.notified_delay = False
+    else:
+        new_track = PassportTracking(
+            user_id=current_user.id,
+            application_date=app_date,
+            application_type=payload.application_type,
+            police_verification=payload.police_verification,
+            passport_received=False,
+            notified_delay=False
+        )
+        db.add(new_track)
+
+    db.commit()
+    return {"success": True, "message": "Passport tracking active."}
+
+@app.get("/api/passport_status")
+async def get_passport_status(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    record = db.query(PassportTracking).filter(PassportTracking.user_id == current_user.id).first()
+    if not record:
+        return {"tracking": False}
+        
+    delayed = is_passport_delayed(record)
+    return {
+        "tracking": True,
+        "application_date": record.application_date.isoformat(),
+        "application_type": record.application_type,
+        "police_verification": record.police_verification,
+        "delayed": delayed,
+        "notified": record.notified_delay,
+        "passport_received": record.passport_received
+    }
+
+@app.post("/api/resolve_passport")
+async def resolve_passport(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    record = db.query(PassportTracking).filter(PassportTracking.user_id == current_user.id).first()
+    if record:
+        record.passport_received = True
+        db.commit()
+        return {"success": True, "message": "Passport marked as received."}
+    raise HTTPException(status_code=404, detail="No active tracking found.")
+
+@app.get("/api/generate_passport_grievance")
+async def generate_passport_grievance(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    record = db.query(PassportTracking).filter(PassportTracking.user_id == current_user.id).first()
+    if not record:
+        raise HTTPException(status_code=400, detail="No passport tracking record found.")
+
+    prompt = f"""
+    Generate a formal grievance letter for a delayed passport application.
+    Applicant Name: {current_user.name}
+    Application Date: {record.application_date.strftime('%d %b %Y')}
+    Application Type: {record.application_type}
+    Police Status: {record.police_verification}
+
+    Rules:
+    - Keep tone extremely professional and polite.
+    - Do not claim wrongdoing by the passport office.
+    - Request a timeline or status update respectfully.
+    - Omit placeholders for addresses, start directly with "Subject: Request for Status Update...".
+    """
+    
+    try:
+        response = ollama.chat(
+            model='llama3.2:1b',
+            messages=[{'role': 'user', 'content': prompt}]
+        )
+        draft = response['message']['content']
+        return {"draft": draft}
+    except Exception as e:
+        logger.error(f"Grievance generation failed: {e}")
+        return {"draft": "Could not generate draft. Please write a formal letter requesting a status update for your application."}
+
+@app.get("/api/test_passport_alert")
+async def test_passport_alert(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """FOR HACKATHON DEMO: Immediately triggers Call + Email alert."""
+    record = db.query(PassportTracking).filter(PassportTracking.user_id == current_user.id).first()
+    if not record:
+        # Create a dummy record if none exists for demo
+        from datetime import date, timedelta
+        record = PassportTracking(
+            user_id=current_user.id,
+            application_date=date.today() - timedelta(days=40),
+            application_type="Normal",
+            police_verification="Pending",
+            passport_received=False,
+            notified_delay=False
+        )
+        db.add(record)
+        db.commit()
+
+    # 1. Generate Draft
+    prompt = f"Draft a formal grievance for {current_user.name} regarding passport delay."
+    try:
+        response = ollama.chat(model='llama3.2:1b', messages=[{'role': 'user', 'content': prompt}])
+        draft = response['message']['content']
+    except:
+        draft = "Dear RPO, I am writing to request a status update on my passport application which has been pending for over 30 days. Kindly expedite the process. Regards, " + current_user.name
+
+    # 2. Send Email
+    email_sent = send_delay_email(current_user.email, current_user.name, draft)
+    
+    # 3. Trigger Call
+    call_sent = False
+    if current_user.phone:
+        call_sent = trigger_voice_call(current_user.phone, current_user.name)
+    
+    return {
+        "success": True,
+        "email_sent": email_sent,
+        "call_sent": call_sent,
+        "message": "Demo alert initiated! Check your phone and email (ensure credentials are set in backend/services/notifier.py)"
+    }
+
+# ===== OTHER ENDPOINTS =====
 
 # ===== AUTH ENDPOINTS =====
 
@@ -423,14 +632,28 @@ async def verify_passbook(file: UploadFile = File(...), db: Session = Depends(ge
 # -----------------------------------------------------------------------------
 # Main RAG AI Logic (Used across endpoints)
 # -----------------------------------------------------------------------------
-def process_custom_rag(user_query: str, context_override: str = None):
+def build_profile_context(profile: CitizenProfile) -> str:
+    if not profile:
+        return "No user profile provided."
+    
+    return f"""
+USER PROFILE CONTEXT:
+Employment Type: {profile.employment_type or "N/A"}
+Salary Range: {profile.salary_range or "N/A"}
+Senior Citizen: {profile.senior_citizen}
+ITR Filed Last Year: {profile.itr_filed_last_year}
+Past Notices: {profile.past_notice_types or "None"}
+"""
+
+def process_custom_rag(user_query: str, context_override: str = None, profile: CitizenProfile = None):
     if context_override:
         context = context_override
     else:
         context_chunks = retrieve_knowledge(user_query)
         context = "\n---\n".join([c["text"] for c in context_chunks])
     
-    prompt = MASTER_PROMPT.format(context=context, user_query=user_query)
+    profile_context = build_profile_context(profile)
+    prompt = MASTER_PROMPT.format(context=context, profile_context=profile_context, user_query=user_query)
     response = ollama.chat(
         model="llama3",
         messages=[{"role":"user", "content": prompt}],
@@ -442,20 +665,22 @@ def process_custom_rag(user_query: str, context_override: str = None):
 # API Endpoints
 # -----------------------------------------------------------------------------
 @app.post("/ask")
-def ask(request: QuestionRequest):
-    return {"response": civic_assist(request.question)}
+def ask(request: QuestionRequest, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return {"response": civic_assist(request.question, build_profile_context(profile))}
 
 @app.post("/api/ask_tax_question")
-def ask_tax_question(request: QueryRequest):
-    # Support for the frontend's api call that is meant to use custom RAG
-    return process_custom_rag(request.question)
+def ask_tax_question(request: QueryRequest, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return process_custom_rag(request.question, profile=profile)
 
 @app.post("/ask_tax_question")
-def ask_tax_question_legacy(request: QuestionRequest):
-    return process_custom_rag(request.question)
+def ask_tax_question_legacy(request: QuestionRequest, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return process_custom_rag(request.question, profile=profile)
 
 @app.post("/api/explain_notice")
-async def explain_notice_endpoint(file: UploadFile = File(...)):
+async def explain_notice_endpoint(file: UploadFile = File(...), db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
     # Connect both pipelines. The remote ollama one is more robust.
     content = await file.read()
     content_type = file.content_type
@@ -466,10 +691,26 @@ async def explain_notice_endpoint(file: UploadFile = File(...)):
     notice_type = classify_notice(extracted_text)
     context_chunks = retrieve_knowledge(f"{notice_type} explanation actions forms guidelines")
     context = "\n---\n".join([c["text"] for c in context_chunks])
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    
+    # Store past notice history if profile exists
+    if profile:
+        past_notices = []
+        if profile.past_notice_types:
+            try:
+                past_notices = json.loads(profile.past_notice_types)
+            except:
+                pass
+        if notice_type not in past_notices:
+            past_notices.append(notice_type)
+            profile.past_notice_types = json.dumps(past_notices)
+            db.commit()
+
     prompt = ENHANCED_NOTICE_PROMPT.format(
         extracted_text=extracted_text,
         notice_type=notice_type,
         context=context,
+        profile_context=build_profile_context(profile),
         registry=json.dumps(NOTICE_REGISTRY.get(notice_type, {}))
     )
     try:
@@ -523,19 +764,271 @@ async def explain_notice_endpoint(file: UploadFile = File(...)):
         }
 
 @app.post("/explain_notice")
-async def explain_notice_remote(file: UploadFile = File(...)):
-    return await explain_notice_endpoint(file)
+async def explain_notice_remote(file: UploadFile = File(...), db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    return await explain_notice_endpoint(file, db, current_user)
 
 @app.get("/tax_guides/{guide_id}")
-def get_guide(guide_id: str):
-    return process_custom_rag(f"Step by step guide for: {guide_id}")
+def get_guide(guide_id: str, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return process_custom_rag(f"Step by step guide for: {guide_id}", profile=profile)
 
 @app.get("/tax_forms/{form_name}")
-def get_form(form_name: str):
-    return process_custom_rag(f"I need to fill {form_name}. Explain it and provide the download link if available.")
+def get_form(form_name: str, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return process_custom_rag(f"I need to fill {form_name}. Explain it and provide the download link if available.", profile=profile)
 
 @app.post("/refund_guidance")
-def refund_guidance(request: RefundRequest):
-    return process_custom_rag(f"My tax refund issue: {request.issue}")
+def refund_guidance(request: RefundRequest, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    return process_custom_rag(f"My tax refund issue: {request.issue}", profile=profile)
+
+# --------- PROFILE ENDPOINTS ---------
+
+class ProfileSaveRequest(BaseModel):
+    employment_type: str = ""
+    salary_range: str = ""
+    senior_citizen: bool = False
+    itr_filed_last_year: bool = False
+
+@app.post("/profile/save")
+def save_profile(request: ProfileSaveRequest, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first()
+    if not profile:
+        profile = CitizenProfile(user_id=current_user.id)
+        db.add(profile)
+    
+    profile.employment_type = request.employment_type
+    profile.salary_range = request.salary_range
+    profile.senior_citizen = request.senior_citizen
+    profile.itr_filed_last_year = request.itr_filed_last_year
+    db.commit()
+    return {"message": "Context saved successfully.", "success": True}
+
+@app.get("/profile/get")
+def get_profile(db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first()
+    if not profile:
+        return {}
+    
+    past_notices = []
+    if profile.past_notice_types:
+        try:
+            past_notices = json.loads(profile.past_notice_types)
+        except:
+            pass
+
+    return {
+        "employment_type": profile.employment_type,
+        "salary_range": profile.salary_range,
+        "senior_citizen": profile.senior_citizen,
+        "itr_filed_last_year": profile.itr_filed_last_year,
+        "past_notice_types": past_notices
+    }
+
+def find_official_forms(query: str, domain: Optional[str] = None):
+    """Scan local directories for forms related to the query, filtered by domain."""
+    it_dir = r"C:\Users\Goutham\OneDrive\Desktop\IT Forms"
+    pf_dir = r"C:\Users\Goutham\OneDrive\Desktop\pf forms"
+    found = []
+    
+    # Simple keyword search in filenames
+    q = query.lower()
+    
+    # Select target directory based on domain or query context
+    targets = []
+    if domain == "EPFO" or "epf" in q or "uan" in q or "pf" in q:
+        targets.append(pf_dir)
+    elif domain == "Income Tax" or "tax" in q or "itr" in q:
+        targets.append(it_dir)
+    else:
+        # Fallback to both if ambiguous
+        targets = [it_dir, pf_dir]
+
+    for directory in targets:
+        if not os.path.exists(directory): continue
+        for filename in os.listdir(directory):
+            # Key form numbers or specific keywords
+            if any(word in filename.lower() for word in q.split() if len(word) >= 2) or \
+               (re.search(r'form\s*(\d+)', q) and re.search(r'form\s*(\d+)', filename.lower())):
+                file_url = f"/api/view_form/{filename}"
+                found.append({"name": filename, "url": file_url})
+    
+    return found[:5]
+
+@app.get("/api/view_form/{filename}")
+def view_form(filename: str):
+    it_dir = r"C:\Users\Goutham\OneDrive\Desktop\IT Forms"
+    pf_dir = r"C:\Users\Goutham\OneDrive\Desktop\pf forms"
+    for d in [it_dir, pf_dir]:
+        path = os.path.join(d, filename)
+        if os.path.exists(path):
+            return StreamingResponse(open(path, "rb"), media_type="application/pdf")
+    raise HTTPException(status_code=404, detail="Form not found")
+
+@app.post("/process_explain")
+def process_explain(request: ProcessExplainRequest, db: Session = Depends(get_db), current_user: Optional[User] = Depends(get_current_user_optional)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first() if current_user else None
+    profile_context = build_profile_context(profile)
+    
+    # 0. Check if this is a specific field question (e.g., "field 3 of Form 19" or "field 1 of ITR-2")
+    field_match = re.search(r'field\s*(\d+)\s*of\s*(form|itr)\s*[\-]?\s*(\w+)', request.query.lower())
+    if field_match:
+        field_num = int(field_match.group(1))
+        form_name = field_match.group(3)
+        prefix = field_match.group(2) # "form" or "itr"
+        
+        # Scan data/forms directories for this form
+        for dept in ["epfo", "income-tax"]:
+            # Try multiple naming patterns
+            patterns = [
+                f"{prefix}{form_name}.json",
+                f"{form_name}.json",
+                f"form{form_name}.json"
+            ]
+            
+            for p in patterns:
+                guide_path = os.path.join("backend", "data", "forms", dept, p)
+                if os.path.exists(guide_path):
+                    with open(guide_path, "r") as f:
+                        guide_data = json.load(f)
+                        field = next((fl for fl in guide_data.get("fields", []) if fl["number"] == field_num), None)
+                        if field:
+                            return {
+                                "overview": f"In **{guide_data['form_name']}**, Field {field_num} is **{field['name']}**.\n\nExplanation: {field['description']}",
+                                "official_forms": [{"name": guide_data["form_name"], "url": guide_data["pdf"]}]
+                            }
+
+    # 1. Map query to graph nodes
+    matches = map_query_to_graph_nodes(request.query)
+    
+    # Unpack first match safely for domain hint
+    domain_hint: Optional[str] = None
+    node_id = None
+    if matches and isinstance(matches, list) and len(matches) > 0:
+        first_match = matches[0]
+        if isinstance(first_match, (list, tuple)) and len(first_match) >= 2:
+            domain_hint = str(first_match[0])
+            node_id = first_match[1]
+
+    # 0. Find any physical forms matching the query (use domain hint if available)
+    related_forms = find_official_forms(request.query, domain=domain_hint)
+    
+    if not matches:
+        # Fallback to standard RAG but include forms
+        rag_res = process_custom_rag(request.query, profile=profile)
+        # Ensure it's a dict and cast to common structure
+        if isinstance(rag_res, str): rag_res = {"overview": rag_res}
+        final_res = dict(rag_res) # Copy to be safe
+        final_res["official_forms"] = related_forms
+        return final_res
+    
+    # 2. Get reasoning chain/path
+    reasoning_chain = graph_service.get_reasoning_chain(domain_hint, node_id)
+    domain_nodes = graph_service.get_domain_graph(domain_hint)["nodes"]
+    
+    chain_labels = []
+    for cid in reasoning_chain:
+        node = next((n for n in domain_nodes if n["id"] == cid), None)
+        if node: chain_labels.append(node["label"])
+    
+    path_str = " → ".join(chain_labels)
+    
+    # 3. Retrieve RAG context
+    context_chunks = retrieve_knowledge(f"{request.query} {node_id} process guidelines")
+    context = "\n---\n".join([c["text"] for c in context_chunks])
+    
+    # 4. Generate structured explanation
+    prompt = ENHANCED_PROCESS_PROMPT.format(
+        process_path=path_str,
+        context=context,
+        profile_context=profile_context,
+        user_query=request.query
+    )
+    
+    try:
+        response = ollama.chat(
+            model="llama3",
+            messages=[{"role":"user", "content": prompt}],
+            options={"temperature": 0.0, "format": "json"}
+        )
+        result = clean_json_response(response["message"]["content"])
+        result["process_chain"] = chain_labels
+        result["current_step"] = next((n["label"] for n in domain_nodes if n["id"] == node_id), node_id)
+        result["official_forms"] = related_forms
+        return safety_check(result)
+    except Exception as e:
+        logger.error(f"Process Explain failure: {e}")
+        return process_custom_rag(request.query, profile=profile)
+
+@app.delete("/profile/delete")
+def delete_profile(db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    profile = db.query(CitizenProfile).filter(CitizenProfile.user_id == current_user.id).first()
+    if profile:
+        db.delete(profile)
+        db.commit()
+    return {"message": "Memory deleted successfully.", "success": True}
+
+
+# --- SMART FORM FILLING & GUIDES API ---
+
+@app.get("/api/forms/epfo")
+def get_epfo_forms():
+    """Returns a list of available EPFO forms with metadata."""
+    forms_dir = os.path.join("backend", "data", "forms", "epfo")
+    forms = []
+    if os.path.exists(forms_dir):
+        for filename in os.listdir(forms_dir):
+            if filename.endswith(".json"):
+                with open(os.path.join(forms_dir, filename), "r") as f:
+                    data = json.load(f)
+                    forms.append({
+                        "id": filename.replace(".json", ""),
+                        "name": data.get("form_name", filename),
+                        "description": data.get("description", ""),
+                        "pdf": data.get("pdf", "")
+                    })
+    return forms
+
+@app.get("/api/forms/income-tax")
+def get_it_forms():
+    """Returns a list of available Income Tax forms with metadata."""
+    forms_dir = os.path.join("backend", "data", "forms", "income-tax")
+    forms = []
+    if os.path.exists(forms_dir):
+        for filename in os.listdir(forms_dir):
+            if filename.endswith(".json"):
+                with open(os.path.join(forms_dir, filename), "r") as f:
+                    data = json.load(f)
+                    forms.append({
+                        "id": filename.replace(".json", ""),
+                        "name": data.get("form_name", filename),
+                        "description": data.get("description", ""),
+                        "pdf": data.get("pdf", "")
+                    })
+    return forms
+
+@app.get("/api/form-guide/{department}/{form_id}")
+def get_form_guide(department: str, form_id: str):
+    """Returns the detailed field explanation guide for a specific form."""
+    # Department mapping
+    dept_map = {
+        "epfo": "epfo",
+        "income-tax": "income-tax"
+    }
+    
+    dept_folder = dept_map.get(department.lower())
+    if not dept_folder:
+        raise HTTPException(status_code=404, detail="Department not found")
+        
+    file_path = os.path.join("backend", "data", "forms", dept_folder, f"{form_id}.json")
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Form guide not found")
+        
+    with open(file_path, "r") as f:
+        return json.load(f)
 
 app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

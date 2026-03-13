@@ -1,0 +1,22 @@
+{
+  "form_id": "form20",
+  "form_name": "Form 20 — PF Death Claim",
+  "description": "Claim form filed by the nominee or legal heir of a deceased EPFO member to claim the Provident Fund balance after the member's death.",
+  "pdf": "/api/view_form/Form20.pdf",
+  "fields": [
+    { "number": 1, "name": "Claimant Name (Nominee / Legal Heir)", "description": "Full name of the person claiming the PF balance of the deceased." },
+    { "number": 2, "name": "Claimant's Father's / Husband's Name", "description": "Claimant's own father's or husband's name — for identification." },
+    { "number": 3, "name": "Claimant's Address", "description": "Full permanent residential address of the claimant, along with PIN code." },
+    { "number": 4, "name": "Relationship to Deceased", "description": "How are you related to the deceased? (Wife/Husband/Son/Daughter/Mother/Father etc.)" },
+    { "number": 5, "name": "Name of Deceased Member", "description": "Full name of the EPFO member who has passed away." },
+    { "number": 6, "name": "PF Account Number / UAN of Deceased", "description": "The Universal Account Number or PF account number of the deceased." },
+    { "number": 7, "name": "Establishment Name where Deceased Worked", "description": "Name of the company/factory where the deceased was employed last." },
+    { "number": 8, "name": "Date of Death", "description": "Exact date of death of the member in DD/MM/YYYY format." },
+    { "number": 9, "name": "Cause of Death", "description": "Brief mention: Natural / Accident / Disease etc." },
+    { "number": 10, "name": "Bank Account Number of Claimant", "description": "Active bank account number of the claimant where payment should be credited." },
+    { "number": 11, "name": "IFSC Code", "description": "IFSC code of the bank branch for the claimant's account." },
+    { "number": 12, "name": "Mode of Payment", "description": "Select: ECS / NEFT / DD. ECS (online bank transfer) is preferred." },
+    { "number": 13, "name": "Claimant's Signature / Thumb Impression", "description": "Signature or left thumb impression of the claimant with date." },
+    { "number": 14, "name": "Certificate by Employer / Magistrate", "description": "Certification by the last employer confirming employment and death. If employer is unavailable, a Gazette Officer or Magistrate can certify." }
+  ]
+}

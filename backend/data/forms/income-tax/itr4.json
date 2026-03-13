@@ -1,0 +1,27 @@
+{
+ "form_name": "ITR-4 (SUGAM)",
+ "description": "For Individuals, HUFs and Firms (other than LLP) being a resident having total income upto Rs.50 lakh and having income from business and profession.",
+ "pdf": "/api/view_form/ITR-4.pdf",
+ "fields":[
+  {
+   "number":1,
+   "name":"PAN Number",
+   "description":"Enter your 10-digit PAN."
+  },
+  {
+   "number":2,
+   "name":"Business Code",
+   "description":"Select the nature of your business/profession from the dropdown list."
+  },
+  {
+   "number":3,
+   "name":"Gross Turnover",
+   "description":"Total receipts/turnover of the business during the financial year."
+  },
+  {
+   "number":4,
+   "name":"Presumptive Income",
+   "description":"Calculated as 6% (Digital) or 8% (Cash) of turnover for Section 44AD."
+  }
+ ]
+}

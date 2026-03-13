@@ -1,0 +1,20 @@
+{
+  "form_id": "itr7",
+  "form_name": "ITR-7",
+  "description": "For Persons including Companies required to furnish return under section 139(4A) or (4B) or (4C) or (4D) - mainly Charitable Trusts, Political Parties, Institutions, Colleges, and Hospitals claiming exemption.",
+  "pdf": "/api/view_form/CBDT_e-Filing_ITR-7_Validation Rules_V 1.0_AY 25-26.pdf",
+  "fields": [
+    { "number": 1, "name": "PAN & Organization Information", "description": "Mandatory PAN, Trust registration details, sub-section under which return is filed." },
+    { "number": 2, "name": "Nature of Activities (Part A-GEN)", "description": "Select the primary activity: Charitable, Religious, Educational, Medical, Relief of Poor, or Political." },
+    { "number": 3, "name": "Registration Details", "description": "Details of registration under Section 12A/12AB/10(23C) or 80G approval number and date." },
+    { "number": 4, "name": "Details of Settlor/Founders", "description": "Information about the founders, trustees, or key management persons running the Trust/Institution." },
+    { "number": 5, "name": "Balance Sheet (Part A-BS)", "description": "Trust funds, corpus donations received, secured/unsecured loans, and details of investments (Section 11(5) modes)." },
+    { "number": 6, "name": "Receipts & Payments Account", "description": "Gross receipts from voluntary contributions, fees, donations (corpus and general)." },
+    { "number": 7, "name": "Application of Income (Schedule J/I/K)", "description": "Mandatory spending details — the trust must spend 85% of its income on its objectives to claim full exemption." },
+    { "number": 8, "name": "Accumulation of Income (Form 10)", "description": "Details of the 15% income allowed to be accumulated, or any deficit allowed to be carried forward." },
+    { "number": 9, "name": "Voluntary Contributions (Schedule VC)", "description": "Breakup of foreign contributions (FCRA), local donations, anonymous donations, and corpus funds." },
+    { "number": 10, "name": "Audit Details (Part A-OA)", "description": "Required details of the auditor filing Form 10B/10BB — compulsory if gross receipts exceed the basic exemption limit." },
+    { "number": 11, "name": "Tax on Anonymous Donations (Section 115BBC)", "description": "Tax calculation at maximum marginal rate for unreceipted anonymous cash donations exceeding the allowed limit." },
+    { "number": 12, "name": "Final Tax & Verification (Part B-TTI)", "description": "Tax on any taxable income and signature of the Managing Trustee, Secretary, or President." }
+  ]
+}

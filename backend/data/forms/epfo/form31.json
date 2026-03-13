@@ -1,0 +1,23 @@
+{
+  "form_id": "form31",
+  "form_name": "Form 31 — EPF Partial Withdrawal (Advance)",
+  "description": "Used to claim a partial advance from EPF balance for specific purposes: medical emergency, marriage, education, house purchase, home loan repayment, or natural calamity.",
+  "pdf": "/api/view_form/Form-31.pdf",
+  "fields": [
+    { "number": 1, "name": "UAN Number", "description": "Your 12-digit Universal Account Number. Must be active and KYC-linked on the EPFO portal." },
+    { "number": 2, "name": "Member Name", "description": "Full name as per EPFO records or Aadhaar card — do not abbreviate." },
+    { "number": 3, "name": "Father's / Husband's Name", "description": "Father's name (if unmarried) or husband's name (if married), as per Aadhaar." },
+    { "number": 4, "name": "Date of Birth", "description": "Your date of birth in DD/MM/YYYY format — must match UAN profile." },
+    { "number": 5, "name": "Name & Address of Factory / Establishment", "description": "Full name and address of your current employer." },
+    { "number": 6, "name": "Purpose of Advance", "description": "Select the applicable purpose: 1-Medical, 2-Marriage (self/sibling/child), 3-Education, 4-Housing loan repayment, 5-House purchase/construction, 6-Natural calamity." },
+    { "number": 7, "name": "Amount Required (in Rs.)", "description": "The advance amount you need. Cannot exceed 6 times monthly wages (for housing) or specific caps per purpose." },
+    { "number": 8, "name": "Total PF Balance", "description": "Auto-filled or mentioned based on your passbook balance from the EPFO portal." },
+    { "number": 9, "name": "Number of Years of Service", "description": "Total years of continuous service — eligibility for most withdrawals requires 5-7 years." },
+    { "number": 10, "name": "Bank Account Number", "description": "Your bank account number linked with UAN on EPFO portal." },
+    { "number": 11, "name": "IFSC Code", "description": "IFSC code of the bank branch for transfer." },
+    { "number": 12, "name": "Mode of Payment", "description": "ECS (NEFT) is the standard digital transfer mode." },
+    { "number": 13, "name": "Supporting Documents (mention)", "description": "List the documents you are attaching: Doctor's certificate (medical), Marriage invitation (marriage), Admission letter (education), etc." },
+    { "number": 14, "name": "Employee Signature with Date", "description": "Your full signature and date confirming the accuracy and intent of this advance claim." },
+    { "number": 15, "name": "Employer Certification", "description": "Employer certifies the employee's service duration, salary, and purpose eligibility." }
+  ]
+}

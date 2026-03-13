@@ -1,0 +1,20 @@
+{
+  "form_id": "form5",
+  "form_name": "Form 5 — Monthly New Employee Declaration",
+  "description": "Submitted by the employer every month (by the 25th) to register new employees who joined during that month under EPF Scheme.",
+  "pdf": "/api/view_form/Form5.pdf",
+  "fields": [
+    { "number": 1, "name": "Name of Establishment", "description": "Full registered name of the employer's establishment." },
+    { "number": 2, "name": "Code Number", "description": "EPFO code number of the establishment (allotted by EPFO regional office)." },
+    { "number": 3, "name": "Wage Month", "description": "The month for which the return is being filed (e.g., March 2024)." },
+    { "number": 4, "name": "Account Number", "description": "Assigned PF account number for the new employee." },
+    { "number": 5, "name": "Employee Name", "description": "Full name of the newly joined employee." },
+    { "number": 6, "name": "Father's / Husband's Name", "description": "Father's name for unmarried employees, husband's name for married female employees." },
+    { "number": 7, "name": "Date of Birth", "description": "Employee's date of birth in DD/MM/YYYY format." },
+    { "number": 8, "name": "Sex", "description": "Male / Female / Other — required for statistical and benefit purposes." },
+    { "number": 9, "name": "Date of Joining the Fund", "description": "Date on which the employee became eligible and was enrolled in EPFO." },
+    { "number": 10, "name": "Previous PF Account Number", "description": "If the employee has a previous PF account with another employer, enter the full account number." },
+    { "number": 11, "name": "Remarks", "description": "Any additional information like whether the employee had prior service history in another PF-covered organisation." },
+    { "number": 12, "name": "Employer Signature & Seal", "description": "Signature of the authorized employer representative with official stamp." }
+  ]
+}

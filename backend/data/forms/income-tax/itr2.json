@@ -1,0 +1,19 @@
+{
+  "form_id": "itr2",
+  "form_name": "ITR-2",
+  "description": "For Individuals and HUFs not having income from profits and gains of business or profession. Suitable for those with multiple house properties, capital gains, or foreign assets/income.",
+  "pdf": "/api/view_form/itr-2-eng2025.pdf",
+  "fields": [
+    { "number": 1, "name": "PAN Number", "description": "10-digit valid Permanent Account Number. Must be linked to Aadhaar." },
+    { "number": 2, "name": "Status", "description": "Select whether filing as Individual or Hindu Undivided Family (HUF)." },
+    { "number": 3, "name": "Salary Schedule (Schedule S)", "description": "Detail gross salary, allowances, and perquisites as per Form 16." },
+    { "number": 4, "name": "Income from House Property (Schedule HP)", "description": "Details of rental income, municipal taxes, and interest on housing loans for multiple properties." },
+    { "number": 5, "name": "Capital Gains (Schedule CG)", "description": "Short-term/Long-term gains from sale of property, shares, mutual funds, or virtual digital assets (crypto)." },
+    { "number": 6, "name": "Income from Other Sources (Schedule OS)", "description": "Includes interest from saving/FDs, dividend income, and winnings from lotteries." },
+    { "number": 7, "name": "Current Year Losses & Set-off (Schedule CYLA)", "description": "Adjusting losses from one source against income from another source within the same year." },
+    { "number": 8, "name": "Deductions under chapter VI-A (Schedule VIA)", "description": "Investments like 80C (LIC, PPF), 80D (Health Insurance), etc." },
+    { "number": 9, "name": "Schedule FA (Foreign Assets)", "description": "Mandatory for resident Indians having any foreign bank accounts or assets outside India." },
+    { "number": 10, "name": "TDS / TCS / Advance Tax Paid (Schedule TI)", "description": "Verification of taxes already deducted/collected and deposited against PAN." },
+    { "number": 11, "name": "Bank Account Details", "description": "All operative bank accounts held in India at any time during the previous year for refund processing." }
+  ]
+}

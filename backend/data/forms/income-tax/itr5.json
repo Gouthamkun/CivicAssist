@@ -1,0 +1,18 @@
+{
+  "form_id": "itr5",
+  "form_name": "ITR-5",
+  "description": "For persons other than Individuals, HUF, Company and Person filing Form ITR-7. Applicable to Firms, LLPs, AOP, BOI, Artificial Juridical Persons.",
+  "pdf": "/api/view_form/itr5_english.pdf",
+  "fields": [
+    { "number": 1, "name": "PAN & General Information", "description": "Entity PAN, legal status (e.g., Firm, LLP, Trust), business nature, and address." },
+    { "number": 2, "name": "Partners/Members Detail", "description": "Names, PANs, and profit-sharing ratios of partners in a firm or members in an AOP/BOI." },
+    { "number": 3, "name": "Balance Sheet (Part A-BS)", "description": "Assets, liabilities, capital structure, and reserves as of 31st March." },
+    { "number": 4, "name": "Manufacturing/Trading/P&L Account (Part A-P&L)", "description": "Detailed income and expenditure statement, closing stock, sales, and corresponding direct/indirect expenses." },
+    { "number": 5, "name": "Computation of Business Income (Schedule BP)", "description": "Additions and deductions to arrive at taxable business profits (e.g., adjusting inadmissible expenses)." },
+    { "number": 6, "name": "Other Income (Schedules HP, CG, OS)", "description": "Income from let-out properties, capital gains on asset sales, or other sources like interest." },
+    { "number": 7, "name": "Depreciation Schedule (DPM/DOA)", "description": "Claiming depreciation based on income tax slab rates on company assets." },
+    { "number": 8, "name": "Tax Deducted/Collected at Source (Schedule TDS/TCS)", "description": "Details of TDS certificates (Form 16A/27D) received from deductors." },
+    { "number": 9, "name": "Computation of AMT (Schedule AMT)", "description": "Alternate Minimum Tax liability applicable if standard tax is lower than 18.5% of adjusted total income." },
+    { "number": 10, "name": "Verification (Part B-TTI)", "description": "Final tax liability calculation, determining tax payable or refund, and signature by the authorized partner/person." }
+  ]
+}

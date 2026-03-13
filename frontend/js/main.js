@@ -129,11 +129,13 @@ function handleSearch() {
 }
 
 // Allow Enter key to search
-searchInput.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        handleSearch();
-    }
-});
+if (searchInput) {
+    searchInput.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            handleSearch();
+        }
+    });
+}
 
 function executeQuickQuery(query) {
     searchInput.value = query;
@@ -176,7 +178,7 @@ function closeModal() {
 
 // Close modal on outside click
 window.addEventListener('click', (e) => {
-    if (e.target === modal) {
+    if (modal && e.target === modal) {
         closeModal();
     }
 });
@@ -208,7 +210,8 @@ async function simulateAIResponse(query, forceFormUrl = null, forceFormLabel = n
             method: 'POST',
             signal: controller.signal,
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
             },
             body: JSON.stringify({ question: query })
         });
@@ -708,6 +711,112 @@ async function uploadDocument(type, input) {
     }
 }
 
+// -----------------------------------------------------------------------------
+// Citizen Profile Memory Logic
+// -----------------------------------------------------------------------------
+
+function openTaxProfileModal() {
+    const modal = document.getElementById('tax-profile-modal');
+    if (modal) {
+        modal.classList.add('active');
+        // Hide existing global AI modal if open to prevent stacking
+        const globalAiModal = document.getElementById('ai-response-modal');
+        if (globalAiModal) globalAiModal.classList.remove('active');
+        loadTaxProfile();
+    }
+}
+
+function closeTaxProfileModal() {
+    const modal = document.getElementById('tax-profile-modal');
+    if (modal) modal.classList.remove('active');
+}
+
+async function loadTaxProfile() {
+    const token = localStorage.getItem('civic_token');
+    if (!token) return;
+
+    try {
+        const res = await fetch('/profile/get', {
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        if (res.ok) {
+            const data = await res.json();
+            if (data.employment_type) {
+                document.getElementById('profile_employment_type').value = data.employment_type;
+                document.getElementById('profile_salary_range').value = data.salary_range || "";
+                document.getElementById('profile_senior_citizen').checked = !!data.senior_citizen;
+                document.getElementById('profile_itr_filed').checked = !!data.itr_filed_last_year;
+
+                // Show Summary
+                const summaryDiv = document.getElementById('profile-summary-view');
+                const summaryText = document.getElementById('profile-summary-text');
+                if (summaryDiv && summaryText) {
+                    summaryDiv.style.display = 'block';
+                    summaryText.innerText = `Employment: ${data.employment_type}, Range: ${data.salary_range || 'N/A'}, Senior: ${data.senior_citizen ? 'Yes' : 'No'}`;
+                }
+            }
+        }
+    } catch(e) {
+        console.error("Failed to load profile:", e);
+    }
+}
+
+async function saveTaxProfile() {
+    const token = localStorage.getItem('civic_token');
+    if (!token) {
+        alert("Please login to save your profile context.");
+        return window.location.href = 'login.html';
+    }
+
+    const payload = {
+        employment_type: document.getElementById('profile_employment_type').value,
+        salary_range: document.getElementById('profile_salary_range').value,
+        senior_citizen: document.getElementById('profile_senior_citizen').checked,
+        itr_filed_last_year: document.getElementById('profile_itr_filed').checked
+    };
+
+    try {
+        const res = await fetch('/profile/save', {
+            method: 'POST',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
+        
+        if (res.ok) {
+            alert("Profile Context Saved! CivicAssist will now personalize its answers for you.");
+            loadTaxProfile(); // Refresh to show info
+        } else {
+            alert("Failed to save profile.");
+        }
+    } catch(e) {
+        console.error("Failed to save profile:", e);
+    }
+}
+
+async function deleteTaxProfile() {
+    const token = localStorage.getItem('civic_token');
+    if (!token) return closeTaxProfileModal();
+
+    if (!confirm("Are you sure you want to delete your contextual memory?")) return;
+
+    try {
+        await fetch('/profile/delete', {
+            method: 'DELETE',
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        document.getElementById('taxProfileForm').reset();
+        const summaryDiv = document.getElementById('profile-summary-view');
+        if (summaryDiv) summaryDiv.style.display = 'none';
+        alert("Profile memory cleared.");
+        closeTaxProfileModal();
+    } catch(e) {
+        console.error("Failed to delete profile:", e);
+    }
+}
+
 // ===== EPFO PF Withdrawal Consolidation =====
 
 function showPFOptions() {
@@ -839,5 +948,577 @@ async function verifyPassbook(input) {
         `;
     } finally {
         input.value = '';
+    }
+}
+
+function showPFProcessNavigator() {
+    const template = document.getElementById('pf-process-nav-template');
+    if (template) {
+        modalBody.innerHTML = '';
+        const clone = template.content.cloneNode(true);
+        modalBody.appendChild(clone);
+    }
+}
+
+async function submitPFProcessExplain(q) {
+    if (!q) return;
+    document.getElementById('pf_process_query').value = q;
+    const loading = document.getElementById('pf_process_loading');
+    const responseBox = document.getElementById('pf_process_response');
+    
+    loading.style.display = 'block';
+    responseBox.style.display = 'none';
+    
+    try {
+        const res = await fetch('/process_explain', {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + localStorage.getItem('civic_token')
+            },
+            body: JSON.stringify({ query: q })
+        });
+        const data = await res.json();
+        renderProcessNavigatorResponse(data, 'pf_process_response');
+    } catch (e) {
+        console.error(e);
+        responseBox.innerHTML = '<div style="color:red; padding:20px;">Error mapping process. Try a simpler keyword.</div>';
+        responseBox.style.display = 'block';
+    } finally {
+        loading.style.display = 'none';
+    }
+}
+
+function renderProcessNavigatorResponse(data, targetId) {
+    const target = document.getElementById(targetId);
+    if (!target) return;
+
+    const explanation = data.explanation || data.overview || "No detail provided.";
+    const steps = data.next_steps || data.steps || [];
+    const reqDocs = data.required_documents || [];
+    
+    let graphHtml = '';
+    if (data.process_chain && data.process_chain.length > 0) {
+        graphHtml = `
+            <div class="process-flow" style="margin-bottom: 25px; background: #f8fafc; padding: 20px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                <h5 style="margin: 0 0 15px 0; font-size: 0.75rem; text-transform: uppercase; color: #64748b;"><i class="fa-solid fa-diagram-project"></i> Structural Process Path</h5>
+                <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    ${data.process_chain.map((step, idx) => `
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div style="padding: 6px 12px; background: ${step === data.current_step ? 'var(--primary-red)' : 'white'}; color: ${step === data.current_step ? 'white' : '#1e293b'}; border-radius: 6px; border: 1px solid ${step === data.current_step ? 'var(--primary-red)' : '#cbd5e1'}; font-weight: 600; font-size: 0.85rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                                ${step}
+                            </div>
+                            ${idx < data.process_chain.length - 1 ? '<i class="fa-solid fa-chevron-right" style="color: #cbd5e1; font-size: 0.8rem;"></i>' : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    let formsHtml = '';
+    if (data.official_forms && data.official_forms.length > 0) {
+        formsHtml = `
+            <div style="margin-top: 15px; margin-bottom: 20px; padding: 12px; background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px;">
+                <h5 style="margin: 0 0 8px 0; color: #795548; font-size: 0.75rem; text-transform: uppercase;"><i class="fa-solid fa-file-pdf"></i> Verified Official Forms</h5>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    ${data.official_forms.map(f => `
+                        <a href="${f.url}" target="_blank" style="padding: 5px 12px; background: white; border: 1px solid #ffd54f; border-radius: 4px; color: #5d4037; font-size: 0.8rem; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 6px;">
+                            <i class="fa-solid fa-download"></i> ${f.name}
+                        </a>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    target.innerHTML = `
+        <div class="rag-response" style="padding:20px;">
+            ${graphHtml}
+            ${formsHtml}
+            <p style="font-size: 1rem; line-height: 1.6;">${explanation.replace(/\n/g, '<br>')}</p>
+            ${reqDocs.length > 0 ? `<h4 style="margin-top:20px;">Required Documents</h4><ul>${reqDocs.map(d => `<li>${d}</li>`).join('')}</ul>` : ''}
+            ${steps.length > 0 ? `<h4 style="margin-top:20px;">Lifecycle Steps</h4><ol>${steps.map(s => `<li>${s}</li>`).join('')}</ol>` : ''}
+        </div>
+    `;
+    target.style.display = 'block';
+}
+
+// --- SMART FORM FILLING & FILING GUIDES ---
+
+/**
+ * Loads and displays all EPFO forms list in the main AI modal.
+ * Called when user clicks "Smart Form Filling" in the EPFO panel.
+ */
+async function loadEPFOForms() {
+    // Use the global modalBody = document.getElementById('ai-response-body')
+    openModal();
+    modalBody.innerHTML = `
+        <div style="text-align:center; padding: 30px;">
+            <i class="fa-solid fa-spinner fa-spin fa-2x" style="color: var(--primary-red);"></i>
+            <p style="margin-top: 12px; color: #555;">Loading all EPFO forms...</p>
+        </div>
+    `;
+
+    try {
+        const res = await fetch('/api/forms/epfo');
+        if (!res.ok) throw new Error('API error: ' + res.status);
+        const forms = await res.json();
+
+        if (!forms || forms.length === 0) {
+            modalBody.innerHTML = '<p style="text-align:center; padding: 20px;">No forms available at the moment.</p>';
+            return;
+        }
+
+        // Sort forms by name
+        forms.sort((a, b) => a.name.localeCompare(b.name));
+
+        let html = `
+            <div style="padding: 5px 0;">
+                <h3 style="margin-bottom: 8px; color: var(--primary-red); display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> EPFO Smart Form Filling
+                </h3>
+                <p style="margin-bottom: 20px; font-size: 0.9rem; color: #64748b; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+                    Select a form to see a numbered, field-by-field filling guide. Numbers represent the order of blank fields in the actual form.
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+        `;
+
+        forms.forEach(form => {
+            const shortDesc = form.description.length > 100 ? form.description.slice(0, 97) + '...' : form.description;
+            html += `
+                <div class="form-item-card" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 15px; cursor:pointer; transition: all 0.2s;" 
+                     onmouseover="this.style.borderColor='var(--primary-red)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)';"
+                     onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
+                    <div style="flex: 1; min-width: 0;">
+                        <h4 style="margin: 0 0 4px; color: #1e293b; font-size: 1rem; font-weight: 700;">${form.name}</h4>
+                        <p style="margin: 0; font-size: 0.82rem; color: #64748b; line-height: 1.4;">${shortDesc}</p>
+                    </div>
+                    <div style="display: flex; gap: 8px; flex-shrink: 0;">
+                        <button onclick="event.stopPropagation(); window.open('${form.pdf}', '_blank')" 
+                                title="Download PDF"
+                                style="background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; padding: 7px 10px; border-radius: 6px; font-size: 0.8rem; cursor: pointer; white-space:nowrap;">
+                            <i class="fa-solid fa-download"></i> PDF
+                        </button>
+                        <button onclick="showFormFieldGuide('epfo', '${form.id}', '${form.name.replace(/'/g, "\\'")}')" 
+                                style="background: var(--primary-red); color: white; border: none; padding: 7px 14px; border-radius: 6px; font-size: 0.85rem; cursor: pointer; font-weight: 600; white-space:nowrap;">
+                            <i class="fa-solid fa-list-ol"></i> Field Guide
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `</div></div>`;
+        modalBody.innerHTML = html;
+
+    } catch (e) {
+        console.error("Error loading EPFO forms:", e);
+        modalBody.innerHTML = `
+            <div style="text-align:center; padding:40px; color: var(--primary-red);">
+                <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                <p style="margin-top: 15px;">Failed to load forms. Check server connection.</p>
+                <button class="btn-outline" onclick="loadEPFOForms()" style="margin-top: 15px;">Retry</button>
+            </div>
+        `;
+    }
+}
+
+/**
+ * Shows the numbered field-by-field guide for a specific EPFO form.
+ * Renders inline in the current modal with a "Back to Forms" button.
+ */
+async function showFormFieldGuide(dept, formId, formName) {
+    // Show loading state inside same modal
+    modalBody.innerHTML = `
+        <div style="text-align:center; padding: 40px;">
+            <i class="fa-solid fa-spinner fa-spin fa-2x" style="color: var(--primary-red);"></i>
+            <p style="margin-top: 12px; color: #555;">Loading guide for ${formName}...</p>
+        </div>
+    `;
+
+    try {
+        const res = await fetch(`/api/form-guide/${dept}/${formId}`);
+        if (!res.ok) throw new Error('Guide not found');
+        const data = await res.json();
+
+        let html = `
+            <div>
+                <!-- Back nav -->
+                <button onclick="loadEPFOForms()" class="modal-back-nav" style="display:flex; align-items:center; gap:6px; background:none; border:none; cursor:pointer; color: var(--primary-red); font-weight:600; font-size:0.9rem; margin-bottom: 16px; padding: 5px 0;">
+                    <i class="fa-solid fa-arrow-left"></i> Back to All Forms
+                </button>
+
+                <!-- Header -->
+                <div style="background: linear-gradient(135deg, var(--primary-red), #c0392b); color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 6px; font-size: 1.3rem;"><i class="fa-solid fa-file-pen"></i> ${data.form_name}</h3>
+                    <p style="margin: 0; opacity: 0.85; font-size: 0.9rem;">${data.description}</p>
+                </div>
+
+                <div style="margin-bottom: 12px; background: #fff8f1; border: 1px solid #fed7aa; border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; color: #92400e;">
+                    <i class="fa-solid fa-info-circle"></i> Each number below represents a <strong>blank field in the form</strong>, in the order they appear.
+                </div>
+
+                <!-- Fields list -->
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+        `;
+
+        data.fields.forEach(field => {
+            html += `
+                <div style="display: flex; gap: 14px; align-items: flex-start; background: #f8fafc; padding: 14px 16px; border-radius: 8px; border: 1px solid #e2e8f0;">
+                    <div style="background: var(--primary-red); color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.9rem; flex-shrink: 0;">
+                        ${field.number}
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 700; color: #1e293b; font-size: 0.95rem; margin-bottom: 3px;">${field.name}</div>
+                        <div style="font-size: 0.88rem; color: #475569; line-height: 1.5;">${field.description}</div>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 20px; padding-top: 15px; border-top: 1px solid #f1f5f9;">
+                    <button onclick="window.open('${data.pdf}', '_blank')" style="flex:1; padding: 11px; background: #1e293b; color: white; border: none; border-radius: 7px; cursor:pointer; font-weight: 600; display:flex; align-items:center; justify-content:center; gap:8px;">
+                        <i class="fa-solid fa-file-pdf"></i> Download Official Form (PDF)
+                    </button>
+                    <button onclick="loadEPFOForms()" style="padding: 11px 18px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 7px; cursor:pointer; font-weight: 600;">
+                        <i class="fa-solid fa-grid-2"></i> All Forms
+                    </button>
+                </div>
+            </div>
+        `;
+
+        modalBody.innerHTML = html;
+
+    } catch (e) {
+        console.error('Error loading form guide:', e);
+        modalBody.innerHTML = `
+            <div style="text-align:center; padding:30px; color: var(--primary-red);">
+                <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                <p style="margin-top: 15px;">No guide found for this form. Try using the PDF download.</p>
+                <button class="btn-outline" onclick="loadEPFOForms()" style="margin-top: 15px;"><i class="fa-solid fa-arrow-left"></i> Back to Forms</button>
+            </div>
+        `;
+    }
+}
+
+/**
+ * Loads and displays the list of Income Tax forms in the Filing Guide tab.
+ */
+async function loadITForms() {
+    openModal();
+    modalBody.innerHTML = `
+        <div style="text-align:center; padding: 30px;">
+            <i class="fa-solid fa-spinner fa-spin fa-2x" style="color: var(--primary-red);"></i>
+            <p style="margin-top: 12px; color: #555;">Loading all ITR forms...</p>
+        </div>
+    `;
+
+    try {
+        const res = await fetch('/api/forms/income-tax');
+        if (!res.ok) throw new Error('API error: ' + res.status);
+        const forms = await res.json();
+
+        if (!forms || forms.length === 0) {
+            modalBody.innerHTML = '<p style="text-align:center; padding: 20px;">No forms available at the moment.</p>';
+            return;
+        }
+
+        forms.sort((a, b) => a.name.localeCompare(b.name));
+
+        let html = `
+            <div style="padding: 5px 0;">
+                <h3 style="margin-bottom: 8px; color: var(--primary-red); display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-file-invoice-dollar"></i> ITR Filing Guides
+                </h3>
+                <p style="margin-bottom: 20px; font-size: 0.9rem; color: #64748b; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+                    Select a form to see a numbered, field-by-field filling guide. Numbers represent the order of blank fields in the actual form.
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+        `;
+
+        forms.forEach(form => {
+            const shortDesc = form.description.length > 100 ? form.description.slice(0, 97) + '...' : form.description;
+            html += `
+                <div class="form-item-card" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 15px; cursor:pointer; transition: all 0.2s;" 
+                     onmouseover="this.style.borderColor='var(--primary-red)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)';"
+                     onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
+                    <div style="flex: 1; min-width: 0;">
+                        <h4 style="margin: 0 0 4px; color: #1e293b; font-size: 1rem; font-weight: 700;">${form.name}</h4>
+                        <p style="margin: 0; font-size: 0.82rem; color: #64748b; line-height: 1.4;">${shortDesc}</p>
+                    </div>
+                    <div style="display: flex; gap: 8px; flex-shrink: 0;">
+                        <button onclick="event.stopPropagation(); window.open('${form.pdf}', '_blank')" 
+                                title="Download PDF"
+                                style="background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; padding: 7px 10px; border-radius: 6px; font-size: 0.8rem; cursor: pointer; white-space:nowrap;">
+                            <i class="fa-solid fa-download"></i> PDF
+                        </button>
+                        <button onclick="showITFormGuide('${form.id}', '${form.name.replace(/'/g, "\\'")}')" 
+                                style="background: var(--primary-red); color: white; border: none; padding: 7px 14px; border-radius: 6px; font-size: 0.85rem; cursor: pointer; font-weight: 600; white-space:nowrap;">
+                            <i class="fa-solid fa-list-ol"></i> Field Guide
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `</div></div>`;
+        modalBody.innerHTML = html;
+
+    } catch (e) {
+        console.error("Error loading IT forms:", e);
+        modalBody.innerHTML = `
+            <div style="text-align:center; padding:40px; color: var(--primary-red);">
+                <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                <p style="margin-top: 15px;">Failed to load forms. Check server connection.</p>
+                <button class="btn-outline" onclick="loadITForms()" style="margin-top: 15px;">Retry</button>
+            </div>
+        `;
+    }
+}
+
+/**
+ * Shows the field guide for an IT form inline in the modal.
+ */
+async function showITFormGuide(formId, formName) {
+    modalBody.innerHTML = `
+        <div style="text-align:center; padding: 40px;">
+            <i class="fa-solid fa-spinner fa-spin fa-2x" style="color: var(--primary-red);"></i>
+            <p style="margin-top: 12px; color: #555;">Loading guide for ${formName}...</p>
+        </div>
+    `;
+
+    try {
+        const res = await fetch(`/api/form-guide/income-tax/${formId}`);
+        if (!res.ok) throw new Error('Guide not found');
+        const data = await res.json();
+
+        let html = `
+            <div>
+                <!-- Back nav -->
+                <button onclick="loadITForms()" class="modal-back-nav" style="display:flex; align-items:center; gap:6px; background:none; border:none; cursor:pointer; color: var(--primary-red); font-weight:600; font-size:0.9rem; margin-bottom: 16px; padding: 5px 0;">
+                    <i class="fa-solid fa-arrow-left"></i> Back to All Forms
+                </button>
+
+                <!-- Header -->
+                <div style="background: linear-gradient(135deg, var(--primary-red), #c0392b); color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="margin: 0 0 6px; font-size: 1.3rem;"><i class="fa-solid fa-file-pen"></i> ${data.form_name}</h3>
+                    <p style="margin: 0; opacity: 0.85; font-size: 0.9rem;">${data.description}</p>
+                </div>
+
+                <div style="margin-bottom: 12px; background: #fff8f1; border: 1px solid #fed7aa; border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; color: #92400e;">
+                    <i class="fa-solid fa-info-circle"></i> Each number below represents a <strong>blank field in the form</strong>, in the order they appear.
+                </div>
+
+                <!-- Fields list -->
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+        `;
+
+        data.fields.forEach(field => {
+            html += `
+                <div style="display: flex; gap: 14px; align-items: flex-start; background: #f8fafc; padding: 14px 16px; border-radius: 8px; border: 1px solid #e2e8f0;">
+                    <div style="background: var(--primary-red); color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.9rem; flex-shrink: 0;">
+                        ${field.number}
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 700; color: #1e293b; font-size: 0.95rem; margin-bottom: 3px;">${field.name}</div>
+                        <div style="font-size: 0.88rem; color: #475569; line-height: 1.5;">${field.description}</div>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 20px; padding-top: 15px; border-top: 1px solid #f1f5f9;">
+                    <button onclick="window.open('${data.pdf}', '_blank')" style="flex:1; padding: 11px; background: #1e293b; color: white; border: none; border-radius: 7px; cursor:pointer; font-weight: 600; display:flex; align-items:center; justify-content:center; gap:8px;">
+                        <i class="fa-solid fa-file-pdf"></i> Download Official Form (PDF)
+                    </button>
+                    <button onclick="loadITForms()" style="padding: 11px 18px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 7px; cursor:pointer; font-weight: 600;">
+                        <i class="fa-solid fa-grid-2"></i> All Forms
+                    </button>
+                </div>
+            </div>
+        `;
+
+        modalBody.innerHTML = html;
+
+    } catch (e) {
+        console.error('Error loading form guide:', e);
+        modalBody.innerHTML = `
+            <div style="text-align:center; padding:30px; color: var(--primary-red);">
+                <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                <p style="margin-top: 15px;">No guide found for this form. Try using the PDF download.</p>
+                <button class="btn-outline" onclick="loadITForms()" style="margin-top: 15px;"><i class="fa-solid fa-arrow-left"></i> Back to Forms</button>
+            </div>
+        `;
+    }
+}
+
+/**
+ * Legacy viewFormGuide — kept for compatibility, routes to showFormFieldGuide/showITFormGuide.
+ */
+async function viewFormGuide(dept, formId) {
+    if (dept === 'epfo') {
+        await showFormFieldGuide(dept, formId, formId.toUpperCase());
+    } else {
+        await showITFormGuide(formId, formId.toUpperCase());
+    }
+}
+
+// ===== PASSPORT TRACKING LOGIC =====
+
+function showPassportTracking() {
+    const template = document.getElementById('passport-tracking-template');
+    if (!template) return;
+    
+    modalBody.innerHTML = '';
+    modalBody.appendChild(template.content.cloneNode(true));
+    
+    // Check if tracking is already active
+    updatePassportStatusView();
+}
+
+async function updatePassportStatusView() {
+    const token = localStorage.getItem('civic_token');
+    try {
+        const response = await fetch('/api/passport_status', {
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        const data = await response.json();
+        
+        if (data.tracking && !data.passport_received) {
+            document.getElementById('passport-track-form-container').style.display = 'none';
+            document.getElementById('passport-active-monitor').style.display = 'block';
+            
+            const appDate = new Date(data.application_date);
+            const today = new Date();
+            const diffDays = Math.floor((today - appDate) / (1000 * 60 * 60 * 24));
+            
+            document.getElementById('monitor-days').innerText = `Application age: ${diffDays} days (${data.application_type})`;
+            
+            if (data.delayed) {
+                document.getElementById('passport-status-shield').innerHTML = '<i class="fa-solid fa-triangle-exclamation" style="color: #c53030;"></i>';
+                document.getElementById('monitor-heading').innerText = 'Delay Possible';
+                document.getElementById('delay-action-box').style.display = 'block';
+            } else {
+                document.getElementById('passport-status-shield').innerHTML = '<i class="fa-solid fa-clock fa-spin" style="color: #3b82f6;"></i>';
+                document.getElementById('monitor-heading').innerText = 'Monitoring Timeline';
+                document.getElementById('delay-action-box').style.display = 'none';
+            }
+        } else {
+            showPassportTrackForm();
+        }
+    } catch (e) {
+        console.error("Failed to fetch passport status", e);
+    }
+}
+
+function showPassportTrackForm() {
+    document.getElementById('passport-track-form-container').style.display = 'block';
+    document.getElementById('passport-active-monitor').style.display = 'none';
+    document.getElementById('grievance-draft-container').style.display = 'none';
+}
+
+async function savePassportTracking() {
+    const payload = {
+        application_date: document.getElementById('pass_app_date').value,
+        application_type: document.getElementById('pass_app_type').value,
+        police_verification: document.getElementById('pass_police_status').value
+    };
+    
+    const token = localStorage.getItem('civic_token');
+    try {
+        const res = await fetch('/api/track_passport', {
+            method: 'POST',
+            headers: { 
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
+        
+        if (res.ok) {
+            updatePassportStatusView();
+        } else {
+            alert("Failed to start tracking.");
+        }
+    } catch (e) {
+        alert("Error connecting to server.");
+    }
+}
+
+async function resolvePassport() {
+    if (!confirm("Congratulations! Click OK to stop monitoring and mark your passport as received.")) return;
+    
+    const token = localStorage.getItem('civic_token');
+    try {
+        await fetch('/api/resolve_passport', {
+            method: 'POST',
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        openServiceModal('Passport');
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+async function generatePassportGrievance() {
+    const container = document.getElementById('grievance-draft-container');
+    const content = document.getElementById('passport-grievance-content');
+    
+    content.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> AI is drafting your formal grievance letter...';
+    container.style.display = 'block';
+    
+    const token = localStorage.getItem('civic_token');
+    try {
+        const response = await fetch('/api/generate_passport_grievance', {
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        const data = await response.json();
+        content.innerText = data.draft;
+    } catch (e) {
+        content.innerText = "Error generating draft. Please try again later.";
+    }
+}
+
+function copyPassportGrievance() {
+    const txt = document.getElementById('passport-grievance-content').innerText;
+    navigator.clipboard.writeText(txt).then(() => {
+        alert("Grievance draft copied to clipboard!");
+    });
+}
+
+async function testPassportAlert() {
+    const token = localStorage.getItem('civic_token');
+    if (!token) return;
+
+    if (!confirm("This will trigger a REAL phone call and email to your registered details. Proceed with the demo?")) return;
+
+    // Show loading on the button
+    const btn = event.currentTarget;
+    const originalHTML = btn.innerHTML;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Initiating Alert...';
+    btn.disabled = true;
+
+    try {
+        const response = await fetch('/api/test_passport_alert', {
+            headers: { 'Authorization': 'Bearer ' + token }
+        });
+        const data = await response.json();
+        
+        if (data.success) {
+            alert(data.message);
+        } else {
+            alert("Failed to initiate demo alert. Check server logs.");
+        }
+    } catch (e) {
+        console.error(e);
+        alert("Network error.");
+    } finally {
+        btn.innerHTML = originalHTML;
+        btn.disabled = false;
     }
 }

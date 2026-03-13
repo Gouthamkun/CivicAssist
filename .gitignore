@@ -15,3 +15,10 @@ vector_db/
 # IDEs
 .vscode/
 .idea/
+
+# Logs and DB
+*.log
+*.db
+backend/uploads/
+tmp/
+scripts/

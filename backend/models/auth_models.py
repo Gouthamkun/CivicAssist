@@ -2,8 +2,8 @@
 SQLAlchemy models for User and Document tables.
 """
 
-from datetime import datetime
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, LargeBinary, Boolean
+from datetime import datetime, date
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, LargeBinary, Boolean, Date
 from sqlalchemy.orm import relationship
 from backend.database import Base
 
@@ -51,3 +51,26 @@ class BlockchainRecord(Base):
     doc_type = Column(String, nullable=False)
     doc_hash = Column(String, nullable=False) # SHA-256 hash
     timestamp = Column(DateTime, default=datetime.utcnow)
+
+class CitizenProfile(Base):
+    __tablename__ = "citizen_profiles"
+
+    user_id = Column(Integer, primary_key=True)
+    employment_type = Column(String)  # salaried | business | freelancer | unemployed
+    salary_range = Column(String)     # 0-5L | 5-10L | 10-20L | 20L+
+    senior_citizen = Column(Boolean)
+    itr_filed_last_year = Column(Boolean)
+    past_notice_types = Column(String)  # Storing as JSON string
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+class PassportTracking(Base):
+    __tablename__ = "passport_tracking"
+
+    user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    application_date = Column(Date)
+    application_type = Column(String)  # Normal / Tatkaal
+    police_verification = Column(String, default="Pending")  # Pending / Completed
+    passport_received = Column(Boolean, default=False)
+    notified_delay = Column(Boolean, default=False)
+    created_at = Column(DateTime, default=datetime.utcnow)

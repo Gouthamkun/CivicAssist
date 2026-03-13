@@ -1,0 +1,25 @@
+{
+  "form_id": "form11",
+  "form_name": "Form 11 — New Employee Declaration",
+  "description": "Declaration form filled by the employee at the time of joining a new establishment. Used to check if the employee is an existing EPF member and to auto-transfer old PF.",
+  "pdf": "/api/view_form/Form11Revised.pdf",
+  "fields": [
+    { "number": 1, "name": "Employee Name", "description": "Your full name as it appears on your Aadhaar card or passport." },
+    { "number": 2, "name": "Father's Name / Spouse's Name", "description": "Father's name for unmarried individuals; husband's/wife's name for married persons." },
+    { "number": 3, "name": "Date of Birth", "description": "DD/MM/YYYY format. Must match your Aadhaar card." },
+    { "number": 4, "name": "Gender", "description": "Select: Male / Female / Third Gender." },
+    { "number": 5, "name": "Marital Status", "description": "Married / Unmarried — this determines which family members are eligible nominees." },
+    { "number": 6, "name": "Mobile Number", "description": "Your active mobile number registered with Aadhaar (for UAN activation OTP)." },
+    { "number": 7, "name": "Email ID", "description": "Email address for EPFO portal login and communication." },
+    { "number": 8, "name": "Aadhaar Number", "description": "Your 12-digit Aadhaar number — mandatory for UAN seeding and KYC." },
+    { "number": 9, "name": "PAN", "description": "Your PAN — required if monthly PF contribution is above ₹833 (to avoid higher TDS)." },
+    { "number": 10, "name": "Previous PF Account Number", "description": "If you were a member of EPF before, enter the old PF account number here." },
+    { "number": 11, "name": "Previous UAN", "description": "If you already have a Universal Account Number, enter it — do NOT create a new one." },
+    { "number": 12, "name": "Name of Previous Employer", "description": "Name of the company where you previously worked and had a PF account." },
+    { "number": 13, "name": "Date of Leaving Previous Employer", "description": "The date on which you left your previous job (for PF transfer calculation)." },
+    { "number": 14, "name": "Whether International Worker", "description": "Select Yes if you are a foreign national or Indian working abroad on assignment." },
+    { "number": 15, "name": "Bank Account Number", "description": "Bank account number to be linked for PF withdrawals." },
+    { "number": 16, "name": "IFSC Code", "description": "IFSC code of your bank branch." },
+    { "number": 17, "name": "Employee Signature with Date", "description": "Sign here confirming that all information is accurate and complete." }
+  ]
+}

@@ -1,2 +1,48 @@
-INFO:     127.0.0.1:62216 - "GET /income_tax.html HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:57395 - "POST /explain_notice HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60773 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60773 - "GET /css/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63172 - "GET /js/main.js?v=3 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63172 - "GET /api/user_documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59392 - "POST /api/upload_document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63247 - "GET /index.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63247 - "GET /api/user_documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58819 - "GET /api/view_document/aadhaar?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOSIsImVtYWlsIjoiZ291dGhhbUBnbWFpbC5jb20iLCJleHAiOjE3NzM0MTExMTZ9.mAuh0glpcYpw92FZp2W-XfvBpLZo_wxLKFptHWjGvK8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51926 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51926 - "GET /css/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59888 - "GET /js/main.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59888 - "GET /api/user_documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56745 - "GET /income_tax.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56745 - "GET /css/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61512 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61512 - "GET /js/main.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61512 - "GET /api/user_documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56553 - "GET /income_tax.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56553 - "GET /css/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63984 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63984 - "GET /css/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57547 - "GET /js/main.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57547 - "GET /api/user_documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:51590 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:59226 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:59226 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:51244 - "GET /api/epfo/user-info HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50368 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:62083 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53766 - "GET /js/main.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62083 - "GET /css/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57403 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:62936 - "GET /income_tax.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60568 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50060 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56052 - "GET /login.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63096 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53256 - "POST /api/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50472 - "POST /api/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:60412 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60412 - "GET /js/main.js?v=3 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60417 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:60417 - "GET /income_tax.html HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63793 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:52572 - "POST /process_explain HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:52573 - "GET /process_explain HTTP/1.1" 404 Not Found
